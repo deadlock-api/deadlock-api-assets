@@ -11423,7 +11423,7 @@
       "ESprintSpeed": 0.5,
       "EStamina": 3,
       "EStaminaRegenPerSecond": 0.2,
-      "ETechArmorDamageReduction": 10.0,
+      "ETechArmorDamageReduction": 15.0,
       "ETechDuration": 1,
       "ETechRange": 1,
       "EWeaponPower": 0,
@@ -17811,7 +17811,7 @@
     },
     "m_mapScalingStats": {},
     "m_mapStandardLevelUpUpgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.314286,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.274286,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 35.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.671429,
       "MODIFIER_VALUE_BOON_COUNT": 1,
@@ -27399,7 +27399,7 @@
       }
     },
     "m_mapStandardLevelUpUpgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.353,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.33,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 31.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.671429,
       "MODIFIER_VALUE_BOON_COUNT": 1,
