@@ -25,6 +25,19 @@ class RawAbilityActivationV2(str, Enum):
         return None
 
 
+class RawAbilityImbueV2(str, Enum):
+    CITADEL_TARGET_ABILITY_BEHAVIOR_IMBUE_ACTIVE = "imbue_active"
+    CITADEL_TARGET_ABILITY_BEHAVIOR_IMBUE_MODIFIER_VALUE = "imbue_modifier_value"
+
+    @classmethod
+    def _missing_(cls, value):
+        value = value.lower()
+        for member in cls:
+            if value in [member.value.lower(), member.name.lower()]:
+                return member
+        return None
+
+
 class RawUpgradeV2(RawItemBaseV2):
     model_config = ConfigDict(populate_by_name=True)
 
@@ -34,4 +47,5 @@ class RawUpgradeV2(RawItemBaseV2):
     item_tier: ItemTierV2 = Field(..., validation_alias="m_iItemTier")
     disabled: bool | None = Field(None, validation_alias="m_bDisabled")
     activation: RawAbilityActivationV2 = Field(None, validation_alias="m_eAbilityActivation")
+    imbue: RawAbilityImbueV2 | None = Field(None, validation_alias="m_TargetAbilityEffectsToApply")
     component_items: list[str] | None = Field(None, validation_alias="m_vecComponentItems")

@@ -79315,6 +79315,7 @@
     "css_class": "clipSize",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/clip_size.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 1,
     "properties": {
@@ -79491,6 +79492,7 @@
     "css_class": "reaperRounds",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/reaper_rounds.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 1,
     "properties": {
@@ -79685,6 +79687,7 @@
     "css_class": "ammoScavenger",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/ammo_scavenger.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 1,
     "properties": {
@@ -79897,6 +79900,7 @@
     "css_class": "clipSize",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/clip_size.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 2,
     "properties": {
@@ -80064,6 +80068,7 @@
     "css_class": "clipSize",
     "disabled": true,
     "image": null,
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -80231,6 +80236,7 @@
     "css_class": "electrifiedBullets",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/electrified_bullets.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -80452,6 +80458,7 @@
     "css_class": "galvanicStorm",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/electrified_bullets.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 4,
     "properties": {
@@ -80727,6 +80734,7 @@
     "css_class": "hollowPoint",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/hollow_point.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 1,
     "properties": {
@@ -80914,6 +80922,7 @@
     "css_class": "pristineEmblem",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/pristine_emblem.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -81117,6 +81126,7 @@
     "css_class": "stabilizer",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/stabilizer.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 1,
     "properties": {
@@ -81302,6 +81312,7 @@
     "css_class": "highVelocityMag",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/high_velocity_mag.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 1,
     "properties": {
@@ -81487,6 +81498,7 @@
     "css_class": "lifestrikeGauntlets",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/lifestrike_gauntlets.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 1,
     "properties": {
@@ -81699,6 +81711,7 @@
     "css_class": "closeRange",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/close_range.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 1,
     "properties": {
@@ -81884,6 +81897,7 @@
     "css_class": "longRange",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/long_range.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 2,
     "properties": {
@@ -82087,6 +82101,7 @@
     "css_class": "slowingBullets",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/slowing_bullets.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 2,
     "properties": {
@@ -82272,6 +82287,7 @@
     "css_class": "inhibitor",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/inhibitor.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 4,
     "properties": {
@@ -82475,6 +82491,7 @@
     "css_class": "fireRatePlus",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fire_rate_plus.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 1,
     "properties": {
@@ -82642,6 +82659,7 @@
     "css_class": "techResistShredder",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/tech_resist_shredder.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 2,
     "properties": {
@@ -82836,6 +82854,7 @@
     "css_class": "fireRatePlus",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fire_rate_plus.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 2,
     "properties": {
@@ -83003,6 +83022,7 @@
     "css_class": "adrenalineRush",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/adrenaline_rush.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -83224,6 +83244,7 @@
     "css_class": "bulletDamageAura",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/bullet_damage_aura.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -83454,6 +83475,7 @@
     "css_class": "armorBreakingBullets",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/armor_breaking_bullets.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -83639,6 +83661,7 @@
     "css_class": "detentionRounds",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/detention_rounds.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 4,
     "properties": {
@@ -83860,6 +83883,7 @@
     "css_class": "heightAdvantage",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/height_advantage.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 1,
     "properties": {
@@ -84027,6 +84051,7 @@
     "css_class": "targetedSilence",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/targeted_silence.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 3,
     "properties": {
@@ -84212,6 +84237,7 @@
     "css_class": "empBullets",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/emp_bullets.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 4,
     "properties": {
@@ -84453,6 +84479,7 @@
     "css_class": "empBullets",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/emp_bullets.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 4,
     "properties": {
@@ -84656,6 +84683,7 @@
     "css_class": "disarm",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/disarm.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 2,
     "properties": {
@@ -84841,6 +84869,7 @@
     "css_class": "berserker",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/berserker.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 2,
     "properties": {
@@ -85053,6 +85082,7 @@
     "css_class": "fervor",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fervor.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 4,
     "properties": {
@@ -85283,6 +85313,7 @@
     "css_class": "siphon_bullets",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/siphon_bullets.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 4,
     "properties": {
@@ -85531,6 +85562,7 @@
     "css_class": "headshotBooster",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/headshot_booster.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 1,
     "properties": {
@@ -85718,6 +85750,7 @@
     "css_class": "longshot",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/longshot.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -85941,6 +85974,7 @@
     "css_class": "headhunter",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/headhunter.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -86164,6 +86198,7 @@
     "css_class": "spellslingerHeadshots",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/spellslinger_headshots.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -86394,6 +86429,7 @@
     "css_class": "bansheeSlugs",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/banshee_slugs.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 4,
     "properties": {
@@ -86606,6 +86642,7 @@
     "css_class": "techImbuedBullets",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_imbued_bullets.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -86809,6 +86846,7 @@
     "css_class": "explosiveBullets",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/explosive_bullets.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 2,
     "properties": {
@@ -87021,6 +87059,7 @@
     "css_class": "critshot",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/crit_damage.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 4,
     "properties": {
@@ -87244,6 +87283,7 @@
     "css_class": "pointBlank",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/point_blank.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -87456,6 +87496,7 @@
     "css_class": "clipSize",
     "disabled": true,
     "image": null,
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 2,
     "properties": {
@@ -87623,6 +87664,7 @@
     "css_class": "clipSize",
     "disabled": true,
     "image": null,
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -87790,6 +87832,7 @@
     "css_class": "toxicBullets",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/toxic_bullets.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -88029,6 +88072,7 @@
     "css_class": "fireRatePlusPlus",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fire_rate_plus_plus.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -88196,6 +88240,7 @@
     "css_class": "autoReloader",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/auto_reloader.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -88372,6 +88417,7 @@
     "css_class": "ricochet",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/ricochet.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 4,
     "properties": {
@@ -88584,6 +88630,7 @@
     "css_class": "upgrade_health",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/health.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 1,
     "properties": {
@@ -88760,6 +88807,7 @@
     "css_class": "upgrade_health",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/health.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -88936,6 +88984,7 @@
     "css_class": "bulletArmor",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_armor.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -89112,6 +89161,7 @@
     "css_class": "techArmor",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/tech_armor.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -89279,6 +89329,7 @@
     "css_class": "healthRegen",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/health_regen.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 1,
     "properties": {
@@ -89446,6 +89497,7 @@
     "css_class": "healthSstealingBullets",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/health_stealing_bullets.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -89622,6 +89674,7 @@
     "css_class": "doubleJump",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/double_jump.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 1,
     "properties": {
@@ -89807,6 +89860,7 @@
     "css_class": "healthRegenAura",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/health_regen_aura.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 3,
     "properties": {
@@ -89992,6 +90046,7 @@
     "css_class": "techPurge",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/tech_purge.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 4,
     "properties": {
@@ -90186,6 +90241,7 @@
     "css_class": "debuffReducer",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/debuff_reducer.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -90373,6 +90429,7 @@
     "css_class": "debuffRemover",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/debuff_remover.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 3,
     "properties": {
@@ -90585,6 +90642,7 @@
     "css_class": "bulletArmor",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_armor.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -90761,6 +90819,7 @@
     "css_class": "sprintBooster",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/sprint_booster.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -90919,6 +90978,7 @@
     "css_class": "bulletArmorPlus",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_armor_plus.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 3,
     "properties": {
@@ -91086,6 +91146,7 @@
     "css_class": "overdrive",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/overdrive.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -91271,6 +91332,7 @@
     "css_class": "bulletShield",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_shield.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 4,
     "properties": {
@@ -91465,6 +91527,7 @@
     "css_class": "bulletShield",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_shield.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 4,
     "properties": {
@@ -91670,6 +91733,7 @@
     "css_class": "techPurge",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/tech_purge.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 3,
     "properties": {
@@ -91839,6 +91903,7 @@
     "css_class": "improvedBulletArmor",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/improved_bullet_armor.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 3,
     "properties": {
@@ -92015,6 +92080,7 @@
     "css_class": "metalSkin",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/metal_skin.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 3,
     "properties": {
@@ -92200,6 +92266,7 @@
     "css_class": "healingBooster",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/healing_booster.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -92405,6 +92472,7 @@
     "css_class": "revitalizer",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/revitalizer.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 3,
     "properties": {
@@ -92617,6 +92685,7 @@
     "css_class": "leech",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/leech.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 4,
     "properties": {
@@ -92820,6 +92889,7 @@
     "css_class": "weaponJammer",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/weapon_jammer.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -92996,6 +93066,7 @@
     "css_class": "sprintBooster",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/sprint_booster.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 1,
     "properties": {
@@ -93183,6 +93254,7 @@
     "css_class": "cardioCalibrator",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/cardio_calibrator.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -93388,6 +93460,7 @@
     "css_class": "superiorStamina",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/superior_stamina.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 3,
     "properties": {
@@ -93591,6 +93664,7 @@
     "css_class": "rapidRounds",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/rapid_rounds.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 1,
     "properties": {
@@ -93767,6 +93841,7 @@
     "css_class": "improvedStamina",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/improved_stamina.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 1,
     "properties": {
@@ -93961,6 +94036,7 @@
     "css_class": "bulletArmorReductionAura",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_armor_reduction_aura.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -94164,6 +94240,7 @@
     "css_class": "camouflageSuit",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/camouflage_suit.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -94403,6 +94480,7 @@
     "css_class": "regenerativeArmor",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/last_stand.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -94570,6 +94648,7 @@
     "css_class": "bulletShield",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_shield.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -94755,6 +94834,7 @@
     "css_class": "techArmorPulse",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_shield_pulse.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -94940,6 +95020,7 @@
     "css_class": "techPower",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_damage.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 1,
     "properties": {
@@ -95118,6 +95199,7 @@
     "css_class": "soaringSpirit",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/soaring_spirit.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 3,
     "properties": {
@@ -95303,6 +95385,7 @@
     "css_class": "magicOverflow",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/magic_overflow.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 4,
     "properties": {
@@ -95526,6 +95609,7 @@
     "css_class": "lastStand",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/return_fire.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -95722,6 +95806,7 @@
     "css_class": "spiritualDominion",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/spiritual_dominion.psd\"",
+    "imbue": "imbue_modifier_value",
     "item_slot_type": "spirit",
     "item_tier": 3,
     "properties": {
@@ -95925,6 +96010,7 @@
     "css_class": "techRange",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_range.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 1,
     "properties": {
@@ -96110,6 +96196,7 @@
     "css_class": "extraCharge",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/extra_charge.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 1,
     "properties": {
@@ -96304,6 +96391,7 @@
     "css_class": "healthStealingTech",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/health_stealing_tech.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -96489,6 +96577,7 @@
     "css_class": "disarm",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/disarm.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 1,
     "properties": {
@@ -96683,6 +96772,7 @@
     "css_class": "bulletResistShredder",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/bullet_resist_shredder.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 2,
     "properties": {
@@ -96868,6 +96958,7 @@
     "css_class": "magicReverb",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/magic_reverb.psd\"",
+    "imbue": "imbue_active",
     "item_slot_type": "spirit",
     "item_tier": 4,
     "properties": {
@@ -97107,6 +97198,7 @@
     "css_class": "magicBurst",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/magic_burst.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 1,
     "properties": {
@@ -97303,6 +97395,7 @@
     "css_class": "magicShock",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/magic_shock.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 3,
     "properties": {
@@ -97506,6 +97599,7 @@
     "css_class": "arcaneMedallion",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/arcane_medallion.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 3,
     "properties": {
@@ -97673,6 +97767,7 @@
     "css_class": "techVulnerability",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_vulnerability.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 2,
     "properties": {
@@ -97849,6 +97944,7 @@
     "css_class": "healbane",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/healbane.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -98045,6 +98141,7 @@
     "css_class": "slowingTech",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/slowing_tech.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 3,
     "properties": {
@@ -98250,6 +98347,7 @@
     "css_class": "escalatingExposure",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/escalating_exposure.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 4,
     "properties": {
@@ -98464,6 +98562,7 @@
     "css_class": "rapidRecharge",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/rapid_recharge.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 3,
     "properties": {
@@ -98658,6 +98757,7 @@
     "css_class": "advancedRecharge",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/advanced_recharge.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 2,
     "properties": {
@@ -98854,6 +98954,7 @@
     "css_class": "spiritualFlow",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/spiritual_flow.psd\"",
+    "imbue": "imbue_modifier_value",
     "item_slot_type": "spirit",
     "item_tier": 3,
     "properties": {
@@ -99057,6 +99158,7 @@
     "css_class": "techDurationExtender",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_duration_extender.psd\"",
+    "imbue": "imbue_modifier_value",
     "item_slot_type": "spirit",
     "item_tier": 2,
     "properties": {
@@ -99224,6 +99326,7 @@
     "css_class": "slowingTech",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/slowing_tech.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 1,
     "properties": {
@@ -99402,6 +99505,7 @@
     "css_class": "immobilize",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/immobilize.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 2,
     "properties": {
@@ -99605,6 +99709,7 @@
     "css_class": "slowingTech",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/slowing_tech.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 2,
     "properties": {
@@ -99817,6 +99922,7 @@
     "css_class": "medicBeam",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/medic_beam.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 3,
     "properties": {
@@ -100047,6 +100153,7 @@
     "css_class": "portableRejuv",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/rebirth.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 3,
     "properties": {
@@ -100223,6 +100330,7 @@
     "css_class": "portableRejuv",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/rebirth.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 4,
     "properties": {
@@ -100408,6 +100516,7 @@
     "css_class": "techRange",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_range.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 3,
     "properties": {
@@ -100602,6 +100711,7 @@
     "css_class": "techRange",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_range.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 4,
     "properties": {
@@ -100805,6 +100915,7 @@
     "css_class": "quantumChimaera",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/quantum_chimaera.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 3,
     "properties": {
@@ -100990,6 +101101,7 @@
     "css_class": "extraCharge",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/extra_charge.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 3,
     "properties": {
@@ -101157,6 +101269,7 @@
     "css_class": "chargeMastery",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/extra_charge.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 4,
     "properties": {
@@ -101351,6 +101464,7 @@
     "css_class": "rupture",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/rupture.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 2,
     "properties": {
@@ -101563,6 +101677,7 @@
     "css_class": "rupture",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/rupture.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 4,
     "properties": {
@@ -101766,6 +101881,7 @@
     "css_class": "techArmorPulse",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_shield_pulse.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 2,
     "properties": {
@@ -101942,6 +102058,7 @@
     "css_class": "knockdown",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/knockdown.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 3,
     "properties": {
@@ -102154,6 +102271,7 @@
     "css_class": "phantomStrike",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/phantom_strike.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 4,
     "properties": {
@@ -102357,6 +102475,7 @@
     "css_class": "warpStone",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/warp_stone.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -102542,6 +102661,7 @@
     "css_class": "areaImmobilize",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/area_immobilize.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 4,
     "properties": {
@@ -102745,6 +102865,7 @@
     "css_class": "abilityRefresher",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/refresher_module.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 4,
     "properties": {
@@ -102921,6 +103042,7 @@
     "css_class": "powerShard",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/echo_shard.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 4,
     "properties": {
@@ -103097,6 +103219,7 @@
     "css_class": "tormentAura",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/torment_aura.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 3,
     "properties": {
@@ -103291,6 +103414,7 @@
     "css_class": "tormentAura",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/torment_aura.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 4,
     "properties": {
@@ -103512,6 +103636,7 @@
     "css_class": "fastReload",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/fast_reload.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 2,
     "properties": {
@@ -103679,6 +103804,7 @@
     "css_class": "cloakingDevice",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/cloaking_device.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 3,
     "properties": {
@@ -103909,6 +104035,7 @@
     "css_class": "cloakingDevice",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/cloaking_device.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 4,
     "properties": {
@@ -104193,6 +104320,7 @@
     "css_class": "fireRateAura",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/fire_rate_aura.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 2,
     "properties": {
@@ -104378,6 +104506,7 @@
     "css_class": "overdrive",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/overdrive.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -104572,6 +104701,7 @@
     "css_class": "springyBoots",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/springy_boots.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 3,
     "properties": {
@@ -104766,6 +104896,7 @@
     "css_class": "rocketBooster",
     "disabled": false,
     "image": "panorama:\"file://{images}/hud/abilities/lash/lash_death_slam.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 3,
     "properties": {
@@ -105050,6 +105181,7 @@
     "css_class": "springyBoots",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/springy_boots.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 4,
     "properties": {
@@ -105282,6 +105414,7 @@
     "css_class": "healthNova",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/health_nova.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -105494,6 +105627,7 @@
     "css_class": "restorativeLocket",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/restorative_locket.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -105706,6 +105840,7 @@
     "css_class": "stimPak",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/stimpak.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 1,
     "properties": {
@@ -105900,6 +106035,7 @@
     "css_class": "infuser",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/infuser.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 1,
     "properties": {
@@ -106094,6 +106230,7 @@
     "css_class": "savior",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/savior.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -106315,6 +106452,7 @@
     "css_class": "smoke",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/smoke.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 3,
     "properties": {
@@ -106554,6 +106692,7 @@
     "css_class": "techGrenade",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/thermal_detonator.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -106820,6 +106959,7 @@
     "css_class": "fleetfootBoots",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fleetfoot_boots.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 2,
     "properties": {
@@ -107041,6 +107181,7 @@
     "css_class": "kineticSash",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/kinetic_sash.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 2,
     "properties": {
@@ -107237,6 +107378,7 @@
     "css_class": "arcaneSurge",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/arcane_surge.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 3,
     "properties": {
@@ -107476,6 +107618,7 @@
     "css_class": "weaponEater",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/advanced_weaponry.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 2,
     "properties": {
@@ -107679,6 +107822,7 @@
     "css_class": "fastReload",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/fast_reload.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -107846,6 +107990,7 @@
     "css_class": "techDefender",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/tech_defender.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 4,
     "properties": {
@@ -108022,6 +108167,7 @@
     "css_class": "unstoppable",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/unstoppable.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 4,
     "properties": {
@@ -108207,6 +108353,7 @@
     "css_class": "colossus",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/colossus.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 4,
     "properties": {
@@ -108446,6 +108593,7 @@
     "css_class": "iceBlast",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/ice_blast.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 2,
     "properties": {
@@ -108667,6 +108815,7 @@
     "css_class": "empWave",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/emp_wave.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 3,
     "properties": {
@@ -108870,6 +109019,7 @@
     "css_class": "shiftingShroud",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/shifting_shroud.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 3,
     "properties": {
@@ -109091,6 +109241,7 @@
     "css_class": "stasis",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/stasis.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 4,
     "properties": {
@@ -109375,6 +109526,7 @@
     "css_class": "stasis",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/stasis.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 2,
     "properties": {
@@ -109533,6 +109685,7 @@
     "css_class": "glitch",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/glitch.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 4,
     "properties": {
@@ -109718,6 +109871,7 @@
     "css_class": "imbuedAbility",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/tech_damage.psd\"",
+    "imbue": "imbue_modifier_value",
     "item_slot_type": "spirit",
     "item_tier": 4,
     "properties": {
@@ -109921,6 +110075,7 @@
     "css_class": "durationExtender",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/duration_extender.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 2,
     "properties": {
@@ -110117,6 +110272,7 @@
     "css_class": "superiorDuration",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/arcane_persistance.psd\"",
+    "imbue": "imbue_modifier_value",
     "item_slot_type": "spirit",
     "item_tier": 3,
     "properties": {
@@ -110322,6 +110478,7 @@
     "css_class": "glassCannon",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/glass_cannon.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 4,
     "properties": {
@@ -110570,6 +110727,7 @@
     "css_class": "surgingPower",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/vampiric_burst.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 4,
     "properties": {
@@ -110782,6 +110940,7 @@
     "css_class": "techGrenade",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/thermal_detonator.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 4,
     "properties": {
@@ -110994,6 +111153,7 @@
     "css_class": "healthSstealingBullets",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/health_stealing_bullets.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 4,
     "properties": {
@@ -111215,6 +111375,7 @@
     "css_class": "fastReload",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/fast_reload.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 2,
     "properties": {
@@ -111456,6 +111617,7 @@
     "css_class": "boxingGlove",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/boxing_glove.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 3,
     "properties": {
@@ -111686,6 +111848,7 @@
     "css_class": "acolytesGlove",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/acolytes_glove.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 1,
     "properties": {
@@ -111882,6 +112045,7 @@
     "css_class": "spiritSnatch",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/spirit_snatch.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 3,
     "properties": {
@@ -112121,6 +112285,7 @@
     "css_class": "meleeCharge",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/melee_charge.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 2,
     "properties": {
@@ -112315,6 +112480,7 @@
     "css_class": "charmedWraps",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/charmed_wraps.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 2,
     "properties": {
@@ -112491,6 +112657,7 @@
     "css_class": "autoReloader",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/auto_reloader.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 4,
     "properties": {
@@ -112703,6 +112870,7 @@
     "css_class": "bulletShield",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_shield.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 4,
     "properties": {
@@ -112906,6 +113074,7 @@
     "css_class": "baseUtility",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/base_utility.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -113174,6 +113343,7 @@
     "css_class": "megaSpirit",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/boundless_spirit.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 4,
     "properties": {
@@ -113368,6 +113538,7 @@
     "css_class": "fireRatePlusPlus",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fire_rate_plus_plus.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -113580,6 +113751,7 @@
     "css_class": "resilience",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/resilience.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 1,
     "properties": {
@@ -113756,6 +113928,7 @@
     "css_class": "endurance",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/endurance.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 1,
     "properties": {
@@ -113932,6 +114105,7 @@
     "css_class": "clarity",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/clarity.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 2,
     "properties": {
@@ -114135,6 +114309,7 @@
     "css_class": "magicStorm",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/magic_storm.psd\"",
+    "imbue": "imbue_active",
     "item_slot_type": "spirit",
     "item_tier": 3,
     "properties": {
@@ -114356,6 +114531,7 @@
     "css_class": "weaponJammer",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/weapon_jammer.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 2,
     "properties": {
@@ -114541,6 +114717,7 @@
     "css_class": "fireRatePlus",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fire_rate_plus.psd\"",
+    "imbue": "imbue_active",
     "item_slot_type": "spirit",
     "item_tier": 2,
     "properties": {
@@ -114735,6 +114912,7 @@
     "css_class": "arcaneEater",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/arcane_eater.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 2,
     "properties": {
@@ -114947,6 +115125,7 @@
     "css_class": "closeRange",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/close_range.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 2,
     "properties": {
@@ -115132,6 +115311,7 @@
     "css_class": "intensifyingClip",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/auto_reloader.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -115326,6 +115506,7 @@
     "css_class": "reinforcingCasings",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/bullet_armor_plus.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -115529,6 +115710,7 @@
     "css_class": "fireRatePlus",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/fire_rate_plus.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 2,
     "properties": {
@@ -115714,6 +115896,7 @@
     "css_class": "veilWalker",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/veil_walker.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 3,
     "properties": {
@@ -115998,6 +116181,7 @@
     "css_class": "vexBarrier",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/last_stand.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 2,
     "properties": {
@@ -116210,6 +116394,7 @@
     "css_class": "medicBullets",
     "disabled": false,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/medic_bullets.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 1,
     "properties": {
@@ -116424,6 +116609,7 @@
     "css_class": "titanicMagazine",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/titanic_magazine.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 3,
     "properties": {
@@ -116618,6 +116804,7 @@
     "css_class": "activeReload",
     "disabled": null,
     "image": "panorama:\"file://{images}/upgrades/mods_utility/deployable_bullet_shield.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 2,
     "properties": {
@@ -116821,6 +117008,7 @@
     "css_class": "magicCarpet",
     "disabled": null,
     "image": "panorama:\"file://{images}/hud/abilities/kelvin/ice_path.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 4,
     "properties": {
@@ -117060,6 +117248,7 @@
     "css_class": "debuffRemover",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/debuff_remover.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 3,
     "properties": {
@@ -117256,6 +117445,7 @@
     "css_class": "acolytesGlove",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_tech/acolytes_glove.psd\"",
+    "imbue": null,
     "item_slot_type": "spirit",
     "item_tier": 3,
     "properties": {
@@ -117450,6 +117640,7 @@
     "css_class": "glassCannon",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_weapon/glass_cannon.psd\"",
+    "imbue": null,
     "item_slot_type": "weapon",
     "item_tier": 4,
     "properties": {
@@ -117680,6 +117871,7 @@
     "css_class": "vexBarrier",
     "disabled": true,
     "image": "panorama:\"file://{images}/upgrades/mods_armor/last_stand.psd\"",
+    "imbue": null,
     "item_slot_type": "vitality",
     "item_tier": 1,
     "properties": {

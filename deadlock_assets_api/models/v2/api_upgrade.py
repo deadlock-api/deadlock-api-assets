@@ -10,6 +10,7 @@ from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
 from deadlock_assets_api.models.v2.raw_upgrade import (
     RawAbilityActivationV2,
     RawUpgradeV2,
+    RawAbilityImbueV2,
 )
 from deadlock_assets_api.models.v2.v2_utils import replace_templates
 
@@ -66,6 +67,7 @@ class UpgradeV2(ItemBaseV2):
     disabled: bool | None
     description: UpgradeDescriptionV2 | None = Field(None)
     activation: RawAbilityActivationV2
+    imbue: RawAbilityImbueV2 | None
     component_items: list[str] | None
 
     @computed_field
