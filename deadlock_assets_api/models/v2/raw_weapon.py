@@ -1,6 +1,6 @@
 from typing import Literal
 
-from pydantic import BaseModel, ConfigDict, Field, field_validator
+from pydantic import BaseModel, ConfigDict, Field, field_validator, AliasChoices
 
 from deadlock_assets_api.models.v2.raw_item_base import (
     RawItemBaseV2,
@@ -103,7 +103,9 @@ class RawWeaponInfoV2(BaseModel):
         None, validation_alias="m_flLowAmmoIndicatorThreshold"
     )
     recoil_seed: float | None = Field(None, validation_alias="m_flRecoilSeed")
-    reload_duration: float | None = Field(None, validation_alias="m_flReloadDuration")
+    reload_duration: float | None = Field(
+        None, validation_alias=AliasChoices("m_flReloadDuration", "m_reloadDuration")
+    )
     bullet_speed_curve: RawItemWeaponInfoBulletSpeedCurveV2 = Field(
         ..., validation_alias="m_BulletSpeedCurve"
     )
