@@ -93,6 +93,7 @@ def replace_templates(
                     "key_duck": "citadel_keybind_crouch",
                     "in_mantle": "citadel_keybind_mantle",
                     "key_innate_1": "citadel_keybind_roll",
+                    "in_move_down": "citadel_keybind_down",
                 }
                 replaced = localization.get(var_to_loc.get(variable, variable))
         if replaced is None:
