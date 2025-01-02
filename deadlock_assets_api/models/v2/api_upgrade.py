@@ -7,10 +7,14 @@ from deadlock_assets_api.models.v1.item import ItemSlotTypeV1
 from deadlock_assets_api.models.v2.api_item_base import ItemBaseV2
 from deadlock_assets_api.models.v2.enums import ItemTierV2
 from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
+from deadlock_assets_api.models.v2.raw_item_base import RawItemPropertyV2
 from deadlock_assets_api.models.v2.raw_upgrade import (
     RawAbilityActivationV2,
     RawUpgradeV2,
     RawAbilityImbueV2,
+    RawAbilitySectionTypeV2,
+    RawUpgradeTooltipSectionV2,
+    RawUpgradeTooltipSectionAttributeV2,
 )
 from deadlock_assets_api.models.v2.v2_utils import replace_templates
 
@@ -57,6 +61,52 @@ class UpgradeDescriptionV2(BaseModel):
         )
 
 
+class UpgradePropertyV2(RawItemPropertyV2):
+    model_config = ConfigDict(populate_by_name=True)
+
+    tooltip_section: RawAbilitySectionTypeV2 | None
+    tooltip_is_important: bool | None
+
+    @classmethod
+    def from_raw_upgrade(
+        cls,
+        name: str,
+        raw_property: RawItemPropertyV2,
+        tooltip_sections: list[RawUpgradeTooltipSectionV2] | None,
+    ) -> "UpgradePropertyV2":
+        def in_important_properties(name: str, sa: RawUpgradeTooltipSectionAttributeV2) -> bool:
+            return any(
+                name == p.get("important_property")
+                for p in sa.get("important_properties", []) or []
+            )
+
+        def has_property(name: str, sa: RawUpgradeTooltipSectionAttributeV2) -> bool:
+            return name in (sa.get("properties", []) or []) or in_important_properties(name, sa)
+
+        try:
+            tooltip_section = (
+                next(
+                    ts
+                    for ts in tooltip_sections
+                    if any(has_property(name, sa) for sa in ts["section_attributes"])
+                )
+                if tooltip_sections
+                else None
+            )
+        except StopIteration:
+            tooltip_section = None
+        return cls(
+            **raw_property.model_dump(),
+            tooltip_section=tooltip_section.get("section_type") if tooltip_section else None,
+            tooltip_is_important=any(
+                in_important_properties(name, sa)
+                for sa in tooltip_section.get("section_attributes") or []
+            )
+            if tooltip_section
+            else None,
+        )
+
+
 class UpgradeV2(ItemBaseV2):
     model_config = ConfigDict(populate_by_name=True)
 
@@ -64,6 +114,7 @@ class UpgradeV2(ItemBaseV2):
 
     item_slot_type: ItemSlotTypeV1
     item_tier: ItemTierV2
+    properties: dict[str, UpgradePropertyV2] | None
     disabled: bool | None
     description: UpgradeDescriptionV2 | None = Field(None)
     activation: RawAbilityActivationV2
@@ -113,6 +164,10 @@ class UpgradeV2(ItemBaseV2):
         raw_model["description"] = UpgradeDescriptionV2.from_raw_upgrade(
             raw_upgrade, raw_heroes, localization
         )
+        raw_model["properties"] = {
+            k: UpgradePropertyV2.from_raw_upgrade(k, v, raw_model["tooltip_sections"])
+            for k, v in raw_upgrade.properties.items()
+        }
         return cls(**raw_model)
 
     @computed_field

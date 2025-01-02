@@ -74868,6 +74868,19 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BaseAttackDamagePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -75063,6 +75076,20 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth",
+              "BonusHealthRegen"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -75267,6 +75294,39 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusClipSizePercent",
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "AmmoPerSoul"
+              },
+              {
+                "important_property": "SpiritPowerPerSoul"
+              }
+            ],
+            "properties": [
+              "AbilityDuration",
+              "MaxStacks"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1718823919,
     "weapon_info": {
@@ -75435,6 +75495,19 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusClipSize"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -75603,6 +75676,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": null,
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -75825,6 +75899,39 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusFireRate"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "DamagePerChain"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown",
+              "BonusPerChain",
+              "ProcChance",
+              "ChainRadius",
+              "ChainCount",
+              "ChainTickRate"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -76101,6 +76208,52 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "DamagePerChain"
+              }
+            ],
+            "properties": [
+              "BonusPerChain",
+              "ProcChance",
+              "ChainRadius",
+              "ChainCount",
+              "ChainTickRate"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BuffDamageMult"
+              }
+            ],
+            "properties": [
+              "BuffMoveSpeedBonus",
+              "GalvanicBuffDuration"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": null
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -76287,6 +76440,33 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [],
+            "properties": [
+              "TechShieldMaxHealth",
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BaseAttackDamagePercent"
+              }
+            ],
+            "properties": []
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -76493,6 +76673,35 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [],
+            "properties": [
+              "BonusBulletSpeedPercent",
+              "BaseAttackDamagePercent",
+              "TechPower",
+              "TechResist"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BaseAttackDamagePercentBonus"
+              }
+            ],
+            "properties": null
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1722485652,
     "weapon_info": {
@@ -76679,6 +76888,19 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusBulletSpeedPercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -76865,6 +77087,21 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusBulletSpeedPercent",
+              "BaseAttackDamagePercent",
+              "BulletShieldMaxHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1723620186,
     "weapon_info": {
@@ -77069,6 +77306,31 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusMeleeDamagePercent",
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -77255,6 +77517,34 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BulletShieldMaxHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "CloseRangeBonusWeaponPower"
+              }
+            ],
+            "properties": [
+              "CloseRangeBonusDamageRange"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -77450,6 +77740,35 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "ReloadSpeedMultipler",
+              "BulletShieldMaxHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "LongRangeBonusWeaponPower"
+              }
+            ],
+            "properties": [
+              "LongRangeBonusWeaponPowerMinRange"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1691452781,
     "weapon_info": {
@@ -77636,6 +77955,35 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BaseAttackDamagePercent",
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "SlowPercent"
+              }
+            ],
+            "properties": [
+              "SlowDuration"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -77840,6 +78188,38 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BaseAttackDamagePercent",
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "SlowPercent"
+              },
+              {
+                "important_property": "OutgoingDamagePenaltyPercent"
+              }
+            ],
+            "properties": [
+              "DebuffDuration"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1707340764,
     "weapon_info": {
@@ -78008,6 +78388,19 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusFireRate"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -78203,6 +78596,37 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BaseAttackDamagePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "ShreddersTechAmp"
+              },
+              {
+                "important_property": "AbilityLifestealPercentHero"
+              }
+            ],
+            "properties": [
+              "DebuffDuration"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -78371,6 +78795,19 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusFireRate"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -78593,6 +79030,38 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth",
+              "BonusMoveSpeed"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BaseAttackDamagePercent"
+              },
+              {
+                "important_property": "BonusFireRate"
+              }
+            ],
+            "properties": [
+              "Radius"
+            ]
+          }
+        ],
+        "section_type": null
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -78824,6 +79293,56 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BulletLifestealPercent",
+              "BonusHealth",
+              "BonusMoveSpeed"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BonusFireRatePlayerUnit"
+              }
+            ],
+            "properties": [
+              "Radius"
+            ]
+          }
+        ],
+        "section_type": null
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "ActiveBonusMoveSpeed"
+              },
+              {
+                "important_property": "BonusFireRate"
+              }
+            ],
+            "properties": [
+              "ActiveRadius",
+              "AbilityDuration",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -79010,6 +79529,32 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BaseAttackDamagePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BulletShieldDamagePercent"
+              }
+            ],
+            "properties": []
+          }
+        ],
+        "section_type": null
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -79232,6 +79777,37 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [],
+            "properties": [
+              "BonusHealth",
+              "BonusFireRate"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "TetherDuration"
+              }
+            ],
+            "properties": [
+              "BuildUpPerShot",
+              "TetherRadius",
+              "ImmunityDuration"
+            ]
+          }
+        ],
+        "section_type": null
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -79400,6 +79976,17 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": []
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -79586,6 +80173,40 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechShieldMaxHealth",
+              "BonusSprintSpeed"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "StatusEffectEMP"
+              },
+              {
+                "important_property": "Damage"
+              }
+            ],
+            "properties": [
+              "AbilityCastRange",
+              "AbilityDuration",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -79790,6 +80411,26 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "StatusEffectEMP"
+              }
+            ],
+            "properties": [
+              "EMPDuration",
+              "BuildUpPerShot",
+              "BuildUpDuration",
+              "ImmunityDuration"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -79987,6 +80628,37 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [],
+            "properties": [
+              "SlowPercent",
+              "BaseAttackDamagePercent",
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "StatusEffectEMP"
+              }
+            ],
+            "properties": [
+              "EMPDuration",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -80173,6 +80845,26 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "StatusEffectDisarmed"
+              }
+            ],
+            "properties": [
+              "AbilityDuration",
+              "BuildUpPerShot",
+              "BuildUpDuration",
+              "ImmunityDuration"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -80386,6 +81078,37 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusClipSize",
+              "BulletResist"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "WeaponPowerPerStack"
+              }
+            ],
+            "properties": [
+              "DamageToStack",
+              "MaxStacks",
+              "DamageDuration"
+            ]
+          }
+        ],
+        "section_type": null
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -80617,6 +81340,40 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusClipSize",
+              "BaseAttackDamagePercent",
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "FervorMovespeed"
+              },
+              {
+                "important_property": "FervorFireRate"
+              },
+              {
+                "important_property": "FervorBulletResist"
+              }
+            ],
+            "properties": []
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1698442920,
     "weapon_info": {
@@ -80857,6 +81614,35 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BulletResist"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "HealthSteal"
+              }
+            ],
+            "properties": [
+              "StealDuration",
+              "ProcCooldown"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1699386097,
     "weapon_info": {
@@ -81043,6 +81829,35 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusFireRate",
+              "BulletShieldMaxHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "HeadShotBonusDamage"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1706126134,
     "weapon_info": {
@@ -81258,6 +82073,37 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "ReloadSpeedMultipler",
+              "BonusAttackRangePercent",
+              "BonusZoomPercent",
+              "BulletShieldMaxHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "LongRangeBonusWeaponPower"
+              }
+            ],
+            "properties": [
+              "LongRangeBonusWeaponPowerMinRange"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1706126134,
     "weapon_info": {
@@ -81482,6 +82328,43 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BaseAttackDamagePercent",
+              "BulletShieldMaxHealth",
+              "BonusFireRate"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "HeadShotBonusDamage"
+              },
+              {
+                "important_property": "HealPercentPerHeadshot"
+              },
+              {
+                "important_property": "BonusMoveSpeed"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown",
+              "MovementSpeedBonusDuration"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1724927925,
     "weapon_info": {
@@ -81695,6 +82578,39 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BaseAttackDamagePercent",
+              "BulletLifestealPercent",
+              "AbilityLifestealPercentHero"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BulletResistReduction"
+              },
+              {
+                "important_property": "MagicResistReduction"
+              }
+            ],
+            "properties": [
+              "DebuffDuration"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1708389915,
     "weapon_info": {
@@ -81899,6 +82815,24 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "NanoTechPerShot"
+              }
+            ],
+            "properties": [
+              "ProcCooldown",
+              "BaseDamagePct"
+            ]
+          }
+        ],
+        "section_type": null
+      }
+    ],
     "type": "upgrade",
     "update_time": 1685641734,
     "weapon_info": {
@@ -82112,6 +83046,35 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BaseAttackDamagePercent",
+              "SpiritPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "ProcBonusMagicDamage"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": null
+      }
+    ],
     "type": "upgrade",
     "update_time": 1707443273,
     "weapon_info": {
@@ -82325,6 +83288,38 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusClipSizePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "CritDamagePercent"
+              },
+              {
+                "important_property": "SlowPercent"
+              }
+            ],
+            "properties": [
+              "ProcChance",
+              "SlowDuration"
+            ]
+          }
+        ],
+        "section_type": null
+      }
+    ],
     "type": "upgrade",
     "update_time": 1707443273,
     "weapon_info": {
@@ -82540,6 +83535,39 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BulletResist",
+              "Stamina"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "CloseRangeBonusWeaponPower"
+              },
+              {
+                "important_property": "SlowPercent"
+              }
+            ],
+            "properties": [
+              "SlowDuration",
+              "CloseRangeBonusDamageRange"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -82708,6 +83736,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": null,
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -82876,6 +83905,19 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusClipSizePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -83116,6 +84158,38 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "DotHealthPercent"
+              },
+              {
+                "important_property": "HealAmpReceivePenaltyPercent"
+              }
+            ],
+            "properties": [
+              "DotDuration",
+              "BuildUpPerShot"
+            ]
+          }
+        ],
+        "section_type": null
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -83284,6 +84358,19 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusFireRate"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -83461,6 +84548,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": null,
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -83674,6 +84762,37 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusClipSizePercent",
+              "BonusFireRate",
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "RicochetDamagePercent"
+              }
+            ],
+            "properties": [
+              "RicochetTargetsTooltipOnly",
+              "RicochetRadius"
+            ]
+          }
+        ],
+        "section_type": null
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -83851,6 +84970,19 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BaseAttackDamagePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -84028,6 +85160,20 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth",
+              "BonusHealthRegen"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -84205,6 +85351,19 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BaseAttackDamagePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -84373,6 +85532,19 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -84541,6 +85713,19 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealthRegen"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -84718,6 +85903,19 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -84904,6 +86102,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": null,
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -85090,6 +86289,24 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "HealAmount"
+              }
+            ],
+            "properties": [
+              "HealRadius",
+              "HealInterval"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -85285,6 +86502,36 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "HealPercentAmount"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown",
+              "RegenDuration"
+            ]
+          }
+        ],
+        "section_type": "active"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechArmor",
+              "BonusHealthRegen"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -85471,6 +86718,31 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth",
+              "BaseAttackDamagePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "StatusResistancePercent"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1720684964,
     "weapon_info": {
@@ -85677,6 +86949,44 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth",
+              "BaseAttackDamagePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "StatusResistancePercent"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "AbilityCooldown",
+              "ActiveBonusMoveSpeed",
+              "BuffDuration"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1709687280,
     "weapon_info": {
@@ -85854,6 +87164,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": null,
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -86013,6 +87324,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": null,
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -86181,6 +87493,19 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BulletArmor"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -86367,6 +87692,25 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "WeaponPowerWhileActivated"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown",
+              "AbilityDuration",
+              "HealthDrainedPerSecond"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -86562,6 +87906,48 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "TempBulletShieldHealth"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown",
+              "AbilityDuration"
+            ]
+          }
+        ],
+        "section_type": "active"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BulletShieldMaxHealth"
+              }
+            ],
+            "properties": null
+          }
+        ],
+        "section_type": "passive"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusSprintSpeed"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -86766,6 +88152,36 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "MaxBulletResist"
+              }
+            ],
+            "properties": [
+              "ArmorLossPerHit",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusSprintSpeed",
+              "BulletArmor"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -86936,6 +88352,19 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1709687280,
     "weapon_info": {
@@ -87115,6 +88544,19 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BaseAttackDamagePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1711042418,
     "weapon_info": {
@@ -87292,6 +88734,33 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth",
+              "TechPower",
+              "BonusFireRate"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "AbilityCooldown",
+              "AbilityDuration"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1711042418,
     "weapon_info": {
@@ -87496,6 +88965,29 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechResist",
+              "BonusHealthRegen"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": []
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -87711,6 +89203,44 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": null
+          }
+        ],
+        "section_type": "passive"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BaseAttackDamagePercent"
+              },
+              {
+                "important_property": "BonusMoveSpeed"
+              }
+            ],
+            "properties": []
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -87915,6 +89445,21 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth",
+              "CooldownReduction",
+              "BaseAttackDamagePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -88092,6 +89637,20 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "FireRateSlow",
+              "Radius"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -88278,6 +89837,20 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealthRegen",
+              "BaseAttackDamagePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -88484,6 +90057,34 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusSprintSpeed",
+              "BonusHealth",
+              "BonusHealthRegen"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "SlowResistancePercent"
+              }
+            ],
+            "properties": []
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1676092723,
     "weapon_info": {
@@ -88681,6 +90282,29 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusFireRate",
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": null
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -88858,6 +90482,20 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusFireRate",
+              "BonusSprintSpeed"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1721295200,
     "weapon_info": {
@@ -89053,6 +90691,22 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "Stamina",
+              "StaminaCooldownReduction",
+              "BonusFireRate",
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1711042418,
     "weapon_info": {
@@ -89257,6 +90911,37 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BulletArmorReduction"
+              },
+              {
+                "important_property": "FireRateSlow"
+              }
+            ],
+            "properties": [
+              "Radius"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1701725391,
     "weapon_info": {
@@ -89497,6 +91182,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": null,
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -89665,6 +91351,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": null,
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -89851,6 +91538,33 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": null
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "AttackDamageWhenShielded"
+              },
+              {
+                "important_property": "FireRateWhenShielded"
+              }
+            ],
+            "properties": null
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -90037,6 +91751,33 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": null
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BonusSpiritWithMagicShield"
+              },
+              {
+                "important_property": "CooldownReductionWithShield"
+              }
+            ],
+            "properties": null
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -90214,6 +91955,20 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealthRegen",
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -90402,6 +92157,21 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealthRegen",
+              "BonusSprintSpeed",
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1710352565,
     "weapon_info": {
@@ -90624,6 +92394,40 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "CooldownReduction",
+              "AbilityLifestealPercentHero",
+              "BulletShieldMaxHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BonusFireRate"
+              },
+              {
+                "important_property": "BonusSpirit"
+              }
+            ],
+            "properties": [
+              "BuildUpPerShot",
+              "AbilityDuration"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -90819,6 +92623,42 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth",
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BulletDamageReflectedPct"
+              },
+              {
+                "important_property": "SpiritDamageReflectedPct"
+              },
+              {
+                "important_property": "ReturnFireBulletResist"
+              }
+            ],
+            "properties": [
+              "AbilityDuration",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1708739024,
     "weapon_info": {
@@ -91025,6 +92865,21 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "NonImbuedTechRangeMultiplier",
+              "BulletResist",
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -91211,6 +93066,19 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BulletResist"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1710350942,
     "weapon_info": {
@@ -91406,6 +93274,20 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "CooldownReductionOnChargedAbilities",
+              "BaseAttackDamagePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -91592,6 +93474,19 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -91787,6 +93682,39 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "FireRateSlow"
+              },
+              {
+                "important_property": "SpiritSteal"
+              }
+            ],
+            "properties": [
+              "AbilityDuration",
+              "AbilityCastRange",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -91973,6 +93901,35 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth",
+              "MeleeResistPercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BulletArmorReduction"
+              }
+            ],
+            "properties": [
+              "AbilityDuration"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -92213,6 +94170,41 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "AbilityLifestealPercentHero",
+              "TechResist",
+              "TechRangeMultiplier"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "TechDamagePercent"
+              },
+              {
+                "important_property": "MovementSpeedSlow"
+              }
+            ],
+            "properties": [
+              "Radius",
+              "DelayDuration",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1710448256,
     "weapon_info": {
@@ -92408,6 +94400,35 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechShieldMaxHealth",
+              "BaseAttackDamagePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "Damage"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -92614,6 +94635,33 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechShieldMaxHealth",
+              "BaseAttackDamagePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "MaxHealthDamage"
+              }
+            ],
+            "properties": null
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1710448256,
     "weapon_info": {
@@ -92782,6 +94830,23 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "TechPower"
+              }
+            ],
+            "properties": [
+              "AbilityDuration"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1691570201,
     "weapon_info": {
@@ -92959,6 +95024,34 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechResist"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "TechArmorDamageReduction"
+              }
+            ],
+            "properties": [
+              "AbilityDuration"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -93154,6 +95247,37 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "HealAmpReceivePenaltyPercent"
+              },
+              {
+                "important_property": "HealOnKill"
+              }
+            ],
+            "properties": [
+              "AbilityDuration"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1711048464,
     "weapon_info": {
@@ -93351,6 +95475,39 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth",
+              "BonusHealthRegen",
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "MovementSpeedSlow"
+              },
+              {
+                "important_property": "FireRateSlow"
+              }
+            ],
+            "properties": [
+              "AbilityDuration"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1715798436,
     "weapon_info": {
@@ -93566,6 +95723,38 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechResist",
+              "BonusHealth",
+              "TechArmorDamageReduction"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "MagicIncreasePerStack"
+              }
+            ],
+            "properties": [
+              "MaxStacks",
+              "AbilityDuration",
+              "ProcCooldown"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -93763,6 +95952,22 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusAbilityCharges",
+              "CooldownBetweenChargeReduction",
+              "CooldownReductionOnChargedAbilities",
+              "BaseAttackDamagePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -93949,6 +96154,20 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechShieldMaxHealth",
+              "BonusHealthRegen"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1710350942,
     "weapon_info": {
@@ -94146,6 +96365,21 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "NonImbuedCooldownReduction",
+              "TechShieldMaxHealth",
+              "BonusHealthRegen"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -94314,6 +96548,26 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": []
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": []
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -94491,6 +96745,23 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "SlowPercent"
+              }
+            ],
+            "properties": [
+              "SlowDuration"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -94686,6 +96957,40 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "Damage"
+              },
+              {
+                "important_property": "SlowPercent"
+              }
+            ],
+            "properties": [
+              "AbilityDuration",
+              "AbilityCastRange",
+              "AbilityCooldown",
+              "GroundDashReductionPercent"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -94890,6 +97195,42 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BulletShieldMaxHealth",
+              "SpiritPower",
+              "BonusSprintSpeed"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "AbilityDuration"
+              },
+              {
+                "important_property": "FireRateSlow"
+              },
+              {
+                "important_property": "BulletArmorReduction"
+              }
+            ],
+            "properties": [
+              "AbilityCastRange"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -95103,6 +97444,41 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth",
+              "BonusSprintSpeed",
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "HealPercentAmount"
+              },
+              {
+                "important_property": "BonusMoveSpeed"
+              }
+            ],
+            "properties": [
+              "AbilityChannelTime",
+              "AbilityCastRange",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1711137653,
     "weapon_info": {
@@ -95280,6 +97656,19 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "RespawnDelay"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -95466,6 +97855,34 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "RespawnHealthPercent"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1721272633,
     "weapon_info": {
@@ -95661,6 +98078,31 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechRangeMultiplier"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "SlowPercent",
+              "SlowDuration"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -95865,6 +98307,32 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusDamagePerHero",
+              "SlowPercent",
+              "SlowDuration"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechRangeMultiplier"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -96051,6 +98519,19 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechCleaveRadius"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -96219,6 +98700,19 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusAbilityCharges"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -96414,6 +98908,29 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": []
+          }
+        ],
+        "section_type": "passive"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusAbilityCharges",
+              "CooldownBetweenChargeReduction"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -96609,6 +99126,39 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "HealAmpReceivePenaltyPercent"
+              },
+              {
+                "important_property": "DotHealthPercent"
+              }
+            ],
+            "properties": [
+              "AbilityCastRange",
+              "AbilityDuration",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -96813,6 +99363,37 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "MaxHealthPercentAsDPS"
+              }
+            ],
+            "properties": [
+              "AbilityDuration",
+              "AbilityCastRange",
+              "AbilityCooldown",
+              "AuraRadius"
+            ]
+          },
+          {
+            "important_properties": [
+              {
+                "important_property": "MaxHealthPercentAsHealPerSecond"
+              }
+            ],
+            "properties": [
+              "AbilityDuration",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -96990,6 +99571,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": null,
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -97203,6 +99785,37 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "Stamina",
+              "TechShieldMaxHealth",
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "StatusEffectStun"
+              }
+            ],
+            "properties": [
+              "StunDuration",
+              "AbilityCastRange"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -97407,6 +100020,42 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [],
+            "properties": [
+              "TechResist",
+              "BaseAttackDamagePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "SlowDuration"
+              },
+              {
+                "important_property": "SlowPercent"
+              },
+              {
+                "important_property": "ImpactDamage"
+              }
+            ],
+            "properties": [
+              "AbilityCastRange",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -97593,6 +100242,39 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [],
+            "properties": [
+              "BaseAttackDamagePercent",
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "AbilityCastRange"
+              },
+              {
+                "important_property": "BulletResist"
+              }
+            ],
+            "properties": [
+              "CasterBuffDuration",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1709075150,
     "weapon_info": {
@@ -97797,6 +100479,37 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "TetherDuration"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown",
+              "TetherRadius",
+              "CaptureRadius"
+            ]
+          }
+        ],
+        "section_type": "active"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechRangeMultiplier",
+              "TechRadiusMultiplier"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -97974,6 +100687,31 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechResist",
+              "BulletResist"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -98151,6 +100889,32 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusMoveSpeed",
+              "BulletResist",
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [],
+            "properties": [
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -98337,6 +101101,35 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth",
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "DamagePulseAmount"
+              }
+            ],
+            "properties": [
+              "DamagePulseRadius"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -98559,6 +101352,52 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "DeathImmunityDuration"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown",
+              "DeathImmunityPulseRateMultiplier"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "DamagePulseAmount"
+              }
+            ],
+            "properties": [
+              "PulseInterval",
+              "PulseRadius"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth",
+              "BonusHealthRegen"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -98727,6 +101566,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": null,
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -98958,6 +101798,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": null,
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -99243,6 +102084,52 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealthRegen",
+              "TechShieldMaxHealth",
+              "BonusClipSizePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "StatusEffectInvisible"
+              },
+              {
+                "important_property": "AbilityDuration"
+              }
+            ],
+            "properties": [
+              "SpottedRadius"
+            ]
+          },
+          {
+            "important_properties": [
+              {
+                "important_property": "AmbushBonusFireRate"
+              },
+              {
+                "important_property": "AmbushBonusTechPower"
+              }
+            ],
+            "properties": [
+              "AmbushDuration"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -99429,6 +102316,21 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusFireRate",
+              "BonusFireRateNPC",
+              "AuraRadius"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -99624,6 +102526,25 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BonusReloadSpeed"
+              }
+            ],
+            "properties": [
+              "HealthDamagePercent",
+              "BonusWeaponPower",
+              "OverdriveClipDuration"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -99819,6 +102740,31 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechPower",
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -100095,6 +103041,31 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechPower",
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -100326,6 +103297,31 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BulletLifestealPercent",
+              "BonusFireRate"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1689900540,
     "weapon_info": {
@@ -100541,6 +103537,38 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BaseAttackDamagePercent",
+              "BonusHealth",
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "TotalHealthRegen"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown",
+              "RegenDuration",
+              "AuraRadius"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -100745,6 +103773,48 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechResist",
+              "TechPower",
+              "BonusSprintSpeed"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": null
+          }
+        ],
+        "section_type": "passive"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "HealPerStack"
+              },
+              {
+                "important_property": "MaxStacks"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1711477520,
     "weapon_info": {
@@ -100940,6 +104010,40 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth",
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "TotalHealthRegen"
+              },
+              {
+                "important_property": "BonusSprintSpeed"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown",
+              "RegenDuration",
+              "AbilityCastRange"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -101135,6 +104239,39 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth",
+              "BonusClipSizePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BonusSpirit"
+              },
+              {
+                "important_property": "AbilityLifestealPercentHero"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown",
+              "AbilityDuration"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1718823919,
     "weapon_info": {
@@ -101366,6 +104503,44 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechRangeMultiplier",
+              "BonusHealth",
+              "BonusSprintSpeed"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "SaviorBulletShieldHealth"
+              },
+              {
+                "important_property": "SaviorMagicShieldHealth"
+              },
+              {
+                "important_property": "BonusMoveSpeed"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown",
+              "BuffDuration",
+              "AbilityCastRange"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1711502928,
     "weapon_info": {
@@ -101606,6 +104781,23 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "AbilityDuration",
+              "Radius",
+              "InvisMoveSpeedMod",
+              "SpottedRadius",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -101855,6 +105047,42 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BulletShieldMaxHealth",
+              "BaseAttackDamagePercent",
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "DPS"
+              },
+              {
+                "important_property": "BonusBaseWeaponDamageTaken"
+              }
+            ],
+            "properties": [
+              "DPSMax",
+              "Radius",
+              "AbilityDuration",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -102077,6 +105305,48 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth",
+              "SlideScale"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": []
+          }
+        ],
+        "section_type": "passive"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "ActiveBonusMoveSpeed"
+              },
+              {
+                "important_property": "BonusClipSizePercent"
+              }
+            ],
+            "properties": [
+              "AbilityDuration",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1691181007,
     "weapon_info": {
@@ -102272,6 +105542,39 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth",
+              "BonusHealthRegen"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BonusFireRate"
+              },
+              {
+                "important_property": "BonusClipSize"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown",
+              "AbilityDuration"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1715797485,
     "weapon_info": {
@@ -102476,6 +105779,21 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": null
+              }
+            ],
+            "properties": []
+          }
+        ],
+        "section_type": null
+      }
+    ],
     "type": "upgrade",
     "update_time": 1669770333,
     "weapon_info": {
@@ -102644,6 +105962,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": null,
     "type": "upgrade",
     "update_time": 1655403627,
     "weapon_info": {
@@ -102821,6 +106140,32 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "AbilityCooldown",
+              "AbilityDuration"
+            ]
+          }
+        ],
+        "section_type": "active"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechArmor",
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": 0,
     "weapon_info": {
@@ -103007,6 +106352,36 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth",
+              "BulletResist",
+              "SpiritPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "AbilityDuration"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1711137653,
     "weapon_info": {
@@ -103247,6 +106622,43 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusMeleeDamagePercent",
+              "BaseAttackDamagePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BulletResist"
+              },
+              {
+                "important_property": "TechResist"
+              },
+              {
+                "important_property": "SlowPercent"
+              }
+            ],
+            "properties": [
+              "Radius",
+              "AbilityDuration",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1718823919,
     "weapon_info": {
@@ -103469,6 +106881,39 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechResist"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "Damage"
+              },
+              {
+                "important_property": "SlowPercent"
+              }
+            ],
+            "properties": [
+              "EndRadius",
+              "AbilityDuration",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1674081149,
     "weapon_info": {
@@ -103673,6 +107118,39 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechShieldMaxHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "StatusEffectEMP"
+              },
+              {
+                "important_property": "TechResist"
+              }
+            ],
+            "properties": [
+              "Radius",
+              "DebuffDuration",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1675385762,
     "weapon_info": {
@@ -103886,6 +107364,37 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "AbilityDuration"
+              }
+            ],
+            "properties": [
+              "TechResist",
+              "BonusMoveSpeed",
+              "AbilityCooldown",
+              "BuffDuration"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1715793373,
     "weapon_info": {
@@ -104171,6 +107680,54 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "StatusEffectEMP"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown",
+              "StasisRadius"
+            ]
+          },
+          {
+            "important_properties": [
+              {
+                "important_property": "StatusEffectStun"
+              }
+            ],
+            "properties": [
+              "StunDuration",
+              "ExplodeDamage",
+              "StasisRadius"
+            ]
+          }
+        ],
+        "section_type": "active"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "StatusEffectEMP"
+              }
+            ],
+            "properties": [
+              "EMPDuration",
+              "BuildUpPerShot",
+              "BuildUpDuration",
+              "ImmunityDuration"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 0,
     "weapon_info": {
@@ -104330,6 +107887,21 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "AbilityCooldown",
+              "AbilityDuration",
+              "AbilityCastRange"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1681755021,
     "weapon_info": {
@@ -104516,6 +108088,37 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BaseAttackDamagePercent",
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "StatusEffectEMP"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown",
+              "AbilityDuration",
+              "AbilityCastRange"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -104720,6 +108323,40 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": []
+          }
+        ],
+        "section_type": "passive"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "SlowPercent",
+              "SlowDuration"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusAbilityDurationPercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": 0,
     "weapon_info": {
@@ -104915,6 +108552,21 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BaseAttackDamagePercent",
+              "BonusHealth",
+              "BonusHealthRegen"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1710350942,
     "weapon_info": {
@@ -105121,6 +108773,22 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "NonImbuedBonusDuration",
+              "BonusHealth",
+              "BaseAttackDamagePercent",
+              "BonusHealthRegen"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": 0,
     "weapon_info": {
@@ -105352,6 +109020,35 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BaseAttackDamagePercent",
+              "BonusFireRate",
+              "BonusMoveSpeed",
+              "MaxHealthLossPercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "WeaponPowerPerKill"
+              }
+            ],
+            "properties": []
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -105565,6 +109262,41 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusMoveSpeed",
+              "BaseAttackDamagePercent",
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "ActiveBonusLifesteal"
+              },
+              {
+                "important_property": "ActiveBonusFireRate"
+              }
+            ],
+            "properties": [
+              "ActiveReloadPercent",
+              "AbilityCooldown",
+              "AbilityDuration"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1707446850,
     "weapon_info": {
@@ -105778,6 +109510,28 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "DPS"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown",
+              "AbilityDuration",
+              "DPSIncrease",
+              "DPSMax",
+              "Radius",
+              "TechResist"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1684449184,
     "weapon_info": {
@@ -106000,6 +109754,31 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BulletLifestealPercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BulletArmorReduction",
+              "Radius"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -106240,6 +110019,34 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BaseBonusWeaponPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BurstFireShotsFromClipPercent"
+              }
+            ],
+            "properties": [
+              "PerfectBurstWeaponPower"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -106473,6 +110280,37 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusMeleeDamagePercent",
+              "BulletResist",
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "SlowPercent"
+              }
+            ],
+            "properties": [
+              "SlowDuration",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1700097890,
     "weapon_info": {
@@ -106668,6 +110506,39 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusMeleeDamagePercent",
+              "TechShieldMaxHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "SpiritDamage"
+              },
+              {
+                "important_property": "TechArmorDamageReduction"
+              }
+            ],
+            "properties": [
+              "AbilityDuration",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -106872,6 +110743,37 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BaseAttackDamagePercent",
+              "BonusHealth",
+              "BonusHealthRegen",
+              "MeleeDistanceScale"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BonusHeavyMeleeDamage"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1718823919,
     "weapon_info": {
@@ -107049,6 +110951,20 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "CooldownReductionFlat",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1695767364,
     "weapon_info": {
@@ -107262,6 +111178,25 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BonusClipSizePercent"
+              }
+            ],
+            "properties": [
+              "SpinUpTime",
+              "InitialFireRateDecrease",
+              "MaxFireRateIncrease"
+            ]
+          }
+        ],
+        "section_type": null
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -107466,6 +111401,42 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "AbilityLifestealPercentHero",
+              "CooldownReduction"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BulletShieldOnCast"
+              },
+              {
+                "important_property": "TechShieldOnCast"
+              },
+              {
+                "important_property": "TechPower"
+              }
+            ],
+            "properties": [
+              "BuffDuration",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1715810508,
     "weapon_info": {
@@ -107733,6 +111704,36 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "StationaryWeaponPower",
+              "StationaryRecoilReduction"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "TurretLifetime"
+              }
+            ],
+            "properties": [
+              "TurretAttackRange",
+              "CasterHealthPercent"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1686942843,
     "weapon_info": {
@@ -107930,6 +111931,22 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth",
+              "BonusHealthRegen",
+              "BaseAttackDamagePercent",
+              "BonusSprintSpeed"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1710352565,
     "weapon_info": {
@@ -108143,6 +112160,41 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusFireRate",
+              "SlideScale",
+              "SlowResistancePercent",
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "ActivatedFireRate"
+              },
+              {
+                "important_property": "BonusMoveSpeed"
+              }
+            ],
+            "properties": [
+              "AbilityDuration",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": null
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -108320,6 +112372,21 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "AbilityLifestealPercentHero",
+              "BonusHealth",
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -108497,6 +112564,19 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusClipSizePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1701500098,
     "weapon_info": {
@@ -108701,6 +112781,26 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BonusSpirit"
+              },
+              {
+                "important_property": "BonusMovespeed"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1698949447,
     "weapon_info": {
@@ -108923,6 +113023,41 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "ImbuedTechPower"
+              },
+              {
+                "important_property": "FireRateBonus"
+              },
+              {
+                "important_property": "BonusMoveSpeed"
+              }
+            ],
+            "properties": [
+              "MovementSpeedBonusDuration",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1700366513,
     "weapon_info": {
@@ -109109,6 +113244,37 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth",
+              "BonusHealthRegen",
+              "TechPower"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "FireRateSlow"
+              },
+              {
+                "important_property": "AbilityDuration"
+              }
+            ],
+            "properties": null
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1700366513,
     "weapon_info": {
@@ -109304,6 +113470,26 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "Damage"
+              },
+              {
+                "important_property": "FireRateBonus"
+              }
+            ],
+            "properties": [
+              "ProcCooldown"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1700366513,
     "weapon_info": {
@@ -109517,6 +113703,35 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusFireRate"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "SpiritStolePerHit"
+              }
+            ],
+            "properties": [
+              "StealDuration",
+              "ProcCooldown"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1700366513,
     "weapon_info": {
@@ -109703,6 +113918,35 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusFireRate"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BaseAttackDamagePercent"
+              },
+              {
+                "important_property": "LifeThreshold"
+              }
+            ],
+            "properties": null
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1701725391,
     "weapon_info": {
@@ -109898,6 +114142,36 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusClipSizePercent",
+              "BaseAttackDamagePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BaseAttackDamagePercentAtMaxDuration"
+              },
+              {
+                "important_property": "ShootDurationForMax"
+              }
+            ],
+            "properties": null
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1708714325,
     "weapon_info": {
@@ -110102,6 +114376,36 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusFireRate",
+              "BaseAttackDamagePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "MaxArmorStacks"
+              }
+            ],
+            "properties": [
+              "BulletResistPerStack",
+              "BulletResistDuration"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1708714325,
     "weapon_info": {
@@ -110288,6 +114592,21 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusFireRate",
+              "BonusClipSizePercent",
+              "LocalBulletArmorReduction"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1701725391,
     "weapon_info": {
@@ -110573,6 +114892,39 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusClipSizePercent",
+              "BaseAttackDamagePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "StatusEffectInvisible"
+              },
+              {
+                "important_property": "BonusMoveSpeed"
+              }
+            ],
+            "properties": [
+              "InvisDuration",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1718840457,
     "weapon_info": {
@@ -110786,6 +115138,40 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusClipSizePercent",
+              "BonusHealth",
+              "BonusHealthRegen"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "VexBarrierBulletMaxHealth"
+              },
+              {
+                "important_property": "VexBarrierTechMaxHealth"
+              }
+            ],
+            "properties": [
+              "VexBarrierShieldDuration",
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1712007365,
     "weapon_info": {
@@ -110999,6 +115385,38 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BulletResist",
+              "BaseAttackDamagePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "HealFromHero"
+              },
+              {
+                "important_property": "HealFromNPC"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": null
+      }
+    ],
     "type": "upgrade",
     "update_time": 1707443273,
     "weapon_info": {
@@ -111196,6 +115614,22 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusClipSizePercent",
+              "BaseAttackDamagePercent",
+              "MeleeResistPercent",
+              "TechResist"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1701725391,
     "weapon_info": {
@@ -111391,6 +115825,39 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BaseAttackDamagePercent",
+              "BonusClipSizePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "BonusFireRate"
+              },
+              {
+                "important_property": "BulletLifestealPercent"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown",
+              "AbilityDuration"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1718840457,
     "weapon_info": {
@@ -111613,6 +116080,42 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusAbilityDurationPercent",
+              "TechPower",
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "FlyingBulletShield"
+              },
+              {
+                "important_property": "FlyingTechShield"
+              }
+            ],
+            "properties": [
+              "AbilityDuration",
+              "FlyMoveSpeed",
+              "SummonDuration",
+              "ShieldDuration"
+            ]
+          }
+        ],
+        "section_type": "active"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1723600790,
     "weapon_info": {
@@ -111808,6 +116311,34 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "TechResist"
+              }
+            ],
+            "properties": [
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1726683821,
     "weapon_info": {
@@ -112005,6 +116536,39 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "TechShieldMaxHealth",
+              "BonusHealthRegen",
+              "BonusMeleeDamagePercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "StoredSpiritDamage"
+              },
+              {
+                "important_property": null
+              }
+            ],
+            "properties": [
+              "AbilityCooldown"
+            ]
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1726683821,
     "weapon_info": {
@@ -112236,6 +116800,35 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BaseAttackDamagePercent",
+              "BonusFireRate",
+              "BonusMoveSpeed",
+              "MaxHealthLossPercent"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "WeaponPowerPerKill"
+              }
+            ],
+            "properties": []
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": null,
     "weapon_info": {
@@ -112431,6 +117024,33 @@
       }
     },
     "start_trained": true,
+    "tooltip_sections": [
+      {
+        "section_attributes": [
+          {
+            "important_properties": null,
+            "properties": [
+              "BonusHealth",
+              "BonusHealthRegen"
+            ]
+          }
+        ],
+        "section_type": "innate"
+      },
+      {
+        "section_attributes": [
+          {
+            "important_properties": [
+              {
+                "important_property": "HealOnLevelHealAmount"
+              }
+            ],
+            "properties": []
+          }
+        ],
+        "section_type": "passive"
+      }
+    ],
     "type": "upgrade",
     "update_time": 1726683821,
     "weapon_info": {

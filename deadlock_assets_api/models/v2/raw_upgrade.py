@@ -1,7 +1,7 @@
 from enum import Enum
 from typing import Literal
 
-from pydantic import ConfigDict, Field
+from pydantic import ConfigDict, Field, BaseModel
 
 from deadlock_assets_api.models.v1.item import ItemSlotTypeV1
 from deadlock_assets_api.models.v2.enums import ItemTierV2
@@ -38,6 +38,46 @@ class RawAbilityImbueV2(str, Enum):
         return None
 
 
+class RawUpgradeTooltipSectionAttributeImportantPropertyV2(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    important_property: str | None = Field(None, validation_alias="m_strImportantProperty")
+
+
+class RawUpgradeTooltipSectionAttributeV2(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    properties: list[str] | None = Field(None, validation_alias="m_vecAbilityProperties")
+    important_properties: list[RawUpgradeTooltipSectionAttributeImportantPropertyV2] | None = Field(
+        None, validation_alias="m_vecImportantAbilityProperties"
+    )
+
+
+class RawAbilitySectionTypeV2(str, Enum):
+    EArea_Innate = "innate"
+    EArea_Active = "active"
+    EArea_Passive = "passive"
+
+    @classmethod
+    def _missing_(cls, value):
+        value = value.lower()
+        for member in cls:
+            if value in [member.value.lower(), member.name.lower()]:
+                return member
+        return None
+
+
+class RawUpgradeTooltipSectionV2(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    section_type: RawAbilitySectionTypeV2 | None = Field(
+        None, validation_alias="m_eAbilitySectionType"
+    )
+    section_attributes: list[RawUpgradeTooltipSectionAttributeV2] = Field(
+        ..., validation_alias="m_vecSectionAttributes"
+    )
+
+
 class RawUpgradeV2(RawItemBaseV2):
     model_config = ConfigDict(populate_by_name=True)
 
@@ -49,3 +89,6 @@ class RawUpgradeV2(RawItemBaseV2):
     activation: RawAbilityActivationV2 = Field(None, validation_alias="m_eAbilityActivation")
     imbue: RawAbilityImbueV2 | None = Field(None, validation_alias="m_TargetAbilityEffectsToApply")
     component_items: list[str] | None = Field(None, validation_alias="m_vecComponentItems")
+    tooltip_sections: list[RawUpgradeTooltipSectionV2] | None = Field(
+        None, validation_alias="m_vecTooltipSectionInfo"
+    )
