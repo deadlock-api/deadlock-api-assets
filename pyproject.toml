@@ -32,5 +32,16 @@ dev = [
 [tool.ruff]
 line-length = 100
 
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
 [tool.setuptools]
-py-modules = ["deadlock_assets_api"]
+packages = [
+    "deadlock_assets_api",
+    "deadlock_assets_api.routes",
+    "deadlock_assets_api.models",
+    "deadlock_assets_api.models.v1",
+    "deadlock_assets_api.models.v2",
+    "deadlock_assets_api.parsers",
+]
