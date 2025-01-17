@@ -15,7 +15,7 @@ repos:
   - id: pretty-format-json
     args: [--autofix]
 - repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: v0.9.1
+  rev: v0.9.2
   hooks:
   - id: ruff-format
   # Hooks for validation
@@ -30,7 +30,7 @@ repos:
   - id: check-ast
   - id: debug-statements
 - repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: v0.9.1
+  rev: v0.9.2
   hooks:
   - id: ruff
 - repo: local

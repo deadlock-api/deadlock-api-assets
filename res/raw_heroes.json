@@ -4,6 +4,26 @@
     "_base": "hero_base",
     "_class": "CitadelHeroData_t",
     "m_HeroID": 14,
+    "m_RecommendedUpgrades": [
+      "upgrade_endurance",
+      "upgrade_headshot_booster",
+      "upgrade_hollow_point_rounds",
+      "upgrade_improved_spirit",
+      "upgrade_extra_charge",
+      "upgrade_headhunter",
+      "upgrade_long_range",
+      "upgrade_slowing_bullets",
+      "upgrade_magic_shield",
+      "upgrade_regenerating_bullet_shield",
+      "upgrade_quick_silver",
+      "upgrade_sharpshooter",
+      "upgrade_rapid_recharge",
+      "upgrade_chonky",
+      "upgrade_soaring_spirit",
+      "upgrade_critshot",
+      "upgrade_mega_spirit",
+      "upgrade_silencer"
+    ],
     "m_ShopStatDisplay": {
       "m_eSpiritStatsDisplay": {
         "m_vecDisplayStats": [
@@ -38,6 +58,7 @@
       },
       "m_eWeaponStatsDisplay": {
         "m_eWeaponAttributes": "EWeaponAttribute_MediumRange | EWeaponAttribute_HeavyHitter",
+        "m_strWeaponImage": "panorama:\"file://{images}/heroes/guns/astro_gun.psd\"",
         "m_vecDisplayStats": [
           "EBulletDamage",
           "EBaseWeaponDamageIncrease",
@@ -59,10 +80,9 @@
       }
     },
     "m_bAssignedPlayersOnly": false,
-    "m_bAvailableInHeroLabs": true,
-    "m_bBotSelectable": false,
+    "m_bBotSelectable": true,
     "m_bDisabled": false,
-    "m_bInDevelopment": true,
+    "m_bInDevelopment": false,
     "m_bLimitedTesting": false,
     "m_bNeedsTesting": false,
     "m_bPlayerSelectable": true,
@@ -204,6 +224,7 @@
         }
       ]
     },
+    "m_iAddedTime": 1737133200,
     "m_mapBoundAbilities": {
       "ESlot_Ability_ClimbRope": "citadel_ability_climb_rope",
       "ESlot_Ability_Innate_1": "citadel_ability_dash",
@@ -565,7 +586,7 @@
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
-      "EMaxHealth": 625,
+      "EMaxHealth": 550.0,
       "EMaxMoveSpeed": 8.3,
       "EMoveAcceleration": 4,
       "EProcBuildUpRateScale": 1,
@@ -1255,7 +1276,6 @@
     "m_strModelName": "resource_name:\"models/heroes_staging/atlas_detective_v2/atlas_detective.vmdl\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Atlas.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Atlas.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "hat",
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/bull.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/bull_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/bull_vertical.psd\"",
@@ -2529,7 +2549,6 @@
     "m_strMovementLoop": "soundevent:\"\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Bebop.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Bebop.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "hat",
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/bebop.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/bebop_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/bebop_vertical.psd\"",
@@ -4395,7 +4414,6 @@
     "m_strModelName": "resource_name:\"models/heroes_staging/chrono/chrono.vmdl\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Chrono.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Chrono.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "hat",
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/chrono.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/chrono_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/chrono_vertical.psd\"",
@@ -5037,7 +5055,6 @@
     "m_strModelName": "resource_name:\"models/heroes_staging/prof_dynamo/prof_dynamo.vmdl\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Dynamo.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Dynamo.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "hat",
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/sumo.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/sumo_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/sumo_vertical.psd\"",
@@ -5692,7 +5709,6 @@
     "m_strModelName": "resource_name:\"models/heroes_staging/engineer/engineer.vmdl\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Forge.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Forge.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "hat",
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/engineer.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/engineer_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/engineer_vertical.psd\"",
@@ -6953,7 +6969,6 @@
     "m_strModelName": "resource_name:\"models/heroes_staging/ghost/ghost.vmdl\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Ghost.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Ghost.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "xmas",
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/spectre.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/spectre_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/spectre_vertical.psd\"",
@@ -7605,7 +7620,6 @@
     "m_strModelName": "resource_name:\"models/heroes_staging/gigawatt_prisoner/gigawatt_prisoner.vmdl\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Gigawatt.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Gigawatt.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "hat",
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/gigawatt.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/gigwatt_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/gigawatt_vertical.psd\"",
@@ -8873,7 +8887,6 @@
     "m_strModelName": "resource_name:\"models/heroes_staging/haze/haze.vmdl\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Haze.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Haze.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "hat",
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/haze.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/haze_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/haze_vertical.psd\"",
@@ -9530,7 +9543,6 @@
     "m_strModelName": "resource_name:\"models/heroes_staging/hornet_v3/hornet.vmdl\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Hornet.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Hornet.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "xmas",
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/hornet.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/hornet_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/hornet_vertical.psd\"",
@@ -10177,7 +10189,6 @@
     "m_strModelName": "resource_name:\"models/heroes_staging/inferno_v4/inferno.vmdl\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Inferno.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Inferno.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "hat",
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/inferno.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/inferno_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/inferno_vertical.psd\"",
@@ -11443,7 +11454,6 @@
     "m_strModelName": "resource_name:\"models/heroes_staging/kelvin_v2/kelvin.vmdl\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Kelvin.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Kelvin.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "hat",
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/kelvin.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/kelvin_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/kelvin_vertical.psd\"",
@@ -12088,7 +12098,6 @@
     "m_strModelName": "resource_name:\"models/heroes_staging/digger/digger.vmdl\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Krill.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Krill.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "hat",
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/digger.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/digger_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/digger_vertical.psd\"",
@@ -12731,7 +12740,6 @@
     "m_strModelName": "resource_name:\"models/heroes_staging/lash_v2/lash.vmdl\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Lash.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Lash.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "hat",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/lash_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/lash_vertical.psd\"",
     "m_strUIPortraitMap": "maps/ui/hero_prefabs/lash.vmap",
@@ -12845,10 +12853,9 @@
       }
     },
     "m_bAssignedPlayersOnly": false,
-    "m_bAvailableInHeroLabs": true,
     "m_bBotSelectable": true,
     "m_bDisabled": false,
-    "m_bInDevelopment": true,
+    "m_bInDevelopment": false,
     "m_bLimitedTesting": false,
     "m_bNeedsTesting": false,
     "m_bPlayerSelectable": true,
@@ -12989,6 +12996,7 @@
         }
       ]
     },
+    "m_iAddedTime": 1737133200,
     "m_mapBoundAbilities": {
       "ESlot_Ability_ClimbRope": "citadel_ability_climb_rope",
       "ESlot_Ability_Innate_1": "citadel_ability_dash",
@@ -13002,7 +13010,7 @@
       "ESlot_Signature_1": "ability_magician_magicbolt",
       "ESlot_Signature_2": "ability_magician_cloneturret",
       "ESlot_Signature_3": "ability_magician_animalcurse",
-      "ESlot_Signature_4": "ability_magician_bigbolt",
+      "ESlot_Signature_4": "ability_magician_copyult",
       "ESlot_Weapon_Melee": "ability_melee_magician",
       "ESlot_Weapon_Primary": "citadel_weapon_magician_set"
     },
@@ -13368,7 +13376,8 @@
       "EWeaponPower": 0,
       "EWeaponPowerScale": 1
     },
-    "m_nComplexity": 1,
+    "m_mapWIPAbilities": {},
+    "m_nComplexity": 4,
     "m_nModelSkin": 0,
     "m_nReadability": 4,
     "m_strDeathSound": "soundevent:\"Gigawatt.Death\"",
@@ -14027,7 +14036,6 @@
     "m_strModelName": "resource_name:\"models/heroes_staging/mirage_v2/mirage.vmdl\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Mirage.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Mirage.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "hat",
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/mirage.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/mirage_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/mirage_vertical.psd\"",
@@ -14069,22 +14077,24 @@
     "_class": "CitadelHeroData_t",
     "m_HeroID": 16,
     "m_RecommendedUpgrades": [
-      "upgrade_lifestrike_gauntlets",
-      "upgrade_acolytes_glove",
-      "upgrade_rapid_recharge",
       "upgrade_close_range",
+      "upgrade_medic_bullets",
+      "upgrade_magic_reach",
+      "upgrade_lifestrike_gauntlets",
+      "upgrade_sprint_booster",
+      "upgrade_acolytes_glove",
       "upgrade_slowing_bullets",
       "upgrade_kinetic_sash",
       "upgrade_cardio_calibrator",
       "upgrade_vampire",
       "upgrade_regenerating_bullet_shield",
       "upgrade_magic_shield",
-      "upgrade_boxing_glove",
       "upgrade_close_quarter_combat",
       "upgrade_toxic_bullets",
       "upgrade_magic_burst",
       "upgrade_tech_damage_pulse",
       "upgrade_belt_fed_magazine",
+      "upgrade_spirit_snatch",
       "upgrade_superior_stamina",
       "upgrade_damage_recycler",
       "upgrade_tech_range",
@@ -14123,6 +14133,8 @@
         ]
       },
       "m_eWeaponStatsDisplay": {
+        "m_eWeaponAttributes": "EWeaponAttribute_Spreadshot | EWeaponAttribute_CloseRange",
+        "m_strWeaponImage": "panorama:\"file://{images}/heroes/guns/nano_gun.psd\"",
         "m_vecDisplayStats": [
           "EBulletDamage",
           "EBaseWeaponDamageIncrease",
@@ -14144,10 +14156,9 @@
       }
     },
     "m_bAssignedPlayersOnly": false,
-    "m_bAvailableInHeroLabs": true,
     "m_bBotSelectable": true,
     "m_bDisabled": false,
-    "m_bInDevelopment": true,
+    "m_bInDevelopment": false,
     "m_bLimitedTesting": false,
     "m_bNeedsTesting": false,
     "m_bPlayerSelectable": true,
@@ -14288,6 +14299,7 @@
         }
       ]
     },
+    "m_iAddedTime": 1737133200,
     "m_mapBoundAbilities": {
       "ESlot_Ability_ClimbRope": "citadel_ability_climb_rope",
       "ESlot_Ability_Innate_1": "citadel_ability_dash",
@@ -14298,13 +14310,12 @@
       "ESlot_Ability_Slide": "citadel_ability_slide",
       "ESlot_Ability_ZipLine": "citadel_ability_zip_line",
       "ESlot_Ability_ZipLineBoost": "citadel_ability_zipline_boost",
-      "ESlot_Signature_1": "ability_perched_predator",
-      "ESlot_Signature_2": "ability_nano_pounce",
-      "ESlot_Signature_3": "ability_nano_proximity_ritual",
-      "ESlot_Signature_4": "ability_nano_shadow_step",
+      "ESlot_Signature_1": "ability_nano_clustergrenade",
+      "ESlot_Signature_2": "ability_nano_dash",
+      "ESlot_Signature_3": "ability_nano_catform",
+      "ESlot_Signature_4": "ability_nano_shadow_pulse",
       "ESlot_Weapon_Melee": "ability_melee_nano",
-      "ESlot_Weapon_Primary": "citadel_weapon_nano_set",
-      "ESlot_Weapon_Secondary": "citadel_weapon_nano_alt"
+      "ESlot_Weapon_Primary": "citadel_weapon_nano_set"
     },
     "m_mapItemSlotInfo": {
       "EItemSlotType_Armor": {
@@ -14663,7 +14674,7 @@
       "EWeaponPower": 0,
       "EWeaponPowerScale": 1
     },
-    "m_nComplexity": 1,
+    "m_nComplexity": 2,
     "m_nModelSkin": 0,
     "m_nReadability": 4,
     "m_strDeathSound": "soundevent:\"Nano.Death\"",
@@ -14765,6 +14776,7 @@
         ]
       },
       "m_eWeaponStatsDisplay": {
+        "m_eWeaponAttributes": "EWeaponAttribute_RapidFire | EWeaponAttribute_MediumRange",
         "m_vecDisplayStats": [
           "EBulletDamage",
           "EBaseWeaponDamageIncrease",
@@ -14791,7 +14803,7 @@
     "m_bDisabled": false,
     "m_bInDevelopment": true,
     "m_bLimitedTesting": false,
-    "m_bNeedsTesting": true,
+    "m_bNeedsTesting": false,
     "m_bPlayerSelectable": true,
     "m_colorGlowEnemy": [
       255,
@@ -15972,7 +15984,6 @@
     "m_strModelName": "resource_name:\"models/heroes_staging/archer/archer.vmdl\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Orion.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Orion.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "hat",
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/archer.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/archer_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/archer_vertical.psd\"",
@@ -17854,7 +17865,6 @@
     "m_strModelName": "resource_name:\"models/heroes_staging/shiv/shiv.vmdl\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Shiv.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Shiv.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "hat",
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/shiv.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/shiv_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/shiv_vertical.psd\"",
@@ -17945,6 +17955,7 @@
         ]
       },
       "m_eWeaponStatsDisplay": {
+        "m_eWeaponAttributes": "EWeaponAttribute_Spreadshot | EWeaponAttribute_CloseRange",
         "m_vecDisplayStats": [
           "EBulletDamage",
           "EBaseWeaponDamageIncrease",
@@ -19140,7 +19151,6 @@
     "m_strModelName": "resource_name:\"models/heroes_staging/synth/synth.vmdl\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Synth.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Synth.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "hat",
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/synth.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/synth_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/synth_vertical.psd\"",
@@ -20400,7 +20410,6 @@
     "m_strModelName": "resource_name:\"models/heroes_staging/tengu/tengu_v2/tengu.vmdl\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Tengu.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Tengu.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "hat",
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/tengu.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/tengu_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/tengu_vertical.psd\"",
@@ -23010,7 +23019,7 @@
       },
       "m_eWeaponStatsDisplay": {
         "m_eWeaponAttributes": "EWeaponAttribute_RapidFire | EWeaponAttribute_CloseRange",
-        "m_strWeaponImage": "panorama:\"file://{images}/heroes/guns/ivy_gun.psd\"",
+        "m_strWeaponImage": "panorama:\"file://{images}/heroes/guns/viper_gun.psd\"",
         "m_vecDisplayStats": [
           "EBulletDamage",
           "EBaseWeaponDamageIncrease",
@@ -23032,10 +23041,9 @@
       }
     },
     "m_bAssignedPlayersOnly": false,
-    "m_bAvailableInHeroLabs": true,
-    "m_bBotSelectable": false,
+    "m_bBotSelectable": true,
     "m_bDisabled": false,
-    "m_bInDevelopment": true,
+    "m_bInDevelopment": false,
     "m_bLimitedTesting": false,
     "m_bNeedsTesting": false,
     "m_bPlayerSelectable": true,
@@ -23177,6 +23185,7 @@
         }
       ]
     },
+    "m_iAddedTime": 1737133200,
     "m_mapBoundAbilities": {
       "ESlot_Ability_ClimbRope": "citadel_ability_climb_rope",
       "ESlot_Ability_Innate_1": "citadel_ability_dash",
@@ -23526,7 +23535,7 @@
       }
     },
     "m_mapStandardLevelUpUpgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.392857,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.36,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 30.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.671429,
       "MODIFIER_VALUE_BOON_COUNT": 1,
@@ -24217,7 +24226,6 @@
     "m_strModelName": "resource_name:\"models/heroes_staging/viscous/viscous.vmdl\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Viscous.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Viscous.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "hat",
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/viscous.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/viscous_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/viscous_vertical.psd\"",
@@ -24871,7 +24879,6 @@
     "m_strModelName": "resource_name:\"models/heroes_staging/warden/warden.vmdl\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Warden.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Warden.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "hat",
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/warden.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/warden_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/warden_vertical.psd\"",
@@ -25522,7 +25529,6 @@
     "m_strModelName": "resource_name:\"models/heroes_staging/wraith_gen_man/wraith_gen_man.vmdl\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Wraith.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Wraith.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "hat",
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/wraith.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/wraith_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/wraith_vertical.psd\"",
@@ -27442,7 +27448,6 @@
     "m_strModelName": "resource_name:\"models/heroes_staging/yamato_v2/yamato.vmdl\"",
     "m_strRosterRemovedSound": "soundevent:\"Generated.Yamato.Hero.Remove\"",
     "m_strRosterSelectedSound": "soundevent:\"Generated.Yamato.Hero.Pick\"",
-    "m_strSeasonalBodygroup": "hat",
     "m_strSelectionImage": "panorama:\"file://{images}/heroes/yamato.psd\"",
     "m_strTopBarImage": "panorama:\"file://{images}/hud/hero_portraits/yamato_hud.psd\"",
     "m_strTopBarVertical": "panorama:\"file://{images}/heroes/yamato_vertical.psd\"",
