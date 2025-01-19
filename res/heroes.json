@@ -4933,7 +4933,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/astro_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
-    "playstyle": "Astro depends on her skills as a crack shot, shooting things she's bounced into the air. With good aim she can lay out heavy damage. Her movement skills let her isolate her enemies or beat a hasty retreat.",
+    "playstyle": "Holliday depends on her skills as a crack shot, shooting things she's bounced into the air. With good aim she can lay out heavy damage. Her movement skills let her isolate her enemies or beat a hasty retreat.",
     "purchase_bonuses": {
       "armor": [
         {
@@ -5769,7 +5769,7 @@
       }
     },
     "limited_testing": false,
-    "lore": "Granted the dubious honor of being named Time Magazine's most dangerous woman on the planet, Calico is an enigmatic occult arms dealer that is willing to fund any and all sides of a conflict if the price is right.\n\nWhile her critics (and friends) would correctly identify her as being amoral, she is not without her principles... however cold and calculated those principles may be.",
+    "lore": "Once a decorated member of The Baxter Society, Calico left the august order once she realized that killing monsters for free was less profitable than killing people for money.\n\nNow an in demand contract killer, Calico is living her best life ending someone else's.",
     "minimap_image": "panorama:\"file://{images}/heroes/nano_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
