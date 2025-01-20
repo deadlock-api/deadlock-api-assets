@@ -7,3 +7,4 @@ services:
     - ./images:/app/images
     - ./videos:/app/videos
     - ./svgs:/app/svgs
+    - ./sounds:/app/sounds

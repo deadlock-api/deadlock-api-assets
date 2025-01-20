@@ -77,6 +77,7 @@ class StaticFilesCache(StaticFiles):
 app.mount("/images", StaticFilesCache(directory="images"), name="images")
 app.mount("/videos", StaticFilesCache(directory="videos"), name="videos")
 app.mount("/icons", StaticFilesCache(directory="svgs"), name="svgs")
+app.mount("/sounds", StaticFilesCache(directory="sounds"), name="sounds")
 
 
 @app.get("/", include_in_schema=False)

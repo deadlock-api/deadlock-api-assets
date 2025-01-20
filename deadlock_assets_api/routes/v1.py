@@ -3,7 +3,7 @@ from functools import lru_cache
 
 from fastapi import APIRouter, HTTPException
 
-from deadlock_assets_api.glob import SVGS_BASE_URL
+from deadlock_assets_api.glob import SVGS_BASE_URL, SOUNDS_BASE_URL
 from deadlock_assets_api.models.languages import Language
 from deadlock_assets_api.models.v1 import colors
 from deadlock_assets_api.models.v1.colors import ColorV1
@@ -183,3 +183,26 @@ def get_icons() -> dict[str, str]:
 @lru_cache
 def get_all_icons() -> list[str]:
     return [i for i in os.listdir("svgs") if i.endswith(".svg")]
+
+
+@router.get("/sounds", response_model_exclude_none=True)
+def get_sounds() -> dict[str, str | dict]:
+    return get_all_sounds()
+
+
+@lru_cache
+def get_all_sounds() -> dict:
+    def build_folder(folder: str) -> dict:
+        def parse_key(file: str) -> str:
+            if "." not in file:
+                return file
+            return "".join(file.split(".")[:-1])
+
+        return {
+            parse_key(file): f"{SOUNDS_BASE_URL}/{os.path.join(folder, file)}"
+            if os.path.isfile(os.path.join(folder, file))
+            else build_folder(os.path.join(folder, file))
+            for file in os.listdir(folder)
+        }
+
+    return build_folder("sounds")

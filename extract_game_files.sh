@@ -23,6 +23,7 @@ citadel_folder="depots/game/citadel"
 ./Decompiler -i "$citadel_folder"/pak01_dir.vpk -d --threads 8 -o "$citadel_folder" -f scripts
 ./Decompiler -i "$citadel_folder"/pak01_dir.vpk -d --threads 8 -o "$citadel_folder" -f resource
 ./Decompiler -i "$citadel_folder"/pak01_dir.vpk -d --threads 8 -o "$citadel_folder" -f panorama
+./Decompiler -i "$citadel_folder"/pak01_dir.vpk -d --threads 8 -o "$citadel_folder" -f sounds
 
 # Extract chunked VPK files
 #maps_folder="depots/game/citadel/maps"
@@ -83,6 +84,10 @@ find depots/game/ -type f -name '*.svg' -print0 | xargs -0 -n 1 cp -t svgs/
 cp "$citadel_folder"/panorama/styles/ability_icons.css res/
 cp "$citadel_folder"/panorama/styles/objectives_map.css res/
 cp "$citadel_folder"/panorama/styles/citadel_shared_colors.css res/
+
+# Extract sound files
+mkdir -p sounds
+cp -r "$citadel_folder"/sounds/* sounds/
 
 # Extract image files
 mkdir -p images
