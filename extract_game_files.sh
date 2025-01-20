@@ -1,17 +1,17 @@
 #!/bin/bash
 
 if [ ! -f DepotDownloader ]; then
-    wget https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_2.7.3/DepotDownloader-linux-x64.zip -O DepotDownloader-linux-x64.zip
+    wget https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_3.0.0/DepotDownloader-linux-x64.zip -O DepotDownloader-linux-x64.zip
     unzip -o DepotDownloader-linux-x64.zip DepotDownloader && rm DepotDownloader-linux-x64.zip
 fi
 
 if [ ! -f Decompiler ]; then
-    wget https://github.com/ValveResourceFormat/ValveResourceFormat/releases/download/10.2/Decompiler-linux-x64.zip -O Decompiler-linux-x64.zip
+    wget https://github.com/ValveResourceFormat/ValveResourceFormat/releases/download/11.1/cli-linux-x64.zip -O Decompiler-linux-x64.zip
     unzip -o Decompiler-linux-x64.zip && rm Decompiler-linux-x64.zip
 fi
 
 # Download Deadlock Game files
-./DepotDownloader -app 1422450 -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" || exit 1
+./DepotDownloader -app 1422450 -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -all-platforms -all-languages -validate -remember-password || exit 1
 
 mkdir -p depots/game
 rsync -av depots/*/*/game/* depots/game/
@@ -20,10 +20,10 @@ find depots/ -type d -empty -delete
 # Extract Map-VPKs
 citadel_folder="depots/game/citadel"
 
-./Decompiler -i "$citadel_folder"/pak01_dir.vpk -d --threads 8 -o "$citadel_folder" -f scripts
-./Decompiler -i "$citadel_folder"/pak01_dir.vpk -d --threads 8 -o "$citadel_folder" -f resource
-./Decompiler -i "$citadel_folder"/pak01_dir.vpk -d --threads 8 -o "$citadel_folder" -f panorama
-./Decompiler -i "$citadel_folder"/pak01_dir.vpk -d --threads 8 -o "$citadel_folder" -f sounds
+./Source2Viewer-CLI -i "$citadel_folder"/pak01_dir.vpk -d --threads 8 -o "$citadel_folder" -f scripts
+./Source2Viewer-CLI -i "$citadel_folder"/pak01_dir.vpk -d --threads 8 -o "$citadel_folder" -f resource
+./Source2Viewer-CLI -i "$citadel_folder"/pak01_dir.vpk -d --threads 8 -o "$citadel_folder" -f panorama
+./Source2Viewer-CLI -i "$citadel_folder"/pak01_dir.vpk -d --threads 8 -o "$citadel_folder" -f sounds
 
 # Extract chunked VPK files
 #maps_folder="depots/game/citadel/maps"
@@ -32,7 +32,7 @@ citadel_folder="depots/game/citadel"
 #
 #    echo "Extracting $(basename chunked_vpk_file)"
 #    # TODO: Decompile only required files
-#    ./Decompiler -i "$chunked_vpk_file" -d --threads 8 -o "$parent_dir" -f scripts -f resource -f panorama
+#    ./Source2Viewer-CLI -i "$chunked_vpk_file" -d --threads 8 -o "$parent_dir" -f scripts -f resource -f panorama
 #
 #    echo "Removing chunk files"
 #    rm "$parent_dir/$(basename "$chunked_vpk_file" | cut -c1-5)"*
@@ -41,7 +41,7 @@ citadel_folder="depots/game/citadel"
 #for vpk_file in $(find "$maps_folder" -type f -name "*.vpk"); do
 #    echo "Extracting $(basename vpk_file)"
 #    # TODO: Decompile only required files
-#    ./Decompiler -i "$vpk_file" -d --threads 8 -o "$citadel_folder"
+#    ./Source2Viewer-CLI -i "$vpk_file" -d --threads 8 -o "$citadel_folder"
 #
 #    echo "Removing VPK file"
 #    rm "$vpk_file"
@@ -53,7 +53,7 @@ citadel_folder="depots/game/citadel"
 #
 #    echo "Extracting $(basename vpk_file)"
 #    # TODO: Decompile only required files
-#    ./Decompiler -i "$vpk_file" -d --threads 8 -o "$parent_dir"
+#    ./Source2Viewer-CLI -i "$vpk_file" -d --threads 8 -o "$parent_dir"
 #
 #    echo "Removing VPK file"
 #    rm "$vpk_file"
