@@ -13359,7 +13359,7 @@
       "EAbilityResourceRegenPerSecond": 0,
       "EBaseHealthRegen": 3.0,
       "ECritDamageBonusScale": 1.0,
-      "ECritDamageReceivedScale": 0.65,
+      "ECritDamageReceivedScale": 1.0,
       "ECrouchSpeed": 4.75,
       "EHeavyMeleeDamage": 116,
       "ELightMeleeDamage": 63,
@@ -23535,7 +23535,7 @@
       }
     },
     "m_mapStandardLevelUpUpgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.324,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.36,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 30.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.671429,
       "MODIFIER_VALUE_BOON_COUNT": 1,
