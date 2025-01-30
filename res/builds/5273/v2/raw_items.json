@@ -1706,6 +1706,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": null,
+    "boss_damage_scale": null,
     "class_name": "ability_medic_trooper_heal",
     "css_class": null,
     "dependant_abilities": null,
@@ -1909,6 +1910,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+    "boss_damage_scale": null,
     "class_name": "ability_golden_idol",
     "css_class": null,
     "dependant_abilities": null,
@@ -2112,6 +2114,7 @@
   {
     "ability_type": "item",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE_PASS_THROUGH_WORLD",
+    "boss_damage_scale": null,
     "class_name": "ability_item_pickup_effects",
     "css_class": null,
     "dependant_abilities": null,
@@ -2270,6 +2273,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_zip_line",
     "css_class": null,
     "dependant_abilities": null,
@@ -2599,6 +2603,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_STARTS_ON_COOLDOWN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_zipline_boost",
     "css_class": "ziplineMastery",
     "dependant_abilities": null,
@@ -2757,6 +2762,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_trooper_zip_line",
     "css_class": null,
     "dependant_abilities": null,
@@ -3086,6 +3092,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_INPUT_DIRECTIONAL_2D | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_mantle",
     "css_class": null,
     "dependant_abilities": null,
@@ -3244,6 +3251,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_climb_rope",
     "css_class": null,
     "dependant_abilities": null,
@@ -3402,6 +3410,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_INPUT_DIRECTIONAL_2D | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_jump",
     "css_class": null,
     "dependant_abilities": null,
@@ -3605,6 +3614,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_sprint",
     "css_class": null,
     "dependant_abilities": null,
@@ -3763,6 +3773,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_INPUT_DIRECTIONAL_2D | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_dash",
     "css_class": null,
     "dependant_abilities": null,
@@ -3975,6 +3986,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_INPUT_DIRECTIONAL_2D | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_slide",
     "css_class": null,
     "dependant_abilities": null,
@@ -4133,6 +4145,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "ability_melee_butcher",
     "css_class": null,
     "dependant_abilities": null,
@@ -4318,6 +4331,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_melee_kali",
     "css_class": null,
     "dependant_abilities": null,
@@ -4503,6 +4517,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_melee_butcher",
     "css_class": null,
     "dependant_abilities": null,
@@ -4688,6 +4703,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_melee_gunslinger",
     "css_class": null,
     "dependant_abilities": null,
@@ -4873,6 +4889,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_melee_yakuza",
     "css_class": null,
     "dependant_abilities": null,
@@ -5058,6 +5075,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_melee_thumper",
     "css_class": null,
     "dependant_abilities": null,
@@ -5243,6 +5261,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_melee_architect",
     "css_class": null,
     "dependant_abilities": null,
@@ -5428,6 +5447,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_melee_parry",
     "css_class": null,
     "dependant_abilities": null,
@@ -5613,6 +5633,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_TARGET_THROUGH_WALLS",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_tier2boss_rocket_barrage",
     "css_class": null,
     "dependant_abilities": null,
@@ -5861,6 +5882,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_tier2boss_laser_beam",
     "css_class": null,
     "dependant_abilities": null,
@@ -6073,6 +6095,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_tier2boss_stomp",
     "css_class": null,
     "dependant_abilities": null,
@@ -6267,6 +6290,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_tier3boss_laser_beam",
     "css_class": null,
     "dependant_abilities": null,
@@ -6443,6 +6467,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_tier3boss_damage_pulse",
     "css_class": null,
     "dependant_abilities": null,
@@ -6601,6 +6626,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "rutger_rocket",
     "css_class": null,
     "dependant_abilities": null,
@@ -6925,6 +6951,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "rutger_force_field",
     "css_class": null,
     "dependant_abilities": null,
@@ -7204,6 +7231,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": null,
+    "boss_damage_scale": null,
     "class_name": "rutger_cheat_death",
     "css_class": null,
     "dependant_abilities": null,
@@ -7420,6 +7448,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+    "boss_damage_scale": null,
     "class_name": "rutger_pulse",
     "css_class": "empWave",
     "dependant_abilities": null,
@@ -7672,6 +7701,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_kali_spinning_blade",
     "css_class": null,
     "dependant_abilities": null,
@@ -8008,6 +8038,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_kali_dust_storm",
     "css_class": null,
     "dependant_abilities": null,
@@ -8347,6 +8378,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_kali_disruptive_charge",
     "css_class": null,
     "dependant_abilities": null,
@@ -8581,6 +8613,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_kali_trappers_bolo",
     "css_class": null,
     "dependant_abilities": null,
@@ -8893,6 +8926,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED",
+    "boss_damage_scale": null,
     "class_name": "gunslinger_rapid_fire",
     "css_class": null,
     "dependant_abilities": null,
@@ -9123,6 +9157,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE",
+    "boss_damage_scale": null,
     "class_name": "gunslinger_rocket_launcher",
     "css_class": null,
     "dependant_abilities": null,
@@ -9344,6 +9379,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": null,
+    "boss_damage_scale": null,
     "class_name": "gunslinger_tenacity",
     "css_class": null,
     "dependant_abilities": null,
@@ -9520,6 +9556,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": null,
+    "boss_damage_scale": null,
     "class_name": "gunslinger_sleep_bomb",
     "css_class": null,
     "dependant_abilities": null,
@@ -9723,6 +9760,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST",
+    "boss_damage_scale": null,
     "class_name": "yakuza_kobun",
     "css_class": null,
     "dependant_abilities": null,
@@ -9975,6 +10013,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "yakuza_shakedown_target",
     "css_class": null,
     "dependant_abilities": null,
@@ -10236,6 +10275,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "yakuza_shakedown",
     "css_class": null,
     "dependant_abilities": null,
@@ -10394,6 +10434,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": null,
+    "boss_damage_scale": null,
     "class_name": "yakuza_setting_sun",
     "css_class": null,
     "dependant_abilities": null,
@@ -10673,6 +10714,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": null,
+    "boss_damage_scale": null,
     "class_name": "yakuza_gang_activity",
     "css_class": null,
     "dependant_abilities": null,
@@ -10831,6 +10873,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": null,
+    "boss_damage_scale": null,
     "class_name": "yakuza_gang_activity_cancel",
     "css_class": null,
     "dependant_abilities": null,
@@ -10989,6 +11032,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": null,
+    "boss_damage_scale": null,
     "class_name": "yakuza_summon_gangster",
     "css_class": null,
     "dependant_abilities": null,
@@ -11156,6 +11200,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": null,
+    "boss_damage_scale": null,
     "class_name": "yakuza_teleport_to_gangster",
     "css_class": null,
     "dependant_abilities": null,
@@ -11314,6 +11359,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED",
+    "boss_damage_scale": null,
     "class_name": "yakuza_fealty",
     "css_class": null,
     "dependant_abilities": null,
@@ -11490,6 +11536,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT|CITADEL_ABILITY_BEHAVIOR_PROJECTILE_PASS_THROUGH_WORLD|CITADEL_ABILITY_BEHAVIOR_EQUAL_UNIT_TARGET_PRIORITY|CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST",
+    "boss_damage_scale": null,
     "class_name": "yakuza_protection_racket",
     "css_class": null,
     "dependant_abilities": null,
@@ -11721,6 +11768,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS",
+    "boss_damage_scale": null,
     "class_name": "thumper_ability_1",
     "css_class": null,
     "dependant_abilities": null,
@@ -11988,6 +12036,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
+    "boss_damage_scale": null,
     "class_name": "thumper_ability_2",
     "css_class": null,
     "dependant_abilities": null,
@@ -12294,6 +12343,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS",
+    "boss_damage_scale": null,
     "class_name": "thumper_ability_3",
     "css_class": null,
     "dependant_abilities": null,
@@ -12510,6 +12560,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "thumper_ability_4",
     "css_class": null,
     "dependant_abilities": null,
@@ -12780,6 +12831,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_melee_genericperson",
     "css_class": null,
     "dependant_abilities": null,
@@ -14269,6 +14321,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "ability_melee_astro",
     "css_class": null,
     "dependant_abilities": null,
@@ -14454,6 +14507,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_explosive_barrel",
     "css_class": null,
     "dependant_abilities": null,
@@ -14790,6 +14844,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+    "boss_damage_scale": null,
     "class_name": "ability_bounce_pad",
     "css_class": null,
     "dependant_abilities": null,
@@ -15135,6 +15190,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT",
+    "boss_damage_scale": null,
     "class_name": "ability_target_practice",
     "css_class": null,
     "dependant_abilities": null,
@@ -15402,6 +15458,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_running_decoy",
     "css_class": null,
     "dependant_abilities": null,
@@ -15627,6 +15684,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE",
+    "boss_damage_scale": null,
     "class_name": "ability_gravity_lasso",
     "css_class": null,
     "dependant_abilities": null,
@@ -15948,6 +16006,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+    "boss_damage_scale": null,
     "class_name": "ability_astro_shotgun_toggle",
     "css_class": null,
     "dependant_abilities": [
@@ -16218,6 +16277,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST",
+    "boss_damage_scale": null,
     "class_name": "ability_astro_rifle",
     "css_class": null,
     "dependant_abilities": null,
@@ -16473,6 +16533,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_hat_trick",
     "css_class": null,
     "dependant_abilities": null,
@@ -16914,6 +16975,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_melee_bull",
     "css_class": null,
     "dependant_abilities": null,
@@ -17099,6 +17161,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_POST_CAST_ON_CAST_COMPLETE | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_bull_charge",
     "css_class": null,
     "dependant_abilities": null,
@@ -17420,6 +17483,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": null,
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_passive_beefy",
     "css_class": null,
     "dependant_abilities": null,
@@ -17663,6 +17727,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_bull_leap",
     "css_class": null,
     "dependant_abilities": null,
@@ -17945,6 +18010,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_MELEE_ON_CAST | CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_bull_heal",
     "css_class": null,
     "dependant_abilities": null,
@@ -18407,6 +18473,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_melee_bebop",
     "css_class": null,
     "dependant_abilities": null,
@@ -18592,6 +18659,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_uppercut",
     "css_class": null,
     "dependant_abilities": null,
@@ -18946,6 +19014,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_sticky_bomb",
     "css_class": null,
     "dependant_abilities": null,
@@ -19198,6 +19267,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_bebop_laser_beam",
     "css_class": null,
     "dependant_abilities": null,
@@ -19564,6 +19634,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_hook",
     "css_class": null,
     "dependant_abilities": null,
@@ -20110,6 +20181,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "ability_melee_bomber",
     "css_class": null,
     "dependant_abilities": null,
@@ -20295,6 +20367,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_charged_bomb",
     "css_class": null,
     "dependant_abilities": [
@@ -20540,6 +20613,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
+    "boss_damage_scale": null,
     "class_name": "ability_charged_bomb_throw",
     "css_class": null,
     "dependant_abilities": null,
@@ -20698,6 +20772,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_bomber_ability02",
     "css_class": null,
     "dependant_abilities": null,
@@ -20887,6 +20962,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_bomber_ability03",
     "css_class": null,
     "dependant_abilities": null,
@@ -21076,6 +21152,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_bomber_ult",
     "css_class": "detentionRounds",
     "dependant_abilities": null,
@@ -21517,6 +21594,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_melee_cadence",
     "css_class": null,
     "dependant_abilities": null,
@@ -21702,6 +21780,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "cadence_ability_anthem",
     "css_class": null,
     "dependant_abilities": null,
@@ -21927,6 +22006,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "cadence_ability_lullaby",
     "css_class": null,
     "dependant_abilities": null,
@@ -22161,6 +22241,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "cadence_ability_silencecontraptions",
     "css_class": null,
     "dependant_abilities": null,
@@ -22404,6 +22485,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "cadence_ability_grandfinale",
     "css_class": null,
     "dependant_abilities": null,
@@ -22665,6 +22747,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_EXCLUSIVE_USE|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "cadence_ability_crescendo",
     "css_class": null,
     "dependant_abilities": null,
@@ -23106,6 +23189,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_melee_chrono",
     "css_class": null,
     "dependant_abilities": null,
@@ -23291,6 +23375,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_chrono_pulse_grenade",
     "css_class": null,
     "dependant_abilities": null,
@@ -23576,6 +23661,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_chrono_time_wall",
     "css_class": null,
     "dependant_abilities": null,
@@ -23897,6 +23983,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_MELEE_ON_CAST | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_chrono_kinetic_carbine",
     "css_class": null,
     "dependant_abilities": null,
@@ -24236,6 +24323,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_chrono_swap",
     "css_class": null,
     "dependant_abilities": null,
@@ -24713,6 +24801,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_melee_sumo",
     "css_class": null,
     "dependant_abilities": null,
@@ -24898,6 +24987,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_PASS_THROUGH_WORLD",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_stomp",
     "css_class": null,
     "dependant_abilities": null,
@@ -25231,6 +25321,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE | CITADEL_ABILITY_BEHAVIOR_ALLOW_ALT_CAST | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_void_sphere",
     "css_class": "stasis",
     "dependant_abilities": null,
@@ -25480,6 +25571,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_charged_tackle",
     "css_class": null,
     "dependant_abilities": null,
@@ -25813,6 +25905,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_CAN_HEAL_PLAYERS|CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_nikuman",
     "css_class": null,
     "dependant_abilities": null,
@@ -26068,6 +26161,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_EXCLUSIVE_USE|CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_self_vacuum",
     "css_class": null,
     "dependant_abilities": null,
@@ -26545,6 +26639,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_melee_engineer",
     "css_class": null,
     "dependant_abilities": null,
@@ -26730,6 +26825,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_HEAL_PLAYERS | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_mobile_resupply",
     "css_class": null,
     "dependant_abilities": null,
@@ -26973,6 +27069,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PREVENT_TRAINING_BOT_USAGE | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_shieldedsentry",
     "css_class": null,
     "dependant_abilities": null,
@@ -27363,6 +27460,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_fissure_wall",
     "css_class": null,
     "dependant_abilities": [
@@ -27693,6 +27791,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN | CITADEL_ABILITY_BEHAVIOR_IGNORE_SELECTION_MASH_PROTECTION | CITADEL_ABILITY_BEHAVIOR_TRIGGER",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_fissure_wall_trigger",
     "css_class": null,
     "dependant_abilities": null,
@@ -27851,6 +27950,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN | CITADEL_ABILITY_BEHAVIOR_IGNORE_SELECTION_MASH_PROTECTION | CITADEL_ABILITY_BEHAVIOR_TRIGGER | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_MELEE_ON_CAST",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_fissure_wall_cancel",
     "css_class": null,
     "dependant_abilities": null,
@@ -28009,6 +28109,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_rocket_barrage",
     "css_class": null,
     "dependant_abilities": null,
@@ -28807,6 +28908,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "ability_melee_ghost",
     "css_class": null,
     "dependant_abilities": null,
@@ -28992,6 +29094,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "ability_blood_bomb",
     "css_class": null,
     "dependant_abilities": null,
@@ -29277,6 +29380,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_blood_shards",
     "css_class": null,
     "dependant_abilities": null,
@@ -29553,6 +29657,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_TRIGGER_CANCEL_MASH_PROTECTION_ON_CAST | CITADEL_ABILITY_BEHAVIOR_REQUIRE_ABILITY_BUTTON_TO_CANCEL | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST | CITADEL_ABILITY_BEHAVIOR_ALLOW_ALT_CAST",
+    "boss_damage_scale": null,
     "class_name": "ability_life_drain",
     "css_class": null,
     "dependant_abilities": null,
@@ -29796,6 +29901,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": null,
+    "boss_damage_scale": null,
     "class_name": "ability_death_tax",
     "css_class": null,
     "dependant_abilities": null,
@@ -30042,6 +30148,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "ability_health_swap",
     "css_class": null,
     "dependant_abilities": null,
@@ -30549,6 +30656,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_melee_gigawatt",
     "css_class": null,
     "dependant_abilities": null,
@@ -30734,6 +30842,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_lightning_ball",
     "css_class": null,
     "dependant_abilities": null,
@@ -31001,6 +31110,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST | CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_static_charge",
     "css_class": null,
     "dependant_abilities": null,
@@ -31235,6 +31345,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": null,
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_chain_lightning",
     "css_class": null,
     "dependant_abilities": null,
@@ -31460,6 +31571,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": null,
+    "boss_damage_scale": null,
     "class_name": "ability_power_surge",
     "css_class": null,
     "dependant_abilities": null,
@@ -31751,6 +31863,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_EXCLUSIVE_USE|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_storm_cloud",
     "css_class": null,
     "dependant_abilities": null,
@@ -32252,6 +32365,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "ability_melee_haze",
     "css_class": null,
     "dependant_abilities": null,
@@ -32437,6 +32551,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DAMAGE_DOESNT_WAKE_FROM_SLEEP | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_sleep_dagger",
     "css_class": null,
     "dependant_abilities": null,
@@ -32785,6 +32900,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DAMAGE_DOESNT_WAKE_FROM_SLEEP",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_poison_bullets",
     "css_class": null,
     "dependant_abilities": null,
@@ -32979,6 +33095,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DAMAGE_DOESNT_WAKE_FROM_SLEEP | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
+    "boss_damage_scale": null,
     "class_name": "ability_smoke_bomb",
     "css_class": null,
     "dependant_abilities": null,
@@ -33282,6 +33399,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": null,
+    "boss_damage_scale": null,
     "class_name": "ability_stacking_damage",
     "css_class": null,
     "dependant_abilities": null,
@@ -33564,6 +33682,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_EXCLUSIVE_USE|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY",
+    "boss_damage_scale": null,
     "class_name": "ability_bullet_flurry",
     "css_class": null,
     "dependant_abilities": null,
@@ -34020,6 +34139,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_melee_hornet",
     "css_class": null,
     "dependant_abilities": null,
@@ -34205,6 +34325,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_wing_blast",
     "css_class": null,
     "dependant_abilities": null,
@@ -34439,6 +34560,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_hornet_chain",
     "css_class": null,
     "dependant_abilities": null,
@@ -34691,6 +34813,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_REQUIRE_ABILITY_BUTTON_TO_CANCEL",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_hornet_leap",
     "css_class": null,
     "dependant_abilities": null,
@@ -34970,6 +35093,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_hornet_sting",
     "css_class": null,
     "dependant_abilities": null,
@@ -35267,6 +35391,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_hornet_snipe",
     "css_class": null,
     "dependant_abilities": null,
@@ -35582,6 +35707,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": null,
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_hornet_mark",
     "css_class": null,
     "dependant_abilities": null,
@@ -35996,6 +36122,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "ability_melee_inferno",
     "css_class": null,
     "dependant_abilities": null,
@@ -36181,6 +36308,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_MELEE_ON_CAST | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_fire_bomb",
     "css_class": null,
     "dependant_abilities": null,
@@ -36445,6 +36573,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+    "boss_damage_scale": null,
     "class_name": "ability_flame_dash",
     "css_class": null,
     "dependant_abilities": [
@@ -36786,6 +36915,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_TRIGGER",
+    "boss_damage_scale": null,
     "class_name": "ability_flame_dash_cancel_trigger",
     "css_class": null,
     "dependant_abilities": null,
@@ -36944,6 +37074,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
+    "boss_damage_scale": null,
     "class_name": "ability_incendiary_projectile",
     "css_class": null,
     "dependant_abilities": null,
@@ -37262,6 +37393,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_afterburn",
     "css_class": null,
     "dependant_abilities": null,
@@ -37730,6 +37862,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "ability_melee_kelvin",
     "css_class": null,
     "dependant_abilities": null,
@@ -37915,6 +38048,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DONT_AIM_FACING_ENEMY",
+    "boss_damage_scale": null,
     "class_name": "ability_icebeam",
     "css_class": null,
     "dependant_abilities": null,
@@ -38242,6 +38376,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE |  CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+    "boss_damage_scale": null,
     "class_name": "ability_icepath",
     "css_class": null,
     "dependant_abilities": null,
@@ -38605,6 +38740,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_HEAL_PLAYERS | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "ability_ice_grenade",
     "css_class": null,
     "dependant_abilities": null,
@@ -38845,6 +38981,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_REQUIRE_ABILITY_BUTTON_TO_CANCEL | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "ability_ice_dome",
     "css_class": null,
     "dependant_abilities": null,
@@ -39328,6 +39465,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "ability_melee_lash",
     "css_class": null,
     "dependant_abilities": null,
@@ -39513,6 +39651,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_lash",
     "css_class": null,
     "dependant_abilities": null,
@@ -39795,6 +39934,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_lash_down_strike",
     "css_class": null,
     "dependant_abilities": null,
@@ -40113,6 +40253,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_lash_ultimate",
     "css_class": null,
     "dependant_abilities": null,
@@ -40473,6 +40614,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
+    "boss_damage_scale": null,
     "class_name": "ability_lash_flog",
     "css_class": null,
     "dependant_abilities": null,
@@ -40953,6 +41095,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+    "boss_damage_scale": null,
     "class_name": "mirage_tornado",
     "css_class": null,
     "dependant_abilities": null,
@@ -41322,6 +41465,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "mirage_sand_phantom",
     "css_class": null,
     "dependant_abilities": null,
@@ -41619,6 +41763,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET",
+    "boss_damage_scale": null,
     "class_name": "mirage_fire_beetles",
     "css_class": null,
     "dependant_abilities": null,
@@ -41934,6 +42079,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED",
+    "boss_damage_scale": null,
     "class_name": "mirage_teleport",
     "css_class": null,
     "dependant_abilities": null,
@@ -42384,6 +42530,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "ability_melee_digger",
     "css_class": null,
     "dependant_abilities": null,
@@ -42569,6 +42716,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_MELEE_ON_CAST | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_MELEE_ON_CAST | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_intimidate",
     "css_class": "mokrillScorn",
     "dependant_abilities": null,
@@ -42827,6 +42975,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY | CITADEL_ABILITY_BEHAVIOR_COOLDOWN_ON_CHANNEL_END",
+    "boss_damage_scale": null,
     "class_name": "ability_burrow",
     "css_class": null,
     "dependant_abilities": null,
@@ -43136,6 +43285,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
+    "boss_damage_scale": null,
     "class_name": "ability_throw_sand",
     "css_class": null,
     "dependant_abilities": null,
@@ -43370,6 +43520,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "ability_ult_combo",
     "css_class": null,
     "dependant_abilities": null,
@@ -44033,6 +44184,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "ability_melee_nano",
     "css_class": null,
     "dependant_abilities": null,
@@ -44218,6 +44370,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_PASS_THROUGH_WORLD",
+    "boss_damage_scale": null,
     "class_name": "ability_perched_predator",
     "css_class": null,
     "dependant_abilities": [
@@ -44517,6 +44670,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
+    "boss_damage_scale": null,
     "class_name": "ability_perched_predator_trigger",
     "css_class": null,
     "dependant_abilities": null,
@@ -44675,6 +44829,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "ability_rolling_fireball",
     "css_class": null,
     "dependant_abilities": null,
@@ -44882,6 +45037,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_POST_CAST_ON_CAST_COMPLETE | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+    "boss_damage_scale": null,
     "class_name": "ability_nano_pounce",
     "css_class": null,
     "dependant_abilities": null,
@@ -45200,6 +45356,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY",
+    "boss_damage_scale": null,
     "class_name": "ability_nano_proximity_ritual",
     "css_class": null,
     "dependant_abilities": null,
@@ -45557,6 +45714,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+    "boss_damage_scale": null,
     "class_name": "ability_nano_shadow_step",
     "css_class": "detentionRounds",
     "dependant_abilities": null,
@@ -46106,6 +46264,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "ability_melee_archer",
     "css_class": null,
     "dependant_abilities": null,
@@ -46291,6 +46450,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_charged_shot",
     "css_class": null,
     "dependant_abilities": null,
@@ -46549,6 +46709,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_INPUT_DIRECTIONAL_2D | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST",
+    "boss_damage_scale": null,
     "class_name": "ability_power_jump",
     "css_class": null,
     "dependant_abilities": null,
@@ -46882,6 +47043,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PREVENT_TRAINING_BOT_USAGE | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "ability_immobilize_trap",
     "css_class": null,
     "dependant_abilities": null,
@@ -47203,6 +47365,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY",
+    "boss_damage_scale": null,
     "class_name": "ability_guided_arrow",
     "css_class": null,
     "dependant_abilities": null,
@@ -47869,6 +48032,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_melee_shiv",
     "css_class": null,
     "dependant_abilities": null,
@@ -48054,6 +48218,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_shiv_dagger",
     "css_class": null,
     "dependant_abilities": null,
@@ -48312,6 +48477,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_POST_CAST_ON_CAST_COMPLETE | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_TRIGGER_CANCEL_MASH_PROTECTION_ON_CAST",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_shiv_dash",
     "css_class": null,
     "dependant_abilities": null,
@@ -48639,6 +48805,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DAMAGE_DOESNT_WAKE_FROM_SLEEP | CITADEL_ABILITY_BEHAVIOR_DONT_CONSUME_ABILITY_RESOURCE_ON_CAST",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_shiv_defer_damage",
     "css_class": null,
     "dependant_abilities": null,
@@ -48864,6 +49031,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_POST_CAST_ON_CAST_COMPLETE | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_shiv_killing_blow",
     "css_class": null,
     "dependant_abilities": null,
@@ -49455,6 +49623,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "ability_melee_shieldguy",
     "css_class": null,
     "dependant_abilities": null,
@@ -49640,6 +49809,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_shieldguy_ability01",
     "css_class": null,
     "dependant_abilities": null,
@@ -49829,6 +49999,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_shieldguy_ability02",
     "css_class": null,
     "dependant_abilities": null,
@@ -50018,6 +50189,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_shieldguy_ability03",
     "css_class": null,
     "dependant_abilities": null,
@@ -50207,6 +50379,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_shieldguy_ult",
     "css_class": "detentionRounds",
     "dependant_abilities": null,
@@ -50702,6 +50875,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "slork_scald",
     "css_class": null,
     "dependant_abilities": null,
@@ -50966,6 +51140,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "slork_raging_current",
     "css_class": null,
     "dependant_abilities": null,
@@ -51245,6 +51420,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT",
+    "boss_damage_scale": null,
     "class_name": "ability_chomp_cast_dash",
     "css_class": null,
     "dependant_abilities": null,
@@ -51412,6 +51588,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
+    "boss_damage_scale": null,
     "class_name": "slork_last_breath",
     "css_class": null,
     "dependant_abilities": null,
@@ -51628,6 +51805,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE",
+    "boss_damage_scale": null,
     "class_name": "slork_chomp",
     "css_class": null,
     "dependant_abilities": [
@@ -51918,6 +52096,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_EQUAL_UNIT_TARGET_PRIORITY",
+    "boss_damage_scale": null,
     "class_name": "slork_ability_invis",
     "css_class": null,
     "dependant_abilities": null,
@@ -52242,6 +52421,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "slork_riptide",
     "css_class": null,
     "dependant_abilities": null,
@@ -52977,6 +53157,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_TRIGGER_CANCEL_MASH_PROTECTION_ON_CAST",
+    "boss_damage_scale": null,
     "class_name": "synth_plasma_flux",
     "css_class": null,
     "dependant_abilities": [
@@ -53228,6 +53409,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN | CITADEL_ABILITY_BEHAVIOR_IGNORE_SELECTION_MASH_PROTECTION | CITADEL_ABILITY_BEHAVIOR_TRIGGER | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+    "boss_damage_scale": null,
     "class_name": "synth_plasma_flux_trigger",
     "css_class": null,
     "dependant_abilities": null,
@@ -53386,6 +53568,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CHANNELLED",
+    "boss_damage_scale": null,
     "class_name": "synth_pulse",
     "css_class": "mokrillScorn",
     "dependant_abilities": null,
@@ -53626,6 +53809,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS",
+    "boss_damage_scale": null,
     "class_name": "synth_grasp",
     "css_class": null,
     "dependant_abilities": [
@@ -53901,6 +54085,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_TRIGGER",
+    "boss_damage_scale": null,
     "class_name": "synth_grasp_cancel",
     "css_class": null,
     "dependant_abilities": null,
@@ -54059,6 +54244,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "synth_barrage",
     "css_class": null,
     "dependant_abilities": null,
@@ -54371,6 +54557,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "",
+    "boss_damage_scale": null,
     "class_name": "synth_blitz",
     "css_class": null,
     "dependant_abilities": null,
@@ -54626,6 +54813,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "synth_affliction",
     "css_class": "synthAffliction",
     "dependant_abilities": null,
@@ -55100,6 +55288,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_melee_tengu",
     "css_class": null,
     "dependant_abilities": null,
@@ -55285,6 +55474,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_tangotether",
     "css_class": null,
     "dependant_abilities": [
@@ -55539,6 +55729,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN | CITADEL_ABILITY_BEHAVIOR_IGNORE_SELECTION_MASH_PROTECTION | CITADEL_ABILITY_BEHAVIOR_TRIGGER | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_tangotether_trigger",
     "css_class": null,
     "dependant_abilities": null,
@@ -55697,6 +55888,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_tengu_urn",
     "css_class": null,
     "dependant_abilities": null,
@@ -55946,6 +56138,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_tengu_stone_form",
     "css_class": "stasis",
     "dependant_abilities": null,
@@ -56240,6 +56433,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST | CITADEL_ABILITY_BEHAVIOR_REQUIRE_ABILITY_BUTTON_TO_CANCEL",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_tengu_airlift",
     "css_class": null,
     "dependant_abilities": null,
@@ -56792,6 +56986,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_melee_tokamak",
     "css_class": null,
     "dependant_abilities": null,
@@ -56977,6 +57172,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT|CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY|CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
+    "boss_damage_scale": null,
     "class_name": "tokamak_hot_shot",
     "css_class": null,
     "dependant_abilities": null,
@@ -57247,6 +57443,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": null,
+    "boss_damage_scale": null,
     "class_name": "tokamak_breach",
     "css_class": null,
     "dependant_abilities": null,
@@ -57580,6 +57777,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "tokamak_radiance",
     "css_class": null,
     "dependant_abilities": null,
@@ -57838,6 +58036,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+    "boss_damage_scale": null,
     "class_name": "tokamak_heat_sinks",
     "css_class": null,
     "dependant_abilities": null,
@@ -58123,6 +58322,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+    "boss_damage_scale": null,
     "class_name": "tokamak_heat_sinks_inherent",
     "css_class": null,
     "dependant_abilities": null,
@@ -58326,6 +58526,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "tokamak_dying_star",
     "css_class": null,
     "dependant_abilities": null,
@@ -58557,6 +58758,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT|CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
+    "boss_damage_scale": null,
     "class_name": "tokamak_crimson_cannon",
     "css_class": null,
     "dependant_abilities": null,
@@ -59553,6 +59755,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "ability_melee_viscous",
     "css_class": null,
     "dependant_abilities": null,
@@ -59738,6 +59941,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "viscous_goo_grenade",
     "css_class": null,
     "dependant_abilities": null,
@@ -60032,6 +60236,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_EQUAL_UNIT_TARGET_PRIORITY | CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST | CITADEL_ABILITY_BEHAVIOR_CAN_HEAL_PLAYERS | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "viscous_restorative_goo",
     "css_class": null,
     "dependant_abilities": null,
@@ -60383,6 +60588,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+    "boss_damage_scale": null,
     "class_name": "viscous_goo_puddle",
     "css_class": null,
     "dependant_abilities": null,
@@ -60617,6 +60823,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CANNOT_CANCEL_DURING_CHANNEL | CITADEL_ABILITY_BEHAVIOR_TRIGGER_CANCEL_MASH_PROTECTION_ON_CAST | CITADEL_ABILITY_BEHAVIOR_REQUIRE_ABILITY_BUTTON_TO_CANCEL",
+    "boss_damage_scale": null,
     "class_name": "viscous_goo_bowling_ball",
     "css_class": null,
     "dependant_abilities": null,
@@ -60977,6 +61184,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "viscous_telepunch",
     "css_class": null,
     "dependant_abilities": null,
@@ -61487,6 +61695,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_melee_warden",
     "css_class": null,
     "dependant_abilities": null,
@@ -61672,6 +61881,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "ability_warden_lock_down",
     "css_class": null,
     "dependant_abilities": null,
@@ -61921,6 +62131,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": null,
+    "boss_damage_scale": null,
     "class_name": "ability_warden_high_alert",
     "css_class": null,
     "dependant_abilities": null,
@@ -62134,6 +62345,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_warden_crowd_control",
     "css_class": null,
     "dependant_abilities": null,
@@ -62410,6 +62622,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_EXCLUSIVE_USE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_warden_riot_protocol",
     "css_class": null,
     "dependant_abilities": null,
@@ -62887,6 +63100,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_melee_wraith",
     "css_class": null,
     "dependant_abilities": null,
@@ -63072,6 +63286,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE_PASS_THROUGH_WORLD | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_psychic_lift",
     "css_class": null,
     "dependant_abilities": null,
@@ -63288,6 +63503,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT | CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_projectmind",
     "css_class": null,
     "dependant_abilities": null,
@@ -63525,6 +63741,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_psychic_daggers",
     "css_class": null,
     "dependant_abilities": null,
@@ -63822,6 +64039,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_wraith_rapidfire",
     "css_class": null,
     "dependant_abilities": null,
@@ -64056,6 +64274,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_card_toss",
     "css_class": null,
     "dependant_abilities": null,
@@ -64353,6 +64572,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": null,
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_psychic_pulse",
     "css_class": null,
     "dependant_abilities": null,
@@ -64767,6 +64987,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "ability_melee_wrecker",
     "css_class": null,
     "dependant_abilities": null,
@@ -64952,6 +65173,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_wrecking_ball",
     "css_class": null,
     "dependant_abilities": [
@@ -65197,6 +65419,7 @@
   {
     "ability_type": "innate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_TRIGGER",
+    "boss_damage_scale": null,
     "class_name": "ability_wrecking_ball_throw",
     "css_class": null,
     "dependant_abilities": null,
@@ -65355,6 +65578,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED",
+    "boss_damage_scale": null,
     "class_name": "ability_wrecker_salvage",
     "css_class": null,
     "dependant_abilities": null,
@@ -65598,6 +65822,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
+    "boss_damage_scale": null,
     "class_name": "ability_scrap_blast",
     "css_class": null,
     "dependant_abilities": null,
@@ -65823,6 +66048,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_wrecker_ultimate",
     "css_class": null,
     "dependant_abilities": null,
@@ -66138,6 +66364,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_PROJECTILE|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "ability_wrecker_teleport",
     "css_class": null,
     "dependant_abilities": null,
@@ -66825,6 +67052,7 @@
   {
     "ability_type": "weapon",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+    "boss_damage_scale": null,
     "class_name": "ability_melee_yamato",
     "css_class": null,
     "dependant_abilities": null,
@@ -67010,6 +67238,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_power_slash",
     "css_class": null,
     "dependant_abilities": null,
@@ -67319,6 +67548,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_flying_strike",
     "css_class": null,
     "dependant_abilities": null,
@@ -67559,6 +67789,7 @@
   {
     "ability_type": "signature",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_healing_slash",
     "css_class": null,
     "dependant_abilities": null,
@@ -67802,6 +68033,7 @@
   {
     "ability_type": "ultimate",
     "behaviour_bits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_CANNOT_CANCEL_DURING_CHANNEL | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY",
+    "boss_damage_scale": null,
     "class_name": "citadel_ability_infinity_slash",
     "css_class": null,
     "dependant_abilities": null,

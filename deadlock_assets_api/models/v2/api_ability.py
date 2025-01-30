@@ -95,6 +95,7 @@ class AbilityV2(ItemBaseV2):
     description: AbilityDescriptionV2
     upgrades: list[RawAbilityUpgradeV2] | None
     ability_type: AbilityTypeV2 | None
+    boss_damage_scale: float | None
     dependant_abilities: list[str] | None
     videos: AbilityVideosV2 | None
 
