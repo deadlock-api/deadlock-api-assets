@@ -365,7 +365,25 @@
 		500,
 		1250,
 		3000,
-		6200,
+		6000,
+	]
+	m_flLanePhaseGoldShareFrac =
+	[
+		1.000000,
+		1.000000,
+		0.660000,
+		0.500000,
+		0.400000,
+		0.330000,
+	]
+	m_flPostLanePhaseGoldShareFrac =
+	[
+		1.000000,
+		0.600000,
+		0.350000,
+		0.250000,
+		0.200000,
+		0.160000,
 	]
 	m_AimSpringStrength =
 	[
@@ -403,10 +421,10 @@
 		m_nTier2GoldOrbs = 250
 		m_nBaseGuardiansGoldKill = 85
 		m_nBaseGuardiansGoldOrbs = 40
-		m_nShrinesGoldKill = 325
-		m_nShrinesGoldOrbs = 175
-		m_nPatronPhase1GoldKill = 325
-		m_nPatronPhase1GoldOrbs = 175
+		m_nShrinesGoldKill = 0
+		m_nShrinesGoldOrbs = 0
+		m_nPatronPhase1GoldKill = 0
+		m_nPatronPhase1GoldOrbs = 0
 	}
 	m_TeleporterParams =
 	{
@@ -462,6 +480,8 @@
 		EShopExitAlarm = soundevent:"UI.Shop.ExitAlarm"
 		EShopExit = soundevent:"UI.Shop.Exit"
 		EShopEnter = soundevent:"UI.Shop.Enter"
+		EPurchaseImbuedItem = soundevent:"UI.Shop.Mod.Activate"
+		EPurchaseActiveItem = soundevent:"UI.Shop.Mod.Activate"
 		EHeroCardHover = soundevent:"UI.HeroCard.Hover"
 		EHeroCardActivate = soundevent:"UI.HeroCard.Activate"
 		EClearRosterHover = soundevent:"UI.HeroCard.ClearRoster.Hover"
@@ -476,6 +496,9 @@
 		EMainMenuPartyPickHeroesEnter = soundevent:"Menu.HeroSelection.Enter"
 		EMainMenuPartyPickHeroesConfirm = soundevent:"Menu.HeroSelection.Complete"
 		EMainMenuPartyPickHeroesExit = soundevent:"UI.Matchmake.Find"
+		ECommendConfirmation = soundevent:"UI.CommendConfirmation"
+		ECommendToast = soundevent:"UI.CommendToast"
+		EOtherPlayerPurchasesMod = soundevent:"UI.Notify.ItemPurchase"
 	}
 	m_mapResourceTypes =
 	{
@@ -509,9 +532,9 @@
 		m_strRejuvPickupSound = soundevent:"Rejuv.Pickup"
 		m_TrooperHealthMult =
 		[
-			1.500000,
 			1.700000,
-			1.900000,
+			2.200000,
+			2.500000,
 		]
 		m_PlayerRespawnMult =
 		[
