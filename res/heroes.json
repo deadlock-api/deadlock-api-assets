@@ -5047,7 +5047,7 @@
       "ability_zip_line_boost": 875395762,
       "signature1": 1235098866,
       "signature2": 2240607294,
-      "signature3": null,
+      "signature3": 4179229681,
       "signature4": 3190606822,
       "weapon_melee": 519260576,
       "weapon_primary": 2082220949
@@ -5948,10 +5948,10 @@
       "ability_slide": 2335418656,
       "ability_zip_line": 2573821048,
       "ability_zip_line_boost": 875395762,
-      "signature1": null,
-      "signature2": null,
-      "signature3": null,
-      "signature4": null,
+      "signature1": 4131517918,
+      "signature2": 1426567660,
+      "signature3": 1009029159,
+      "signature4": 2054144742,
       "weapon_melee": 3861289372,
       "weapon_primary": 3108987282
     },
@@ -10462,11 +10462,11 @@
       "ability_zip_line": 2573821048,
       "ability_zip_line_boost": 875395762,
       "signature1": 58655583,
-      "signature2": null,
-      "signature3": null,
-      "signature4": null,
+      "signature2": 289749826,
+      "signature3": 2839987102,
+      "signature4": 3248109871,
       "weapon_melee": 3299584775,
-      "weapon_primary": null
+      "weapon_primary": 3318975115
     },
     "level_info": {
       "1": {
@@ -11814,10 +11814,10 @@
       "ability_slide": 2335418656,
       "ability_zip_line": 2573821048,
       "ability_zip_line_boost": 875395762,
-      "signature1": null,
+      "signature1": 2153275594,
       "signature2": 208809857,
       "signature3": 3422822440,
-      "signature4": null,
+      "signature4": 3426178920,
       "weapon_melee": 2697859853,
       "weapon_primary": 495487721
     },
@@ -14069,10 +14069,10 @@
       "ability_slide": 2335418656,
       "ability_zip_line": 2573821048,
       "ability_zip_line_boost": 875395762,
-      "signature1": null,
-      "signature2": null,
-      "signature3": null,
-      "signature4": null,
+      "signature1": 347080770,
+      "signature2": 2732213553,
+      "signature3": 1898352041,
+      "signature4": 1851171544,
       "weapon_melee": 384715776,
       "weapon_primary": 2080724972
     },
@@ -15870,15 +15870,15 @@
       "ability_innate3": 664285540,
       "ability_jump": 1466127517,
       "ability_mantle": 4109126631,
-      "ability_slide": null,
+      "ability_slide": 726306979,
       "ability_zip_line": 2573821048,
       "ability_zip_line_boost": 875395762,
-      "signature1": null,
-      "signature2": null,
-      "signature3": null,
-      "signature4": null,
-      "weapon_melee": null,
-      "weapon_primary": null
+      "signature1": 645773760,
+      "signature2": 3428732129,
+      "signature3": 1469918191,
+      "signature4": 1594727071,
+      "weapon_melee": 1015591692,
+      "weapon_primary": 988091080
     },
     "level_info": {
       "1": {
@@ -16324,12 +16324,12 @@
       "ability_slide": 2335418656,
       "ability_zip_line": 2573821048,
       "ability_zip_line_boost": 875395762,
-      "signature1": null,
-      "signature2": null,
-      "signature3": null,
-      "signature4": null,
-      "weapon_melee": null,
-      "weapon_primary": null
+      "signature1": 1288133032,
+      "signature2": 2833514487,
+      "signature3": 371372145,
+      "signature4": 916959628,
+      "weapon_melee": 2067539397,
+      "weapon_primary": 2207852489
     },
     "level_info": {
       "1": {
@@ -16775,12 +16775,12 @@
       "ability_slide": 2335418656,
       "ability_zip_line": 2573821048,
       "ability_zip_line_boost": 875395762,
-      "signature1": null,
-      "signature2": null,
-      "signature3": null,
-      "signature4": null,
-      "weapon_melee": null,
-      "weapon_primary": null
+      "signature1": 3156905386,
+      "signature2": 12456023,
+      "signature3": 994831172,
+      "signature4": 191022746,
+      "weapon_melee": 3610020756,
+      "weapon_primary": 2014234803
     },
     "level_info": {
       "1": {
@@ -17226,12 +17226,12 @@
       "ability_slide": 2335418656,
       "ability_zip_line": 2573821048,
       "ability_zip_line_boost": 875395762,
-      "signature1": null,
-      "signature2": null,
-      "signature3": null,
-      "signature4": null,
-      "weapon_melee": null,
-      "weapon_primary": null
+      "signature1": 2675680636,
+      "signature2": 3360792911,
+      "signature3": 3322902852,
+      "signature4": 2876116869,
+      "weapon_melee": 4050229048,
+      "weapon_primary": 2390247986
     },
     "level_info": {
       "1": {
@@ -17677,12 +17677,12 @@
       "ability_slide": 2335418656,
       "ability_zip_line": 2573821048,
       "ability_zip_line_boost": 875395762,
-      "signature1": null,
-      "signature2": null,
+      "signature1": 1773588524,
+      "signature2": 4210991587,
       "signature3": 1842576017,
-      "signature4": null,
+      "signature4": 1101238302,
       "weapon_melee": 750371308,
-      "weapon_primary": null
+      "weapon_primary": 3294175151
     },
     "level_info": {
       "1": {
