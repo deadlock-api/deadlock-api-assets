@@ -27,7 +27,7 @@ class RawItemWeaponInfoBulletSpeedCurveV2(BaseModel):
 class RawItemWeaponInfoV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    bullet_speed_curve: RawItemWeaponInfoBulletSpeedCurveV2 = Field(
+    bullet_speed_curve: RawItemWeaponInfoBulletSpeedCurveV2 | None = Field(
         None, validation_alias="m_BulletSpeedCurve"
     )
 
