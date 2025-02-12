@@ -7687,7 +7687,7 @@
       "ability_channel_time": 0.0,
       "ability_charges": 1.0,
       "ability_cooldown": 32.0,
-      "ability_cooldown_between_charge": 2.0,
+      "ability_cooldown_between_charge": 3.5,
       "ability_duration": 0.0,
       "ability_post_cast_duration": 0.0,
       "ability_resource_cost": 0.0,
@@ -7798,7 +7798,7 @@
             "property_name": "StompDamage",
             "scale_stat_filter": null,
             "upgrade_type": null,
-            "upgrade_value": "100"
+            "upgrade_value": "80"
           },
           {
             "css_class": null,
@@ -24125,6 +24125,14 @@
             "scale_stat_filter": null,
             "upgrade_type": null,
             "upgrade_value": "80"
+          },
+          {
+            "css_class": null,
+            "display_units": null,
+            "property_name": "MoveSpeedBonusPct",
+            "scale_stat_filter": null,
+            "upgrade_type": null,
+            "upgrade_value": "20"
           }
         ]
       },
@@ -24166,7 +24174,7 @@
       "ability_cast_range": 0.0,
       "ability_channel_time": 3.0,
       "ability_charges": 0.0,
-      "ability_cooldown": 90.0,
+      "ability_cooldown": 100.0,
       "ability_cooldown_between_charge": 0.0,
       "ability_duration": 0.0,
       "ability_post_cast_duration": 0.0,
@@ -24178,7 +24186,7 @@
       "damage": 150.0,
       "damage_amp": 0.0,
       "fall_speed_max": 10.0,
-      "move_speed_bonus_pct": 50.0,
+      "move_speed_bonus_pct": 30.0,
       "radius": "7m",
       "tech_power": 0.0,
       "weapon_power": 0.0
@@ -24262,7 +24270,7 @@
             "property_name": "ImpactDamage",
             "scale_stat_filter": null,
             "upgrade_type": null,
-            "upgrade_value": "75"
+            "upgrade_value": "60"
           }
         ]
       },
@@ -32810,7 +32818,7 @@
       "ability_resource_cost": 0.0,
       "ability_unit_target_limit": 1.0,
       "channel_move_speed": 50.0,
-      "damage": 175.0,
+      "damage": 140.0,
       "damping_factor": 0.3,
       "lift_chain_count": 0.0,
       "lift_chain_radius": "20m",
@@ -33379,7 +33387,7 @@
       "damage": 70.0,
       "non_player_card_resource_scale": 0.35,
       "projectile_origin_height_offset": 50.0,
-      "radius": "5m",
+      "radius": "4m",
       "resource_per_card": 100.0,
       "tech_power": 0.0,
       "weapon_power": 0.0
@@ -37480,7 +37488,7 @@
     "video_mp4_h264": null,
     "weapon_info": {
       "auto_replenish_clip": null,
-      "bullet_damage": 27.0,
+      "bullet_damage": 23.0,
       "bullet_gravity_scale": 0.0,
       "bullet_inherit_shooter_velocity_scale": 0.0,
       "bullet_lifetime": 2.0,
@@ -38401,7 +38409,55 @@
     "unlocks_cost": null,
     "video": "",
     "video_mp4_h264": "",
-    "weapon_info": null
+    "weapon_info": {
+      "auto_replenish_clip": null,
+      "bullet_damage": null,
+      "bullet_gravity_scale": null,
+      "bullet_inherit_shooter_velocity_scale": null,
+      "bullet_lifetime": null,
+      "bullet_radius": null,
+      "bullet_reflect_amount": null,
+      "bullet_reflect_scale": null,
+      "bullet_whiz_distance": null,
+      "bullets": null,
+      "burst_shot_cooldown": null,
+      "burst_shot_count": null,
+      "can_zoom": null,
+      "clip_size": null,
+      "crit_bonus_against_npcs": null,
+      "crit_bonus_end": null,
+      "crit_bonus_end_range": null,
+      "crit_bonus_start": null,
+      "crit_bonus_start_range": null,
+      "cycle_time": null,
+      "damage_falloff_bias": null,
+      "damage_falloff_end_range": null,
+      "damage_falloff_end_scale": null,
+      "damage_falloff_start_range": null,
+      "damage_falloff_start_scale": null,
+      "horizontal_punch": null,
+      "horizontal_recoil": null,
+      "npc_aiming_spread": null,
+      "penetration_percent": null,
+      "range": null,
+      "recoil_recovery_speed": null,
+      "recoil_shot_index_recovery_time_factor": null,
+      "recoil_speed": null,
+      "reload_duration": null,
+      "reload_move_speed": null,
+      "scatter_yaw_scale": null,
+      "shoot_move_speed_percent": null,
+      "shoot_spread_penalty_decay": null,
+      "shoot_spread_penalty_decay_delay": null,
+      "shoot_spread_penalty_per_shot": null,
+      "shooting_up_spread_penalty": null,
+      "spread": null,
+      "standing_spread": null,
+      "vertical_punch": null,
+      "vertical_recoil": null,
+      "zoom_fov": null,
+      "zoom_move_speed_percent": null
+    }
   },
   {
     "ability_upgrades": [
@@ -38858,7 +38914,7 @@
     "points_cost": 0,
     "properties": {
       "ability_cast_delay": 0.15,
-      "ability_cast_range": "10m",
+      "ability_cast_range": "20m",
       "ability_channel_time": 0.0,
       "ability_charges": 0.0,
       "ability_cooldown": 90.0,
@@ -38868,10 +38924,9 @@
       "ability_resource_cost": 0.0,
       "ability_unit_target_limit": 1.0,
       "channel_move_speed": 9999.0,
-      "copied_ult_window": 20.0,
+      "copied_ult_window": 10.0,
       "copy_cooldown_percentage": 50.0,
-      "copy_internal_cooldown": 1.0,
-      "swap_back_delay": 0.1,
+      "copy_internal_cooldown": 0.5,
       "tech_power": 0.0,
       "weapon_power": 0.0
     },
@@ -38930,6 +38985,148 @@
       "vertical_recoil": null,
       "zoom_fov": null,
       "zoom_move_speed_percent": null
+    }
+  },
+  {
+    "ability_upgrades": [
+      {
+        "property_upgrades": [
+          {
+            "css_class": null,
+            "display_units": null,
+            "property_name": "AbilityCooldown",
+            "scale_stat_filter": null,
+            "upgrade_type": null,
+            "upgrade_value": "-10"
+          }
+        ]
+      },
+      {
+        "property_upgrades": [
+          {
+            "css_class": null,
+            "display_units": null,
+            "property_name": "HexDuration",
+            "scale_stat_filter": null,
+            "upgrade_type": null,
+            "upgrade_value": "1"
+          }
+        ]
+      },
+      {
+        "property_upgrades": [
+          {
+            "css_class": null,
+            "display_units": null,
+            "property_name": "Radius",
+            "scale_stat_filter": null,
+            "upgrade_type": null,
+            "upgrade_value": "3m"
+          }
+        ]
+      }
+    ],
+    "child_items": null,
+    "class_name": "ability_magician_animalhexarea",
+    "cost": null,
+    "description": null,
+    "disabled": null,
+    "dof_while_zoomed": null,
+    "id": 2142213586,
+    "image": "https://assets.deadlock-api.com/images/abilities/magician/magician_animalcurse.png",
+    "in_development": null,
+    "item_slot_type": null,
+    "max_level": 1,
+    "points_cost": 0,
+    "properties": {
+      "ability_cast_delay": 0.15,
+      "ability_cast_range": "30m",
+      "ability_channel_time": 0.0,
+      "ability_charges": 0.0,
+      "ability_cooldown": 35.0,
+      "ability_cooldown_between_charge": 0.0,
+      "ability_duration": 0.0,
+      "ability_post_cast_duration": 0.0,
+      "ability_resource_cost": 0.0,
+      "ability_unit_target_limit": 1.0,
+      "air_damping_duration": 1.0,
+      "channel_move_speed": 99999.0,
+      "damage": 80.0,
+      "damage_amp_percentage": 25.0,
+      "detonation_delay": 0.7,
+      "hex_duration": 2.0,
+      "hex_move_speed_limit": "6m",
+      "move_speed_bonus_pct": 15.0,
+      "radius": "6m",
+      "self_bump_impulse": 500.0,
+      "tech_power": 0.0,
+      "weapon_power": 0.0
+    },
+    "shopable": null,
+    "start_trained": false,
+    "tier": null,
+    "type": "ability",
+    "unlocks_cost": 1,
+    "video": "https://assets.deadlock-api.com/videos/hero_abilities/magician_animal_curse.webm",
+    "video_mp4_h264": "https://assets.deadlock-api.com/videos/hero_abilities/magician_animal_curse_h264.mp4",
+    "weapon_info": {
+      "auto_replenish_clip": 0.0,
+      "bullet_damage": 0.0,
+      "bullet_gravity_scale": 1.0,
+      "bullet_inherit_shooter_velocity_scale": 0.0,
+      "bullet_lifetime": 0.0,
+      "bullet_radius": 0.0,
+      "bullet_reflect_amount": null,
+      "bullet_reflect_scale": null,
+      "bullet_whiz_distance": 150.0,
+      "bullets": 1,
+      "burst_shot_cooldown": null,
+      "burst_shot_count": 1,
+      "can_zoom": true,
+      "clip_size": 0,
+      "crit_bonus_against_npcs": 0.2,
+      "crit_bonus_end": 1.0,
+      "crit_bonus_end_range": 0.0,
+      "crit_bonus_start": 1.0,
+      "crit_bonus_start_range": 0.0,
+      "cycle_time": 0.15,
+      "damage_falloff_bias": 0.5,
+      "damage_falloff_end_range": 900.0,
+      "damage_falloff_end_scale": 0.0,
+      "damage_falloff_start_range": 0.0,
+      "damage_falloff_start_scale": 1.0,
+      "horizontal_punch": 0.5,
+      "horizontal_recoil": {
+        "burst_constant": 0.0,
+        "burst_exponent": 1.0,
+        "burst_slope": 0.0,
+        "range": 0.0
+      },
+      "npc_aiming_spread": 0.0,
+      "penetration_percent": 0.0,
+      "range": 8192.0,
+      "recoil_recovery_speed": 1.0,
+      "recoil_shot_index_recovery_time_factor": 0.25,
+      "recoil_speed": 1.0,
+      "reload_duration": 0.0,
+      "reload_move_speed": null,
+      "scatter_yaw_scale": 1.0,
+      "shoot_move_speed_percent": 0.7,
+      "shoot_spread_penalty_decay": 1.0,
+      "shoot_spread_penalty_decay_delay": -1.0,
+      "shoot_spread_penalty_per_shot": 0.0,
+      "shooting_up_spread_penalty": 0.0,
+      "spread": 0.2,
+      "standing_spread": 0.8,
+      "vertical_punch": 1.0,
+      "vertical_recoil": {
+        "burst_constant": 0.0,
+        "burst_exponent": 1.0,
+        "burst_slope": 0.0,
+        "range": 0.0
+      },
+      "zoom_fov": 70.0,
+      "zoom_move_speed_percent": 0.7
     }
   },
   {
@@ -42672,10 +42869,10 @@
       "ability_unit_target_limit": 1.0,
       "ammo_per_soul": 2.0,
       "bonus_clip_size_percent": 10.0,
-      "bonus_health": 40.0,
+      "bonus_health": 0.0,
       "bonus_sprint_speed": "2m",
       "channel_move_speed": 50.0,
-      "max_stacks": 20.0,
+      "max_stacks": 18.0,
       "spirit_power_per_soul": 1.0,
       "tech_power": 0.0,
       "weapon_power": 0.0
@@ -49201,7 +49398,7 @@
       "ability_post_cast_duration": 0.0,
       "ability_resource_cost": 0.0,
       "ability_unit_target_limit": 1.0,
-      "bonus_fire_rate": 4.0,
+      "bonus_fire_rate": 0.0,
       "bonus_health": 35.0,
       "channel_move_speed": 50.0,
       "stamina": 1.0,
@@ -59273,7 +59470,7 @@
       "ability_post_cast_duration": 0.0,
       "ability_resource_cost": 0.0,
       "ability_unit_target_limit": 1.0,
-      "base_attack_damage_percent": 3.0,
+      "base_attack_damage_percent": 0.0,
       "bullet_shield_max_health": 100.0,
       "channel_move_speed": 50.0,
       "heal_from_hero": 40.0,

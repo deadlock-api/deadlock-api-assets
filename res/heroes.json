@@ -16727,7 +16727,7 @@
     "footstep_sound_travel_distance_meters": 20.0,
     "hero_shop_stat_display": {
       "weapon_stats_display": {
-        "weapon_image": "panorama:\"file://{images}/heroes/guns/gigawatt_gun.psd\""
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/magician_wand.psd\""
       }
     },
     "icon_hero_card": "panorama:\"file://{images}/heroes/magician_card.psd\"",
@@ -16739,7 +16739,7 @@
       "portrait": "https://assets.deadlock-api.com/images/heroes/magician.png",
       "small": "https://assets.deadlock-api.com/images/heroes/magician_sm.png",
       "top_bar": "https://assets.deadlock-api.com/images/heroes/magician_hud.png",
-      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/gigawatt_gun.png"
+      "weapon": "https://assets.deadlock-api.com/images/heroes/guns/magician_wand.png"
     },
     "in_development": false,
     "item_slot_info": {
@@ -16777,7 +16777,7 @@
       "ability_zip_line_boost": 875395762,
       "signature1": 3156905386,
       "signature2": 12456023,
-      "signature3": 994831172,
+      "signature3": 2142213586,
       "signature4": 191022746,
       "weapon_melee": 3610020756,
       "weapon_primary": 2014234803

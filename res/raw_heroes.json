@@ -12831,7 +12831,8 @@
       },
       "m_eWeaponStatsDisplay": {
         "m_eWeaponAttributes": "EWeaponAttribute_BurstFire | EWeaponAttribute_LongRange | EWeaponAttribute_Projectile",
-        "m_strWeaponImage": "panorama:\"file://{images}/heroes/guns/gigawatt_gun.psd\"",
+        "m_strWeaponImage": "panorama:\"file://{images}/heroes/guns/magician_wand.psd\"",
+        "m_strWeaponNameLocString": "Magic Wand",
         "m_vecDisplayStats": [
           "EBulletDamage",
           "EBaseWeaponDamageIncrease",
@@ -12894,7 +12895,7 @@
     "m_hDamageTakenParticle": "resource_name:\"particles/generic/player_damage_screen.vpcf\"",
     "m_hDeathParticle": "resource_name:\"particles/generic/player_death_screen.vpcf\"",
     "m_hFootstepSounds": "sweetener_default",
-    "m_hGameSoundEventScript": "resource_name:\"soundevents/hero/gigawatt.vsndevts\"",
+    "m_hGameSoundEventScript": "resource_name:\"soundevents/hero/magician.vsndevts\"",
     "m_hGeneratedVOEventScript": "resource_name:\"soundevents/vo/generated_vo_hero_magician.vsndevts\"",
     "m_hGroundDamageTakenParticle": "resource_name:\"particles/generic/player_ground_damage_screen.vpcf\"",
     "m_hLowHealthParticle": "resource_name:\"particles/generic/player_low_health_screen.vpcf\"",
@@ -13009,7 +13010,7 @@
       "ESlot_Ability_ZipLineBoost": "citadel_ability_zipline_boost",
       "ESlot_Signature_1": "ability_magician_magicbolt",
       "ESlot_Signature_2": "ability_magician_cloneturret",
-      "ESlot_Signature_3": "ability_magician_animalcurse",
+      "ESlot_Signature_3": "ability_magician_animalhexarea",
       "ESlot_Signature_4": "ability_magician_copyult",
       "ESlot_Weapon_Melee": "ability_melee_magician",
       "ESlot_Weapon_Primary": "citadel_weapon_magician_set"
@@ -13376,12 +13377,11 @@
       "EWeaponPower": 0,
       "EWeaponPowerScale": 1
     },
-    "m_mapWIPAbilities": {},
     "m_nComplexity": 4,
     "m_nModelSkin": 0,
     "m_nReadability": 4,
-    "m_strDeathSound": "soundevent:\"Gigawatt.Death\"",
-    "m_strFootstepSoundEventDefault": "soundevent:\"Gigawatt.Footstep.Multi\"",
+    "m_strDeathSound": "soundevent:\"Magician.Death\"",
+    "m_strFootstepSoundEventDefault": "soundevent:\"Hero.Default.Footstep\"",
     "m_strIconHeroCard": "panorama:\"file://{images}/heroes/magician_card.psd\"",
     "m_strIconImageSmall": "panorama:\"file://{images}/heroes/magician_sm.psd\"",
     "m_strLastHitSound": "soundevent:\"LastHit.Default\"",
