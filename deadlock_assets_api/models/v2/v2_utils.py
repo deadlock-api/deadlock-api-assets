@@ -1,8 +1,11 @@
+import logging
 import re
 
 from deadlock_assets_api.models.v2.raw_ability import RawAbilityV2
 from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
 from deadlock_assets_api.models.v2.raw_item_base import RawItemBaseV2
+
+LOGGER = logging.getLogger(__name__)
 
 
 def replace_templates(
@@ -87,7 +90,7 @@ def replace_templates(
                     except ValueError:
                         pass
                 if replaced is None:
-                    print(f"Failed to find hero name for {raw_item.class_name}")
+                    LOGGER.warning(f"Failed to find hero name for {raw_item.class_name}")
             else:
                 var_to_loc = {
                     "key_duck": "citadel_keybind_crouch",
@@ -97,7 +100,7 @@ def replace_templates(
                 }
                 replaced = localization.get(var_to_loc.get(variable, variable))
         if replaced is None:
-            print(f"Failed to replace {variable}")
+            LOGGER.warning(f"Failed to replace {variable}")
         return str(replaced) if replaced else match.group(0)
 
     input_str = re.sub(r"\{s:([^}]+)}", replacer, input_str)

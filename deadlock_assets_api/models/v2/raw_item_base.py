@@ -1,8 +1,11 @@
+import logging
 from functools import lru_cache
 
 import css_parser
 from css_parser.css import CSSRuleList, CSSStyleRule
 from pydantic import AliasChoices, BaseModel, ConfigDict, Field, model_validator
+
+LOGGER = logging.getLogger(__name__)
 
 
 class RawItemWeaponInfoBulletSpeedCurveSplineV2(BaseModel):
@@ -92,5 +95,5 @@ class RawItemBaseV2(BaseModel):
                 css_image = parse_css_ability_icon(self.css_class)
                 self.image = css_image or self.image
             except Exception as e:
-                print(f"Failed to parse css for {self.css_class}: {e}")
+                LOGGER.warning(f"Failed to parse css for {self.css_class}: {e}")
         return self

@@ -1,5 +1,6 @@
 import logging
 import os
+import sys
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -9,9 +10,35 @@ from starlette.requests import Request
 from starlette.responses import FileResponse, RedirectResponse, Response
 from starlette.staticfiles import StaticFiles
 
+from deadlock_assets_api.logging_middleware import RouterLoggingMiddleware
 from deadlock_assets_api.routes import base, raw, v1, v2
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=os.environ.get("LOG_LEVEL", "DEBUG"))
+logging.config.dictConfig(
+    {
+        "version": 1,
+        "formatters": {
+            "default": {
+                "format": "%(asctime)s %(process)s %(levelname)s %(name)s %(message)s",
+                "datefmt": "%Y-%m-%d %H:%M:%S",
+            }
+        },
+        "handlers": {
+            "console": {
+                "level": os.environ.get("LOG_LEVEL", "DEBUG"),
+                "class": "logging.StreamHandler",
+                "stream": sys.stderr,
+            }
+        },
+        "root": {"level": "DEBUG", "handlers": ["console"], "propagate": True},
+    }
+)
+logging.getLogger("boto3").setLevel(logging.WARNING)
+logging.getLogger("botocore").setLevel(logging.WARNING)
+logging.getLogger("urllib3").setLevel(logging.WARNING)
+logging.getLogger("clickhouse_driver").setLevel(logging.WARNING)
+
+LOGGER = logging.getLogger(__name__)
 
 if "SENTRY_DSN" in os.environ:
     import sentry_sdk
@@ -42,6 +69,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 app.add_middleware(GZipMiddleware, minimum_size=1000, compresslevel=5)
+app.add_middleware(RouterLoggingMiddleware, logger=LOGGER)
 
 Instrumentator(should_group_status_codes=False).instrument(app).expose(app, include_in_schema=False)
 

@@ -1,8 +1,12 @@
+import logging
+
 from deadlock_assets_api import utils
 from deadlock_assets_api.models.v1.item import ItemV1
 from deadlock_assets_api.models.v2.raw_ability import RawAbilityV2
 from deadlock_assets_api.models.v2.raw_upgrade import RawUpgradeV2
 from deadlock_assets_api.models.v2.raw_weapon import RawWeaponV2
+
+LOGGER = logging.getLogger(__name__)
 
 
 def parse_items(data: dict) -> list[ItemV1]:
@@ -27,7 +31,7 @@ def parse_items_v2(data: dict) -> list[RawWeaponV2 | RawUpgradeV2 | RawAbilityV2
         and isinstance(v, dict)
     }
 
-    def parse(class_name, data) -> RawWeaponV2 | RawUpgradeV2 | RawAbilityV2:
+    def parse(class_name, data) -> RawWeaponV2 | RawUpgradeV2 | RawAbilityV2 | None:
         name = utils.strip_prefix(class_name, "citadel_").lower()
         first_word = name.split("_")[0]
         if first_word == "ability":
@@ -82,7 +86,7 @@ def parse_items_v2(data: dict) -> list[RawWeaponV2 | RawUpgradeV2 | RawAbilityV2
         ]
         if first_word in hero_list:
             return RawAbilityV2(class_name=class_name, **data)
-        print(f"Unknown class name: {class_name}")
+        LOGGER.warning(f"Unknown class name: {class_name}")
         return None
 
     items = [parse(k, v) for k, v in hero_dicts.items()]

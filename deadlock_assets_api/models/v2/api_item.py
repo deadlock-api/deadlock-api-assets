@@ -1,4 +1,5 @@
 import json
+import logging
 from typing import Annotated, Union
 
 from pydantic import Field
@@ -14,6 +15,8 @@ from deadlock_assets_api.models.v2.raw_weapon import RawWeaponV2
 
 ItemV2 = Annotated[Union[AbilityV2, WeaponV2, UpgradeV2], Field(discriminator="type")]
 
+LOGGER = logging.getLogger(__name__)
+
 
 def test_parse():
     def get_raw_heroes():
@@ -26,7 +29,7 @@ def test_parse():
         ]
 
     def get_raw_items():
-        def parse(class_name, data) -> RawWeaponV2 | RawUpgradeV2 | RawAbilityV2:
+        def parse(class_name, data) -> RawWeaponV2 | RawUpgradeV2 | RawAbilityV2 | None:
             name = utils.strip_prefix(class_name, "citadel_").lower()
             first_word = name.split("_")[0]
             if first_word == "ability":
@@ -81,7 +84,7 @@ def test_parse():
             ]
             if first_word in hero_list:
                 return RawAbilityV2(class_name=class_name, **data)
-            print(f"Unknown class name: {class_name}")
+            LOGGER.warning(f"Unknown class name: {class_name}")
             return None
 
         with open("res/raw_items.json") as f:

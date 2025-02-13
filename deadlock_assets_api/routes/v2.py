@@ -1,4 +1,5 @@
 import json
+import logging
 import os
 from enum import Enum
 
@@ -19,6 +20,8 @@ from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
 from deadlock_assets_api.models.v2.raw_upgrade import RawUpgradeV2
 from deadlock_assets_api.models.v2.raw_weapon import RawWeaponV2
 
+LOGGER = logging.getLogger(__name__)
+
 router = APIRouter(prefix="/v2", tags=["V2"])
 
 
@@ -26,7 +29,9 @@ def load_localizations(client_version: int) -> dict[Language, dict[str, str]]:
     localizations = {}
     for language in Language:
         localizations[language] = {}
-        print(f"Loading localization for client version {client_version} and language {language}")
+        LOGGER.debug(
+            f"Loading localization for client version {client_version} and language {language}"
+        )
         paths = [
             f"res/builds/{client_version}/v2/localization/citadel_gc_{language}.json",
             f"res/builds/{client_version}/v2/localization/citadel_heroes_{language}.json",
@@ -35,7 +40,7 @@ def load_localizations(client_version: int) -> dict[Language, dict[str, str]]:
         ]
         for path in paths:
             if not os.path.exists(path):
-                print(f"Path {path} does not exist")
+                LOGGER.warning(f"Path {path} does not exist")
                 continue
             with open(path) as f:
                 localizations[language].update(json.load(f)["lang"]["Tokens"])
@@ -48,7 +53,7 @@ def load_raw_heroes(client_version: int) -> list[RawHeroV2] | None:
         return None
     with open(path) as f:
         content = f.read()
-    print(f"Loading raw heroes for client version {client_version}")
+    LOGGER.debug(f"Loading raw heroes for client version {client_version}")
     return TypeAdapter(list[RawHeroV2]).validate_json(content)
 
 
@@ -60,7 +65,7 @@ def load_raw_items(
         return None
     with open(path) as f:
         content = f.read()
-    print(f"Loading raw items for client version {client_version}")
+    LOGGER.debug(f"Loading raw items for client version {client_version}")
     return TypeAdapter(list[RawAbilityV2 | RawWeaponV2 | RawUpgradeV2]).validate_json(content)
 
 
