@@ -6,17 +6,17 @@ from deadlock_assets_api.glob import IMAGE_BASE_URL
 
 RANK_COLORS = [
     "#333333",
-    "#CB643B",
-    "#96C86F",
-    "#66AEBC",
-    "#C15F78",
-    "#705B9C",
-    "#D7644F",
-    "#7DD1BA",
-    "#E75CC0",
-    "#B37134",
-    "#A89F96",
-    "#D9963F",
+    "#6A3E1E",
+    "#882355",
+    "#5C6DAB",
+    "#719C47",
+    "#DDA326",
+    "#EE4F57",
+    "#B47FEB",
+    "#955138",
+    "#7C7C7C",
+    "#C39751",
+    "#5CE9A9",
 ]
 
 
