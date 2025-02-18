@@ -24,6 +24,8 @@ class AbilityDescriptionV2(BaseModel):
     t1_desc: str | None
     t2_desc: str | None
     t3_desc: str | None
+    active: str | None
+    passive: str | None
 
     @classmethod
     def from_raw_ability(
@@ -67,6 +69,24 @@ class AbilityDescriptionV2(BaseModel):
                 localization,
                 localization.get(f"{raw_ability.class_name}_t3_desc"),
                 3,
+            ),
+            active=replace_templates(
+                raw_ability,
+                raw_heroes,
+                localization,
+                localization.get(f"{raw_ability.class_name}_active_desc")
+                or localization.get(f"{raw_ability.class_name}_active")
+                or localization.get(f"{raw_ability.class_name}_active1")
+                or localization.get(f"{raw_ability.class_name}_active2"),
+            ),
+            passive=replace_templates(
+                raw_ability,
+                raw_heroes,
+                localization,
+                localization.get(f"{raw_ability.class_name}_passive_desc")
+                or localization.get(f"{raw_ability.class_name}_passive")
+                or localization.get(f"{raw_ability.class_name}_passive1")
+                or localization.get(f"{raw_ability.class_name}_passive2"),
             ),
         )
 
