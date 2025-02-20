@@ -1,5 +1,5 @@
 from murmurhash2 import murmurhash2
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel, ConfigDict, Field
 
 from deadlock_assets_api.glob import IMAGE_BASE_URL
 from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
@@ -29,6 +29,26 @@ def parse_img_path(v):
     return v
 
 
+class ItemPropertyV2(RawItemPropertyV2):
+    model_config = ConfigDict(populate_by_name=True)
+
+    prefix: str | None = Field(None)
+    label: str | None = Field(None)
+    postfix: str | None = Field(None)
+
+    @classmethod
+    def from_raw_item_property(
+        cls,
+        raw_property: dict,
+        key: str,
+        localization: dict[str, str],
+    ) -> dict:
+        raw_property["label"] = localization.get(f"{key}_label")
+        raw_property["prefix"] = localization.get(f"{key}_prefix")
+        raw_property["postfix"] = localization.get(f"{key}_postfix")
+        return raw_property
+
+
 class ItemBaseV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
@@ -40,7 +60,7 @@ class ItemBaseV2(BaseModel):
     image_webp: str | None = None
     hero: int | None
     update_time: int | None
-    properties: dict[str, RawItemPropertyV2] | None
+    properties: dict[str, ItemPropertyV2] | None
     weapon_info: RawItemWeaponInfoV2 | None
 
     @classmethod
@@ -53,6 +73,11 @@ class ItemBaseV2(BaseModel):
         raw_model = raw_model.model_dump()
         raw_model["id"] = murmurhash2(raw_model["class_name"].encode(), 0x31415926)
         raw_model["name"] = localization.get(raw_model["class_name"], raw_model["class_name"])
+        if raw_model["properties"] is not None:
+            raw_model["properties"] = {
+                k: ItemPropertyV2.from_raw_item_property(v, k, localization)
+                for k, v in raw_model["properties"].items()
+            }
         raw_model["hero"] = next(
             (h.id for h in raw_heroes if raw_model["class_name"] in h.items.values()),
             None,

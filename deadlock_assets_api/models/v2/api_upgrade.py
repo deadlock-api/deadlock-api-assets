@@ -4,7 +4,7 @@ from pydantic import ConfigDict, Field, computed_field, BaseModel
 
 from deadlock_assets_api.models.v1.generic_data import load_generic_data
 from deadlock_assets_api.models.v1.item import ItemSlotTypeV1
-from deadlock_assets_api.models.v2.api_item_base import ItemBaseV2
+from deadlock_assets_api.models.v2.api_item_base import ItemBaseV2, ItemPropertyV2
 from deadlock_assets_api.models.v2.enums import ItemTierV2
 from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
 from deadlock_assets_api.models.v2.raw_item_base import RawItemPropertyV2
@@ -61,7 +61,7 @@ class UpgradeDescriptionV2(BaseModel):
         )
 
 
-class UpgradePropertyV2(RawItemPropertyV2):
+class UpgradePropertyV2(ItemPropertyV2):
     model_config = ConfigDict(populate_by_name=True)
 
     tooltip_section: RawAbilitySectionTypeV2 | None
@@ -73,6 +73,7 @@ class UpgradePropertyV2(RawItemPropertyV2):
         name: str,
         raw_property: RawItemPropertyV2,
         tooltip_sections: list[RawUpgradeTooltipSectionV2] | None,
+        localization: dict[str, str],
     ) -> "UpgradePropertyV2":
         def in_important_properties(name: str, sa: RawUpgradeTooltipSectionAttributeV2) -> bool:
             return any(
@@ -96,7 +97,7 @@ class UpgradePropertyV2(RawItemPropertyV2):
         except StopIteration:
             tooltip_section = None
         return cls(
-            **raw_property.model_dump(),
+            **ItemPropertyV2.from_raw_item_property(raw_property.model_dump(), name, localization),
             tooltip_section=tooltip_section.get("section_type") if tooltip_section else None,
             tooltip_is_important=any(
                 in_important_properties(name, sa)
@@ -165,7 +166,7 @@ class UpgradeV2(ItemBaseV2):
             raw_upgrade, raw_heroes, localization
         )
         raw_model["properties"] = {
-            k: UpgradePropertyV2.from_raw_upgrade(k, v, raw_model["tooltip_sections"])
+            k: UpgradePropertyV2.from_raw_upgrade(k, v, raw_model["tooltip_sections"], localization)
             for k, v in raw_upgrade.properties.items()
         }
         return cls(**raw_model)
