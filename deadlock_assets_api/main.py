@@ -3,8 +3,8 @@ import os
 import sys
 
 from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
 from prometheus_fastapi_instrumentator import Instrumentator
+from starlette.middleware.cors import CORSMiddleware
 from starlette.middleware.gzip import GZipMiddleware
 from starlette.requests import Request
 from starlette.responses import FileResponse, RedirectResponse, Response
@@ -62,14 +62,14 @@ _deadlock-api.com is not endorsed by Valve and does not reflect the views or opi
 """,
 )
 
+app.add_middleware(GZipMiddleware, minimum_size=1000, compresslevel=5)
+app.add_middleware(RouterLoggingMiddleware, logger=LOGGER)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
-app.add_middleware(GZipMiddleware, minimum_size=1000, compresslevel=5)
-app.add_middleware(RouterLoggingMiddleware, logger=LOGGER)
 
 Instrumentator(should_group_status_codes=False).instrument(app).expose(app, include_in_schema=False)
 
