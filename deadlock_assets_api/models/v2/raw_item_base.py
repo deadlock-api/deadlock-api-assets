@@ -3,7 +3,7 @@ from functools import lru_cache
 
 import css_parser
 from css_parser.css import CSSRuleList, CSSStyleRule
-from pydantic import AliasChoices, BaseModel, ConfigDict, Field, model_validator
+from pydantic import AliasChoices, BaseModel, ConfigDict, Field, model_validator, computed_field
 
 LOGGER = logging.getLogger(__name__)
 
@@ -48,10 +48,40 @@ class RawItemPropertyV2(BaseModel):
     loc_token_override: str | None = Field(None, validation_alias="m_strLocTokenOverride")
     display_units: str | None = Field(None, validation_alias="m_eDisplayUnits")
 
+    @computed_field
+    @property
+    def icon_path(self) -> str | None:
+        return parse_css_ability_properties_icon(self.css_class)
+
 
 @lru_cache
 def parse_css_rules(filename: str) -> CSSRuleList:
     return css_parser.parseFile(filename).cssRules
+
+
+def parse_css_ability_properties_icon(css_class_icon: str) -> str | None:
+    for rule in parse_css_rules("res/ability_properties.css"):
+        if not isinstance(rule, CSSStyleRule):
+            continue
+        css_class = next(
+            (
+                s
+                for s in " ".join(rule.selectorText.split(".")).split(" ")
+                if s == f"prop_{css_class_icon}"
+            ),
+            None,
+        )
+        if css_class is None:
+            continue
+        rule: CSSStyleRule = rule
+        background_image = rule.style.getProperty("background-image")
+        if background_image is None:
+            continue
+        background_image = background_image.value[4:-1]
+        background_image = background_image.replace("_psd.vtex", ".psd")
+        background_image = background_image.split("images/")[-1]
+        return 'panorama:"file://{images}/' + background_image + '"'
+    return None
 
 
 def parse_css_ability_icon(class_name: str) -> str | None:

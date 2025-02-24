@@ -82,6 +82,7 @@ find depots/game/ -type f -name '*.svg' -print0 | xargs -0 -n 1 cp -t svgs/
 
 # Extract css files
 cp "$citadel_folder"/panorama/styles/ability_icons.css res/
+cp "$citadel_folder"/panorama/styles/ability_properties.css res/
 cp "$citadel_folder"/panorama/styles/objectives_map.css res/
 cp "$citadel_folder"/panorama/styles/citadel_shared_colors.css res/
 

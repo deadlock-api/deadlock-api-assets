@@ -35,6 +35,7 @@ class ItemPropertyV2(RawItemPropertyV2):
     prefix: str | None = Field(None)
     label: str | None = Field(None)
     postfix: str | None = Field(None)
+    icon: str | None = Field(None)
 
     @classmethod
     def from_raw_item_property(
@@ -46,6 +47,7 @@ class ItemPropertyV2(RawItemPropertyV2):
         raw_property["label"] = localization.get(f"{key}_label")
         raw_property["prefix"] = localization.get(f"{key}_prefix")
         raw_property["postfix"] = localization.get(f"{key}_postfix")
+        raw_property["icon"] = parse_img_path(raw_property["icon_path"])
         return raw_property
 
 
