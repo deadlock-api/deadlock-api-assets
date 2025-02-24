@@ -1,7 +1,7 @@
 from murmurhash2 import murmurhash2
 from pydantic import BaseModel, ConfigDict, Field
 
-from deadlock_assets_api.glob import IMAGE_BASE_URL
+from deadlock_assets_api.glob import IMAGE_BASE_URL, SVGS_BASE_URL
 from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
 from deadlock_assets_api.models.v2.raw_item_base import (
     RawItemBaseV2,
@@ -21,11 +21,16 @@ def parse_img_path(v):
     if split_index == -1:
         _, v = v.split("{images}/")
         split_index = 0
-    v = f"{IMAGE_BASE_URL}/{v[split_index:]}"
+    v = v[split_index:]
     v = v.replace('"', "")
     v = v.replace("_psd.", ".")
     v = v.replace("_png.", ".")
     v = v.replace(".psd", ".png")
+    v = v.replace(".vsvg", ".svg")
+    if v.endswith(".svg"):
+        v = f"{SVGS_BASE_URL}/{v.split('/')[-1]}"
+    else:
+        v = f"{IMAGE_BASE_URL}/{v}"
     return v
 
 
@@ -35,6 +40,7 @@ class ItemPropertyV2(RawItemPropertyV2):
     prefix: str | None = Field(None)
     label: str | None = Field(None)
     postfix: str | None = Field(None)
+    icon: str | None = Field(None)
 
     @classmethod
     def from_raw_item_property(
@@ -43,6 +49,8 @@ class ItemPropertyV2(RawItemPropertyV2):
         key: str,
         localization: dict[str, str],
     ) -> dict:
+        raw_property["icon"] = parse_img_path(raw_property["icon_path"])
+        del raw_property["icon_path"]
         raw_property["label"] = localization.get(f"{key}_label")
         raw_property["prefix"] = localization.get(f"{key}_prefix")
         raw_property["postfix"] = localization.get(

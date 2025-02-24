@@ -3,9 +3,7 @@ from functools import lru_cache
 
 import css_parser
 from css_parser.css import CSSRuleList, CSSStyleRule
-from pydantic import AliasChoices, BaseModel, ConfigDict, Field, model_validator, computed_field
-
-from deadlock_assets_api.glob import IMAGE_BASE_URL, SVGS_BASE_URL
+from pydantic import AliasChoices, BaseModel, ConfigDict, Field, model_validator, field_validator
 
 LOGGER = logging.getLogger(__name__)
 
@@ -49,34 +47,16 @@ class RawItemPropertyV2(BaseModel):
     disable_value: str | None = Field(None, validation_alias="m_strDisableValue")
     loc_token_override: str | None = Field(None, validation_alias="m_strLocTokenOverride")
     display_units: str | None = Field(None, validation_alias="m_eDisplayUnits")
+    icon_path: str | None = Field(None, validation_alias="m_strCSSClass")
 
-    @computed_field
-    @property
-    def icon(self) -> str | None:
-        def parse_img_path(v):
-            if v is None:
-                return None
-            split_index = v.find("abilities/")
-            if split_index == -1:
-                split_index = v.find("upgrades/")
-            if split_index == -1:
-                split_index = v.find("hud/")
-            if split_index == -1:
-                _, v = v.split("{images}/")
-                split_index = 0
-            v = v[split_index:]
-            v = v.replace('"', "")
-            v = v.replace("_psd.", ".")
-            v = v.replace("_png.", ".")
-            v = v.replace(".psd", ".png")
-            v = v.replace(".vsvg", ".svg")
-            if v.endswith(".svg"):
-                v = f"{SVGS_BASE_URL}/{v.split('/')[-1]}"
-            else:
-                v = f"{IMAGE_BASE_URL}/{v}"
-            return v
-
-        return parse_img_path(parse_css_ability_properties_icon(self.css_class))
+    @field_validator("icon_path")
+    @classmethod
+    def validate_icon_path(cls, value: str | None, _) -> bool | None:
+        if value is None:
+            return None
+        if value.startswith("panorama"):
+            return value
+        return parse_css_ability_properties_icon(value)
 
 
 @lru_cache

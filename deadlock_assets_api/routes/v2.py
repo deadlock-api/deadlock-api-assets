@@ -99,6 +99,7 @@ def get_raw_items(
     client_version: int,
 ) -> list[RawAbilityV2 | RawWeaponV2 | RawUpgradeV2] | None:
     if client_version == max(ALL_CLIENT_VERSIONS):
+        print("USE CACHED")
         return RAW_ITEMS
     else:
         return load_raw_items(client_version)
