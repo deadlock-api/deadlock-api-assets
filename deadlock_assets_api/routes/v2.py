@@ -227,7 +227,7 @@ def get_items_by_hero_id(
         "citadel_ability_zip_line",
         "citadel_ability_zipline_boost",
     }
-    return [i for i in items if i.hero == id and i.class_name not in filter_class_names]
+    return [i for i in items if id in i.heroes and i.class_name not in filter_class_names]
 
 
 @router.get("/items/by-type/{type}", response_model_exclude_none=True)

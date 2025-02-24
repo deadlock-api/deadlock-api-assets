@@ -61,6 +61,7 @@ class ItemBaseV2(BaseModel):
     image: str | None
     image_webp: str | None = None
     hero: int | None
+    heroes: list[int] | None
     update_time: int | None
     properties: dict[str, ItemPropertyV2] | None
     weapon_info: RawItemWeaponInfoV2 | None
@@ -84,6 +85,9 @@ class ItemBaseV2(BaseModel):
             (h.id for h in raw_heroes if raw_model["class_name"] in h.items.values()),
             None,
         )
+        raw_model["heroes"] = [
+            h.id for h in raw_heroes if raw_model["class_name"] in h.items.values()
+        ]
         raw_model["image"] = parse_img_path(raw_model["image"])
         if raw_model["image"] is not None:
             raw_model["image_webp"] = raw_model["image"].replace(".png", ".webp")
