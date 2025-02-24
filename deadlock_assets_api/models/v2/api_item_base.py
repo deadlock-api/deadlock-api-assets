@@ -45,7 +45,9 @@ class ItemPropertyV2(RawItemPropertyV2):
     ) -> dict:
         raw_property["label"] = localization.get(f"{key}_label")
         raw_property["prefix"] = localization.get(f"{key}_prefix")
-        raw_property["postfix"] = localization.get(f"{key}_postfix")
+        raw_property["postfix"] = localization.get(
+            f"{key}_postfix", localization.get(f"{key}_postfx")
+        )
         return raw_property
 
 
