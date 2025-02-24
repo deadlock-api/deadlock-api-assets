@@ -5,7 +5,7 @@ import css_parser
 from css_parser.css import CSSRuleList, CSSStyleRule
 from pydantic import AliasChoices, BaseModel, ConfigDict, Field, model_validator, computed_field
 
-from deadlock_assets_api.glob import IMAGE_BASE_URL
+from deadlock_assets_api.glob import IMAGE_BASE_URL, SVGS_BASE_URL
 
 LOGGER = logging.getLogger(__name__)
 
@@ -64,11 +64,16 @@ class RawItemPropertyV2(BaseModel):
             if split_index == -1:
                 _, v = v.split("{images}/")
                 split_index = 0
-            v = f"{IMAGE_BASE_URL}/{v[split_index:]}"
+            v = v[split_index:]
             v = v.replace('"', "")
             v = v.replace("_psd.", ".")
             v = v.replace("_png.", ".")
             v = v.replace(".psd", ".png")
+            v = v.replace(".vsvg", ".svg")
+            if v.endswith(".svg"):
+                v = f"{SVGS_BASE_URL}/{v.split('/')[-1]}"
+            else:
+                v = f"{IMAGE_BASE_URL}/{v}"
             return v
 
         return parse_img_path(parse_css_ability_properties_icon(self.css_class))

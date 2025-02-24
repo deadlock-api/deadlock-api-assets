@@ -6232,7 +6232,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "25"
@@ -6474,7 +6474,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "190"
@@ -6484,7 +6484,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "125"
@@ -7322,7 +7322,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "120"
@@ -7645,7 +7645,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "70"
@@ -8171,7 +8171,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "350"
@@ -8191,7 +8191,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "50"
@@ -8474,7 +8474,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "120"
@@ -8829,7 +8829,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "50"
@@ -9168,7 +9168,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
         "value": "0"
@@ -9451,7 +9451,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "25"
@@ -9461,7 +9461,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "75"
@@ -10022,7 +10022,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "100"
@@ -10456,7 +10456,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "50"
@@ -10961,7 +10961,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "45"
@@ -11406,7 +11406,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "250"
@@ -11436,7 +11436,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "100"
@@ -11476,7 +11476,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "1.5"
@@ -11496,7 +11496,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "1.0"
@@ -12589,7 +12589,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BONUS_CRIT_DAMAGE_PERCENT",
         "value": "20"
@@ -12868,7 +12868,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "120"
@@ -13127,7 +13127,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "10"
@@ -13137,7 +13137,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "30"
@@ -13207,7 +13207,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "125"
@@ -13470,7 +13470,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "8"
@@ -15270,7 +15270,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "20"
@@ -15785,7 +15785,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "100"
@@ -16260,7 +16260,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "120"
@@ -16545,7 +16545,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "125"
@@ -17459,7 +17459,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_CLOSE_RANGE_BONUS_BASE_DAMAGE_PERCENT",
         "value": "0"
@@ -17698,7 +17698,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "48"
@@ -17973,7 +17973,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "100"
@@ -18697,7 +18697,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "40"
@@ -18777,7 +18777,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_ATTACK_DAMAGE_ADDITIVE_ONLY",
         "value": "0"
@@ -19249,7 +19249,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
         "value": "0"
@@ -19279,7 +19279,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "150"
@@ -19574,7 +19574,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "35"
@@ -20332,7 +20332,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "80"
@@ -20667,7 +20667,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "120"
@@ -21020,7 +21020,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "205"
@@ -21359,7 +21359,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "40"
@@ -22151,7 +22151,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "100"
@@ -23646,7 +23646,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "100"
@@ -24415,7 +24415,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "120"
@@ -24678,7 +24678,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "120"
@@ -25382,7 +25382,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "45"
@@ -25661,7 +25661,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "10"
@@ -25990,7 +25990,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "5"
@@ -26040,7 +26040,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "85"
@@ -26070,7 +26070,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "25"
@@ -26429,7 +26429,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "125"
@@ -27113,7 +27113,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "100"
@@ -27753,7 +27753,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "64"
@@ -28359,7 +28359,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "60"
@@ -28369,7 +28369,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "0"
@@ -29496,7 +29496,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "60"
@@ -29764,7 +29764,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "64"
@@ -30463,7 +30463,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "30"
@@ -31542,7 +31542,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "0"
@@ -31552,7 +31552,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "0"
@@ -31582,7 +31582,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "100"
@@ -31602,7 +31602,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "30"
@@ -31831,7 +31831,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "32"
@@ -32130,7 +32130,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "35"
@@ -33404,7 +33404,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "80"
@@ -33693,7 +33693,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "40"
@@ -33956,7 +33956,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "16"
@@ -34229,7 +34229,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "10"
@@ -34532,7 +34532,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "110"
@@ -35282,7 +35282,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "70"
@@ -35601,7 +35601,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "50 100 200"
@@ -36162,7 +36162,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "0.2"
@@ -36182,7 +36182,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "0"
@@ -36505,7 +36505,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": "BonusWeaponDamage",
         "provided_property_type": "MODIFIER_VALUE_ATTACK_DAMAGE_ADDITIVE_ONLY",
         "value": "2"
@@ -37145,7 +37145,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "50"
@@ -37428,7 +37428,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "60"
@@ -37721,7 +37721,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "10.0"
@@ -37994,7 +37994,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "3.0"
@@ -38024,7 +38024,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "40"
@@ -38315,7 +38315,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "140"
@@ -38325,7 +38325,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "20"
@@ -38335,7 +38335,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "145"
@@ -38435,7 +38435,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_ATTACK_DAMAGE_ADDITIVE_ONLY",
         "value": "13"
@@ -39282,7 +39282,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "160"
@@ -39619,7 +39619,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "40"
@@ -40110,7 +40110,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "50"
@@ -40445,7 +40445,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_DAMAGE_PERCENT",
         "value": "0"
@@ -40505,7 +40505,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "15"
@@ -41199,7 +41199,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "60"
@@ -41219,7 +41219,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_FIRE_RATE_SLOW",
         "value": "40"
@@ -41534,7 +41534,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_DAMAGE_PERCENT",
         "value": "0"
@@ -41909,7 +41909,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "80"
@@ -42958,7 +42958,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_ATTACK_DAMAGE_ADDITIVE_ONLY",
         "value": "0"
@@ -43243,7 +43243,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "90"
@@ -43253,7 +43253,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "6.0"
@@ -43263,7 +43263,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "4.5"
@@ -43556,7 +43556,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "115"
@@ -43929,7 +43929,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "65"
@@ -44463,7 +44463,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "70"
@@ -44886,7 +44886,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "12"
@@ -46194,7 +46194,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "60"
@@ -46493,7 +46493,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "80"
@@ -46808,7 +46808,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "40"
@@ -47081,7 +47081,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "60"
@@ -48062,7 +48062,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "100"
@@ -48467,7 +48467,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "30"
@@ -48477,7 +48477,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "100"
@@ -49055,7 +49055,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "40"
@@ -50256,7 +50256,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "100"
@@ -50555,7 +50555,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "0"
@@ -50635,7 +50635,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_ATTACK_DAMAGE_ADDITIVE_ONLY",
         "value": "4"
@@ -50876,7 +50876,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "30"
@@ -51195,7 +51195,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "5"
@@ -51215,7 +51215,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "250"
@@ -52118,7 +52118,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "5"
@@ -52158,7 +52158,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "35"
@@ -52467,7 +52467,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "105"
@@ -53035,7 +53035,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "200"
@@ -54703,7 +54703,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "16"
@@ -54986,7 +54986,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "16"
@@ -54996,7 +54996,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "40"
@@ -55281,7 +55281,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "80"
@@ -55746,7 +55746,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "80"
@@ -55766,7 +55766,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "120"
@@ -56011,7 +56011,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "24"
@@ -56021,7 +56021,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "4"
@@ -56294,7 +56294,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "80"
@@ -56667,7 +56667,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "24"
@@ -56697,7 +56697,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "32"
@@ -57436,7 +57436,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "90"
@@ -57486,7 +57486,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_ATTACK_DAMAGE_ADDITIVE_ONLY",
         "value": "0"
@@ -57877,7 +57877,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "100"
@@ -57907,7 +57907,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_FIRE_RATE_SLOW",
         "value": "0"
@@ -58178,7 +58178,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "0"
@@ -58645,7 +58645,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "35"
@@ -58934,7 +58934,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
         "value": "50"
@@ -59229,7 +59229,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "23"
@@ -60386,7 +60386,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "60"
@@ -60655,7 +60655,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "80"
@@ -61034,7 +61034,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "150"
@@ -61790,7 +61790,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "90"
@@ -61800,7 +61800,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "55"
@@ -62454,7 +62454,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "16"
@@ -62723,7 +62723,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "80"
@@ -63224,7 +63224,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "80"
@@ -63503,7 +63503,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "190"
@@ -64751,7 +64751,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "90"
@@ -65461,7 +65461,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "75"
@@ -65784,7 +65784,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "140"
@@ -66857,7 +66857,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "120"
@@ -67335,7 +67335,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "65"
@@ -67355,7 +67355,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_FIRE_RATE_SLOW",
         "value": "0"
@@ -67435,7 +67435,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "-30"
@@ -67684,7 +67684,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "100"
@@ -68348,7 +68348,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "200"
@@ -68846,7 +68846,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "40"
@@ -69189,7 +69189,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "0.0"
@@ -69482,7 +69482,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "80"
@@ -70441,7 +70441,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "80"
@@ -70816,7 +70816,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "80"
@@ -70836,7 +70836,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "25"
@@ -71109,7 +71109,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "75"
@@ -71432,7 +71432,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "160"
@@ -71665,7 +71665,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "16"
@@ -72632,7 +72632,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "160"
@@ -72642,7 +72642,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "60"
@@ -72662,7 +72662,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "40"
@@ -72937,7 +72937,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "70"
@@ -72977,7 +72977,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_ATTACK_DAMAGE_ADDITIVE_ONLY",
         "value": "0"
@@ -73196,7 +73196,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "60"
@@ -73216,7 +73216,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_FIRE_RATE_SLOW",
         "value": "20"
@@ -74542,7 +74542,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "15"
@@ -74777,7 +74777,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_NON_PLAYER_BONUS_BASE_DAMAGE_PERCENT",
         "value": "30"
@@ -74787,7 +74787,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_NON_HERO",
         "value": "30"
@@ -75023,7 +75023,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "1"
@@ -75616,7 +75616,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "60"
@@ -75666,7 +75666,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "30"
@@ -75890,7 +75890,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "75"
@@ -75960,7 +75960,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "50"
@@ -76238,7 +76238,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "22"
@@ -76469,7 +76469,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "25"
@@ -76479,7 +76479,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "25"
@@ -76489,7 +76489,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT",
         "value": "35"
@@ -76935,7 +76935,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "12"
@@ -76945,7 +76945,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT",
         "value": "25"
@@ -77429,7 +77429,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_CLOSE_RANGE_BONUS_BASE_DAMAGE_PERCENT",
         "value": "25"
@@ -77659,7 +77659,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_LONG_RANGE_BONUS_BASE_DAMAGE_PERCENT",
         "value": "40"
@@ -77870,7 +77870,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "16"
@@ -77910,7 +77910,7 @@
         "css_class": "tech_damage",
         "disable_value": "0",
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "5"
@@ -78101,7 +78101,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "25"
@@ -78560,7 +78560,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "7"
@@ -78988,7 +78988,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "48"
@@ -79564,7 +79564,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "12"
@@ -79574,7 +79574,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BULLET_SHIELD_DAMAGE_PERCENT",
         "value": "60"
@@ -80075,7 +80075,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_HEIGHT_ADVANTAGE_BONUS_BASE_DAMAGE_PERCENT",
         "value": "50"
@@ -80278,7 +80278,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "100"
@@ -80738,7 +80738,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "20"
@@ -80788,7 +80788,7 @@
         "css_class": "tech_damage",
         "disable_value": "0",
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "18"
@@ -81283,7 +81283,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "5"
@@ -82063,7 +82063,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "40"
@@ -82316,7 +82316,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_LONG_RANGE_BONUS_BASE_DAMAGE_PERCENT",
         "value": "70"
@@ -82531,7 +82531,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "15"
@@ -82581,7 +82581,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "140"
@@ -82820,7 +82820,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "20"
@@ -83075,7 +83075,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "0.0001"
@@ -83105,7 +83105,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "1"
@@ -83315,7 +83315,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "12"
@@ -83335,7 +83335,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "65"
@@ -83375,7 +83375,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "4"
@@ -83872,7 +83872,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_CLOSE_RANGE_BONUS_BASE_DAMAGE_PERCENT",
         "value": "45"
@@ -84535,7 +84535,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "5"
@@ -85207,7 +85207,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "60"
@@ -86056,7 +86056,7 @@
         "css_class": "tech_damage",
         "disable_value": "0",
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "5"
@@ -87306,7 +87306,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "6"
@@ -87545,7 +87545,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "20"
@@ -88406,7 +88406,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "135"
@@ -89095,7 +89095,7 @@
         "css_class": "tech_damage",
         "disable_value": "0",
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "8"
@@ -89517,7 +89517,7 @@
         "css_class": "tech_damage",
         "disable_value": "0",
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "8"
@@ -89951,7 +89951,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "25"
@@ -90231,7 +90231,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "20"
@@ -90271,7 +90271,7 @@
         "css_class": "tech_damage",
         "disable_value": "0",
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "18"
@@ -90654,7 +90654,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "4"
@@ -91174,7 +91174,7 @@
         "css_class": "tech_damage",
         "disable_value": "0",
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "8"
@@ -92492,7 +92492,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": "BonusBaseWeaponDamageWithShield",
         "provided_property_type": null,
         "value": "22"
@@ -92721,7 +92721,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "20"
@@ -93395,7 +93395,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "50"
@@ -93661,7 +93661,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "60"
@@ -93691,7 +93691,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "30"
@@ -94353,7 +94353,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "6"
@@ -95330,7 +95330,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_DAMAGE_PERCENT",
         "value": "40"
@@ -95567,7 +95567,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "6"
@@ -95587,7 +95587,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": "MagicBurstDamage",
         "provided_property_type": null,
         "value": "35"
@@ -95810,7 +95810,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "8"
@@ -95830,7 +95830,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": "MagicShockDamage",
         "provided_property_type": null,
         "value": "7"
@@ -96079,7 +96079,7 @@
         "css_class": "tech_damage",
         "disable_value": "0",
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "35"
@@ -97236,7 +97236,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "12"
@@ -98329,7 +98329,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "70"
@@ -98359,7 +98359,7 @@
         "css_class": "tech_damage",
         "disable_value": "0",
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "5"
@@ -98883,7 +98883,7 @@
         "css_class": "tech_damage",
         "disable_value": "0",
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "9"
@@ -99335,7 +99335,7 @@
         "css_class": "tech_damage",
         "disable_value": "0",
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "12"
@@ -99763,7 +99763,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "5"
@@ -100031,7 +100031,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "75"
@@ -100666,7 +100666,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "3.1"
@@ -100696,7 +100696,7 @@
         "css_class": "tech_damage",
         "disable_value": "0",
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "7"
@@ -100941,7 +100941,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "3"
@@ -101357,7 +101357,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "20"
@@ -101397,7 +101397,7 @@
         "css_class": "tech_damage",
         "disable_value": "0",
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "6"
@@ -101610,7 +101610,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "30"
@@ -101640,7 +101640,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "75"
@@ -101868,7 +101868,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "20"
@@ -101908,7 +101908,7 @@
         "css_class": "tech_damage",
         "disable_value": "0",
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "8"
@@ -102811,7 +102811,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "40"
@@ -102831,7 +102831,7 @@
         "css_class": "tech_damage",
         "disable_value": "0",
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "6"
@@ -103052,7 +103052,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "65"
@@ -103746,7 +103746,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
         "value": "30"
@@ -103756,7 +103756,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "55"
@@ -104331,7 +104331,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "100"
@@ -104351,7 +104351,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "20"
@@ -104602,7 +104602,7 @@
         "css_class": "tech_damage",
         "disable_value": "0",
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "8"
@@ -104829,7 +104829,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "0"
@@ -104909,7 +104909,7 @@
         "css_class": "tech_damage",
         "disable_value": "0",
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "10"
@@ -105405,7 +105405,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "12"
@@ -106199,7 +106199,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "16"
@@ -106983,7 +106983,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "14"
@@ -107023,7 +107023,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "55"
@@ -107033,7 +107033,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "7"
@@ -107043,7 +107043,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "95"
@@ -107820,7 +107820,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "-5"
@@ -107850,7 +107850,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "30"
@@ -107880,7 +107880,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "6"
@@ -107890,7 +107890,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "3.5"
@@ -108488,7 +108488,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "12"
@@ -109010,7 +109010,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "75"
@@ -109520,7 +109520,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "14"
@@ -109821,7 +109821,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "250"
@@ -110308,7 +110308,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "20"
@@ -111015,7 +111015,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "15"
@@ -111253,7 +111253,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "70"
@@ -111811,7 +111811,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "50"
@@ -111821,7 +111821,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "10"
@@ -111831,7 +111831,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "100"
@@ -112917,7 +112917,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "50"
@@ -113902,7 +113902,7 @@
         "css_class": "tech_damage",
         "disable_value": "0",
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "40"
@@ -114434,7 +114434,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "25"
@@ -114948,7 +114948,7 @@
         "css_class": "tech_damage",
         "disable_value": "0",
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "4"
@@ -115351,7 +115351,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": "ClarityBonusSpirit",
         "provided_property_type": null,
         "value": "28"
@@ -115623,7 +115623,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "34"
@@ -115880,7 +115880,7 @@
         "css_class": "tech_damage",
         "disable_value": "0",
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_TECH_POWER",
         "value": "4"
@@ -116083,7 +116083,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "65"
@@ -116355,7 +116355,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "1"
@@ -116566,7 +116566,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "50"
@@ -116797,7 +116797,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "20"
@@ -116807,7 +116807,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "60"
@@ -117508,7 +117508,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "10"
@@ -118119,7 +118119,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "7"
@@ -118385,7 +118385,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "18"
@@ -118602,7 +118602,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "10"
@@ -119397,7 +119397,7 @@
         "css_class": "tech_damage",
         "disable_value": null,
         "display_units": null,
-        "icon": "https://assets.deadlock-api.com/images/hud/core/icon_damage_mystic.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/icon_damage_mystic.svg",
         "loc_token_override": null,
         "provided_property_type": null,
         "value": "200"
@@ -119612,7 +119612,7 @@
         "css_class": "bullet_damage",
         "disable_value": null,
         "display_units": "EDisplayUnit_Normal",
-        "icon": "https://assets.deadlock-api.com/images/upgrades/property_bullet_dmg.vsvg",
+        "icon": "https://assets.deadlock-api.com/icons/property_bullet_dmg.svg",
         "loc_token_override": null,
         "provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
         "value": "70"
