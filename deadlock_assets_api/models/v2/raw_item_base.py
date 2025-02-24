@@ -5,6 +5,8 @@ import css_parser
 from css_parser.css import CSSRuleList, CSSStyleRule
 from pydantic import AliasChoices, BaseModel, ConfigDict, Field, model_validator, computed_field
 
+from deadlock_assets_api.glob import IMAGE_BASE_URL
+
 LOGGER = logging.getLogger(__name__)
 
 
@@ -50,8 +52,26 @@ class RawItemPropertyV2(BaseModel):
 
     @computed_field
     @property
-    def icon_path(self) -> str | None:
-        return parse_css_ability_properties_icon(self.css_class)
+    def icon(self) -> str | None:
+        def parse_img_path(v):
+            if v is None:
+                return None
+            split_index = v.find("abilities/")
+            if split_index == -1:
+                split_index = v.find("upgrades/")
+            if split_index == -1:
+                split_index = v.find("hud/")
+            if split_index == -1:
+                _, v = v.split("{images}/")
+                split_index = 0
+            v = f"{IMAGE_BASE_URL}/{v[split_index:]}"
+            v = v.replace('"', "")
+            v = v.replace("_psd.", ".")
+            v = v.replace("_png.", ".")
+            v = v.replace(".psd", ".png")
+            return v
+
+        return parse_img_path(parse_css_ability_properties_icon(self.css_class))
 
 
 @lru_cache
