@@ -51,7 +51,11 @@ class ItemPropertyV2(RawItemPropertyV2):
     ) -> dict:
         raw_property["icon"] = parse_img_path(raw_property["icon_path"])
         del raw_property["icon_path"]
-        raw_property["label"] = localization.get(f"{key}_label")
+        if key == "BuildUpDuration":
+            key = "BuildupDuration"
+        if key == "MoveSlowPercent":
+            key = "SlowPercent"
+        raw_property["label"] = localization.get(f"{key}_label", localization.get(f"{key}_Label"))
         raw_property["prefix"] = localization.get(f"{key}_prefix")
         raw_property["postfix"] = localization.get(
             f"{key}_postfix", localization.get(f"{key}_postfx")
