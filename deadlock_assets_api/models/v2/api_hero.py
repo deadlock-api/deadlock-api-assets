@@ -255,7 +255,6 @@ class HeroV2(BaseModel):
     recommended_upgrades: list[str] | None
     recommended_ability_order: list[str] | None
     player_selectable: bool
-    bot_selectable: bool
     disabled: bool
     in_development: bool
     needs_testing: bool
@@ -263,7 +262,6 @@ class HeroV2(BaseModel):
     limited_testing: bool
     complexity: int
     skin: int
-    readability: int
     images: HeroImagesV2
     items: dict[HeroItemTypeV1, str]
     starting_stats: HeroStartingStatsV2

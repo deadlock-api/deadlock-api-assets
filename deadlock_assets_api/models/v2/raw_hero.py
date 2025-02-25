@@ -135,7 +135,6 @@ class RawHeroV2(BaseModel):
         None, validation_alias="m_RecommendedAbilityOrder"
     )
     player_selectable: bool = Field(..., validation_alias="m_bPlayerSelectable")
-    bot_selectable: bool = Field(..., validation_alias="m_bBotSelectable")
     disabled: bool = Field(..., validation_alias="m_bDisabled")
     in_development: bool = Field(..., validation_alias="m_bInDevelopment")
     needs_testing: bool = Field(..., validation_alias="m_bNeedsTesting")
@@ -144,7 +143,6 @@ class RawHeroV2(BaseModel):
     limited_testing: bool = Field(..., validation_alias="m_bLimitedTesting")
     complexity: int = Field(..., validation_alias="m_nComplexity")
     skin: int = Field(..., validation_alias="m_nModelSkin")
-    readability: int = Field(..., validation_alias="m_nReadability")
     starting_stats: RawHeroStartingStatsV2 = Field(..., validation_alias="m_mapStartingStats")
     icon_hero_card: str | None = Field(None, validation_alias="m_strIconHeroCard")
     icon_image_small: str | None = Field(None, validation_alias="m_strIconImageSmall")
