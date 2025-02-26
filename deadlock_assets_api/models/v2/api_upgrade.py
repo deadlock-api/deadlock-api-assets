@@ -108,6 +108,41 @@ class UpgradePropertyV2(ItemPropertyV2):
         )
 
 
+class UpgradeTooltipSectionAttributeV2(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    properties: list[str] | None
+    important_properties: list[str] | None
+
+    @classmethod
+    def from_raw_section_attribute(cls, raw_section_attribute: RawUpgradeTooltipSectionAttributeV2):
+        return cls(
+            properties=raw_section_attribute.properties,
+            important_properties=[
+                p.important_property
+                for p in raw_section_attribute.important_properties or []
+                if p.important_property
+            ],
+        )
+
+
+class UpgradeTooltipSectionV2(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    section_type: RawAbilitySectionTypeV2 | None
+    section_attributes: list[UpgradeTooltipSectionAttributeV2] | None
+
+    @classmethod
+    def from_raw_section(cls, raw_section: RawUpgradeTooltipSectionV2):
+        return cls(
+            section_type=raw_section.section_type,
+            section_attributes=[
+                UpgradeTooltipSectionAttributeV2.from_raw_section_attribute(s)
+                for s in raw_section.section_attributes or []
+            ],
+        )
+
+
 class UpgradeV2(ItemBaseV2):
     model_config = ConfigDict(populate_by_name=True)
 
@@ -121,6 +156,7 @@ class UpgradeV2(ItemBaseV2):
     activation: RawAbilityActivationV2
     imbue: RawAbilityImbueV2 | None
     component_items: list[str] | None
+    tooltip_sections: list[UpgradeTooltipSectionV2] | None
 
     @computed_field
     @property
@@ -169,6 +205,9 @@ class UpgradeV2(ItemBaseV2):
             k: UpgradePropertyV2.from_raw_upgrade(k, v, raw_model["tooltip_sections"], localization)
             for k, v in raw_upgrade.properties.items()
         }
+        raw_model["tooltip_sections"] = [
+            UpgradeTooltipSectionV2.from_raw_section(s) for s in raw_upgrade.tooltip_sections or []
+        ]
         return cls(**raw_model)
 
     @computed_field
