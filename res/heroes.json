@@ -16970,7 +16970,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/magician_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
-    "playstyle": "With the help of their unwilling assistant, THE MAGNIFICENT SINCLAIR can confuse enemies with curving hexes and rapid bolts.",
+    "playstyle": "With the help of their unwilling assistant, <i>The Magnificent Sinclair</i> can confuse enemies with curving hexes and rapid bolts.",
     "purchase_bonuses": {
       "armor": [
         {
