@@ -16,7 +16,7 @@ TOWER_IDS = {
     **{f"#Team{team_id + 1}Core": f"team{team_id}_core" for team_id in range(2)},
     **{f"#Team{team_id + 1}Titan": f"team{team_id}_titan" for team_id in range(2)},
     **{
-        f"#Team{team_id + 1}Tier{tier + 1}_{i}": f"team{team_id}_tier{tier + 1}_{i}"
+        f".ThreeLane #Team{team_id + 1}Tier{tier + 1}_{i}": f"team{team_id}_tier{tier + 1}_{i}"
         for team_id in range(2)
         for tier in range(2)
         for i in range(1, 5)
@@ -45,19 +45,19 @@ class ObjectivePositionsV1(BaseModel):
     team0_titan: ObjectivePositionV1
     team1_titan: ObjectivePositionV1
     team0_tier2_1: ObjectivePositionV1
-    team0_tier2_2: ObjectivePositionV1
+    team0_tier2_2: ObjectivePositionV1 | None = Field(None)
     team0_tier2_3: ObjectivePositionV1
     team0_tier2_4: ObjectivePositionV1
     team1_tier2_1: ObjectivePositionV1
-    team1_tier2_2: ObjectivePositionV1
+    team1_tier2_2: ObjectivePositionV1 | None = Field(None)
     team1_tier2_3: ObjectivePositionV1
     team1_tier2_4: ObjectivePositionV1
     team0_tier1_1: ObjectivePositionV1
-    team0_tier1_2: ObjectivePositionV1
+    team0_tier1_2: ObjectivePositionV1 | None = Field(None)
     team0_tier1_3: ObjectivePositionV1
     team0_tier1_4: ObjectivePositionV1
     team1_tier1_1: ObjectivePositionV1
-    team1_tier1_2: ObjectivePositionV1
+    team1_tier1_2: ObjectivePositionV1 | None = Field(None)
     team1_tier1_3: ObjectivePositionV1
     team1_tier1_4: ObjectivePositionV1
 
@@ -126,6 +126,7 @@ class MapV1(BaseModel):
     @property
     def objective_positions(self) -> ObjectivePositionsV1:
         objectives = load_objectives()
+        print(objectives)
 
         def parse_percentage(value: str) -> float:
             if value.endswith("%"):
