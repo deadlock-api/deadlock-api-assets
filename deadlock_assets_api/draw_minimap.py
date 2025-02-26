@@ -4,7 +4,6 @@ from matplotlib import pyplot as plt
 from matplotlib import rcParams
 from matplotlib.axes import Axes
 from shapely.geometry.linestring import LineString
-from shapelysmooth import chaikin_smooth
 
 from deadlock_assets_api.models.map_data import (
     LANE_COLORS,
@@ -49,8 +48,7 @@ def get_smoothed_lanes() -> list[LineString]:
     lanes = [
         [lane_points[:2] + origin for lane_points in lane] for lane, origin in zip(lanes, origins)
     ]
-    lanes = [LineString(lane_points) for lane_points in lanes]
-    return [chaikin_smooth(lane, iters=1) for lane in lanes]
+    return [LineString(lane_points) for lane_points in lanes]
 
 
 def add_background(ax: Axes):

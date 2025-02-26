@@ -65,14 +65,6 @@ class ObjectivePositionsV1(BaseModel):
 class MapImagesV1(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    minimap: str = Field(
-        ...,
-        description="The minimap image of the map.",
-    )
-    plain: str = Field(
-        ...,
-        description="The minimap image of the map without background image and frame image.",
-    )
     background: str = Field(
         ...,
         description="The background image of the map.",
@@ -165,8 +157,6 @@ class MapV1(BaseModel):
     def get_default(cls) -> "MapV1":
         return cls(
             images=MapImagesV1(
-                minimap=f"{IMAGE_BASE_URL}/maps/minimap.png",
-                plain=f"{IMAGE_BASE_URL}/maps/minimap_plain.png",
                 background=f"{IMAGE_BASE_URL}/maps/minimap_bg.png",
                 frame=f"{IMAGE_BASE_URL}/maps/minimap_frame.png",
                 mid=f"{IMAGE_BASE_URL}/maps/minimap_mid.png",
