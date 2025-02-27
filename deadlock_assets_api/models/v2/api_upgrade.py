@@ -24,7 +24,6 @@ class UpgradeDescriptionV2(BaseModel):
 
     desc: str | None
     active: str | None
-    active2: str | None
     passive: str | None
 
     @classmethod
@@ -48,13 +47,8 @@ class UpgradeDescriptionV2(BaseModel):
                 localization.get(f"{raw_upgrade.class_name}_active_desc")
                 or localization.get(f"{raw_upgrade.class_name}_active")
                 or localization.get(f"{raw_upgrade.class_name}_active1")
-                or localization.get(f"{raw_upgrade.class_name}_active2"),
-            ),
-            active2=replace_templates(
-                raw_upgrade,
-                raw_heroes,
-                localization,
-                localization.get(f"{raw_upgrade.class_name}_active_ambush_desc"),
+                or localization.get(f"{raw_upgrade.class_name}_active2")
+                or localization.get(f"{raw_upgrade.class_name}_ambush_desc"),
             ),
             passive=replace_templates(
                 raw_upgrade,
