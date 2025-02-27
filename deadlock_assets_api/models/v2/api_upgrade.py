@@ -56,7 +56,8 @@ class UpgradeDescriptionV2(BaseModel):
                 localization.get(f"{raw_upgrade.class_name}_passive_desc")
                 or localization.get(f"{raw_upgrade.class_name}_passive")
                 or localization.get(f"{raw_upgrade.class_name}_passive1")
-                or localization.get(f"{raw_upgrade.class_name}_passive2"),
+                or localization.get(f"{raw_upgrade.class_name}_passive2")
+                or localization.get(f"{raw_upgrade.class_name}_high_health_passive_desc"),
             ),
         )
 
