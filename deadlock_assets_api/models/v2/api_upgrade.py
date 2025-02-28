@@ -84,8 +84,15 @@ class UpgradePropertyV2(ItemPropertyV2):
                 for p in sa.get("important_properties", []) or []
             )
 
+        def in_elevated_properties(name: str, sa: RawUpgradeTooltipSectionAttributeV2) -> bool:
+            return name in (sa.get("elevated_properties", []) or [])
+
         def has_property(name: str, sa: RawUpgradeTooltipSectionAttributeV2) -> bool:
-            return name in (sa.get("properties", []) or []) or in_important_properties(name, sa)
+            return (
+                name in (sa.get("properties", []) or [])
+                or in_important_properties(name, sa)
+                or in_elevated_properties(name, sa)
+            )
 
         try:
             tooltip_section = (
@@ -103,7 +110,7 @@ class UpgradePropertyV2(ItemPropertyV2):
             **ItemPropertyV2.from_raw_item_property(raw_property.model_dump(), name, localization),
             tooltip_section=tooltip_section.get("section_type") if tooltip_section else None,
             tooltip_is_elevated=any(
-                name in (sa.get("elevated_properties", []) or [])
+                in_elevated_properties(name, sa)
                 for sa in tooltip_section.get("section_attributes") or []
             )
             if tooltip_section
