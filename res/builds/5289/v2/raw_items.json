@@ -74593,6 +74593,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "BonusClipSizePercent"
+            ],
             "important_properties": null,
             "properties": [
               "BaseAttackDamagePercent"
@@ -74818,6 +74821,10 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "NonPlayerBonusWeaponPower",
+              "NonPlayerBulletResist"
+            ],
             "important_properties": null,
             "properties": [
               "BonusHealth",
@@ -75054,6 +75061,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusClipSizePercent",
@@ -75066,6 +75074,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "AmmoPerSoul"
@@ -75269,6 +75278,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusClipSize"
@@ -75717,6 +75727,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusFireRate"
@@ -75728,6 +75739,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "DamagePerChain"
@@ -76051,6 +76063,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "DamagePerChain"
@@ -76070,6 +76083,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BuffDamageMult"
@@ -76086,6 +76100,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": null
           }
@@ -76299,6 +76314,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [],
             "properties": [
               "TechShieldMaxHealth",
@@ -76311,6 +76327,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BaseAttackDamagePercent"
@@ -76550,6 +76567,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [],
             "properties": [
               "BonusBulletSpeedPercent",
@@ -76564,6 +76582,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BaseAttackDamagePercentBonus"
@@ -76781,6 +76800,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusBulletSpeedPercent"
@@ -76996,6 +77016,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusBulletSpeedPercent",
@@ -77233,6 +77254,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusMeleeDamagePercent",
@@ -77245,6 +77267,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "AbilityCooldown"
@@ -77460,6 +77483,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BulletShieldMaxHealth"
@@ -77471,6 +77495,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "CloseRangeBonusWeaponPower"
@@ -77700,6 +77725,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusClipSizePercent",
@@ -77712,6 +77738,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "LongRangeBonusWeaponPower"
@@ -77931,6 +77958,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BaseAttackDamagePercent",
@@ -77943,6 +77971,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "SlowPercent"
@@ -78182,6 +78211,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BaseAttackDamagePercent",
@@ -78194,6 +78224,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "SlowPercent"
@@ -78396,6 +78427,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusFireRate"
@@ -78621,6 +78653,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BaseAttackDamagePercent"
@@ -78632,6 +78665,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "ShreddersTechAmp"
@@ -78834,6 +78868,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusFireRate"
@@ -79089,6 +79124,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth",
@@ -79101,6 +79137,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BaseAttackDamagePercent"
@@ -79373,6 +79410,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BulletLifestealPercent",
@@ -79386,6 +79424,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BonusFireRatePlayerUnit"
@@ -79401,6 +79440,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "ActiveBonusMoveSpeed"
@@ -79625,6 +79665,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BaseAttackDamagePercent"
@@ -79636,6 +79677,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BulletShieldDamagePercent"
@@ -79893,6 +79935,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [],
             "properties": [
               "BonusHealth",
@@ -79905,6 +79948,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "TetherDuration"
@@ -80106,6 +80150,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": []
           }
@@ -80319,6 +80364,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "TechShieldMaxHealth",
@@ -80331,6 +80377,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "StatusEffectEMP"
@@ -80575,6 +80622,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "StatusEffectEMP"
@@ -80809,6 +80857,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [],
             "properties": [
               "SlowPercent",
@@ -80822,6 +80871,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "StatusEffectEMP"
@@ -81042,6 +81092,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "StatusEffectDisarmed"
@@ -81294,6 +81345,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusClipSize",
@@ -81306,6 +81358,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "WeaponPowerPerStack"
@@ -81577,6 +81630,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusClipSize",
@@ -81590,6 +81644,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "FervorMovespeed"
@@ -81863,6 +81918,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BulletResist"
@@ -81874,6 +81930,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "HealthSteal"
@@ -82094,6 +82151,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusFireRate",
@@ -82106,6 +82164,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "HeadShotBonusDamage"
@@ -82357,6 +82416,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusClipSizePercent",
@@ -82371,6 +82431,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "LongRangeBonusWeaponPower"
@@ -82632,6 +82693,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BaseAttackDamagePercent",
@@ -82645,6 +82707,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "HeadShotBonusDamage"
@@ -82901,6 +82964,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BaseAttackDamagePercent",
@@ -82914,6 +82978,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BulletResistReduction"
@@ -83156,6 +83221,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "NanoTechPerShot"
@@ -83406,6 +83472,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BaseAttackDamagePercent",
@@ -83418,6 +83485,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "ProcBonusMagicDamage"
@@ -83667,6 +83735,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusClipSizePercent"
@@ -83678,6 +83747,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [],
             "important_properties": [
               {
                 "important_property": "CritDamagePercent"
@@ -83933,6 +84003,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BulletResist",
@@ -83945,6 +84016,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "CloseRangeBonusWeaponPower"
@@ -84331,6 +84403,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusClipSizePercent"
@@ -84606,6 +84679,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth"
@@ -84617,6 +84691,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "DotHealthPercent"
@@ -84820,6 +84895,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusFireRate"
@@ -85258,6 +85334,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusClipSizePercent",
@@ -85271,6 +85348,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "RicochetDamagePercent"
@@ -85481,6 +85559,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "BonusHealth"
+            ],
             "important_properties": null,
             "properties": [
               "BaseAttackDamagePercent"
@@ -85686,6 +85767,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth",
@@ -85892,6 +85974,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "BulletResist"
+            ],
             "important_properties": null,
             "properties": [
               "BaseAttackDamagePercent"
@@ -86087,6 +86172,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "TechResist"
+            ],
             "important_properties": null,
             "properties": [
               "TechPower"
@@ -86282,6 +86370,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealthRegen"
@@ -86487,6 +86576,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "BulletLifestealPercent"
+            ],
             "important_properties": null,
             "properties": [
               "BonusHealth"
@@ -86905,6 +86997,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "HealAmount"
@@ -87135,6 +87228,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "HealPercentAmount"
@@ -87151,6 +87245,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "TechArmor",
@@ -87367,6 +87462,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth",
@@ -87379,6 +87475,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "StatusResistancePercent"
@@ -87616,6 +87713,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth",
@@ -87628,6 +87726,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "StatusResistancePercent"
@@ -87639,6 +87738,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "AbilityCooldown",
@@ -88202,6 +88302,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BulletArmor"
@@ -88417,6 +88518,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "WeaponPowerWhileActivated"
@@ -88648,6 +88750,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "TempBulletShieldHealth"
@@ -88664,6 +88767,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BulletShieldMaxHealth"
@@ -88677,6 +88781,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusSprintSpeed"
@@ -88912,6 +89017,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "MaxBulletResist"
@@ -88928,6 +89034,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusSprintSpeed",
@@ -89126,6 +89233,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "TechResist"
+            ],
             "important_properties": null,
             "properties": [
               "TechPower"
@@ -89333,6 +89443,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "BulletResist"
+            ],
             "important_properties": null,
             "properties": [
               "BaseAttackDamagePercent"
@@ -89538,6 +89651,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth",
@@ -89551,6 +89665,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "AbilityCooldown",
@@ -89787,6 +89902,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "TechResist",
@@ -89799,6 +89915,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": []
           }
@@ -90042,6 +90159,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth"
@@ -90053,6 +90171,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": null
           }
@@ -90062,6 +90181,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BaseAttackDamagePercent"
@@ -90292,6 +90412,10 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "AbilityLifestealPercentHero",
+              "BulletLifestealPercent"
+            ],
             "important_properties": null,
             "properties": [
               "BonusHealth",
@@ -90499,6 +90623,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "FireRateSlow",
@@ -90715,6 +90840,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "BonusSprintSpeed"
+            ],
             "important_properties": null,
             "properties": [
               "BonusHealthRegen",
@@ -90953,6 +91081,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "BonusMoveSpeed"
+            ],
             "important_properties": null,
             "properties": [
               "BonusSprintSpeed",
@@ -90966,6 +91097,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "SlowResistancePercent"
@@ -91195,6 +91327,11 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "Stamina",
+              "StaminaCooldownReduction",
+              "AirMoveIncreasePercent"
+            ],
             "important_properties": null,
             "properties": [
               "BonusFireRate",
@@ -91207,6 +91344,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": null
           }
@@ -91410,6 +91548,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusFireRate",
@@ -91636,6 +91775,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "Stamina",
@@ -91874,6 +92014,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth"
@@ -91885,6 +92026,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BulletArmorReduction"
@@ -92553,6 +92695,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "BulletShieldMaxHealth"
+            ],
             "important_properties": null,
             "properties": null
           }
@@ -92562,6 +92707,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "AttackDamageWhenShielded"
@@ -92782,6 +92928,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "TechShieldMaxHealth"
+            ],
             "important_properties": null,
             "properties": null
           }
@@ -92791,6 +92940,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BonusSpiritWithMagicShield"
@@ -93001,6 +93151,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "TechPower"
+            ],
             "important_properties": null,
             "properties": [
               "BonusHealthRegen",
@@ -93219,6 +93372,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "TechPower"
+            ],
             "important_properties": null,
             "properties": [
               "BonusHealthRegen",
@@ -93476,6 +93632,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "CooldownReduction",
@@ -93489,6 +93646,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BonusFireRate"
@@ -93722,6 +93880,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth",
@@ -93734,6 +93893,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BulletDamageReflectedPct"
@@ -93982,6 +94142,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "ImbuedTechRangeMultiplier"
+            ],
             "important_properties": null,
             "properties": [
               "NonImbuedTechRangeMultiplier",
@@ -94199,6 +94362,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "TechRangeMultiplier"
+            ],
             "important_properties": null,
             "properties": [
               "BulletResist"
@@ -94424,6 +94590,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "BonusAbilityCharges"
+            ],
             "important_properties": null,
             "properties": [
               "CooldownReductionOnChargedAbilities",
@@ -94640,6 +94809,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "AbilityLifestealPercentHero"
+            ],
             "important_properties": null,
             "properties": [
               "BonusHealth"
@@ -94865,6 +95037,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth"
@@ -94876,6 +95049,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "FireRateSlow"
@@ -95100,6 +95274,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth",
@@ -95112,6 +95287,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BulletArmorReduction"
@@ -95391,6 +95567,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "AbilityLifestealPercentHero",
@@ -95404,6 +95581,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "TechDamagePercent"
@@ -95638,6 +95816,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "TechShieldMaxHealth",
@@ -95650,6 +95829,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "Damage"
@@ -95891,6 +96071,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "TechShieldMaxHealth",
@@ -95903,6 +96084,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "MaxHealthDamage"
@@ -96100,6 +96282,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "TechPower"
@@ -96309,6 +96492,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "TechResist"
@@ -96320,6 +96504,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "TechArmorDamageReduction"
@@ -96549,6 +96734,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth"
@@ -96560,6 +96746,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "HealAmpReceivePenaltyPercent"
@@ -96794,6 +96981,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth",
@@ -96807,6 +96995,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "MovementSpeedSlow"
@@ -97061,6 +97250,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "TechResist",
@@ -97074,6 +97264,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "MagicIncreasePerStack"
@@ -97307,6 +97498,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusAbilityCharges",
@@ -97515,6 +97707,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "CooldownReduction"
+            ],
             "important_properties": null,
             "properties": [
               "BonusHealthRegen"
@@ -97742,6 +97937,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "ImbuedCooldownReduction"
+            ],
             "important_properties": null,
             "properties": [
               "NonImbuedCooldownReduction",
@@ -97939,6 +98137,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": []
           }
@@ -97948,6 +98147,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": []
           }
@@ -98151,6 +98351,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "SlowPercent"
@@ -98380,6 +98581,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "BonusSprintSpeed"
+            ],
             "important_properties": null,
             "properties": [
               "TechPower"
@@ -98391,6 +98595,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "Damage"
@@ -98636,6 +98841,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BulletShieldMaxHealth",
@@ -98649,6 +98855,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "AbilityDuration"
@@ -98904,6 +99111,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth",
@@ -98917,6 +99125,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "HealPercentAmount"
@@ -99131,6 +99340,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "RespawnDelay"
@@ -99356,6 +99566,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "SpawnTimePenalty"
+            ],
             "important_properties": null,
             "properties": [
               "CooldownReduction",
@@ -99368,6 +99581,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "RespawnHealthPercent"
@@ -99597,6 +99811,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "TechRangeMultiplier"
@@ -99608,6 +99823,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "SlowPercent",
@@ -99844,6 +100060,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusDamagePerHero",
@@ -99857,6 +100074,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "TechRangeMultiplier"
@@ -100072,6 +100290,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "TechCleaveRadius"
@@ -100267,6 +100486,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusAbilityCharges"
@@ -100492,6 +100712,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": []
           }
@@ -100501,6 +100722,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusAbilityCharges",
@@ -100727,6 +100949,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "TechPower"
@@ -100738,6 +100961,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "HealAmpReceivePenaltyPercent"
@@ -100982,6 +101206,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "MaxHealthPercentAsDPS"
@@ -100995,6 +101220,7 @@
             ]
           },
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "MaxHealthPercentAsHealPerSecond"
@@ -101438,6 +101664,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "Stamina",
@@ -101451,6 +101678,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "StatusEffectStun"
@@ -101691,6 +101919,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [],
             "properties": [
               "BulletResist",
@@ -101703,6 +101932,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "SlowDuration"
@@ -101929,6 +102159,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [],
             "properties": [
               "BaseAttackDamagePercent",
@@ -101941,6 +102172,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "AbilityCastRange"
@@ -102184,6 +102416,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "TetherDuration"
@@ -102201,6 +102434,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "TechRangeMultiplier",
@@ -102407,6 +102641,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "TechResist",
@@ -102419,6 +102654,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "AbilityCooldown"
@@ -102624,6 +102860,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusMoveSpeed",
@@ -102637,6 +102874,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [],
             "properties": [
               "AbilityCooldown"
@@ -102852,6 +103090,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth",
@@ -102864,6 +103103,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "DamagePulseAmount"
@@ -103123,6 +103363,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "DeathImmunityDuration"
@@ -103139,6 +103380,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "DamagePulseAmount"
@@ -103155,6 +103397,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth",
@@ -103917,6 +104160,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealthRegen",
@@ -103930,6 +104174,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "StatusEffectInvisible"
@@ -103943,6 +104188,7 @@
             ]
           },
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "AmbushBonusFireRate"
@@ -104165,6 +104411,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusFireRate",
@@ -104392,6 +104639,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BonusReloadSpeed"
@@ -104623,6 +104871,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "TechPower",
@@ -104635,6 +104884,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "AbilityCooldown"
@@ -104950,6 +105200,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "TechPower",
@@ -104962,6 +105213,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "AbilityCooldown"
@@ -105227,6 +105479,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "AbilityCooldown"
@@ -105238,6 +105491,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BulletLifestealPercent",
@@ -105486,6 +105740,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BaseAttackDamagePercent",
@@ -105499,6 +105754,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "TotalHealthRegen"
@@ -105740,6 +105996,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "TechResist",
@@ -105753,6 +106010,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": null
           }
@@ -105762,6 +106020,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "HealPerStack"
@@ -105994,6 +106253,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth",
@@ -106006,6 +106266,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "TotalHealthRegen"
@@ -106240,6 +106501,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth",
@@ -106252,6 +106514,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BonusSpirit"
@@ -106525,6 +106788,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "TechRangeMultiplier",
@@ -106538,6 +106802,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "SaviorBulletShieldHealth"
@@ -106825,6 +107090,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "AbilityDuration",
@@ -107114,6 +107380,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BulletShieldMaxHealth",
@@ -107127,6 +107394,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "DPS"
@@ -107392,6 +107660,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth",
@@ -107404,6 +107673,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": []
           }
@@ -107413,6 +107683,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "ActiveBonusMoveSpeed"
@@ -107646,6 +107917,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth",
@@ -107658,6 +107930,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BonusFireRate"
@@ -107901,6 +108174,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": null
@@ -108291,6 +108565,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "AbilityCooldown",
@@ -108303,6 +108578,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "TechArmor",
@@ -108529,6 +108805,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth",
@@ -108543,6 +108820,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "AbilityDuration"
@@ -108822,6 +109100,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "BonusHealth"
+            ],
             "important_properties": null,
             "properties": [
               "BonusMeleeDamagePercent",
@@ -108834,6 +109115,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BulletResist"
@@ -109091,6 +109373,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "TechResist"
@@ -109102,6 +109385,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "Damage"
@@ -109346,6 +109630,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "TechShieldMaxHealth"
@@ -109357,6 +109642,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "StatusEffectEMP"
@@ -109601,6 +109887,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "AbilityDuration"
@@ -109932,6 +110219,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "StatusEffectEMP"
@@ -109943,6 +110231,7 @@
             ]
           },
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "StatusEffectStun"
@@ -109960,6 +110249,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "StatusEffectEMP"
@@ -110152,6 +110442,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "AbilityCooldown",
@@ -110369,6 +110660,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BaseAttackDamagePercent",
@@ -110381,6 +110673,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "StatusEffectEMP"
@@ -110622,6 +110915,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": []
           }
@@ -110631,6 +110925,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "SlowPercent",
@@ -110643,6 +110938,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusAbilityDurationPercent"
@@ -110858,6 +111154,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "BonusAbilityDurationPercent"
+            ],
             "important_properties": null,
             "properties": [
               "BonusHealth",
@@ -111096,6 +111395,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "ImbuedBonusDuration"
+            ],
             "important_properties": null,
             "properties": [
               "NonImbuedBonusDuration",
@@ -111364,6 +111666,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [],
             "important_properties": null,
             "properties": [
               "BaseAttackDamagePercent",
@@ -111378,6 +111681,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "WeaponPowerPerKill"
@@ -111625,6 +111929,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusMoveSpeed",
@@ -111638,6 +111943,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "ActiveBonusLifesteal"
@@ -111892,6 +112198,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "DPS"
@@ -112156,6 +112463,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BulletLifestealPercent"
@@ -112167,6 +112475,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BulletArmorReduction",
@@ -112443,6 +112752,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BaseBonusWeaponPower"
@@ -112454,6 +112764,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BurstFireShotsFromClipPercent"
@@ -112725,6 +113036,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusMeleeDamagePercent",
@@ -112738,6 +113050,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "SlowPercent"
@@ -112968,6 +113281,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusMeleeDamagePercent",
@@ -112980,6 +113294,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "SpiritDamage"
@@ -113223,6 +113538,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BaseAttackDamagePercent",
@@ -113237,6 +113553,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BonusHeavyMeleeDamage"
@@ -113446,6 +113763,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "CooldownReductionFlat",
@@ -113692,6 +114010,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BonusClipSizePercent"
@@ -113933,6 +114252,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "AbilityLifestealPercentHero",
@@ -113945,6 +114265,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BulletShieldOnCast"
@@ -114261,6 +114582,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "StationaryWeaponPower",
@@ -114273,6 +114595,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "TurretLifetime"
@@ -114505,6 +114828,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "TechPower"
+            ],
             "important_properties": null,
             "properties": [
               "BonusHealth",
@@ -114743,6 +115069,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusFireRate",
@@ -114756,6 +115083,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "ActivatedFireRate"
@@ -114969,6 +115297,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "AbilityLifestealPercentHero",
@@ -115186,6 +115515,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "BonusHealthRegen"
+            ],
             "important_properties": null,
             "properties": [
               "BonusClipSizePercent",
@@ -115422,6 +115754,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BonusSpirit"
@@ -115664,6 +115997,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth"
@@ -115675,6 +116009,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "ImbuedTechPower"
@@ -115901,6 +116236,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth",
@@ -115914,6 +116250,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "FireRateSlow"
@@ -116144,6 +116481,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "Damage"
@@ -116396,6 +116734,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusFireRate"
@@ -116407,6 +116746,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "SpiritStolePerHit"
@@ -116627,6 +116967,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusFireRate"
@@ -116638,6 +116979,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BaseAttackDamagePercent"
@@ -116868,6 +117210,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusClipSizePercent",
@@ -116880,6 +117223,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BaseAttackDamagePercentAtMaxDuration"
@@ -117120,6 +117464,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusFireRate",
@@ -117132,6 +117477,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "MaxArmorStacks"
@@ -117352,6 +117698,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusFireRate",
@@ -117679,6 +118026,10 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "BulletShieldMaxHealth",
+              "TechShieldMaxHealth"
+            ],
             "important_properties": null,
             "properties": [
               "BonusClipSizePercent",
@@ -117691,6 +118042,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "StatusEffectInvisible"
@@ -117944,6 +118296,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusClipSizePercent",
@@ -117957,6 +118310,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "VexBarrierBulletMaxHealth"
@@ -118210,6 +118564,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BulletResist",
@@ -118222,6 +118577,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "HealFromHero"
@@ -118446,6 +118802,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusClipSizePercent",
@@ -118673,6 +119030,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [],
             "important_properties": null,
             "properties": [
               "BaseAttackDamagePercent",
@@ -118685,6 +119043,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "BonusFireRate"
@@ -118948,6 +119307,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusAbilityDurationPercent",
@@ -118961,6 +119321,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "FlyingBulletShield"
@@ -119196,6 +119557,9 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [
+              "SpellShieldFlavorText"
+            ],
             "important_properties": null,
             "properties": [
               "BonusHealth"
@@ -119207,6 +119571,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [],
             "important_properties": [
               {
                 "important_property": "TechResist"
@@ -119438,6 +119803,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "TechShieldMaxHealth",
@@ -119451,6 +119817,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "StoredSpiritDamage"
@@ -119723,6 +120090,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": [],
             "important_properties": null,
             "properties": [
               "BaseAttackDamagePercent",
@@ -119737,6 +120105,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "WeaponPowerPerKill"
@@ -119964,6 +120333,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": null,
             "properties": [
               "BonusHealth",
@@ -119976,6 +120346,7 @@
       {
         "section_attributes": [
           {
+            "elevated_properties": null,
             "important_properties": [
               {
                 "important_property": "HealOnLevelHealAmount"

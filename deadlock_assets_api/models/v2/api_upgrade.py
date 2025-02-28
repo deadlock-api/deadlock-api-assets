@@ -67,6 +67,7 @@ class UpgradePropertyV2(ItemPropertyV2):
     model_config = ConfigDict(populate_by_name=True)
 
     tooltip_section: RawAbilitySectionTypeV2 | None
+    tooltip_is_elevated: bool | None
     tooltip_is_important: bool | None
 
     @classmethod
@@ -101,6 +102,12 @@ class UpgradePropertyV2(ItemPropertyV2):
         return cls(
             **ItemPropertyV2.from_raw_item_property(raw_property.model_dump(), name, localization),
             tooltip_section=tooltip_section.get("section_type") if tooltip_section else None,
+            tooltip_is_elevated=any(
+                name in (sa.get("elevated_properties", []) or [])
+                for sa in tooltip_section.get("section_attributes") or []
+            )
+            if tooltip_section
+            else None,
             tooltip_is_important=any(
                 in_important_properties(name, sa)
                 for sa in tooltip_section.get("section_attributes") or []
@@ -114,12 +121,14 @@ class UpgradeTooltipSectionAttributeV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     properties: list[str] | None
+    elevated_properties: list[str] | None
     important_properties: list[str] | None
 
     @classmethod
     def from_raw_section_attribute(cls, raw_section_attribute: RawUpgradeTooltipSectionAttributeV2):
         return cls(
             properties=raw_section_attribute.properties,
+            elevated_properties=raw_section_attribute.elevated_properties,
             important_properties=[
                 p.important_property
                 for p in raw_section_attribute.important_properties or []

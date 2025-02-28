@@ -48,6 +48,9 @@ class RawUpgradeTooltipSectionAttributeV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     properties: list[str] | None = Field(None, validation_alias="m_vecAbilityProperties")
+    elevated_properties: list[str] | None = Field(
+        None, validation_alias="m_vecElevatedAbilityProperties"
+    )
     important_properties: list[RawUpgradeTooltipSectionAttributeImportantPropertyV2] | None = Field(
         None, validation_alias="m_vecImportantAbilityProperties"
     )
