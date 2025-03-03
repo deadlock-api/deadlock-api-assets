@@ -40,6 +40,7 @@ class ItemPropertyV2(RawItemPropertyV2):
     prefix: str | None = Field(None)
     label: str | None = Field(None)
     postfix: str | None = Field(None)
+    conditional: str | None = Field(None)
     icon: str | None = Field(None)
 
     @classmethod
@@ -57,9 +58,10 @@ class ItemPropertyV2(RawItemPropertyV2):
             key = "SlowPercent"
         raw_property["label"] = localization.get(f"{key}_label", localization.get(f"{key}_Label"))
         raw_property["prefix"] = localization.get(f"{key}_prefix")
-        raw_property["postfix"] = localization.get(
-            f"{key}_postfix", localization.get(f"{key}_postfx")
+        raw_property["postfix"] = localization.get(f"{key}_postfix") or localization.get(
+            f"{key}_postfx"
         )
+        raw_property["conditional"] = localization.get(f"{key}_conditional")
         return raw_property
 
 
