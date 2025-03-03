@@ -5,6 +5,8 @@ import css_parser
 from css_parser.css import CSSRuleList, CSSStyleRule
 from pydantic import AliasChoices, BaseModel, ConfigDict, Field, model_validator, field_validator
 
+from deadlock_assets_api.models.v2.enums import StatsUsageFlagV2
+
 LOGGER = logging.getLogger(__name__)
 
 
@@ -44,6 +46,9 @@ class RawItemPropertyV2(BaseModel):
     can_set_token_override: bool | None = Field(None, validation_alias="m_bCanSetTokenOverride")
     provided_property_type: str | None = Field(None, validation_alias="m_eProvidedPropertyType")
     css_class: str | None = Field(None, validation_alias="m_strCSSClass")
+    usage_flags: list[StatsUsageFlagV2] | str | None = Field(
+        None, validation_alias="m_eStatsUsageFlags"
+    )
     disable_value: str | None = Field(None, validation_alias="m_strDisableValue")
     loc_token_override: str | None = Field(None, validation_alias="m_strLocTokenOverride")
     display_units: str | None = Field(None, validation_alias="m_eDisplayUnits")
@@ -57,6 +62,15 @@ class RawItemPropertyV2(BaseModel):
         if value.startswith("panorama"):
             return value
         return parse_css_ability_properties_icon(value)
+
+    @field_validator("usage_flags")
+    @classmethod
+    def validate_usage_flags(cls, value: str | list | None, _) -> list[StatsUsageFlagV2] | None:
+        if value is None:
+            return None
+        if isinstance(value, list):
+            return value
+        return [StatsUsageFlagV2(member.strip()) for member in value.split("|")]
 
 
 @lru_cache

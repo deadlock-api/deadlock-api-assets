@@ -1,6 +1,21 @@
 from enum import Enum
 
 
+class StatsUsageFlagV2(str, Enum):
+    ConditionallyApplied = "ConditionallyApplied"
+    IntrinsicallyProvidedInAbility = "IntrinsicallyProvidedInAbility"
+    IntrinsicallyProvidedInModifier = "IntrinsicallyProvidedInModifier"
+
+    @classmethod
+    def _missing_(cls, value):
+        for member in cls:
+            if isinstance(value, int) and value == member.value:
+                return member
+            if isinstance(value, str) and value.lower() == member.name.lower():
+                return member
+        return None
+
+
 class ItemTierV2(int, Enum):
     EModTier_1 = 1
     EModTier_2 = 2
