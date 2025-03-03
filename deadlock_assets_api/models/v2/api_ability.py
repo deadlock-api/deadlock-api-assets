@@ -85,8 +85,11 @@ class AbilityDescriptionV2(BaseModel):
                 localization,
                 localization.get(f"{raw_ability.class_name}_passive_desc")
                 or localization.get(f"{raw_ability.class_name}_passive")
+                or localization.get(f"{raw_ability.class_name}_desc_passive")
                 or localization.get(f"{raw_ability.class_name}_passive1")
-                or localization.get(f"{raw_ability.class_name}_passive2"),
+                or localization.get(f"{raw_ability.class_name}_desc_passive1")
+                or localization.get(f"{raw_ability.class_name}_passive2")
+                or localization.get(f"{raw_ability.class_name}_desc_passive2"),
             ),
         )
 

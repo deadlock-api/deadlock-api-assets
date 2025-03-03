@@ -38,7 +38,8 @@ class UpgradeDescriptionV2(BaseModel):
                 raw_upgrade,
                 raw_heroes,
                 localization,
-                localization.get(f"{raw_upgrade.class_name}_desc"),
+                localization.get(f"{raw_upgrade.class_name}_desc")
+                or localization.get(f"{raw_upgrade.class_name}_headshots_desc"),
             ),
             active=replace_templates(
                 raw_upgrade,
@@ -56,8 +57,11 @@ class UpgradeDescriptionV2(BaseModel):
                 localization,
                 localization.get(f"{raw_upgrade.class_name}_passive_desc")
                 or localization.get(f"{raw_upgrade.class_name}_passive")
+                or localization.get(f"{raw_upgrade.class_name}_desc_passive")
                 or localization.get(f"{raw_upgrade.class_name}_passive1")
+                or localization.get(f"{raw_upgrade.class_name}_desc_passive1")
                 or localization.get(f"{raw_upgrade.class_name}_passive2")
+                or localization.get(f"{raw_upgrade.class_name}_desc_passive2")
                 or localization.get(f"{raw_upgrade.class_name}_high_health_passive_desc"),
             ),
         )
