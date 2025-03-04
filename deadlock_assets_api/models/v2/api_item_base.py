@@ -53,6 +53,8 @@ class ItemPropertyV2(RawItemPropertyV2):
         loc_token_override = raw_property.get("loc_token_override")
         if loc_token_override is not None:
             key = loc_token_override.replace("#", "")
+            if loc_token_override == "SpellslingerHeadshots_AbilityLifestealPercentHero":
+                key = "SpellSlingerHeadshots_AbilityLifestealPercentHero"
         raw_property["icon"] = parse_img_path(raw_property["icon_path"])
         del raw_property["icon_path"]
         if key == "BuildUpDuration":
