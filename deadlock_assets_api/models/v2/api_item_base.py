@@ -53,14 +53,18 @@ class ItemPropertyV2(RawItemPropertyV2):
         loc_token_override = raw_property.get("loc_token_override")
         if loc_token_override is not None:
             key = loc_token_override.replace("#", "")
-            if loc_token_override == "SpellslingerHeadshots_AbilityLifestealPercentHero":
-                key = "SpellSlingerHeadshots_AbilityLifestealPercentHero"
         raw_property["icon"] = parse_img_path(raw_property["icon_path"])
         del raw_property["icon_path"]
         if key == "BuildUpDuration":
             key = "BuildupDuration"
         if key == "MoveSlowPercent":
             key = "SlowPercent"
+        if key == "SpellslingerHeadshots_AbilityLifestealPercentHero":
+            key = "SpellSlingerHeadshots_AbilityLifestealPercentHero"
+        if key == "BuildUpPerShot":
+            key = "BuildupPerShot"
+        if key == "DotDuration":
+            key = "DOTDuration"
         raw_property["label"] = localization.get(f"{key}_label", localization.get(f"{key}_Label"))
         raw_property["prefix"] = localization.get(f"{key}_prefix")
         raw_property["postfix"] = localization.get(f"{key}_postfix") or localization.get(
