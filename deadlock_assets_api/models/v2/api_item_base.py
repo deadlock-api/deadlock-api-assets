@@ -50,7 +50,9 @@ class ItemPropertyV2(RawItemPropertyV2):
         key: str,
         localization: dict[str, str],
     ) -> dict:
-        key = raw_property.get("loc_token_override", key)
+        loc_token_override = raw_property.get("loc_token_override")
+        if loc_token_override is not None:
+            key = loc_token_override
         raw_property["icon"] = parse_img_path(raw_property["icon_path"])
         del raw_property["icon_path"]
         if key == "BuildUpDuration":
