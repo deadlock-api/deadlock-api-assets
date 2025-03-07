@@ -65,6 +65,8 @@ class ItemPropertyV2(RawItemPropertyV2):
             key = "BuildupPerShot"
         if key == "DotDuration":
             key = "DOTDuration"
+        if key == "AuraRadius":
+            key = "Radius"
         raw_property["label"] = localization.get(f"{key}_label", localization.get(f"{key}_Label"))
         raw_property["prefix"] = localization.get(f"{key}_prefix")
         raw_property["postfix"] = localization.get(f"{key}_postfix") or localization.get(
