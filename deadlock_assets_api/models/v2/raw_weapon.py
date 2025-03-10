@@ -44,6 +44,8 @@ class RawWeaponInfoV2(BaseModel):
     crit_bonus_start: float | None = Field(None, validation_alias="m_flCritBonusStart")
     crit_bonus_start_range: float | None = Field(None, validation_alias="m_flCritBonusStartRange")
     cycle_time: float | None = Field(None, validation_alias="m_flCycleTime")
+    intra_burst_cycle_time: float | None = Field(None, validation_alias="m_flIntraBurstCycleTime")
+    max_spin_cycle_time: float | None = Field(None, validation_alias="m_flMaxSpinCycleTime")
     damage_falloff_bias: float | None = Field(None, validation_alias="m_flDamageFalloffBias")
     damage_falloff_end_range: float | None = Field(
         None, validation_alias="m_flDamageFalloffEndRange"
@@ -58,7 +60,6 @@ class RawWeaponInfoV2(BaseModel):
         None, validation_alias="m_flDamageFalloffStartScale"
     )
     horizontal_punch: float | None = Field(None, validation_alias="m_flHorizontalPunch")
-    intra_burst_cycle_time: float | None = Field(None, validation_alias="m_flIntraBurstCycleTime")
     range: float | None = Field(None, validation_alias="m_flRange")
     recoil_recovery_delay_factor: float | None = Field(
         None, validation_alias="m_flRecoilRecoveryDelayFactor"

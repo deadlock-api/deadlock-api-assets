@@ -107,6 +107,8 @@ class ItemInfoWeaponInfoV1(BaseModel):
     damage_falloff_bias: float | None = Field(None, validation_alias="m_flDamageFalloffBias")
     bullets: int | None = Field(None, validation_alias="m_iBullets")
     cycle_time: float | None = Field(None, validation_alias="m_flCycleTime")
+    intra_burst_cycle_time: float | None = Field(None, validation_alias="m_flIntraBurstCycleTime")
+    max_spin_cycle_time: float | None = Field(None, validation_alias="m_flMaxSpinCycleTime")
     reload_duration: float | None = Field(None, validation_alias="m_reloadDuration")
     clip_size: int | None = Field(None, validation_alias="m_iClipSize")
     burst_shot_count: int | None = Field(None, validation_alias="m_iBurstShotCount")
