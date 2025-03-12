@@ -7,6 +7,7 @@ from deadlock_assets_api.models.v2.raw_item_base import (
     RawItemBaseV2,
     RawItemPropertyV2,
     RawItemWeaponInfoV2,
+    RawItemPropertyScaleFunctionSubclassV2,
 )
 
 
@@ -42,6 +43,7 @@ class ItemPropertyV2(RawItemPropertyV2):
     postfix: str | None = Field(None)
     conditional: str | None = Field(None)
     icon: str | None = Field(None)
+    scale_function: RawItemPropertyScaleFunctionSubclassV2 | None = Field(None)
 
     @classmethod
     def from_raw_item_property(
@@ -73,6 +75,11 @@ class ItemPropertyV2(RawItemPropertyV2):
             f"{key}_postfx"
         )
         raw_property["conditional"] = localization.get(f"{key}_conditional")
+        raw_property["scale_function"] = (
+            raw_property["scale_function"].get("subclass")
+            if raw_property["scale_function"]
+            else None
+        )
         return raw_property
 
 

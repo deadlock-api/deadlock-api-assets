@@ -37,6 +37,24 @@ class RawItemWeaponInfoV2(BaseModel):
     )
 
 
+class RawItemPropertyScaleFunctionSubclassV2(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    class_name: str | None = Field(None, validation_alias="_class")
+    subclass_name: str | None = Field(None, validation_alias="_my_subclass_name")
+    specific_stat_scale_type: str | None = Field(None, validation_alias="m_eSpecificStatScaleType")
+    scaling_stats: list[str] | None = Field(None, validation_alias="m_vecScalingStats")
+    stat_scale: float | None = Field(None, validation_alias="m_flStatScale")
+
+
+class RawItemPropertyScaleFunctionV2(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    subclass: RawItemPropertyScaleFunctionSubclassV2 | None = Field(
+        None, validation_alias="subclass"
+    )
+
+
 class RawItemPropertyV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
@@ -53,6 +71,18 @@ class RawItemPropertyV2(BaseModel):
     loc_token_override: str | None = Field(None, validation_alias="m_strLocTokenOverride")
     display_units: str | None = Field(None, validation_alias="m_eDisplayUnits")
     icon_path: str | None = Field(None, validation_alias="m_strCSSClass")
+    scale_function: RawItemPropertyScaleFunctionV2 | None = Field(
+        None, validation_alias="m_subclassScaleFunction"
+    )
+
+    @field_validator("scale_function", mode="before")
+    @classmethod
+    def validate_scale_function(
+        cls, value: RawItemPropertyScaleFunctionV2 | str | None, _
+    ) -> RawItemPropertyScaleFunctionV2 | None:
+        if value is None or isinstance(value, str):
+            return None
+        return value
 
     @field_validator("icon_path")
     @classmethod
