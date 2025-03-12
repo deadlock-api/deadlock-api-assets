@@ -1,6 +1,7 @@
 import json
 import os
 import shutil
+from concurrent.futures import ThreadPoolExecutor
 
 import vdf
 from kv3parser import KV3Parser
@@ -59,7 +60,7 @@ VDATA_FILES = (
 
 
 def parse_vdata():
-    for parse_func, file_path, out_path, create_raw in VDATA_FILES:
+    def parse(parse_func, file_path, out_path, create_raw):
         vdata_out_path = f"{os.path.dirname(out_path)}/{os.path.basename(file_path)}"
         os.makedirs(os.path.dirname(vdata_out_path), exist_ok=True)
         if not os.path.exists(vdata_out_path) or create_raw:
@@ -85,6 +86,10 @@ def parse_vdata():
             data = data.model_dump(exclude={"name"})
         with open(out_path, "w") as f:
             json.dump(data, f, indent=4)
+
+    with ThreadPoolExecutor(24) as executor:
+        for args in VDATA_FILES:
+            executor.submit(parse, *args)
 
 
 def parse_localization():
