@@ -135,7 +135,9 @@ class AbilityTooltipDetailsInfoSectionPropertyBlockV2(BaseModel):
             )
             if raw_info_section_property_block.loc_string
             else None,
-            properties=raw_info_section_property_block.properties,
+            properties=raw_info_section_property_block.properties
+            if raw_info_section_property_block.properties
+            else None,
         )
 
 
@@ -165,8 +167,11 @@ class AbilityTooltipDetailsInfoSectionV2(BaseModel):
                 for b in raw_info_section.properties_block
             ]
             if raw_info_section.properties_block
+            and any(len(b.properties) > 0 for b in raw_info_section.properties_block)
             else None,
-            basic_properties=raw_info_section.basic_properties,
+            basic_properties=raw_info_section.basic_properties
+            if raw_info_section.basic_properties
+            else None,
         )
 
 
@@ -184,10 +189,13 @@ class AbilityTooltipDetailsV2(BaseModel):
             info_sections=[
                 AbilityTooltipDetailsInfoSectionV2.from_raw_info_section(s, localization)
                 for s in raw_tooltip_details.info_sections
+                if s and any(s.model_dump().values())
             ]
             if raw_tooltip_details.info_sections
             else None,
-            additional_header_properties=raw_tooltip_details.additional_header_properties,
+            additional_header_properties=raw_tooltip_details.additional_header_properties
+            if raw_tooltip_details.additional_header_properties
+            else None,
         )
 
 
@@ -224,6 +232,9 @@ class AbilityV2(ItemBaseV2):
             )
             if raw_ability.tooltip_details
             else None
+        )
+        raw_model["tooltip_details"] = (
+            raw_model["tooltip_details"] if raw_model["tooltip_details"] else None
         )
         raw_model["description"] = AbilityDescriptionV2.from_raw_ability(
             raw_ability, raw_heroes, localization
