@@ -5,7 +5,14 @@ from pydantic import BaseModel, ConfigDict
 from deadlock_assets_api.glob import VIDEO_BASE_URL
 from deadlock_assets_api.models.v2.api_item_base import ItemBaseV2
 from deadlock_assets_api.models.v2.enums import AbilityTypeV2
-from deadlock_assets_api.models.v2.raw_ability import RawAbilityUpgradeV2, RawAbilityV2
+from deadlock_assets_api.models.v2.raw_ability import (
+    RawAbilityUpgradeV2,
+    RawAbilityV2,
+    RawAbilityV2TooltipDetails,
+    RawAbilityV2TooltipDetailsInfoSection,
+    RawAbilityV2TooltipDetailsInfoSectionPropertyBlock,
+    RawAbilityV2TooltipDetailsInfoSectionPropertyBlockProperty,
+)
 from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
 from deadlock_assets_api.models.v2.v2_utils import replace_templates
 
@@ -109,6 +116,81 @@ class AbilityVideosV2(BaseModel):
         )
 
 
+class AbilityTooltipDetailsInfoSectionPropertyBlockV2(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    loc_string: str | None
+    properties: list[RawAbilityV2TooltipDetailsInfoSectionPropertyBlockProperty] | None
+
+    @classmethod
+    def from_raw_info_section_property_block(
+        cls,
+        raw_info_section_property_block: RawAbilityV2TooltipDetailsInfoSectionPropertyBlock,
+        localization: dict[str, str],
+    ) -> "AbilityTooltipDetailsInfoSectionPropertyBlockV2":
+        return cls(
+            loc_string=localization.get(
+                raw_info_section_property_block.loc_string.replace("#", ""),
+                raw_info_section_property_block.loc_string,
+            )
+            if raw_info_section_property_block.loc_string
+            else None,
+            properties=raw_info_section_property_block.properties,
+        )
+
+
+class AbilityTooltipDetailsInfoSectionV2(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    loc_string: str | None
+    property_upgrade_required: str | None
+    properties_block: list[AbilityTooltipDetailsInfoSectionPropertyBlockV2] | None
+    basic_properties: list[str] | None
+
+    @classmethod
+    def from_raw_info_section(
+        cls, raw_info_section: RawAbilityV2TooltipDetailsInfoSection, localization: dict[str, str]
+    ) -> "AbilityTooltipDetailsInfoSectionV2":
+        return cls(
+            loc_string=localization.get(
+                raw_info_section.loc_string.replace("#", ""), raw_info_section.loc_string
+            )
+            if raw_info_section.loc_string
+            else None,
+            property_upgrade_required=raw_info_section.property_upgrade_required,
+            properties_block=[
+                AbilityTooltipDetailsInfoSectionPropertyBlockV2.from_raw_info_section_property_block(
+                    b, localization
+                )
+                for b in raw_info_section.properties_block
+            ]
+            if raw_info_section.properties_block
+            else None,
+            basic_properties=raw_info_section.basic_properties,
+        )
+
+
+class AbilityTooltipDetailsV2(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    info_sections: list[AbilityTooltipDetailsInfoSectionV2] | None
+    additional_header_properties: list[str] | None
+
+    @classmethod
+    def from_raw_tooltip_details(
+        cls, raw_tooltip_details: RawAbilityV2TooltipDetails, localization: dict[str, str]
+    ) -> "AbilityTooltipDetailsV2":
+        return cls(
+            info_sections=[
+                AbilityTooltipDetailsInfoSectionV2.from_raw_info_section(s, localization)
+                for s in raw_tooltip_details.info_sections
+            ]
+            if raw_tooltip_details.info_sections
+            else None,
+            additional_header_properties=raw_tooltip_details.additional_header_properties,
+        )
+
+
 class AbilityV2(ItemBaseV2):
     model_config = ConfigDict(populate_by_name=True)
 
@@ -116,6 +198,7 @@ class AbilityV2(ItemBaseV2):
     type: Literal["ability"] = "ability"
     behaviours: list[str] | None
     description: AbilityDescriptionV2
+    tooltip_details: AbilityTooltipDetailsV2 | None
     upgrades: list[RawAbilityUpgradeV2] | None
     ability_type: AbilityTypeV2 | None
     boss_damage_scale: float | None
@@ -133,6 +216,13 @@ class AbilityV2(ItemBaseV2):
         raw_model["behaviours"] = (
             [b.strip() for b in raw_ability.behaviour_bits.split("|")]
             if raw_ability.behaviour_bits
+            else None
+        )
+        raw_model["tooltip_details"] = (
+            AbilityTooltipDetailsV2.from_raw_tooltip_details(
+                raw_ability.tooltip_details, localization
+            )
+            if raw_ability.tooltip_details
             else None
         )
         raw_model["description"] = AbilityDescriptionV2.from_raw_ability(

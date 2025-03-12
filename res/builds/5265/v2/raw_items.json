@@ -2130,6 +2130,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -2370,6 +2371,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -2555,6 +2557,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -2949,6 +2952,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -3134,6 +3138,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -3528,6 +3533,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -3713,6 +3719,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -3898,6 +3905,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -4138,6 +4146,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -4323,6 +4332,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": 1663028546,
     "upgrades": null,
@@ -4574,6 +4584,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -4759,6 +4770,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -4977,6 +4989,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -5195,6 +5208,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -5413,6 +5427,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -5631,6 +5646,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -5849,6 +5865,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -6067,6 +6084,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -6285,6 +6303,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -6503,6 +6522,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -6798,6 +6818,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -7049,6 +7070,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -7278,6 +7300,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -7485,6 +7508,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -7670,6 +7694,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -8020,6 +8045,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": 1669926534,
     "upgrades": [
@@ -8346,6 +8372,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": 1659036527,
     "upgrades": [
@@ -8595,6 +8622,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": 1647302636,
     "upgrades": [
@@ -8888,6 +8916,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": 1671571505,
     "upgrades": [
@@ -9269,6 +9298,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": 1679534406,
     "upgrades": [
@@ -9673,6 +9703,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": 1679534406,
     "upgrades": [
@@ -9950,6 +9981,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": 1669945106,
     "upgrades": [
@@ -10309,6 +10341,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": 1678818039,
     "upgrades": [
@@ -10619,6 +10652,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [],
@@ -10881,6 +10915,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [],
@@ -11088,6 +11123,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [],
@@ -11328,6 +11364,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [],
@@ -11590,6 +11627,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -11894,6 +11932,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -12110,6 +12149,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -12405,6 +12445,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -12621,6 +12662,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -12806,6 +12848,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -13002,6 +13045,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -13187,6 +13231,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -13394,6 +13439,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -13623,6 +13669,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -13933,6 +13980,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -14298,6 +14346,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -14547,6 +14596,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -14862,6 +14912,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -15111,6 +15162,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -16801,6 +16853,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -17151,6 +17204,35 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#ability_explosive_barrel_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "BarrelDamage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "ArmTime",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1720039438,
     "upgrades": [
@@ -17555,6 +17637,31 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "AirControlPercent"
+          ],
+          "loc_string": "#ability_bounce_pad_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "StompDamage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1670632337,
     "upgrades": [
@@ -17871,6 +17978,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": 1670465867,
     "upgrades": [
@@ -18137,6 +18245,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": 1650656043,
     "upgrades": [
@@ -18507,6 +18616,29 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [],
+          "loc_string": "#ability_gravity_lasso_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "ExtraTargetConeAngle",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1685743002,
     "upgrades": [
@@ -18820,6 +18952,43 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "AbilityCastDelay"
+          ],
+          "loc_string": "#ability_astro_shotgun_toggle_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "ClipSizeOverride",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "CloseRangeBonusWeaponPower",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "CloseRangeBonusDamageRange",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1647302636,
     "upgrades": [
@@ -19108,6 +19277,39 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "MaxStacks",
+            "DebuffDuration",
+            "SlowDurationPerStack"
+          ],
+          "loc_string": "#ability_astro_rifle_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "DamageAmplificationPerStack",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1647302636,
     "upgrades": [
@@ -19380,6 +19582,41 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#ability_hat_trick_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "SlowPercent",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "DebuffDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1721945369,
     "upgrades": [
@@ -19872,6 +20109,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -20211,6 +20449,35 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#citadel_ability_bull_charge_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "StunDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1659482643,
     "upgrades": [
@@ -20499,6 +20766,37 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "BonusHealthRegen"
+          ],
+          "loc_string": "#citadel_ability_passive_beefy_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "RegenIncomingDamagePercent",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "RegenIncomingDamageDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1647302636,
     "upgrades": [
@@ -20814,6 +21112,37 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "ImpactRadius"
+          ],
+          "loc_string": "#citadel_ability_bull_leap_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "StunDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1685732973,
     "upgrades": [
@@ -21097,6 +21426,41 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#citadel_ability_bull_heal_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "LifeDrainPerSecond",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "HealingFactor",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "NonHeroHealingFactor",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1647302636,
     "upgrades": [
@@ -21605,6 +21969,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -21977,6 +22342,44 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "FireRateSlow",
+            "ExplodeDebuffDuration"
+          ],
+          "loc_string": "#citadel_ability_uppercut_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "UppercutDamage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "LandingDamage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "OnLandDamageRadius",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1693505809,
     "upgrades": [
@@ -22293,6 +22696,53 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [],
+          "loc_string": "#citadel_ability_sticky_bomb_desc",
+          "properties_block": [
+            {
+              "loc_string": "",
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "FuseTime",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        },
+        {
+          "basic_properties": null,
+          "loc_string": null,
+          "properties_block": [
+            {
+              "loc_string": "#Citadel_AbilityProperty_OnAttach",
+              "properties": [
+                {
+                  "important_property": "StatusEffectDisarmed",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": true,
+                  "status_effect_value": "DebuffDuration"
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": "DebuffDuration"
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1693505809,
     "upgrades": [
@@ -22718,6 +23168,48 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "BeamLength"
+          ],
+          "loc_string": "#citadel_ability_bebop_laser_beam_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "DPS",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "BeamWidth",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            },
+            {
+              "loc_string": "#Citadel_AbilityProperty_OnHit",
+              "properties": [
+                {
+                  "important_property": "SlowPercent",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1693505809,
     "upgrades": [
@@ -23105,6 +23597,53 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#citadel_ability_hook_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        },
+        {
+          "basic_properties": null,
+          "loc_string": "#citadel_ability_hook_t2_desc",
+          "properties_block": [
+            {
+              "loc_string": "#Citadel_ability_hook_on_hook",
+              "properties": [
+                {
+                  "important_property": "BulletShieldOnHook",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "BulletShieldDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": "BulletShieldOnHook"
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1693505809,
     "upgrades": [
@@ -23603,6 +24142,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -23856,6 +24396,35 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#ability_rollermine_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "ExplosionDamage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "ExplosionRadius",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 0,
     "upgrades": [
@@ -24072,6 +24641,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -24257,6 +24827,22 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#ability_bomber_ability02_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": []
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 0,
     "upgrades": [
@@ -24473,6 +25059,22 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#ability_bomber_ability03_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": []
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 0,
     "upgrades": [
@@ -24689,6 +25291,29 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#ability_bomber_ult",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "AbilityCooldown",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -25225,6 +25850,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -25454,6 +26080,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -25725,6 +26352,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -26007,6 +26635,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -26311,6 +26940,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -26571,6 +27201,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -27063,6 +27694,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -27358,6 +27990,46 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "PulseInterval",
+            "DebuffDuration",
+            "SlowPercent",
+            "MovementSlowDuration"
+          ],
+          "loc_string": "#citadel_ability_chrono_pulse_grenade_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "PulseDamage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "Pulses",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "DamageAmplificationPerStack",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1678490324,
     "upgrades": [
@@ -27734,6 +28406,44 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "TimeWallWidth",
+            "TimeWallHeight"
+          ],
+          "loc_string": "#citadel_ability_chrono_time_wall_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "TimeScaleDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "DamagePctPerWallHit",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "MovementSlowPct",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1633571723,
     "upgrades": [
@@ -28132,6 +28842,47 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "BaseBulletDamage",
+            "MinBonusBulletDamage",
+            "MaxChargeDuration",
+            "MinSlowDuration",
+            "SpeedBoostDuration"
+          ],
+          "loc_string": "#citadel_ability_chrono_kinetic_carbine_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "MaxBonusBulletDamage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "MaxSlowDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "SpeedChange",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1657223240,
     "upgrades": [
@@ -28442,6 +29193,35 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [],
+          "loc_string": "#citadel_ability_chrono_swap_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "SwapTotalDamage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "SpellLifesteal",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1677887421,
     "upgrades": [
@@ -28934,6 +29714,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -29273,6 +30054,37 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "StompWidth"
+          ],
+          "loc_string": "#citadel_ability_stomp_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "StompRange",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1691688900,
     "upgrades": [
@@ -29573,6 +30385,41 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [],
+          "loc_string": "#citadel_ability_void_sphere_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "VoidTime",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "AllyDistance",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "FireRateBonus",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -29949,6 +30796,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": 1691688900,
     "upgrades": [
@@ -30249,6 +31097,37 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "ShareWithFriendsRadius"
+          ],
+          "loc_string": "#citadel_ability_nikuman_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "HealingPerSecond",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "AbilityChannelTime",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1691688900,
     "upgrades": [
@@ -30565,6 +31444,43 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "VacuumRadius"
+          ],
+          "loc_string": "#citadel_ability_self_vacuum_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "AbilityChannelTime",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "DPS",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "DamagePercentHealth",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1684519897,
     "upgrades": [
@@ -31057,6 +31973,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -31308,6 +32225,43 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "MaxHealthRegenPct"
+          ],
+          "loc_string": "#citadel_ability_mobile_resupply_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "ExternalBonusHealthRegen",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "HealRadius",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "AuraFireRateBonus",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1677288438,
     "upgrades": [
@@ -31755,6 +32709,37 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "TurretLifetime"
+          ],
+          "loc_string": "#citadel_ability_shieldedsentry_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "TurretDPS",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "TurretAttackRange",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": ""
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1676844248,
     "upgrades": [
@@ -32140,6 +33125,69 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "MinRange",
+            "WallImpactRange",
+            "SlowDuration"
+          ],
+          "loc_string": "#citadel_ability_fissure_wall_desc",
+          "properties_block": [
+            {
+              "loc_string": "",
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "SlowPercent",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "StatusEffectStun",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": null,
+                  "status_effect_value": "WallStunDuration"
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        },
+        {
+          "basic_properties": null,
+          "loc_string": "#citadel_ability_fissure_wall_t1_desc",
+          "properties_block": [
+            {
+              "loc_string": "#Citadel_AbilityProperty_OnHit",
+              "properties": [
+                {
+                  "important_property": "DebuffDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "BonusDamagePercent",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": "DebuffDuration"
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1685732973,
     "upgrades": [
@@ -32368,6 +33416,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -32553,6 +33602,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -32947,6 +33997,44 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "MinDistance",
+            "AbilityChannelTime"
+          ],
+          "loc_string": "#citadel_ability_rocket_barrage_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "DamagePerRocket",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "GrenadesPerSecond",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "ExplosionRadius",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1688595425,
     "upgrades": [
@@ -33688,6 +34776,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -33983,6 +35072,55 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "ArmingDuration"
+          ],
+          "loc_string": "#ability_blood_bomb_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "SelfDamage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        },
+        {
+          "basic_properties": null,
+          "loc_string": "#ability_blood_bomb_t3_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "BloodSpillDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": "BloodSpillDuration"
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1666646108,
     "upgrades": [
@@ -34304,6 +35442,59 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "NumBloodShards",
+            "MaxStacks"
+          ],
+          "loc_string": "#ability_blood_shards_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "HealthToDamage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        },
+        {
+          "basic_properties": [
+            "DebuffDuration",
+            "SlowDuration"
+          ],
+          "loc_string": null,
+          "properties_block": [
+            {
+              "loc_string": "#ghost_malice_stack_effect_header",
+              "properties": [
+                {
+                  "important_property": "VulnerabilityPerStack",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "MoveSpeedPenaltyPerStack",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1647547907,
     "upgrades": [
@@ -34592,6 +35783,37 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "MaxRange"
+          ],
+          "loc_string": "#ability_life_drain_desc",
+          "properties_block": [
+            {
+              "loc_string": "",
+              "properties": [
+                {
+                  "important_property": "LifeDrainPerSecond",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "StatusEffectEMP",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": null,
+                  "status_effect_value": "SilenceOnDrain"
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1676078502,
     "upgrades": [
@@ -34863,6 +36085,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -35201,6 +36424,37 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "SelfBuffDuration"
+          ],
+          "loc_string": "#ability_health_swap_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "EnemyMinHealthPct",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "MinHealthTakenPct",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1662567486,
     "upgrades": [
@@ -35705,6 +36959,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -35978,6 +37233,37 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "MaxLifetime"
+          ],
+          "loc_string": "#citadel_ability_lightning_ball_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "DPS",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "ShockRadius",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1668645644,
     "upgrades": [
@@ -36255,6 +37541,43 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "ShockRadius"
+          ],
+          "loc_string": "#citadel_ability_static_charge_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "StatusEffectStun",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": true,
+                  "status_effect_value": "StunDuration"
+                },
+                {
+                  "important_property": "ShockDelay",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1664482286,
     "upgrades": [
@@ -36515,6 +37838,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -36819,6 +38143,37 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "ChainRadius"
+          ],
+          "loc_string": "#ability_power_surge_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "DamagePerChain",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "ChainCount",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1704940477,
     "upgrades": [
@@ -37175,6 +38530,32 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "InitialRadius",
+            "BulletResistOnActive"
+          ],
+          "loc_string": "#citadel_ability_storm_cloud_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "DPS",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1689886586,
     "upgrades": [
@@ -37673,6 +39054,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -38045,6 +39427,44 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "MinimumSleepTime",
+            "SleepDuration"
+          ],
+          "loc_string": "#ability_sleep_dagger_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "StatusEffectSleep",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "SleepWakeUpDelay",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1679352492,
     "upgrades": [
@@ -38311,6 +39731,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -38628,6 +40049,38 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "SpottedRadius",
+            "InvisMoveSpeedMod"
+          ],
+          "loc_string": "#ability_smoke_bomb_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "StatusEffectInvisible",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "InvisFadeToDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1660859273,
     "upgrades": [
@@ -38927,6 +40380,41 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#ability_stacking_damage_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "DamageBonusFixedPerStack",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "MaxStacks",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "ProcDamage",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1679958890,
     "upgrades": [
@@ -39228,6 +40716,38 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "ChannelMoveSpeed",
+            "WeaponDamageBonus"
+          ],
+          "loc_string": "#ability_bullet_flurry_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "TargetsPerTick",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "EvasionPercent",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1646772729,
     "upgrades": [
@@ -39726,6 +41246,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -39966,6 +41487,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -40259,6 +41781,44 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "ChainLength",
+            "SlowPercent"
+          ],
+          "loc_string": "#citadel_ability_hornet_chain_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "ChainDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "CaptureRadius",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1685732973,
     "upgrades": [
@@ -40585,6 +42145,29 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [],
+          "loc_string": "#citadel_ability_hornet_leap_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "MagicDamagePerBullet",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1707519913,
     "upgrades": [
@@ -40911,6 +42494,43 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "DebuffDuration"
+          ],
+          "loc_string": "#citadel_ability_hornet_sting_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "ImpactDamage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "DotHealthPercent",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "BulletResistReduction",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1707519913,
     "upgrades": [
@@ -41299,6 +42919,43 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "HeadshotBonus"
+          ],
+          "loc_string": "#citadel_ability_hornet_snipe_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "LowHealthEnemyDamageBonus",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "BonusGoldOnKill",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1647302636,
     "upgrades": [
@@ -41526,6 +43183,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -42018,6 +43676,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -42280,6 +43939,41 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#ability_fire_bomb_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "StatusEffectStun",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": true,
+                  "status_effect_value": "StunDuration"
+                },
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "ExplodeDelay",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1694045768,
     "upgrades": [
@@ -42686,6 +44380,41 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "DashTime",
+            "DashSpeed",
+            "FlameDashDebuffDuration",
+            "GroundFlameDuration",
+            "FlameAuraRadius"
+          ],
+          "loc_string": "#ability_flame_dash_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "SpeedBurstSpeed",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "FlameAuraDPS",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1706302943,
     "upgrades": [
@@ -42908,6 +44637,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -43236,6 +44966,44 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "DebuffDuration",
+            "SlowDuration"
+          ],
+          "loc_string": "#ability_incendiary_projectile_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "DamageAmplification",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "SlowPercent",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1709149692,
     "upgrades": [
@@ -43541,6 +45309,39 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "BuildUpBulletPercentPerHit",
+            "CritBuildup",
+            "BuildUpDuration"
+          ],
+          "loc_string": "#ability_afterburn_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "DPS",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "BurnDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1678311042,
     "upgrades": [
@@ -44033,6 +45834,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -44372,6 +46174,46 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "MaxSlowTime",
+            "PathLength",
+            "IceBeamBuildupProcDuration",
+            "BeamSplit"
+          ],
+          "loc_string": "#ability_icebeam_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "DPS",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "MaxSlowPercent",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "MaxFireRateSlowPercent",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1685732973,
     "upgrades": [
@@ -44798,6 +46640,43 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "IcePathAuraDuration"
+          ],
+          "loc_string": "#ability_icepath_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "MoveSpeedBonus",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "SprintSpeedBonus",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "BonusTechDamagePercent",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1677633731,
     "upgrades": [
@@ -45081,6 +46960,43 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "SlowDuration"
+          ],
+          "loc_string": "#ability_ice_grenade_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "HealAmount",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "SlowPercent",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1664215031,
     "upgrades": [
@@ -45391,6 +47307,43 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "MaxHealthRegen"
+          ],
+          "loc_string": "#ability_ice_dome_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "BonusHealthRegen",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "SlowPercent",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "FireRateSlow",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1639165848,
     "upgrades": [
@@ -45889,6 +47842,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -46173,6 +48127,33 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "WeaponDamageBonus",
+            "WeaponDamageBonusDuration",
+            "WeaponFireRateBonus"
+          ],
+          "loc_string": "#citadel_ability_lash_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "JumpVelocity",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1668819272,
     "upgrades": [
@@ -46522,6 +48503,38 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "EnemySlowPct",
+            "SlowDuration"
+          ],
+          "loc_string": "#citadel_ability_lash_down_strike_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "StompDamage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "StompDamagePerMeterPrimary",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1667954121,
     "upgrades": [
@@ -46977,6 +48990,39 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "SlowPercent",
+            "SlowDuration",
+            "AbilityCastDelay"
+          ],
+          "loc_string": "#citadel_ability_lash_ultimate_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "ImpactDamage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "ThrowDistance",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1686678287,
     "upgrades": [
@@ -47270,6 +49316,45 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "HealPctVsNonHeroes",
+            "EnemySlowPct",
+            "EnemySlowDuration"
+          ],
+          "loc_string": "#ability_lash_flog_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "HealPctVsHeroes",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "TargetingConeAngle",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1677116690,
     "upgrades": [
@@ -47961,6 +50046,44 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "WhirlwindDuration",
+            "Radius"
+          ],
+          "loc_string": "#mirage_tornado_desc",
+          "properties_block": [
+            {
+              "loc_string": "",
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "HoldInPlaceDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "WhirlwindEvasionChance",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1679534406,
     "upgrades": [
@@ -48287,6 +50410,55 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "VictimStackDuration",
+            "RevealDuration"
+          ],
+          "loc_string": "#mirage_sand_phantom_passive_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "ProcDamageBase",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "MaxStacks",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "ProcCooldown",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        },
+        {
+          "basic_properties": [],
+          "loc_string": "#mirage_sand_phantom_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": []
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1679347214,
     "upgrades": [
@@ -48675,6 +50847,40 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "LaunchWindowDuration",
+            "DebuffDuration",
+            "LaunchWindowCooldown",
+            "NonHeroHealingFactor"
+          ],
+          "loc_string": "#mirage_fire_beetles_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "HealthSteal",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "BulletArmorReduction",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1664215031,
     "upgrades": [
@@ -48946,6 +51152,43 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "MovementSpeedBonusDuration"
+          ],
+          "loc_string": "#mirage_teleport_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "AbilityChannelTime",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "BonusMoveSpeed",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "BonusFireRate",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -49438,6 +51681,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -49700,6 +51944,37 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "DamageHealMultNonHero"
+          ],
+          "loc_string": "#ability_intimidate_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "DamageHealMult",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1692665750,
     "upgrades": [
@@ -50054,6 +52329,44 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "BulletResist",
+            "TechResist"
+          ],
+          "loc_string": "#ability_burrow_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "BonusMoveSpeed",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "DPS",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "SpinDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1692665750,
     "upgrades": [
@@ -50337,6 +52650,35 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#ability_throw_sand_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "SlowPercent",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1692665750,
     "upgrades": [
@@ -50597,6 +52939,41 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#ability_ult_combo_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "DPS",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "LifeStealPercentOnHit",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "BonusHealthOnKill",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1692665750,
     "upgrades": [
@@ -51338,6 +53715,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -51657,6 +54035,35 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#ability_perched_predator_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "ExplosionDamage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "ExplosionRadius",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1676569120,
     "upgrades": [
@@ -51873,6 +54280,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -52080,6 +54488,29 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#ability_perched_predator_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "InitialDamage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -52439,6 +54870,38 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "SlowPercent",
+            "SlowDuration"
+          ],
+          "loc_string": "#ability_nano_pounce_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "ExplodeRadius",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -52843,6 +55306,49 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "RecallCooldown",
+            "StatueLifetime",
+            "StatueHeldRegen",
+            "TargetLifesteal",
+            "HealAmpReceivePenaltyPercent",
+            "VictimDamageReduction",
+            "DamageAmplification"
+          ],
+          "loc_string": "#ability_nano_proximity_ritual_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "DPS",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "StatueHealth",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "ActiveRadius",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -53259,6 +55765,49 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "BulletArmorReductionLight",
+            "BulletArmorReductionHeavy",
+            "BulletArmorReductionDuration",
+            "SpottedRadius",
+            "StaminaCooldownReduction",
+            "SlowResistancePercent",
+            "SilenceOnHeavyDuration"
+          ],
+          "loc_string": "#ability_nano_shadow_step_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "StatusEffectInvisible",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "BonusFireRate",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "MeleeAttackSpeedBonus",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -53751,6 +56300,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -54013,6 +56563,29 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#ability_charged_shot_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1668635902,
     "upgrades": [
@@ -54389,6 +56962,40 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "SlowPercent",
+            "SlowDuration",
+            "BulletLifestealPercent",
+            "TechLifestealPercent"
+          ],
+          "loc_string": "#ability_power_jump_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "BulletSplitShot",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "WeaponDamageBonus",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1664993821,
     "upgrades": [
@@ -54777,6 +57384,47 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "SlowPercent",
+            "SlowDuration",
+            "ArmTime",
+            "BulletVulnerbility",
+            "DebuffDuration"
+          ],
+          "loc_string": "#ability_immobilize_trap_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "ImmobilizeDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "Lifetime",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1682452561,
     "upgrades": [
@@ -55054,6 +57702,43 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "BonusTechPowerPerKill"
+          ],
+          "loc_string": "#ability_guided_arrow_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "ExplosionRadius",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "StunDuration",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": true,
+                  "status_effect_value": "StunDuration"
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1686678287,
     "upgrades": [
@@ -55789,6 +58474,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -56051,6 +58737,59 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [],
+          "loc_string": "#citadel_ability_shiv_dagger_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "ImpactDamage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "BleedDPSPerStack",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "BleedDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        },
+        {
+          "basic_properties": null,
+          "loc_string": "#citadel_ability_shiv_dagger_max_rage_desc",
+          "properties_block": [
+            {
+              "loc_string": "",
+              "properties": [
+                {
+                  "important_property": "MovementSlow",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1668192829,
     "upgrades": [
@@ -56427,6 +59166,53 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#citadel_ability_shiv_dash_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "ImpactDamage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "DashRange",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        },
+        {
+          "basic_properties": null,
+          "loc_string": null,
+          "properties_block": [
+            {
+              "loc_string": "#citadel_ability_shiv_dash_t3_tooltip",
+              "properties": [
+                {
+                  "important_property": "CooldownReductionOnHit",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": "CooldownReductionOnHit"
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1676665273,
     "upgrades": [
@@ -56699,6 +59485,71 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [],
+          "loc_string": "#citadel_ability_shiv_defer_damage_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "DamagePctDeferred",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "DeferredDamageDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        },
+        {
+          "basic_properties": null,
+          "loc_string": "",
+          "properties_block": [
+            {
+              "loc_string": "#citadel_ability_shiv_defer_damage_on_cast",
+              "properties": [
+                {
+                  "important_property": "DeferClearPct",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        },
+        {
+          "basic_properties": null,
+          "loc_string": "#citadel_ability_shiv_defer_damage_max_rage_desc",
+          "properties_block": [
+            {
+              "loc_string": "",
+              "properties": [
+                {
+                  "important_property": "DamagePctDeferredMaxRage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1691434866,
     "upgrades": [
@@ -57135,6 +59986,53 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#citadel_ability_shiv_killing_blow_active_desc",
+          "properties_block": [
+            {
+              "loc_string": "",
+              "properties": [
+                {
+                  "important_property": "EnemyHealthPercent",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        },
+        {
+          "basic_properties": null,
+          "loc_string": "#citadel_ability_shiv_killing_blow_passive_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "BuffDamage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "BonusMoveSpeed",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1667496376,
     "upgrades": [
@@ -57633,6 +60531,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -57818,6 +60717,22 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#ability_shieldguy_ability03_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": []
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 0,
     "upgrades": [
@@ -58034,6 +60949,22 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#ability_shieldguy_ability02_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": []
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 0,
     "upgrades": [
@@ -58250,6 +61181,22 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#ability_shieldguy_ability03_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": []
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 0,
     "upgrades": [
@@ -58466,6 +61413,29 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#ability_shieldguy_ult",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "AbilityCooldown",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -59112,6 +62082,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -59450,6 +62421,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -59677,6 +62649,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": 0,
     "upgrades": null,
@@ -59895,6 +62868,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -60234,6 +63208,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": 1687304900,
     "upgrades": [
@@ -60615,6 +63590,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -60963,6 +63939,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": 1679534406,
     "upgrades": [
@@ -61739,6 +64716,31 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "MaxLifetime"
+          ],
+          "loc_string": "#synth_plasma_flux_desc",
+          "properties_block": [
+            {
+              "loc_string": "",
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1668645644,
     "upgrades": [
@@ -61961,6 +64963,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -62201,6 +65204,43 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "DebuffDuration"
+          ],
+          "loc_string": "#synth_pulse_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "AbilityChannelTime",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "FireRateSlow",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1702584690,
     "upgrades": [
@@ -62513,6 +65553,32 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "BulletShieldDuration",
+            "LifestealPerSecond"
+          ],
+          "loc_string": "#synth_grasp_desc",
+          "properties_block": [
+            {
+              "loc_string": "",
+              "properties": [
+                {
+                  "important_property": "BulletShieldPerHero",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1676078502,
     "upgrades": [
@@ -62741,6 +65807,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -63069,6 +66136,45 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "ProjectileAmount",
+            "SlowDuration",
+            "AmpDuration"
+          ],
+          "loc_string": "#synth_barrage_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "AmpPercentPerStack",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "DamagePerProjectile",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "MoveSlowPercent",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1709844990,
     "upgrades": [
@@ -63357,6 +66463,44 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "BonusFireRate",
+            "MaxStacks"
+          ],
+          "loc_string": "#synth_blitz_desc",
+          "properties_block": [
+            {
+              "loc_string": "",
+              "properties": [
+                {
+                  "important_property": "FastFireBullets",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "BulletLifestealPercent",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "TechAmpPerBullet",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1635460735,
     "upgrades": [
@@ -63662,6 +66806,35 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [],
+          "loc_string": "#synth_affliction_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "DPS",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "DebuffDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1705006846,
     "upgrades": [
@@ -64160,6 +67333,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -64424,6 +67598,44 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "MoveSpeedBonus",
+            "TotalTetherTargets"
+          ],
+          "loc_string": "#citadel_ability_tangotether_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "BonusFireRate",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "BulletLifestealPercent",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "TetherSharedHealPct",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1643091758,
     "upgrades": [
@@ -64640,6 +67852,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -64891,6 +68104,35 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [],
+          "loc_string": "#citadel_ability_tengu_urn_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "DPS",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "SlowPercent",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1666646108,
     "upgrades": [
@@ -65234,6 +68476,41 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [],
+          "loc_string": "#citadel_ability_tengu_stone_form_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "StatusEffectStun",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": true,
+                  "status_effect_value": "StunDuration"
+                },
+                {
+                  "important_property": "MaxHealthRegen",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1641857927,
     "upgrades": [
@@ -65621,6 +68898,49 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "FlyingBulletResist",
+            "BuffDuration",
+            "OnLandDamageRadius",
+            "SlowPercent",
+            "BulletArmorReduction",
+            "BulletArmorReductionDuration",
+            "SilenceDuration"
+          ],
+          "loc_string": "#citadel_ability_tengu_airlift_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "ExplodeDamage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "AirDropBulletShield",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "DebuffDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -66125,6 +69445,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -66387,6 +69708,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -66797,6 +70119,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -67090,6 +70413,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -67422,6 +70746,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -67699,6 +71024,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -67928,6 +71254,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -68227,6 +71554,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": [
@@ -69321,6 +72649,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -69627,6 +72956,65 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [],
+          "loc_string": "#viscous_goo_grenade_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "MaxBounces",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        },
+        {
+          "basic_properties": null,
+          "loc_string": "#viscous_goo_grenade_bounce_desc",
+          "properties_block": null,
+          "property_upgrade_required": "MaxBounces"
+        },
+        {
+          "basic_properties": [],
+          "loc_string": "#viscous_goo_grenade_puddle_desc",
+          "properties_block": [
+            {
+              "loc_string": "",
+              "properties": [
+                {
+                  "important_property": "SlowPercent",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "PuddleDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": ""
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1669930587,
     "upgrades": [
@@ -70025,6 +73413,65 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [],
+          "loc_string": "#viscous_restorative_goo_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "BonusHealthRegen",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "AbilityDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        },
+        {
+          "basic_properties": [],
+          "loc_string": "#viscous_restorative_goo_buff_desc",
+          "properties_block": [
+            {
+              "loc_string": "",
+              "properties": [
+                {
+                  "important_property": "BonusMoveSpeed",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "StaminaCooldownReduction",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "PostCubeBuffDuration",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": "BonusMoveSpeed"
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1669930587,
     "upgrades": [
@@ -70314,6 +73761,35 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#viscous_goo_puddle_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "DamagePerSecond",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "DamageRadius",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1657918553,
     "upgrades": [
@@ -70739,6 +74215,38 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "TechResist",
+            "BulletResist"
+          ],
+          "loc_string": "#viscous_goo_bowling_ball_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "StunDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1669930587,
     "upgrades": [
@@ -71076,6 +74584,37 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "ImpactDuration"
+          ],
+          "loc_string": "#viscous_telepunch_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "SlowPercent",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1669930587,
     "upgrades": [
@@ -71574,6 +75113,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -71825,6 +75365,38 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "EscapeTime",
+            "EscapeRange"
+          ],
+          "loc_string": "#ability_warden_lock_down_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "ImmobilizeDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1692840390,
     "upgrades": [
@@ -72069,6 +75641,35 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#ability_warden_high_alert_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "TechShieldPoints",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "MoveSpeedBonusPct",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1692840390,
     "upgrades": [
@@ -72390,6 +75991,44 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "DebuffDuration",
+            "StaminaReduction"
+          ],
+          "loc_string": "#ability_warden_crowd_control_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "MoveSpeedSlowPct",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "WeaponPowerDebuff",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1692840390,
     "upgrades": [
@@ -72700,6 +76339,44 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "PulseInterval",
+            "HealthStealPct"
+          ],
+          "loc_string": "#ability_warden_riot_protocol_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "PulseDPS",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "HealthStealPctHero",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "BonusMoveSpeed",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1692840390,
     "upgrades": [
@@ -73192,6 +76869,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -73410,6 +77088,29 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#citadel_ability_psychic_lift_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1692734621,
     "upgrades": [
@@ -73670,6 +77371,41 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#citadel_ability_projectmind_desc",
+          "properties_block": null,
+          "property_upgrade_required": null
+        },
+        {
+          "basic_properties": null,
+          "loc_string": null,
+          "properties_block": [
+            {
+              "loc_string": "#wraith_project_mind_t2_title",
+              "properties": [
+                {
+                  "important_property": "BulletShieldOnLand",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "BulletShieldDuration",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": "BulletShieldOnLand"
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1692734621,
     "upgrades": [
@@ -74030,6 +77766,37 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "ShootInterval"
+          ],
+          "loc_string": "#citadel_ability_psychic_daggers_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "DamagePerDagger",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "MaxDaggers",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1692733290,
     "upgrades": [
@@ -74301,6 +78068,41 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#citadel_ability_wraith_rapidfire_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "BonusFireRate",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "BulletLifestealPercent",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "MagicDamagePerBullet",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1692734621,
     "upgrades": [
@@ -74649,6 +78451,35 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#citadel_ability_card_toss_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "AbilityCharges",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1666646108,
     "upgrades": [
@@ -74876,6 +78707,35 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [],
+          "loc_string": "#citadel_ability_psychic_pulse_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "SenseRange",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "AbilityDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1692734621,
     "upgrades": [
@@ -75368,6 +79228,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -75621,6 +79482,37 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "MoveSpeedLimit"
+          ],
+          "loc_string": "#ability_wrecking_ball_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "WreckingBallDamage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "StatusEffectStun",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": true,
+                  "status_effect_value": "StunDuration"
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1708983956,
     "upgrades": [
@@ -75837,6 +79729,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -76088,6 +79981,39 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "FireRateBuffDuration",
+            "SalvageDuration",
+            "SalvageBonus_Health"
+          ],
+          "loc_string": "#ability_wrecker_salvage_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "DPS",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "SalvageBonus_FireRate",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1686092242,
     "upgrades": [
@@ -76348,6 +80274,37 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "EnemyMoveSlowDuration"
+          ],
+          "loc_string": "#ability_scrap_blast_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "ScrapDamage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "EnemyMoveSlow",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1710533787,
     "upgrades": [
@@ -76718,6 +80675,7 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": 1641924609,
     "upgrades": [
@@ -76978,6 +80936,39 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "AbilityCastDelay",
+            "EnemySlowPct",
+            "EnemyMoveSlowDuration"
+          ],
+          "loc_string": "#ability_wrecker_teleport_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "DamagePerSecondFlown",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "ExplosionRadius",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1693334416,
     "upgrades": [
@@ -77751,6 +81742,7 @@
       }
     },
     "start_trained": true,
+    "tooltip_details": null,
     "type": "ability",
     "update_time": null,
     "upgrades": null,
@@ -78068,6 +82060,39 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "SlowPercent",
+            "SlowDuration",
+            "BulletResist"
+          ],
+          "loc_string": "#citadel_ability_power_slash_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "FullChargeDamage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "SlashLength",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1686678287,
     "upgrades": [
@@ -78351,6 +82376,61 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "SlowDuration"
+          ],
+          "loc_string": "#citadel_ability_flying_strike_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "SlowPercent",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        },
+        {
+          "basic_properties": null,
+          "loc_string": null,
+          "properties_block": [
+            {
+              "loc_string": "#yamato_flying_strike_t3_header",
+              "properties": [
+                {
+                  "important_property": "WeaponDamageBonus",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "WeaponPowerIncreaseDuration",
+                  "requires_ability_upgrade": true,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": "WeaponDamageBonus"
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1643091758,
     "upgrades": [
@@ -78639,6 +82719,43 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": [
+            "DebuffDuration"
+          ],
+          "loc_string": "#citadel_ability_healing_slash_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "Damage",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "HealFixedHealth",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "FireRateSlow",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1701290969,
     "upgrades": [
@@ -78877,6 +82994,35 @@
       }
     },
     "start_trained": false,
+    "tooltip_details": {
+      "additional_header_properties": null,
+      "info_sections": [
+        {
+          "basic_properties": null,
+          "loc_string": "#citadel_ability_infinity_slash_desc",
+          "properties_block": [
+            {
+              "loc_string": null,
+              "properties": [
+                {
+                  "important_property": "AbilityDuration",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                },
+                {
+                  "important_property": "AbilitySpeedPct",
+                  "requires_ability_upgrade": null,
+                  "show_property_value": null,
+                  "status_effect_value": null
+                }
+              ]
+            }
+          ],
+          "property_upgrade_required": null
+        }
+      ]
+    },
     "type": "ability",
     "update_time": 1666719520,
     "upgrades": [

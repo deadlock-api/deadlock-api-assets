@@ -23,6 +23,50 @@ class RawAbilityUpgradeV2(BaseModel):
     )
 
 
+class RawAbilityV2TooltipDetailsInfoSectionPropertyBlockProperty(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    requires_ability_upgrade: bool | None = Field(
+        None, validation_alias="m_bRequiresAbilityUpgrade"
+    )
+    show_property_value: bool | None = Field(None, validation_alias="m_bShowPropertyValue")
+    important_property: str | None = Field(None, validation_alias="m_strImportantProperty")
+    status_effect_value: str | None = Field(None, validation_alias="m_strStatusEffectValue")
+
+
+class RawAbilityV2TooltipDetailsInfoSectionPropertyBlock(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    loc_string: str | None = Field(None, validation_alias="m_strPropertiesTitleLocString")
+    properties: list[RawAbilityV2TooltipDetailsInfoSectionPropertyBlockProperty] | None = Field(
+        None, validation_alias="m_vecAbilityProperties"
+    )
+
+
+class RawAbilityV2TooltipDetailsInfoSection(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    property_upgrade_required: str | None = Field(
+        None, validation_alias="m_strAbilityPropertyUpgradeRequired"
+    )
+    loc_string: str | None = Field(None, validation_alias="m_strLocString")
+    properties_block: list[RawAbilityV2TooltipDetailsInfoSectionPropertyBlock] | None = Field(
+        None, validation_alias="m_vecAbilityPropertiesBlock"
+    )
+    basic_properties: list[str] | None = Field(None, validation_alias="m_vecBasicProperties")
+
+
+class RawAbilityV2TooltipDetails(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    info_sections: list[RawAbilityV2TooltipDetailsInfoSection] | None = Field(
+        None, validation_alias="m_vecAbilityInfoSections"
+    )
+    additional_header_properties: list[str] | None = Field(
+        None, validation_alias="m_vecAdditionalHeaderProperties"
+    )
+
+
 class RawAbilityV2(RawItemBaseV2):
     model_config = ConfigDict(populate_by_name=True)
 
@@ -35,3 +79,6 @@ class RawAbilityV2(RawItemBaseV2):
     boss_damage_scale: float | None = Field(None, validation_alias="m_flBossDamageScale")
     dependant_abilities: list[str] | None = Field(None, validation_alias="m_vecDependentAbilities")
     video: str | None = Field(None, validation_alias="m_strMoviePreviewPath")
+    tooltip_details: RawAbilityV2TooltipDetails | None = Field(
+        None, validation_alias="m_AbilityTooltipDetails"
+    )
