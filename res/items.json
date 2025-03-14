@@ -7800,7 +7800,7 @@
             "property_name": "BarrelDamage",
             "scale_stat_filter": null,
             "upgrade_type": null,
-            "upgrade_value": "120"
+            "upgrade_value": "100"
           }
         ]
       },
@@ -7925,6 +7925,26 @@
           {
             "css_class": null,
             "display_units": null,
+            "property_name": "AbilityCooldown",
+            "scale_stat_filter": null,
+            "upgrade_type": null,
+            "upgrade_value": "-10"
+          },
+          {
+            "css_class": null,
+            "display_units": null,
+            "property_name": "SpeedOnLandDuration",
+            "scale_stat_filter": null,
+            "upgrade_type": null,
+            "upgrade_value": "4"
+          }
+        ]
+      },
+      {
+        "property_upgrades": [
+          {
+            "css_class": null,
+            "display_units": null,
             "property_name": "SpeedOnLand",
             "scale_stat_filter": null,
             "upgrade_type": null,
@@ -7935,7 +7955,7 @@
             "display_units": null,
             "property_name": "SpeedOnLandDuration",
             "scale_stat_filter": null,
-            "upgrade_type": null,
+            "upgrade_type": "EAddToBase",
             "upgrade_value": "4"
           }
         ]
@@ -7956,19 +7976,7 @@
             "property_name": "StompDamage",
             "scale_stat_filter": null,
             "upgrade_type": "EAddToScale",
-            "upgrade_value": 1.04832
-          }
-        ]
-      },
-      {
-        "property_upgrades": [
-          {
-            "css_class": null,
-            "display_units": null,
-            "property_name": "StompStunDuration",
-            "scale_stat_filter": null,
-            "upgrade_type": null,
-            "upgrade_value": "1"
+            "upgrade_value": "0.346"
           }
         ]
       }
@@ -7990,7 +7998,7 @@
       "ability_cast_range": 0.0,
       "ability_channel_time": 0.0,
       "ability_charges": 1.0,
-      "ability_cooldown": 37.0,
+      "ability_cooldown": 41.0,
       "ability_cooldown_between_charge": 3.5,
       "ability_duration": 22.0,
       "ability_post_cast_duration": 0.0,
@@ -17734,10 +17742,10 @@
           {
             "css_class": null,
             "display_units": null,
-            "property_name": "SpiritDamage",
+            "property_name": "WeaponDamageBonus",
             "scale_stat_filter": null,
             "upgrade_type": null,
-            "upgrade_value": "6"
+            "upgrade_value": "4"
           }
         ]
       },
@@ -17803,9 +17811,9 @@
       "override_bullet_radius": 10.0,
       "proc_chance": 100.0,
       "radius": "15m",
-      "spirit_damage": 6.0,
       "targets_per_tick": 1.0,
       "tech_power": 0.0,
+      "weapon_damage_bonus": 6.0,
       "weapon_power": 0.0
     },
     "shopable": null,
@@ -39486,7 +39494,7 @@
       "ability_unit_target_limit": 1.0,
       "bonus_fire_rate": 0.0,
       "channel_move_speed": 9999.0,
-      "damage": 30.0,
+      "damage": 20.0,
       "leash_radius": "20m",
       "tech_power": 0.0,
       "total_swaps": 1.0,
@@ -39524,10 +39532,10 @@
       "crit_bonus_start_range": null,
       "cycle_time": null,
       "damage_falloff_bias": null,
-      "damage_falloff_end_range": null,
-      "damage_falloff_end_scale": null,
-      "damage_falloff_start_range": null,
-      "damage_falloff_start_scale": null,
+      "damage_falloff_end_range": 2400.0,
+      "damage_falloff_end_scale": 0.3,
+      "damage_falloff_start_range": 1000.0,
+      "damage_falloff_start_scale": 1.0,
       "horizontal_punch": null,
       "horizontal_recoil": null,
       "intra_burst_cycle_time": null,
@@ -57508,7 +57516,7 @@
       "channel_move_speed": 50.0,
       "damage": 75.0,
       "end_radius": "14m",
-      "n_p_c_damage_mult": 2.0,
+      "n_p_c_damage_mult": 1.0,
       "slow_percent": 40.0,
       "spread_duration": 0.75,
       "start_radius": "2m",
