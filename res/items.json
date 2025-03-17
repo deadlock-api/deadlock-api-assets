@@ -56203,7 +56203,6 @@
       "melee_resist_percent": 25.0,
       "radius": "50m",
       "tech_power": 0.0,
-      "tech_resist": 10.0,
       "weapon_power": 0.0
     },
     "shopable": null,
@@ -56478,8 +56477,8 @@
       "bonus_move_speed": "2m",
       "buff_duration": 5.0,
       "channel_move_speed": "20m",
-      "savior_bullet_shield_health": 260.0,
-      "savior_magic_shield_health": 260.0,
+      "savior_bullet_shield_health": 230.0,
+      "savior_magic_shield_health": 230.0,
       "tech_power": 0.0,
       "tech_radius_multiplier": 8.0,
       "tech_range_multiplier": 8.0,

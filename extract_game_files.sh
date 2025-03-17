@@ -132,7 +132,7 @@ optipng -o2 images/**/*.png
 mkdir -p videos
 cp -r "$citadel_folder"/panorama/videos/hero_abilities videos/
 find videos -type f -name "*.webm" -print0 | \
-    xargs -P 8 -0 -I {} sh -c '
+    xargs -P 4 -0 -I {} sh -c '
         video_file="{}"
         video_mp4_file=$(echo "$video_file" | sed "s/.webm/_h264.mp4/")
         echo "Converting $video_file to $video_mp4_file"
