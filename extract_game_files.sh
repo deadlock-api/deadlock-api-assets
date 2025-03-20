@@ -80,6 +80,8 @@ cp -r "$citadel_folder"/resource/localization/citadel_attributes/* localization/
 # Extract icon files
 mkdir -p svgs
 find depots/game/ -type f -name '*.svg' -print0 | xargs -0 -n 1 cp -t svgs/
+find depots/game/ -type f -name 'keystat_*.png' -print0 | xargs -0 -n 1 cp -t svgs/
+find svgs -type f -name "*_png.*" -exec bash -c 'mv "$1" "${1/_png./.}"' _ {} \;
 
 # Extract css files
 cp "$citadel_folder"/panorama/styles/ability_icons.css res/

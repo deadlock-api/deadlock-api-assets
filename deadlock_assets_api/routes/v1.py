@@ -177,12 +177,12 @@ def get_steam_info() -> SteamInfoV1:
 
 @router.get("/icons", response_model_exclude_none=True)
 def get_icons() -> dict[str, str]:
-    return {i.rstrip(".svg"): f"{SVGS_BASE_URL}/{i}" for i in get_all_icons()}
+    return {i.rstrip(".svg").rstrip(".png"): f"{SVGS_BASE_URL}/{i}" for i in get_all_icons()}
 
 
 @lru_cache
 def get_all_icons() -> list[str]:
-    return [i for i in os.listdir("svgs") if i.endswith(".svg")]
+    return [i for i in os.listdir("svgs") if i.endswith(".svg") or i.endswith(".png")]
 
 
 @router.get("/sounds", response_model_exclude_none=True)
