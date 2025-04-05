@@ -1459,7 +1459,7 @@
       "bonus_sprint_speed": "0m",
       "channel_move_speed": 50.0,
       "drop_off_timer": 2.0,
-      "fixed_move_speed": "13m",
+      "fixed_move_speed": "15m",
       "lifetime": 35.0,
       "radius": 20.0,
       "slow_resistance_percent": 100.0,
@@ -7800,7 +7800,7 @@
             "property_name": "BarrelDamage",
             "scale_stat_filter": null,
             "upgrade_type": null,
-            "upgrade_value": "100"
+            "upgrade_value": "80"
           }
         ]
       },
@@ -9044,7 +9044,7 @@
             "property_name": "Damage",
             "scale_stat_filter": null,
             "upgrade_type": null,
-            "upgrade_value": "85"
+            "upgrade_value": "60"
           }
         ]
       },
@@ -18561,7 +18561,7 @@
       "bullet_resist_reduction": -6.0,
       "channel_move_speed": 50.0,
       "debuff_duration": 6.0,
-      "dot_health_percent": 3.0,
+      "dot_health_percent": 2.3,
       "heal_amp_receive_penalty_percent": 0.0,
       "heal_amp_regen_penalty_percent": 0.0,
       "impact_damage": 40.0,
@@ -20152,6 +20152,7 @@
       "move_while_shooting_speed_penalty_reduction_percent": 100.0,
       "move_while_zoomed_speed_penalty_reduction_percent": 100.0,
       "popup_force": 30.0,
+      "slide_scale": 50.0,
       "slow_resistance_percent": 60.0,
       "sprint_speed_bonus": "2m",
       "tech_power": 0.0,
@@ -21620,7 +21621,7 @@
             "property_name": "VictimStackDuration",
             "scale_stat_filter": null,
             "upgrade_type": null,
-            "upgrade_value": "4.0"
+            "upgrade_value": "2.5"
           },
           {
             "css_class": null,
@@ -25266,7 +25267,7 @@
       "dash_radius": "2.0m",
       "dash_range": "9m",
       "dash_speed": 2400.0,
-      "heal_amount": 50.0,
+      "heal_amount": 40.0,
       "impact_damage": 0.0,
       "move_speed_penalty_duration": 0.0,
       "move_speed_penalty_max_speed": 200.0,
@@ -38815,18 +38816,6 @@
           {
             "css_class": null,
             "display_units": null,
-            "property_name": "AbilityCooldown",
-            "scale_stat_filter": null,
-            "upgrade_type": null,
-            "upgrade_value": "-4"
-          }
-        ]
-      },
-      {
-        "property_upgrades": [
-          {
-            "css_class": null,
-            "display_units": null,
             "property_name": "FireRateSlow",
             "scale_stat_filter": null,
             "upgrade_type": null,
@@ -38839,6 +38828,18 @@
             "scale_stat_filter": null,
             "upgrade_type": null,
             "upgrade_value": "5"
+          }
+        ]
+      },
+      {
+        "property_upgrades": [
+          {
+            "css_class": null,
+            "display_units": null,
+            "property_name": "AbilityCooldown",
+            "scale_stat_filter": null,
+            "upgrade_type": null,
+            "upgrade_value": "-13"
           }
         ]
       },
@@ -38880,7 +38881,7 @@
       "ability_cast_range": "500m",
       "ability_channel_time": 0.0,
       "ability_charges": 1.0,
-      "ability_cooldown": 15.0,
+      "ability_cooldown": 24.0,
       "ability_cooldown_between_charge": 3.0,
       "ability_duration": 0.0,
       "ability_post_cast_duration": 0.3,
@@ -56378,12 +56379,12 @@
       "ability_cooldown": 32.0,
       "ability_cooldown_between_charge": 0.0,
       "ability_duration": 8.0,
-      "ability_lifesteal_percent_hero": 20.0,
+      "ability_lifesteal_percent_hero": 15.0,
       "ability_post_cast_duration": 0.0,
       "ability_resource_cost": 0.0,
       "ability_unit_target_limit": 1.0,
       "bonus_clip_size_percent": 10.0,
-      "bonus_spirit": 16.0,
+      "bonus_spirit": 13.0,
       "channel_move_speed": 50.0,
       "tech_power": 0.0,
       "tech_shield_max_health": 70.0,
