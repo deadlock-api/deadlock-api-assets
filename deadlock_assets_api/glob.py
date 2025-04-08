@@ -1,4 +1,4 @@
-IMAGE_BASE_URL = "https://assets.deadlock-api.com/images"
-SVGS_BASE_URL = "https://assets.deadlock-api.com/icons"
-SOUNDS_BASE_URL = "https://assets.deadlock-api.com"
-VIDEO_BASE_URL = "https://assets.deadlock-api.com/videos"
+IMAGE_BASE_URL = "https://assets-bucket.deadlock-api.com/assets-api-res/images"
+SVGS_BASE_URL = "https://assets-bucket.deadlock-api.com/assets-api-res/svgs"
+SOUNDS_BASE_URL = "https://assets-bucket.deadlock-api.com/assets-api-res"
+VIDEO_BASE_URL = "https://assets-bucket.deadlock-api.com/assets-api-res/videos"
