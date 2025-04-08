@@ -20,7 +20,12 @@ def get_version_id():
 
 VDATA_FILES = (
     [
-        (parse_generic_data, "vdata/generic_data.vdata", "res/generic_data.json", True),
+        (
+            parse_generic_data,
+            "vdata/generic_data.vdata",
+            f"res/builds/{get_version_id()}/v2/generic_data.json",
+            True,
+        ),
         (
             parse_heroes_v2,
             "vdata/heroes.vdata",
@@ -131,5 +136,9 @@ if __name__ == "__main__":
     shutil.copyfile(
         f"res/builds/{get_version_id()}/v2/raw_heroes.json",
         "res/raw_heroes.json",
+    )
+    shutil.copyfile(
+        f"res/builds/{get_version_id()}/v2/generic_data.json",
+        "res/generic_data.json",
     )
     parse_localization()
