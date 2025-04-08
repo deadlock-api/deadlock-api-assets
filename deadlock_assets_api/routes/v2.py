@@ -11,7 +11,7 @@ from deadlock_assets_api.models.languages import Language
 from deadlock_assets_api.models.v2.api_ability import AbilityV2
 from deadlock_assets_api.models.v2.api_hero import HeroV2
 from deadlock_assets_api.models.v2.api_item import ItemV2
-from deadlock_assets_api.models.v2.enums import ItemSlotTypeV2
+from deadlock_assets_api.models.v2.enums import ItemSlotTypeV2, ItemTypeV2
 from deadlock_assets_api.models.v2.api_upgrade import UpgradeV2
 from deadlock_assets_api.models.v2.api_weapon import WeaponV2
 from deadlock_assets_api.models.v2.rank import RankV2
@@ -230,18 +230,15 @@ def get_items_by_hero_id(
     return [i for i in items if id in i.heroes and i.class_name not in filter_class_names]
 
 
-@router.get(
-    "/items/by-type/{slot_type}",
-    response_model_exclude_none=True,
-    include_in_schema=False,
-    deprecated=True,
-)
+@router.get("/items/by-type/{type}", response_model_exclude_none=True)
 def get_items_by_type(
-    slot_type: ItemSlotTypeV2,
+    type: ItemTypeV2,
     language: Language | None = None,
     client_version: VALID_CLIENT_VERSIONS | None = None,
 ) -> list[ItemV2]:
-    return get_items_by_slot_type(slot_type, language, client_version)
+    items = get_items(language, client_version)
+    type = ItemTypeV2(type.capitalize())
+    return [c for c in items if c.type == type]
 
 
 @router.get("/items/by-slot-type/{slot_type}", response_model_exclude_none=True)
