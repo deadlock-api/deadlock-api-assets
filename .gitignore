@@ -3,7 +3,8 @@ svgs/
 sounds/
 images/
 videos/
-/localization
+localization/
+deploy/
 
 # Game File Extractor
 DepotDownloader
