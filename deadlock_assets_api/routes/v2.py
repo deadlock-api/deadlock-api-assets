@@ -230,6 +230,15 @@ def get_items_by_hero_id(
     return [i for i in items if id in i.heroes and i.class_name not in filter_class_names]
 
 
+@router.get("/items/by-type/{slot_type}", response_model_exclude_none=True)
+def get_items_by_type(
+    slot_type: ItemSlotTypeV2,
+    language: Language | None = None,
+    client_version: VALID_CLIENT_VERSIONS | None = None,
+) -> list[ItemV2]:
+    return get_items_by_slot_type(slot_type, language, client_version)
+
+
 @router.get("/items/by-slot-type/{slot_type}", response_model_exclude_none=True)
 def get_items_by_slot_type(
     slot_type: ItemSlotTypeV2,
