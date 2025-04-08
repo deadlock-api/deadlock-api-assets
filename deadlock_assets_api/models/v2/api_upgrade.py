@@ -3,9 +3,8 @@ from typing import Literal
 from pydantic import ConfigDict, Field, computed_field, BaseModel
 
 from deadlock_assets_api.models.v1.generic_data import load_generic_data
-from deadlock_assets_api.models.v1.item import ItemSlotTypeV1
 from deadlock_assets_api.models.v2.api_item_base import ItemBaseV2, ItemPropertyV2
-from deadlock_assets_api.models.v2.enums import ItemTierV2
+from deadlock_assets_api.models.v2.enums import ItemTierV2, ItemSlotTypeV2
 from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
 from deadlock_assets_api.models.v2.raw_item_base import RawItemPropertyV2
 from deadlock_assets_api.models.v2.raw_upgrade import (
@@ -170,7 +169,7 @@ class UpgradeV2(ItemBaseV2):
 
     type: Literal["upgrade"] = "upgrade"
 
-    item_slot_type: ItemSlotTypeV1
+    item_slot_type: ItemSlotTypeV2
     item_tier: ItemTierV2
     properties: dict[str, UpgradePropertyV2] | None
     disabled: bool | None
@@ -192,9 +191,9 @@ class UpgradeV2(ItemBaseV2):
             (self.disabled is None or self.disabled is False)
             and self.item_slot_type
             in [
-                ItemSlotTypeV1.EItemSlotType_Armor,
-                ItemSlotTypeV1.EItemSlotType_WeaponMod,
-                ItemSlotTypeV1.EItemSlotType_Tech,
+                ItemSlotTypeV2.EItemSlotType_Armor,
+                ItemSlotTypeV2.EItemSlotType_WeaponMod,
+                ItemSlotTypeV2.EItemSlotType_Tech,
             ]
             and self.image is not None
         )

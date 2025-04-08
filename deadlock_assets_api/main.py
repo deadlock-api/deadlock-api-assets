@@ -10,7 +10,7 @@ from starlette.responses import FileResponse, RedirectResponse, Response
 from starlette.staticfiles import StaticFiles
 
 from deadlock_assets_api.logging_middleware import RouterLoggingMiddleware
-from deadlock_assets_api.routes import base, raw, v1, v2
+from deadlock_assets_api.routes import raw, v1, v2
 
 logging.basicConfig(level=os.environ.get("LOG_LEVEL", "DEBUG"))
 logging.config.dictConfig(
@@ -77,7 +77,6 @@ async def cors_handler(request: Request, call_next):
 
 Instrumentator(should_group_status_codes=False).instrument(app).expose(app, include_in_schema=False)
 
-app.include_router(base.router, include_in_schema=False)
 app.include_router(v2.router)
 app.include_router(v1.router)
 app.include_router(raw.router)

@@ -1,24 +1,11 @@
 import logging
 
 from deadlock_assets_api import utils
-from deadlock_assets_api.models.v1.item import ItemV1
 from deadlock_assets_api.models.v2.raw_ability import RawAbilityV2
 from deadlock_assets_api.models.v2.raw_upgrade import RawUpgradeV2
 from deadlock_assets_api.models.v2.raw_weapon import RawWeaponV2
 
 LOGGER = logging.getLogger(__name__)
-
-
-def parse_items(data: dict) -> list[ItemV1]:
-    ability_dicts = {
-        k: v
-        for k, v in data.items()
-        if "base" not in k
-        and "dummy" not in k
-        and ("generic" not in k or "citadel" in k)
-        and isinstance(v, dict)
-    }
-    return [ItemV1(class_name=k, **v) for k, v in ability_dicts.items()]
 
 
 def parse_items_v2(data: dict) -> list[RawWeaponV2 | RawUpgradeV2 | RawAbilityV2]:

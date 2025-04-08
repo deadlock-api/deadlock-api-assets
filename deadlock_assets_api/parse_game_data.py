@@ -8,8 +8,8 @@ from kv3parser import KV3Parser
 from pydantic import BaseModel
 
 from deadlock_assets_api.parsers.generic_data import parse_generic_data
-from deadlock_assets_api.parsers.heroes import parse_heroes, parse_heroes_v2
-from deadlock_assets_api.parsers.items import parse_items, parse_items_v2
+from deadlock_assets_api.parsers.heroes import parse_heroes_v2
+from deadlock_assets_api.parsers.items import parse_items_v2
 
 
 def get_version_id():
@@ -21,14 +21,12 @@ def get_version_id():
 VDATA_FILES = (
     [
         (parse_generic_data, "vdata/generic_data.vdata", "res/generic_data.json", True),
-        (parse_heroes, "vdata/heroes.vdata", "res/heroes.json", True),
         (
             parse_heroes_v2,
             "vdata/heroes.vdata",
             f"res/builds/{get_version_id()}/v2/raw_heroes.json",
             False,
         ),
-        (parse_items, "vdata/abilities.vdata", "res/items.json", True),
         (
             parse_items_v2,
             "vdata/abilities.vdata",
@@ -36,26 +34,26 @@ VDATA_FILES = (
             False,
         ),
     ]
-    + [
-        (
-            parse_heroes_v2,
-            "vdata/heroes.vdata",
-            f"res/builds/{build_id}/v2/raw_heroes.json",
-            False,
-        )
-        for build_id in os.listdir("res/builds")
-        if build_id != get_version_id()
-    ]
-    + [
-        (
-            parse_items_v2,
-            "vdata/abilities.vdata",
-            f"res/builds/{build_id}/v2/raw_items.json",
-            False,
-        )
-        for build_id in os.listdir("res/builds")
-        if build_id != get_version_id()
-    ]
+    # + [
+    #     (
+    #         parse_heroes_v2,
+    #         "vdata/heroes.vdata",
+    #         f"res/builds/{build_id}/v2/raw_heroes.json",
+    #         False,
+    #     )
+    #     for build_id in os.listdir("res/builds")
+    #     if build_id != get_version_id()
+    # ]
+    # + [
+    #     (
+    #         parse_items_v2,
+    #         "vdata/abilities.vdata",
+    #         f"res/builds/{build_id}/v2/raw_items.json",
+    #         False,
+    #     )
+    #     for build_id in os.listdir("res/builds")
+    #     if build_id != get_version_id()
+    # ]
 )
 
 
@@ -126,4 +124,12 @@ if __name__ == "__main__":
         f"res/builds/{get_version_id()}/v2/ability_properties.css",
     )
     parse_vdata()
+    shutil.copyfile(
+        f"res/builds/{get_version_id()}/v2/raw_items.json",
+        "res/raw_items.json",
+    )
+    shutil.copyfile(
+        f"res/builds/{get_version_id()}/v2/raw_heroes.json",
+        "res/raw_heroes.json",
+    )
     parse_localization()

@@ -3,8 +3,7 @@ import json
 from pydantic import BaseModel, ConfigDict
 
 from deadlock_assets_api.glob import IMAGE_BASE_URL
-from deadlock_assets_api.models.v1.hero import HeroItemTypeV1
-from deadlock_assets_api.models.v1.item import ItemSlotTypeV1
+from deadlock_assets_api.models.v2.enums import HeroItemTypeV2, ItemSlotTypeV2
 from deadlock_assets_api.models.v2.raw_hero import (
     RawHeroItemSlotInfoValueV2,
     RawHeroLevelInfoV2,
@@ -263,9 +262,9 @@ class HeroV2(BaseModel):
     complexity: int
     skin: int
     images: HeroImagesV2
-    items: dict[HeroItemTypeV1, str]
+    items: dict[HeroItemTypeV2, str]
     starting_stats: HeroStartingStatsV2
-    item_slot_info: dict[ItemSlotTypeV1, RawHeroItemSlotInfoValueV2]
+    item_slot_info: dict[ItemSlotTypeV2, RawHeroItemSlotInfoValueV2]
     physics: HeroPhysicsV2
     colors: HeroColorsV2
     shop_stat_display: HeroShopStatDisplayV2
@@ -273,7 +272,7 @@ class HeroV2(BaseModel):
     hero_stats_ui: RawHeroStatsUIV2
     level_info: dict[str, HeroLevelInfoV2]
     scaling_stats: dict[str, RawHeroScalingStatV2]
-    purchase_bonuses: dict[ItemSlotTypeV1, list[RawHeroPurchaseBonusV2]]
+    purchase_bonuses: dict[ItemSlotTypeV2, list[RawHeroPurchaseBonusV2]]
     standard_level_up_upgrades: dict[str, float]
 
     @classmethod

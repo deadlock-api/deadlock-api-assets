@@ -3,8 +3,7 @@ from typing import Literal
 
 from pydantic import ConfigDict, Field, BaseModel
 
-from deadlock_assets_api.models.v1.item import ItemSlotTypeV1
-from deadlock_assets_api.models.v2.enums import ItemTierV2
+from deadlock_assets_api.models.v2.enums import ItemTierV2, ItemSlotTypeV2
 from deadlock_assets_api.models.v2.raw_item_base import RawItemBaseV2
 
 
@@ -86,7 +85,7 @@ class RawUpgradeV2(RawItemBaseV2):
 
     type: Literal["upgrade"] = "upgrade"
 
-    item_slot_type: ItemSlotTypeV1 = Field(..., validation_alias="m_eItemSlotType")
+    item_slot_type: ItemSlotTypeV2 = Field(..., validation_alias="m_eItemSlotType")
     item_tier: ItemTierV2 = Field(..., validation_alias="m_iItemTier")
     disabled: bool | None = Field(None, validation_alias="m_bDisabled")
     activation: RawAbilityActivationV2 = Field(None, validation_alias="m_eAbilityActivation")

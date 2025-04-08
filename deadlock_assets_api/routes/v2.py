@@ -8,10 +8,10 @@ from pydantic import TypeAdapter
 
 from deadlock_assets_api import utils
 from deadlock_assets_api.models.languages import Language
-from deadlock_assets_api.models.v1.item import ItemSlotTypeV1, ItemTypeV1
 from deadlock_assets_api.models.v2.api_ability import AbilityV2
 from deadlock_assets_api.models.v2.api_hero import HeroV2
 from deadlock_assets_api.models.v2.api_item import ItemV2
+from deadlock_assets_api.models.v2.enums import ItemSlotTypeV2, ItemTypeV2
 from deadlock_assets_api.models.v2.api_upgrade import UpgradeV2
 from deadlock_assets_api.models.v2.api_weapon import WeaponV2
 from deadlock_assets_api.models.v2.rank import RankV2
@@ -232,23 +232,23 @@ def get_items_by_hero_id(
 
 @router.get("/items/by-type/{type}", response_model_exclude_none=True)
 def get_items_by_type(
-    type: ItemTypeV1,
+    type: ItemTypeV2,
     language: Language | None = None,
     client_version: VALID_CLIENT_VERSIONS | None = None,
 ) -> list[ItemV2]:
     items = get_items(language, client_version)
-    type = ItemTypeV1(type.capitalize())
+    type = ItemTypeV2(type.capitalize())
     return [c for c in items if c.type == type]
 
 
 @router.get("/items/by-slot-type/{slot_type}", response_model_exclude_none=True)
 def get_items_by_slot_type(
-    slot_type: ItemSlotTypeV1,
+    slot_type: ItemSlotTypeV2,
     language: Language | None = None,
     client_version: VALID_CLIENT_VERSIONS | None = None,
 ) -> list[ItemV2]:
     items = get_items(language, client_version)
-    slot_type = ItemSlotTypeV1(slot_type.capitalize())
+    slot_type = ItemSlotTypeV2(slot_type.capitalize())
     return [c for c in items if isinstance(c, UpgradeV2) and c.item_slot_type == slot_type]
 
 
