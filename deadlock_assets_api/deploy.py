@@ -110,7 +110,7 @@ def load_colors_data() -> dict[str, dict]:
             green=color_value.green,
             blue=color_value.blue,
             alpha=color_value.alpha,
-        ).model_dump()
+        ).model_dump(exclude_none=True)
     return colors
 
 
@@ -142,11 +142,11 @@ def load_raw_items() -> list[RawAbilityV2 | RawWeaponV2 | RawUpgradeV2]:
 
 
 def build_ranks(localization: dict[str, str]) -> list[dict]:
-    return [RankV2.from_tier(i, localization).model_dump() for i in range(12)]
+    return [RankV2.from_tier(i, localization).model_dump(exclude_none=True) for i in range(12)]
 
 
 def build_heroes(raw_heroes, localization: dict[str, str]) -> list[HeroV2]:
-    return [HeroV2.from_raw_hero(r, localization).model_dump() for r in raw_heroes]
+    return [HeroV2.from_raw_hero(r, localization).model_dump(exclude_none=True) for r in raw_heroes]
 
 
 def build_items(raw_items, raw_heroes, localization: dict[str, str]) -> list[ItemV2]:
@@ -160,7 +160,7 @@ def build_items(raw_items, raw_heroes, localization: dict[str, str]) -> list[Ite
         else:
             raise ValueError(f"Unknown item type: {raw_item.type}")
 
-    return [item_from_raw_item(r).model_dump() for r in raw_items]
+    return [item_from_raw_item(r).model_dump(exclude_none=True) for r in raw_items]
 
 
 if __name__ == "__main__":
@@ -211,13 +211,13 @@ if __name__ == "__main__":
         json.dump(icons_data, f)
 
     with open(f"{out_folder}/versions/{version_id}/raw_heroes.json", "w") as f:
-        json.dump([h.model_dump() for h in raw_heroes], f)
+        json.dump([h.model_dump(exclude_none=True) for h in raw_heroes], f)
 
     with open(f"{out_folder}/versions/{version_id}/raw_items.json", "w") as f:
-        json.dump([i.model_dump() for i in raw_items], f)
+        json.dump([i.model_dump(exclude_none=True) for i in raw_items], f)
 
     with open(f"{out_folder}/versions/{version_id}/raw_items.json", "w") as f:
-        json.dump([h.model_dump() for h in raw_items], f)
+        json.dump([h.model_dump(exclude_none=True) for h in raw_items], f)
 
     for language, localization in localizations.items():
         localization = localizations[Language.English] | localization
