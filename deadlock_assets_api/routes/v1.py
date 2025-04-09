@@ -9,7 +9,7 @@ from deadlock_assets_api.models.v1.colors import ColorV1
 from deadlock_assets_api.models.v1.map import MapV1
 from deadlock_assets_api.models.v1.steam_info import SteamInfoV1
 
-router = APIRouter(prefix="/v1", tags=["V1"])
+router = APIRouter(prefix="/v1")
 
 
 @router.get("/map", response_model_exclude_none=True)

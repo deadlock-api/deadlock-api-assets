@@ -22,7 +22,7 @@ from deadlock_assets_api.models.v2.raw_weapon import RawWeaponV2
 
 LOGGER = logging.getLogger(__name__)
 
-router = APIRouter(prefix="/v2", tags=["V2"])
+router = APIRouter(prefix="/v2")
 
 
 def load_localizations(client_version: int) -> dict[Language, dict[str, str]]:
@@ -104,7 +104,7 @@ def get_raw_items(
         return load_raw_items(client_version)
 
 
-@router.get("/heroes", response_model_exclude_none=True)
+@router.get("/heroes", response_model_exclude_none=True, tags=["Heroes"])
 def get_heroes(
     language: Language | None = None,
     client_version: VALID_CLIENT_VERSIONS | None = None,
@@ -132,7 +132,7 @@ def get_heroes(
     return sorted(heroes, key=lambda x: x.id)
 
 
-@router.get("/heroes/{id}", response_model_exclude_none=True)
+@router.get("/heroes/{id}", response_model_exclude_none=True, tags=["Heroes"])
 def get_hero(
     id: int,
     language: Language | None = None,
@@ -145,7 +145,7 @@ def get_hero(
     raise HTTPException(status_code=404, detail="Hero not found")
 
 
-@router.get("/heroes/by-name/{name}", response_model_exclude_none=True)
+@router.get("/heroes/by-name/{name}", response_model_exclude_none=True, tags=["Heroes"])
 def get_hero_by_name(
     name: str,
     language: Language | None = None,
@@ -160,7 +160,7 @@ def get_hero_by_name(
     raise HTTPException(status_code=404, detail="Hero not found")
 
 
-@router.get("/items", response_model_exclude_none=True)
+@router.get("/items", response_model_exclude_none=True, tags=["Items"])
 def get_items(
     language: Language | None = None,
     client_version: VALID_CLIENT_VERSIONS | None = None,
@@ -195,7 +195,7 @@ def get_items(
     return sorted(items, key=lambda x: x.id)
 
 
-@router.get("/items/{id_or_class_name}", response_model_exclude_none=True)
+@router.get("/items/{id_or_class_name}", response_model_exclude_none=True, tags=["Items"])
 def get_item(
     id_or_class_name: int | str,
     language: Language | None = None,
@@ -209,7 +209,7 @@ def get_item(
     raise HTTPException(status_code=404, detail="Item not found")
 
 
-@router.get("/items/by-hero-id/{id}", response_model_exclude_none=True)
+@router.get("/items/by-hero-id/{id}", response_model_exclude_none=True, tags=["Items"])
 def get_items_by_hero_id(
     id: int,
     language: Language | None = None,
@@ -230,7 +230,7 @@ def get_items_by_hero_id(
     return [i for i in items if id in i.heroes and i.class_name not in filter_class_names]
 
 
-@router.get("/items/by-type/{type}", response_model_exclude_none=True)
+@router.get("/items/by-type/{type}", response_model_exclude_none=True, tags=["Items"])
 def get_items_by_type(
     type: ItemTypeV2,
     language: Language | None = None,
@@ -241,7 +241,7 @@ def get_items_by_type(
     return [c for c in items if c.type == type]
 
 
-@router.get("/items/by-slot-type/{slot_type}", response_model_exclude_none=True)
+@router.get("/items/by-slot-type/{slot_type}", response_model_exclude_none=True, tags=["Items"])
 def get_items_by_slot_type(
     slot_type: ItemSlotTypeV2,
     language: Language | None = None,
