@@ -90,7 +90,6 @@ class ItemSlotTypeV2(StrEnum):
     EItemSlotType_WeaponMod = "weapon"
     EItemSlotType_Tech = "spirit"
     EItemSlotType_Armor = "vitality"
-    Other = "other"
 
     @classmethod
     def _missing_(cls, new_value: str):
@@ -98,8 +97,7 @@ class ItemSlotTypeV2(StrEnum):
         for member in cls:
             if new_value in [member.value.lower(), member.name.lower()]:
                 return member
-        logging.warning(f"Unknown ItemSlotType: {new_value}")
-        return cls.Other
+        raise ValueError(f"Unknown ItemSlotType: {new_value}")
 
 
 class ItemTypeV2(StrEnum):
