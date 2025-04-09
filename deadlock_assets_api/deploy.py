@@ -23,6 +23,7 @@ from deadlock_assets_api.models.v2.raw_ability import RawAbilityV2
 from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
 from deadlock_assets_api.models.v2.raw_upgrade import RawUpgradeV2
 from deadlock_assets_api.models.v2.raw_weapon import RawWeaponV2
+from deadlock_assets_api.main import app
 
 
 def load_localizations() -> dict[Language, dict[str, str]]:
@@ -50,8 +51,13 @@ def load_generic_data() -> GenericDataV1:
 
 
 def load_client_versions() -> list[int]:
+    versions_folder = "deploy/versions"
     return sorted(
-        [int(b) for b in os.listdir("deploy") if not os.path.isfile(os.path.join("deploy", b))],
+        [
+            int(b)
+            for b in os.listdir(versions_folder)
+            if not os.path.isfile(os.path.join(versions_folder, b))
+        ],
         reverse=True,
     )
 
@@ -164,9 +170,9 @@ if __name__ == "__main__":
     version_id = steam_info.client_version
 
     # Prepare Folders
-    os.makedirs(f"{out_folder}/{version_id}/ranks", exist_ok=True)
-    os.makedirs(f"{out_folder}/{version_id}/heroes", exist_ok=True)
-    os.makedirs(f"{out_folder}/{version_id}/items", exist_ok=True)
+    os.makedirs(f"{out_folder}/versions/{version_id}/ranks", exist_ok=True)
+    os.makedirs(f"{out_folder}/versions/{version_id}/heroes", exist_ok=True)
+    os.makedirs(f"{out_folder}/versions/{version_id}/items", exist_ok=True)
 
     # Load Data
     localizations = load_localizations()
@@ -186,43 +192,47 @@ if __name__ == "__main__":
     with open(f"{out_folder}/client_versions.json", "w") as f:
         json.dump(client_versions, f)
 
-    with open(f"{out_folder}/{version_id}/generic_data.json", "w") as f:
+    with open(f"{out_folder}/versions/{version_id}/generic_data.json", "w") as f:
         f.write(generic_data.model_dump_json())
 
-    with open(f"{out_folder}/{version_id}/map_data.json", "w") as f:
+    with open(f"{out_folder}/versions/{version_id}/map_data.json", "w") as f:
         f.write(map_data.model_dump_json())
 
-    with open(f"{out_folder}/{version_id}/sounds_data.json", "w") as f:
+    with open(f"{out_folder}/versions/{version_id}/sounds_data.json", "w") as f:
         json.dump(sounds_data, f)
 
-    with open(f"{out_folder}/{version_id}/colors_data.json", "w") as f:
+    with open(f"{out_folder}/versions/{version_id}/colors_data.json", "w") as f:
         json.dump(colors_data, f)
 
-    with open(f"{out_folder}/{version_id}/steam_info.json", "w") as f:
+    with open(f"{out_folder}/versions/{version_id}/steam_info.json", "w") as f:
         f.write(steam_info.model_dump_json())
 
-    with open(f"{out_folder}/{version_id}/icons_data.json", "w") as f:
+    with open(f"{out_folder}/versions/{version_id}/icons_data.json", "w") as f:
         json.dump(icons_data, f)
 
-    with open(f"{out_folder}/{version_id}/raw_heroes.json", "w") as f:
+    with open(f"{out_folder}/versions/{version_id}/raw_heroes.json", "w") as f:
         json.dump([h.model_dump() for h in raw_heroes], f)
 
-    with open(f"{out_folder}/{version_id}/raw_items.json", "w") as f:
+    with open(f"{out_folder}/versions/{version_id}/raw_items.json", "w") as f:
         json.dump([i.model_dump() for i in raw_items], f)
 
-    with open(f"{out_folder}/{version_id}/raw_items.json", "w") as f:
+    with open(f"{out_folder}/versions/{version_id}/raw_items.json", "w") as f:
         json.dump([h.model_dump() for h in raw_items], f)
 
     for language, localization in localizations.items():
         localization = localizations[Language.English] | localization
         ranks = build_ranks(localization)
-        with open(f"{out_folder}/{version_id}/ranks/{language.value}.json", "w") as f:
+        with open(f"{out_folder}/versions/{version_id}/ranks/{language.value}.json", "w") as f:
             json.dump(ranks, f)
 
         heroes = build_heroes(raw_heroes, localization)
-        with open(f"{out_folder}/{version_id}/heroes/{language.value}.json", "w") as f:
+        with open(f"{out_folder}/versions/{version_id}/heroes/{language.value}.json", "w") as f:
             json.dump(heroes, f)
 
         items = build_items(raw_items, raw_heroes, localization)
-        with open(f"{out_folder}/{version_id}/items/{language.value}.json", "w") as f:
+        with open(f"{out_folder}/versions/{version_id}/items/{language.value}.json", "w") as f:
             json.dump(items, f)
+
+    openapi_scheme = app.openapi()
+    with open(f"{out_folder}/openapi.json", "w") as f:
+        json.dump(openapi_scheme, f)
