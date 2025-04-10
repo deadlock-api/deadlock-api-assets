@@ -78,9 +78,9 @@ class HeroImagesV2(BaseModel):
 class HeroDescriptionV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    lore: str | None
-    role: str | None
-    playstyle: str | None
+    lore: str | None = None
+    role: str | None = None
+    playstyle: str | None = None
 
     @classmethod
     def from_raw_hero(
@@ -102,7 +102,7 @@ class HeroPhysicsV2(BaseModel):
     stealth_speed_meters_per_second: float
     step_height: float
     step_sound_time: float
-    step_sound_time_sprinting: float | None
+    step_sound_time_sprinting: float | None = None
 
     @classmethod
     def from_raw_hero(cls, raw_hero: RawHeroV2) -> "HeroPhysicsV2":
@@ -140,7 +140,7 @@ class HeroColorsV2(BaseModel):
 class HeroShopWeaponStatsDisplayV2(RawHeroShopWeaponStatsDisplayV2):
     model_config = ConfigDict(populate_by_name=True)
 
-    weapon_attributes: list[str] | None
+    weapon_attributes: list[str] | None = None
     weapon_image_webp: str | None = None
 
     @classmethod
@@ -180,7 +180,7 @@ class HeroShopStatDisplayV2(RawHeroShopStatDisplayV2):
 class HeroLevelInfoV2(RawHeroLevelInfoV2):
     model_config = ConfigDict(populate_by_name=True)
 
-    bonus_currencies: list[str] | None
+    bonus_currencies: list[str] | None = None
 
     @classmethod
     def from_raw_level_info(cls, raw_level_info: RawHeroLevelInfoV2) -> "HeroLevelInfoV2":
@@ -221,9 +221,9 @@ class HeroStartingStatsV2(BaseModel):
     ability_resource_regen_per_second: HeroStartingStatV2
     crit_damage_received_scale: HeroStartingStatV2
     tech_duration: HeroStartingStatV2
-    tech_armor_damage_reduction: HeroStartingStatV2 | None
+    tech_armor_damage_reduction: HeroStartingStatV2 | None = None
     tech_range: HeroStartingStatV2
-    bullet_armor_damage_reduction: HeroStartingStatV2 | None
+    bullet_armor_damage_reduction: HeroStartingStatV2 | None = None
 
     @classmethod
     def from_raw_starting_stats(
@@ -251,8 +251,8 @@ class HeroV2(BaseModel):
     class_name: str
     name: str
     description: HeroDescriptionV2
-    recommended_upgrades: list[str] | None
-    recommended_ability_order: list[str] | None
+    recommended_upgrades: list[str] | None = None
+    recommended_ability_order: list[str] | None = None
     player_selectable: bool
     disabled: bool
     in_development: bool

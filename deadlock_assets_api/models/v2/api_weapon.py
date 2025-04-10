@@ -12,7 +12,7 @@ class WeaponV2(ItemBaseV2):
 
     type: Literal["weapon"] = "weapon"
 
-    weapon_info: RawWeaponInfoV2 | None
+    weapon_info: RawWeaponInfoV2 | None = None
 
     @classmethod
     def from_raw_item(

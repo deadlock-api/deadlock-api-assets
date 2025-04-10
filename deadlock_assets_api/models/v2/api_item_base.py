@@ -89,14 +89,14 @@ class ItemBaseV2(BaseModel):
     id: int
     class_name: str
     name: str
-    start_trained: bool | None
-    image: str | None
+    start_trained: bool | None = None
+    image: str | None = None
     image_webp: str | None = None
-    hero: int | None
-    heroes: list[int] | None
-    update_time: int | None
-    properties: dict[str, ItemPropertyV2] | None
-    weapon_info: RawItemWeaponInfoV2 | None
+    hero: int | None = None
+    heroes: list[int] | None = None
+    update_time: int | None = None
+    properties: dict[str, ItemPropertyV2] | None = None
+    weapon_info: RawItemWeaponInfoV2 | None = None
 
     @classmethod
     def from_raw_item(

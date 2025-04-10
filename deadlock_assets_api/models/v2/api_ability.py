@@ -26,13 +26,13 @@ def extract_video_url(v: str) -> str | None:
 class AbilityDescriptionV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    desc: str | None
-    quip: str | None
-    t1_desc: str | None
-    t2_desc: str | None
-    t3_desc: str | None
-    active: str | None
-    passive: str | None
+    desc: str | None = None
+    quip: str | None = None
+    t1_desc: str | None = None
+    t2_desc: str | None = None
+    t3_desc: str | None = None
+    active: str | None = None
+    passive: str | None = None
 
     @classmethod
     def from_raw_ability(
@@ -104,8 +104,8 @@ class AbilityDescriptionV2(BaseModel):
 class AbilityVideosV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    webm: str | None
-    mp4: str | None
+    webm: str | None = None
+    mp4: str | None = None
 
     @classmethod
     def from_raw_video(cls, raw_video: str) -> "AbilityVideosV2":
@@ -119,8 +119,8 @@ class AbilityVideosV2(BaseModel):
 class AbilityTooltipDetailsInfoSectionPropertyBlockV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    loc_string: str | None
-    properties: list[RawAbilityV2TooltipDetailsInfoSectionPropertyBlockProperty] | None
+    loc_string: str | None = None
+    properties: list[RawAbilityV2TooltipDetailsInfoSectionPropertyBlockProperty] | None = None
 
     @classmethod
     def from_raw_info_section_property_block(
@@ -144,10 +144,10 @@ class AbilityTooltipDetailsInfoSectionPropertyBlockV2(BaseModel):
 class AbilityTooltipDetailsInfoSectionV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    loc_string: str | None
-    property_upgrade_required: str | None
-    properties_block: list[AbilityTooltipDetailsInfoSectionPropertyBlockV2] | None
-    basic_properties: list[str] | None
+    loc_string: str | None = None
+    property_upgrade_required: str | None = None
+    properties_block: list[AbilityTooltipDetailsInfoSectionPropertyBlockV2] | None = None
+    basic_properties: list[str] | None = None
 
     @classmethod
     def from_raw_info_section(
@@ -178,8 +178,8 @@ class AbilityTooltipDetailsInfoSectionV2(BaseModel):
 class AbilityTooltipDetailsV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    info_sections: list[AbilityTooltipDetailsInfoSectionV2] | None
-    additional_header_properties: list[str] | None
+    info_sections: list[AbilityTooltipDetailsInfoSectionV2] | None = None
+    additional_header_properties: list[str] | None = None
 
     @classmethod
     def from_raw_tooltip_details(
@@ -204,14 +204,14 @@ class AbilityV2(ItemBaseV2):
 
     name: str
     type: Literal["ability"] = "ability"
-    behaviours: list[str] | None
+    behaviours: list[str] | None = None
     description: AbilityDescriptionV2
-    tooltip_details: AbilityTooltipDetailsV2 | None
-    upgrades: list[RawAbilityUpgradeV2] | None
-    ability_type: AbilityTypeV2 | None
-    boss_damage_scale: float | None
-    dependant_abilities: list[str] | None
-    videos: AbilityVideosV2 | None
+    tooltip_details: AbilityTooltipDetailsV2 | None = None
+    upgrades: list[RawAbilityUpgradeV2] | None = None
+    ability_type: AbilityTypeV2 | None = None
+    boss_damage_scale: float | None = None
+    dependant_abilities: list[str] | None = None
+    videos: AbilityVideosV2 | None = None
 
     @classmethod
     def from_raw_item(

@@ -21,9 +21,9 @@ from deadlock_assets_api.models.v2.v2_utils import replace_templates
 class UpgradeDescriptionV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    desc: str | None
-    active: str | None
-    passive: str | None
+    desc: str | None = None
+    active: str | None = None
+    passive: str | None = None
 
     @classmethod
     def from_raw_upgrade(
@@ -69,9 +69,9 @@ class UpgradeDescriptionV2(BaseModel):
 class UpgradePropertyV2(ItemPropertyV2):
     model_config = ConfigDict(populate_by_name=True)
 
-    tooltip_section: RawAbilitySectionTypeV2 | None
-    tooltip_is_elevated: bool | None
-    tooltip_is_important: bool | None
+    tooltip_section: RawAbilitySectionTypeV2 | None = None
+    tooltip_is_elevated: bool | None = None
+    tooltip_is_important: bool | None = None
 
     @classmethod
     def from_raw_upgrade(
@@ -130,9 +130,9 @@ class UpgradePropertyV2(ItemPropertyV2):
 class UpgradeTooltipSectionAttributeV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    properties: list[str] | None
-    elevated_properties: list[str] | None
-    important_properties: list[str] | None
+    properties: list[str] | None = None
+    elevated_properties: list[str] | None = None
+    important_properties: list[str] | None = None
 
     @classmethod
     def from_raw_section_attribute(cls, raw_section_attribute: RawUpgradeTooltipSectionAttributeV2):
@@ -150,8 +150,8 @@ class UpgradeTooltipSectionAttributeV2(BaseModel):
 class UpgradeTooltipSectionV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    section_type: RawAbilitySectionTypeV2 | None
-    section_attributes: list[UpgradeTooltipSectionAttributeV2] | None
+    section_type: RawAbilitySectionTypeV2 | None = None
+    section_attributes: list[UpgradeTooltipSectionAttributeV2] | None = None
 
     @classmethod
     def from_raw_section(cls, raw_section: RawUpgradeTooltipSectionV2):
@@ -171,13 +171,13 @@ class UpgradeV2(ItemBaseV2):
 
     item_slot_type: ItemSlotTypeV2
     item_tier: ItemTierV2
-    properties: dict[str, UpgradePropertyV2] | None
-    disabled: bool | None
+    properties: dict[str, UpgradePropertyV2] | None = None
+    disabled: bool | None = None
     description: UpgradeDescriptionV2 | None = Field(None)
     activation: RawAbilityActivationV2
-    imbue: RawAbilityImbueV2 | None
-    component_items: list[str] | None
-    tooltip_sections: list[UpgradeTooltipSectionV2] | None
+    imbue: RawAbilityImbueV2 | None = None
+    component_items: list[str] | None = None
+    tooltip_sections: list[UpgradeTooltipSectionV2] | None = None
 
     @computed_field
     @property

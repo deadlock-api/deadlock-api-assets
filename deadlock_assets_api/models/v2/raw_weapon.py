@@ -120,7 +120,7 @@ class RawWeaponInfoV2(BaseModel):
     @field_validator("aiming_shot_spread_penalty", "standing_shot_spread_penalty")
     @classmethod
     def validate_shot_spread_penalty(
-        cls, values: list[float] | str | None
+        cls, values: list[float] | str | None = None
     ) -> list[float] | str | None:
         if isinstance(values, str):
             if len(values) == 0:
