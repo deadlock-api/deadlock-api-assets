@@ -34,23 +34,9 @@ logging.config.dictConfig(
         "root": {"level": "DEBUG", "handlers": ["console"], "propagate": True},
     }
 )
-logging.getLogger("boto3").setLevel(logging.WARNING)
-logging.getLogger("botocore").setLevel(logging.WARNING)
 logging.getLogger("urllib3").setLevel(logging.WARNING)
-logging.getLogger("clickhouse_driver").setLevel(logging.WARNING)
 
 LOGGER = logging.getLogger(__name__)
-
-if "SENTRY_DSN" in os.environ:
-    import sentry_sdk
-
-    sentry_sdk.init(
-        dsn=os.environ["SENTRY_DSN"],
-        traces_sample_rate=0.2,
-        _experiments={
-            "continuous_profiling_auto_start": True,
-        },
-    )
 
 app = FastAPI(
     title="Assets - Deadlock API",
