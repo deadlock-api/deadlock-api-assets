@@ -1,60 +1,60 @@
 import os
-from functools import lru_cache
+from enum import Enum
 
 from fastapi import APIRouter
+from pydantic import TypeAdapter
+from starlette.responses import FileResponse
 
-from deadlock_assets_api.glob import SVGS_BASE_URL, SOUNDS_BASE_URL
-from deadlock_assets_api.models.v1 import colors
 from deadlock_assets_api.models.v1.colors import ColorV1
 from deadlock_assets_api.models.v1.map import MapV1
-from deadlock_assets_api.models.v1.steam_info import SteamInfoV1
+
+
+ALL_CLIENT_VERSIONS = sorted([int(b) for b in os.listdir("deploy/versions")], reverse=True)
+VALID_CLIENT_VERSIONS = Enum(
+    "ValidClientVersions", {str(b): int(b) for b in ALL_CLIENT_VERSIONS}, type=int
+)
+LATEST_VERSION = max(ALL_CLIENT_VERSIONS)
 
 router = APIRouter(prefix="/v1")
 
 
 @router.get("/map", response_model_exclude_none=True)
-def get_map() -> MapV1:
-    return MapV1.get_default()
+def get_map(client_version: VALID_CLIENT_VERSIONS | None = None) -> MapV1:
+    if client_version is None:
+        client_version = VALID_CLIENT_VERSIONS(LATEST_VERSION)
+    with open(f"deploy/versions/{client_version.value}/map_data.json") as f:
+        return MapV1.model_validate_json(f.read())
 
 
 @router.get("/colors", response_model_exclude_none=True)
-def get_colors() -> dict[str, ColorV1]:
-    return colors.get_colors()
+def get_colors(client_version: VALID_CLIENT_VERSIONS | None = None) -> dict[str, ColorV1]:
+    if client_version is None:
+        client_version = VALID_CLIENT_VERSIONS(LATEST_VERSION)
+    ta = TypeAdapter(dict[str, ColorV1])
+    with open(f"deploy/versions/{client_version.value}/colors_data.json") as f:
+        return ta.validate_json(f.read())
 
 
 @router.get("/steam-info")
-def get_steam_info() -> SteamInfoV1:
-    return SteamInfoV1.load()
+def get_steam_info(client_version: VALID_CLIENT_VERSIONS | None = None) -> FileResponse:
+    if client_version is None:
+        client_version = VALID_CLIENT_VERSIONS(LATEST_VERSION)
+    return FileResponse(f"deploy/versions/{client_version.value}/steam_info.json")
 
 
 @router.get("/icons", response_model_exclude_none=True)
-def get_icons() -> dict[str, str]:
-    return {i.rstrip(".svg").rstrip(".png"): f"{SVGS_BASE_URL}/{i}" for i in get_all_icons()}
-
-
-@lru_cache
-def get_all_icons() -> list[str]:
-    return [i for i in os.listdir("svgs") if i.endswith(".svg") or i.endswith(".png")]
+def get_icons(client_version: VALID_CLIENT_VERSIONS | None = None) -> dict[str, str]:
+    if client_version is None:
+        client_version = VALID_CLIENT_VERSIONS(LATEST_VERSION)
+    ta = TypeAdapter(dict[str, str])
+    with open(f"deploy/versions/{client_version.value}/icons_data.json") as f:
+        return ta.validate_json(f.read())
 
 
 @router.get("/sounds", response_model_exclude_none=True)
-def get_sounds() -> dict[str, str | dict]:
-    return get_all_sounds()
-
-
-@lru_cache
-def get_all_sounds() -> dict:
-    def build_folder(folder: str) -> dict:
-        def parse_key(file: str) -> str:
-            if "." not in file:
-                return file
-            return "".join(file.split(".")[:-1])
-
-        return {
-            parse_key(file): f"{SOUNDS_BASE_URL}/{os.path.join(folder, file)}"
-            if os.path.isfile(os.path.join(folder, file))
-            else build_folder(os.path.join(folder, file))
-            for file in os.listdir(folder)
-        }
-
-    return build_folder("sounds")
+def get_sounds(client_version: VALID_CLIENT_VERSIONS | None = None) -> dict[str, str | dict]:
+    if client_version is None:
+        client_version = VALID_CLIENT_VERSIONS(LATEST_VERSION)
+    ta = TypeAdapter(dict[str, str | dict])
+    with open(f"deploy/versions/{client_version.value}/sounds_data.json") as f:
+        return ta.validate_json(f.read())
