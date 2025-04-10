@@ -35,7 +35,7 @@ class RouterLoggingMiddleware(BaseHTTPMiddleware):
         path = req.url.path
         if req.query_params:
             path += f"?{req.query_params}"
-        return {"method": req.method, "path": path, "ip": req.client.host}
+        return {"path": path}
 
     async def _log_response(
         self, call_next: Callable, req: Request, req_id: str
