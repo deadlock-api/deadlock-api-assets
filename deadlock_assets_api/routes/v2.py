@@ -39,7 +39,7 @@ def get_heroes(
     )
     if only_active:
         heroes = [h for h in heroes if not only_active or not h.disabled]
-    return sorted(heroes, key=lambda x: x.id)
+    return heroes
 
 
 @router.get("/heroes/{id}", response_model_exclude_none=True, tags=["Heroes"])
@@ -79,10 +79,9 @@ def get_items(
     client_version = utils.validate_client_version(client_version)
 
     ta = TypeAdapter(list[ItemV2])
-    items = utils.read_parse_data_ta(
+    return utils.read_parse_data_ta(
         f"deploy/versions/{client_version}/items/{language.value}.json", ta
     )
-    return sorted(items, key=lambda x: x.id)
 
 
 @router.get("/items/{id_or_class_name}", response_model_exclude_none=True, tags=["Items"])
