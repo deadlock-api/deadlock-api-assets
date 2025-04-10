@@ -99,13 +99,24 @@ def get_item(
     raise HTTPException(status_code=404, detail="Item not found")
 
 
+@router.get("/items/by-type/{type}", response_model_exclude_none=True, tags=["Items"])
+def get_items_by_type(
+    type: ItemTypeV2,
+    language: Language | None = None,
+    client_version: VALID_CLIENT_VERSIONS | None = None,
+) -> list[ItemV2]:
+    items = get_items(language, client_version)
+    type = ItemTypeV2(type.capitalize())
+    return [c for c in items if c.type == type]
+
+
 @router.get("/items/by-hero-id/{id}", response_model_exclude_none=True, tags=["Items"])
 def get_items_by_hero_id(
     id: int,
     language: Language | None = None,
     client_version: VALID_CLIENT_VERSIONS | None = None,
 ) -> list[ItemV2]:
-    items = get_items(language, client_version)
+    items = get_items_by_type(ItemTypeV2.ABILITY, language, client_version)
     filter_class_names = {
         "citadel_ability_climb_rope",
         "citadel_ability_dash",
@@ -120,24 +131,13 @@ def get_items_by_hero_id(
     return [i for i in items if id in i.heroes and i.class_name not in filter_class_names]
 
 
-@router.get("/items/by-type/{type}", response_model_exclude_none=True, tags=["Items"])
-def get_items_by_type(
-    type: ItemTypeV2,
-    language: Language | None = None,
-    client_version: VALID_CLIENT_VERSIONS | None = None,
-) -> list[ItemV2]:
-    items = get_items(language, client_version)
-    type = ItemTypeV2(type.capitalize())
-    return [c for c in items if c.type == type]
-
-
 @router.get("/items/by-slot-type/{slot_type}", response_model_exclude_none=True, tags=["Items"])
 def get_items_by_slot_type(
     slot_type: ItemSlotTypeV2,
     language: Language | None = None,
     client_version: VALID_CLIENT_VERSIONS | None = None,
 ) -> list[ItemV2]:
-    items = get_items(language, client_version)
+    items = get_items_by_type(ItemTypeV2.UPGRADE, language, client_version)
     slot_type = ItemSlotTypeV2(slot_type.capitalize())
     return [c for c in items if isinstance(c, UpgradeV2) and c.item_slot_type == slot_type]
 
