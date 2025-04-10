@@ -118,7 +118,6 @@ dependencies = [
     { name = "murmurhash2" },
     { name = "prometheus-fastapi-instrumentator" },
     { name = "scalar-fastapi" },
-    { name = "stringcase" },
     { name = "uvicorn" },
 ]
 
@@ -131,6 +130,7 @@ parse = [
     { name = "matplotlib" },
     { name = "opencv-python" },
     { name = "shapely" },
+    { name = "stringcase" },
     { name = "vdf" },
 ]
 
@@ -142,7 +142,6 @@ requires-dist = [
     { name = "murmurhash2", specifier = ">=0.2.10" },
     { name = "prometheus-fastapi-instrumentator", specifier = ">=7.0.0" },
     { name = "scalar-fastapi", specifier = ">=1.0.3" },
-    { name = "stringcase", specifier = ">=1.2.0" },
     { name = "uvicorn", specifier = ">=0.34.0" },
 ]
 
@@ -153,6 +152,7 @@ parse = [
     { name = "matplotlib", specifier = ">=3.9.3" },
     { name = "opencv-python", specifier = ">=4.10.0.84" },
     { name = "shapely", specifier = ">=2.0.6" },
+    { name = "stringcase", specifier = ">=1.2.0" },
     { name = "vdf", specifier = ">=3.4" },
 ]
 
