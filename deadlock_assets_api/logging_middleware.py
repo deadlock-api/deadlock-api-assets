@@ -35,16 +35,7 @@ class RouterLoggingMiddleware(BaseHTTPMiddleware):
         path = req.url.path
         if req.query_params:
             path += f"?{req.query_params}"
-
-        request_logging = {"method": req.method, "path": path, "ip": req.client.host}
-
-        try:
-            api_key = req.headers.get("X-API-Key", req.query_params.get("api_key"))
-            request_logging["X-API-Key"] = api_key
-        except Exception:
-            pass
-
-        return request_logging
+        return {"method": req.method, "path": path, "ip": req.client.host}
 
     async def _log_response(
         self, call_next: Callable, req: Request, req_id: str
