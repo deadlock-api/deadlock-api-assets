@@ -129,6 +129,17 @@ def get_favicon():
     return FileResponse("favicon.ico")
 
 
+@app.get("/robots.txt", include_in_schema=False)
+def get_robots() -> str:
+    return """
+User-agent: *
+Disallow: /
+Allow: /docs
+Allow: /scalar
+Allow: /openapi.json
+    """
+
+
 @app.get("/scalar", include_in_schema=False)
 async def scalar_html():
     return get_scalar_api_reference(
