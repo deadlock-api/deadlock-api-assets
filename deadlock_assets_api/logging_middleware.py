@@ -46,12 +46,11 @@ class RouterLoggingMiddleware(BaseHTTPMiddleware):
 
         if res:
             res_logging = {
-                "status": "successful" if res.status_code < 400 else "failed",
                 "status_code": res.status_code,
                 "time_taken": f"{execution_time:0.4f}s",
             }
         else:
-            res_logging = {"status": "failed", "status_code": 500}
+            res_logging = {"status_code": 500}
         return res, res_logging
 
     async def _execute_request(self, call_next: Callable, req: Request, req_id: str) -> Any | None:
