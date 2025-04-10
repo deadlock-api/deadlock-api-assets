@@ -4,10 +4,12 @@ import sys
 
 from fastapi import FastAPI
 from prometheus_fastapi_instrumentator import Instrumentator
+from scalar_fastapi import get_scalar_api_reference
 from starlette.middleware.gzip import GZipMiddleware
 from starlette.requests import Request
 from starlette.responses import FileResponse, RedirectResponse, Response
 from starlette.staticfiles import StaticFiles
+from starlette.status import HTTP_308_PERMANENT_REDIRECT
 
 from deadlock_assets_api.logging_middleware import RouterLoggingMiddleware
 from deadlock_assets_api.routes import raw, v1, v2
@@ -113,7 +115,7 @@ app.mount("/sounds", StaticFilesCache(directory="sounds"), name="sounds")
 
 @app.get("/", include_in_schema=False)
 def redirect_to_docs():
-    return RedirectResponse("/docs")
+    return RedirectResponse("/scalar", HTTP_308_PERMANENT_REDIRECT)
 
 
 @app.get("/health", include_in_schema=False)
@@ -124,6 +126,14 @@ def get_health():
 @app.get("/favicon.ico", include_in_schema=False)
 def get_favicon():
     return FileResponse("favicon.ico")
+
+
+@app.get("/scalar", include_in_schema=False)
+async def scalar_html():
+    return get_scalar_api_reference(
+        openapi_url=app.openapi_url,
+        title=app.title,
+    )
 
 
 if __name__ == "__main__":

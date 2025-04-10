@@ -116,6 +116,7 @@ dependencies = [
     { name = "fastapi" },
     { name = "murmurhash2" },
     { name = "prometheus-fastapi-instrumentator" },
+    { name = "scalar-fastapi" },
     { name = "sentry-sdk", extra = ["fastapi"] },
     { name = "stringcase" },
     { name = "uvicorn" },
@@ -139,6 +140,7 @@ requires-dist = [
     { name = "fastapi", specifier = ">=0.115.5" },
     { name = "murmurhash2", specifier = ">=0.2.10" },
     { name = "prometheus-fastapi-instrumentator", specifier = ">=7.0.0" },
+    { name = "scalar-fastapi", specifier = ">=1.0.3" },
     { name = "sentry-sdk", extras = ["fastapi"], specifier = ">=2.19.0" },
     { name = "stringcase", specifier = ">=1.2.0" },
     { name = "uvicorn", specifier = ">=0.34.0" },
@@ -492,6 +494,15 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/ff/61/c488943414fb2b8754c02f3879de003e26efdd20f38167ded3fb3fc1cda3/ruff-0.11.4-py3-none-win32.whl", hash = "sha256:0e9365a7dff9b93af933dab8aebce53b72d8f815e131796268709890b4a83270", size = 10311496 },
     { url = "https://files.pythonhosted.org/packages/b6/2b/2a1c8deb5f5dfa3871eb7daa41492c4d2b2824a74d2b38e788617612a66d/ruff-0.11.4-py3-none-win_amd64.whl", hash = "sha256:5a9fa1c69c7815e39fcfb3646bbfd7f528fa8e2d4bebdcf4c2bd0fa037a255fb", size = 11399146 },
     { url = "https://files.pythonhosted.org/packages/4f/03/3aec4846226d54a37822e4c7ea39489e4abd6f88388fba74e3d4abe77300/ruff-0.11.4-py3-none-win_arm64.whl", hash = "sha256:d435db6b9b93d02934cf61ef332e66af82da6d8c69aefdea5994c89997c7a0fc", size = 10450306 },
+]
+
+[[package]]
+name = "scalar-fastapi"
+version = "1.0.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/2c/04/08ae9e86f24cd9b43bc5b2068fc5d1dcd3e7efa6db860290734d7d742512/scalar_fastapi-1.0.3.tar.gz", hash = "sha256:9e9cb8398e298cd435a0171eebe1675b8899eb21e47c238db0d48783143f0ffb", size = 4107 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/6d/9e/ca0ffc3fc4788c6e1367b96a70f2d6ee33f91d580664a8142ba7ee292ef2/scalar_fastapi-1.0.3-py3-none-any.whl", hash = "sha256:4a47a140795097ad034518ce0e32940f2c54f0f4bc60e4c3289ca30a7e6f954d", size = 4579 },
 ]
 
 [[package]]
