@@ -8,6 +8,7 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "cachetools>=5.5.2",
     "css-parser>=1.0.10",
     "fastapi>=0.115.5",
     "murmurhash2>=0.2.10",

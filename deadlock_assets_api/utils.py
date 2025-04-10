@@ -1,8 +1,14 @@
 import json
 import os
 import re
+from typing import Type
+
+from cachetools.func import ttl_cache
+from fastapi import HTTPException
+from pydantic import TypeAdapter, BaseModel
 
 from deadlock_assets_api.models.languages import Language
+from deadlock_assets_api.routes.v2 import VALID_CLIENT_VERSIONS, ALL_CLIENT_VERSIONS
 
 
 def get_translation(key: str, language: Language, return_none: bool = False) -> str:
@@ -58,3 +64,29 @@ def strip_prefix(string: str, prefix: str) -> str:
     if prefix_index != -1:
         return string[prefix_index + len(prefix) :]
     return string
+
+
+@ttl_cache(ttl=60 * 60)
+def read_parse_data_ta[T](filepath: str, type_adapter: TypeAdapter[T]) -> T:
+    with open(filepath) as f:
+        return type_adapter.validate_json(f.read())
+
+
+@ttl_cache(ttl=60 * 60)
+def read_parse_data_model[T: BaseModel](filepath: str, model: Type[T]) -> T:
+    with open(filepath) as f:
+        return model.model_validate_json(f.read())
+
+
+def validate_client_version(client_version: VALID_CLIENT_VERSIONS | None = None) -> int:
+    if client_version is None:
+        client_version = VALID_CLIENT_VERSIONS(max(ALL_CLIENT_VERSIONS))
+    if client_version not in ALL_CLIENT_VERSIONS:
+        raise HTTPException(status_code=404, detail="Client Version not found")
+    return client_version.value
+
+
+def validate_language(language: Language | None = None) -> Language:
+    if language is None:
+        language = Language.English
+    return language

@@ -28,18 +28,15 @@ def get_heroes(
     client_version: VALID_CLIENT_VERSIONS | None = None,
     only_active: bool | None = None,
 ) -> list[HeroV2]:
-    if language is None:
-        language = Language.English
-    if client_version is None:
-        client_version = VALID_CLIENT_VERSIONS(max(ALL_CLIENT_VERSIONS))
     if only_active is None:
         only_active = False
-    if client_version not in ALL_CLIENT_VERSIONS:
-        raise HTTPException(status_code=404, detail="Client Version not found")
+    language = utils.validate_language(language)
+    client_version = utils.validate_client_version(client_version)
 
     ta = TypeAdapter(list[HeroV2])
-    with open(f"deploy/versions/{client_version.value}/heroes/{language.value}.json") as f:
-        heroes = ta.validate_json(f.read())
+    heroes = utils.read_parse_data_ta(
+        f"deploy/versions/{client_version}/heroes/{language.value}.json", ta
+    )
     if only_active:
         heroes = [h for h in heroes if not only_active or not h.disabled]
     return sorted(heroes, key=lambda x: x.id)
@@ -78,16 +75,13 @@ def get_items(
     language: Language | None = None,
     client_version: VALID_CLIENT_VERSIONS | None = None,
 ) -> list[ItemV2]:
-    if language is None:
-        language = Language.English
-    if client_version is None:
-        client_version = VALID_CLIENT_VERSIONS(max(ALL_CLIENT_VERSIONS))
-    if client_version not in ALL_CLIENT_VERSIONS:
-        raise HTTPException(status_code=404, detail="Client Version not found")
+    language = utils.validate_language(language)
+    client_version = utils.validate_client_version(client_version)
 
     ta = TypeAdapter(list[ItemV2])
-    with open(f"deploy/versions/{client_version.value}/items/{language.value}.json") as f:
-        items = ta.validate_json(f.read())
+    items = utils.read_parse_data_ta(
+        f"deploy/versions/{client_version}/items/{language.value}.json", ta
+    )
     return sorted(items, key=lambda x: x.id)
 
 
@@ -154,9 +148,13 @@ def get_client_versions() -> list[int]:
 
 
 @router.get("/ranks", response_model_exclude_none=True)
-def get_ranks(language: Language | None = None) -> list[RankV2]:
-    if language is None:
-        language = Language.English
+def get_ranks(
+    language: Language | None = None,
+    client_version: VALID_CLIENT_VERSIONS | None = None,
+) -> list[RankV2]:
+    language = utils.validate_language(language)
+    client_version = utils.validate_client_version(client_version)
     ta = TypeAdapter(list[RankV2])
-    with open(f"deploy/versions/{max(ALL_CLIENT_VERSIONS)}/ranks/{language.value}.json") as f:
-        return ta.validate_json(f.read())
+    return utils.read_parse_data_ta(
+        f"deploy/versions/{client_version}/ranks/{language.value}.json", ta
+    )

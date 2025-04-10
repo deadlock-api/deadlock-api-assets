@@ -5,6 +5,7 @@ from fastapi import APIRouter
 from pydantic import TypeAdapter
 from starlette.responses import FileResponse
 
+from deadlock_assets_api import utils
 from deadlock_assets_api.models.v1.colors import ColorV1
 from deadlock_assets_api.models.v1.map import MapV1
 
@@ -22,8 +23,9 @@ router = APIRouter(prefix="/v1")
 def get_map(client_version: VALID_CLIENT_VERSIONS | None = None) -> MapV1:
     if client_version is None:
         client_version = VALID_CLIENT_VERSIONS(LATEST_VERSION)
-    with open(f"deploy/versions/{client_version.value}/map_data.json") as f:
-        return MapV1.model_validate_json(f.read())
+    return utils.read_parse_data_model(
+        f"deploy/versions/{client_version.value}/map_data.json", MapV1
+    )
 
 
 @router.get("/colors", response_model_exclude_none=True)
@@ -31,8 +33,7 @@ def get_colors(client_version: VALID_CLIENT_VERSIONS | None = None) -> dict[str,
     if client_version is None:
         client_version = VALID_CLIENT_VERSIONS(LATEST_VERSION)
     ta = TypeAdapter(dict[str, ColorV1])
-    with open(f"deploy/versions/{client_version.value}/colors_data.json") as f:
-        return ta.validate_json(f.read())
+    return utils.read_parse_data_ta(f"deploy/versions/{client_version.value}/colors_data.json", ta)
 
 
 @router.get("/steam-info")
@@ -47,8 +48,7 @@ def get_icons(client_version: VALID_CLIENT_VERSIONS | None = None) -> dict[str, 
     if client_version is None:
         client_version = VALID_CLIENT_VERSIONS(LATEST_VERSION)
     ta = TypeAdapter(dict[str, str])
-    with open(f"deploy/versions/{client_version.value}/icons_data.json") as f:
-        return ta.validate_json(f.read())
+    return utils.read_parse_data_ta(f"deploy/versions/{client_version.value}/icons_data.json", ta)
 
 
 @router.get("/sounds", response_model_exclude_none=True)
@@ -56,5 +56,4 @@ def get_sounds(client_version: VALID_CLIENT_VERSIONS | None = None) -> dict[str,
     if client_version is None:
         client_version = VALID_CLIENT_VERSIONS(LATEST_VERSION)
     ta = TypeAdapter(dict[str, str | dict])
-    with open(f"deploy/versions/{client_version.value}/sounds_data.json") as f:
-        return ta.validate_json(f.read())
+    return utils.read_parse_data_ta(f"deploy/versions/{client_version.value}/sounds_data.json", ta)
