@@ -1,11 +1,12 @@
-import os
+import json
 from enum import Enum
 
 from fastapi import APIRouter
 from starlette.responses import FileResponse
 
 
-ALL_CLIENT_VERSIONS = sorted([int(b) for b in os.listdir("deploy/versions")], reverse=True)
+with open("deploy/client_versions.json") as f:
+    ALL_CLIENT_VERSIONS = sorted(json.load(f), reverse=True)
 VALID_CLIENT_VERSIONS = Enum(
     "ValidClientVersions", {str(b): int(b) for b in ALL_CLIENT_VERSIONS}, type=int
 )

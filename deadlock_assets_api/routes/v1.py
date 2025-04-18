@@ -1,4 +1,4 @@
-import os
+import json
 from enum import Enum
 
 from fastapi import APIRouter
@@ -10,7 +10,8 @@ from deadlock_assets_api.models.v1.colors import ColorV1
 from deadlock_assets_api.models.v1.map import MapV1
 
 
-ALL_CLIENT_VERSIONS = sorted([int(b) for b in os.listdir("deploy/versions")], reverse=True)
+with open("deploy/client_versions.json") as f:
+    ALL_CLIENT_VERSIONS = sorted(json.load(f), reverse=True)
 VALID_CLIENT_VERSIONS = Enum(
     "ValidClientVersions", {str(b): int(b) for b in ALL_CLIENT_VERSIONS}, type=int
 )
@@ -52,7 +53,7 @@ def get_icons(client_version: VALID_CLIENT_VERSIONS | None = None) -> dict[str, 
 
 
 @router.get("/sounds", response_model_exclude_none=True)
-def get_sounds(client_version: VALID_CLIENT_VERSIONS | None = None) -> dict[str, str | dict]:
+def get_sounds(client_version: VALID_CLIENT_VERSIONS | None = None) -> dict:
     if client_version is None:
         client_version = VALID_CLIENT_VERSIONS(LATEST_VERSION)
     ta = TypeAdapter(dict[str, str | dict])

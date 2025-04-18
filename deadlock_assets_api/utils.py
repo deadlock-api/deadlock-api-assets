@@ -2,6 +2,7 @@ import json
 import logging
 import os
 import re
+from enum import Enum
 from typing import Type
 
 from fastapi import HTTPException
@@ -9,7 +10,12 @@ from py_cachify import cached, lock
 from pydantic import TypeAdapter, BaseModel
 
 from deadlock_assets_api.models.languages import Language
-from deadlock_assets_api.routes.v2 import VALID_CLIENT_VERSIONS, ALL_CLIENT_VERSIONS
+
+with open("deploy/client_versions.json") as f:
+    ALL_CLIENT_VERSIONS = sorted(json.load(f), reverse=True)
+VALID_CLIENT_VERSIONS = Enum(
+    "ValidClientVersions", {str(b): int(b) for b in ALL_CLIENT_VERSIONS}, type=int
+)
 
 LOGGER = logging.getLogger(__name__)
 

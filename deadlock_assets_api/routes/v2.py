@@ -1,5 +1,5 @@
+import json
 import logging
-import os
 from enum import Enum
 
 from fastapi import APIRouter, HTTPException
@@ -14,7 +14,8 @@ from deadlock_assets_api.models.v2.api_upgrade import UpgradeV2
 from deadlock_assets_api.models.v2.rank import RankV2
 
 LOGGER = logging.getLogger(__name__)
-ALL_CLIENT_VERSIONS = sorted([int(b) for b in os.listdir("res/builds")], reverse=True)
+with open("deploy/client_versions.json") as f:
+    ALL_CLIENT_VERSIONS = sorted(json.load(f), reverse=True)
 VALID_CLIENT_VERSIONS = Enum(
     "ValidClientVersions", {str(b): int(b) for b in ALL_CLIENT_VERSIONS}, type=int
 )
