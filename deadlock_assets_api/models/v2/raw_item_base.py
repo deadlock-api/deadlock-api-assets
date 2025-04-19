@@ -67,6 +67,7 @@ class RawItemPropertyV2(BaseModel):
     usage_flags: list[StatsUsageFlagV2] | str | None = Field(
         None, validation_alias="m_eStatsUsageFlags"
     )
+    negative_attribute: bool | None = Field(None, validation_alias="m_bIsNegativeAttribute")
     disable_value: str | None = Field(None, validation_alias="m_strDisableValue")
     loc_token_override: str | None = Field(None, validation_alias="m_strLocTokenOverride")
     display_units: str | None = Field(None, validation_alias="m_eDisplayUnits")
