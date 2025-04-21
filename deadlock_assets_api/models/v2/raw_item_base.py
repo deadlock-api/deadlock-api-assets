@@ -92,7 +92,10 @@ class RawItemPropertyV2(BaseModel):
             return None
         if value.startswith("panorama"):
             return value
-        return parse_css_ability_properties_icon(value)
+        icon = parse_css_ability_properties_icon("res/citadel_mod_tooltip_shared.css", value)
+        if icon is not None:
+            return icon
+        return parse_css_ability_properties_icon("res/ability_properties.css", value)
 
     @field_validator("usage_flags")
     @classmethod
@@ -109,8 +112,8 @@ def parse_css_rules(filename: str) -> CSSRuleList:
     return css_parser.parseFile(filename).cssRules
 
 
-def parse_css_ability_properties_icon(css_class_icon: str) -> str | None:
-    for rule in parse_css_rules("res/ability_properties.css"):
+def parse_css_ability_properties_icon(file: str, css_class_icon: str) -> str | None:
+    for rule in parse_css_rules(file):
         if not isinstance(rule, CSSStyleRule):
             continue
         css_class = next(
