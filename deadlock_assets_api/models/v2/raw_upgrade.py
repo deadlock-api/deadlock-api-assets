@@ -1,10 +1,13 @@
 from enum import Enum
 from typing import Literal
 
-from pydantic import ConfigDict, Field, BaseModel
+from pydantic import ConfigDict, Field, BaseModel, computed_field
 
 from deadlock_assets_api.models.v2.enums import ItemTierV2, ItemSlotTypeV2
-from deadlock_assets_api.models.v2.raw_item_base import RawItemBaseV2
+from deadlock_assets_api.models.v2.raw_item_base import (
+    RawItemBaseV2,
+    parse_css_ability_properties_icon,
+)
 
 
 class RawAbilityActivationV2(str, Enum):
@@ -43,6 +46,22 @@ class RawUpgradeTooltipSectionAttributeImportantPropertyV2(BaseModel):
     important_property: str | None = Field(None, validation_alias="m_strImportantProperty")
 
 
+class RawUpgradeTooltipSectionAttributeV2ImportantPropertyWithIcon(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    name: str | None = None
+    icon_path: str | None = None
+
+    @classmethod
+    def from_name(
+        cls, name: str | None
+    ) -> "RawUpgradeTooltipSectionAttributeV2ImportantPropertyWithIcon":
+        icon = parse_css_ability_properties_icon("res/citadel_mod_tooltip_shared.css", name)
+        if icon is None:
+            icon = parse_css_ability_properties_icon("res/ability_properties.css", name)
+        return cls(name=name, icon_path=icon)
+
+
 class RawUpgradeTooltipSectionAttributeV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
@@ -53,6 +72,18 @@ class RawUpgradeTooltipSectionAttributeV2(BaseModel):
     important_properties: list[RawUpgradeTooltipSectionAttributeImportantPropertyV2] | None = Field(
         None, validation_alias="m_vecImportantAbilityProperties"
     )
+
+    @computed_field
+    @property
+    def important_properties_with_icon_path(
+        self,
+    ) -> list[RawUpgradeTooltipSectionAttributeV2ImportantPropertyWithIcon] | None:
+        return [
+            RawUpgradeTooltipSectionAttributeV2ImportantPropertyWithIcon.from_name(
+                p.important_property
+            )
+            for p in self.important_properties or []
+        ]
 
 
 class RawAbilitySectionTypeV2(str, Enum):

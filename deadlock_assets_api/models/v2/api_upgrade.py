@@ -3,7 +3,7 @@ from typing import Literal
 from pydantic import ConfigDict, Field, computed_field, BaseModel
 
 from deadlock_assets_api.models.v1.generic_data import load_generic_data
-from deadlock_assets_api.models.v2.api_item_base import ItemBaseV2, ItemPropertyV2
+from deadlock_assets_api.models.v2.api_item_base import ItemBaseV2, ItemPropertyV2, parse_img_path
 from deadlock_assets_api.models.v2.enums import ItemTierV2, ItemSlotTypeV2
 from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
 from deadlock_assets_api.models.v2.raw_item_base import RawItemPropertyV2
@@ -127,12 +127,30 @@ class UpgradePropertyV2(ItemPropertyV2):
         )
 
 
+class UpgradeTooltipSectionAttributeV2ImportantPropertyWithIcon(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    name: str | None = None
+    icon: str | None = None
+
+    @classmethod
+    def from_raw_important_property_with_icon(cls, raw_important_property_with_icon: dict):
+        raw_important_property_with_icon["icon"] = parse_img_path(
+            raw_important_property_with_icon["icon_path"]
+        )
+        del raw_important_property_with_icon["icon_path"]
+        return cls(**raw_important_property_with_icon)
+
+
 class UpgradeTooltipSectionAttributeV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     properties: list[str] | None = None
     elevated_properties: list[str] | None = None
     important_properties: list[str] | None = None
+    important_properties_with_icon: (
+        list[UpgradeTooltipSectionAttributeV2ImportantPropertyWithIcon] | None
+    ) = None
 
     @classmethod
     def from_raw_section_attribute(cls, raw_section_attribute: RawUpgradeTooltipSectionAttributeV2):
@@ -143,7 +161,17 @@ class UpgradeTooltipSectionAttributeV2(BaseModel):
                 p.important_property
                 for p in raw_section_attribute.important_properties or []
                 if p.important_property
-            ],
+            ]
+            if raw_section_attribute.important_properties
+            else None,
+            important_properties_with_icon=[
+                UpgradeTooltipSectionAttributeV2ImportantPropertyWithIcon.from_raw_important_property_with_icon(
+                    p.model_dump()
+                )
+                for p in raw_section_attribute.important_properties_with_icon_path or []
+            ]
+            if raw_section_attribute.important_properties_with_icon_path
+            else None,
         )
 
 
