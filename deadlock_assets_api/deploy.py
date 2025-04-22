@@ -26,16 +26,16 @@ from deadlock_assets_api.models.v2.raw_weapon import RawWeaponV2
 from deadlock_assets_api.main import app
 
 
-def load_localizations() -> dict[Language, dict[str, str]]:
+def load_localizations(version_id: int) -> dict[Language, dict[str, str]]:
     localizations = {}
     for language in Language:
         localizations[language] = {}
         paths = [
-            f"res/localization/citadel_gc_{language}.json",
-            f"res/localization/citadel_heroes_{language}.json",
-            f"res/localization/citadel_main_{language}.json",
-            f"res/localization/citadel_mods_{language}.json",
-            f"res/localization/citadel_attributes_{language}.json",
+            f"res/builds/{version_id}/v2/localization/citadel_gc_{language}.json",
+            f"res/builds/{version_id}/v2/localization/citadel_heroes_{language}.json",
+            f"res/builds/{version_id}/v2/localization/citadel_main_{language}.json",
+            f"res/builds/{version_id}/v2/localization/citadel_mods_{language}.json",
+            f"res/builds/{version_id}/v2/localization/citadel_attributes_{language}.json",
         ]
         for path in paths:
             if not os.path.exists(path):
@@ -45,8 +45,8 @@ def load_localizations() -> dict[Language, dict[str, str]]:
     return localizations
 
 
-def load_generic_data() -> GenericDataV1:
-    with open("res/generic_data.json") as f:
+def load_generic_data(version_id: int) -> GenericDataV1:
+    with open(f"res/builds/{version_id}/v2/generic_data.json") as f:
         return GenericDataV1.model_validate_json(f.read())
 
 
@@ -127,15 +127,15 @@ def load_icons_data() -> dict:
     return {i.rstrip(".svg").rstrip(".png"): f"{SVGS_BASE_URL}/{i}" for i in all_icons}
 
 
-def load_raw_heroes() -> list[RawHeroV2]:
-    path = "res/raw_heroes.json"
+def load_raw_heroes(version_id: int) -> list[RawHeroV2]:
+    path = f"res/builds/{version_id}/v2/raw_heroes.json"
     with open(path) as f:
         content = f.read()
     return TypeAdapter(list[RawHeroV2]).validate_json(content)
 
 
-def load_raw_items() -> list[RawAbilityV2 | RawWeaponV2 | RawUpgradeV2]:
-    path = "res/raw_items.json"
+def load_raw_items(version_id: int) -> list[RawAbilityV2 | RawWeaponV2 | RawUpgradeV2]:
+    path = f"res/builds/{version_id}/v2/raw_items.json"
     with open(path) as f:
         content = f.read()
     return TypeAdapter(list[RawAbilityV2 | RawWeaponV2 | RawUpgradeV2]).validate_json(content)
@@ -175,15 +175,15 @@ if __name__ == "__main__":
     os.makedirs(f"{out_folder}/versions/{version_id}/items", exist_ok=True)
 
     # Load Data
-    localizations = load_localizations()
-    generic_data = load_generic_data()
+    localizations = load_localizations(version_id)
+    generic_data = load_generic_data(version_id)
     map_data = load_map_data()
     sounds_data = load_sounds_data()
     colors_data = load_colors_data()
     client_versions = load_client_versions()
     icons_data = load_icons_data()
-    raw_heroes = load_raw_heroes()
-    raw_items = load_raw_items()
+    raw_heroes = load_raw_heroes(version_id)
+    raw_items = load_raw_items(version_id)
 
     # Write Data files
     with open(f"{out_folder}/latest_version.txt", "w") as f:
