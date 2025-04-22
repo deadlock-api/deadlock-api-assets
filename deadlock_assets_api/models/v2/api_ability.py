@@ -3,7 +3,7 @@ from typing import Literal
 from pydantic import BaseModel, ConfigDict
 
 from deadlock_assets_api.glob import VIDEO_BASE_URL
-from deadlock_assets_api.models.v2.api_item_base import ItemBaseV2
+from deadlock_assets_api.models.v2.api_item_base import ItemBaseV2, parse_img_path
 from deadlock_assets_api.models.v2.enums import AbilityTypeV2
 from deadlock_assets_api.models.v2.raw_ability import (
     RawAbilityUpgradeV2,
@@ -11,7 +11,6 @@ from deadlock_assets_api.models.v2.raw_ability import (
     RawAbilityV2TooltipDetails,
     RawAbilityV2TooltipDetailsInfoSection,
     RawAbilityV2TooltipDetailsInfoSectionPropertyBlock,
-    RawAbilityV2TooltipDetailsInfoSectionPropertyBlockProperty,
 )
 from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
 from deadlock_assets_api.models.v2.v2_utils import replace_templates
@@ -116,11 +115,31 @@ class AbilityVideosV2(BaseModel):
         )
 
 
+class AbilityV2TooltipDetailsInfoSectionPropertyBlockProperty(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    requires_ability_upgrade: bool | None = None
+    show_property_value: bool | None = None
+    important_property: str | None = None
+    status_effect_value: str | None = None
+    important_property_icon: str | None = None
+
+    @classmethod
+    def from_raw_property(
+        cls, raw_property: dict
+    ) -> "AbilityV2TooltipDetailsInfoSectionPropertyBlockProperty":
+        raw_property["important_property_icon"] = parse_img_path(
+            raw_property["important_property_icon_path"]
+        )
+        del raw_property["important_property_icon_path"]
+        return cls(**raw_property)
+
+
 class AbilityTooltipDetailsInfoSectionPropertyBlockV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     loc_string: str | None = None
-    properties: list[RawAbilityV2TooltipDetailsInfoSectionPropertyBlockProperty] | None = None
+    properties: list[AbilityV2TooltipDetailsInfoSectionPropertyBlockProperty] | None = None
 
     @classmethod
     def from_raw_info_section_property_block(
@@ -135,7 +154,12 @@ class AbilityTooltipDetailsInfoSectionPropertyBlockV2(BaseModel):
             )
             if raw_info_section_property_block.loc_string
             else None,
-            properties=raw_info_section_property_block.properties
+            properties=[
+                AbilityV2TooltipDetailsInfoSectionPropertyBlockProperty.from_raw_property(
+                    p.model_dump()
+                )
+                for p in raw_info_section_property_block.properties
+            ]
             if raw_info_section_property_block.properties
             else None,
         )

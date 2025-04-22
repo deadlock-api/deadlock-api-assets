@@ -1,9 +1,12 @@
 from typing import Literal
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, computed_field
 
 from deadlock_assets_api.models.v2.enums import AbilityTypeV2
-from deadlock_assets_api.models.v2.raw_item_base import RawItemBaseV2
+from deadlock_assets_api.models.v2.raw_item_base import (
+    RawItemBaseV2,
+    parse_css_ability_properties_icon,
+)
 
 
 class RawAbilityUpgradePropertyUpgradeV2(BaseModel):
@@ -32,6 +35,18 @@ class RawAbilityV2TooltipDetailsInfoSectionPropertyBlockProperty(BaseModel):
     show_property_value: bool | None = Field(None, validation_alias="m_bShowPropertyValue")
     important_property: str | None = Field(None, validation_alias="m_strImportantProperty")
     status_effect_value: str | None = Field(None, validation_alias="m_strStatusEffectValue")
+
+    @computed_field
+    @property
+    def important_property_icon_path(self) -> str | None:
+        icon = parse_css_ability_properties_icon(
+            "res/citadel_mod_tooltip_shared.css", self.important_property
+        )
+        if icon is not None:
+            return icon
+        return parse_css_ability_properties_icon(
+            "res/ability_properties.css", self.important_property
+        )
 
 
 class RawAbilityV2TooltipDetailsInfoSectionPropertyBlock(BaseModel):

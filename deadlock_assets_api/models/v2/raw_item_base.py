@@ -120,7 +120,7 @@ def parse_css_ability_properties_icon(file: str, css_class_icon: str) -> str | N
             (
                 s
                 for s in " ".join(rule.selectorText.split(".")).split(" ")
-                if s == f"prop_{css_class_icon}"
+                if s == f"prop_{css_class_icon}" or s == css_class_icon
             ),
             None,
         )
