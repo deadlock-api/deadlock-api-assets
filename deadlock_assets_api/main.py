@@ -54,6 +54,11 @@ Help us continue to provide the data you need - sponsor the Deadlock API today!
 ## Disclaimer
 _deadlock-api.com is not endorsed by Valve and does not reflect the views or opinions of Valve or anyone officially involved in producing or managing Valve properties. Valve and all associated properties are trademarks or registered trademarks of Valve Corporation_
 """,
+    license_info={
+        "name": "MIT",
+        "url": "https://github.com/deadlock-api/deadlock-api-assets/blob/master/LICENSE",
+    },
+    contact={"name": "Deadlock API - Discord", "url": "https://discord.gg/XMF9Xrgfqu"},
 )
 
 app.add_middleware(GZipMiddleware, minimum_size=1000, compresslevel=5)
