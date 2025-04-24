@@ -1331,6 +1331,7 @@
       "citadel_ability_shieldedsentry_quip": "Otomatik bir taret konu\u015fland\u0131r\u0131n.",
       "citadel_ability_shieldedsentry_t1_desc": "Taretler <span class=\"highlight\">+%{s:MoveSlowPercent}</span> hareket yava\u015flatmas\u0131 uygular.",
       "citadel_ability_shieldedsentry_t2_desc": "<span class=\"highlight\">+{s:TurretAttackRange} m</span> sald\u0131r\u0131 menzili ve <span class=\"highlight\">+%{s:AttackSpeedMult}</span> taret at\u0131\u015f h\u0131z\u0131.",
+      "citadel_ability_shieldedsentry_t3_desc": "<span class=\"highlight\">+{s:TurretDPS} m</span> taret SBH'si ve <span class=\"highlight\">+{s:TurretLifetime} sn</span> taret s\u00fcresi.",
       "citadel_ability_shiv_dagger": "T\u0131rt\u0131kl\u0131 B\u0131\u00e7aklar",
       "citadel_ability_shiv_dagger_desc": "Bir d\u00fc\u015fmana <span class=\"highlight\">hasar veren ve onu kanatan</span> bir b\u0131\u00e7ak f\u0131rlat\u0131n. Her ilave isabet, kanama miktar\u0131n\u0131 art\u0131ran bir <span class=\"highlight\">istif</span> ekler ve kanaman\u0131n s\u00fcresini tazeler.",
       "citadel_ability_shiv_dagger_dot": "T\u0131rt\u0131kl\u0131 B\u0131\u00e7aklar Kanama Hasar\u0131",

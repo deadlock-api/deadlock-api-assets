@@ -182,7 +182,7 @@
       "BonusHealthPercent_postfix": "%",
       "BonusHealthPercent_prefix": "{s:sign}",
       "BonusHealthRegenOutOfCombat_prefix": "{s:sign}",
-      "BonusHealthRegen_label": "\u0435\u0434. \u043a \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044e \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f",
+      "BonusHealthRegen_label": "\u0412\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f",
       "BonusHealthRegen_prefix": "{s:sign}",
       "BonusHealth_label": "\u0435\u0434. \u043a \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044e",
       "BonusHealth_prefix": "{s:sign}",

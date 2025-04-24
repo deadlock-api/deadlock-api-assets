@@ -1331,6 +1331,7 @@
       "citadel_ability_shieldedsentry_quip": "D\u00e9ploie une tourelle automatis\u00e9e",
       "citadel_ability_shieldedsentry_t1_desc": "Les tourelles appliquent <span class=\"highlight\">+{s:MoveSlowPercent}\u00a0% de ralentissement",
       "citadel_ability_shieldedsentry_t2_desc": "<span class=\"highlight\">+{s:TurretAttackRange}\u00a0m</span> de port\u00e9e d'attaque et <span class=\"highlight\">+{s:AttackSpeedMult}\u00a0%</span> de cadence de tir pour les tourelles",
+      "citadel_ability_shieldedsentry_t3_desc": "<span class=\"highlight\">+{s:TurretDPS}</span> de DPS et <span class=\"highlight\">+{s:TurretLifetime}\u00a0%</span> de dur\u00e9e de vie pour les tourelles",
       "citadel_ability_shiv_dagger": "Couteau de chasse",
       "citadel_ability_shiv_dagger_desc": "Lance un couteau qui <span class=\"highlight\">inflige des d\u00e9g\u00e2ts et fait saigner</span> une cible ennemie. Chaque attaque suppl\u00e9mentaire ajoute une <span class=\"highlight\">charge</span> et r\u00e9initialise la dur\u00e9e du saignement. Chaque charge augmente l'intensit\u00e9 du saignement.",
       "citadel_ability_shiv_dagger_dot": "D\u00e9g\u00e2ts de saignement de Couteau de chasse",

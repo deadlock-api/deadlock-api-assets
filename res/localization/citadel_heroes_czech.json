@@ -1331,6 +1331,7 @@
       "citadel_ability_shieldedsentry_quip": "Umo\u017e\u0148uje ti vyhodit automatickou st\u0159\u00edlnu.",
       "citadel_ability_shieldedsentry_t1_desc": "St\u0159\u00edlny aplikuj\u00ed <span class=\"highlight\">{s:MoveSlowPercent}%</span> zpomalen\u00ed pohybu",
       "citadel_ability_shieldedsentry_t2_desc": "<span class=\"highlight\">+{s:TurretAttackRange}\u00a0m</span> k dosahu \u00fatoku a <span class=\"highlight\">+{s:AttackSpeedMult}\u00a0%</span> k rychlosti st\u0159elby st\u0159\u00edlen",
+      "citadel_ability_shieldedsentry_t3_desc": "<span class=\"highlight\">+{s:TurretDPS}</span> bod\u016f k po\u0161kozen\u00ed/s st\u0159\u00edlen a <span class=\"highlight\">+{s:TurretLifetime}\u00a0s</span> k jejich trv\u00e1n\u00ed",
       "citadel_ability_shiv_dagger": "Rezav\u00e9 no\u017ee",
       "citadel_ability_shiv_dagger_desc": "Shiv vrhne n\u016f\u017e, kter\u00fd nep\u0159\u00edteli <span class=\"highlight\">ud\u011bl\u00ed po\u0161kozen\u00ed a aplikuje na n\u011bj krv\u00e1cen\u00ed</span>. S ka\u017ed\u00fdm dal\u0161\u00edm no\u017eem, kter\u00fd nep\u0159\u00edtele zas\u00e1hne, je p\u0159id\u00e1no <span class=\"highlight\">se\u010dten\u00ed</span> krv\u00e1cen\u00ed a tak\u00e9 dojde k obnoven\u00ed trv\u00e1n\u00ed debuffu.",
       "citadel_ability_shiv_dagger_dot": "Po\u0161kozen\u00ed krv\u00e1cen\u00edm od Rezav\u00fdch no\u017e\u016f",

@@ -1331,6 +1331,7 @@
       "citadel_ability_shieldedsentry_quip": "\u90e8\u7f72\u4e00\u53f0\u81ea\u52a8\u70ae\u5854",
       "citadel_ability_shieldedsentry_t1_desc": "\u70ae\u5854\u4f1a\u65bd\u52a0 <span class=\"highlight\">+{s:MoveSlowPercent}%</span> \u79fb\u52a8\u51cf\u901f",
       "citadel_ability_shieldedsentry_t2_desc": "<span class=\"highlight\">+{s:TurretAttackRange}m</span> \u653b\u51fb\u8303\u56f4\uff0c<span class=\"highlight\">+{s:AttackSpeedMult}%</span> \u70ae\u5854\u5c04\u901f",
+      "citadel_ability_shieldedsentry_t3_desc": "<span class=\"highlight\">+{s:TurretDPS}</span> \u70ae\u5854 DPS \u53ca <span class=\"highlight\">+{s:TurretLifetime}s</span> \u70ae\u5854\u90e8\u7f72\u65f6\u957f",
       "citadel_ability_shiv_dagger": "\u5c16\u950b\u5229\u9f7f",
       "citadel_ability_shiv_dagger_desc": "\u63b7\u51fa\u4e00\u628a\u952f\u9f7f\u5200\uff0c\u4ee4\u654c\u4eba<span class=\"highlight\">\u53d7\u5230\u4f24\u5bb3\u5e76\u6d41\u8840</span>\u3002\u6bcf\u591a\u653b\u51fb\u4e00\u6b21\u4f1a<span class=\"highlight\">\u53e0\u52a0</span>\u4e00\u5c42\u6548\u679c\uff0c\u5e76\u5237\u65b0\u6d41\u8840\u6301\u7eed\u65f6\u95f4\uff0c\u4f7f\u6bcf\u5c42\u6d41\u8840\u91cf\u589e\u52a0\u3002",
       "citadel_ability_shiv_dagger_dot": "\u5c16\u950b\u5229\u9f7f\u6d41\u8840\u4f24\u5bb3",

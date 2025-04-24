@@ -573,7 +573,7 @@
       "Citadel_Hud_CheaterVote_Option_Ban": "Banna ed<br>esci dalla partita",
       "Citadel_Hud_CheaterVote_Option_Play": "Prima tramuta in rana,<br>poi banna",
       "Citadel_Hud_ChooseHero": "Scegli eroe",
-      "Citadel_Hud_DPS": "{i:dps} Danni al secondo",
+      "Citadel_Hud_DPS": "{i:dps} danni al secondo",
       "Citadel_Hud_DeathCam": "TELECAMERA DELLA MORTE",
       "Citadel_Hud_DebugStats": "PARTITA: {s:match_id}\nCPU DEL SERVER: {i:server_frametime_avg_pct}% (picco: {i:server_frametime_max_pct}%)",
       "Citadel_Hud_HealthCritical": "Salute critica",

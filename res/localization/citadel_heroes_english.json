@@ -1332,7 +1332,7 @@
       "citadel_ability_shieldedsentry_quip": "Deploy an automated turret",
       "citadel_ability_shieldedsentry_t1_desc": "Turrets apply <span class=\"highlight\">+{s:MoveSlowPercent}%</span> Movement Slow",
       "citadel_ability_shieldedsentry_t2_desc": "<span class=\"highlight\">+{s:TurretAttackRange}m</span> Attack Range and <span class=\"highlight\">+{s:AttackSpeedMult}%</span> turret fire rate",
-      "citadel_ability_shieldedsentry_t3_desc": "<span class=\"highlight\">+{s:TurretDPS}m</span> Turret DPS and <span class=\"highlight\">+{s:TurretLifetime}s</span> Turret Lifetime",
+      "citadel_ability_shieldedsentry_t3_desc": "<span class=\"highlight\">+{s:TurretDPS}</span> Turret DPS and <span class=\"highlight\">+{s:TurretLifetime}s</span> Turret Lifetime",
       "citadel_ability_shiv_dagger": "Serrated Knives",
       "citadel_ability_shiv_dagger_desc": "Throw a knife that <span class=\"highlight\">damages and bleeds</span> an enemy.  Each additional hit adds a <span class=\"highlight\">stack</span> and refreshes the bleed duration, causing the bleed to increase per stack.",
       "citadel_ability_shiv_dagger_dot": "Serrated Knives Bleed Damage",
