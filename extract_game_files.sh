@@ -1,13 +1,38 @@
 #!/bin/bash
 
 if [ ! -f DepotDownloader ]; then
-    wget https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_3.0.0/DepotDownloader-linux-x64.zip -O DepotDownloader-linux-x64.zip
-    unzip -o DepotDownloader-linux-x64.zip DepotDownloader && rm DepotDownloader-linux-x64.zip
+    if [[ "$OSTYPE" == "darwin"* ]]; then
+        curl -L -o DepotDownloader.zip "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_3.2.0/DepotDownloader-macos-arm64.zip"
+    elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
+        wget https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_3.0.0/DepotDownloader-linux-x64.zip -O DepotDownloader.zip
+    else
+        echo "Unsupported OS: $OSTYPE"
+        exit 1
+    fi
+    unzip -o DepotDownloader.zip DepotDownloader && rm DepotDownloader.zip
 fi
 
 if [ ! -f Decompiler ]; then
-    wget https://github.com/ValveResourceFormat/ValveResourceFormat/releases/download/11.1/cli-linux-x64.zip -O Decompiler-linux-x64.zip
-    unzip -o Decompiler-linux-x64.zip && rm Decompiler-linux-x64.zip
+    if [[ "$OSTYPE" == "darwin"* ]]; then
+        curl -L -o Decompiler.zip "https://github.com/ValveResourceFormat/ValveResourceFormat/releases/download/12.0/cli-macos-arm64.zip"
+    elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
+        wget https://github.com/ValveResourceFormat/ValveResourceFormat/releases/download/11.1/cli-linux-x64.zip -O Decompiler.zip
+    else
+        echo "Unsupported OS: $OSTYPE"
+        exit 1
+    fi
+    unzip -o Decompiler.zip && rm Decompiler.zip
+fi
+
+# Remove com.apple.quarantine xattr if present
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    echo "Removing com.apple.quarantine xattr from files"
+    find . -type f | while read -r file; do
+        if xattr -p com.apple.quarantine "$file" &>/dev/null; then
+            echo "Removing quarantine attribute from: $file"
+            xattr -d com.apple.quarantine "$file"
+        fi
+    done
 fi
 
 # Download Deadlock Game files
@@ -141,3 +166,4 @@ find videos -type f -name "*.webm" -print0 | \
         echo "Converting $video_file to $video_mp4_file"
         ffmpeg -i "$video_file" -c:v libx264 -crf 23 -y "$video_mp4_file"
     '
+
