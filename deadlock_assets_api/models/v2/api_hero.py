@@ -98,10 +98,10 @@ class HeroPhysicsV2(BaseModel):
 
     collision_height: float
     collision_radius: float
-    footstep_sound_travel_distance_meters: float
     stealth_speed_meters_per_second: float
     step_height: float
-    step_sound_time: float
+    footstep_sound_travel_distance_meters: float | None = None
+    step_sound_time: float | None = None
     step_sound_time_sprinting: float | None = None
 
     @classmethod

@@ -29,6 +29,7 @@ class RawAbilityActivationV2(str, Enum):
 
 class RawAbilityImbueV2(str, Enum):
     CITADEL_TARGET_ABILITY_BEHAVIOR_IMBUE_ACTIVE = "imbue_active"
+    CITADEL_TARGET_ABILITY_BEHAVIOR_IMBUE_ACTIVE_NON_ULT = "imbue_active_non_ult"
     CITADEL_TARGET_ABILITY_BEHAVIOR_IMBUE_MODIFIER_VALUE = "imbue_modifier_value"
 
     @classmethod

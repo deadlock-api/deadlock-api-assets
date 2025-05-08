@@ -97,10 +97,10 @@ class RawItemPropertyV2(BaseModel):
             return icon
         return parse_css_ability_properties_icon("res/ability_properties.css", value)
 
-    @field_validator("usage_flags")
+    @field_validator("usage_flags", mode="before")
     @classmethod
     def validate_usage_flags(cls, value: str | list | None, _) -> list[StatsUsageFlagV2] | None:
-        if value is None:
+        if value is None or value == "":
             return None
         if isinstance(value, list):
             return value

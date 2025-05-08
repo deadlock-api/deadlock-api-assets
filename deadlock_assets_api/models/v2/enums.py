@@ -5,6 +5,7 @@ from logging import warning
 
 class StatsUsageFlagV2(str, Enum):
     ConditionallyApplied = "ConditionallyApplied"
+    ConditionallyEnemyApplied = "ConditionallyEnemyApplied"
     IntrinsicallyProvidedInAbility = "IntrinsicallyProvidedInAbility"
     IntrinsicallyProvidedInModifier = "IntrinsicallyProvidedInModifier"
 
