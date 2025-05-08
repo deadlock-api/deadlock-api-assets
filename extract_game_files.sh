@@ -166,4 +166,3 @@ find videos -type f -name "*.webm" -print0 | \
         echo "Converting $video_file to $video_mp4_file"
         ffmpeg -i "$video_file" -c:v libx264 -crf 23 -y "$video_mp4_file"
     '
-
