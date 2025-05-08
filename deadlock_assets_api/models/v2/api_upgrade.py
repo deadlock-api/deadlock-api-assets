@@ -1,7 +1,9 @@
+import os.path
 from typing import Literal
 
 from pydantic import ConfigDict, Field, computed_field, BaseModel
 
+from deadlock_assets_api.glob import IMAGE_BASE_URL
 from deadlock_assets_api.models.v1.generic_data import load_generic_data
 from deadlock_assets_api.models.v2.api_item_base import ItemBaseV2, ItemPropertyV2, parse_img_path
 from deadlock_assets_api.models.v2.enums import ItemTierV2, ItemSlotTypeV2
@@ -199,6 +201,8 @@ class UpgradeV2(ItemBaseV2):
 
     item_slot_type: ItemSlotTypeV2
     item_tier: ItemTierV2
+    new_image: str | None = None
+    new_image_webp: str | None = None
     properties: dict[str, UpgradePropertyV2] | None = None
     disabled: bool | None = None
     description: UpgradeDescriptionV2 | None = Field(None)
@@ -257,6 +261,30 @@ class UpgradeV2(ItemBaseV2):
         raw_model["tooltip_sections"] = [
             UpgradeTooltipSectionV2.from_raw_section(s) for s in raw_upgrade.tooltip_sections or []
         ]
+        new_image_files = [
+            os.path.join("new_upgrades/", f)
+            for f in [
+                raw_upgrade.class_name + ".png",
+                raw_upgrade.class_name.lstrip("upgrade_") + ".png",
+            ]
+        ]
+        new_image_path = next(
+            (f for f in new_image_files if os.path.exists(os.path.join("images", f))), None
+        )
+        if new_image_path:
+            raw_model["new_image"] = f"{IMAGE_BASE_URL}/{new_image_path}"
+        new_image_webp_files = [
+            os.path.join("new_upgrades/", f)
+            for f in [
+                raw_upgrade.class_name + ".webp",
+                raw_upgrade.class_name.lstrip("upgrade_") + ".webp",
+            ]
+        ]
+        new_image_webp_path = next(
+            (f for f in new_image_webp_files if os.path.exists(os.path.join("images", f))), None
+        )
+        if new_image_webp_path:
+            raw_model["new_image_webp"] = f"{IMAGE_BASE_URL}/{new_image_webp_path}"
         return cls(**raw_model)
 
     @computed_field
