@@ -127,7 +127,7 @@ cp -r "$citadel_folder"/panorama/images/hud/*.png images/hud/
 cp "$citadel_folder"/panorama/images/hud/hero_portraits/* images/heroes/
 cp "$citadel_folder"/panorama/images/*.* images/
 cp -r "$citadel_folder"/panorama/images/hud/hero_portraits images/hud/
-find depots/game/citadel/panorama/images/items/ -type f -iname "*.png" -exec cp -t images/new_upgrades/ {} +
+cp -r "$citadel_folder"/panorama/images/items/ images/
 
 mkdir -p images/abilities
 cp -r "$citadel_folder"/panorama/images/hud/abilities images/

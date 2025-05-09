@@ -262,10 +262,12 @@ class UpgradeV2(ItemBaseV2):
             UpgradeTooltipSectionV2.from_raw_section(s) for s in raw_upgrade.tooltip_sections or []
         ]
         new_image_files = [
-            os.path.join("new_upgrades/", f)
+            os.path.join("items/", f)
             for f in [
-                raw_upgrade.class_name + ".png",
-                raw_upgrade.class_name.lstrip("upgrade_") + ".png",
+                os.path.join(raw_upgrade.item_slot_type, raw_upgrade.class_name + ".png"),
+                os.path.join(
+                    raw_upgrade.item_slot_type, raw_upgrade.class_name.lstrip("upgrade_") + ".png"
+                ),
             ]
         ]
         new_image_path = next(
@@ -274,10 +276,12 @@ class UpgradeV2(ItemBaseV2):
         if new_image_path:
             raw_model["new_image"] = f"{IMAGE_BASE_URL}/{new_image_path}"
         new_image_webp_files = [
-            os.path.join("new_upgrades/", f)
+            os.path.join("items/", f)
             for f in [
-                raw_upgrade.class_name + ".webp",
-                raw_upgrade.class_name.lstrip("upgrade_") + ".webp",
+                os.path.join(raw_upgrade.item_slot_type, raw_upgrade.class_name + ".webp"),
+                os.path.join(
+                    raw_upgrade.item_slot_type, raw_upgrade.class_name.lstrip("upgrade_") + ".webp"
+                ),
             ]
         ]
         new_image_webp_path = next(
