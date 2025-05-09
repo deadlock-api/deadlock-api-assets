@@ -201,8 +201,6 @@ class UpgradeV2(ItemBaseV2):
 
     item_slot_type: ItemSlotTypeV2
     item_tier: ItemTierV2
-    new_image: str | None = None
-    new_image_webp: str | None = None
     properties: dict[str, UpgradePropertyV2] | None = None
     disabled: bool | None = None
     description: UpgradeDescriptionV2 | None = Field(None)
@@ -274,7 +272,7 @@ class UpgradeV2(ItemBaseV2):
             (f for f in new_image_files if os.path.exists(os.path.join("images", f))), None
         )
         if new_image_path:
-            raw_model["new_image"] = f"{IMAGE_BASE_URL}/{new_image_path}"
+            raw_model["image"] = f"{IMAGE_BASE_URL}/{new_image_path}"
         new_image_webp_files = [
             os.path.join("items/", f)
             for f in [
@@ -288,7 +286,7 @@ class UpgradeV2(ItemBaseV2):
             (f for f in new_image_webp_files if os.path.exists(os.path.join("images", f))), None
         )
         if new_image_webp_path:
-            raw_model["new_image_webp"] = f"{IMAGE_BASE_URL}/{new_image_webp_path}"
+            raw_model["image_webp"] = f"{IMAGE_BASE_URL}/{new_image_webp_path}"
         return cls(**raw_model)
 
     @computed_field
