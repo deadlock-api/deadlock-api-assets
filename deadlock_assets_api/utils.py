@@ -64,8 +64,12 @@ def is_int(element: any) -> bool:
         return False
 
 
-def camel_to_snake(s):
-    return "".join(["_" + c.lower() if c.isupper() else c for c in s]).lstrip("_")
+def camel_to_snake(camel_str: str) -> str:
+    return "".join(["_" + c.lower() if c.isupper() else c for c in camel_str]).lstrip("_")
+
+
+def snake_to_pascal(snake_str: str) -> str:
+    return "".join(x.title() for x in snake_str.split("_"))
 
 
 def strip_prefix(string: str, prefix: str) -> str:
