@@ -535,6 +535,7 @@
       "Citadel_HeroBuilds_CopyBuildLabel": "Copy & Edit",
       "Citadel_HeroBuilds_CopyOfName": "Copy of [%name%]",
       "Citadel_HeroBuilds_CopyPostGameBuild": "Create Build",
+      "Citadel_HeroBuilds_CopyPostGameBuild_Tooltip": "This will create a local unpublished build based on the items the player purchased in this match (including imbue targets and the order in which items were sold).",
       "Citadel_HeroBuilds_CreateBuildLabel": "Create New Build",
       "Citadel_HeroBuilds_CurrenclyActive": "Currently Active",
       "Citadel_HeroBuilds_DailyFavorite": "Trending",

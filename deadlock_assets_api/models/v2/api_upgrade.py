@@ -1,9 +1,7 @@
-import os.path
 from typing import Literal
 
 from pydantic import ConfigDict, Field, computed_field, BaseModel
 
-from deadlock_assets_api.glob import IMAGE_BASE_URL
 from deadlock_assets_api.models.v1.generic_data import load_generic_data
 from deadlock_assets_api.models.v2.api_item_base import ItemBaseV2, ItemPropertyV2, parse_img_path
 from deadlock_assets_api.models.v2.enums import ItemTierV2, ItemSlotTypeV2
@@ -199,6 +197,10 @@ class UpgradeV2(ItemBaseV2):
 
     type: Literal["upgrade"] = "upgrade"
 
+    shop_image: str | None = None
+    shop_image_webp: str | None = None
+    shop_image_small: str | None = None
+    shop_image_small_webp: str | None = None
     item_slot_type: ItemSlotTypeV2
     item_tier: ItemTierV2
     properties: dict[str, UpgradePropertyV2] | None = None
@@ -249,6 +251,14 @@ class UpgradeV2(ItemBaseV2):
         localization: dict[str, str],
     ) -> "UpgradeV2":
         raw_model = super().from_raw_item(raw_upgrade, raw_heroes, localization)
+        raw_model["shop_image"] = parse_img_path(raw_model["shop_image"])
+        if raw_model["shop_image"] is not None:
+            raw_model["shop_image_webp"] = raw_model["shop_image"].replace(".png", ".webp")
+        raw_model["shop_image_small"] = parse_img_path(raw_model["shop_image_small"])
+        if raw_model["shop_image_small"] is not None:
+            raw_model["shop_image_small_webp"] = raw_model["shop_image_small"].replace(
+                ".png", ".webp"
+            )
         raw_model["description"] = UpgradeDescriptionV2.from_raw_upgrade(
             raw_upgrade, raw_heroes, localization
         )
@@ -259,34 +269,6 @@ class UpgradeV2(ItemBaseV2):
         raw_model["tooltip_sections"] = [
             UpgradeTooltipSectionV2.from_raw_section(s) for s in raw_upgrade.tooltip_sections or []
         ]
-        new_image_files = [
-            os.path.join("items/", f)
-            for f in [
-                os.path.join(raw_upgrade.item_slot_type, raw_upgrade.class_name + ".png"),
-                os.path.join(
-                    raw_upgrade.item_slot_type, raw_upgrade.class_name.lstrip("upgrade_") + ".png"
-                ),
-            ]
-        ]
-        new_image_path = next(
-            (f for f in new_image_files if os.path.exists(os.path.join("images", f))), None
-        )
-        if new_image_path:
-            raw_model["image"] = f"{IMAGE_BASE_URL}/{new_image_path}"
-        new_image_webp_files = [
-            os.path.join("items/", f)
-            for f in [
-                os.path.join(raw_upgrade.item_slot_type, raw_upgrade.class_name + ".webp"),
-                os.path.join(
-                    raw_upgrade.item_slot_type, raw_upgrade.class_name.lstrip("upgrade_") + ".webp"
-                ),
-            ]
-        ]
-        new_image_webp_path = next(
-            (f for f in new_image_webp_files if os.path.exists(os.path.join("images", f))), None
-        )
-        if new_image_webp_path:
-            raw_model["image_webp"] = f"{IMAGE_BASE_URL}/{new_image_webp_path}"
         return cls(**raw_model)
 
     @computed_field

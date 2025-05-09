@@ -117,6 +117,8 @@ class RawUpgradeV2(RawItemBaseV2):
 
     type: Literal["upgrade"] = "upgrade"
 
+    shop_image: str | None = Field(None, validation_alias="m_strShopIconLarge")
+    shop_image_small: str | None = Field(None, validation_alias="m_strShopIconSmall")
     item_slot_type: ItemSlotTypeV2 = Field(..., validation_alias="m_eItemSlotType")
     item_tier: ItemTierV2 = Field(..., validation_alias="m_iItemTier")
     disabled: bool | None = Field(None, validation_alias="m_bDisabled")
