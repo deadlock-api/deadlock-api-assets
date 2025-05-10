@@ -12,19 +12,24 @@ from deadlock_assets_api.utils import prettify_pascal_case
 
 LOGGER = logging.getLogger(__name__)
 
-css_rules = parse_css_rules("res/citadel_base_styles.css")
-color_definitions = {}
-for rule in css_rules:
-    if not rule.cssText or not rule.cssText.startswith("@define"):
-        continue
-    color_definition = rule.cssText.strip("@define").strip(";").split(":")
-    if len(color_definition) == 2:
-        name, value = color_definition
-        color_definitions[name.strip()] = value.strip()
+
+@lru_cache
+def load_base_css():
+    css_rules = parse_css_rules("res/citadel_base_styles.css")
+    color_definitions = {}
+    for rule in css_rules:
+        if not rule.cssText or not rule.cssText.startswith("@define"):
+            continue
+        color_definition = rule.cssText.strip("@define").strip(";").split(":")
+        if len(color_definition) == 2:
+            name, value = color_definition
+            color_definitions[name.strip()] = value.strip()
+    return css_rules, color_definitions
 
 
 @lru_cache
 def parse_css_base_styles(css_class_selector: str) -> (str | None, str | None):
+    css_rules, color_definitions = load_base_css()
     for rule in css_rules:
         if not isinstance(rule, CSSStyleRule):
             continue
