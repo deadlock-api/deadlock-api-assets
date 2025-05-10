@@ -1,11 +1,51 @@
 import logging
 import re
 
+from css_parser.css import CSSStyleRule
+
+from deadlock_assets_api.models.v2.api_item_base import parse_img_path
 from deadlock_assets_api.models.v2.raw_ability import RawAbilityV2
 from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
-from deadlock_assets_api.models.v2.raw_item_base import RawItemBaseV2
+from deadlock_assets_api.models.v2.raw_item_base import RawItemBaseV2, parse_css_rules
+from deadlock_assets_api.utils import prettify_pascal_case
 
 LOGGER = logging.getLogger(__name__)
+
+css_rules = parse_css_rules("res/citadel_base_styles.css")
+color_definitions = {}
+for rule in css_rules:
+    if not rule.cssText or not rule.cssText.startswith("@define"):
+        continue
+    color_definition = rule.cssText.strip("@define").strip(";").split(":")
+    if len(color_definition) == 2:
+        name, value = color_definition
+        color_definitions[name.strip()] = value.strip()
+
+
+def parse_css_base_styles(css_class_selector: str) -> (str | None, str | None):
+    color_definitions = {}
+    for rule in css_rules:
+        if not isinstance(rule, CSSStyleRule):
+            continue
+        if not any(s.lower() == css_class_selector.lower() for s in rule.selectorText.split(",")):
+            continue
+        rule: CSSStyleRule = rule
+        background_image = rule.style.getProperty("background-image")
+        if background_image is None:
+            continue
+        background_image = background_image.value[4:-1]
+        background_image = (
+            background_image.replace("_psd.vtex", ".psd")
+            .replace("_png.vtex", ".png")
+            .replace(".vsvg", ".svg")
+        )
+        background_image = background_image.split("panorama/")[-1]
+
+        wash_color = rule.style.getProperty("wash-color")
+        if wash_color:
+            wash_color = color_definitions.get(wash_color.value, wash_color.value)
+        return background_image, wash_color
+    return None, None
 
 
 def replace_templates(
@@ -20,6 +60,17 @@ def replace_templates(
 
     def replacer(match):
         variable = match.group(1)
+
+        if variable.startswith("citadel_inline_attribute"):
+            css_class = variable.split(":")[-1].strip("'")
+            label = prettify_pascal_case(css_class)
+            css_class = f".InlineAttributeIcon.{css_class}"
+            background_image, wash_color = parse_css_base_styles(css_class)
+            background_image = parse_img_path(background_image)
+            if wash_color:
+                return f'<img src="{background_image}" class="inline-attribute" style="fill: {wash_color};" alt="{label}"/><span class="inline-attribute-label" style="color: {wash_color};">{label}</span>'
+            else:
+                return f'<img src="{background_image}" class="inline-attribute" alt="{label}"/><span class="inline-attribute-label">{label}</span>'
 
         replaced = raw_item.properties.get(variable)
         if replaced is None:
@@ -105,4 +156,5 @@ def replace_templates(
 
     input_str = re.sub(r"\{s:([^}]+)}", replacer, input_str)
     input_str = re.sub(r"\{i:([^}]+)}", replacer, input_str)
+    input_str = re.sub(r"\{g:([^}]+)}", replacer, input_str)
     return input_str

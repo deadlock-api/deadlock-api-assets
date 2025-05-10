@@ -44,6 +44,12 @@ def prettify_snake_case(snake_str: str) -> str:
     )
 
 
+def prettify_pascal_case(pascal_str: str) -> str:
+    return " ".join(
+        re.sub(r"([a-zA-Z])(\d)", r"\1 \2", w.capitalize()) for w in pascal_str.split("_")
+    ).replace("_", " ")
+
+
 def is_float(element: any) -> bool:
     if element is None:
         return False
