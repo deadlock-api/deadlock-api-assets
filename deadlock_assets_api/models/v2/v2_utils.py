@@ -1,5 +1,6 @@
 import logging
 import re
+from functools import lru_cache
 
 from css_parser.css import CSSStyleRule
 
@@ -22,29 +23,31 @@ for rule in css_rules:
         color_definitions[name.strip()] = value.strip()
 
 
+@lru_cache
 def parse_css_base_styles(css_class_selector: str) -> (str | None, str | None):
-    color_definitions = {}
     for rule in css_rules:
         if not isinstance(rule, CSSStyleRule):
             continue
-        if not any(s.lower() == css_class_selector.lower() for s in rule.selectorText.split(",")):
-            continue
-        rule: CSSStyleRule = rule
-        background_image = rule.style.getProperty("background-image")
-        if background_image is None:
-            continue
-        background_image = background_image.value[4:-1]
-        background_image = (
-            background_image.replace("_psd.vtex", ".psd")
-            .replace("_png.vtex", ".png")
-            .replace(".vsvg", ".svg")
-        )
-        background_image = background_image.split("panorama/")[-1]
+        selector = rule.selectorText.strip().replace("\n", "")
+        if css_class_selector == selector or any(
+            s.lower().strip() == css_class_selector.lower() for s in selector.split(",")
+        ):
+            rule: CSSStyleRule = rule
+            background_image = rule.style.getProperty("background-image")
+            if background_image is None:
+                continue
+            background_image = background_image.value[4:-1]
+            background_image = (
+                background_image.replace("_psd.vtex", ".psd")
+                .replace("_png.vtex", ".png")
+                .replace(".vsvg", ".svg")
+            )
+            background_image = background_image.split("panorama/")[-1]
 
-        wash_color = rule.style.getProperty("wash-color")
-        if wash_color:
-            wash_color = color_definitions.get(wash_color.value, wash_color.value)
-        return background_image, wash_color
+            wash_color = rule.style.getProperty("wash-color")
+            if wash_color:
+                wash_color = color_definitions.get(wash_color.value, wash_color.value)
+            return background_image, wash_color
     return None, None
 
 
@@ -68,9 +71,15 @@ def replace_templates(
             background_image, wash_color = parse_css_base_styles(css_class)
             background_image = parse_img_path(background_image)
             if wash_color:
-                return f'<img src="{background_image}" class="inline-attribute" style="fill: {wash_color};" alt="{label}"/><span class="inline-attribute-label" style="color: {wash_color};">{label}</span>'
+                img_tag = f'<img src="{background_image}" class="inline-attribute" style="fill: {wash_color};" alt="{label}"/>'
+                label_tag = f'<span class="inline-attribute-label" style="color: {wash_color};">{label}</span>'
             else:
-                return f'<img src="{background_image}" class="inline-attribute" alt="{label}"/><span class="inline-attribute-label">{label}</span>'
+                img_tag = f'<img src="{background_image}" class="inline-attribute" alt="{label}"/>'
+                label_tag = f'<span class="inline-attribute-label">{label}</span>'
+            if css_class.lower().endswith("icon"):
+                return img_tag
+            else:
+                return img_tag + label_tag
 
         replaced = raw_item.properties.get(variable)
         if replaced is None:

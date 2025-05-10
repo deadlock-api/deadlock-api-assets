@@ -21,7 +21,7 @@ def parse_img_path(v):
         split_index = v.find("hud/")
     if split_index == -1:
         if len(v.split("{images}/")) != 2:
-            return None
+            return v
         _, v = v.split("{images}/")
         split_index = 0
     v = v[split_index:]
