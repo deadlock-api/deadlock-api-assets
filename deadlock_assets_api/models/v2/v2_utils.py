@@ -70,8 +70,10 @@ def replace_templates(
             css_class = f".InlineAttributeIcon.{css_class}"
             background_image, wash_color = parse_css_base_styles(css_class)
             background_image = parse_img_path(background_image)
+            if background_image.endswith(".svg"):
+                background_image = background_image.replace(".svg", "_unfilled.svg")
             if wash_color:
-                img_tag = f'<img src="{background_image}" class="inline-attribute" style="fill: {wash_color};" alt="{label}"/>'
+                img_tag = f'<img src="{background_image}" class="inline-attribute" style="color: {wash_color};" alt="{label}"/>'
                 label_tag = f'<span class="inline-attribute-label" style="color: {wash_color};">{label}</span>'
             else:
                 img_tag = f'<img src="{background_image}" class="inline-attribute" alt="{label}"/>'
