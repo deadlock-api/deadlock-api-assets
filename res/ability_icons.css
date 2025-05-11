@@ -1184,3 +1184,8 @@ AbilitySlotIcon CitadelHudAbilityUpgradePips
 {
 	visibility: collapse;
 }
+
+.item_passive CitadelBinding
+{
+	visibility: collapse;
+}

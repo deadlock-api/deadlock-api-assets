@@ -359,6 +359,7 @@
       "upgrade_counterspell": "Tolak Bala",
       "upgrade_crackshot": "Tembakan Mistis",
       "upgrade_critshot": "Tembakan Keberuntungan",
+      "upgrade_crushing_fists": "Pukulan Penghancur",
       "upgrade_damage_recycler": "Lintah",
       "upgrade_debuff_reducer": "Pengurang Debuff",
       "upgrade_deflecting_armor": "Armor Baja",
@@ -375,6 +376,7 @@
       "upgrade_fervor": "Kegilaan",
       "upgrade_fleetfoot_boots": "Langkah Seribu",
       "upgrade_focus_lens": "Lensa Fokus",
+      "upgrade_fury_trance": "Kerasukan Setan",
       "upgrade_glass_cannon": "Meriam Kaca",
       "upgrade_glass_cannon2": "Meriam Kaca v2",
       "upgrade_glitch": "Kutukan",
@@ -456,12 +458,14 @@
       "upgrade_spirit_burn": "Api Spirit",
       "upgrade_spirit_sap": "Penyurutan Spirit",
       "upgrade_spirit_snatch": "Rampas Spirit",
+      "upgrade_split_shot": "Tembakan Terpecah",
       "upgrade_sprint_booster": "Boots Sprint",
       "upgrade_superacolytes_glove": "Kepalan Heksagonal",
       "upgrade_superior_stamina": "Stamina Tingkat Tinggi",
       "upgrade_suppressor": "Penekan",
       "upgrade_surging_power": "Ledakan Vampir",
       "upgrade_target_stun": "Roboh",
+      "upgrade_targeted_silence": "Gelombang Sunyi",
       "upgrade_tech_armor": "Armor Spirit",
       "upgrade_tech_bleed": "Gema Mistis",
       "upgrade_tech_damage_pulse": "Denyut Siksaan",
@@ -481,6 +485,7 @@
       "upgrade_warp_stone": "Batu Teleportasi",
       "upgrade_weapon_backstabber": "Pengkhianat",
       "upgrade_weapon_shielding": "Perisai Senjata",
+      "upgrade_weighted_shots": "Tembakan Berat",
       "upgrade_withering_whip": "Tong Berkarat"
     }
   }

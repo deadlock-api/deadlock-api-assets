@@ -428,7 +428,7 @@
       "LightningStrikeRadius_label": "Blitzschlagradius",
       "LightningStrikeRadius_postfix": "\u00a0m",
       "LingerDuration_postfix": "\u00a0s",
-      "LowHealthEnemyDamageBonus_label": "Max. Bonusschaden",
+      "LowHealthEnemyDamageBonus_label": "max. Bonusschaden",
       "LowHealthEnemyThresholdPct_label": "Lebenspunkteschwelle",
       "LowHealthEnemyThresholdPct_postfix": "\u00a0%",
       "MageTime_label": "Nicht-Anvisierbarkeitsdauer",
