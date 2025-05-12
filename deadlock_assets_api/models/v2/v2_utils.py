@@ -102,9 +102,9 @@ def replace_templates(
                 prettify_pascal_case(key),
             ).strip()
             if key == "MoveForward" and res.lower() == "move forward":
-                return " w "
+                return " [W] "
             if key == "MoveDown" and res.lower() == "move down":
-                return " s "
+                return " [S] "
             return " " + res + " "
 
         if variable.startswith("citadel_inline_attribute"):
