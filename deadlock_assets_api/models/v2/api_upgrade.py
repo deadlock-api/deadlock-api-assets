@@ -219,16 +219,7 @@ class UpgradeV2(ItemBaseV2):
     @computed_field
     @property
     def shopable(self) -> bool:
-        return (
-            (self.disabled is None or self.disabled is False)
-            and self.item_slot_type
-            in [
-                ItemSlotTypeV2.EItemSlotType_Armor,
-                ItemSlotTypeV2.EItemSlotType_WeaponMod,
-                ItemSlotTypeV2.EItemSlotType_Tech,
-            ]
-            and self.shop_image is not None
-        )
+        return (self.disabled is None or self.disabled is False) and self.shop_image is not None
 
     def load_description(
         self,
