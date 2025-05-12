@@ -45,7 +45,7 @@ def prettify_snake_case(snake_str: str) -> str:
 
 
 def prettify_pascal_case(pascal_string: str) -> str:
-    return re.sub(r"(?<!^)(?=[A-Z])", " ", pascal_string).lower().strip()
+    return re.sub(r"(?<!^)(?=[A-Z])", " ", pascal_string).lower().strip().replace("d p s", "DPS")
 
 
 def is_float(element: any) -> bool:
