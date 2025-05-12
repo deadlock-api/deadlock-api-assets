@@ -62,7 +62,7 @@ def add_fill_to_svg(svg: str, fill: str) -> str:
     if not svg:
         return svg
     if "fill" in svg:
-        return re.sub(r'fill="[^"]+"', rf'fill="{fill}"', svg)
+        return re.sub(r'fill="[^"]+"', rf'fill="{fill}"', svg, flags=re.DOTALL)
     else:
         return svg.replace("<svg", f'<svg fill="{fill}"')
 
