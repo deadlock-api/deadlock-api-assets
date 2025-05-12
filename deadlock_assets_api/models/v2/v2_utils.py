@@ -1,9 +1,11 @@
 import logging
+import os
 import re
 from functools import lru_cache
 
 from css_parser.css import CSSStyleRule
 
+from deadlock_assets_api.glob import SVGS_BASE_URL
 from deadlock_assets_api.models.v2.api_item_base import parse_img_path
 from deadlock_assets_api.models.v2.raw_ability import RawAbilityV2
 from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
@@ -56,6 +58,15 @@ def parse_css_base_styles(css_class_selector: str) -> (str | None, str | None):
     return None, None
 
 
+def add_fill_to_svg(svg: str, fill: str) -> str:
+    if not svg:
+        return svg
+    if "fill" in svg:
+        return re.sub(r'fill="[^"]+"', rf'fill="{fill}"', svg)
+    else:
+        return svg.replace("<svg", f'<svg fill="{fill}"')
+
+
 def replace_templates(
     raw_item: RawItemBaseV2,
     raw_heroes: list[RawHeroV2],
@@ -75,13 +86,29 @@ def replace_templates(
             css_class = f".InlineAttributeIcon.{css_class}"
             background_image, wash_color = parse_css_base_styles(css_class)
             background_image = parse_img_path(background_image)
-            if background_image.endswith(".svg"):
-                background_image = background_image.replace(".svg", "_unfilled.svg")
             if wash_color:
-                img_tag = f'<img src="{background_image}" class="inline-attribute" style="color: {wash_color};" alt="{label}"/>'
+                if background_image.endswith(".svg"):
+                    background_image_path = "svgs" + background_image.replace(SVGS_BASE_URL, "")
+                    if os.path.exists(background_image_path):
+                        with open(background_image_path, "r") as f:
+                            img_tag = add_fill_to_svg(f.read(), wash_color)
+                    else:
+                        img_tag = f'<img src="{background_image}" class="inline-attribute" style="color: {wash_color};" alt="{label}"/>'
+                else:
+                    img_tag = f'<img src="{background_image}" class="inline-attribute" style="color: {wash_color};" alt="{label}"/>'
                 label_tag = f'<span class="inline-attribute-label" style="color: {wash_color};">{label}</span>'
             else:
-                img_tag = f'<img src="{background_image}" class="inline-attribute" alt="{label}"/>'
+                if background_image.endswith(".svg"):
+                    background_image_path = "svgs" + background_image.replace(SVGS_BASE_URL, "")
+                    if os.path.exists(background_image_path):
+                        with open(background_image_path, "r") as f:
+                            img_tag = add_fill_to_svg(f.read(), wash_color)
+                    else:
+                        img_tag = f'<object data="{background_image}" class="inline-attribute" alt="{label}"/>'
+                else:
+                    img_tag = (
+                        f'<img src="{background_image}" class="inline-attribute" alt="{label}"/>'
+                    )
                 label_tag = f'<span class="inline-attribute-label">{label}</span>'
             if css_class.lower().endswith("icon"):
                 return img_tag
