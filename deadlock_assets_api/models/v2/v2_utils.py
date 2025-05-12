@@ -59,6 +59,7 @@ def parse_css_base_styles(css_class_selector: str) -> (str | None, str | None):
 
 
 def add_fill_to_svg(svg: str, fill: str) -> str:
+    fill = fill or "white"
     if not svg:
         return svg
     if "fill" in svg:
