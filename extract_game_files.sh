@@ -133,8 +133,10 @@ cp -r "$citadel_folder"/sounds/* sounds/
 # Extract image files
 mkdir -p images
 mkdir -p images/hud
+mkdir -p images/hud/core
 cp -r "$citadel_folder"/panorama/images/heroes images/
 cp -r "$citadel_folder"/panorama/images/hud/*.png images/hud/
+cp -r "$citadel_folder"/panorama/images/hud/*/*.png images/hud/core/
 cp "$citadel_folder"/panorama/images/hud/hero_portraits/* images/heroes/
 cp "$citadel_folder"/panorama/images/*.* images/
 cp -r "$citadel_folder"/panorama/images/hud/hero_portraits images/hud/
