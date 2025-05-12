@@ -93,10 +93,10 @@ def replace_templates(
                         with open(background_image_path, "r") as f:
                             img_tag = add_fill_to_svg(f.read(), wash_color)
                     else:
-                        img_tag = f'<img src="{background_image}" class="inline-attribute" style="color: {wash_color};" alt="{label}"/>'
+                        img_tag = f'<img src="{background_image}" class="inline-attribute {css_class}" alt="{label}"/>'
                 else:
-                    img_tag = f'<img src="{background_image}" class="inline-attribute" style="color: {wash_color};" alt="{label}"/>'
-                label_tag = f'<span class="inline-attribute-label" style="color: {wash_color};">{label}</span>'
+                    img_tag = f'<img src="{background_image}" class="inline-attribute {css_class}" alt="{label}"/>'
+                label_tag = f'<span class="inline-attribute-label {css_class}" style="color: {wash_color};">{label}</span>'
             else:
                 if background_image.endswith(".svg"):
                     background_image_path = "svgs" + background_image.replace(SVGS_BASE_URL, "")
@@ -104,12 +104,10 @@ def replace_templates(
                         with open(background_image_path, "r") as f:
                             img_tag = add_fill_to_svg(f.read(), wash_color)
                     else:
-                        img_tag = f'<object data="{background_image}" class="inline-attribute" alt="{label}"/>'
+                        img_tag = f'<object data="{background_image}" class="inline-attribute {css_class}" alt="{label}"/>'
                 else:
-                    img_tag = (
-                        f'<img src="{background_image}" class="inline-attribute" alt="{label}"/>'
-                    )
-                label_tag = f'<span class="inline-attribute-label">{label}</span>'
+                    img_tag = f'<img src="{background_image}" class="inline-attribute {css_class}" alt="{label}"/>'
+                label_tag = f'<span class="inline-attribute-label {css_class}">{label}</span>'
             if css_class.lower().endswith("icon"):
                 return img_tag
             else:
