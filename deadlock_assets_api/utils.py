@@ -48,6 +48,10 @@ def prettify_pascal_case(pascal_string: str) -> str:
     return re.sub(r"(?<!^)(?=[A-Z])", " ", pascal_string).lower().strip().replace("d p s", "DPS")
 
 
+def pascal_case_to_snake_case(pascal_string: str) -> str:
+    return re.sub(r"(?<!^)(?=[A-Z])", "_", pascal_string).lower().strip()
+
+
 def is_float(element: any) -> bool:
     if element is None:
         return False

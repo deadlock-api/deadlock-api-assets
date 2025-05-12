@@ -10,7 +10,7 @@ from deadlock_assets_api.models.v2.api_item_base import parse_img_path
 from deadlock_assets_api.models.v2.raw_ability import RawAbilityV2
 from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
 from deadlock_assets_api.models.v2.raw_item_base import RawItemBaseV2, parse_css_rules
-from deadlock_assets_api.utils import prettify_pascal_case
+from deadlock_assets_api.utils import prettify_pascal_case, pascal_case_to_snake_case
 
 LOGGER = logging.getLogger(__name__)
 
@@ -67,6 +67,15 @@ def add_fill_to_svg(svg: str, fill: str) -> str:
         return svg.replace("<svg", f'<svg fill="{fill}"')
 
 
+KEYBIND_SVGS = {
+    "Attack": "mouse1.svg",
+    "ADS": "mouse2.svg",
+    "AltCast": "mouse3.svg",
+    "SpectateFlyUp": "mouse4.svg",
+    "SpectateFlyDown": "mouse5.svg",
+}
+
+
 def replace_templates(
     raw_item: RawItemBaseV2,
     raw_heroes: list[RawHeroV2],
@@ -81,9 +90,17 @@ def replace_templates(
         variable = match.group(1)
 
         if variable.startswith("citadel_keybind"):
-            # TODO: Replace with Icons
-            key = variable.split(":")[-1].strip("'").lower()
-            return " " + localization.get("citadel_keybind_" + key, key) + " "
+            key = variable.split(":")[-1].strip("'")
+            if key in KEYBIND_SVGS:
+                svg = KEYBIND_SVGS[key]
+                if os.path.exists(f"svgs/{svg}"):
+                    with open(f"svgs/{svg}", "r") as f:
+                        return f.read()
+            return (
+                " "
+                + localization.get("citadel_keybind_" + pascal_case_to_snake_case(key), key)
+                + " "
+            )
 
         if variable.startswith("citadel_inline_attribute"):
             css_class = variable.split(":")[-1].strip("'")
