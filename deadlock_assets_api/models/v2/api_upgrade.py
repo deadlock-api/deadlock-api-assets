@@ -227,7 +227,7 @@ class UpgradeV2(ItemBaseV2):
                 ItemSlotTypeV2.EItemSlotType_WeaponMod,
                 ItemSlotTypeV2.EItemSlotType_Tech,
             ]
-            and self.image is not None
+            and self.shop_image is not None
         )
 
     def load_description(
