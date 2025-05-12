@@ -80,6 +80,11 @@ def replace_templates(
     def replacer(match):
         variable = match.group(1)
 
+        if variable.startswith("citadel_keybind"):
+            # TODO: Replace with Icons
+            key = variable.split(":")[-1].strip("'").lower()
+            return " " + localization.get("citadel_keybind_" + key, key) + " "
+
         if variable.startswith("citadel_inline_attribute"):
             css_class = variable.split(":")[-1].strip("'")
             label = prettify_pascal_case(css_class)
