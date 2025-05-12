@@ -96,17 +96,22 @@ def replace_templates(
                 if os.path.exists(f"svgs/{svg}"):
                     with open(f"svgs/{svg}", "r") as f:
                         return f.read()
-            return (
-                " "
-                + localization.get("citadel_keybind_" + pascal_case_to_snake_case(key), key)
-                + " "
-            )
+            res = localization.get(
+                "citadel_keybind_" + pascal_case_to_snake_case(key).lower(),
+                prettify_pascal_case(key),
+            ).strip()
+            if key == "MoveForward" and res.lower() == "move forward":
+                return " w "
+            if key == "MoveDown" and res.lower() == "move down":
+                return " s "
+            return " " + res + " "
 
         if variable.startswith("citadel_inline_attribute"):
             css_class = variable.split(":")[-1].strip("'")
             label = prettify_pascal_case(css_class)
-            css_class = f".InlineAttributeIcon.{css_class}"
-            background_image, wash_color = parse_css_base_styles(css_class)
+            background_image, wash_color = parse_css_base_styles(
+                f".InlineAttributeIcon.{css_class}"
+            )
             background_image = parse_img_path(background_image)
             if wash_color:
                 if background_image.endswith(".svg"):
@@ -220,4 +225,5 @@ def replace_templates(
     input_str = re.sub(r"\{s:([^}]+)}", replacer, input_str)
     input_str = re.sub(r"\{i:([^}]+)}", replacer, input_str)
     input_str = re.sub(r"\{g:([^}]+)}", replacer, input_str)
+    input_str = input_str.replace("  ", " ")
     return input_str
