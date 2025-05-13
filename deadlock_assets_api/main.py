@@ -92,7 +92,9 @@ async def add_cache_headers(request: Request, call_next):
     is_docs = request.url.path.replace("/", "").startswith("docs")
     is_health = request.url.path.replace("/", "").startswith("health")
     if is_success and not is_docs and not is_health:
-        response.headers["Cache-Control"] = f"public, max-age={7 * 24 * 60 * 60}"
+        response.headers["Cache-Control"] = (
+            f"public, max-age={24 * 60 * 60}, s-maxage={60 * 60}, stale-while-revalidate={24 * 60 * 60}"
+        )
     return response
 
 
@@ -101,7 +103,7 @@ class StaticFilesCache(StaticFiles):
         resp: Response = super().file_response(*args, **kwargs)
         resp.headers.setdefault(
             "Cache-Control",
-            f"public, max-age={7 * 24 * 60 * 60}, s-maxage={7 * 24 * 60 * 60}, immutable",
+            f"public, max-age={24 * 60 * 60}, s-maxage={60 * 60}, stale-while-revalidate={24 * 60 * 60}",
         )
         return resp
 
