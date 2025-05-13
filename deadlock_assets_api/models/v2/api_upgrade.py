@@ -24,6 +24,9 @@ class UpgradeDescriptionV2(BaseModel):
     desc: str | None = None
     active: str | None = None
     passive: str | None = None
+    part1: str | None = None
+    part2: str | None = None
+    debuff: str | None = None
 
     @classmethod
     def from_raw_upgrade(
@@ -61,7 +64,29 @@ class UpgradeDescriptionV2(BaseModel):
                 or localization.get(f"{raw_upgrade.class_name}_desc_passive1")
                 or localization.get(f"{raw_upgrade.class_name}_passive2")
                 or localization.get(f"{raw_upgrade.class_name}_desc_passive2")
-                or localization.get(f"{raw_upgrade.class_name}_high_health_passive_desc"),
+                or localization.get(f"{raw_upgrade.class_name}_high_health_passive_desc")
+                or localization.get(f"{raw_upgrade.class_name}_component_passive_desc"),
+            ),
+            part1=replace_templates(
+                raw_upgrade,
+                raw_heroes,
+                localization,
+                localization.get(f"{raw_upgrade.class_name}_part1_desc")
+                or localization.get(f"{raw_upgrade.class_name}_part1"),
+            ),
+            part2=replace_templates(
+                raw_upgrade,
+                raw_heroes,
+                localization,
+                localization.get(f"{raw_upgrade.class_name}_part2_desc")
+                or localization.get(f"{raw_upgrade.class_name}_part2"),
+            ),
+            debuff=replace_templates(
+                raw_upgrade,
+                raw_heroes,
+                localization,
+                localization.get(f"{raw_upgrade.class_name}_debuff_desc")
+                or localization.get(f"{raw_upgrade.class_name}_debuff"),
             ),
         )
 
