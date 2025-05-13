@@ -24,9 +24,6 @@ class UpgradeDescriptionV2(BaseModel):
     desc: str | None = None
     active: str | None = None
     passive: str | None = None
-    part1: str | None = None
-    part2: str | None = None
-    debuff: str | None = None
 
     @classmethod
     def from_raw_upgrade(
@@ -66,27 +63,6 @@ class UpgradeDescriptionV2(BaseModel):
                 or localization.get(f"{raw_upgrade.class_name}_desc_passive2")
                 or localization.get(f"{raw_upgrade.class_name}_high_health_passive_desc")
                 or localization.get(f"{raw_upgrade.class_name}_component_passive_desc"),
-            ),
-            part1=replace_templates(
-                raw_upgrade,
-                raw_heroes,
-                localization,
-                localization.get(f"{raw_upgrade.class_name}_part1_desc")
-                or localization.get(f"{raw_upgrade.class_name}_part1"),
-            ),
-            part2=replace_templates(
-                raw_upgrade,
-                raw_heroes,
-                localization,
-                localization.get(f"{raw_upgrade.class_name}_part2_desc")
-                or localization.get(f"{raw_upgrade.class_name}_part2"),
-            ),
-            debuff=replace_templates(
-                raw_upgrade,
-                raw_heroes,
-                localization,
-                localization.get(f"{raw_upgrade.class_name}_debuff_desc")
-                or localization.get(f"{raw_upgrade.class_name}_debuff"),
             ),
         )
 
@@ -170,6 +146,7 @@ class UpgradeTooltipSectionAttributeV2ImportantPropertyWithIcon(BaseModel):
 class UpgradeTooltipSectionAttributeV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
+    loc_string: str | None = None
     properties: list[str] | None = None
     elevated_properties: list[str] | None = None
     important_properties: list[str] | None = None
@@ -178,8 +155,22 @@ class UpgradeTooltipSectionAttributeV2(BaseModel):
     ) = None
 
     @classmethod
-    def from_raw_section_attribute(cls, raw_section_attribute: RawUpgradeTooltipSectionAttributeV2):
+    def from_raw_section_attribute(
+        cls,
+        raw_upgrade: RawUpgradeV2,
+        raw_heroes: list[RawHeroV2],
+        localization: dict[str, str],
+        raw_section_attribute: RawUpgradeTooltipSectionAttributeV2,
+    ):
         return cls(
+            loc_string=replace_templates(
+                raw_upgrade,
+                raw_heroes,
+                localization,
+                localization.get(raw_section_attribute.loc_string.strip("#")),
+            )
+            if raw_section_attribute.loc_string
+            else None,
             properties=raw_section_attribute.properties,
             elevated_properties=raw_section_attribute.elevated_properties,
             important_properties=[
@@ -207,11 +198,19 @@ class UpgradeTooltipSectionV2(BaseModel):
     section_attributes: list[UpgradeTooltipSectionAttributeV2] | None = None
 
     @classmethod
-    def from_raw_section(cls, raw_section: RawUpgradeTooltipSectionV2):
+    def from_raw_section(
+        cls,
+        raw_upgrade: RawUpgradeV2,
+        raw_heroes: list[RawHeroV2],
+        localization: dict[str, str],
+        raw_section: RawUpgradeTooltipSectionV2,
+    ):
         return cls(
             section_type=raw_section.section_type,
             section_attributes=[
-                UpgradeTooltipSectionAttributeV2.from_raw_section_attribute(s)
+                UpgradeTooltipSectionAttributeV2.from_raw_section_attribute(
+                    raw_upgrade, raw_heroes, localization, s
+                )
                 for s in raw_section.section_attributes or []
             ],
         )
@@ -283,7 +282,8 @@ class UpgradeV2(ItemBaseV2):
             for k, v in raw_upgrade.properties.items()
         }
         raw_model["tooltip_sections"] = [
-            UpgradeTooltipSectionV2.from_raw_section(s) for s in raw_upgrade.tooltip_sections or []
+            UpgradeTooltipSectionV2.from_raw_section(raw_upgrade, raw_heroes, localization, s)
+            for s in raw_upgrade.tooltip_sections or []
         ]
         return cls(**raw_model)
 

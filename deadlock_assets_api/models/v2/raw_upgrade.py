@@ -66,6 +66,7 @@ class RawUpgradeTooltipSectionAttributeV2ImportantPropertyWithIcon(BaseModel):
 class RawUpgradeTooltipSectionAttributeV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
+    loc_string: str | None = Field(None, validation_alias="m_strLocString")
     properties: list[str] | None = Field(None, validation_alias="m_vecAbilityProperties")
     elevated_properties: list[str] | None = Field(
         None, validation_alias="m_vecElevatedAbilityProperties"
