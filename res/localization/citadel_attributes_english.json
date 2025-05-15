@@ -864,6 +864,8 @@
       "Stamina_prefix": "{s:sign}",
       "StasisRadius_label": "Radius",
       "StasisRadius_postfix": "m",
+      "StatDesc_AbilityDurationDesc": "<b>Ability Duration</b> - Increases the duration of your Abilities and Items",
+      "StatDesc_AbilityRangeDesc": "<b>Ability Range</b> - Increases range and radius of your Abilities and Items",
       "StatDesc_AmmoDesc": "<b>Ammo</b> - The number of shots in your gun before requiring a reload",
       "StatDesc_ArmorAttribute": "Armor",
       "StatDesc_BaseHealthRegen": "Health Regen",

@@ -522,7 +522,7 @@
       "HealthRegenPerTrooper_prefix": "+",
       "HealthRegen_label": "\uccb4\ub825 \uc7ac\uc0dd",
       "HealthRegen_prefix": "{s:sign}",
-      "HealthToDamage_label": "\ud53c\ud574\ub85c \uc804\ud658\ub418\ub294 \uccb4\ub825",
+      "HealthToDamage_label": "\ud53c\ud574",
       "Health_label": "\uccb4\ub825",
       "HeavyMeleeMultiplier_label": "\uac15\ud55c \uadfc\uac70\ub9ac \uacf5\uaca9 \ubcf4\ub108\uc2a4",
       "HeavyMeleeMultiplier_postfix": "x",
@@ -778,6 +778,8 @@
       "RichochetChance_postfix": "%",
       "RunSpeed_postfix": "m(\ucd08\ub2f9)",
       "SearchRadius_postfix": "m",
+      "SelfDamagePct_label": "\uccb4\ub825 \uc18c\ubaa8",
+      "SelfDamagePct_postfix": "%",
       "ShieldBlockPercent_postfix": "%",
       "ShieldDuration_label": "\ubc29\uc5b4\ub9c9 \uc9c0\uc18d \uc2dc\uac04",
       "ShieldDuration_postfix": "\ucd08",
@@ -1074,7 +1076,7 @@
       "ability_cancel_channel": "\uc911\ub2e8",
       "active_bullet_shield": "\ucd1d\ud0c4 \ubc29\uc5b4\ub9c9",
       "base_stat_regen": "\uc601\uc6c5 \uae30\ubcf8 \uc7ac\uc0dd",
-      "berserker_stack": "\ubc84\uc11c\ucee4",
+      "berserker_stack": "\uad11\uc804\uc0ac",
       "citadel_modifier_teleport": "\uc21c\uac04\uc774\ub3d9 \uc911",
       "golden_idol_bonus_01": "\ucd94\uac00 \uc601\ud63c +25%",
       "golden_idol_bonus_02": "\ub2a5\ub825 \ud3ec\uc778\ud2b8 +1",
@@ -1104,7 +1106,7 @@
       "modifier_veil_walker_triggered": "\uc7a5\ub9c9 \uac78\uc74c \uc5f0\uc0ac \uc18d\ub3c4",
       "movement_slow": "-\uc774\ub3d9 \uc18d\ub3c4",
       "silencer_immune": "\uce68\ubb35 \uba74\uc5ed",
-      "upgrade_berserker/modifier_berserker/modifier_berserker_damage_stack": "\ubc84\uc11c\ucee4",
+      "upgrade_berserker/modifier_berserker/modifier_berserker_damage_stack": "\uad11\uc804\uc0ac",
       "zipline_boost": "\ud558\uc774\ud37c\ub77c\uc778 \ubd80\uc2a4\ud2b8 \uc0c1\ud0dc"
     }
   }

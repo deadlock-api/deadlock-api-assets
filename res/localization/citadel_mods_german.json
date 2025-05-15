@@ -347,7 +347,7 @@
       "upgrade_heal_on_level_desc": "Wenn Du eine <span class=\"highlight\">Gabe</span> erh\u00e4lts, wirst Du automatisch <span class=\"highlight\">geheilt</span>.",
       "upgrade_healbane_desc": "Wenn Du einem Ziel <span class=\"highlight\">Magieschaden</span> zuf\u00fcgst, reduziert sich auch dessen <span class=\"highlight\">Heilung</span>. Falls ein gegnerischer Held unter diesem Effekt stirbt, wirst Du sofort um eine gro\u00dfe Menge geheilt.",
       "upgrade_healbuff/modifier_healbuff/modifier_healbuff_buff": "Heilungstempo",
-      "upgrade_healbuff_desc": "Werden Du oder ein Verb\u00fcndeter {g:citadel_inline_attribute:'Healing'}, erh\u00e4lt das entsprechende Ziel {g:citadel_inline_attribute:'BonusFireRate'} und {g:citadel_inline_attribute:'BonusMoveSpeed'}.<br><br><span class=\"diminish\">Wird nicht durch eigene Regeneration sowie eigenen Kugel- und Lebensraub ausgel\u00f6st.</span>",
+      "upgrade_healbuff_desc": "Wenn Du oder ein Verb\u00fcndeter {g:citadel_inline_attribute:'Heal'} erhalten, wird dem entsprechenden Ziel auch {g:citadel_inline_attribute:'BonusFireRate'} und {g:citadel_inline_attribute:'BonusMoveSpeed'} gew\u00e4hrt.<br><br><span class=\"diminish\">Wird nicht durch eigene Regeneration sowie eigenen Kugel- und Lebensraub ausgel\u00f6st.</span>",
       "upgrade_healing_booster_desc": "Erh\u00f6ht die Effektivit\u00e4t Deiner <span class=\"highlight\">Heilung</span> um <span class=\"highlight\">{s:HealAmpRegenPercent}\u00a0%</span>.",
       "upgrade_health_nova_desc": "<span class=\"highlight\">Heilt</span> Dich und Verb\u00fcndete in der N\u00e4he.",
       "upgrade_health_stimpak/modifier_stimpak_regen": "Heilungsritus",
