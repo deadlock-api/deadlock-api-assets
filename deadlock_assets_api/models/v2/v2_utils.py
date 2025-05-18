@@ -109,7 +109,8 @@ def replace_templates(
 
         if variable.startswith("citadel_inline_attribute"):
             css_class = variable.split(":")[-1].strip("'")
-            label = prettify_pascal_case(css_class)
+            localization_key = f"InlineAttribute_{css_class}"
+            label = localization.get(localization_key, prettify_pascal_case(css_class))
             background_image, wash_color = parse_css_base_styles(
                 f".InlineAttributeIcon.{css_class}"
             )
