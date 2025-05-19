@@ -3,7 +3,6 @@ import logging
 import time
 from collections.abc import Callable
 from typing import Any
-from uuid import uuid4
 
 from fastapi import FastAPI
 from starlette.middleware.base import BaseHTTPMiddleware
@@ -17,19 +16,14 @@ class RouterLoggingMiddleware(BaseHTTPMiddleware):
         super().__init__(app)
 
     async def dispatch(self, req: Request, call_next: Callable) -> Response:
-        request_id = str(uuid4())
-        logging_dict = {"X-API-REQUEST-ID": request_id}
-
         try:
-            res, res_dict = await self._log_response(call_next, req, request_id)
+            res, res_dict = await self._log_response(call_next, req)
             request_dict = await self._log_request(req)
-            logging_dict.update({"request": request_dict, "response": res_dict})
+            self._logger.info(json.dumps({"request": request_dict, "response": res_dict}))
+            return res
         except Exception as e:
             self._logger.exception(e)
             raise
-
-        self._logger.info(json.dumps(logging_dict))
-        return res
 
     async def _log_request(self, req: Request) -> dict[str, Any]:
         path = req.url.path
@@ -38,10 +32,10 @@ class RouterLoggingMiddleware(BaseHTTPMiddleware):
         return {"path": path}
 
     async def _log_response(
-        self, call_next: Callable, req: Request, req_id: str
+        self, call_next: Callable, req: Request
     ) -> tuple[Response, dict[str, Any]]:
         start_time = time.perf_counter()
-        res = await self._execute_request(call_next, req, req_id)
+        res = await self._execute_request(call_next, req)
         execution_time = time.perf_counter() - start_time
 
         if res:
@@ -53,10 +47,8 @@ class RouterLoggingMiddleware(BaseHTTPMiddleware):
             res_logging = {"status_code": 500}
         return res, res_logging
 
-    async def _execute_request(self, call_next: Callable, req: Request, req_id: str) -> Any | None:
+    async def _execute_request(self, call_next: Callable, req: Request) -> Any | None:
         try:
-            res = await call_next(req)
-            res.headers["X-API-Request-ID"] = req_id
-            return res
+            return await call_next(req)
         except Exception as e:
             self._logger.exception({"path": req.url.path, "method": req.method, "reason": e})
