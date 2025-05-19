@@ -2819,6 +2819,7 @@
       "item_info_add_to_queue": "Add to Queue",
       "item_info_buy": "Click to Buy",
       "item_info_cant_afford": "Can't Afford",
+      "item_info_component_locked": "Used as Component",
       "item_info_component_required": "Requires Component <span class=\"boldedText\">{s:component_required}</span>",
       "item_info_flex_slots": "Extra Slots",
       "item_info_imbue": "Imbue",

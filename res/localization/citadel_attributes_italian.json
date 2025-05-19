@@ -844,6 +844,8 @@
       "Stamina_prefix": "{s:sign}",
       "StasisRadius_label": "Raggio",
       "StasisRadius_postfix": " m",
+      "StatDesc_AbilityDurationDesc": "<b>Durata dell'abilit\u00e0</b>: aumenta la durata delle tue abilit\u00e0 e dei tuoi oggetti",
+      "StatDesc_AbilityRangeDesc": "<b>Gittata dell'abilit\u00e0</b>: aumenta la gittata e il raggio delle tue abilit\u00e0 e dei tuoi oggetti",
       "StatDesc_AmmoDesc": "<b>Munizioni</b> - Il numero di colpi nella tua arma prima che sia necessario ricaricare",
       "StatDesc_ArmorAttribute": "Armatura",
       "StatDesc_BaseHealthRegen": "Rigenerazione della salute",

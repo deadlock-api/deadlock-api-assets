@@ -533,7 +533,7 @@
       "Citadel_HeroBuilds_CopyBuildLabel": "Copiar y editar",
       "Citadel_HeroBuilds_CopyOfName": "Copia de [%name%]",
       "Citadel_HeroBuilds_CopyPostGameBuild": "Crear referencia",
-      "Citadel_HeroBuilds_CopyPostGameBuild_Tooltip": "Esto crear\u00e1 una referencia local in\u00e9dita basada en los objetos que compr\u00f3 el jugador durante esta partida, incluyendo las habilidades imbuidas y el orden en el que se vendieron los objetos.",
+      "Citadel_HeroBuilds_CopyPostGameBuild_Tooltip": "Esto crear\u00e1 una referencia local privada basada en los objetos que compr\u00f3 el jugador durante esta partida, incluyendo las habilidades a imbuir y el orden en el que se vendieron los objetos.",
       "Citadel_HeroBuilds_CreateBuildLabel": "Crear nueva referencia",
       "Citadel_HeroBuilds_CurrenclyActive": "Activa ahora",
       "Citadel_HeroBuilds_DailyFavorite": "Tendencia",

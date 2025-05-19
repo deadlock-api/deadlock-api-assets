@@ -857,7 +857,6 @@
       "StatDesc_BulletLifesteal": "Kugel\u00adlebensraub",
       "StatDesc_BulletLifesteal_postfix": "\u00a0%",
       "StatDesc_BulletLifesteal_prefix": "{s:sign}",
-      "StatDesc_BulletShieldHealth": "Schadensschild",
       "StatDesc_BulletSpeed": "Kugeltempo",
       "StatDesc_BulletSpeedIncrease": "Kugeltempoerh\u00f6hung",
       "StatDesc_BulletSpeedIncrease_postfix": "\u00a0%",

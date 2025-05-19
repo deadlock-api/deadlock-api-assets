@@ -844,6 +844,8 @@
       "Stamina_prefix": "{s:sign}",
       "StasisRadius_label": "de radio",
       "StasisRadius_postfix": "\u00a0m",
+      "StatDesc_AbilityDurationDesc": "<b>Duraci\u00f3n de las habilidades</b>: Aumenta la duraci\u00f3n de tus habilidades y objetos.",
+      "StatDesc_AbilityRangeDesc": "<b>Alcance de las habilidades</b>: Aumenta el alcance y el radio de tus habilidades y objetos.",
       "StatDesc_AmmoDesc": "<b>Munici\u00f3n</b>: El n\u00famero de disparos que puede realizar tu arma antes de tener que recargarla.",
       "StatDesc_ArmorAttribute": "Armadura",
       "StatDesc_BaseHealthRegen": "Regeneraci\u00f3n de vida",

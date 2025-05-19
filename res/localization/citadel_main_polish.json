@@ -2808,6 +2808,7 @@
       "item_info_add_to_queue": "Dodaj do kolejki",
       "item_info_buy": "Kliknij, by kupi\u0107",
       "item_info_cant_afford": "Nie sta\u0107 ci\u0119",
+      "item_info_component_locked": "U\u017cywane jako komponent",
       "item_info_component_required": "Wymaga komponentu <span class=\"boldedText\">{s:component_required}</span>.",
       "item_info_flex_slots": "Miejsca dodatkowe",
       "item_info_imbue": "Nasycenie",

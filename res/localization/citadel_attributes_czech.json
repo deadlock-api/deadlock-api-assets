@@ -844,6 +844,8 @@
       "Stamina_prefix": "{s:sign}",
       "StasisRadius_label": "Rozsah",
       "StasisRadius_postfix": "\u00a0m",
+      "StatDesc_AbilityDurationDesc": "<b>Trv\u00e1n\u00ed schopnost\u00ed</b> \u2013 Navy\u0161uje trv\u00e1n\u00ed tv\u00fdch schopnost\u00ed a p\u0159edm\u011bt\u016f",
+      "StatDesc_AbilityRangeDesc": "<b>Dosahy schopnost\u00ed</b> \u2013 Navy\u0161uje dosahy a rozsahy tv\u00fdch schopnost\u00ed a p\u0159edm\u011bt\u016f",
       "StatDesc_AmmoDesc": "<b>N\u00e1boje</b> \u2013 Po\u010det st\u0159el, kter\u00e9 m\u016f\u017ee tvoje zbra\u0148 vyp\u00e1lit p\u0159ed nutnost\u00ed p\u0159eb\u00edt",
       "StatDesc_ArmorAttribute": "Odolnost",
       "StatDesc_BaseHealthRegen": "Regenerace zdrav\u00ed",

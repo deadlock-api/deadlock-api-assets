@@ -844,6 +844,8 @@
       "Stamina_prefix": "{s:sign}",
       "StasisRadius_label": "\ubc18\uacbd",
       "StasisRadius_postfix": "m",
+      "StatDesc_AbilityDurationDesc": "<b>\ub2a5\ub825 \uc9c0\uc18d \uc2dc\uac04</b> - \ub2a5\ub825\uacfc \uc544\uc774\ud15c\uc758 \uc9c0\uc18d \uc2dc\uac04 \uc99d\uac00",
+      "StatDesc_AbilityRangeDesc": "<b>\ub2a5\ub825 \ubc94\uc704</b> - \ub2a5\ub825\uacfc \uc544\uc774\ud15c\uc758 \ubc94\uc704\uc640 \ubc18\uacbd \uc99d\uac00",
       "StatDesc_AmmoDesc": "<b>\ud0c4\uc57d</b> - \uc7ac\uc7a5\uc804\uc744 \ud558\uc9c0 \uc54a\uace0 \ubb34\uae30\uac00 \ubc1c\uc0ac\ud560 \uc218 \uc788\ub294 \ucd1d\ud0c4\uc758 \uc218",
       "StatDesc_ArmorAttribute": "\ubc29\uc5b4",
       "StatDesc_BaseHealthRegen": "\uccb4\ub825 \uc7ac\uc0dd",

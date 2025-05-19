@@ -844,6 +844,8 @@
       "Stamina_prefix": "{s:sign}",
       "StasisRadius_label": "Yar\u0131\u00e7ap",
       "StasisRadius_postfix": " m",
+      "StatDesc_AbilityDurationDesc": "<b>Yetenek S\u00fcresi</b> - Yeteneklerinizin ve e\u015fyalar\u0131n\u0131z\u0131n s\u00fcresini art\u0131r\u0131r.",
+      "StatDesc_AbilityRangeDesc": "<b>Yetenek Menzili</b> - Yeteneklerinizin ve e\u015fyalar\u0131n\u0131z\u0131n menzilini ve yar\u0131\u00e7ap\u0131n\u0131 art\u0131r\u0131r.",
       "StatDesc_AmmoDesc": "<b>Cephane</b>: Silah\u0131n\u0131z\u0131n \u015farj\u00f6r\u00fcn\u00fc de\u011fi\u015ftirmeden \u00f6nce yapabilece\u011finiz at\u0131\u015f say\u0131s\u0131.",
       "StatDesc_ArmorAttribute": "Z\u0131rh",
       "StatDesc_BaseHealthRegen": "Sa\u011fl\u0131k Yenileme",

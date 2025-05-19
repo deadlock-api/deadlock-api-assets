@@ -2808,6 +2808,7 @@
       "item_info_add_to_queue": "P\u0159idat p\u0159edm\u011bt do seznamu",
       "item_info_buy": "Kliknut\u00edm si p\u0159edm\u011bt zakoup\u00ed\u0161",
       "item_info_cant_afford": "P\u0159edm\u011bt si nem\u016f\u017ee\u0161 dovolit",
+      "item_info_component_locked": "Je pou\u017eit\u00fd jako komponent",
       "item_info_component_required": "Vy\u017eaduje <span class=\"boldedText\">{s:component_required}</span>",
       "item_info_flex_slots": "Sloty nav\u00edc",
       "item_info_imbue": "Prodchnut\u00ed",

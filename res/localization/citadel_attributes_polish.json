@@ -844,6 +844,8 @@
       "Stamina_prefix": "{s:sign}",
       "StasisRadius_label": "Promie\u0144",
       "StasisRadius_postfix": "\u00a0m",
+      "StatDesc_AbilityDurationDesc": "<b>Czas trwania umiej\u0119tno\u015bci</b> \u2013 wyd\u0142u\u017ca czas trwania twoich umiej\u0119tno\u015bci i przedmiot\u00f3w.",
+      "StatDesc_AbilityRangeDesc": "<b>Zasi\u0119g umiej\u0119tno\u015bci</b> \u2013 zwi\u0119ksza zasi\u0119g i promie\u0144 twoich umiej\u0119tno\u015bci i przedmiot\u00f3w.",
       "StatDesc_AmmoDesc": "<b>Amunicja</b> \u2013 liczba naboj\u00f3w w broni przed konieczno\u015bci\u0105 prze\u0142adowania.",
       "StatDesc_ArmorAttribute": "Pancerz",
       "StatDesc_BaseHealthRegen": "Regeneracja zdrowia",

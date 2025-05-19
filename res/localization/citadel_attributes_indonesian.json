@@ -844,6 +844,8 @@
       "Stamina_prefix": "{s:sign}",
       "StasisRadius_label": "Radius",
       "StasisRadius_postfix": "m",
+      "StatDesc_AbilityDurationDesc": "<b>Durasi Skill</b> - Meningkatkan durasi Skill dan Item-mu",
+      "StatDesc_AbilityRangeDesc": "<b>Jangkauan Skill</b> - Meningkatkan jangkauan dan radius Skill dan Item-mu",
       "StatDesc_AmmoDesc": "<b>Amunisi</b> - Jumlah tembakan dalam senjata sebelum isi ulang diperlukan",
       "StatDesc_ArmorAttribute": "Armor",
       "StatDesc_BaseHealthRegen": "Pemulihan Health",

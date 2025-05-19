@@ -2778,6 +2778,7 @@
       "item_info_add_to_queue": "Adicionar \u00e0 fila",
       "item_info_buy": "Clique para comprar",
       "item_info_cant_afford": "Sem almas suficientes",
+      "item_info_component_locked": "Em uso como componente",
       "item_info_component_required": "Requer o componente <span class=\"boldedText\">{s:component_required}</span>",
       "item_info_flex_slots": "Espa\u00e7os adicionais",
       "item_info_imbue": "Infundir",
