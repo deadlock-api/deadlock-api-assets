@@ -154,15 +154,15 @@ mkdir -p images/ranks
 cp -r "$citadel_folder"/panorama/images/ranked/badges/* images/ranks/
 
 # Generate webp images
-for file in $(find images -type f -name "*.png"); do
-    base_name=$(basename "$file")
-    dir_name=$(dirname "$file")
-    file_name="${base_name%.png}"
-    new_file_name="${file_name}.webp"
-    new_file_path="$dir_name/$new_file_name"
-    convert -quality 50 -define webp:lossless=true "$file" "$new_file_path"
-    echo "Converted to webp: $new_file_path"
-done
+find images -type f -name "*.png" -print0 | xargs -0 -P 24 -I {} sh -c '
+        base_name=$(basename "{}")
+        dir_name=$(dirname "{}")
+        file_name="${base_name%.png}"
+        new_file_name="${file_name}.webp"
+        new_file_path="$dir_name/$new_file_name"
+        convert -quality 50 -define webp:lossless=true "{}" "$new_file_path"
+        echo "Converted to webp: $new_file_path"
+    '
 
 # Rename Images, replace "_psd." and "_png." with "."
 find images -type f -name "*_psd.*" -exec bash -c 'mv "$1" "${1/_psd./.}"' _ {} \;
