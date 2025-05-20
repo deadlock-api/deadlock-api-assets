@@ -2808,6 +2808,7 @@
       "item_info_add_to_queue": "\u30ad\u30e5\u30fc\u306b\u8ffd\u52a0",
       "item_info_buy": "\u30af\u30ea\u30c3\u30af\u3067\u8cfc\u5165",
       "item_info_cant_afford": "\u30bd\u30a6\u30eb\u304c\u8db3\u308a\u306a\u3044",
+      "item_info_component_locked": "\u7d20\u6750\u3068\u3057\u3066\u4f7f\u7528",
       "item_info_component_required": "\u7d20\u6750\u5143<span class=\"boldedText\">{s:component_required}</span>\u304c\u5fc5\u8981",
       "item_info_flex_slots": "\u30a8\u30af\u30b9\u30c8\u30e9\u30b9\u30ed\u30c3\u30c8",
       "item_info_imbue": "\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8",

@@ -2808,6 +2808,7 @@
       "item_info_add_to_queue": "\ub300\uae30\uc5f4\uc5d0 \ucd94\uac00",
       "item_info_buy": "\ud074\ub9ad\ud558\uc5ec \uad6c\ub9e4",
       "item_info_cant_afford": "\uc601\ud63c \ubd80\uc871",
+      "item_info_component_locked": "\ud558\uc704 \uc544\uc774\ud15c\uc73c\ub85c \uc0ac\uc6a9 \uc911",
       "item_info_component_required": "\ud558\uc704 \uc544\uc774\ud15c <span class=\"boldedText\">{s:component_required}</span> \ud544\uc694",
       "item_info_flex_slots": "\ucd94\uac00 \uc2ac\ub86f",
       "item_info_imbue": "\ubcf4\uac15 \uc544\uc774\ud15c",

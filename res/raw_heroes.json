@@ -521,7 +521,7 @@
       "upgrade_imbued_duration_extender",
       "upgrade_ethereal_bullets",
       "upgrade_infuser",
-      "upgrade_mega_spirit"
+      "upgrade_boundless_spirit"
     ],
     "scaling_stats": {},
     "selection_image": "panorama:\"file://{images}/heroes/inferno.psd\"",
@@ -1165,7 +1165,7 @@
       "upgrade_cardio_calibrator",
       "upgrade_magic_vulnerability",
       "upgrade_arcane_extension",
-      "upgrade_mega_spirit",
+      "upgrade_boundless_spirit",
       "upgrade_tech_overflow",
       "upgrade_damage_recycler",
       "upgrade_magic_slow",
@@ -1821,7 +1821,7 @@
       "upgrade_chonky",
       "upgrade_banshee_slugs",
       "upgrade_aprounds",
-      "upgrade_mega_spirit",
+      "upgrade_boundless_spirit",
       "upgrade_toxic_bullets",
       "upgrade_tech_overflow",
       "upgrade_ethereal_bullets"
@@ -2539,7 +2539,7 @@
     "skin": 0,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.38,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 86.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 82.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.671429,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
@@ -3202,7 +3202,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 720,
-      "max_move_speed": 6.8,
+      "max_move_speed": 6.5,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -3767,7 +3767,7 @@
       "upgrade_magic_storm",
       "upgrade_soaring_spirit",
       "upgrade_hollow_point_rounds",
-      "upgrade_mega_spirit",
+      "upgrade_boundless_spirit",
       "upgrade_enchanted_holsters",
       "upgrade_glass_cannon",
       "upgrade_critshot"
@@ -3836,7 +3836,7 @@
     "skin": 1,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.351,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 65.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 57.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.671429,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
@@ -4427,7 +4427,7 @@
       "upgrade_tech_range",
       "upgrade_ultimate_burst",
       "upgrade_healbuff",
-      "upgrade_mega_spirit",
+      "upgrade_boundless_spirit",
       "upgrade_escalating_exposure"
     ],
     "scaling_stats": {},
@@ -5720,7 +5720,7 @@
       "upgrade_arcane_surge",
       "upgrade_ability_refresher",
       "upgrade_healbuff",
-      "upgrade_mega_spirit",
+      "upgrade_boundless_spirit",
       "upgrade_diviners_kevlar",
       "upgrade_cheat_death"
     ],
@@ -6372,7 +6372,7 @@
       "upgrade_healbuff",
       "upgrade_divine_barrier",
       "upgrade_critshot",
-      "upgrade_mega_spirit"
+      "upgrade_boundless_spirit"
     ],
     "scaling_stats": {},
     "selection_image": "panorama:\"file://{images}/heroes/kelvin.psd\"",
@@ -6456,7 +6456,7 @@
       "reload_speed": 1,
       "sprint_speed": 1.5,
       "stamina": 3,
-      "stamina_regen_per_second": 0.2,
+      "stamina_regen_per_second": 0.1666,
       "tech_armor_damage_reduction": null,
       "tech_duration": 1,
       "tech_range": 1,
@@ -9602,7 +9602,7 @@
       "upgrade_rapid_recharge",
       "upgrade_soaring_spirit",
       "upgrade_magic_storm",
-      "upgrade_mega_spirit",
+      "upgrade_boundless_spirit",
       "upgrade_tech_bleed",
       "upgrade_tech_overflow",
       "upgrade_superior_stamina",
@@ -10909,7 +10909,7 @@
       "upgrade_tech_purge",
       "upgrade_improved_bullet_armor",
       "upgrade_cooldown_reduction",
-      "upgrade_mega_spirit",
+      "upgrade_boundless_spirit",
       "upgrade_damage_recycler"
     ],
     "scaling_stats": {},
@@ -10971,7 +10971,7 @@
     "skin": 0,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.22,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 81.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 77.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.671429,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
@@ -10988,7 +10988,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63,
       "max_health": 750,
-      "max_move_speed": 7.0,
+      "max_move_speed": 6.8,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -13471,7 +13471,7 @@
       "upgrade_spirit_snatch",
       "upgrade_magic_shock",
       "upgrade_discord",
-      "upgrade_mega_spirit",
+      "upgrade_boundless_spirit",
       "upgrade_ability_refresher",
       "upgrade_juggernaut",
       "upgrade_deflecting_armor"
@@ -14768,7 +14768,7 @@
       "upgrade_magic_shock",
       "upgrade_boxing_glove",
       "upgrade_cooldown_reduction",
-      "upgrade_mega_spirit",
+      "upgrade_boundless_spirit",
       "upgrade_diviners_kevlar"
     ],
     "scaling_stats": {},
@@ -17227,7 +17227,7 @@
       "upgrade_rapid_recharge",
       "upgrade_chonky",
       "upgrade_escalating_exposure",
-      "upgrade_mega_spirit",
+      "upgrade_boundless_spirit",
       "upgrade_damage_recycler",
       "upgrade_healing_booster",
       "upgrade_diviners_kevlar",
@@ -18489,7 +18489,7 @@
       "upgrade_magic_shock",
       "upgrade_self_bubble",
       "upgrade_reduce_debuff_duration",
-      "upgrade_mega_spirit",
+      "upgrade_boundless_spirit",
       "upgrade_escalating_exposure",
       "upgrade_banshee_slugs"
     ],
@@ -19746,7 +19746,7 @@
       "upgrade_imbued_duration_extender",
       "upgrade_magic_storm",
       "upgrade_tech_overflow",
-      "upgrade_mega_spirit",
+      "upgrade_boundless_spirit",
       "upgrade_banshee_slugs"
     ],
     "scaling_stats": {},
@@ -22913,8 +22913,8 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.33,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 64.0,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.28,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 53.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.671429,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
@@ -24119,7 +24119,7 @@
       "upgrade_magic_storm",
       "upgrade_soaring_spirit",
       "upgrade_magic_shock",
-      "upgrade_mega_spirit",
+      "upgrade_boundless_spirit",
       "upgrade_tech_bleed"
     ],
     "scaling_stats": {
@@ -26674,7 +26674,7 @@
       "upgrade_tech_purge",
       "upgrade_soaring_spirit",
       "upgrade_cooldown_reduction",
-      "upgrade_mega_spirit",
+      "upgrade_boundless_spirit",
       "upgrade_escalating_exposure",
       "upgrade_damage_recycler"
     ],
@@ -29196,7 +29196,7 @@
       "upgrade_chonky",
       "upgrade_pristine_emblem",
       "upgrade_critshot",
-      "upgrade_mega_spirit",
+      "upgrade_boundless_spirit",
       "upgrade_tech_overflow"
     ],
     "scaling_stats": {
@@ -29834,7 +29834,7 @@
       "upgrade_chonky",
       "upgrade_pristine_emblem",
       "upgrade_critshot",
-      "upgrade_mega_spirit",
+      "upgrade_boundless_spirit",
       "upgrade_tech_overflow"
     ],
     "scaling_stats": {
