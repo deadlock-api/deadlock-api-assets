@@ -18,6 +18,7 @@ from deadlock_assets_api.models.v2.api_hero import HeroV2
 from deadlock_assets_api.models.v2.api_item import ItemV2
 from deadlock_assets_api.models.v2.api_upgrade import UpgradeV2
 from deadlock_assets_api.models.v2.api_weapon import WeaponV2
+from deadlock_assets_api.models.v2.build_tag import BuildTagV2
 from deadlock_assets_api.models.v2.rank import RankV2
 from deadlock_assets_api.models.v2.raw_ability import RawAbilityV2
 from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
@@ -145,6 +146,10 @@ def build_ranks(localization: dict[str, str]) -> list[dict]:
     return [RankV2.from_tier(i, localization).model_dump(exclude_none=True) for i in range(12)]
 
 
+def build_build_tags(localization: dict[str, str]) -> list[dict]:
+    return [b.model_dump(exclude_none=True) for b in BuildTagV2.from_localization(localization)]
+
+
 def build_heroes(raw_heroes, localization: dict[str, str]) -> list[HeroV2]:
     return [HeroV2.from_raw_hero(r, localization).model_dump(exclude_none=True) for r in raw_heroes]
 
@@ -173,6 +178,7 @@ if __name__ == "__main__":
     os.makedirs(f"{out_folder}/versions/{version_id}/ranks", exist_ok=True)
     os.makedirs(f"{out_folder}/versions/{version_id}/heroes", exist_ok=True)
     os.makedirs(f"{out_folder}/versions/{version_id}/items", exist_ok=True)
+    os.makedirs(f"{out_folder}/versions/{version_id}/build_tags", exist_ok=True)
 
     # Load Data
     localizations = load_localizations(version_id)
@@ -224,6 +230,10 @@ if __name__ == "__main__":
         ranks = build_ranks(localization)
         with open(f"{out_folder}/versions/{version_id}/ranks/{language.value}.json", "w") as f:
             json.dump(ranks, f)
+
+        build_tags = build_build_tags(localization)
+        with open(f"{out_folder}/versions/{version_id}/build_tags/{language.value}.json", "w") as f:
+            json.dump(build_tags, f)
 
         heroes = build_heroes(raw_heroes, localization)
         with open(f"{out_folder}/versions/{version_id}/heroes/{language.value}.json", "w") as f:
