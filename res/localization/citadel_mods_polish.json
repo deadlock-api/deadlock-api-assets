@@ -330,7 +330,6 @@
       "upgrade_fleetfoot_boots_active_desc": "Zyskaj dodatkow\u0105 <span class=\"highlight\">szybko\u015b\u0107 ruchu</span>.",
       "upgrade_fleetfoot_boots_passive_desc": "Usuwa kar\u0119 do <span class=\"highlight\">szybko\u015bci ruchu</span> podczas strzelania.",
       "upgrade_focus_lens_desc": "Obierz za cel wroga, by go uciszy\u0107. Cz\u0119\u015b\u0107 z <span class=\"highlight\">wszystkich zadanych obra\u017ce\u0144</span> podczas uciszenia zostaje na\u0142o\u017cona na cel po zako\u0144czeniu uciszenia.",
-      "upgrade_fury_trance_active": "Przyznaje <span class=\"highlight\">szybkostrzelno\u015b\u0107</span> oraz <span class=\"highlight\">odporno\u015b\u0107 na naboje</span>, ale <span class=\"highlight\">ucisza</span> ci\u0119 i <span class=\"highlight\">wy\u0142\u0105cza u\u017cywanie i regeneracj\u0119 wytrzyma\u0142o\u015bci</span>.",
       "upgrade_glass_cannon2_desc": "Ka\u017cde zab\u00f3jstwo bohatera przyznaje <span class=\"highlight\">trwa\u0142e obra\u017cenia od broni</span> (maksymalnie {s:MaxStacks} razy). \u015amier\u0107 skutkuje utrat\u0105 1 instancji.",
       "upgrade_glass_cannon_desc": "Ka\u017cde zab\u00f3jstwo bohatera przyznaje <span class=\"highlight\">trwa\u0142\u0105 szybkostrzelno\u015b\u0107</span> (maksymalnie {s:MaxStacks} razy). \u015amier\u0107 skutkuje utrat\u0105 1 instancji.",
       "upgrade_glitch/modifier_glitch_debuff": "Przekl\u0119to!",

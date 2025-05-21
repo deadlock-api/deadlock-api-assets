@@ -329,7 +329,6 @@
       "upgrade_fleetfoot_boots_active_desc": "Mendapatkan bonus <span class=\"highlight\">Kecepatan Gerakan</span>.",
       "upgrade_fleetfoot_boots_passive_desc": "Menghapus pengurangan <span class=\"highlight\">Kecepatan Gerakan</span> saat menembak.",
       "upgrade_focus_lens_desc": "Menarget musuh untuk memberikan efek bungkam. Sebagian dari <span class=\"highlight\">total damage yang diberikan</span> selama efek bungkam berlangsung akan diterima target saat efek bungkam menghilang.",
-      "upgrade_fury_trance_active": "Memberikan <span class=\"highlight\">Tingkat Tembakan</span> dan <span class=\"highlight\">Pertahanan Peluru</span>, tapi kamu akan menerima efek <span class=\"highlight\">Bungkam</span> dan <span class=\"highlight\">menonaktifkan penggunaan stamina dan pemulihan</span>.",
       "upgrade_glass_cannon2_desc": "Setiap melakukan kill pada hero, akan memberikan akumulasi <span class=\"highlight\">Damage Senjata permanen</span> (maks. hingga {s:MaxStacks} kali). Death akan mengakibatkan hilangnya 1 akumulasi.",
       "upgrade_glass_cannon_desc": "Setiap melakukan kill pada hero, akan memberikan akumulasi <span class=\"highlight\">Tingkat Tembakan permanen</span> (maks. hingga {s:MaxStacks} kali). Death akan mengakibatkan hilangnya 1 akumulasi.",
       "upgrade_glitch/modifier_glitch_debuff": "Dikutuk!",

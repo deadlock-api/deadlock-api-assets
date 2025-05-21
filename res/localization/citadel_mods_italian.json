@@ -330,7 +330,7 @@
       "upgrade_fleetfoot_boots_active_desc": "Ottieni <span class=\"highlight\">velocit\u00e0 di movimento</span> bonus.",
       "upgrade_fleetfoot_boots_passive_desc": "Rimuove la riduzione della <span class=\"highlight\">velocit\u00e0 di movimento</span> mentre spari.",
       "upgrade_focus_lens_desc": "Bersagli un nemico per silenziarlo. Una parte di <span class=\"highlight\">tutti i danni inflitti</span> durante il silenziamento viene applicata al bersaglio alla fine del silenziamento.",
-      "upgrade_fury_trance_active": "Conferisce <span class=\"highlight\">frequenza di fuoco</span> e <span class=\"highlight\">resistenza alle pallottole</span>, ma ti <span class=\"highlight\">silenzia</span> e <span class=\"highlight\">disabilita l'uso e la rigenerazione della resistenza</span>.",
+      "upgrade_fury_trance_active": "Conferisce <span class=\"highlight\">frequenza di fuoco</span> e <span class=\"highlight\">resistenza spirituale</span>, ma ti <span class=\"highlight\">silenzia</span> e <span class=\"highlight\">disabilita l'uso e la rigenerazione della resistenza</span>.",
       "upgrade_glass_cannon2_desc": "Ogni eroe ucciso conferisce <span class=\"highlight\">danni permanenti da arma</span> (fino a un massimo di {s:MaxStacks} volte). Se muori perdi 1 istanza.",
       "upgrade_glass_cannon_desc": "Ogni eroe ucciso conferisce <span class=\"highlight\">frequenza di fuoco permanente</span> (fino a un massimo di {s:MaxStacks} volte). Se muori perdi 1 istanza.",
       "upgrade_glitch/modifier_glitch_debuff": "Maledetto!",

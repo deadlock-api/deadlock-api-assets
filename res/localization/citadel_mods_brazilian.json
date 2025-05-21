@@ -329,7 +329,7 @@
       "upgrade_fleetfoot_boots_active_desc": "Aumenta a <span class=\"highlight\">velocidade de movimento</span>.",
       "upgrade_fleetfoot_boots_passive_desc": "Remove a <span class=\"highlight\">penalidade de movimento</span> ao atirar.",
       "upgrade_focus_lens_desc": "Alveja um inimigo, silenciando-o. Uma parte de <span class=\"highlight\">todo o dano causado</span> durante o silenciamento \u00e9 aplicado novamente ao alvo ap\u00f3s o efeito.",
-      "upgrade_fury_trance_active": "Concede <span class=\"highlight\">taxa de disparo</span> e <span class=\"highlight\">resist\u00eancia bal\u00edstica</span>, mas <span class=\"highlight\">silencia</span> voc\u00ea e <span class=\"highlight\">desativa o uso e regenera\u00e7\u00e3o de vigor</span>.",
+      "upgrade_fury_trance_active": "Concede <span class=\"highlight\">taxa de disparo</span> e <span class=\"highlight\">resist\u00eancia espiritual</span>, mas <span class=\"highlight\">silencia</span> voc\u00ea e <span class=\"highlight\">desativa o uso e regenera\u00e7\u00e3o de vigor</span>.",
       "upgrade_glass_cannon2_desc": "Cada her\u00f3i morto concede <span class=\"highlight\">dano bal\u00edstico permanentemente</span> (at\u00e9 um m\u00e1ximo de {s:MaxStacks}). Morrer resulta na perda de 1 ac\u00famulo.",
       "upgrade_glass_cannon_desc": "Cada her\u00f3i morto concede <span class=\"highlight\">taxa de disparo permanentemente</span> (at\u00e9 um m\u00e1ximo de {s:MaxStacks}). Morrer resulta na perda de 1 ac\u00famulo.",
       "upgrade_glitch/modifier_glitch_debuff": "Amaldi\u00e7oado!",

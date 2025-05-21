@@ -333,7 +333,7 @@
       "upgrade_fleetfoot_boots_active_desc": "Gain bonus <span class=\"highlight\">Move Speed</span>.",
       "upgrade_fleetfoot_boots_passive_desc": "Removes the <span class=\"highlight\">Move Speed</span> penalty while shooting.",
       "upgrade_focus_lens_desc": "Target an enemy to silence them. A portion of <span class=\"highlight\">all damage dealt</span> during the silence gets applied to the target when the silence wears off.",
-      "upgrade_fury_trance_active": "Grants <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Bullet Resistance</span> but <span class=\"highlight\">Silences</span> you and <span class=\"highlight\">disables stamina usage and regeneration</span>.",
+      "upgrade_fury_trance_active": "Grants <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Spirit Resistance</span> but <span class=\"highlight\">Silences</span> you and <span class=\"highlight\">disables stamina usage and regeneration</span>.",
       "upgrade_glass_cannon2_desc": "Each hero kill grants <span class=\"highlight\">permanent Weapon Damage</span> (up to a max of {s:MaxStacks} times).  Death results in the loss of 1 stack.",
       "upgrade_glass_cannon_desc": "Each hero kill grants <span class=\"highlight\">permanent Fire Rate</span> (up to a max of {s:MaxStacks} times).  Death results in the loss of 1 stack.",
       "upgrade_glitch/modifier_glitch_debuff": "Cursed!",

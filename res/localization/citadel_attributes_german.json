@@ -945,7 +945,7 @@
       "StatDesc_WeaponResistDesc": "<b>Kugelresistenz</b>: Deine Resistenz gegen eingehenden Kugelschaden.",
       "StatusResistanceDuration_label": "Dauer",
       "StatusResistanceDuration_postfix": "\u00a0s",
-      "StatusResistancePercent_label": "Schw\u00e4chungsresistent",
+      "StatusResistancePercent_label": "Schw\u00e4chungsresistenz",
       "StatusResistancePercent_postfix": "\u00a0%",
       "StatusResistancePercent_prefix": "{s:sign}",
       "StealDuration_label": "Stehldauer",

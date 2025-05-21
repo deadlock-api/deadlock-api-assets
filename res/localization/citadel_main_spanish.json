@@ -2808,6 +2808,7 @@
       "item_info_add_to_queue": "A\u00f1adir a la cola",
       "item_info_buy": "Haz clic para comprar",
       "item_info_cant_afford": "No lo puedes pagar",
+      "item_info_component_locked": "Se utiliza como componente",
       "item_info_component_required": "Requiere el componente <span class=\"boldedText\">{s:component_required}</span>",
       "item_info_flex_slots": "Espacios adicionales",
       "item_info_imbue": "Imbuir",

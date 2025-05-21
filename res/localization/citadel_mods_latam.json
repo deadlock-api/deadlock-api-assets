@@ -330,7 +330,6 @@
       "upgrade_fleetfoot_boots_active_desc": "Obtienes <span class=\"highlight\">velocidad de movimiento</span> adicional.",
       "upgrade_fleetfoot_boots_passive_desc": "Elimina la penalizaci\u00f3n de <span class=\"highlight\">velocidad de movimiento</span> al disparar.",
       "upgrade_focus_lens_desc": "Apunta a un enemigo para silenciarlo. Una porci\u00f3n de <span class=\"highlight\">todo el da\u00f1o infligido</span> durante el silencio se aplica al objetivo cuando el silencio termina.",
-      "upgrade_fury_trance_active": "Otorga <span class=\"highlight\">cadencia de tiro</span> y <span class=\"highlight\">resistencia bal\u00edstica</span> pero te <span class=\"highlight\">silencia</span> y <span class=\"highlight\">deshabilita tu resistencia y regeneracion</span>.",
       "upgrade_glass_cannon2_desc": "Cada h\u00e9roe asesinado otorga <span class=\"highlight\">da\u00f1o por arma permanente</span> (hasta un m\u00e1ximo de {s:MaxStacks}\u00a0veces). Morir provoca la p\u00e9rdida de 1\u00a0acumulaci\u00f3n.",
       "upgrade_glass_cannon_desc": "Siempre que matas a un h\u00e9roe, te otorga <span class=\"highlight\">cadencia de tiro permanente</span> (con hasta un m\u00e1ximo de {s:MaxStacks} veces). Al morir, se pierde 1 acumulaci\u00f3n.",
       "upgrade_glitch/modifier_glitch_debuff": "\u00a1Maldici\u00f3n!",

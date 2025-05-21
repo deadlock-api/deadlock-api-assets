@@ -329,7 +329,6 @@
       "upgrade_fleetfoot_boots_active_desc": "Augmente votre <span class=\"highlight\">vitesse de d\u00e9placement</span>.",
       "upgrade_fleetfoot_boots_passive_desc": "Supprime la p\u00e9nalit\u00e9 de <span class=\"highlight\">vitesse de d\u00e9placement</span> quand vous tirez.",
       "upgrade_focus_lens_desc": "Ciblez une unit\u00e9 ennemie pour la r\u00e9duire au silence. Une partie de <span class=\"highlight\">tous les d\u00e9g\u00e2ts inflig\u00e9s</span> pendant le silence est appliqu\u00e9e \u00e0 la cible apr\u00e8s dissipation de l'effet.",
-      "upgrade_fury_trance_active": "Am\u00e9liore votre <span class=\"highlight\">cadence de tir</span> et votre <span class=\"highlight\">pouvoir spirituel</span>, mais vous <span class=\"highlight\">r\u00e9duit au silence</span> et emp\u00eache l'utilisation et la r\u00e9g\u00e9n\u00e9ration de votre endurance.",
       "upgrade_glass_cannon2_desc": "Chaque victime vous conf\u00e8re une <span class=\"highlight\">charge permanente de d\u00e9g\u00e2ts des armes</span> (jusqu'\u00e0 {s:MaxStacks}\u00a0charges cumulables). La mort entraine la perte d'une charge.",
       "upgrade_glass_cannon_desc": "Chaque victime vous conf\u00e8re une <span class=\"highlight\">charge permanente de cadence de tir</span> (jusqu'\u00e0 {s:MaxStacks}\u00a0charges cumulables). La mort entraine la perte d'une charge.",
       "upgrade_glitch/modifier_glitch_debuff": "Mal\u00e9diction\u00a0!",
