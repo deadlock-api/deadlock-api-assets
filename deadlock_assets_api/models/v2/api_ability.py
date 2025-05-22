@@ -122,15 +122,21 @@ class AbilityV2TooltipDetailsInfoSectionPropertyBlockProperty(BaseModel):
     show_property_value: bool | None = None
     important_property: str | None = None
     status_effect_value: str | None = None
+    status_effect_name: str | None = None
     important_property_icon: str | None = None
 
     @classmethod
     def from_raw_property(
-        cls, raw_property: dict
+        cls, raw_property: dict, localization: dict[str, str]
     ) -> "AbilityV2TooltipDetailsInfoSectionPropertyBlockProperty":
         raw_property["important_property_icon"] = parse_img_path(
             raw_property["important_property_icon_path"]
         )
+        if raw_property["status_effect_value"]:
+            raw_property["status_effect_name"] = localization.get(
+                f"Citadel_{raw_property['important_property']}",
+                localization.get(raw_property["important_property"]),
+            )
         del raw_property["important_property_icon_path"]
         return cls(**raw_property)
 
@@ -156,7 +162,7 @@ class AbilityTooltipDetailsInfoSectionPropertyBlockV2(BaseModel):
             else None,
             properties=[
                 AbilityV2TooltipDetailsInfoSectionPropertyBlockProperty.from_raw_property(
-                    p.model_dump()
+                    p.model_dump(), localization
                 )
                 for p in raw_info_section_property_block.properties
             ]
