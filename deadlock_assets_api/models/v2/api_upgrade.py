@@ -133,13 +133,20 @@ class UpgradeTooltipSectionAttributeV2ImportantPropertyWithIcon(BaseModel):
 
     name: str | None = None
     icon: str | None = None
+    localized_name: str | None = None
 
     @classmethod
-    def from_raw_important_property_with_icon(cls, raw_important_property_with_icon: dict):
+    def from_raw_important_property_with_icon(
+        cls, raw_important_property_with_icon: dict, localization: dict[str, str]
+    ):
         raw_important_property_with_icon["icon"] = parse_img_path(
             raw_important_property_with_icon["icon_path"]
         )
         del raw_important_property_with_icon["icon_path"]
+        raw_important_property_with_icon["localized_name"] = localization.get(
+            f"Citadel_{raw_important_property_with_icon['name']}",
+            localization.get(raw_important_property_with_icon["name"]),
+        )
         return cls(**raw_important_property_with_icon)
 
 
@@ -182,7 +189,7 @@ class UpgradeTooltipSectionAttributeV2(BaseModel):
             else None,
             important_properties_with_icon=[
                 UpgradeTooltipSectionAttributeV2ImportantPropertyWithIcon.from_raw_important_property_with_icon(
-                    p.model_dump()
+                    p.model_dump(), localization
                 )
                 for p in raw_section_attribute.important_properties_with_icon_path or []
             ]
