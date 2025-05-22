@@ -1,5 +1,5 @@
 from enum import Enum
-from typing import Literal
+from typing import Literal, Optional
 
 from pydantic import ConfigDict, Field, BaseModel, computed_field
 
@@ -56,10 +56,12 @@ class RawUpgradeTooltipSectionAttributeV2ImportantPropertyWithIcon(BaseModel):
     @classmethod
     def from_name(
         cls, name: str | None
-    ) -> "RawUpgradeTooltipSectionAttributeV2ImportantPropertyWithIcon":
+    ) -> Optional["RawUpgradeTooltipSectionAttributeV2ImportantPropertyWithIcon"]:
         icon = parse_css_ability_properties_icon("res/citadel_mod_tooltip_shared.css", name)
         if icon is None:
             icon = parse_css_ability_properties_icon("res/ability_properties.css", name)
+            if icon is None:
+                return None
         return cls(name=name, icon_path=icon)
 
 
@@ -81,10 +83,14 @@ class RawUpgradeTooltipSectionAttributeV2(BaseModel):
         self,
     ) -> list[RawUpgradeTooltipSectionAttributeV2ImportantPropertyWithIcon] | None:
         return [
-            RawUpgradeTooltipSectionAttributeV2ImportantPropertyWithIcon.from_name(
-                p.important_property
-            )
-            for p in self.important_properties or []
+            t
+            for t in [
+                RawUpgradeTooltipSectionAttributeV2ImportantPropertyWithIcon.from_name(
+                    p.important_property
+                )
+                for p in self.important_properties or []
+            ]
+            if t
         ]
 
 
