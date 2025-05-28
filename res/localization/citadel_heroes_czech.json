@@ -1304,7 +1304,7 @@
       "citadel_ability_bull_charge_on_wall_header": "Po n\u00e1razu do zdi:",
       "citadel_ability_bull_charge_quip": "Umo\u017e\u0148uje ti vyb\u011bhnout do bitvy a vz\u00edt s sebou i nep\u0159\u00e1tele.",
       "citadel_ability_bull_charge_t1_desc": "Po nabr\u00e1n\u00ed hrdiny: <span class=\"highlight\">+{s:BaseAttackDamagePercent} %</span> k fyzick\u00e9mu po\u0161kozen\u00ed na <span class=\"highlight\">{s:WeaponPowerIncreaseDuration} s</span>",
-      "citadel_ability_bull_charge_t3_desc": "Po n\u00e1razu do zdi: <span class=\"highlight\">+{s:StunDuration} s</span> k trv\u00e1n\u00ed omr\u00e1\u010den\u00ed a <span class=\"highlight\">{s:SlowPercent}% zpomalen\u00ed</span> na <span class=\"highlight\">{s:SlowDuration} s</span>",
+      "citadel_ability_bull_charge_t2_desc": "Po n\u00e1razu do zdi: <span class=\"highlight\">+{s:StunDuration} s</span> k trv\u00e1n\u00ed omr\u00e1\u010den\u00ed",
       "citadel_ability_bull_heal": "S\u00e1n\u00ed \u017eivota",
       "citadel_ability_bull_heal/modifier_bull_heal_aura": "S\u00e1n\u00ed \u017eivota",
       "citadel_ability_bull_heal_desc": "Abrams za\u010dne nep\u0159\u00e1tel\u016fm p\u0159ed sebou ud\u00edlet {g:citadel_inline_attribute:'SpiritDPS'} a sebe \u010d\u00e1st\u00ed z tohoto po\u0161kozen\u00ed {g:citadel_inline_attribute:'Heals'}.",

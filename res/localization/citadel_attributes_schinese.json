@@ -340,6 +340,8 @@
       "CooldownBetweenChargeReduction_label": "\u5145\u80fd\u95f4\u9694\u7f29\u77ed",
       "CooldownBetweenChargeReduction_postfix": "%",
       "CooldownBetweenChargeReduction_prefix": "{s:sign}",
+      "CooldownOnMissReduction_label": "\u672a\u547d\u4e2d\u65f6\u51b7\u5374",
+      "CooldownOnMissReduction_postfix": "%",
       "CooldownReductionFlat_label": "\u51b7\u5374\u65f6\u95f4\u51cf\u5c11",
       "CooldownReductionFlat_postfix": "s",
       "CooldownReductionPerHit_label": "\u6bcf\u6b21\u51fb\u4e2d\u65f6\u7684\u51b7\u5374\u65f6\u95f4\u51cf\u5c11",

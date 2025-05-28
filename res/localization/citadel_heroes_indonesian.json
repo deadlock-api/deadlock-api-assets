@@ -1304,7 +1304,6 @@
       "citadel_ability_bull_charge_on_wall_header": "Saat Menabrak Tembok:",
       "citadel_ability_bull_charge_quip": "Menabrakkan diri ke arah musuh untuk menyeretnya",
       "citadel_ability_bull_charge_t1_desc": "Saat Bertabrakan dengan Hero: <span class=\"highlight\">+{s:BaseAttackDamagePercent}%</span> Damage Senjata untuk <span class=\"highlight\">{s:WeaponPowerIncreaseDuration}</span> dtk.",
-      "citadel_ability_bull_charge_t3_desc": "Saat Menabrak Tembok: <span class=\"highlight\">+{s:StunDuration} dtk. </span>Durasi Stun dan <span class=\"highlight\">{s:SlowPercent}</span>% Perlambatan untuk <span class=\"highlight\">{s:SlowDuration} dtk.</span>",
       "citadel_ability_bull_heal": "Renggut Jiwa",
       "citadel_ability_bull_heal/modifier_bull_heal_aura": "Renggut Jiwa",
       "citadel_ability_bull_heal_desc": "Menguras health dari musuh di sekitarmu, memberikan {g:citadel_inline_attribute:'SpiritDPS'} dan {g:citadel_inline_attribute:'Healing'} dari porsi damage yang diberikan.",

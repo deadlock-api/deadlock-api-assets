@@ -1305,7 +1305,7 @@
       "citadel_ability_bull_charge_on_wall_header": "On Wall Hit:",
       "citadel_ability_bull_charge_quip": "Charge into the fray, dragging enemies along",
       "citadel_ability_bull_charge_t1_desc": "On Hero Collide: <span class=\"highlight\">+{s:BaseAttackDamagePercent}%</span> Weapon Damage for <span class=\"highlight\">{s:WeaponPowerIncreaseDuration}</span>s",
-      "citadel_ability_bull_charge_t3_desc": "On Wall Hit: <span class=\"highlight\">+{s:StunDuration}s</span> Stun Duration and <span class=\"highlight\">{s:SlowPercent}</span>% Slow for <span class=\"highlight\">{s:SlowDuration}s</span>",
+      "citadel_ability_bull_charge_t2_desc": "On Wall Hit: <span class=\"highlight\">+{s:StunDuration}s</span> Stun Duration",
       "citadel_ability_bull_heal": "Siphon Life",
       "citadel_ability_bull_heal/modifier_bull_heal_aura": "Siphon Life",
       "citadel_ability_bull_heal_desc": "Drain health from nearby enemies in front of you, dealing {g:citadel_inline_attribute:'SpiritDPS'} and {g:citadel_inline_attribute:'Healing'} for a portion of the damage dealt.",

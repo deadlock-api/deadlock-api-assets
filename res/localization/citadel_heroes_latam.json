@@ -1304,7 +1304,6 @@
       "citadel_ability_bull_charge_on_wall_header": "Al impactar contra un muro:",
       "citadel_ability_bull_charge_quip": "Embiste hacia la batalla, arrastrando a los enemigos contigo",
       "citadel_ability_bull_charge_t1_desc": "Al chocar con un h\u00e9roe: <span class=\"highlight\">+{s:BaseAttackDamagePercent}%</span> de da\u00f1o por arma por <span class=\"highlight\">{s:WeaponPowerIncreaseDuration}</span> s",
-      "citadel_ability_bull_charge_t3_desc": "Al empujar contra un muro: <span class=\"highlight\">+{s:StunDuration}\u00a0s</span> de aturdimiento y <span class=\"highlight\">{s:SlowPercent}</span>\u00a0% de ralentizaci\u00f3n por <span class=\"highlight\">{s:SlowDuration}\u00a0s</span>",
       "citadel_ability_bull_heal": "Extracci\u00f3n de vida",
       "citadel_ability_bull_heal/modifier_bull_heal_aura": "Extracci\u00f3n de vida",
       "citadel_ability_bull_heal_desc": "Drena vida a los enemigos cercanos que tienes frente a ti para infligir {g:citadel_inline_attribute:'SpiritDPS'} y convertir parte del da\u00f1o infligido en {g:citadel_inline_attribute:'Healing'}.",

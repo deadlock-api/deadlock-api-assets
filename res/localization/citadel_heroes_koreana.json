@@ -1304,7 +1304,6 @@
       "citadel_ability_bull_charge_on_wall_header": "\ubcbd \ucda9\ub3cc \uc2dc:",
       "citadel_ability_bull_charge_quip": "\uc801\uad70\uc744 \ud5a5\ud574 \ub3cc\uc9c4\ud558\uc5ec \uadf8\ub300\ub85c \ubc00\uace0 \ub098\uac11\ub2c8\ub2e4.",
       "citadel_ability_bull_charge_t1_desc": "\uc601\uc6c5 \ucda9\ub3cc \uc2dc: <span class=\"highlight\">{s:WeaponPowerIncreaseDuration}</span>\ucd08 \ub3d9\uc548 \ubb34\uae30 \ud53c\ud574 <span class=\"highlight\">+{s:BaseAttackDamagePercent}%</span> \uc99d\uac00",
-      "citadel_ability_bull_charge_t3_desc": "\ubcbd \ucda9\ub3cc \uc2dc: \uae30\uc808 \uc9c0\uc18d \uc2dc\uac04 <span class=\"highlight\">+{s:StunDuration}\ucd08</span> \uc99d\uac00 \ubc0f <span class=\"highlight\">{s:SlowDuration}\ucd08</span> \ub3d9\uc548 <span class=\"highlight\">{s:SlowPercent}</span>% \ub454\ud654",
       "citadel_ability_bull_heal": "\uc0dd\uba85 \ud761\uc218",
       "citadel_ability_bull_heal/modifier_bull_heal_aura": "\uc0dd\uba85 \ud761\uc218",
       "citadel_ability_bull_heal_desc": "\uc804\ubc29\uc5d0 \uc704\uce58\ud55c \uadfc\ucc98 \uc801\uad70\uc73c\ub85c\ubd80\ud130 \uccb4\ub825\uc744 \ud761\uc218\ud558\uc5ec {g:citadel_inline_attribute:'SpiritDPS'}\ub97c \uc8fc\uace0 \uc785\ud78c \ud53c\ud574\uc758 \uc77c\ubd80\ub9cc\ud07c {g:citadel_inline_attribute:'Healing'}\ud569\ub2c8\ub2e4.",

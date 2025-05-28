@@ -1304,7 +1304,6 @@
       "citadel_ability_bull_charge_on_wall_header": "Impatto sul muro:",
       "citadel_ability_bull_charge_quip": "Carichi nella mischia, trascinandoti dietro i nemici",
       "citadel_ability_bull_charge_t1_desc": "Collisione con un eroe: <span class=\"highlight\">+{s:BaseAttackDamagePercent}%</span> di danni da arma per <span class=\"highlight\">{s:WeaponPowerIncreaseDuration}</span> s",
-      "citadel_ability_bull_charge_t3_desc": "Impatto sul muro: <span class=\"highlight\">+{s:StunDuration} s</span> di durata dello stordimento e <span class=\"highlight\">{s:SlowPercent}</span>% di rallentamento per <span class=\"highlight\">{s:SlowDuration} s</span>",
       "citadel_ability_bull_heal": "Prosciuga vita",
       "citadel_ability_bull_heal/modifier_bull_heal_aura": "Prosciuga vita",
       "citadel_ability_bull_heal_desc": "Prosciughi la salute dei nemici vicini di fronte a te, infliggendo {g:citadel_inline_attribute:'SpiritDPS'} e ricevendo {g:citadel_inline_attribute:'Healing'} per una parte dei danni inflitti.",

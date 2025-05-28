@@ -344,6 +344,8 @@
       "CooldownBetweenChargeReduction_label": "Faster Time Between Charges",
       "CooldownBetweenChargeReduction_postfix": "%",
       "CooldownBetweenChargeReduction_prefix": "{s:sign}",
+      "CooldownOnMissReduction_label": "Cooldown on miss",
+      "CooldownOnMissReduction_postfix": "%",
       "CooldownReductionFlat_label": "Cooldown Reduction",
       "CooldownReductionFlat_postfix": "s",
       "CooldownReductionPerHit_label": "Cooldown Reduction per Hit",

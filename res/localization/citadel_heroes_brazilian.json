@@ -1271,7 +1271,7 @@
       "citadel_ability_bull_charge_on_wall_header": "Ao empurrar um her\u00f3i contra uma parede:",
       "citadel_ability_bull_charge_quip": "Avan\u00e7a para a luta, arrastando inimigos pelo caminho",
       "citadel_ability_bull_charge_t1_desc": "Ao agarrar um her\u00f3i: <span class=\"highlight\">+{s:BaseAttackDamagePercent}%</span> de dano bal\u00edstico por <span class=\"highlight\">{s:WeaponPowerIncreaseDuration}s</span>",
-      "citadel_ability_bull_charge_t3_desc": "Ao empurrar um her\u00f3i contra uma parede: <span class=\"highlight\">+{s:StunDuration}s</span> de atordoamento e aplica <span class=\"highlight\">{s:SlowPercent}%</span> de desacelera\u00e7\u00e3o por <span class=\"highlight\">+{s:SlowDuration}s</span>",
+      "citadel_ability_bull_charge_t2_desc": "Ao empurrar um her\u00f3i contra uma parede: <span class=\"highlight\">+{s:StunDuration}s</span> de atordoamento",
       "citadel_ability_bull_heal": "Dreno de Vida",
       "citadel_ability_bull_heal/modifier_bull_heal_aura": "Sif\u00e3o de Vida",
       "citadel_ability_bull_heal_desc": "Drena a vida de her\u00f3is pr\u00f3ximos \u00e0 sua frente, causando {g:citadel_inline_attribute:'SpiritDPS'}, e convertendo parte dele em {g:citadel_inline_attribute:'Heal'}.",

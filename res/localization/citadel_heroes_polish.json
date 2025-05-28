@@ -1304,7 +1304,6 @@
       "citadel_ability_bull_charge_on_wall_header": "Po trafieniu \u015bciany:",
       "citadel_ability_bull_charge_quip": "Rzu\u0107 si\u0119 do boju, ci\u0105gn\u0105c ze sob\u0105 wrog\u00f3w.",
       "citadel_ability_bull_charge_t1_desc": "Po zderzeniu z bohaterem: <span class=\"highlight\">+{s:BaseAttackDamagePercent}%</span> obra\u017ce\u0144 od broni przez <span class=\"highlight\">{s:WeaponPowerIncreaseDuration}</span> s.",
-      "citadel_ability_bull_charge_t3_desc": "Po zderzeniu ze \u015bcian\u0105: <span class=\"highlight\">+{s:StunDuration} s</span> czasu trwania og\u0142uszenia oraz <span class=\"highlight\">{s:SlowPercent}</span>% spowolnienia przez <span class=\"highlight\">{s:SlowDuration} s</span>.",
       "citadel_ability_bull_heal": "Wysysanie \u017bycia",
       "citadel_ability_bull_heal/modifier_bull_heal_aura": "Wysysanie \u017bycia",
       "citadel_ability_bull_heal_desc": "Wysysaj zdrowie od pobliskich wrog\u00f3w przed sob\u0105, zadaj\u0105c {g:citadel_inline_attribute:'SpiritDPS'} oraz zapewniaj\u0105c {g:citadel_inline_attribute:'Healing'} z cz\u0119\u015bci zadanych obra\u017ce\u0144.",

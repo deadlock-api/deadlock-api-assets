@@ -155,7 +155,7 @@
       "Steam_Citadel_InGame_Hero": "{%param1%} {%param2%} (%param0% min)",
       "Steam_Citadel_InGame_Sandbox": "Modalit\u00e0 di prova degli eroi ({%param2%})",
       "Steam_Citadel_RP_FindingMatch": "Ricerca di una partita in corso",
-      "Steam_Citadel_RP_InParty": "Manu principale (gruppo)",
+      "Steam_Citadel_RP_InParty": "Menu principale (gruppo)",
       "Steam_Citadel_RP_MM_CoopBot": "Bot:",
       "Steam_Citadel_RP_MM_HeroLabs": "Laboratorio degli eroi:",
       "Steam_Citadel_RP_MM_PrivateLobby": "Lobby:",

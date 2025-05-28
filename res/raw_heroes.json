@@ -269,7 +269,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -917,7 +917,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -1246,7 +1246,7 @@
     "starting_stats": {
       "ability_resource_max": 0,
       "ability_resource_regen_per_second": 0,
-      "base_health_regen": 3.0,
+      "base_health_regen": 1.5,
       "bullet_armor_damage_reduction": null,
       "crit_damage_received_scale": 0.65,
       "crouch_speed": 4.75,
@@ -1571,7 +1571,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -2229,7 +2229,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -2874,7 +2874,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -3185,7 +3185,7 @@
     "skin": 0,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.226286,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 81.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 78.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.53,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
@@ -3520,7 +3520,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -4171,7 +4171,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -4824,7 +4824,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -5472,7 +5472,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -6118,7 +6118,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -6768,7 +6768,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -7418,7 +7418,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -8062,7 +8062,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -8709,7 +8709,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -9357,7 +9357,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -10011,7 +10011,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -10659,7 +10659,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -11306,7 +11306,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -11950,7 +11950,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -12560,7 +12560,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -12882,7 +12882,7 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.74,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.6,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 92.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 2.53,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -13219,7 +13219,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -13875,7 +13875,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -14519,7 +14519,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -15165,7 +15165,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -15775,7 +15775,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -16385,7 +16385,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -16995,7 +16995,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -17627,7 +17627,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -18237,7 +18237,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -18887,7 +18887,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -19497,7 +19497,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -20143,7 +20143,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -20768,7 +20768,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -21378,7 +21378,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -21988,7 +21988,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -22598,7 +22598,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -23249,7 +23249,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -23871,7 +23871,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -24521,7 +24521,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -25149,7 +25149,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -25774,7 +25774,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -26422,7 +26422,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -27072,7 +27072,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -27703,7 +27703,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -28335,7 +28335,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -28964,7 +28964,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -29602,7 +29602,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -30241,7 +30241,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -30865,7 +30865,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
@@ -31513,7 +31513,7 @@
           "EAbilityPoints": 1
         },
         "required_gold": 29000,
-        "use_standard_upgrade": false
+        "use_standard_upgrade": true
       },
       "27": {
         "bonus_currencies": {
