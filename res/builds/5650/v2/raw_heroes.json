@@ -31,6 +31,164 @@
       45
     ],
     "complexity": 1,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -679,6 +837,164 @@
       60
     ],
     "complexity": 1,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -1333,6 +1649,164 @@
       236
     ],
     "complexity": 1,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -1991,6 +2465,164 @@
       89
     ],
     "complexity": 2,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -2636,6 +3268,164 @@
       174
     ],
     "complexity": 1,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -3282,6 +4072,164 @@
       120
     ],
     "complexity": 1,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -3933,6 +4881,164 @@
       155
     ],
     "complexity": 1,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -4586,6 +5692,164 @@
       82
     ],
     "complexity": 3,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -5234,6 +6498,164 @@
       69
     ],
     "complexity": 2,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -5880,6 +7302,164 @@
       188
     ],
     "complexity": 2,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -6530,6 +8110,164 @@
       51
     ],
     "complexity": 1,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -7180,6 +8918,164 @@
       49
     ],
     "complexity": 3,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -7824,6 +9720,164 @@
       52
     ],
     "complexity": 2,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -8471,6 +10525,164 @@
       214
     ],
     "complexity": 2,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -9119,6 +11331,164 @@
       131
     ],
     "complexity": 2,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -9773,6 +12143,164 @@
       133
     ],
     "complexity": 3,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -10420,6 +12948,164 @@
       135
     ],
     "complexity": 3,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -11068,6 +13754,164 @@
       217
     ],
     "complexity": 3,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -11712,6 +14556,164 @@
       79
     ],
     "complexity": 2,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -12322,6 +15324,164 @@
       120
     ],
     "complexity": 2,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -12980,6 +16140,164 @@
       128
     ],
     "complexity": 3,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -13637,6 +16955,164 @@
       86
     ],
     "complexity": 3,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -14280,6 +17756,164 @@
       99
     ],
     "complexity": 2,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -14927,6 +18561,164 @@
       255
     ],
     "complexity": 2,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -15537,6 +19329,164 @@
       255
     ],
     "complexity": 2,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -16147,6 +20097,164 @@
       173
     ],
     "complexity": 2,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -16757,6 +20865,164 @@
       177
     ],
     "complexity": 3,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -17389,6 +21655,164 @@
       255
     ],
     "complexity": 2,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -17999,6 +22423,164 @@
       149
     ],
     "complexity": 2,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -18649,6 +23231,164 @@
       255
     ],
     "complexity": 2,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -19259,6 +23999,164 @@
       60
     ],
     "complexity": 2,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -19905,6 +24803,164 @@
       255
     ],
     "complexity": 2,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -20530,6 +25586,164 @@
       255
     ],
     "complexity": 2,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -21140,6 +26354,164 @@
       214
     ],
     "complexity": 1,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -21750,6 +27122,164 @@
       214
     ],
     "complexity": 1,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -22360,6 +27890,164 @@
       217
     ],
     "complexity": 1,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -23011,6 +28699,164 @@
       217
     ],
     "complexity": 1,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -23633,6 +29479,164 @@
       60
     ],
     "complexity": 4,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -24283,6 +30287,164 @@
       120
     ],
     "complexity": 2,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -24911,6 +31073,164 @@
       255
     ],
     "complexity": 2,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -25536,6 +31856,164 @@
       82
     ],
     "complexity": 3,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -26184,6 +32662,164 @@
       135
     ],
     "complexity": 3,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -26834,6 +33470,164 @@
       120
     ],
     "complexity": 2,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -27465,6 +34259,164 @@
       120
     ],
     "complexity": 2,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -28097,6 +35049,164 @@
       236
     ],
     "complexity": 1,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -28726,6 +35836,164 @@
       236
     ],
     "complexity": 1,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -29364,6 +36632,164 @@
       236
     ],
     "complexity": 1,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -30002,6 +37428,164 @@
       86
     ],
     "complexity": 3,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -30627,6 +38211,164 @@
       82
     ],
     "complexity": 3,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {
@@ -31275,6 +39017,164 @@
       135
     ],
     "complexity": 3,
+    "cost_bonuses": {
+      "spirit": [
+        {
+          "bonus": 6.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 12.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 15.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 25.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 35.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 45.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 55.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 65.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "vitality": [
+        {
+          "bonus": 8.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 10.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 17.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 22.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 27.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 32.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 36.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 44.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ],
+      "weapon": [
+        {
+          "bonus": 7.0,
+          "gold_threshold": 800,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 9.0,
+          "gold_threshold": 1600,
+          "percent_on_graph": 8.0
+        },
+        {
+          "bonus": 13.0,
+          "gold_threshold": 2400,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 20.0,
+          "gold_threshold": 3200,
+          "percent_on_graph": 9.0
+        },
+        {
+          "bonus": 29.0,
+          "gold_threshold": 4800,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 40.0,
+          "gold_threshold": 7200,
+          "percent_on_graph": 10.0
+        },
+        {
+          "bonus": 58.0,
+          "gold_threshold": 9600,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 72.0,
+          "gold_threshold": 16000,
+          "percent_on_graph": 11.0
+        },
+        {
+          "bonus": 83.0,
+          "gold_threshold": 22400,
+          "percent_on_graph": 12.0
+        },
+        {
+          "bonus": 93.0,
+          "gold_threshold": 28800,
+          "percent_on_graph": 12.0
+        }
+      ]
+    },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
     "hero_stats_ui": {

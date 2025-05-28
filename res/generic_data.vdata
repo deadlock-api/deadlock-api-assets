@@ -1,41 +1,41 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	generic_data_type = "CitadelGenericData_t"
-	m_mapDamageFlash = 
+	m_mapDamageFlash =
 	{
-		EFlashType_BulletDamage = 
+		EFlashType_BulletDamage =
 		{
 			m_flDuration = 0.250000
 			m_flCoverage = 0.500000
 			m_flHardness = 0.700000
 			m_flBrightness = 1.200000
-			m_Color = 
+			m_Color =
 			[
 				255,
 				0,
 				0,
 			]
 		}
-		EFlashType_TechDamage = 
+		EFlashType_TechDamage =
 		{
 			m_flDuration = 0.250000
 			m_flCoverage = 0.500000
 			m_flHardness = 0.500000
 			m_flBrightness = 1.500000
-			m_Color = 
+			m_Color =
 			[
 				35,
 				17,
 				236,
 			]
 		}
-		EFlashType_Healing = 
+		EFlashType_Healing =
 		{
 			m_flDuration = 1.000000
 			m_flCoverage = 0.500000
 			m_flHardness = 0.000000
 			m_flBrightness = 1.200000
-			m_Color = 
+			m_Color =
 			[
 				0,
 				195,
@@ -43,24 +43,24 @@
 			]
 			m_flBrightnessInLightSensitivityMode = 0.600000
 		}
-		EFlashType_CritDamage = 
+		EFlashType_CritDamage =
 		{
 			m_flDuration = 0.330000
 			m_flCoverage = 0.600000
 			m_flHardness = 0.900000
 			m_flBrightness = 1.700000
-			m_Color = 
+			m_Color =
 			[
 				255,
 				255,
 				0,
 			]
 		}
-		EFlashType_MeleeActivate = 
+		EFlashType_MeleeActivate =
 		{
 			m_flDuration = 0.275000
 			m_flCoverage = 0.500000
-			m_Color = 
+			m_Color =
 			[
 				254,
 				101,
@@ -70,7 +70,7 @@
 			m_flHardness = 0.000000
 		}
 	}
-	m_GlitchSettings = 
+	m_GlitchSettings =
 	{
 		m_flStrength = 1.000000
 		m_nQuantizeType = 2.000000
@@ -84,114 +84,114 @@
 		m_flScanlineStrength = 1.500000
 		m_flBreakupStrength = 0.000000
 	}
-	m_LaneInfo = 
+	m_LaneInfo =
 	[
-		
+
 		{
 			m_strLaneName = "Yellow"
 			m_strCSSClass = "yellowLane"
-			m_Color = 
+			m_Color =
 			[
 				241,
 				204,
 				48,
 			]
-			m_MinimapZiplineColorOverride = 
+			m_MinimapZiplineColorOverride =
 			[
 				190,
 				169,
 				78,
 			]
-			m_ObjectiveColor = 
+			m_ObjectiveColor =
 			[
 				249,
 				212,
 				5,
 			]
 		},
-		
+
 		{
 			m_strLaneName = "Yellow + Orange"
-			m_Color = 
+			m_Color =
 			[
 				0,
 				0,
 				0,
 			]
 		},
-		
+
 		{
 			m_strLaneName = "Green"
 			m_strCSSClass = "greenLane"
-			m_Color = 
+			m_Color =
 			[
 				255,
 				20,
 				147,
 			]
-			m_MinimapZiplineColorOverride = 
+			m_MinimapZiplineColorOverride =
 			[
 				255,
 				20,
 				147,
 			]
-			m_ObjectiveColor = 
+			m_ObjectiveColor =
 			[
 				255,
 				20,
 				147,
 			]
 		},
-		
+
 		{
 			m_strLaneName = "Blue"
 			m_strCSSClass = "blueLane"
-			m_Color = 
+			m_Color =
 			[
 				41,
 				177,
 				204,
 			]
-			m_MinimapZiplineColorOverride = 
+			m_MinimapZiplineColorOverride =
 			[
 				85,
 				155,
 				190,
 			]
-			m_ObjectiveColor = 
+			m_ObjectiveColor =
 			[
 				67,
 				125,
 				220,
 			]
 		},
-		
+
 		{
 			m_strLaneName = " + Purple"
-			m_Color = 
+			m_Color =
 			[
 				0,
 				0,
 				0,
 			]
 		},
-		
+
 		{
 			m_strLaneName = "Purple"
 			m_strCSSClass = "purpleLane"
-			m_Color = 
+			m_Color =
 			[
 				89,
 				178,
 				71,
 			]
-			m_MinimapZiplineColorOverride = 
+			m_MinimapZiplineColorOverride =
 			[
 				102,
 				153,
 				92,
 			]
-			m_ObjectiveColor = 
+			m_ObjectiveColor =
 			[
 				89,
 				178,
@@ -199,18 +199,18 @@
 			]
 		},
 	]
-	m_NoLaneZip = 
+	m_NoLaneZip =
 	{
 		m_strLaneName = "NoLane"
 		m_strCSSClass = "noLane"
-		m_Color = 
+		m_Color =
 		[
 			0,
 			0,
 			0,
 		]
 	}
-	m_DamageReceivedSounds = 
+	m_DamageReceivedSounds =
 	{
 		m_strDamageReceiveDefault = soundevent:"Damage.Receive.Default"
 		m_strDamageReceiveNPC = soundevent:"Damage.Receive.NPC"
@@ -219,16 +219,16 @@
 		m_strDamageReceiveMelee = soundevent:"Damage.Receive.Melee"
 		m_strDamageReceiveShield = soundevent:"Damage.Receive.Shield"
 	}
-	m_DefaultDOF = 
+	m_DefaultDOF =
 	{
 		m_flDofNearBlurry = 0.000000
 		m_flDofNearCrisp = 0.000000
 		m_flDofFarBlurry = 0.000000
 		m_flDofFarCrisp = 0.000000
 	}
-	m_NewPlayerMetrics = 
+	m_NewPlayerMetrics =
 	[
-		
+
 		{
 			m_strSkillTierName = "Bronze"
 			m_NetWorth = 1000
@@ -241,7 +241,7 @@
 			m_AbilitiesUpgraded = 1
 			m_ModsPurchased = 1
 		},
-		
+
 		{
 			m_strSkillTierName = "Silver"
 			m_NetWorth = 1000
@@ -254,7 +254,7 @@
 			m_AbilitiesUpgraded = 1
 			m_ModsPurchased = 1
 		},
-		
+
 		{
 			m_strSkillTierName = "Gold"
 			m_NetWorth = 1000
@@ -267,7 +267,7 @@
 			m_AbilitiesUpgraded = 1
 			m_ModsPurchased = 1
 		},
-		
+
 		{
 			m_strSkillTierName = "Platinum"
 			m_NetWorth = 1000
@@ -281,19 +281,19 @@
 			m_ModsPurchased = 1
 		},
 	]
-	m_MinimapTeamRebelsColor = 
+	m_MinimapTeamRebelsColor =
 	[
 		58,
 		91,
 		66,
 	]
-	m_MinimapTeamCombineColor = 
+	m_MinimapTeamCombineColor =
 	[
 		83,
 		51,
 		51,
 	]
-	m_HeroTestingTargetDummyUpgrades = 
+	m_HeroTestingTargetDummyUpgrades =
 	[
 		"upgrade_toughness_2",
 		"upgrade_health_regen_1",
@@ -302,13 +302,13 @@
 		"upgrade_out_of_combat_health_regen",
 		"upgrade_zipine_mastery",
 	]
-	m_mapStatTypeImages = 
+	m_mapStatTypeImages =
 	{
 		EBaseHealthRegen = "file://{images}/upgrades/mods_armor/health_regen.psd"
 		EBulletArmorDamageReduction = "file://{images}/upgrades/mods_armor/bullet_armor.psd"
 		ETechArmorDamageReduction = "file://{images}/upgrades/mods_armor/tech_armor.psd"
 	}
-	m_nItemPricePerTier = 
+	m_nItemPricePerTier =
 	[
 		0,
 		800,
@@ -317,7 +317,7 @@
 		6400,
 		9999,
 	]
-	m_flLanePhaseGoldShareFrac = 
+	m_flLanePhaseGoldShareFrac =
 	[
 		1.000000,
 		0.650000,
@@ -326,7 +326,7 @@
 		0.150000,
 		0.110000,
 	]
-	m_flPostLanePhaseGoldShareFrac = 
+	m_flPostLanePhaseGoldShareFrac =
 	[
 		1.000000,
 		0.650000,
@@ -335,21 +335,21 @@
 		0.150000,
 		0.110000,
 	]
-	m_AimSpringStrength = 
+	m_AimSpringStrength =
 	[
 		0.000000,
 		2.000000,
 		10.000000,
 		300.000000,
 	]
-	m_TargetingSpringStrength = 
+	m_TargetingSpringStrength =
 	[
 		0.000000,
 		2.000000,
 		10.000000,
 		30.000000,
 	]
-	m_IdolParams = 
+	m_IdolParams =
 	{
 		m_IdolModel = resource_name:"models/props_gameplay/idol_urn/idol_urn.vmdl"
 		m_strLoopingSequenceName = "golden_idol_idle"
@@ -362,7 +362,7 @@
 		m_flIdolDropHeight = 1400.000000
 		m_flIdolDropDuration = 12.500000
 	}
-	m_ObjectiveParams = 
+	m_ObjectiveParams =
 	{
 		m_GoldPerOrb = 40
 		m_nTier1GoldKill = 175
@@ -376,7 +376,7 @@
 		m_nPatronPhase1GoldKill = 0
 		m_nPatronPhase1GoldOrbs = 0
 	}
-	m_TeleporterParams = 
+	m_TeleporterParams =
 	{
 		m_StartEffect = resource_name:"particles/environment/teleporter_pad_start.vpcf"
 		m_EndEffect = resource_name:"particles/environment/teleporter_pad_end.vpcf"
@@ -384,20 +384,20 @@
 		m_strStartSound = soundevent:"Teleport.Buildup"
 		m_strTeleportedSound = soundevent:"Teleport.Appear"
 	}
-	m_CurrencyTypeSounds = 
+	m_CurrencyTypeSounds =
 	{
-		EAbilityPoints = 
+		EAbilityPoints =
 		{
-			m_mapSourceSounds = 
+			m_mapSourceSounds =
 			{
 				EBossKill = soundevent:"Player.AcquireAp"
 				ECheats = soundevent:"Player.AcquireAp"
 				ELevelUp = soundevent:"Player.AcquireAp"
 			}
 		}
-		EGold = 
+		EGold =
 		{
-			m_mapSourceSounds = 
+			m_mapSourceSounds =
 			{
 				EItemSale = soundevent:""
 				ETreasureChest = soundevent:""
@@ -418,22 +418,22 @@
 			}
 		}
 	}
-	m_mapResourceTypes = 
+	m_mapResourceTypes =
 	{
-		EResourceType_Rage = 
+		EResourceType_Rage =
 		{
 			m_strHUDSnippetName = "rage"
 			m_strCantCastOutOfResourceToken = "#CITADEL_ABILITY_INVALID_NOT_RAGE"
 		}
 	}
-	m_HealingReceivedSounds = 
+	m_HealingReceivedSounds =
 	{
 		m_strHealingInBaseLoop = soundevent:"Player.Heal.Base.Loop"
 		m_strHealingInBaseToppedOff = soundevent:"Player.Heal.BaseEnd"
 		m_strDirectHealing = soundevent:""
 		m_strHealingInBaseStart = soundevent:"Player.Heal.BaseStart"
 	}
-	m_DamageIndicatorSounds = 
+	m_DamageIndicatorSounds =
 	{
 		m_strDamageDefault = soundevent:"Damage.Send"
 		m_strDamageCrit = soundevent:"Damage.Send.Crit"
@@ -442,7 +442,7 @@
 		m_strDamageDOT = soundevent:"Damage.Send.DOT"
 		m_strDamageHealthTransfer = soundevent:"Player.Heal.SiphonTick"
 	}
-	m_RejuvParams = 
+	m_RejuvParams =
 	{
 		m_flRejuvinatorExpirationWarningTiming = 30
 		m_flRejuvinatorBuffDuration = 240
@@ -450,13 +450,13 @@
 		m_flRejuvinatorDropHeight3LaneMap = 500
 		m_flRejuvinatorDropDuration = 9
 		m_strRejuvPickupSound = soundevent:"Rejuv.Pickup"
-		m_TrooperHealthMult = 
+		m_TrooperHealthMult =
 		[
 			2.000000,
 			2.300000,
 			2.600000,
 		]
-		m_PlayerRespawnMult = 
+		m_PlayerRespawnMult =
 		[
 			0.500000,
 			0.400000,
@@ -468,30 +468,30 @@
 	m_KillStreakFireParticle = resource_name:"particles/ui/ui_topbar_killstreak.vpcf"
 	m_MidbossIndicatorRespawningParticle = resource_name:"particles/environment/rejuv_indicator_timer.vpcf"
 	m_MidbossIndicatorSpawnedParticle = resource_name:"particles/environment/rejuv_indicator.vpcf"
-	m_enemyObjectivesAndZiplineColor = 
+	m_enemyObjectivesAndZiplineColor =
 	[
 		220,
 		76,
 		47,
 		null,
 	]
-	m_enemyObjectivesColor = 
+	m_enemyObjectivesColor =
 	[
 		220,
 		76,
 		47,
 	]
-	m_enemyZiplineColor = 
+	m_enemyZiplineColor =
 	[
 		140,
 		55,
 		38,
 	]
-	m_vecWeaponGroups = 
+	m_vecWeaponGroups =
 	[
-		
+
 		{
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_clip_size",
 				"upgrade_active_reload",
@@ -502,10 +502,10 @@
 			]
 			m_eShopGroup = "EMagazines"
 		},
-		
+
 		{
 			m_eShopGroup = "ERateOfFire"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_rapid_rounds",
 				"upgrade_blitz_bullets",
@@ -513,10 +513,10 @@
 				"upgrade_ricochet",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "EBulletVelocity"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_weighted_shots",
 				"upgrade_high_velocity_mag",
@@ -527,10 +527,10 @@
 				"upgrade_aprounds",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "EHeadshotEnthusiasts"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_headshot_booster",
 				"upgrade_headshot_booster2",
@@ -538,10 +538,10 @@
 				"upgrade_banshee_slugs",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "EWeaponRange"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_close_range",
 				"upgrade_close_quarter_combat",
@@ -550,20 +550,20 @@
 				"upgrade_proc_silence",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "ETankingBullets"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_melee_charge",
 				"upgrade_berserker",
 				"upgrade_fervor",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "ESpiritSlinger"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_crackshot",
 				"upgrade_tech_defense_shredders",
@@ -572,10 +572,10 @@
 				"upgrade_tech_overflow",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "EActives"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_fleetfoot_boots",
 				"upgrade_thermal_detonator",
@@ -583,10 +583,10 @@
 				"upgrade_warp_stone",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "EMisc"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_hollow_point_rounds",
 				"upgrade_non_player_bonus",
@@ -595,22 +595,22 @@
 				"upgrade_critshot",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "ESlowingBullets"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_slowing_bullets",
 				"upgrade_glass_cannon",
 			]
 		},
 	]
-	m_vecArmorGroups = 
+	m_vecArmorGroups =
 	[
-		
+
 		{
 			m_eShopGroup = "EMoreHealth"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_health",
 				"upgrade_health_2",
@@ -619,10 +619,10 @@
 				"upgrade_unstoppable",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "EHealing"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_medic_bullets",
 				"upgrade_health_stimpak",
@@ -630,10 +630,10 @@
 				"upgrade_rescue_beam",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "ERevitalization"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_endurance",
 				"upgrade_restorative_locket",
@@ -642,20 +642,20 @@
 				"upgrade_healbuff",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "EDebuffs"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_debuff_reducer",
 				"upgrade_reduce_debuff_duration",
 				"upgrade_inhibitor",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "ESpiritProtection"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_tech_armor",
 				"upgrade_magic_shield",
@@ -666,10 +666,10 @@
 				"upgrade_spellbreaker",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "EBulletProtection"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_return_fire",
 				"upgrade_regenerating_bullet_shield",
@@ -678,10 +678,10 @@
 				"upgrade_deflecting_armor",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "ELifesteal"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_vampire",
 				"upgrade_surging_power",
@@ -690,20 +690,20 @@
 				"upgrade_damage_recycler",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "EMelee"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_lifestrike_gauntlets",
 				"upgrade_melee_rebuttal",
 				"upgrade_boxing_glove",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "EMovementAndAgility"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_improved_stamina",
 				"upgrade_sprint_booster",
@@ -713,18 +713,18 @@
 				"upgrade_juggernaut",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "EAntiHealing"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_healbane",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "EAdditionalProtection"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_weapon_shielding",
 				"upgrade_spirit_bubble",
@@ -736,12 +736,12 @@
 			]
 		},
 	]
-	m_vecSpiritGroups = 
+	m_vecSpiritGroups =
 	[
-		
+
 		{
 			m_eShopGroup = "EMoreSpirit"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_improved_spirit",
 				"upgrade_magic_storm",
@@ -749,10 +749,10 @@
 				"upgrade_boundless_spirit",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "EBurstDamage"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_magic_burst",
 				"upgrade_quick_silver",
@@ -760,20 +760,20 @@
 				"upgrade_ultimate_burst",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "ESpiritRange"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_magic_reach",
 				"upgrade_arcane_surge",
 				"upgrade_tech_range",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "EDuration"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_arcane_extension",
 				"upgrade_imbued_duration_extender",
@@ -781,86 +781,86 @@
 				"upgrade_spirit_burn",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "ECharges"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_extra_charge",
 				"upgrade_rapid_recharge",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "ECooldown"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_magic_tempo",
 				"upgrade_cooldown_reduction",
 				"upgrade_ability_power_shard",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "EMeleeSpirit"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_acolytes_glove",
 				"upgrade_spirit_snatch",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "ESlowingMagic"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_suppressor",
 				"upgrade_magic_slow",
 				"upgrade_tech_bleed",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "EMagicVulnerability"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_magic_vulnerability",
 				"upgrade_escalating_exposure",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "ECrownControl"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_containment",
 				"upgrade_target_stun",
 				"upgrade_aoe_root",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "EAntiGun"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_withering_whip",
 				"upgrade_greater_withering_whip",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "EMiscSpirit"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_mystic_regeneration",
 				"upgrade_bullet_resist_shredder",
 				"upgrade_tech_damage_pulse",
 			]
 		},
-		
+
 		{
 			m_eShopGroup = "EActives"
-			m_vecUpgrades = 
+			m_vecUpgrades =
 			[
 				"upgrade_spirit_sap",
 				"upgrade_rupture",
@@ -874,42 +874,42 @@
 			]
 		},
 	]
-	m_MiniMapOffsets = 
+	m_MiniMapOffsets =
 	[
-		
+
 		{
 			eEntityClass = "CLASS_BOSS_TIER_3"
-			vOffset2D = 
+			vOffset2D =
 			[
 				0.000000,
 				1000.000000,
 			]
 			iLane = 0
 		},
-		
+
 		{
 			eEntityClass = "CLASS_BOSS_BARRACKS"
 			iLane = 1
-			vOffset2D = 
+			vOffset2D =
 			[
 				500.000000,
 				0.000000,
 			]
 		},
-		
+
 		{
 			eEntityClass = "CLASS_BOSS_BARRACKS"
 			iLane = 6
-			vOffset2D = 
+			vOffset2D =
 			[
 				500.000000,
 				0.000000,
 			]
 		},
-		
+
 		{
 			eEntityClass = "CLASS_DESTROYABLE_BUILDING"
-			vOffset2D = 
+			vOffset2D =
 			[
 				0.000000,
 				400.000000,

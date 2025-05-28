@@ -158,7 +158,9 @@ class RawHeroV2(BaseModel):
     top_bar_image: str | None = Field(None, validation_alias="m_strTopBarImage")
     top_bar_vertical_image: str | None = Field(None, validation_alias="m_strTopBarVertical")
     shop_stat_display: RawHeroShopStatDisplayV2 = Field(..., validation_alias="m_ShopStatDisplay")
-    cost_bonuses: dict[ItemSlotTypeV2, list[RawHeroMapModCostBonusesV2]] = Field(..., validation_alias="m_MapModCostBonuses")
+    cost_bonuses: dict[ItemSlotTypeV2, list[RawHeroMapModCostBonusesV2]] = Field(
+        ..., validation_alias="m_MapModCostBonuses"
+    )
     color_glow_enemy: tuple[int, int, int] = Field(..., validation_alias="m_colorGlowEnemy")
     color_glow_friendly: tuple[int, int, int] = Field(..., validation_alias="m_colorGlowFriendly")
     color_glow_team1: tuple[int, int, int] = Field(..., validation_alias="m_colorGlowTeam1")
