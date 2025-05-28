@@ -86,7 +86,7 @@ def load_sounds_data() -> dict:
 
 def load_colors_data() -> dict[str, dict]:
     colors = {}
-    css_colors = css_parser.parseFile("res/citadel_shared_colors.css")
+    css_colors = css_parser.parseFile("res/citadel_base_styles.css")
     for rule in css_colors.cssRules:
         if not isinstance(rule, CSSUnknownRule):
             continue
@@ -101,6 +101,8 @@ def load_colors_data() -> dict[str, dict]:
         css_key = stringcase.snakecase(css_key)
 
         # Parse Color Value
+        if not css_value.startswith("#"):
+            continue
         color_value = ColorValue(css_value[:7] if css_value.startswith("#") else css_value)
         color_value._alpha = (
             int(css_value[7:], 16) if css_value.startswith("#") and len(css_value) > 7 else 255
