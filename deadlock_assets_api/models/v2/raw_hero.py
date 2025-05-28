@@ -124,6 +124,14 @@ class RawHeroScalingStatV2(BaseModel):
     scale: float = Field(..., validation_alias="flScale")
 
 
+class RawHeroMapModCostBonusesV2(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    gold_threshold: int = Field(..., validation_alias="nGoldThreshold")
+    bonus: float = Field(..., validation_alias="flBonus")
+    percent_on_graph: float = Field(..., validation_alias="flPercentOnGraph")
+
+
 class RawHeroV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
@@ -150,6 +158,7 @@ class RawHeroV2(BaseModel):
     top_bar_image: str | None = Field(None, validation_alias="m_strTopBarImage")
     top_bar_vertical_image: str | None = Field(None, validation_alias="m_strTopBarVertical")
     shop_stat_display: RawHeroShopStatDisplayV2 = Field(..., validation_alias="m_ShopStatDisplay")
+    cost_bonuses: dict[ItemSlotTypeV2, list[RawHeroMapModCostBonusesV2]] = Field(..., validation_alias="m_MapModCostBonuses")
     color_glow_enemy: tuple[int, int, int] = Field(..., validation_alias="m_colorGlowEnemy")
     color_glow_friendly: tuple[int, int, int] = Field(..., validation_alias="m_colorGlowFriendly")
     color_glow_team1: tuple[int, int, int] = Field(..., validation_alias="m_colorGlowTeam1")
@@ -175,8 +184,8 @@ class RawHeroV2(BaseModel):
         ..., validation_alias="m_mapItemSlotInfo"
     )
     level_info: dict[str, RawHeroLevelInfoV2] = Field(..., validation_alias="m_mapLevelInfo")
-    purchase_bonuses: dict[ItemSlotTypeV2, list[RawHeroPurchaseBonusV2]] = Field(
-        ..., validation_alias="m_mapPurchaseBonuses"
+    purchase_bonuses: dict[ItemSlotTypeV2, list[RawHeroPurchaseBonusV2]] | None = Field(
+        None, validation_alias="m_mapPurchaseBonuses"
     )
     scaling_stats: dict[str, RawHeroScalingStatV2] = Field(
         ..., validation_alias="m_mapScalingStats"

@@ -15,6 +15,7 @@ from deadlock_assets_api.models.v2.raw_hero import (
     RawHeroStatsDisplayV2,
     RawHeroStatsUIV2,
     RawHeroV2,
+    RawHeroMapModCostBonusesV2,
 )
 
 
@@ -268,6 +269,7 @@ class HeroV2(BaseModel):
     physics: HeroPhysicsV2
     colors: HeroColorsV2
     shop_stat_display: HeroShopStatDisplayV2
+    cost_bonuses: dict[ItemSlotTypeV2, list[RawHeroMapModCostBonusesV2]] | None = None
     stats_display: RawHeroStatsDisplayV2
     hero_stats_ui: RawHeroStatsUIV2
     level_info: dict[str, HeroLevelInfoV2]
