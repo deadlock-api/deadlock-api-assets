@@ -13,6 +13,7 @@ from deadlock_assets_api.models.v2.raw_ability import (
     RawAbilityV2TooltipDetailsInfoSectionPropertyBlock,
 )
 from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
+from deadlock_assets_api.models.v2.raw_item_base import RawItemBaseV2
 from deadlock_assets_api.models.v2.v2_utils import replace_templates
 
 
@@ -150,13 +151,20 @@ class AbilityTooltipDetailsInfoSectionPropertyBlockV2(BaseModel):
     @classmethod
     def from_raw_info_section_property_block(
         cls,
+        raw_item: RawItemBaseV2,
+        raw_heroes: list[RawHeroV2],
         raw_info_section_property_block: RawAbilityV2TooltipDetailsInfoSectionPropertyBlock,
         localization: dict[str, str],
     ) -> "AbilityTooltipDetailsInfoSectionPropertyBlockV2":
         return cls(
-            loc_string=localization.get(
-                raw_info_section_property_block.loc_string.replace("#", ""),
-                raw_info_section_property_block.loc_string,
+            loc_string=replace_templates(
+                raw_item,
+                raw_heroes,
+                localization,
+                localization.get(
+                    raw_info_section_property_block.loc_string.replace("#", ""),
+                    raw_info_section_property_block.loc_string,
+                ),
             )
             if raw_info_section_property_block.loc_string
             else None,
@@ -181,18 +189,27 @@ class AbilityTooltipDetailsInfoSectionV2(BaseModel):
 
     @classmethod
     def from_raw_info_section(
-        cls, raw_info_section: RawAbilityV2TooltipDetailsInfoSection, localization: dict[str, str]
+        cls,
+        raw_item: RawItemBaseV2,
+        raw_heroes: list[RawHeroV2],
+        raw_info_section: RawAbilityV2TooltipDetailsInfoSection,
+        localization: dict[str, str],
     ) -> "AbilityTooltipDetailsInfoSectionV2":
         return cls(
-            loc_string=localization.get(
-                raw_info_section.loc_string.replace("#", ""), raw_info_section.loc_string
+            loc_string=replace_templates(
+                raw_item,
+                raw_heroes,
+                localization,
+                localization.get(
+                    raw_info_section.loc_string.replace("#", ""), raw_info_section.loc_string
+                ),
             )
             if raw_info_section.loc_string
             else None,
             property_upgrade_required=raw_info_section.property_upgrade_required,
             properties_block=[
                 AbilityTooltipDetailsInfoSectionPropertyBlockV2.from_raw_info_section_property_block(
-                    b, localization
+                    raw_item, raw_heroes, b, localization
                 )
                 for b in raw_info_section.properties_block
             ]
@@ -213,11 +230,17 @@ class AbilityTooltipDetailsV2(BaseModel):
 
     @classmethod
     def from_raw_tooltip_details(
-        cls, raw_tooltip_details: RawAbilityV2TooltipDetails, localization: dict[str, str]
+        cls,
+        raw_item: RawItemBaseV2,
+        raw_heroes: list[RawHeroV2],
+        raw_tooltip_details: RawAbilityV2TooltipDetails,
+        localization: dict[str, str],
     ) -> "AbilityTooltipDetailsV2":
         return cls(
             info_sections=[
-                AbilityTooltipDetailsInfoSectionV2.from_raw_info_section(s, localization)
+                AbilityTooltipDetailsInfoSectionV2.from_raw_info_section(
+                    raw_item, raw_heroes, s, localization
+                )
                 for s in raw_tooltip_details.info_sections
                 if s and any(s.model_dump().values())
             ]
@@ -258,7 +281,7 @@ class AbilityV2(ItemBaseV2):
         )
         raw_model["tooltip_details"] = (
             AbilityTooltipDetailsV2.from_raw_tooltip_details(
-                raw_ability.tooltip_details, localization
+                raw_ability, raw_heroes, raw_ability.tooltip_details, localization
             )
             if raw_ability.tooltip_details
             else None
