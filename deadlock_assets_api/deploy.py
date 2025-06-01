@@ -228,6 +228,7 @@ if __name__ == "__main__":
         json.dump([h.model_dump(exclude_none=True) for h in raw_items], f)
 
     for language, localization in localizations.items():
+        print(f"Building {language} assets")
         localization = localizations[Language.English] | localization
         ranks = build_ranks(localization)
         with open(f"{out_folder}/versions/{version_id}/ranks/{language.value}.json", "w") as f:
