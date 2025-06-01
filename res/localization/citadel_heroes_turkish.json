@@ -1304,6 +1304,7 @@
       "citadel_ability_bull_charge_on_wall_header": "Duvara \u00e7arpmada:",
       "citadel_ability_bull_charge_quip": "H\u00fccum ederek d\u00fc\u015fmanlar\u0131 beraberinizde s\u00fcr\u00fckleyin.",
       "citadel_ability_bull_charge_t1_desc": "Kahramanla \u00e7arp\u0131\u015fmada: <span class=\"highlight\">{s:WeaponPowerIncreaseDuration}</span> saniye boyunca <span class=\"highlight\">+%{s:BaseAttackDamagePercent}</span> silah hasar\u0131",
+      "citadel_ability_bull_charge_t2_desc": "Duvara \u00e7arpmada: <span class=\"highlight\">+{s:StunDuration} sn</span> Sersemletme S\u00fcresi",
       "citadel_ability_bull_heal": "Hayat Emme",
       "citadel_ability_bull_heal/modifier_bull_heal_aura": "Hayat Emme",
       "citadel_ability_bull_heal_desc": "\u00d6n\u00fcn\u00fczdeki d\u00fc\u015fmanlar\u0131n sa\u011fl\u0131\u011f\u0131n\u0131 \u00e7ekerek verilen hasar\u0131n bir k\u0131sm\u0131 kadar {g:citadel_inline_attribute:'SpiritDPS'} ve {g:citadel_inline_attribute:'Healing'} verin.",

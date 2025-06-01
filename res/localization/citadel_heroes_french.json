@@ -1304,6 +1304,7 @@
       "citadel_ability_bull_charge_on_wall_header": "En cas de placage contre un mur\u00a0:",
       "citadel_ability_bull_charge_quip": "Charge droit dans le tas et entraine ses adversaires dans la foul\u00e9e",
       "citadel_ability_bull_charge_t1_desc": "En cas de collision\u00a0: <span class=\"highlight\">+{s:BaseAttackDamagePercent}\u00a0%</span> de d\u00e9g\u00e2ts des armes pendant <span class=\"highlight\">{s:WeaponPowerIncreaseDuration}</span>\u00a0s",
+      "citadel_ability_bull_charge_t2_desc": "En cas de placage contre un mur : <span class=\"highlight\">+{s:StunDuration}\u00a0s</span> de dur\u00e9e d'\u00e9tourdissement",
       "citadel_ability_bull_heal": "Siphonnage",
       "citadel_ability_bull_heal/modifier_bull_heal_aura": "Siphonnage",
       "citadel_ability_bull_heal_desc": "{s:hero_name} draine la vie des unit\u00e9s ennemies proches devant lui. Inflige des {g:citadel_inline_attribute:'SpiritDPS'} et {g:citadel_inline_attribute:'Healing'} \u00e0 hauteur d'une partie des d\u00e9g\u00e2ts inflig\u00e9s.",

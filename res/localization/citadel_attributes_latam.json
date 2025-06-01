@@ -343,6 +343,8 @@
       "CooldownBetweenChargeReduction_label": "de rapidez entre cargas",
       "CooldownBetweenChargeReduction_postfix": "\u00a0%",
       "CooldownBetweenChargeReduction_prefix": "{s:sign}",
+      "CooldownOnMissReduction_label": "de tiempo de recarga al fallar",
+      "CooldownOnMissReduction_postfix": " %",
       "CooldownReductionFlat_label": "de reducci\u00f3n de tiempo de recarga",
       "CooldownReductionFlat_postfix": "\u00a0s",
       "CooldownReductionPerHit_label": "de reducci\u00f3n del tiempo de recarga por impacto",

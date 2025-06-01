@@ -343,6 +343,8 @@
       "CooldownBetweenChargeReduction_label": "Pengisian Lebih Cepat per Isi Daya",
       "CooldownBetweenChargeReduction_postfix": "%",
       "CooldownBetweenChargeReduction_prefix": "{s:sign}",
+      "CooldownOnMissReduction_label": "Cooldown saat meleset",
+      "CooldownOnMissReduction_postfix": "%",
       "CooldownReductionFlat_label": "Pengurangan Cooldown",
       "CooldownReductionFlat_postfix": " dtk.",
       "CooldownReductionPerHit_label": "Pengurangan Cooldown per Serangan",

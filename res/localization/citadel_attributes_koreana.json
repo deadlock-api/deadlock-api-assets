@@ -343,6 +343,8 @@
       "CooldownBetweenChargeReduction_label": "\ucda9\uc804 \uc2dc\uac04 \ub2e8\ucd95",
       "CooldownBetweenChargeReduction_postfix": "%",
       "CooldownBetweenChargeReduction_prefix": "{s:sign}",
+      "CooldownOnMissReduction_label": "\ube57\ub098\uac08 \uc2dc \ucfe8\ub2e4\uc6b4",
+      "CooldownOnMissReduction_postfix": "%",
       "CooldownReductionFlat_label": "\ucfe8\ub2e4\uc6b4 \uac10\uc18c",
       "CooldownReductionFlat_postfix": "\ucd08",
       "CooldownReductionPerHit_label": "\ud0c0\uaca9\ub2f9 \ucfe8\ub2e4\uc6b4 \uac10\uc18c",

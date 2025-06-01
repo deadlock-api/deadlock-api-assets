@@ -343,6 +343,8 @@
       "CooldownBetweenChargeReduction_label": "Kr\u00f3tszy czas mi\u0119dzy \u0142adunkami",
       "CooldownBetweenChargeReduction_postfix": "%",
       "CooldownBetweenChargeReduction_prefix": "{s:sign}",
+      "CooldownOnMissReduction_label": "Czas oczekiwania po chybieniu",
+      "CooldownOnMissReduction_postfix": "%",
       "CooldownReductionFlat_label": "Skr\u00f3cenie czas\u00f3w oczekiwania",
       "CooldownReductionFlat_postfix": "\u00a0s",
       "CooldownReductionPerHit_label": "Skr\u00f3cenie czasu oczekiwania na trafienie",
