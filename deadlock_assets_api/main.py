@@ -93,7 +93,7 @@ async def add_cache_headers(request: Request, call_next):
     is_health = request.url.path.replace("/", "").startswith("health")
     if is_success and not is_docs and not is_health:
         response.headers["Cache-Control"] = (
-            f"public, max-age={24 * 60 * 60}, s-maxage={60 * 60}, stale-while-revalidate={24 * 60 * 60}"
+            f"public, max-age={24 * 60 * 60}, s-maxage={60 * 60}, stale-while-revalidate={24 * 60 * 60}, stale-if-error={24 * 60 * 60}"
         )
     return response
 
