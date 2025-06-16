@@ -1329,7 +1329,7 @@
       "citadel_ability_chrono_pulse_grenade_AMP": "Amplificaci\u00f3n de da\u00f1o de Granada de Pulsaciones",
       "citadel_ability_chrono_pulse_grenade_desc": "Lanza una granada que empieza a generar pulsaciones cuando cae. Cada pulsaci\u00f3n inflige <span class=\"highlight\">da\u00f1o y ralentiza el movimiento, adem\u00e1s de amplificar de manera acumulable el da\u00f1o</span> que {s:hero_name} causa a la v\u00edctima.",
       "citadel_ability_chrono_pulse_grenade_quip": "Lanza una granada que genera pulsaciones que infligen da\u00f1o y ralentizan",
-      "citadel_ability_chrono_pulse_grenade_t3_desc": "<span class=\"highlight\">+{s:PulseDamage}</span> de da\u00f1o por pulsaci\u00f3n y <span class=\"highlight\">+{s:RadiusIncreasePerPulse}\u00a0m</span> de radio por pulsaci\u00f3n.",
+      "citadel_ability_chrono_pulse_grenade_t3_desc": "<span class=\"highlight\">+{s:PulseDamage}</span> de da\u00f1o por pulsaci\u00f3n y <span class=\"highlight\">+{s:RadiusIncreasePerPulse}\u00a0m</span> de radio por pulsaci\u00f3n",
       "citadel_ability_chrono_swap": "Intercambio\u00a0Parad\u00f3jico",
       "citadel_ability_chrono_swap_desc": "Dispara un proyectil que <span class=\"highlight\">intercambia tu posici\u00f3n con la del h\u00e9roe enemigo objetivo</span>. Mientras se produce el efecto, obtienes <span class=\"highlight\">robo de vida espiritual</span> y el enemigo <span class=\"highlight\">recibe da\u00f1o a lo largo del tiempo</span>.",
       "citadel_ability_chrono_swap_quip": "Intercambia posiciones con un h\u00e9roe enemigo",

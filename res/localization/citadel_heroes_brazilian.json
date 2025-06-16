@@ -700,6 +700,7 @@
       "TargetingConeAngle_label": "Cone do ataque",
       "TechAmpLinger_postfix": "s",
       "TechAmpPerBullet_postfix": "%",
+      "TechShieldDuration_label": "Dura\u00e7\u00e3o do escudo",
       "TechShieldDuration_postfix": "s",
       "TechShieldPerSecond_postfix": "/s",
       "TeleportTime_postfix": "s",
