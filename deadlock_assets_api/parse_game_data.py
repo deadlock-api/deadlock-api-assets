@@ -125,8 +125,8 @@ if __name__ == "__main__":
         f"res/builds/{get_version_id()}/v2/ability_icons.css",
     )
     shutil.copyfile(
-        "res/ability_properties.css",
-        f"res/builds/{get_version_id()}/v2/ability_properties.css",
+        "res/ability_property_icons.css",
+        f"res/builds/{get_version_id()}/v2/ability_property_icons.css",
     )
     parse_vdata()
     shutil.copyfile(

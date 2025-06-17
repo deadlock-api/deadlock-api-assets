@@ -92,10 +92,7 @@ class RawItemPropertyV2(BaseModel):
             return None
         if value.startswith("panorama"):
             return value
-        icon = parse_css_ability_properties_icon("res/citadel_mod_tooltip_shared.css", value)
-        if icon is not None:
-            return icon
-        return parse_css_ability_properties_icon("res/ability_properties.css", value)
+        return parse_css_ability_properties_icon("res/ability_property_icons.css", value)
 
     @field_validator("usage_flags", mode="before")
     @classmethod

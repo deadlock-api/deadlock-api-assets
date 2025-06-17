@@ -39,13 +39,8 @@ class RawAbilityV2TooltipDetailsInfoSectionPropertyBlockProperty(BaseModel):
     @computed_field
     @property
     def important_property_icon_path(self) -> str | None:
-        icon = parse_css_ability_properties_icon(
-            "res/citadel_mod_tooltip_shared.css", self.important_property
-        )
-        if icon is not None:
-            return icon
         return parse_css_ability_properties_icon(
-            "res/ability_properties.css", self.important_property
+            "res/ability_property_icons.css", self.important_property
         )
 
 
