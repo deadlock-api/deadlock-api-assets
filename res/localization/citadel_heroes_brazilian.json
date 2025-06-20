@@ -1063,7 +1063,7 @@
       "ability_melee_zealot": "Golpe",
       "ability_nano_catform": "Ava",
       "ability_nano_catform/modifier_catform": "Ava",
-      "ability_nano_catform_desc": "Desvanece nas sombras e possui Ava. Voc\u00ea ganha {g:citadel_inline_attribute:'BonusMoveSpeed'} e torna-se <Panel class=\"AbilityPropertyIcon prop_invisible\"> <span class=\"highlight\">oculta no minimapa</span>, mas n\u00e3o pode atacar ou usar habilidades. <br><br><span class=\"diminish\">Ao sofrer dano de um her\u00f3i inimigo, a acelera\u00e7\u00e3o de movimento adicional \u00e9 reduzida em {s:EnemyDamageSpeedPenalty}% e voc\u00ea fica incapaz de ativar Ava por {s:InterruptCooldown}s.</span>",
+      "ability_nano_catform_desc": "Desvanece nas sombras e possui Ava. Voc\u00ea ganha {g:citadel_inline_attribute:'BonusMoveSpeed'} e torna-se <Panel class=\"AbilityPropertyIcon prop_invisible\"> <span class=\"highlight\">oculta no minimapa</span>, mas n\u00e3o pode usar a sua arma e nem habilidades. <br>{g:citadel_keybind:'AbilityMelee'} : salta para a frente, quebrando caixas e urnas. <br><br><span class=\"diminish\">Ao sofrer dano de um her\u00f3i inimigo, a acelera\u00e7\u00e3o de movimento adicional \u00e9 reduzida em {s:EnemyDamageSpeedPenalty}% e voc\u00ea fica incapaz de ativar Ava por {s:InterruptCooldown}s.</span>",
       "ability_nano_catform_quip": "Assume o controle de Ava",
       "ability_nano_catform_t3_desc": "<span class=\"highlight\">{s:AbilityCooldown}s</span> de recarga. Mais <span class=\"highlight\">{s:HealthRegen}</span> de regenera\u00e7\u00e3o de vida enquanto em Ava",
       "ability_nano_catform_trigger_buttonhint": "Retornar de Ava",

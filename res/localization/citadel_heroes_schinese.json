@@ -1091,6 +1091,7 @@
       "ability_melee_zealot": "\u8fd1\u6218",
       "ability_nano_catform": "\u827e\u5a03",
       "ability_nano_catform/modifier_catform": "\u827e\u5a03",
+      "ability_nano_catform_desc": "\u5316\u4e3a\u9634\u5f71\u5e76\u9644\u5728\u827e\u5a03\u8eab\u4e0a\u3002\u4f60\u83b7\u5f97{g:citadel_inline_attribute:'BonusMoveSpeed'}\u5e76<Panel class=\"AbilityPropertyIcon prop_invisible\"> <span class=\"highlight\">\u5728\u5c0f\u5730\u56fe\u4e0a\u9690\u8eab</span>\uff0c\u4f46\u65e0\u6cd5\u4f7f\u7528\u6b66\u5668\u6216\u65bd\u653e\u6280\u80fd\u3002<br>{g:citadel_keybind:'AbilityMelee'}\uff1a\u731b\u6251\u4ee5\u6253\u7834\u76d2\u5b50\u3002<br><br><span class=\"diminish\">\u5f53\u53d7\u5230\u654c\u65b9\u82f1\u96c4\u4f24\u5bb3\u65f6\uff0c\u989d\u5916\u79fb\u52a8\u901f\u5ea6\u5c06\u964d\u4f4e {s:EnemyDamageSpeedPenalty}% \uff0c\u5e76\u4e14\u5728 {s:InterruptCooldown}s \u5185\u65e0\u6cd5\u6fc0\u6d3b\u827e\u5a03\u3002",
       "ability_nano_catform_quip": "\u63a7\u5236\u827e\u5a03",
       "ability_nano_catform_t3_desc": "<span class=\"highlight\">{s:AbilityCooldown}s</span> \u51b7\u5374\u65f6\u95f4\u3002\u5728\u4f7f\u7528\u8be5\u6280\u80fd\u671f\u95f4\u83b7\u5f97 <span class=\"highlight\">{s:HealthRegen}</span> \u751f\u547d\u503c\u6062\u590d\u3002",
       "ability_nano_catform_trigger_buttonhint": "\u79bb\u5f00\u827e\u5a03",

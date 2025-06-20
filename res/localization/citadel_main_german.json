@@ -1150,8 +1150,6 @@
       "Citadel_PlayerList_Teammates": "Teammitglieder",
       "Citadel_Player_Level_AP": "FP",
       "Citadel_Player_Level_APShort": "FP",
-      "Citadel_Player_Level_AP_Rewards": "Eine <span class=\"boldText\">F\u00e4higkeitsfreischaltung</span> oder <span class=\"boldText\">FP</span>",
-      "Citadel_Player_Level_AP_Rewards_Visuals": "Eine <Panel class=\"rewardIcon iconUnlock\"></Panel> oder <Panel class=\"rewardIcon iconAP\"></Panel>",
       "Citadel_Player_Level_AbilityUnlock": "F\u00e4higkeits\u00adfreischalt.",
       "Citadel_Player_Level_AbilityUnlocksShort": "F\u00e4higkeitsfreischaltung",
       "Citadel_Player_Level_BaseBullet": "Grundkugel\u00adschaden",
