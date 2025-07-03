@@ -124,6 +124,11 @@ def get_health():
     return {"status": "ok"}
 
 
+@app.head("/health", include_in_schema=False)
+def get_health_head():
+    return {"status": "ok"}
+
+
 @app.get("/favicon.ico", include_in_schema=False)
 def get_favicon():
     return FileResponse("favicon.ico")
