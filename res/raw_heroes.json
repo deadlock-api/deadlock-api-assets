@@ -34,52 +34,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -376,7 +376,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -453,7 +453,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -714,13 +714,13 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.16,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.12,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 39.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -815,52 +815,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -1157,7 +1157,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -1234,7 +1234,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -1507,7 +1507,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -1602,52 +1602,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -1944,7 +1944,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -2021,7 +2021,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -2298,7 +2298,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -2393,52 +2393,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -2735,7 +2735,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -2812,7 +2812,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -3076,7 +3076,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -3171,52 +3171,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -3513,7 +3513,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -3590,7 +3590,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -3855,7 +3855,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -3950,52 +3950,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -4292,7 +4292,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -4369,7 +4369,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -4639,7 +4639,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -4734,52 +4734,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -5076,7 +5076,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -5153,7 +5153,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -5420,12 +5420,12 @@
     "skin": 0,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.18,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 52.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 56.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.625,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -5520,52 +5520,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -5862,7 +5862,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -5939,7 +5939,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -6206,7 +6206,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -6301,52 +6301,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -6643,7 +6643,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -6720,7 +6720,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -6985,7 +6985,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.625,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -7080,52 +7080,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -7422,7 +7422,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -7499,7 +7499,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -7768,7 +7768,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.625,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -7863,52 +7863,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -8205,7 +8205,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -8282,7 +8282,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -8551,7 +8551,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -8646,52 +8646,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -8988,7 +8988,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -9065,7 +9065,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -9328,7 +9328,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -9423,52 +9423,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -9765,7 +9765,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -9842,7 +9842,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -10108,7 +10108,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -10203,52 +10203,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -10545,7 +10545,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -10622,7 +10622,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -10889,7 +10889,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -10984,52 +10984,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -11326,7 +11326,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -11403,7 +11403,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -11676,7 +11676,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -11771,52 +11771,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -12113,7 +12113,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -12190,7 +12190,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -12456,7 +12456,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -12551,52 +12551,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -12894,7 +12894,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -12971,7 +12971,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -13237,7 +13237,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -13332,52 +13332,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -13674,7 +13674,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -13751,7 +13751,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -14008,13 +14008,13 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.16,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.15,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 44.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.34,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -14109,52 +14109,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -14451,7 +14451,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -14528,7 +14528,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -14757,7 +14757,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -14852,52 +14852,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -15194,7 +15194,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -15271,7 +15271,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -15548,7 +15548,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -15643,52 +15643,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -15986,7 +15986,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -16063,7 +16063,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -16338,7 +16338,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -16433,52 +16433,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -16775,7 +16775,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -16852,7 +16852,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -17114,7 +17114,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -17209,52 +17209,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -17552,7 +17552,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -17629,7 +17629,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -17894,7 +17894,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -17989,52 +17989,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -18331,7 +18331,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -18408,7 +18408,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -18637,7 +18637,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -18732,52 +18732,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -19074,7 +19074,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -19151,7 +19151,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -19380,7 +19380,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -19475,52 +19475,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -19817,7 +19817,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -19894,7 +19894,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -20123,7 +20123,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -20218,52 +20218,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -20560,7 +20560,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -20637,7 +20637,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -20888,7 +20888,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -20983,52 +20983,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -21325,7 +21325,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -21402,7 +21402,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -21631,7 +21631,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -21726,52 +21726,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -22068,7 +22068,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -22145,7 +22145,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -22414,7 +22414,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -22509,52 +22509,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -22851,7 +22851,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -22928,7 +22928,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -23157,7 +23157,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -23252,52 +23252,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -23594,7 +23594,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -23671,7 +23671,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -23936,7 +23936,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -24031,52 +24031,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -24373,7 +24373,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -24450,7 +24450,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -24694,7 +24694,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -24789,52 +24789,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -25131,7 +25131,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -25208,7 +25208,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -25437,7 +25437,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -25532,52 +25532,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -25874,7 +25874,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -25951,7 +25951,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -26180,7 +26180,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -26275,52 +26275,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -26617,7 +26617,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -26694,7 +26694,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -26923,7 +26923,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -27018,52 +27018,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -27360,7 +27360,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -27437,7 +27437,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -27707,7 +27707,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -27802,52 +27802,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -28144,7 +28144,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -28221,7 +28221,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -28462,7 +28462,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -28557,52 +28557,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -28899,7 +28899,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -28976,7 +28976,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -29245,7 +29245,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -29340,52 +29340,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -29682,7 +29682,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -29759,7 +29759,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -30006,7 +30006,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -30101,52 +30101,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -30443,7 +30443,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -30520,7 +30520,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -30764,7 +30764,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -30859,52 +30859,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -31201,7 +31201,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -31278,7 +31278,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -31545,7 +31545,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -31640,52 +31640,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -31982,7 +31982,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -32059,7 +32059,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -32328,7 +32328,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -32423,52 +32423,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -32765,7 +32765,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -32842,7 +32842,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -33092,7 +33092,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -33187,52 +33187,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -33529,7 +33529,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -33606,7 +33606,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -33857,7 +33857,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -33952,52 +33952,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -34294,7 +34294,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -34371,7 +34371,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -34619,7 +34619,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -34714,52 +34714,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -35056,7 +35056,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -35133,7 +35133,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -35390,7 +35390,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -35485,52 +35485,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -35827,7 +35827,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -35904,7 +35904,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -36161,7 +36161,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -36256,52 +36256,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -36599,7 +36599,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -36676,7 +36676,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -36919,7 +36919,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -37014,52 +37014,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -37356,7 +37356,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -37433,7 +37433,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -37700,7 +37700,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -37795,52 +37795,52 @@
     "cost_bonuses": {
       "spirit": [
         {
-          "bonus": 6.0,
+          "bonus": 7.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 9.0,
+          "bonus": 11.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 12.0,
+          "bonus": 15.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 15.0,
+          "bonus": 19.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 20.0,
+          "bonus": 25.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 25.0,
+          "bonus": 32.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 35.0,
+          "bonus": 44.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 56.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 55.0,
+          "bonus": 69.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 65.0,
+          "bonus": 81.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -38137,7 +38137,7 @@
       },
       "2": {
         "bonus_currencies": {
-          "EAbilityUnlocks": 1
+          "EAbilityPoints": 1
         },
         "required_gold": 300,
         "use_standard_upgrade": true
@@ -38214,7 +38214,7 @@
       },
       "3": {
         "bonus_currencies": {
-          "EAbilityPoints": 1
+          "EAbilityUnlocks": 1
         },
         "required_gold": 600,
         "use_standard_upgrade": true
@@ -38483,7 +38483,7 @@
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.25
+      "MODIFIER_VALUE_TECH_POWER": 1.1
     },
     "starting_stats": {
       "ability_resource_max": 0,
