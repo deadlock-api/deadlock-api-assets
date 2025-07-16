@@ -2,9 +2,9 @@
 
 if [ ! -f DepotDownloader ]; then
     if [[ "$OSTYPE" == "darwin"* ]]; then
-        curl -L -o DepotDownloader.zip "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_3.3.0/DepotDownloader-macos-arm64.zip"
+        curl -L -o DepotDownloader.zip "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_3.4.0/DepotDownloader-macos-arm64.zip"
     elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
-        wget https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_3.3.0/DepotDownloader-linux-x64.zip -O DepotDownloader.zip
+        wget https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_3.4.0/DepotDownloader-linux-x64.zip -O DepotDownloader.zip
     else
         echo "Unsupported OS: $OSTYPE"
         exit 1
@@ -14,9 +14,9 @@ fi
 
 if [ ! -f Source2Viewer-CLI ]; then
     if [[ "$OSTYPE" == "darwin"* ]]; then
-        curl -L -o Decompiler.zip "https://github.com/ValveResourceFormat/ValveResourceFormat/releases/download/12.0/cli-macos-arm64.zip"
+        curl -L -o Decompiler.zip "https://github.com/ValveResourceFormat/ValveResourceFormat/releases/download/13.0/cli-macos-arm64.zip"
     elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
-        wget https://github.com/ValveResourceFormat/ValveResourceFormat/releases/download/12.0/cli-linux-x64.zip -O Decompiler.zip
+        wget https://github.com/ValveResourceFormat/ValveResourceFormat/releases/download/13.0/cli-linux-x64.zip -O Decompiler.zip
     else
         echo "Unsupported OS: $OSTYPE"
         exit 1
