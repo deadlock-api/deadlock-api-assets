@@ -36,7 +36,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 fi
 
 # Download Deadlock Game files
-./DepotDownloader -app 1422450 -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -all-platforms -all-languages -validate -remember-password || exit 1
+#./DepotDownloader -app 1422450 -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -all-platforms -all-languages -validate -remember-password || exit 1
 
 mkdir -p depots/game
 rsync -av depots/*/*/game/* depots/game/
@@ -49,6 +49,8 @@ citadel_folder="depots/game/citadel"
 ./Source2Viewer-CLI -i "$citadel_folder"/pak01_dir.vpk -d --threads 8 -o "$citadel_folder" -f resource
 ./Source2Viewer-CLI -i "$citadel_folder"/pak01_dir.vpk -d --threads 8 -o "$citadel_folder" -f panorama
 ./Source2Viewer-CLI -i "$citadel_folder"/pak01_dir.vpk -d --threads 8 -o "$citadel_folder" -f sounds
+./Source2Viewer-CLI -i "$citadel_folder"/pak01_dir.vpk -d --threads 8 -o "$citadel_folder" -e vmdl_c --gltf_export_animations --gltf_export_extras  --gltf_export_materials  --gltf_textures_adapt --gltf_export_format glb -f models/heroes_staging
+./Source2Viewer-CLI -i "$citadel_folder"/pak01_dir.vpk -d --threads 8 -o "$citadel_folder" -e vmdl_c --gltf_export_animations --gltf_export_extras  --gltf_export_materials  --gltf_textures_adapt --gltf_export_format glb -f models/heroes_wip
 
 # Extract chunked VPK files
 #maps_folder="depots/game/citadel/maps"
@@ -128,6 +130,24 @@ cp "$citadel_folder"/panorama/styles/citadel_base_styles.css res/
 # Extract sound files
 mkdir -p sounds
 cp -r "$citadel_folder"/sounds/* sounds/
+
+# Extract model files
+mkdir -p models/heroes_staging
+mkdir -p models/heroes_wip
+#cp -r "$citadel_folder"/models/heroes_staging/* models/heroes_staging/
+#cp -r "$citadel_folder"/models/heroes_wip/* models/heroes_wip/
+find "$citadel_folder"/models/heroes_staging/ -type f -name '*.glb' -printf '%P\n' | \
+    xargs -I {} sh -c ' \
+    echo "Processing {}"; \
+    mkdir -p "$(dirname models/heroes_staging/{})" && \
+    npx gltf-transform optimize depots/game/citadel/models/heroes_staging/{} models/heroes_staging/{}
+    '
+find "$citadel_folder"/models/heroes_wip/ -type f -name '*.glb' -printf '%P\n' | \
+    xargs -I {} -P 8 npx gltf-transform optimize "$citadel_folder"/models/heroes_wip/{} models/heroes_wip/{}
+
+#butcher/boulder/boulder.glb
+mkdir -p models/heroes_staging/butcher/boulder
+npx gltf-transform optimize "$citadel_folder"/models/heroes_staging/butcher/boulder/boulder.glb models/heroes_staging/butcher/boulder/boulder.glb
 
 # Extract image files
 mkdir -p images

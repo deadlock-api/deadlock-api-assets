@@ -149,6 +149,7 @@ class RawHeroV2(BaseModel):
     available_in_hero_labs: bool | None = Field(None, validation_alias="m_bAvailableInHeroLabs")
     limited_testing: bool = Field(..., validation_alias="m_bLimitedTesting")
     complexity: int = Field(..., validation_alias="m_nComplexity")
+    model_name: str | None = Field(None, validation_alias="m_strModelName")
     skin: int = Field(..., validation_alias="m_nModelSkin")
     starting_stats: RawHeroStartingStatsV2 = Field(..., validation_alias="m_mapStartingStats")
     icon_hero_card: str | None = Field(None, validation_alias="m_strIconHeroCard")

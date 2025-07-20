@@ -2,7 +2,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 
-from deadlock_assets_api.glob import IMAGE_BASE_URL
+from deadlock_assets_api.glob import IMAGE_BASE_URL, MODEL_BASE_URL
 from deadlock_assets_api.models.v2.enums import HeroItemTypeV2, ItemSlotTypeV2
 from deadlock_assets_api.models.v2.raw_hero import (
     RawHeroItemSlotInfoValueV2,
@@ -74,6 +74,24 @@ class HeroImagesV2(BaseModel):
                 for k, v in images.items()
             },
         )
+
+
+class HeroModelsV2(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    default: str | None = None
+
+    @classmethod
+    def from_raw_hero(cls, raw_hero: RawHeroV2) -> "HeroModelsV2":
+        model_name = raw_hero.model_name
+        if not model_name or not model_name.startswith('resource_name:"models/'):
+            return cls(default=None)
+        model_name = (
+            model_name.lstrip('resource_name:"models/')
+            .replace(".vmdl_c", ".glb")
+            .replace(".vmdl", ".glb")
+        )
+        return cls(default=f"{MODEL_BASE_URL}/{model_name}")
 
 
 class HeroDescriptionV2(BaseModel):
@@ -263,6 +281,7 @@ class HeroV2(BaseModel):
     complexity: int
     skin: int
     images: HeroImagesV2
+    models: HeroModelsV2 | None = None
     items: dict[HeroItemTypeV2, str]
     starting_stats: HeroStartingStatsV2
     item_slot_info: dict[ItemSlotTypeV2, RawHeroItemSlotInfoValueV2]

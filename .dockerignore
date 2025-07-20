@@ -1,8 +1,11 @@
 vdata/
 images/
 svgs/
+sounds/
+models/
 videos/
 localization/
+deploy/
 
 # Game File Extractor
 DepotDownloader
