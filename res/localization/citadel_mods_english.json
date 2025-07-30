@@ -10,6 +10,9 @@
       "AmbushBonusFireRate_label": "Ambush Fire Rate",
       "AmbushBonusFireRate_postfix": "%",
       "AmbushBonusFireRate_prefix": "+",
+      "AmbushBonusMeleeDamage_label": "Ambush Melee Damage",
+      "AmbushBonusMeleeDamage_postfix": "%",
+      "AmbushBonusMeleeDamage_postvalue_label": "Ambush Melee Damage",
       "AmbushBonusTechPower_label": "Ambush Spirit Power",
       "AmbushBonusTechPower_prefix": "+",
       "AmbushDuration_label": "Ambush Duration",
@@ -302,7 +305,7 @@
       "upgrade_cheat_death_unkillable_passive": "When you would take lethal damage, instead become <span class=\"highlight\">temporarily death immune</span>.<br><br>While death immune, you deal <span class=\"highlight\">reduced damage</span>, have <span class=\"highlight\">reduced healing</span> and <span class=\"highlight\">move slower</span>.",
       "upgrade_chonky_desc": "After not taking damage for <span class=\"highlight\">{s:RestoreDelay}s</span>, gain <span class=\"highlight\">{s:HealLifePercentOutOfCombat}% Max Health Regen</span>.",
       "upgrade_chonky_high_health_passive_desc": "When you are <span class=\"highlight\">above {s:HealthThreshold}% health</span>, you have bonus <span class=\"highlight\">Move Speed</span>.",
-      "upgrade_cloaking_device_active_ambush_desc": "<br>Attacking or using an ability will end your stealth and start an <span class=\"highlight\">ambush</span>, temporarily granting you bonus <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Spirit Power</span>.",
+      "upgrade_cloaking_device_active_ambush_desc": "<br>Attacking or using an ability will end your stealth and start an <span class=\"highlight\">ambush</span>, temporarily granting you bonus <span class=\"highlight\">Fire Rate</span>, <span class=\"highlight\">Spirit Power</span> and <span class=\"highlight\">Melee Damage</span>.",
       "upgrade_cloaking_device_active_desc": "Become <span class=\"highlight\">Stealthed</span>. Whenever you take damage while Stealthed you get briefly revealed.",
       "upgrade_close_quarter_combat/modifier_cqc_proc/modifier_slow_base": "Slowed",
       "upgrade_close_quarter_combat_desc": "When in <span class=\"highlight\">close range</span> to your target, gain <span class=\"highlight\">Weapon Damage</span> and your bullets apply a <span class=\"highlight\">Movement Slow</span>.",
@@ -372,7 +375,7 @@
       "upgrade_magic_carpet_desc": "Summon a Magic Carpet that will <span class=\"highlight\">fly</span> you away.  While flying you are immune to slows and doing any action will dismiss the carpet.  <span class=\"diminish\"><br>Cannot use abilities while the carpet is being summoned.</span>",
       "upgrade_magic_reach_desc": "Imbue an ability to increase its <span class=\"highlight\">range</span> and <span class=\"highlight\">effect radius</span>.",
       "upgrade_magic_shield_desc": "While you are <span class=\"highlight\">above {s:LifeThreshold}% health</span>, gain bonus <span class=\"highlight\">{g:citadel_inline_attribute:'Spirit'}</span> and <span class=\"highlight\">Cooldown Reduction</span>.",
-      "upgrade_magic_shock_desc": "Charges up over time with {g:citadel_inline_attribute:'BonusSpiritDamage'}, causing abilities dealing more than <span class=\"highlight\">{s:MinimumDamage}</span> damage to deal additional damage.",
+      "upgrade_magic_shock_desc": "Charges up over time with {g:citadel_inline_attribute:'BonusSpiritDamage'}, causing abilities dealing more than <span class=\"highlight\">{s:MinimumDamage}</span> damage to deal additional damage. <span class=\"highlight\">Ignores Spirit Resistance.</span>",
       "upgrade_magic_slow_desc": "When the target takes <span class=\"highlight\">Spirit Damage</span>, they have their <span class=\"highlight\">Move Speed</span> reduced.",
       "upgrade_magic_storm_desc": "Imbue an ability with <span class=\"highlight\">permanent Spirit Power</span>. When that ability is used, gain bonus <span class=\"highlight\">Move Speed</span> and maintain full speed while attacking.",
       "upgrade_magic_tempo_desc": "Imbue an ability to reduce its <span class=\"highlight\">Cooldown</span>.",
@@ -451,7 +454,7 @@
       "upgrade_warp_stone_desc": "<span class=\"highlight\">Teleport</span> straight ahead, gaining <span class=\"highlight\">Bullet Resist</span>.",
       "upgrade_weapon_backstabber_desc": "Attacking enemies from behind with your weapon or melee opens a wound dealing {g:citadel_inline_attribute:'SpiritDPS'} and reducing their bullet resist.  During this time, if you or any allies are near the target, will see them <span class=\"highlight\">through walls</span> and be given {g:citadel_inline_attribute:'BonusMoveSpeed'}.",
       "upgrade_weapon_shielding_desc": "Gain a <span class=\"highlight\">Barrier</span> whenever you take significant {g:citadel_inline_attribute:'WeaponDamage'} from enemy Heroes in a small time frame.",
-      "upgrade_withering_whip_desc": "Target an enemy to reduce their <span class=\"highlight\">Fire Rate</span>."
+      "upgrade_withering_whip_desc": "Target an enemy to reduce their <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Bullet Resistance</span>."
     }
   }
 }

@@ -10,6 +10,9 @@
       "AmbushBonusFireRate_label": "de cad. de tiro por emboscada",
       "AmbushBonusFireRate_postfix": "\u00a0%",
       "AmbushBonusFireRate_prefix": "+",
+      "AmbushBonusMeleeDamage_label": "de da\u00f1o cuerpo a cuerpo por emboscada",
+      "AmbushBonusMeleeDamage_postfix": " %",
+      "AmbushBonusMeleeDamage_postvalue_label": "de da\u00f1o cuerpo a cuerpo por emboscada",
       "AmbushBonusTechPower_label": "de poder esp. por emboscada",
       "AmbushBonusTechPower_prefix": "+",
       "AmbushDuration_label": "de emboscada",
@@ -299,7 +302,7 @@
       "upgrade_cheat_death_unkillable_passive": "Al recibir da\u00f1o letal, en su lugar te conviertes <span class=\"highlight\">temporalmente inmune a la muerte</span>.<br><br>Al ser inmune a la muerte, infliges <span class=\"highlight\">de da\u00f1o reducido</span>, tienes <span class=\"highlight\">curaci\u00f3n reducida</span> y <span class=\"highlight\">movimiento ralentizado</span>.",
       "upgrade_chonky_desc": "Despu\u00e9s de no recibir da\u00f1o durante <span class=\"highlight\">{s:RestoreDelay}\u00a0s</span>, obtienes un <span class=\"highlight\">{s:HealLifePercentOutOfCombat}\u00a0% de regeneraci\u00f3n m\u00e1xima de vida</span>.",
       "upgrade_chonky_high_health_passive_desc": "Cuando est\u00e1s <span class=\"highlight\">arriba del {s:HealthThreshold}\u00a0% de vida</span>, obtienes <span class=\"highlight\">velocidad de movimiento</span> adicional.",
-      "upgrade_cloaking_device_active_ambush_desc": "<br>Atacar o usar una habilidad pondr\u00e1 fin a tu sigilo e iniciar\u00e1 una <span class=\"highlight\">emboscada</span>, lo que te otorgar\u00e1 <span class=\"highlight\">cadencia de tiro</span> y <span class=\"highlight\">poder espiritual</span> adicionales de forma temporal.",
+      "upgrade_cloaking_device_active_ambush_desc": "<br>Atacar o usar una habilidad pondr\u00e1 fin a tu sigilo e iniciar\u00e1 una <span class=\"highlight\">emboscada</span>, lo que te otorgar\u00e1 <span class=\"highlight\">cadencia de tiro</span>, <span class=\"highlight\">poder espiritual</span> y <span class=\"highlight\">da\u00f1o cuerpo a cuerpo</span> adicionales de forma temporal.",
       "upgrade_cloaking_device_active_desc": "Convi\u00e9rtete <span class=\"highlight\">sigiloso</span>. Cada vez que recibas da\u00f1o en este estado, ser\u00e1s revelado brevemente.",
       "upgrade_close_quarter_combat/modifier_cqc_proc/modifier_slow_base": "Ralentizado",
       "upgrade_close_quarter_combat_desc": "Cuando est\u00e1s <span class=\"highlight\">a una distancia corta</span> de tu objetivo, obtienes <span class=\"highlight\">da\u00f1o por arma</span> adicional y tus balas aplican <span class=\"highlight\">ralentizaci\u00f3n de movimiento</span>.",
@@ -321,7 +324,7 @@
       "upgrade_diviners_kevlar_desc": "Al lanzar una <span class=\"highlight\">habilidad definitiva</span> obtienes una <span class=\"highlight\">barrera </span> y <span class=\"highlight\">poder espiritual</span> temporal.",
       "upgrade_dps_aura_active_desc": "Proporciona <span class=\"highlight\">{g:citadel_inline_attribute:'MoveSpeed'}</span> y <span class=\"highlight\">{g:citadel_inline_attribute:'FireRate'}</span> para ti y tus aliados cercanos. Los <span class=\"highlight\">secuaces</span> obtienen el doble de valor.",
       "upgrade_dps_aura_desc": "Proporciona <span class=\"highlight\">resistencia bal\u00edstica</span> a las unidades aliadas cercanas.",
-      "upgrade_enchanted_holsters_desc": "Siempre que lances una habilidad o uses un objeto, se acumulan los efectos positivos que mejoran la cadencia de tiro y la velocidad de recarga.<br><span class=\"diminish\">Cada acumulaci\u00f3n actualiza la duraci\u00f3n.</span>",
+      "upgrade_enchanted_holsters_desc": "Al estar en combate, cada vez que lanzas una habilidad o usas un objeto, obtienes una mejora acumulable en la cadencia de tiro y la velocidad de recarga.<br><span class=\"diminish\">Cada acumulaci\u00f3n restablece la duraci\u00f3n.</span>",
       "upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff": "Exposici\u00f3n ascendente",
       "upgrade_escalating_exposure_desc": "Infligir <span class=\"highlight\">da\u00f1o espiritual</span> aplica una <span class=\"highlight\">amplificaci\u00f3n espiritual</span> acumulable que aumenta tu <span class=\"highlight\">da\u00f1o espiritual</span> contra el objetivo.",
       "upgrade_ethereal_bullets_desc": "Tu habilidad imbuida se carga con el paso del tiempo con {g:citadel_inline_attribute:'BonusSpiritDamage'}, {g:citadel_inline_attribute:'BonusFireRate'} y con <span class=\"highlight\">recarga de balas</span> al usarse. La pr\u00f3xima vez que recargues, tus <span class=\"highlight\">balas infligen da\u00f1o espiritual adicional</span> con base en tu poder espiritual.",
@@ -369,7 +372,7 @@
       "upgrade_magic_carpet_desc": "Invoca una alfombra m\u00e1gica que te har\u00e1<span class=\"highlight\">volar</span> y te alejar\u00e1. Mientras vuelas eres inmune a la ralentizaci\u00f3n y hace que cualquier acci\u00f3n descarte la alfombra.  <span class=\"diminish\"><br>No se pueden usar habilidades mientras se invoca la alfombra.</span>",
       "upgrade_magic_reach_desc": "Imbuye una habilidad para aumentar su <span class=\"highlight\">alcance</span> y <span class=\"highlight\">radio de efecto</span>.",
       "upgrade_magic_shield_desc": "Mientras est\u00e1s <span class=\"highlight\">por encima del {s:LifeThreshold}\u00a0% de vida</span>, obtienes <span class=\"highlight\">{g:citadel_inline_attribute:'Spirit'}</span> adicional y <span class=\"highlight\">reducci\u00f3n del tiempo de recarga</span>.",
-      "upgrade_magic_shock_desc": "Se carga con el paso del tiempo con {g:citadel_inline_attribute:'BonusSpiritDamage'}, haciendo que las habilidades inflijan m\u00e1s de <span class=\"highlight\">{s:MinimumDamage}</span> de da\u00f1o para infligir da\u00f1o adicional.",
+      "upgrade_magic_shock_desc": "Se carga con el paso del tiempo con {g:citadel_inline_attribute:'BonusSpiritDamage'}, lo que hace que las habilidades que infligen m\u00e1s de <span class=\"highlight\">{s:MinimumDamage}</span> de da\u00f1o inflijan da\u00f1o adicional. <span class=\"highlight\">Ignora la resistencia espiritual</span>.",
       "upgrade_magic_slow_desc": "Cuando el objetivo recibe <span class=\"highlight\">da\u00f1o espiritual</span>, su <span class=\"highlight\">velocidad de movimiento</span> se reduce.",
       "upgrade_magic_storm_desc": "Imbuye una habilidad de <span class=\"highlight\">poder espiritual permanente</span>. Al usar esa habilidad, obtienes <span class=\"highlight\">velocidad de movimiento</span> adicional y mantienes m\u00e1xima velocidad cuando atacas.",
       "upgrade_magic_tempo_desc": "Imbuye una habilidad para reducir su <span class=\"highlight\">tiempo de recarga</span>.",
@@ -448,7 +451,7 @@
       "upgrade_warp_stone_desc": "<span class=\"highlight\">Te teletransporta</span> en l\u00ednea recta y te otorga <span class=\"highlight\">resistencia bal\u00edstica</span>.",
       "upgrade_weapon_backstabber_desc": "Al atacar a los enemigos por detr\u00e1s con tu arma o cuerpo a cuerpo, se abre una herida que inflige {g:citadel_inline_attribute:'SpiritDPS'} y reduce su resistencia bal\u00edstica. Durante este tiempo, si t\u00fa o alg\u00fan aliado est\u00e1n cerca del objetivo, podr\u00e1n verlo <span class=\"highlight\">a trav\u00e9s de las paredes</span> y recibir\u00e1n {g:citadel_inline_attribute:'BonusMoveSpeed'}.",
       "upgrade_weapon_shielding_desc": "Obtienes una <span class=\"highlight\">barrera</span> cada vez que recibes una cantidad significativa de {g:citadel_inline_attribute:'WeaponDamage'} de h\u00e9roes enemigos en un corto periodo de tiempo.",
-      "upgrade_withering_whip_desc": "Apunta a un enemigo para reducir su <span class=\"highlight\">cadencia de tiro</span>."
+      "upgrade_withering_whip_desc": "Selecciona como objetivo a un enemigo para reducir su <span class=\"highlight\">cadencia de tiro</span> y <span class=\"highlight\">resistencia a balas</span>."
     }
   }
 }

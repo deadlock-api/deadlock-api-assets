@@ -10,6 +10,9 @@
       "AmbushBonusFireRate_label": "Szybkostrzelno\u015b\u0107 z zasadzki",
       "AmbushBonusFireRate_postfix": "%",
       "AmbushBonusFireRate_prefix": "+",
+      "AmbushBonusMeleeDamage_label": "Obra\u017cenia od ataku wr\u0119cz (zasadzka)",
+      "AmbushBonusMeleeDamage_postfix": "%",
+      "AmbushBonusMeleeDamage_postvalue_label": "pkt. obra\u017ce\u0144 od ataku wr\u0119cz (zasadzka)",
       "AmbushBonusTechPower_label": "Moc spirytualna z zasadzki",
       "AmbushBonusTechPower_prefix": "+",
       "AmbushDuration_label": "Czas trwania zasadzki",
@@ -299,7 +302,7 @@
       "upgrade_cheat_death_unkillable_passive": "Kiedy otrzymasz obra\u017cenia, kt\u00f3re by\u0142yby \u015bmierciono\u015bne, to zamiast umrze\u0107, sta\u0144 si\u0119 <span class=\"highlight\">tymczasowo niewra\u017cliwy na \u015bmier\u0107</span>.<br><br>W trakcie niewra\u017cliwo\u015bci na \u015bmier\u0107 zadajesz <span class=\"highlight\">mniejsze obra\u017cenia</span>, otrzymujesz <span class=\"highlight\">mniejsze leczenie</span> oraz <span class=\"highlight\">poruszasz si\u0119 wolniej</span>.",
       "upgrade_chonky_desc": "Gdy nie otrzymasz obra\u017ce\u0144 przez <span class=\"highlight\">{s:RestoreDelay}\u00a0s</span>, zyskujesz <span class=\"highlight\">{s:HealLifePercentOutOfCombat}% maksymalnej regeneracji zdrowia</span>.",
       "upgrade_chonky_high_health_passive_desc": "Gdy masz <span class=\"highlight\">wi\u0119cej ni\u017c {s:HealthThreshold}% zdrowia</span>, otrzymujesz premi\u0119 do <span class=\"highlight\">szybko\u015bci ruchu</span>.",
-      "upgrade_cloaking_device_active_ambush_desc": "<br>Wykonanie ataku lub u\u017cycie umiej\u0119tno\u015bci zako\u0144czy twoj\u0105 niewidzialno\u015b\u0107 i rozpocznie <span class=\"highlight\">zasadzk\u0119</span>, tymczasowo przyznaj\u0105c ci dodatkow\u0105 <span class=\"highlight\">szybkostrzelno\u015b\u0107</span> oraz <span class=\"highlight\">moc spirytualn\u0105</span>.",
+      "upgrade_cloaking_device_active_ambush_desc": "<br>Wykonanie ataku lub u\u017cycie umiej\u0119tno\u015bci zako\u0144czy twoj\u0105 niewidzialno\u015b\u0107 i rozpocznie <span class=\"highlight\">zasadzk\u0119</span>, tymczasowo przyznaj\u0105c ci dodatkow\u0105 <span class=\"highlight\">szybkostrzelno\u015b\u0107</span>, <span class=\"highlight\">moc spirytualn\u0105</span> oraz <span class=\"highlight\">obra\u017cenia od ataku wr\u0119cz</span>.",
       "upgrade_cloaking_device_active_desc": "Przyznaj sobie <span class=\"highlight\">niewidzialno\u015b\u0107</span>. Za ka\u017cdym razem, gdy otrzymasz obra\u017cenia w stanie niewidzialno\u015bci, zostaniesz na kr\u00f3tko ujawniony.",
       "upgrade_close_quarter_combat/modifier_cqc_proc/modifier_slow_base": "Spowolniono",
       "upgrade_close_quarter_combat_desc": "W <span class=\"highlight\">bliskiej odleg\u0142o\u015bci</span> od swojego celu zyskujesz <span class=\"highlight\">obra\u017cenia od broni</span>, a twoje naboje nak\u0142adaj\u0105 <span class=\"highlight\">spowolnienie ruchu</span>.",
@@ -321,7 +324,7 @@
       "upgrade_diviners_kevlar_desc": "Po rzuceniu <span class=\"highlight\">umiej\u0119tno\u015bci ostatecznej</span> zyskujesz <span class=\"highlight\">barier\u0119</span> oraz tymczasow\u0105 <span class=\"highlight\">moc spirytualn\u0105</span>.",
       "upgrade_dps_aura_active_desc": "Zapewnia <span class=\"highlight\">{g:citadel_inline_attribute:'MoveSpeed'}</span> i <span class=\"highlight\">{g:citadel_inline_attribute:'FireRate'}</span> tobie i pobliskim sojusznikom. <span class=\"highlight\">Szturmowcy</span> otrzymuj\u0105 podw\u00f3jn\u0105 warto\u015b\u0107.",
       "upgrade_dps_aura_desc": "Zapewnia <span class=\"highlight\">odporno\u015b\u0107 na naboje</span> pobliskim sojuszniczym jednostkom.",
-      "upgrade_enchanted_holsters_desc": "Za ka\u017cdym razem, gdy u\u017cyjesz umiej\u0119tno\u015bci lub przedmiotu, zyskaj kumuluj\u0105c\u0105 si\u0119 premi\u0119 do szybkostrzelno\u015bci i szybko\u015bci prze\u0142adowywania.<br><span class=\"diminish\">Ka\u017cda instancja od\u015bwie\u017ca czas trwania.</span>",
+      "upgrade_enchanted_holsters_desc": "Za ka\u017cdym razem, gdy podczas walki u\u017cyjesz umiej\u0119tno\u015bci lub przedmiotu, zyskaj kumuluj\u0105c\u0105 si\u0119 premi\u0119 do szybkostrzelno\u015bci i szybko\u015bci prze\u0142adowywania.<br><span class=\"diminish\">Ka\u017cda instancja od\u015bwie\u017ca czas trwania.</span>",
       "upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff": "Wzbieraj\u0105ce Wystawienie",
       "upgrade_escalating_exposure_desc": "Zadawanie <span class=\"highlight\">obra\u017ce\u0144 spirytualnych</span> nak\u0142ada kumuluj\u0105ce si\u0119 <span class=\"highlight\">wzmocnienie spirytualne</span>, kt\u00f3re zwi\u0119ksza <span class=\"highlight\">obra\u017cenia spirytualne</span> zadawane celowi.",
       "upgrade_ethereal_bullets_desc": "Po u\u017cyciu twoja nasycona umiej\u0119tno\u015b\u0107 <span class=\"highlight\">prze\u0142adowuje magazynek</span> oraz zyskuje {g:citadel_inline_attribute:'BonusSpiritDamage'} i {g:citadel_inline_attribute:'BonusFireRate'} wraz z up\u0142ywem czasu. Do momentu kolejnego prze\u0142adowania <span class=\"highlight\">naboje zadaj\u0105 dodatkowe obra\u017cenia spirytualne</span> zale\u017cne od twojej mocy spirytualnej.",
@@ -369,7 +372,7 @@
       "upgrade_magic_carpet_desc": "Przyzwij magiczny dywan, na kt\u00f3rym <span class=\"highlight\">odlecisz</span>. Podczas lotu jeste\u015b niewra\u017cliwy na spowolnienia, a wykonanie dowolnego dzia\u0142ania usunie dywan. <span class=\"diminish\"><br>Podczas przyzywania dywanu nie mo\u017cna u\u017cywa\u0107 umiej\u0119tno\u015bci</span>.",
       "upgrade_magic_reach_desc": "Nasy\u0107 umiej\u0119tno\u015b\u0107, zwi\u0119kszaj\u0105c jej <span class=\"highlight\">zasi\u0119g</span> oraz <span class=\"highlight\">promie\u0144 efektu</span>.",
       "upgrade_magic_shield_desc": "Gdy masz <span class=\"highlight\">wi\u0119cej ni\u017c {s:LifeThreshold}% zdrowia</span>, otrzymujesz dodatkow\u0105 <panel class=\\\"InlineAttributeIcon Spirit\\\" replacechar=\\\"_\\\"><span class=\\\"InlineAttributeName Spirit\\\">moc spirytualn\u0105</span> oraz <span class=\"highlight\">redukcj\u0119 czas\u00f3w oczekiwania</span>.",
-      "upgrade_magic_shock_desc": "Sprawia, \u017ce umiej\u0119tno\u015bci zadaj\u0105ce ponad <span class=\"highlight\">{s:MinimumDamage}</span>\u00a0pkt. obra\u017ce\u0144 zadaj\u0105 {g:citadel_inline_attribute:'BonusSpiritDamage'}. Premia skaluje si\u0119 wraz z up\u0142ywem czasu i osi\u0105ga maksymalny efekt po zako\u0144czeniu czasu oczekiwania.",
+      "upgrade_magic_shock_desc": "Sprawia, \u017ce umiej\u0119tno\u015bci zadaj\u0105ce ponad <span class=\"highlight\">{s:MinimumDamage}</span>\u00a0pkt. obra\u017ce\u0144 zadaj\u0105 {g:citadel_inline_attribute:'BonusSpiritDamage'}. Premia skaluje si\u0119 wraz z up\u0142ywem czasu. <span class=\"highlight\">Ignoruje odporno\u015b\u0107 spirytualn\u0105.</span>",
       "upgrade_magic_slow_desc": "Gdy cel otrzymuje <span class=\"highlight\">obra\u017cenia spirytualne</span>, jego <span class=\"highlight\">szybko\u015b\u0107 ruchu</span> zostaje zredukowana.",
       "upgrade_magic_storm_desc": "Nasy\u0107 umiej\u0119tno\u015b\u0107 <span class=\"highlight\">trwa\u0142\u0105 moc\u0105 spirytualn\u0105</span>. Po u\u017cyciu tej umiej\u0119tno\u015bci zyskujesz premi\u0119 do <span class=\"highlight\">szybko\u015bci ruchu</span> i utrzymujesz pe\u0142n\u0105 szybko\u015b\u0107 przy ataku.",
       "upgrade_magic_tempo_desc": "Nasy\u0107 umiej\u0119tno\u015b\u0107, skracaj\u0105c jej <span class=\"highlight\">czas oczekiwania</span>.",
@@ -448,7 +451,7 @@
       "upgrade_warp_stone_desc": "<span class=\"highlight\">Teleportuj si\u0119</span> na wprost, zyskuj\u0105c <span class=\"highlight\">odporno\u015b\u0107 na naboje</span>.",
       "upgrade_weapon_backstabber_desc": "Atakowanie wrog\u00f3w od ty\u0142u broni\u0105 lub atakiem wr\u0119cz otwiera ran\u0119 zadaj\u0105c\u0105 {g:citadel_inline_attribute:'SpiritDPS'} oraz zmniejszaj\u0105c\u0105 ich odporno\u015b\u0107 na naboje. Je\u015bli w tym czasie ty lub inni sojusznicy znajdziecie si\u0119 blisko celu, b\u0119dziecie widzieli go <span class=\"highlight\">przez \u015bciany</span> i otrzymacie {g:citadel_inline_attribute:'BonusMoveSpeed'}.",
       "upgrade_weapon_shielding_desc": "Zyskaj <span class=\"highlight\">barier\u0119</span> za ka\u017cdym razem, gdy otrzymasz znaczne {g:citadel_inline_attribute:'WeaponDamage'} od wrogich bohater\u00f3w w kr\u00f3tkim odst\u0119pie czasu.",
-      "upgrade_withering_whip_desc": "Obierz za cel wroga, by zmniejszy\u0107 jego <span class=\"highlight\">szybkostrzelno\u015b\u0107</span>."
+      "upgrade_withering_whip_desc": "Obierz za cel wroga, by zmniejszy\u0107 jego <span class=\"highlight\">szybkostrzelno\u015b\u0107</span> oraz <span class=\"highlight\">odporno\u015b\u0107 na naboje</span>."
     }
   }
 }

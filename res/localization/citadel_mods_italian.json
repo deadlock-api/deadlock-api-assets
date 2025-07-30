@@ -10,6 +10,9 @@
       "AmbushBonusFireRate_label": "Cadenza di fuoco dell'agguato",
       "AmbushBonusFireRate_postfix": "%",
       "AmbushBonusFireRate_prefix": "+",
+      "AmbushBonusMeleeDamage_label": "Danni da mischia per agguato",
+      "AmbushBonusMeleeDamage_postfix": "%",
+      "AmbushBonusMeleeDamage_postvalue_label": "Danni da mischia per agguato",
       "AmbushBonusTechPower_label": "Potere spirituale dell'agguato",
       "AmbushBonusTechPower_prefix": "+",
       "AmbushDuration_label": "Durata dell'agguato",
@@ -274,7 +277,7 @@
       "upgrade_ability_power_shard_active": "<span class=\"highlight\">Azzera il tempo di ricarica</span> dell'abilit\u00e0 non ultimate infusa.",
       "upgrade_ability_refresher_desc": "<span class=\"highlight\">Azzera il tempo di ricarica</span> di tutte le tue abilit\u00e0 e <span class=\"highlight\">ripristina tutte le tue cariche</span>.",
       "upgrade_absorbing_armor_desc": "Subire colpi pesanti di {g:citadel_inline_attribute:'SpiritDamage'} da un nemico riduce il <span class=\"highlight\">tempo di ricarica di un'abilit\u00e0 casuale</span>.",
-      "upgrade_acolytes_glove_desc": "Quando sferri un attacco <span class=\"highlight\">corpo a corpo leggero o pesante</span> contro un eroe, infliggi <span class=\"highlight\">danni spirituali</span> extra con l'attacco e riduci la <span class=\"highlight\">resistenza spirituale</span> del bersaglio.<span class=\"diminish\"><br><br>Il tempo di ricarica \u00e8 {s:LightMeleeCooldownMult} volte pi\u00f9 lungo per colpi corpo a corpo leggeri.</span>",
+      "upgrade_acolytes_glove_desc": "Quando sferri un attacco <span class=\"highlight\">corpo a corpo leggero o pesante</span> contro un eroe, infliggi <span class=\"highlight\">danni spirituali</span> extra con l'attacco e riduci la <span class=\"highlight\">resistenza spirituale</span> del bersaglio.<span class=\"diminish\"><br><br>Il tempo di ricarica \u00e8 {s:LightMeleeCooldownMult} volte pi\u00f9 lungo per i colpi corpo a corpo leggeri.</span>",
       "upgrade_active_reload/buff": "Ricarica attiva",
       "upgrade_active_reload_desc": "Se premi {g:citadel_keybind:'Reload'} quando l'indicatore \u00e8 nella parte evidenziata mentre ricarichi, <span class=\"highlight\">terminerai istantaneamente la ricarica</span> e otterrai <span class=\"highlight\">cadenza di fuoco</span>, <span class=\"highlight\">prosciugamento della salute dalle pallottole</span> e <span class=\"highlight\">velocit\u00e0 di movimento</span>.",
       "upgrade_ammo_scavenger_desc": "Per ogni anima che recuperi o neghi da un'entit\u00e0, <span class=\"highlight\">recuperi munizioni</span> e guadagni <span class=\"highlight\">potere spirituale</span> cumulativo.<br>Al massimo delle istanze guadagni velocit\u00e0 sprint aggiuntiva.",
@@ -299,7 +302,7 @@
       "upgrade_cheat_death_unkillable_passive": "Quando subisci danni letali, diventi invece <span class=\"highlight\">temporaneamente immune alla morte</span>.<br><br>Mentre sei immune alla morte, infliggi <span class=\"highlight\">danni ridotti</span>, ricevi una <span class=\"highlight\">guarigione ridotta</span> e <span class=\"highlight\">ti muovi pi\u00f9 lentamente</span>.",
       "upgrade_chonky_desc": "Dopo non aver subito danni per <span class=\"highlight\">{s:RestoreDelay} s</span>, ottieni <span class=\"highlight\">{s:HealLifePercentOutOfCombat}% di rigenerazione della salute max</span>.",
       "upgrade_chonky_high_health_passive_desc": "Quando sei <span class=\"highlight\">sopra il {s:HealthThreshold}% di salute</span>, ottieni <span class=\"highlight\">velocit\u00e0 di movimento</span> bonus.",
-      "upgrade_cloaking_device_active_ambush_desc": "<br>Attaccare o usare un'abilit\u00e0 metter\u00e0 fine alla modalit\u00e0 Stealth e dar\u00e0 inizio a un'<span class=\"highlight\">imboscata</span>, conferendoti temporaneamente <span class=\"highlight\">cadenza di fuoco</span> e <span class=\"highlight\">potere spirituale</span> bonus.",
+      "upgrade_cloaking_device_active_ambush_desc": "<br>Attaccare o usare un'abilit\u00e0 metter\u00e0 fine alla modalit\u00e0 Stealth e dar\u00e0 inizio a un <span class=\"highlight\">agguato</span>, conferendoti temporaneamente <span class=\"highlight\">cadenza di fuoco</span>, <span class=\"highlight\">potere spirituale</span> e <span class=\"highlight\">danni da mischia</span> bonus.",
       "upgrade_cloaking_device_active_desc": "Ottieni <span class=\"highlight\">Stealth</span>. Ogni volta che subisci danni mentre sei in modalit\u00e0 Stealth, vieni rivelato brevemente.",
       "upgrade_close_quarter_combat/modifier_cqc_proc/modifier_slow_base": "Rallentamento",
       "upgrade_close_quarter_combat_desc": "Quando sei <span class=\"highlight\">a distanza ravvicinata</span> dal tuo bersaglio, i tuoi <span class=\"highlight\">danni da arma</span> aumentano e le tue pallottole <span class=\"highlight\">riducono la velocit\u00e0 di movimento</span>.",
@@ -321,7 +324,7 @@
       "upgrade_diviners_kevlar_desc": "Dopo aver utilizzato l'<span class=\"highlight\">abilit\u00e0 ultimate</span> ottieni una <span class=\"highlight\">barriera</span> e del <span class=\"highlight\">potere spirituale</span> temporaneo.",
       "upgrade_dps_aura_active_desc": "Conferisce <span class=\"highlight\">{g:citadel_inline_attribute:'MoveSpeed'}</span> e <span class=\"highlight\">{g:citadel_inline_attribute:'FireRate'}</span> a te e agli alleati vicini. <span class=\"highlight\">Gli scagnozzi</span> ricevono un valore doppio.",
       "upgrade_dps_aura_desc": "Conferisce <span class=\"highlight\">resistenza alle pallottole</span> alle unit\u00e0 amiche vicine.",
-      "upgrade_enchanted_holsters_desc": "Ogni volta che usi un'abilit\u00e0 o un oggetto, ottieni un buff cumulabile che migliora la cadenza di fuoco e la velocit\u00e0 di ricarica. <br><span class=\"diminish\">Ogni istanza ne aggiorna la durata.</span>",
+      "upgrade_enchanted_holsters_desc": "In combattimento, ogni volta che usi un'abilit\u00e0 o un oggetto, ottieni un buff cumulabile che migliora la cadenza di fuoco e la velocit\u00e0 di ricarica. <br><span class=\"diminish\">Ogni istanza ne aggiorna la durata.</span>",
       "upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff": "Esposizione crescente",
       "upgrade_escalating_exposure_desc": "Infliggere <span class=\"highlight\">danni spirituali</span> applica un'istanza di <span class=\"highlight\">amplificazione spirituale</span> che aumenta i <span class=\"highlight\">danni spirituali</span> inflitti al bersaglio.",
       "upgrade_ethereal_bullets_desc": "La tua abilit\u00e0 infusa si carica nel tempo con {g:citadel_inline_attribute:'BonusSpiritDamage'}, {g:citadel_inline_attribute:'BonusFireRate'} e <span class=\"highlight\">ricarica le pallottole</span> durante l'uso. Fino alla prossima ricarica, le tue <span class=\"highlight\">pallottole infliggono danni spirituali bonus</span> in base al tuo potere spirituale.",
@@ -369,7 +372,7 @@
       "upgrade_magic_carpet_desc": "Evochi un Tappeto magico che <span class=\"highlight\">ti far\u00e0 volare</span> via. Mentre voli sei immune ai rallentamenti e compiendo qualsiasi azione perderai il tappeto.  <span class=\"diminish\"><br>Non puoi usare le abilit\u00e0 mentre il tappeto viene evocato.</span>",
       "upgrade_magic_reach_desc": "Infondi un'abilit\u00e0 per aumentarne la <span class=\"highlight\">gittata</span> e il <span class=\"highlight\">raggio d'effetto</span>.",
       "upgrade_magic_shield_desc": "Mentre sei <span class=\"highlight\">sopra {s:LifeThreshold}% di salute</span>, ottieni <span class=\"highlight\">{g:citadel_inline_attribute:'Spirit'}</span> bonus e <span class=\"highlight\">riduzione del tempo di ricarica</span>.",
-      "upgrade_magic_shock_desc": "Nel tempo si carica di {g:citadel_inline_attribute:'BonusSpiritDamage'}, facendo s\u00ec che le abilit\u00e0 che infliggono pi\u00f9 di <span class=\"highlight\">{s:MinimumDamage}</span> danni infliggano danni aggiuntivi.",
+      "upgrade_magic_shock_desc": "Nel tempo si carica di {g:citadel_inline_attribute:'BonusSpiritDamage'}, facendo s\u00ec che le abilit\u00e0 che infliggono pi\u00f9 di <span class=\"highlight\">{s:MinimumDamage}</span> danni infliggano danni aggiuntivi. <span class=\"highlight\">Ignora la resistenza spirituale.</span>",
       "upgrade_magic_slow_desc": "Quando il bersaglio subisce <span class=\"highlight\">danni spirituali</span>, la sua <span class=\"highlight\">velocit\u00e0 di movimento</span> viene ridotta.",
       "upgrade_magic_storm_desc": "Infondi a un'abilit\u00e0 <span class=\"highlight\">potere spirituale permanente</span>. Quando quell'abilit\u00e0 viene usata, ottieni <span class=\"highlight\">velocit\u00e0 di movimento</span> bonus e mantieni la velocit\u00e0 massima mentre attacchi.",
       "upgrade_magic_tempo_desc": "Infondi un'abilit\u00e0 per ridurne il <span class=\"highlight\">tempo di ricarica</span>.",
@@ -418,7 +421,7 @@
       "upgrade_spirit_burn/modifier_proc_watcher/modifier_debuff": "Bruciatura spirituale",
       "upgrade_spirit_burn_desc": "Infliggere <span class=\"highlight\">danni spirituali</span> significativi a un nemico entro {s:DamageThresholdDuration} s provoca un'esplosione che infligge danni e ustioni ai nemici vicini. Mentre bruciano, i nemici subiscono danni nel tempo e sono soggetti a guarigione ridotta.<br><span class=\"diminish\">Infligge la met\u00e0 dei danni ai non eroi e non aumenta il proprio tempo di ricarica, a meno che non colpisca un eroe.</span>",
       "upgrade_spirit_sap_desc": "Prendi di mira un nemico per <span class=\"highlight\">ridurne la resistenza spirituale </span> e il <span class=\"highlight\">potere spirituale</span>.",
-      "upgrade_spirit_snatch_desc": "Quando sferri un attacco <span class=\"highlight\">corpo a corpo leggero o pesante</span> contro un eroe, infliggi <span class=\"highlight\">danni spirituali</span> extra con l'attacco e prosciughi la <span class=\"highlight\">resistenza spirituale</span> e il <span class=\"highlight\">potere spirituale</span>.<span class=\"diminish\"><br><br>Il tempo di ricarica \u00e8 {s:LightMeleeCooldownMult} volte pi\u00f9 lungo per colpi corpo a corpo leggeri.</span>",
+      "upgrade_spirit_snatch_desc": "Quando sferri un attacco <span class=\"highlight\">corpo a corpo leggero o pesante</span> contro un eroe, infliggi <span class=\"highlight\">danni spirituali</span> extra con l'attacco e prosciughi la <span class=\"highlight\">resistenza spirituale</span> e il <span class=\"highlight\">potere spirituale</span>.<span class=\"diminish\"><br><br>Il tempo di ricarica \u00e8 {s:LightMeleeCooldownMult} volte pi\u00f9 lungo per i colpi corpo a corpo leggeri.</span>",
       "upgrade_split_shot_desc": "La tua arma spara <span class=\"highlight\">colpi multipli</span>. <br><br> Colpire pi\u00f9 di un eroe per attacco conferir\u00e0 <span class=\"highlight\">danni balistici bonus cumulabili</span>.  <br><br><span class=\"diminish\">I bersagli possono essere colpiti solo una volta per colpo multiplo.</span>",
       "upgrade_split_shot_desc_02": "Bonus colpi multipli divisi",
       "upgrade_superacolytes_glove/modifier_superacoloytes_glove": "Pugni liberi!",
@@ -448,7 +451,7 @@
       "upgrade_warp_stone_desc": "<span class=\"highlight\">Ti teletrasporta</span> in linea retta e ti fa ottenere <span class=\"highlight\">resistenza alle pallottole</span>.",
       "upgrade_weapon_backstabber_desc": "Attaccare i nemici da dietro con la tua arma o con attacchi corpo a corpo apre una ferita che infligge {g:citadel_inline_attribute:'SpiritDPS'} e riduce la resistenza alle pallottole. Durante questo periodo, se tu o un tuo alleato siete vicini al bersaglio, potete vederlo <span class=\"highlight\">attraverso i muri</span> e ricevete {g:citadel_inline_attribute:'BonusMoveSpeed'}.",
       "upgrade_weapon_shielding_desc": "Ottieni una <span class=\"highlight\">barriera</span> ogni volta che subisci {g:citadel_inline_attribute:'WeaponDamage'} significativi da eroi nemici in un breve periodo di tempo.",
-      "upgrade_withering_whip_desc": "Bersagli un nemico per ridurne la <span class=\"highlight\">cadenza di fuoco</span>."
+      "upgrade_withering_whip_desc": "Bersagli un nemico per ridurne la <span class=\"highlight\">cadenza di fuoco</span> e la <span class=\"highlight\">resistenza alle pallottole</span>."
     }
   }
 }

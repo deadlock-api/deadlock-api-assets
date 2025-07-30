@@ -514,6 +514,8 @@
       "HealAmpRegenPercent_prefix": "{s:sign}",
       "HealInterval_label": "de intervalo de curaci\u00f3n",
       "HealInterval_postfix": "\u00a0s",
+      "HealOnCounterSpell_label": "de curaci\u00f3n",
+      "HealOnCounterSpell_postvalue_label": "de curaci\u00f3n",
       "HealPercentAmount_label": "de curaci\u00f3n",
       "HealPercentAmount_postfix": "\u00a0%",
       "HealRadius_label": "de radio de curaci\u00f3n",
