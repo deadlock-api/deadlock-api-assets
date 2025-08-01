@@ -2962,6 +2962,7 @@
       "modifier_citadel_holding_golden_idol": "\u58fa\u3092\u796d\u58c7\u307e\u3067\u904b\u3079",
       "modifier_citadel_holding_golden_idol_revealed": "\u6575\u306b\u898b\u3089\u308c\u3066\u3044\u308b\uff01 \u58fa\u3092\u796d\u58c7\u307e\u3067\u904b\u3079",
       "modifier_citadel_idol_pickup_disabled": "\u9b42\u306e\u58fa\u3092\u53d6\u5f97\u3067\u304d\u306a\u3044",
+      "modifier_citadel_respawn_credit": "\u5373\u6642\u5fa9\u6d3b",
       "modifier_citadel_returning_golden_idol": "\u58fa\u3092\u8a2d\u7f6e\u4e2d",
       "modifier_citadel_sprint_end": "\u6b66\u5668\u3092\u53d6\u308a\u51fa\u3057\u4e2d\u2026",
       "modifier_citadel_sprint_start": "\u6b66\u5668\u3092\u53ce\u7d0d\u4e2d\u2026",
