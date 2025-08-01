@@ -1,12 +1,16 @@
+import logging
 from typing import Literal
 
-from pydantic import BaseModel, ConfigDict, Field, computed_field
+from pydantic import BaseModel, ConfigDict, Field, computed_field, model_validator
 
 from deadlock_assets_api.models.v2.enums import AbilityTypeV2
 from deadlock_assets_api.models.v2.raw_item_base import (
     RawItemBaseV2,
     parse_css_ability_properties_icon,
+    parse_css_ability_icon,
 )
+
+LOGGER = logging.getLogger(__name__)
 
 
 class RawAbilityUpgradePropertyUpgradeV2(BaseModel):
@@ -92,3 +96,13 @@ class RawAbilityV2(RawItemBaseV2):
     tooltip_details: RawAbilityV2TooltipDetails | None = Field(
         None, validation_alias="m_AbilityTooltipDetails"
     )
+
+    @model_validator(mode="after")
+    def check_image_path(self):
+        if self.image is None and self.css_class is not None and self.css_class != "":
+            try:
+                css_image = parse_css_ability_icon(self.css_class)
+                self.image = css_image or self.image
+            except Exception as e:
+                LOGGER.warning(f"Failed to parse css for {self.css_class}: {e}")
+        return self

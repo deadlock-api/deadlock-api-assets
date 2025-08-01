@@ -3,7 +3,7 @@ from functools import lru_cache
 
 import css_parser
 from css_parser.css import CSSRuleList, CSSStyleRule
-from pydantic import AliasChoices, BaseModel, ConfigDict, Field, model_validator, field_validator
+from pydantic import AliasChoices, BaseModel, ConfigDict, Field, field_validator
 
 from deadlock_assets_api.models.v2.enums import StatsUsageFlagV2
 
@@ -167,13 +167,3 @@ class RawItemBaseV2(BaseModel):
     )
     weapon_info: RawItemWeaponInfoV2 | None = Field(None, validation_alias="m_WeaponInfo")
     css_class: str | None = Field(None, validation_alias="m_strCSSClass")
-
-    @model_validator(mode="after")
-    def check_image_path(self):
-        if self.image is not None and self.css_class is not None and self.css_class != "":
-            try:
-                css_image = parse_css_ability_icon(self.css_class)
-                self.image = css_image or self.image
-            except Exception as e:
-                LOGGER.warning(f"Failed to parse css for {self.css_class}: {e}")
-        return self

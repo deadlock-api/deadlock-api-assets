@@ -1,13 +1,17 @@
+import logging
 from enum import Enum
 from typing import Literal, Optional
 
-from pydantic import ConfigDict, Field, BaseModel, computed_field
+from pydantic import ConfigDict, Field, BaseModel, computed_field, model_validator
 
 from deadlock_assets_api.models.v2.enums import ItemTierV2, ItemSlotTypeV2
 from deadlock_assets_api.models.v2.raw_item_base import (
     RawItemBaseV2,
     parse_css_ability_properties_icon,
+    parse_css_ability_icon,
 )
+
+LOGGER = logging.getLogger(__name__)
 
 
 class RawAbilityActivationV2(str, Enum):
@@ -133,3 +137,13 @@ class RawUpgradeV2(RawItemBaseV2):
     tooltip_sections: list[RawUpgradeTooltipSectionV2] | None = Field(
         None, validation_alias="m_vecTooltipSectionInfo"
     )
+
+    @model_validator(mode="after")
+    def check_image_path(self):
+        if self.image is not None and self.css_class is not None and self.css_class != "":
+            try:
+                css_image = parse_css_ability_icon(self.css_class)
+                self.image = css_image or self.image
+            except Exception as e:
+                LOGGER.warning(f"Failed to parse css for {self.css_class}: {e}")
+        return self
