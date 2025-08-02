@@ -84,6 +84,6 @@ class RankV2(BaseModel):
     def from_tier(cls, tier: int, localization: dict[str, str]) -> "RankV2":
         return cls(
             tier=tier,
-            name=localization[f"Citadel_ranks_rank{tier}"],
+            name=localization[f"Citadel_ranks_rank{tier}"].strip(),
             images=RankImagesV2.from_tier(tier),
         )

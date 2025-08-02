@@ -283,7 +283,7 @@ class HeroV2(BaseModel):
         raw_model["name"] = localization.get(
             raw_hero.class_name,
             localization.get(f"Steam_RP_{raw_hero.class_name}", raw_hero.class_name),
-        )
+        ).strip()
         raw_model["description"] = HeroDescriptionV2.from_raw_hero(raw_hero, localization)
         raw_model["starting_stats"] = HeroStartingStatsV2.from_raw_starting_stats(
             raw_hero.starting_stats

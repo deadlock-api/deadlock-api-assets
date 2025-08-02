@@ -109,7 +109,9 @@ class ItemBaseV2(BaseModel):
     ) -> dict:
         raw_model = raw_model.model_dump()
         raw_model["id"] = murmurhash2(raw_model["class_name"].encode(), 0x31415926)
-        raw_model["name"] = localization.get(raw_model["class_name"], raw_model["class_name"])
+        raw_model["name"] = localization.get(
+            raw_model["class_name"], raw_model["class_name"]
+        ).strip()
         if raw_model["properties"] is not None:
             raw_model["properties"] = {
                 k: ItemPropertyV2.from_raw_item_property(v, k, localization)
