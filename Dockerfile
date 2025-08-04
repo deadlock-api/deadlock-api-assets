@@ -24,4 +24,4 @@ COPY . .
 RUN --mount=type=cache,target=/root/.cache/uv \
   uv sync --frozen
 
-CMD ["uv", "run", "uvicorn", "deadlock_assets_api.main:app", "--host", "0.0.0.0", "--port", "8080"]
+CMD ["uv", "run", "uvicorn", "deadlock_assets_api.main:app", "--host", "0.0.0.0"]
