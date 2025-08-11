@@ -7,9 +7,9 @@ LANE_ORIGINS: list[tuple[float, float, float]] = [
 ]
 
 LANE_COLORS: list[str] = [
-    "#0019ff",
-    "#8b008b",
-    "#ff6a00",
+    "#29b1cc",
+    "#59b247",
+    "#F1CC30",
 ]
 
 LANES: list[list[list[float]]] = [
