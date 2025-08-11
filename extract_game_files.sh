@@ -14,7 +14,7 @@ fi
 
 if [ ! -f Source2Viewer-CLI ]; then
     if [[ "$OSTYPE" == "darwin"* ]]; then
-        curl -L -o Decompiler.zip "https://github.com/ValveResourceFormat/ValveResourceFormat/releases/download/13.0/cli-macos-arm64.zip"
+        curl -L -o Decompiler.zip "https://github.com/ValveResourceFormat/ValveResourceFormat/releases/download/14.1/cli-macos-arm64.zip"
     elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
         wget https://github.com/ValveResourceFormat/ValveResourceFormat/releases/download/13.0/cli-linux-x64.zip -O Decompiler.zip
     else
