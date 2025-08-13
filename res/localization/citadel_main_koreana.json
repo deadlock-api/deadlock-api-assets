@@ -2962,6 +2962,7 @@
       "modifier_citadel_holding_golden_idol": "\uc601\ud63c \ub2e8\uc9c0\ub97c \uc81c\ub2e8\uc73c\ub85c \uc6b4\ubc18 \uc911",
       "modifier_citadel_holding_golden_idol_revealed": "\uc801\uad70\uc5d0\uac8c \ubcf4\uc785\ub2c8\ub2e4! \uc601\ud63c \ub2e8\uc9c0\ub97c \uc81c\ub2e8\uc73c\ub85c \uc6b4\ubc18 \uc911",
       "modifier_citadel_idol_pickup_disabled": "\uc601\ud63c \ub2e8\uc9c0 \ud68d\ub4dd \ube44\ud65c\uc131\ud654 \uc0c1\ud0dc",
+      "modifier_citadel_respawn_credit": "\uc989\uc2dc \ubd80\ud65c",
       "modifier_citadel_returning_golden_idol": "\uc601\ud63c \ub2e8\uc9c0 \ubcf4\uad00 \uc911",
       "modifier_citadel_sprint_end": "\ubb34\uae30 \uaebc\ub0b4\ub294 \uc911...",
       "modifier_citadel_sprint_start": "\ubb34\uae30 \uc9d1\uc5b4\ub123\ub294 \uc911...",

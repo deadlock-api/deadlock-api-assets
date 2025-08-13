@@ -326,9 +326,9 @@
     "m_flRejuvinatorDropHeight": 500,
     "m_flRejuvinatorExpirationWarningTiming": 30,
     "m_flRejuvinatorRebirthDuration": [
-      420,
-      420,
-      420
+      240,
+      240,
+      240
     ],
     "m_strRejuvPickupSound": "soundevent:\"Rejuv.Pickup\""
   },
