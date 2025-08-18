@@ -3,9 +3,8 @@ FROM python:3.13-alpine
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
 # Enable uv optimizations:
-# UV_COMPILE_BYTECODE=1 compiles Python bytecode for faster startup
 # UV_LINK_MODE=copy ensures dependencies are copied (isolated env)
-ENV UV_COMPILE_BYTECODE=1 UV_LINK_MODE=copy
+ENV UV_LINK_MODE=copy
 
 # Change the working directory to the `app` directory
 WORKDIR /app
