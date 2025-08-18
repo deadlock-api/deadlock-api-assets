@@ -143,10 +143,13 @@ class UpgradeTooltipSectionAttributeV2ImportantPropertyWithIcon(BaseModel):
             raw_important_property_with_icon["icon_path"]
         )
         del raw_important_property_with_icon["icon_path"]
-        raw_important_property_with_icon["localized_name"] = localization.get(
+        localized_name = localization.get(
             f"Citadel_{raw_important_property_with_icon['name']}",
             localization.get(raw_important_property_with_icon["name"]),
-        ).strip()
+        )
+        raw_important_property_with_icon["localized_name"] = (
+            localized_name.strip() if localized_name else None
+        )
         return cls(**raw_important_property_with_icon)
 
 
