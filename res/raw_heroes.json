@@ -2,6 +2,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/infernus_bg.psd\"",
     "class_name": "hero_inferno",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -795,6 +796,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/seven_bg.psd\"",
     "class_name": "hero_gigawatt",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -1594,6 +1596,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/vindicta_bg.psd\"",
     "class_name": "hero_hornet",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -2397,6 +2400,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/geist_bg.psd\"",
     "class_name": "hero_ghost",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -3187,6 +3191,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/abrams_bg.psd\"",
     "class_name": "hero_atlas",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -3978,6 +3983,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/wraith_bg.psd\"",
     "class_name": "hero_wraith",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -4774,6 +4780,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/mcginnis_bg.psd\"",
     "class_name": "hero_forge",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -5572,6 +5579,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/paradox_bg.psd\"",
     "class_name": "hero_chrono",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -6365,6 +6373,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/dynamo_bg.psd\"",
     "class_name": "hero_dynamo",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -7156,6 +7165,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/kelvin_bg.psd\"",
     "class_name": "hero_kelvin",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -7951,6 +7961,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/haze_bg.psd\"",
     "class_name": "hero_haze",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -8746,6 +8757,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/astro_bg.psd\"",
     "class_name": "hero_astro",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -9535,6 +9547,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/bebop_bg.psd\"",
     "class_name": "hero_bebop",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -10326,6 +10339,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/calico_bg.psd\"",
     "class_name": "hero_nano",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -11119,6 +11133,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/grey_talon_bg.psd\"",
     "class_name": "hero_orion",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -11918,6 +11933,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/krill_bg.psd\"",
     "class_name": "hero_krill",
     "collision_height": 80.0,
     "collision_radius": 28.0,
@@ -12710,6 +12726,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/shiv_bg.psd\"",
     "class_name": "hero_shiv",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -13503,6 +13520,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/ivy_bg.psd\"",
     "class_name": "hero_tengu",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -14292,6 +14310,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": null,
     "class_name": "hero_kali",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -15043,6 +15062,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/warden_bg.psd\"",
     "class_name": "hero_warden",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -15846,6 +15866,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/yamato_bg.psd\"",
     "class_name": "hero_yamato",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -16648,6 +16669,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/lash_bg.psd\"",
     "class_name": "hero_lash",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -17436,6 +17458,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/viscous_bg.psd\"",
     "class_name": "hero_viscous",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -18228,6 +18251,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": null,
     "class_name": "hero_gunslinger",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -18979,6 +19003,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": null,
     "class_name": "hero_yakuza",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -19730,6 +19755,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": null,
     "class_name": "hero_tokamak",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -20481,6 +20507,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": null,
     "class_name": "hero_wrecker",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -21254,6 +21281,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": null,
     "class_name": "hero_rutger",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -22005,6 +22033,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/pocket_bg.psd\"",
     "class_name": "hero_synth",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -22800,6 +22829,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": null,
     "class_name": "hero_thumper",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -23551,6 +23581,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/mirage_bg.psd\"",
     "class_name": "hero_mirage",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -24342,6 +24373,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": null,
     "class_name": "hero_slork",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -25108,6 +25140,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": null,
     "class_name": "hero_cadence",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -25859,6 +25892,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": null,
     "class_name": "hero_bomber",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -26610,6 +26644,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": null,
     "class_name": "hero_shieldguy",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -27361,6 +27396,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/vyper_bg.psd\"",
     "class_name": "hero_viper",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -28157,6 +28193,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": null,
     "class_name": "hero_vandal",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -28920,6 +28957,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/magician_bg.psd\"",
     "class_name": "hero_magician",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -29715,6 +29753,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": null,
     "class_name": "hero_trapper",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -30484,6 +30523,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": null,
     "class_name": "hero_operative",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -31250,6 +31290,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/mina_bg.psd\"",
     "class_name": "hero_vampirebat",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -32005,6 +32046,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/drifter_bg.psd\"",
     "class_name": "hero_drifter",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -32800,6 +32842,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/priest_bg.psd\"",
     "class_name": "hero_priest",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -33555,6 +33598,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/victor_bg.psd\"",
     "class_name": "hero_frank",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -34315,6 +34359,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/patience_bg.psd\"",
     "class_name": "hero_bookworm",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -35070,6 +35115,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": null,
     "class_name": "hero_boho",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -35840,6 +35886,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/doorman_bg.psd\"",
     "class_name": "hero_doorman",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -36614,6 +36661,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": null,
     "class_name": "hero_skyrunner",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -37380,6 +37428,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": null,
     "class_name": "hero_swan",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -38169,6 +38218,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": "panorama:\"file://{images}/heroes/backgrounds/billy_bg.psd\"",
     "class_name": "hero_punkgoat",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -38944,6 +38994,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": null,
     "class_name": "hero_druid",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -39695,6 +39746,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": null,
     "class_name": "hero_graf",
     "collision_height": 80.0,
     "collision_radius": 20.0,
@@ -40450,6 +40502,7 @@
   {
     "assigned_players_only": false,
     "available_in_hero_labs": null,
+    "background_image": null,
     "class_name": "hero_fortuna",
     "collision_height": 80.0,
     "collision_radius": 20.0,
