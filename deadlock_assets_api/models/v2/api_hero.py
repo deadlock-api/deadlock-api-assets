@@ -259,6 +259,7 @@ class HeroV2(BaseModel):
     in_development: bool
     needs_testing: bool
     assigned_players_only: bool
+    prerelease_only: bool | None = None
     limited_testing: bool
     complexity: int
     skin: int

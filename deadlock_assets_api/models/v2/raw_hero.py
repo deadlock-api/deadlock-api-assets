@@ -147,6 +147,7 @@ class RawHeroV2(BaseModel):
     needs_testing: bool = Field(..., validation_alias="m_bNeedsTesting")
     assigned_players_only: bool = Field(..., validation_alias="m_bAssignedPlayersOnly")
     available_in_hero_labs: bool | None = Field(None, validation_alias="m_bAvailableInHeroLabs")
+    prerelease_only: bool | None = Field(None, validation_alias="m_bPrereleaseOnly")
     limited_testing: bool = Field(..., validation_alias="m_bLimitedTesting")
     complexity: int = Field(..., validation_alias="m_nComplexity")
     skin: int = Field(..., validation_alias="m_nModelSkin")
