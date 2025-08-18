@@ -87,6 +87,21 @@ class HeroItemTypeV2(str, Enum):
         }.get(self)
 
 
+class HeroTypeV2(StrEnum):
+    ECitadelHeroType_Assassin = "assassin"
+    ECitadelHeroType_Brawler = "brawler"
+    ECitadelHeroType_Marksman = "marksman"
+    ECitadelHeroType_Mystic = "mystic"
+
+    @classmethod
+    def _missing_(cls, new_value: str):
+        new_value = new_value.lower()
+        for member in cls:
+            if new_value in [member.value.lower(), member.name.lower()]:
+                return member
+        raise ValueError(f"Unknown HeroTypeV2: {new_value}")
+
+
 class ItemSlotTypeV2(StrEnum):
     EItemSlotType_WeaponMod = "weapon"
     EItemSlotType_Tech = "spirit"

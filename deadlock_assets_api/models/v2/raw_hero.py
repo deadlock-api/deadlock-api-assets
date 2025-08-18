@@ -2,7 +2,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field
 
-from deadlock_assets_api.models.v2.enums import ItemSlotTypeV2, HeroItemTypeV2
+from deadlock_assets_api.models.v2.enums import ItemSlotTypeV2, HeroItemTypeV2, HeroTypeV2
 
 
 class RawHeroStartingStatsV2(BaseModel):
@@ -158,6 +158,10 @@ class RawHeroV2(BaseModel):
     selection_image: str | None = Field(None, validation_alias="m_strSelectionImage")
     top_bar_image: str | None = Field(None, validation_alias="m_strTopBarImage")
     top_bar_vertical_image: str | None = Field(None, validation_alias="m_strTopBarVertical")
+    tags: list[str] | None = Field(None, validation_alias="m_vecHeroTags")
+    gun_tag: str | None = Field(None, validation_alias="m_strGunTag")
+    hideout_rich_presence: str | None = Field(None, validation_alias="m_strHideoutRichPresence")
+    hero_type: HeroTypeV2 | None = Field(None, validation_alias="m_eHeroType")
     shop_stat_display: RawHeroShopStatDisplayV2 = Field(..., validation_alias="m_ShopStatDisplay")
     cost_bonuses: dict[ItemSlotTypeV2, list[RawHeroMapModCostBonusesV2]] = Field(
         ..., validation_alias="m_MapModCostBonuses"

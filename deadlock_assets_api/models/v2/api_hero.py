@@ -3,7 +3,7 @@ import json
 from pydantic import BaseModel, ConfigDict
 
 from deadlock_assets_api.glob import IMAGE_BASE_URL
-from deadlock_assets_api.models.v2.enums import HeroItemTypeV2, ItemSlotTypeV2
+from deadlock_assets_api.models.v2.enums import HeroItemTypeV2, ItemSlotTypeV2, HeroTypeV2
 from deadlock_assets_api.models.v2.raw_hero import (
     RawHeroItemSlotInfoValueV2,
     RawHeroLevelInfoV2,
@@ -259,6 +259,10 @@ class HeroV2(BaseModel):
     in_development: bool
     needs_testing: bool
     assigned_players_only: bool
+    tags: list[str] | None = None
+    gun_tag: str | None = None
+    hideout_rich_presence: str | None = None
+    hero_type: HeroTypeV2 | None = None
     prerelease_only: bool | None = None
     limited_testing: bool
     complexity: int
@@ -288,6 +292,19 @@ class HeroV2(BaseModel):
         raw_model["description"] = HeroDescriptionV2.from_raw_hero(raw_hero, localization)
         raw_model["starting_stats"] = HeroStartingStatsV2.from_raw_starting_stats(
             raw_hero.starting_stats
+        )
+        raw_model["tags"] = [localization.get(t.strip("#"), t) for t in raw_hero.tags or []]
+        raw_model["gun_tag"] = (
+            localization.get(raw_hero.gun_tag.strip("#"), raw_hero.gun_tag)
+            if raw_hero.gun_tag
+            else None
+        )
+        raw_model["hideout_rich_presence"] = (
+            localization.get(
+                raw_hero.hideout_rich_presence.strip("#"), raw_hero.hideout_rich_presence
+            )
+            if raw_hero.hideout_rich_presence
+            else None
         )
         raw_model["images"] = HeroImagesV2.from_raw_hero(raw_hero)
         raw_model["physics"] = HeroPhysicsV2.from_raw_hero(raw_hero)

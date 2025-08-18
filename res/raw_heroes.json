@@ -191,6 +191,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_RapidFire",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -252,6 +253,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "marksman",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Cocktails",
     "icon_hero_card": "panorama:\"file://{images}/heroes/inferno_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/inferno_sm.psd\"",
     "id": 1,
@@ -781,6 +784,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Inferno_HeroTag_1",
+      "#Citadel_Inferno_HeroTag_2",
+      "#Citadel_Inferno_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/inferno_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/inferno_vertical.psd\""
   },
@@ -976,6 +984,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_BurstFire",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -1037,6 +1046,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "mystic",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Plotting",
     "icon_hero_card": "panorama:\"file://{images}/heroes/gigawatt_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/gigawatt_sm.psd\"",
     "id": 2,
@@ -1572,6 +1583,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Gigawatt_HeroTag_1",
+      "#Citadel_Gigawatt_HeroTag_2",
+      "#Citadel_Gigawatt_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/gigwatt_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/gigawatt_vertical.psd\""
   },
@@ -1767,6 +1783,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_LongRange",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -1828,6 +1845,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "marksman",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Brooding",
     "icon_hero_card": "panorama:\"file://{images}/heroes/hornet_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/hornet_sm.png\"",
     "id": 3,
@@ -2367,6 +2386,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Vindicta_HeroTag_1",
+      "#Citadel_Vindicta_HeroTag_2",
+      "#Citadel_Vindicta_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/hornet_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/hornet_vertical.psd\""
   },
@@ -2562,6 +2586,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_Pistol",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -2623,6 +2648,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "mystic",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Fabulous",
     "icon_hero_card": "panorama:\"file://{images}/heroes/spectre_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/spectre_sm.psd\"",
     "id": 4,
@@ -3149,6 +3176,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Geist_HeroTag_1",
+      "#Citadel_Geist_HeroTag_2",
+      "#Citadel_Geist_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/spectre_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/spectre_vertical.psd\""
   },
@@ -3344,6 +3376,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Citadel_GunTag_Shotgun",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -3405,6 +3438,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "brawler",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Investigating",
     "icon_hero_card": "panorama:\"file://{images}/heroes/bull_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/bull_sm.psd\"",
     "id": 6,
@@ -3932,6 +3967,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Abrams_HeroTag_1",
+      "#Citadel_Abrams_HeroTag_2",
+      "#Citadel_Abrams_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/bull_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/bull_vertical.psd\""
   },
@@ -4127,6 +4167,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_RapidFire",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -4188,6 +4229,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "marksman",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Cards",
     "icon_hero_card": "panorama:\"file://{images}/heroes/wraith_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/wraith_sm.psd\"",
     "id": 7,
@@ -4720,6 +4763,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Wraith_HeroTag_1",
+      "#Citadel_Wraith_HeroTag_2",
+      "#Citadel_Wraith_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/wraith_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/wraith_vertical.psd\""
   },
@@ -4915,6 +4963,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_Heavy",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -4976,6 +5025,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "mystic",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Engineering",
     "icon_hero_card": "panorama:\"file://{images}/heroes/engineer_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/engineer_sm.psd\"",
     "id": 8,
@@ -5510,6 +5561,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Engineer_HeroTag_1",
+      "#Citadel_Engineer_HeroTag_2",
+      "#Citadel_Engineer_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/engineer_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/engineer_vertical.psd\""
   },
@@ -5705,6 +5761,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_BurstFire",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -5766,6 +5823,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "marksman",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Scheming",
     "icon_hero_card": "panorama:\"file://{images}/heroes/chrono_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/chrono_sm.psd\"",
     "id": 10,
@@ -6295,6 +6354,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Chrono_HeroTag_1",
+      "#Citadel_Chrono_HeroTag_2",
+      "#Citadel_Chrono_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/chrono_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/chrono_vertical.psd\""
   },
@@ -6490,6 +6554,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_Pistol",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -6551,6 +6616,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "mystic",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Pontificating",
     "icon_hero_card": "panorama:\"file://{images}/heroes/sumo_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/sumo_sm.psd\"",
     "id": 11,
@@ -7078,6 +7145,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Dynamo_HeroTag_1",
+      "#Citadel_Dynamo_HeroTag_2",
+      "#Citadel_Dynamo_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/sumo_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/sumo_vertical.psd\""
   },
@@ -7273,6 +7345,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_HeavyHitter",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -7334,6 +7407,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "brawler",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Chilling",
     "icon_hero_card": "panorama:\"file://{images}/heroes/kelvin_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/kelvin_sm.psd\"",
     "id": 12,
@@ -7865,6 +7940,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Kelvin_HeroTag_1",
+      "#Citadel_Kelvin_HeroTag_2",
+      "#Citadel_Kelvin_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/kelvin_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/kelvin_vertical.psd\""
   },
@@ -8060,6 +8140,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_RapidFire",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -8121,6 +8202,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "assassin",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Sleep_Walk",
     "icon_hero_card": "panorama:\"file://{images}/heroes/haze_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/haze_sm.psd\"",
     "id": 13,
@@ -8652,6 +8735,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Haze_HeroTag_1",
+      "#Citadel_Haze_HeroTag_2",
+      "#Citadel_Haze_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/haze_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/haze_vertical.psd\""
   },
@@ -8847,6 +8935,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_Pistol",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -8908,6 +8997,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "marksman",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Mystery",
     "icon_hero_card": "panorama:\"file://{images}/heroes/astro_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/astro_sm.psd\"",
     "id": 14,
@@ -9433,6 +9524,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Astro_HeroTag_1",
+      "#Citadel_Astro_HeroTag_2",
+      "#Citadel_Astro_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/astro_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/astro_vertical.psd\""
   },
@@ -9628,6 +9724,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_BeamWeapon",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -9689,6 +9786,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "brawler",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Ignoring_Lash",
     "icon_hero_card": "panorama:\"file://{images}/heroes/bebop_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/bebop_sm.psd\"",
     "id": 15,
@@ -10216,6 +10315,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Bebop_HeroTag_1",
+      "#Citadel_Bebop_HeroTag_2",
+      "#Citadel_Bebop_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/bebop_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/bebop_vertical.psd\""
   },
@@ -10411,6 +10515,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_Spreadshot",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -10472,6 +10577,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "assassin",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Ava",
     "icon_hero_card": "panorama:\"file://{images}/heroes/nano_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/nano_sm.psd\"",
     "id": 16,
@@ -11001,6 +11108,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Nano_HeroTag_1",
+      "#Citadel_Nano_HeroTag_2",
+      "#Citadel_Nano_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/nano_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/nano_vertical.psd\""
   },
@@ -11196,6 +11308,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_Bow",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -11257,6 +11370,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "marksman",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Mourning",
     "icon_hero_card": "panorama:\"file://{images}/heroes/archer_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/archer_sm.psd\"",
     "id": 17,
@@ -11792,6 +11907,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Orion_HeroTag_1",
+      "#Citadel_Orion_HeroTag_2",
+      "#Citadel_Orion_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/archer_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/archer_vertical.psd\""
   },
@@ -11987,6 +12107,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_Spreadshot",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -12048,6 +12169,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "brawler",
+    "hideout_rich_presence": null,
     "icon_hero_card": "panorama:\"file://{images}/heroes/digger_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/digger_sm.psd\"",
     "id": 18,
@@ -12576,6 +12699,11 @@
     "step_height": 24.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Digger_HeroTag_1",
+      "#Citadel_Digger_HeroTag_2",
+      "#Citadel_Digger_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/digger_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/digger_vertical.psd\""
   },
@@ -12771,6 +12899,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_Spreadshot",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -12832,6 +12961,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "brawler",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Knives",
     "icon_hero_card": "panorama:\"file://{images}/heroes/shiv_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/shiv_sm.psd\"",
     "id": 19,
@@ -13361,6 +13492,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Shiv_HeroTag_1",
+      "#Citadel_Shiv_HeroTag_2",
+      "#Citadel_Shiv_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/shiv_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/shiv_vertical.psd\""
   },
@@ -13556,6 +13692,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_RapidFire",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -13617,6 +13754,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "marksman",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Homesick",
     "icon_hero_card": "panorama:\"file://{images}/heroes/tengu_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/tengu_sm.psd\"",
     "id": 20,
@@ -14142,6 +14281,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Tengu_HeroTag_1",
+      "#Citadel_Tengu_HeroTag_2",
+      "#Citadel_Tengu_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/tengu_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/tengu_vertical.psd\""
   },
@@ -14337,6 +14481,7 @@
     },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": null,
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -14398,6 +14543,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": null,
+    "hideout_rich_presence": null,
     "icon_hero_card": "panorama:\"file://{images}/heroes/kali_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/kali_sm.psd\"",
     "id": 21,
@@ -14889,6 +15036,7 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": null,
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/kali_hud.psd\"",
     "top_bar_vertical_image": null
   },
@@ -15084,6 +15232,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_HeavyHitter",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -15145,6 +15294,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "brawler",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Training",
     "icon_hero_card": "panorama:\"file://{images}/heroes/warden_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/warden_sm.psd\"",
     "id": 25,
@@ -15684,6 +15835,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Warden_HeroTag_1",
+      "#Citadel_Warden_HeroTag_2",
+      "#Citadel_Warden_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/warden_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/warden_vertical.psd\""
   },
@@ -15879,6 +16035,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_Spreadshot",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -15940,6 +16097,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "assassin",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Reminiscing",
     "icon_hero_card": "panorama:\"file://{images}/heroes/yamato_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/yamato_sm.psd\"",
     "id": 27,
@@ -16478,6 +16637,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Yamato_HeroTag_1",
+      "#Citadel_Yamato_HeroTag_2",
+      "#Citadel_Yamato_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/yamato_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/yamato_vertical.psd\""
   },
@@ -16673,6 +16837,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_BurstFire",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -16734,6 +16899,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "assassin",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Lash",
     "icon_hero_card": "panorama:\"file://{images}/heroes/lash_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/lash_sm.psd\"",
     "id": 31,
@@ -17258,6 +17425,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Lash_HeroTag_1",
+      "#Citadel_Lash_HeroTag_2",
+      "#Citadel_Lash_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/lash_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/lash_vertical.psd\""
   },
@@ -17453,6 +17625,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_Projectile",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -17514,6 +17687,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "mystic",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Cube",
     "icon_hero_card": "panorama:\"file://{images}/heroes/viscous_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/viscous_sm.psd\"",
     "id": 35,
@@ -18042,6 +18217,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Viscous_HeroTag_1",
+      "#Citadel_Viscous_HeroTag_2",
+      "#Citadel_Viscous_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/viscous_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/viscous_vertical.psd\""
   },
@@ -18237,6 +18417,7 @@
     },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": null,
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -18298,6 +18479,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": null,
+    "hideout_rich_presence": null,
     "icon_hero_card": "panorama:\"file://{images}/heroes/gunslinger_sm.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/gunslinger_sm.psd\"",
     "id": 38,
@@ -18789,6 +18972,7 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": null,
     "top_bar_image": null,
     "top_bar_vertical_image": null
   },
@@ -18984,6 +19168,7 @@
     },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": null,
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -19045,6 +19230,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": null,
+    "hideout_rich_presence": null,
     "icon_hero_card": "panorama:\"file://{images}/heroes/yakuza_sm.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/yakuza_sm.psd\"",
     "id": 39,
@@ -19536,6 +19723,7 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": null,
     "top_bar_image": null,
     "top_bar_vertical_image": null
   },
@@ -19731,6 +19919,7 @@
     },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": null,
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -19792,6 +19981,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": null,
+    "hideout_rich_presence": null,
     "icon_hero_card": "panorama:\"file://{images}/hud/hero_portraits/tokamak_hud.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/tokamak_sm.psd\"",
     "id": 47,
@@ -20283,6 +20474,7 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": null,
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/tokamak_hud.psd\"",
     "top_bar_vertical_image": null
   },
@@ -20478,6 +20670,7 @@
     },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": null,
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -20539,6 +20732,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": null,
+    "hideout_rich_presence": null,
     "icon_hero_card": "panorama:\"file://{images}/heroes/wrecker_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/wrecker_sm.psd\"",
     "id": 48,
@@ -21052,6 +21247,7 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": null,
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/wrecker_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/wrecker_vertical.psd\""
   },
@@ -21247,6 +21443,7 @@
     },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": null,
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -21308,6 +21505,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": null,
+    "hideout_rich_presence": null,
     "icon_hero_card": "panorama:\"file://{images}/heroes/rutger_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/rutger_sm.psd\"",
     "id": 49,
@@ -21799,6 +21998,7 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": null,
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/rutger_hud.psd\"",
     "top_bar_vertical_image": null
   },
@@ -21994,6 +22194,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_Spreadshot",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -22055,6 +22256,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "assassin",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Sulking",
     "icon_hero_card": "panorama:\"file://{images}/heroes/synth_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/synth_sm.psd\"",
     "id": 50,
@@ -22586,6 +22789,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Synth_HeroTag_1",
+      "#Citadel_Synth_HeroTag_2",
+      "#Citadel_Synth_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/synth_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/synth_vertical.psd\""
   },
@@ -22781,6 +22989,7 @@
     },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": null,
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -22842,6 +23051,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": null,
+    "hideout_rich_presence": null,
     "icon_hero_card": "panorama:\"file://{images}/heroes/thumper_sm.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/thumper_sm.psd\"",
     "id": 51,
@@ -23333,6 +23544,7 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": null,
     "top_bar_image": null,
     "top_bar_vertical_image": null
   },
@@ -23528,6 +23740,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_Pistol",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -23589,6 +23802,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "assassin",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Wyoming",
     "icon_hero_card": "panorama:\"file://{images}/heroes/mirage_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/mirage_sm.psd\"",
     "id": 52,
@@ -24116,6 +24331,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Mirage_HeroTag_1",
+      "#Citadel_Mirage_HeroTag_2",
+      "#Citadel_Mirage_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/mirage_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/mirage_vertical.psd\""
   },
@@ -24311,6 +24531,7 @@
     },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": null,
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -24372,6 +24593,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": null,
+    "hideout_rich_presence": null,
     "icon_hero_card": "panorama:\"file://{images}/heroes/slork_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/slork_sm.psd\"",
     "id": 53,
@@ -24878,6 +25101,7 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": null,
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/slork_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/slork_vertical.psd\""
   },
@@ -25073,6 +25297,7 @@
     },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": null,
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -25134,6 +25359,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": null,
+    "hideout_rich_presence": null,
     "icon_hero_card": "panorama:\"file://{images}/heroes/cadence_sm.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/cadence_sm.psd\"",
     "id": 54,
@@ -25625,6 +25852,7 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": null,
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/cadence_hud.psd\"",
     "top_bar_vertical_image": null
   },
@@ -25820,6 +26048,7 @@
     },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": null,
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -25881,6 +26110,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": null,
+    "hideout_rich_presence": null,
     "icon_hero_card": null,
     "icon_image_small": null,
     "id": 56,
@@ -26372,6 +26603,7 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": null,
     "top_bar_image": null,
     "top_bar_vertical_image": null
   },
@@ -26567,6 +26799,7 @@
     },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": null,
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -26628,6 +26861,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": null,
+    "hideout_rich_presence": null,
     "icon_hero_card": null,
     "icon_image_small": null,
     "id": 57,
@@ -27119,6 +27354,7 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": null,
     "top_bar_image": null,
     "top_bar_vertical_image": null
   },
@@ -27314,6 +27550,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_RapidFire",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -27375,6 +27612,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "assassin",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Pruno",
     "icon_hero_card": "panorama:\"file://{images}/heroes/kali_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/kali_sm.psd\"",
     "id": 58,
@@ -27907,6 +28146,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Viper_HeroTag_1",
+      "#Citadel_Viper_HeroTag_2",
+      "#Citadel_Viper_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/kali_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/kali_vertical.psd\""
   },
@@ -28102,6 +28346,7 @@
     },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": null,
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -28163,6 +28408,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": null,
+    "hideout_rich_presence": null,
     "icon_hero_card": "panorama:\"file://{images}/heroes/vandal_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/vandal_sm.psd\"",
     "id": 59,
@@ -28666,6 +28913,7 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": null,
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/vandal_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/vandal_vertical.psd\""
   },
@@ -28861,6 +29109,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_BurstFire",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -28922,6 +29171,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "mystic",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Magic",
     "icon_hero_card": "panorama:\"file://{images}/heroes/magician_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/magician_sm.psd\"",
     "id": 60,
@@ -29453,6 +29704,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Magician_HeroTag_1",
+      "#Citadel_Magician_HeroTag_2",
+      "#Citadel_Magician_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/magician_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/magician_vertical.psd\""
   },
@@ -29648,6 +29904,7 @@
     },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": null,
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -29709,6 +29966,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": null,
+    "hideout_rich_presence": null,
     "icon_hero_card": "panorama:\"file://{images}/heroes/trapper_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/trapper_sm.psd\"",
     "id": 61,
@@ -30218,6 +30477,7 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": null,
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/trapper_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/trapper_vertical.psd\""
   },
@@ -30413,6 +30673,7 @@
     },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": null,
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -30474,6 +30735,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": null,
+    "hideout_rich_presence": null,
     "icon_hero_card": "panorama:\"file://{images}/heroes/operative_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/operative_sm.psd\"",
     "id": 62,
@@ -30980,6 +31243,7 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": null,
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/operative_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/operative_vertical.psd\""
   },
@@ -31175,6 +31439,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_Pistol",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -31236,6 +31501,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "marksman",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Life",
     "icon_hero_card": "panorama:\"file://{images}/heroes/vampirebat_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/vampirebat_sm.psd\"",
     "id": 63,
@@ -31727,6 +31994,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_VampireBat_HeroTag_1",
+      "#Citadel_VampireBat_HeroTag_2",
+      "#Citadel_VampireBat_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/chrono_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/vampirebat_vertical.psd\""
   },
@@ -31922,6 +32194,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_Spreadshot",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -31983,6 +32256,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "assassin",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Prowl",
     "icon_hero_card": "panorama:\"file://{images}/heroes/drifter_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/drifter_sm.psd\"",
     "id": 64,
@@ -32514,6 +32789,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Drifter_HeroTag_1",
+      "#Citadel_Drifter_HeroTag_2",
+      "#Citadel_Drifter_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/shiv_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/drifter_vertical.psd\""
   },
@@ -32709,6 +32989,7 @@
     },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_Bow",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -32770,6 +33051,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "marksman",
+    "hideout_rich_presence": null,
     "icon_hero_card": "panorama:\"file://{images}/heroes/priest_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/priest_sm.psd\"",
     "id": 65,
@@ -33261,6 +33544,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Priest_HeroTag_1",
+      "#Citadel_Priest_HeroTag_2",
+      "#Citadel_Priest_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/warden_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/priest_vertical.psd\""
   },
@@ -33456,6 +33744,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_Pistol",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -33517,6 +33806,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "brawler",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Brooding",
     "icon_hero_card": "panorama:\"file://{images}/heroes/frank_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/frank_sm.psd\"",
     "id": 66,
@@ -34013,6 +34304,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Frank_HeroTag_1",
+      "#Citadel_Frank_HeroTag_2",
+      "#Citadel_Frank_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/warden_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/frank_vertical.psd\""
   },
@@ -34208,6 +34504,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_Projectile",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -34269,6 +34566,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "mystic",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Read",
     "icon_hero_card": "panorama:\"file://{images}/heroes/bookworm_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/bookworm_sm.psd\"",
     "id": 67,
@@ -34760,6 +35059,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Bookworm_HeroTag_1",
+      "#Citadel_Bookworm_HeroTag_2",
+      "#Citadel_Bookworm_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/hornet_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/bookworm_vertical.psd\""
   },
@@ -34955,6 +35259,7 @@
     },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": null,
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -35016,6 +35321,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": null,
+    "hideout_rich_presence": null,
     "icon_hero_card": "panorama:\"file://{images}/heroes/boho_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/hornet_sm.png\"",
     "id": 68,
@@ -35526,6 +35833,7 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": null,
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/boho_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/boho_vertical.psd\""
   },
@@ -35721,6 +36029,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_Pistol",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -35782,6 +36091,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "mystic",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Service",
     "icon_hero_card": "panorama:\"file://{images}/heroes/doorman_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/doorman_sm.psd\"",
     "id": 69,
@@ -36292,6 +36603,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Doorman_HeroTag_1",
+      "#Citadel_Doorman_HeroTag_2",
+      "#Citadel_Doorman_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/doorman_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/doorman_vertical.psd\""
   },
@@ -36487,6 +36803,7 @@
     },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": null,
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -36548,6 +36865,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": null,
+    "hideout_rich_presence": null,
     "icon_hero_card": "panorama:\"file://{images}/heroes/skyrunner_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/skyrunner_sm.psd\"",
     "id": 70,
@@ -37054,6 +37373,7 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": null,
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/lash_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/skyrunner_vertical.psd\""
   },
@@ -37249,6 +37569,7 @@
     },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": null,
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -37310,6 +37631,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": null,
+    "hideout_rich_presence": null,
     "icon_hero_card": "panorama:\"file://{images}/heroes/swan_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/swan_sm.psd\"",
     "id": 71,
@@ -37839,6 +38162,7 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": null,
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/chrono_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/swan_vertical.psd\""
   },
@@ -38034,6 +38358,7 @@
     },
     "disabled": false,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_CloseRange",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -38095,6 +38420,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": "brawler",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Rant",
     "icon_hero_card": "panorama:\"file://{images}/heroes/punkgoat_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/punkgoat_sm.psd\"",
     "id": 72,
@@ -38606,6 +38933,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Punkgoat_HeroTag_1",
+      "#Citadel_Punkgoat_HeroTag_2",
+      "#Citadel_Punkgoat_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/punkgoat_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/punkgoat_vertical.psd\""
   },
@@ -38801,6 +39133,7 @@
     },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": null,
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -38862,6 +39195,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": null,
+    "hideout_rich_presence": null,
     "icon_hero_card": "panorama:\"file://{images}/heroes/druid_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/druid_sm.psd\"",
     "id": 73,
@@ -39353,6 +39688,7 @@
     "step_height": 32.0,
     "step_sound_time": 0.325,
     "step_sound_time_sprinting": null,
+    "tags": null,
     "top_bar_image": "panorama:\"\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/druid_vertical.psd\""
   },
@@ -39548,6 +39884,7 @@
     },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_Pistol",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -39609,6 +39946,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": null,
+    "hideout_rich_presence": null,
     "icon_hero_card": "panorama:\"file://{images}/heroes/graf_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/graf_sm.psd\"",
     "id": 74,
@@ -40100,6 +40439,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_VampireBat_HeroTag_1",
+      "#Citadel_VampireBat_HeroTag_2",
+      "#Citadel_VampireBat_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/chrono_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/graf_vertical.psd\""
   },
@@ -40295,6 +40639,7 @@
     },
     "disabled": true,
     "footstep_sound_travel_distance_meters": null,
+    "gun_tag": "#Attribute_EWeaponAttribute_Pistol",
     "hero_stats_ui": {
       "display_stats": [
         {
@@ -40356,6 +40701,8 @@
       ],
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
+    "hero_type": null,
+    "hideout_rich_presence": null,
     "icon_hero_card": "panorama:\"file://{images}/heroes/fortuna_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/fortuna_sm.psd\"",
     "id": 75,
@@ -40888,6 +41235,11 @@
     "step_height": 32.0,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
+    "tags": [
+      "#Citadel_Wraith_HeroTag_1",
+      "#Citadel_Wraith_HeroTag_2",
+      "#Citadel_Wraith_HeroTag_3"
+    ],
     "top_bar_image": "panorama:\"file://{images}/hud/hero_portraits/wraith_hud.psd\"",
     "top_bar_vertical_image": "panorama:\"file://{images}/heroes/fortuna_vertical.psd\""
   }
