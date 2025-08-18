@@ -6,8 +6,8 @@ from pydantic import BaseModel, ConfigDict, Field, field_validator, AliasChoices
 from deadlock_assets_api.models.v2.raw_item_base import (
     RawItemBaseV2,
     RawItemWeaponInfoBulletSpeedCurveV2,
-    parse_css_ability_icon,
 )
+from deadlock_assets_api.utils import parse_css_ability_icon
 
 LOGGER = logging.getLogger(__name__)
 

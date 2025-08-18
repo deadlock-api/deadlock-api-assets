@@ -50,10 +50,12 @@ class HeroImagesV2(BaseModel):
     selection_image_webp: str | None = None
     top_bar_image: str | None = None
     top_bar_image_webp: str | None = None
-    top_bar_vertical: str | None = None
-    top_bar_vertical_webp: str | None = None
+    top_bar_vertical_image: str | None = None
+    top_bar_vertical_image_webp: str | None = None
     weapon_image: str | None = None
     weapon_image_webp: str | None = None
+    background_image: str | None = None
+    background_image_webp: str | None = None
 
     @classmethod
     def from_raw_hero(cls, raw_hero: RawHeroV2) -> "HeroImagesV2":
@@ -63,8 +65,9 @@ class HeroImagesV2(BaseModel):
             "minimap_image",
             "selection_image",
             "top_bar_image",
-            "top_bar_vertical",
+            "top_bar_vertical_image",
             "weapon_image",
+            "background_image",
         ]
         images = {k: extract_image_url(v) for k, v in raw_hero.model_dump().items() if k in keys}
         return cls(

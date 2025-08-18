@@ -1,8 +1,9 @@
 import json
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, computed_field
 
 from deadlock_assets_api.models.v2.enums import ItemSlotTypeV2, HeroItemTypeV2, HeroTypeV2
+from deadlock_assets_api.utils import parse_css_heroes_background
 
 
 class RawHeroStartingStatsV2(BaseModel):
@@ -200,6 +201,10 @@ class RawHeroV2(BaseModel):
     standard_level_up_upgrades: dict[str, float] = Field(
         ..., validation_alias="m_mapStandardLevelUpUpgrades"
     )
+
+    @computed_field
+    def background_image(self) -> str | None:
+        return parse_css_heroes_background(self.class_name)
 
 
 def test_parse():

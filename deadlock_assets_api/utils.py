@@ -3,8 +3,11 @@ import logging
 import os
 import re
 from enum import Enum
+from functools import lru_cache
 from typing import Type
 
+import css_parser
+from css_parser.css import CSSRuleList, CSSStyleRule
 from fastapi import HTTPException
 from py_cachify import cached, lock
 from pydantic import TypeAdapter, BaseModel
@@ -119,3 +122,75 @@ def validate_language(language: Language | None = None) -> Language:
     if language is None:
         language = Language.English
     return language
+
+
+@lru_cache
+def parse_css_rules(filename: str) -> CSSRuleList:
+    return css_parser.parseFile(filename).cssRules
+
+
+def parse_css_heroes_background(class_name: str) -> str | None:
+    for rule in parse_css_rules("res//hero_background_default.css"):
+        if not isinstance(rule, CSSStyleRule):
+            continue
+        css_class = next(
+            (s for s in " ".join(rule.selectorText.split(".")).split(" ") if s == class_name),
+            None,
+        )
+        if css_class is None:
+            continue
+        rule: CSSStyleRule = rule
+        background_image = rule.style.getProperty("background-image")
+        if background_image is None:
+            continue
+        background_image = background_image.value[4:-1]
+        background_image = background_image.replace("_psd.vtex", ".psd")
+        background_image = background_image.split("images/")[-1]
+        return 'panorama:"file://{images}/' + background_image + '"'
+    return None
+
+
+def parse_css_ability_properties_icon(file: str, css_class_icon: str) -> str | None:
+    for rule in parse_css_rules(file):
+        if not isinstance(rule, CSSStyleRule):
+            continue
+        css_class = next(
+            (
+                s
+                for s in " ".join(rule.selectorText.split(".")).split(" ")
+                if s == f"prop_{css_class_icon}" or s == css_class_icon
+            ),
+            None,
+        )
+        if css_class is None:
+            continue
+        rule: CSSStyleRule = rule
+        background_image = rule.style.getProperty("background-image")
+        if background_image is None:
+            continue
+        background_image = background_image.value[4:-1]
+        background_image = background_image.replace("_psd.vtex", ".psd")
+        background_image = background_image.split("images/")[-1]
+        return 'panorama:"file://{images}/' + background_image + '"'
+    return None
+
+
+def parse_css_ability_icon(class_name: str) -> str | None:
+    for rule in parse_css_rules("res/ability_icons.css"):
+        if not isinstance(rule, CSSStyleRule):
+            continue
+        css_class = next(
+            (s for s in " ".join(rule.selectorText.split(".")).split(" ") if s == class_name),
+            None,
+        )
+        if css_class is None:
+            continue
+        rule: CSSStyleRule = rule
+        background_image = rule.style.getProperty("background-image")
+        if background_image is None:
+            continue
+        background_image = background_image.value[4:-1]
+        background_image = background_image.replace("_psd.vtex", ".psd")
+        background_image = background_image.split("images/")[-1]
+        return 'panorama:"file://{images}/' + background_image + '"'
+    return None

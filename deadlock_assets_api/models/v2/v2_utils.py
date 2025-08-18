@@ -9,8 +9,12 @@ from deadlock_assets_api.glob import SVGS_BASE_URL
 from deadlock_assets_api.models.v2.api_item_base import parse_img_path
 from deadlock_assets_api.models.v2.raw_ability import RawAbilityV2
 from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
-from deadlock_assets_api.models.v2.raw_item_base import RawItemBaseV2, parse_css_rules
-from deadlock_assets_api.utils import prettify_pascal_case, pascal_case_to_snake_case
+from deadlock_assets_api.models.v2.raw_item_base import RawItemBaseV2
+from deadlock_assets_api.utils import (
+    prettify_pascal_case,
+    pascal_case_to_snake_case,
+    parse_css_rules,
+)
 
 LOGGER = logging.getLogger(__name__)
 

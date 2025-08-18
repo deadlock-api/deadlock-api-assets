@@ -1,11 +1,9 @@
 import logging
-from functools import lru_cache
 
-import css_parser
-from css_parser.css import CSSRuleList, CSSStyleRule
 from pydantic import AliasChoices, BaseModel, ConfigDict, Field, field_validator
 
 from deadlock_assets_api.models.v2.enums import StatsUsageFlagV2
+from deadlock_assets_api.utils import parse_css_ability_properties_icon
 
 LOGGER = logging.getLogger(__name__)
 
@@ -102,57 +100,6 @@ class RawItemPropertyV2(BaseModel):
         if isinstance(value, list):
             return value
         return [StatsUsageFlagV2(member.strip()) for member in value.split("|")]
-
-
-@lru_cache
-def parse_css_rules(filename: str) -> CSSRuleList:
-    return css_parser.parseFile(filename).cssRules
-
-
-def parse_css_ability_properties_icon(file: str, css_class_icon: str) -> str | None:
-    for rule in parse_css_rules(file):
-        if not isinstance(rule, CSSStyleRule):
-            continue
-        css_class = next(
-            (
-                s
-                for s in " ".join(rule.selectorText.split(".")).split(" ")
-                if s == f"prop_{css_class_icon}" or s == css_class_icon
-            ),
-            None,
-        )
-        if css_class is None:
-            continue
-        rule: CSSStyleRule = rule
-        background_image = rule.style.getProperty("background-image")
-        if background_image is None:
-            continue
-        background_image = background_image.value[4:-1]
-        background_image = background_image.replace("_psd.vtex", ".psd")
-        background_image = background_image.split("images/")[-1]
-        return 'panorama:"file://{images}/' + background_image + '"'
-    return None
-
-
-def parse_css_ability_icon(class_name: str) -> str | None:
-    for rule in parse_css_rules("res/ability_icons.css"):
-        if not isinstance(rule, CSSStyleRule):
-            continue
-        css_class = next(
-            (s for s in " ".join(rule.selectorText.split(".")).split(" ") if s == class_name),
-            None,
-        )
-        if css_class is None:
-            continue
-        rule: CSSStyleRule = rule
-        background_image = rule.style.getProperty("background-image")
-        if background_image is None:
-            continue
-        background_image = background_image.value[4:-1]
-        background_image = background_image.replace("_psd.vtex", ".psd")
-        background_image = background_image.split("images/")[-1]
-        return 'panorama:"file://{images}/' + background_image + '"'
-    return None
 
 
 class RawItemBaseV2(BaseModel):

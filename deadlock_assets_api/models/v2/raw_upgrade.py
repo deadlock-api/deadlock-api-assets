@@ -5,11 +5,8 @@ from typing import Literal, Optional
 from pydantic import ConfigDict, Field, BaseModel, computed_field, model_validator
 
 from deadlock_assets_api.models.v2.enums import ItemTierV2, ItemSlotTypeV2
-from deadlock_assets_api.models.v2.raw_item_base import (
-    RawItemBaseV2,
-    parse_css_ability_properties_icon,
-    parse_css_ability_icon,
-)
+from deadlock_assets_api.models.v2.raw_item_base import RawItemBaseV2
+from deadlock_assets_api.utils import parse_css_ability_properties_icon, parse_css_ability_icon
 
 LOGGER = logging.getLogger(__name__)
 

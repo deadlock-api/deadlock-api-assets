@@ -6,9 +6,8 @@ from pydantic import BaseModel, ConfigDict, Field, computed_field, model_validat
 from deadlock_assets_api.models.v2.enums import AbilityTypeV2
 from deadlock_assets_api.models.v2.raw_item_base import (
     RawItemBaseV2,
-    parse_css_ability_properties_icon,
-    parse_css_ability_icon,
 )
+from deadlock_assets_api.utils import parse_css_ability_properties_icon, parse_css_ability_icon
 
 LOGGER = logging.getLogger(__name__)
 
