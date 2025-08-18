@@ -533,6 +533,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/inferno_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -1317,6 +1318,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/gigawatt_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -2107,6 +2109,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/hornet_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -2901,6 +2904,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/spectre_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -3682,6 +3686,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/bull_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -4464,6 +4469,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/wraith_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -5251,6 +5257,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/engineer_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -6040,6 +6047,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/chrono_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -6824,6 +6832,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/sumo_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -7606,6 +7615,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/kelvin_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -8392,6 +8402,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/haze_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -9178,6 +9189,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/astro_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -9958,6 +9970,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/bebop_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -10740,6 +10753,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/nano_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -11524,6 +11538,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/archer_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -12314,6 +12329,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/digger_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -13098,6 +13114,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/shiv_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -13881,6 +13898,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/tengu_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -14661,6 +14679,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/kali_mm.psd\"",
     "needs_testing": false,
     "player_selectable": false,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -15407,6 +15426,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/warden_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -16202,6 +16222,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/yamato_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -16994,6 +17015,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/lash_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -17774,6 +17796,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/viscous_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -18556,6 +18579,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/gunslinger_mm.psd\"",
     "needs_testing": true,
     "player_selectable": false,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -19302,6 +19326,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/yakuza_mm.psd\"",
     "needs_testing": false,
     "player_selectable": false,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -20048,6 +20073,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/tokamak_mm.psd\"",
     "needs_testing": false,
     "player_selectable": false,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -20794,6 +20820,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/wrecker_mm.psd\"",
     "needs_testing": false,
     "player_selectable": false,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -21562,6 +21589,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/rutger_mm.psd\"",
     "needs_testing": true,
     "player_selectable": false,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -22308,6 +22336,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/synth_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -23094,6 +23123,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/thumper_mm.psd\"",
     "needs_testing": true,
     "player_selectable": false,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -23840,6 +23870,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/mirage_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -24622,6 +24653,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/slork_mm.psd\"",
     "needs_testing": false,
     "player_selectable": false,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -25383,6 +25415,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/cadence_mm.psd\"",
     "needs_testing": true,
     "player_selectable": false,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -26129,6 +26162,7 @@
     "minimap_image": null,
     "needs_testing": false,
     "player_selectable": false,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -26875,6 +26909,7 @@
     "minimap_image": null,
     "needs_testing": false,
     "player_selectable": false,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -27621,6 +27656,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/kali_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -28408,6 +28444,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/vandal_mm.psd\"",
     "needs_testing": false,
     "player_selectable": false,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -29166,6 +29203,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/magician_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -29952,6 +29990,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/trapper_mm.psd\"",
     "needs_testing": false,
     "player_selectable": false,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -30716,6 +30755,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/operative_mm.psd\"",
     "needs_testing": false,
     "player_selectable": false,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -31477,6 +31517,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/vampirebat_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -32223,6 +32264,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/drifter_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": true,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -33009,6 +33051,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/priest_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -33755,6 +33798,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/frank_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": true,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -34506,6 +34550,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/bookworm_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": true,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -35252,6 +35297,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/boho_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -36017,6 +36063,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/doorman_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": true,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -36783,6 +36830,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/skyrunner_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -37543,6 +37591,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/swan_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -38327,6 +38376,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/punkgoat_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": true,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -39093,6 +39143,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/druid_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -39839,6 +39890,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/graf_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -40585,6 +40637,7 @@
     "minimap_image": "panorama:\"file://{images}/heroes/fortuna_mm.psd\"",
     "needs_testing": false,
     "player_selectable": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
