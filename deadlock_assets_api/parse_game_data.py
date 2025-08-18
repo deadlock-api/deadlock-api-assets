@@ -4,9 +4,9 @@ import shutil
 from concurrent.futures import ThreadPoolExecutor
 
 import vdf
-from kv3parser import KV3Parser
 from pydantic import BaseModel
 
+from deadlock_assets_api.kv3parser import KV3Parser
 from deadlock_assets_api.parsers.generic_data import parse_generic_data
 from deadlock_assets_api.parsers.heroes import parse_heroes_v2
 from deadlock_assets_api.parsers.items import parse_items_v2
