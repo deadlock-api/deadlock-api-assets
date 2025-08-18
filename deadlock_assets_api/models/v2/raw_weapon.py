@@ -111,8 +111,8 @@ class RawWeaponInfoV2(BaseModel):
     reload_duration: float | None = Field(
         None, validation_alias=AliasChoices("m_flReloadDuration", "m_reloadDuration")
     )
-    bullet_speed_curve: RawItemWeaponInfoBulletSpeedCurveV2 = Field(
-        ..., validation_alias="m_BulletSpeedCurve"
+    bullet_speed_curve: RawItemWeaponInfoBulletSpeedCurveV2 | None = Field(
+        None, validation_alias="m_BulletSpeedCurve"
     )
     horizontal_recoil: RawWeaponInfoHorizontalRecoilV2 | None = Field(
         None, validation_alias="m_HorizontalRecoil"

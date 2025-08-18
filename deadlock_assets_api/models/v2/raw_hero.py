@@ -12,7 +12,7 @@ class RawHeroStartingStatsV2(BaseModel):
     sprint_speed: float = Field(..., validation_alias="ESprintSpeed")
     crouch_speed: float = Field(..., validation_alias="ECrouchSpeed")
     move_acceleration: float = Field(..., validation_alias="EMoveAcceleration")
-    light_melee_damage: int = Field(..., validation_alias="ELightMeleeDamage")
+    light_melee_damage: float = Field(..., validation_alias="ELightMeleeDamage")
     heavy_melee_damage: int = Field(..., validation_alias="EHeavyMeleeDamage")
     max_health: int = Field(..., validation_alias="EMaxHealth")
     weapon_power: int = Field(..., validation_alias="EWeaponPower")
