@@ -18,24 +18,26 @@ def get_version_id():
     return dict(data)["ClientVersion"]
 
 
+VERSION_ID = get_version_id()
+os.makedirs(f"res/builds/{VERSION_ID}/v2/", exist_ok=True)
 VDATA_FILES = (
     [
         (
             parse_generic_data,
             "vdata/generic_data.vdata",
-            f"res/builds/{get_version_id()}/v2/generic_data.json",
+            f"res/builds/{VERSION_ID}/v2/generic_data.json",
             True,
         ),
         (
             parse_heroes_v2,
             "vdata/heroes.vdata",
-            f"res/builds/{get_version_id()}/v2/raw_heroes.json",
+            f"res/builds/{VERSION_ID}/v2/raw_heroes.json",
             False,
         ),
         (
             parse_items_v2,
             "vdata/abilities.vdata",
-            f"res/builds/{get_version_id()}/v2/raw_items.json",
+            f"res/builds/{VERSION_ID}/v2/raw_items.json",
             False,
         ),
     ]
@@ -108,7 +110,7 @@ def parse_localization():
                 os.path.join(
                     "res",
                     "builds",
-                    get_version_id(),
+                    VERSION_ID,
                     "v2",
                     file.replace(".txt", ".json"),
                 ),
@@ -119,26 +121,25 @@ def parse_localization():
 
 
 if __name__ == "__main__":
-    os.makedirs(f"res/builds/{get_version_id()}/v2/", exist_ok=True)
     shutil.copyfile(
         "res/ability_icons.css",
-        f"res/builds/{get_version_id()}/v2/ability_icons.css",
+        f"res/builds/{VERSION_ID}/v2/ability_icons.css",
     )
     shutil.copyfile(
         "res/ability_property_icons.css",
-        f"res/builds/{get_version_id()}/v2/ability_property_icons.css",
+        f"res/builds/{VERSION_ID}/v2/ability_property_icons.css",
     )
     parse_vdata()
     shutil.copyfile(
-        f"res/builds/{get_version_id()}/v2/raw_items.json",
+        f"res/builds/{VERSION_ID}/v2/raw_items.json",
         "res/raw_items.json",
     )
     shutil.copyfile(
-        f"res/builds/{get_version_id()}/v2/raw_heroes.json",
+        f"res/builds/{VERSION_ID}/v2/raw_heroes.json",
         "res/raw_heroes.json",
     )
     shutil.copyfile(
-        f"res/builds/{get_version_id()}/v2/generic_data.json",
+        f"res/builds/{VERSION_ID}/v2/generic_data.json",
         "res/generic_data.json",
     )
     parse_localization()
