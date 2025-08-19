@@ -40,7 +40,7 @@ def get_heroes(
         f"deploy/versions/{client_version}/heroes/{language.value}.json", ta
     )
     if only_active:
-        heroes = [h for h in heroes if not only_active or not h.disabled]
+        heroes = [h for h in heroes if not h.disabled]
     return heroes
 
 
