@@ -288,10 +288,18 @@ class HeroV2(BaseModel):
     @classmethod
     def from_raw_hero(cls, raw_hero: RawHeroV2, localization: dict[str, str]) -> "HeroV2":
         raw_model = raw_hero.model_dump()
-        raw_model["name"] = localization.get(
-            raw_hero.class_name,
-            localization.get(f"Steam_RP_{raw_hero.class_name}", raw_hero.class_name),
-        ).strip()
+        raw_model["name"] = (
+            localization.get(
+                f"{raw_hero.class_name}:n",
+                localization.get(
+                    raw_hero.class_name,
+                    localization.get(f"Steam_RP_{raw_hero.class_name}", raw_hero.class_name),
+                ),
+            )
+            .strip()
+            .replace("#|f|#", "")
+            .replace("#|m|#", "")
+        )
         raw_model["description"] = HeroDescriptionV2.from_raw_hero(raw_hero, localization)
         raw_model["starting_stats"] = HeroStartingStatsV2.from_raw_starting_stats(
             raw_hero.starting_stats

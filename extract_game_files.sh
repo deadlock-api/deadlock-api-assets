@@ -102,6 +102,8 @@ cp -r "$citadel_folder"/resource/localization/citadel_heroes/* localization/
 cp -r "$citadel_folder"/resource/localization/citadel_mods/* localization/
 cp -r "$citadel_folder"/resource/localization/citadel_main/* localization/
 cp -r "$citadel_folder"/resource/localization/citadel_attributes/* localization/
+cp -r "$citadel_folder"/resource/localization/citadel_gc_hero_names/* localization/
+cp -r "$citadel_folder"/resource/localization/citadel_gc_mod_names/* localization/
 
 # Extract icon files
 mkdir -p svgs

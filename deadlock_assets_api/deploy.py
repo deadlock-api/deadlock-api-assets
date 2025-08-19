@@ -37,6 +37,9 @@ def load_localizations(version_id: int) -> dict[Language, dict[str, str]]:
             f"res/builds/{version_id}/v2/localization/citadel_main_{language}.json",
             f"res/builds/{version_id}/v2/localization/citadel_mods_{language}.json",
             f"res/builds/{version_id}/v2/localization/citadel_attributes_{language}.json",
+            f"res/builds/{version_id}/v2/localization/citadel_attributes_{language}.json",
+            f"res/builds/{version_id}/v2/localization/citadel_gc_hero_names_{language}.json",
+            f"res/builds/{version_id}/v2/localization/citadel_gc_mod_names_{language}.json",
         ]
         for path in paths:
             if not os.path.exists(path):
