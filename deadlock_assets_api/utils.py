@@ -9,7 +9,6 @@ from typing import Type
 import css_parser
 from css_parser.css import CSSRuleList, CSSStyleRule
 from fastapi import HTTPException
-from py_cachify import cached, lock
 from pydantic import TypeAdapter, BaseModel
 
 from deadlock_assets_api.models.languages import Language
@@ -87,24 +86,12 @@ def strip_prefix(string: str, prefix: str) -> str:
 
 
 def read_parse_data_ta[T](filepath: str, type_adapter: TypeAdapter[T]) -> T:
-    with lock(key=f"ta-{filepath}", nowait=False):
-        return _read_parse_data_ta(filepath, type_adapter)
-
-
-@cached(key="{filepath}", ttl=60 * 60)
-def _read_parse_data_ta[T](filepath: str, type_adapter: TypeAdapter[T]) -> T:
     LOGGER.debug(f"Reading {filepath}")
     with open(filepath) as f:
         return type_adapter.validate_json(f.read())
 
 
 def read_parse_data_model[T: BaseModel](filepath: str, model: Type[T]) -> T:
-    with lock(key=f"model-{filepath}", nowait=False):
-        return _read_parse_data_model(filepath, model)
-
-
-@cached(key="{filepath}", ttl=60 * 60)
-def _read_parse_data_model[T: BaseModel](filepath: str, model: Type[T]) -> T:
     LOGGER.debug(f"Reading {filepath}")
     with open(filepath) as f:
         return model.model_validate_json(f.read())

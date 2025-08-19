@@ -3,7 +3,6 @@ import os
 import sys
 
 from fastapi import FastAPI
-from prometheus_fastapi_instrumentator import Instrumentator
 from scalar_fastapi import get_scalar_api_reference
 from starlette.middleware.gzip import GZipMiddleware
 from starlette.requests import Request
@@ -74,8 +73,6 @@ async def cors_handler(request: Request, call_next):
     response.headers["Access-Control-Allow-Headers"] = "*"
     return response
 
-
-Instrumentator(should_group_status_codes=False).instrument(app).expose(app, include_in_schema=False)
 
 app.include_router(v2.router)
 app.include_router(v1.router)

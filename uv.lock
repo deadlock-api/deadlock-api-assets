@@ -125,8 +125,6 @@ dependencies = [
     { name = "css-parser" },
     { name = "fastapi" },
     { name = "murmurhash2" },
-    { name = "prometheus-fastapi-instrumentator" },
-    { name = "py-cachify" },
     { name = "scalar-fastapi" },
     { name = "uvicorn" },
 ]
@@ -148,8 +146,6 @@ requires-dist = [
     { name = "css-parser", specifier = ">=1.0.10" },
     { name = "fastapi", specifier = ">=0.115.5" },
     { name = "murmurhash2", specifier = ">=0.2.10" },
-    { name = "prometheus-fastapi-instrumentator", specifier = ">=7.0.0" },
-    { name = "py-cachify", specifier = ">=2.0.10" },
     { name = "scalar-fastapi", specifier = ">=1.0.3" },
     { name = "uvicorn", specifier = ">=0.34.0" },
 ]
@@ -465,40 +461,6 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/f0/77/bc6f92a3e8e6e46c0ca78abfffec0037845800ea38c73483760362804c41/pillow-11.3.0-cp314-cp314t-win32.whl", hash = "sha256:118ca10c0d60b06d006be10a501fd6bbdfef559251ed31b794668ed569c87e12", size = 6377370 },
     { url = "https://files.pythonhosted.org/packages/4a/82/3a721f7d69dca802befb8af08b7c79ebcab461007ce1c18bd91a5d5896f9/pillow-11.3.0-cp314-cp314t-win_amd64.whl", hash = "sha256:8924748b688aa210d79883357d102cd64690e56b923a186f35a82cbc10f997db", size = 7121500 },
     { url = "https://files.pythonhosted.org/packages/89/c7/5572fa4a3f45740eaab6ae86fcdf7195b55beac1371ac8c619d880cfe948/pillow-11.3.0-cp314-cp314t-win_arm64.whl", hash = "sha256:79ea0d14d3ebad43ec77ad5272e6ff9bba5b679ef73375ea760261207fa8e0aa", size = 2512835 },
-]
-
-[[package]]
-name = "prometheus-client"
-version = "0.22.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/5e/cf/40dde0a2be27cc1eb41e333d1a674a74ce8b8b0457269cc640fd42b07cf7/prometheus_client-0.22.1.tar.gz", hash = "sha256:190f1331e783cf21eb60bca559354e0a4d4378facecf78f5428c39b675d20d28", size = 69746 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/32/ae/ec06af4fe3ee72d16973474f122541746196aaa16cea6f66d18b963c6177/prometheus_client-0.22.1-py3-none-any.whl", hash = "sha256:cca895342e308174341b2cbf99a56bef291fbc0ef7b9e5412a0f26d653ba7094", size = 58694 },
-]
-
-[[package]]
-name = "prometheus-fastapi-instrumentator"
-version = "7.1.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "prometheus-client" },
-    { name = "starlette" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/69/6d/24d53033cf93826aa7857699a4450c1c67e5b9c710e925b1ed2b320c04df/prometheus_fastapi_instrumentator-7.1.0.tar.gz", hash = "sha256:be7cd61eeea4e5912aeccb4261c6631b3f227d8924542d79eaf5af3f439cbe5e", size = 20220 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/27/72/0824c18f3bc75810f55dacc2dd933f6ec829771180245ae3cc976195dec0/prometheus_fastapi_instrumentator-7.1.0-py3-none-any.whl", hash = "sha256:978130f3c0bb7b8ebcc90d35516a6fe13e02d2eb358c8f83887cdef7020c31e9", size = 19296 },
-]
-
-[[package]]
-name = "py-cachify"
-version = "2.0.10"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "typing-extensions" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/7c/b8/f3d3e0f9364bf493e07f14eee9175b67e4a1f40f2dc3c4f19079adece0f7/py_cachify-2.0.10.tar.gz", hash = "sha256:010280b7881a8392082687fbcf73ee224f8327818a06fdabd972ccc3e361baf8", size = 13313 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/bc/55/bd912cd774358fd793b3a5c4dd868e5fd53e4335f4a1bb84dae0bac49ee1/py_cachify-2.0.10-py3-none-any.whl", hash = "sha256:0f7c294f08ed1d80458ee0bc2c3b7040da168bc3fb2bf5af37f7505d27e96163", size = 16760 },
 ]
 
 [[package]]
