@@ -20,9 +20,9 @@ def parse_img_path(v):
     if split_index == -1:
         split_index = v.find("hud/")
     if split_index == -1:
-        if len(v.split("{images}/")) != 2:
+        if len(v.split("{images}/")) != 2 and not v.endswith(".svg"):
             return f"{IMAGE_BASE_URL}/{v}".replace("images/images", "images")
-        _, v = v.split("{images}/")
+        v = v.split("{images}/")[-1]
         split_index = 0
     v = v[split_index:]
     v = v.replace('"', "")
