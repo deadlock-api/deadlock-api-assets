@@ -3,6 +3,7 @@ import json
 from pydantic import BaseModel, ConfigDict
 
 from deadlock_assets_api.glob import IMAGE_BASE_URL
+from deadlock_assets_api.models.v2.api_item_base import parse_img_path
 from deadlock_assets_api.models.v2.enums import HeroItemTypeV2, ItemSlotTypeV2, HeroTypeV2
 from deadlock_assets_api.models.v2.raw_hero import (
     RawHeroItemSlotInfoValueV2,
@@ -56,6 +57,7 @@ class HeroImagesV2(BaseModel):
     weapon_image_webp: str | None = None
     background_image: str | None = None
     background_image_webp: str | None = None
+    name_image: str | None = None
 
     @classmethod
     def from_raw_hero(cls, raw_hero: RawHeroV2) -> "HeroImagesV2":
@@ -75,6 +77,9 @@ class HeroImagesV2(BaseModel):
             **{
                 f"{k}_webp": v.replace(".png", ".webp") if v is not None else None
                 for k, v in images.items()
+            },
+            **{
+                "name_image": parse_img_path(raw_hero.name_image),
             },
         )
 

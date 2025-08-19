@@ -3,7 +3,7 @@ import json
 from pydantic import BaseModel, ConfigDict, Field, computed_field
 
 from deadlock_assets_api.models.v2.enums import ItemSlotTypeV2, HeroItemTypeV2, HeroTypeV2
-from deadlock_assets_api.utils import parse_css_heroes_background
+from deadlock_assets_api.utils import parse_css_heroes_background, parse_css_heroes_names
 
 
 class RawHeroStartingStatsV2(BaseModel):
@@ -205,6 +205,10 @@ class RawHeroV2(BaseModel):
     @computed_field
     def background_image(self) -> str | None:
         return parse_css_heroes_background(self.class_name)
+
+    @computed_field
+    def name_image(self) -> str | None:
+        return parse_css_heroes_names(self.class_name)
 
 
 def test_parse():
