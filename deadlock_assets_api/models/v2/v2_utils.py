@@ -148,6 +148,7 @@ def replace_templates(
 
         replaced = None
         if isinstance(raw_item, RawAbilityV2):
+            variable = variable.replace("_scale", "")
             property = next(
                 (
                     k
