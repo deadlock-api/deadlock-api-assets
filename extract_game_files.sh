@@ -126,6 +126,7 @@ cp "$citadel_folder"/panorama/styles/ability_property_icons.css res/
 cp "$citadel_folder"/panorama/styles/citadel_base_styles.css res/
 cp "$citadel_folder"/panorama/styles/objectives_map.css res/
 cp "$citadel_folder"/panorama/styles/citadel_base_styles.css res/
+cp "$citadel_folder"/panorama/styles/hero_backgrounds/hero_background_default.css res/
 
 # Extract sound files
 mkdir -p sounds
