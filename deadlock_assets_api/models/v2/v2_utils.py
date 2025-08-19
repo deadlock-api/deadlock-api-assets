@@ -200,7 +200,18 @@ def replace_templates(
             elif variable == "hero_name":
                 replaced = next(
                     (
-                        localization.get(h.class_name, h.class_name)
+                        (
+                            localization.get(
+                                f"{h.class_name}:n",
+                                localization.get(
+                                    h.class_name,
+                                    localization.get(f"Steam_RP_{h.class_name}", h.class_name),
+                                ),
+                            )
+                            .strip()
+                            .replace("#|f|#", "")
+                            .replace("#|m|#", "")
+                        )
                         for h in raw_heroes
                         if raw_item.class_name in h.items.values()
                     ),
