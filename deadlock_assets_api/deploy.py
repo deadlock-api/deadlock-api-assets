@@ -1,4 +1,5 @@
 import json
+import multiprocessing
 import os
 import sys
 
@@ -230,7 +231,7 @@ if __name__ == "__main__":
     with open(f"{out_folder}/versions/{version_id}/raw_items.json", "w") as f:
         json.dump([h.model_dump(exclude_none=True) for h in raw_items], f)
 
-    for language, localization in localizations.items():
+    def build_language_data(language: Language, localization: dict[str, str]):
         print(f"Building {language} assets")
         localization = localizations[Language.English] | localization
         ranks = build_ranks(localization)
@@ -248,6 +249,13 @@ if __name__ == "__main__":
         items = build_items(raw_items, raw_heroes, localization)
         with open(f"{out_folder}/versions/{version_id}/items/{language.value}.json", "w") as f:
             json.dump(items, f)
+        print(f"Finished {language} assets")
+
+    with multiprocessing.Pool() as executor:
+        executor.starmap(
+            build_language_data,
+            [(lang, loc) for lang, loc in localizations.items()],
+        )
 
     openapi_scheme = app.openapi()
     with open(f"{out_folder}/openapi.json", "w") as f:
