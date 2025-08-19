@@ -146,18 +146,38 @@ def replace_templates(
             else:
                 return img_tag + label_tag
 
-        replaced = raw_item.properties.get(variable)
-        if replaced is None:
+        replaced = None
+        if isinstance(raw_item, RawAbilityV2):
+            property = next(
+                (
+                    k
+                    for k, v in raw_item.properties.items()
+                    if v.loc_token_override and v.loc_token_override == variable or k == variable
+                ),
+                "",
+            )
             replaced = next(
                 (
-                    v
-                    for k, v in raw_item.properties.items()
-                    if v.loc_token_override and v.loc_token_override == variable
+                    p.bonus
+                    for i in raw_item.upgrades
+                    for p in i.property_upgrades
+                    if p.name.lower() == variable.lower() or p.name.lower() == property.lower()
                 ),
                 None,
             )
-        if replaced is not None:
-            replaced = replaced.value
+        if replaced is None:
+            replaced = raw_item.properties.get(variable)
+            if replaced is None:
+                replaced = next(
+                    (
+                        v
+                        for k, v in raw_item.properties.items()
+                        if v.loc_token_override and v.loc_token_override == variable
+                    ),
+                    None,
+                )
+            if replaced is not None:
+                replaced = replaced.value
         if (
             isinstance(raw_item, RawAbilityV2)
             and tier is not None
