@@ -6,7 +6,7 @@ repos:
   - id: yamlfmt
     args: [--mapping, '2', --sequence, '2', --offset, '0', --width, '92', --implicit_start, --preserve-quotes]
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v5.0.0
+  rev: v6.0.0
   hooks:
   - id: fix-byte-order-marker
   - id: end-of-file-fixer
@@ -15,12 +15,12 @@ repos:
   - id: pretty-format-json
     args: [--autofix]
 - repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: v0.12.7
+  rev: v0.12.9
   hooks:
   - id: ruff-format
   # Hooks for validation
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v5.0.0
+  rev: v6.0.0
   hooks:
   - id: check-merge-conflict
   - id: check-case-conflict
@@ -30,7 +30,7 @@ repos:
   - id: check-ast
   - id: debug-statements
 - repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: v0.12.7
+  rev: v0.12.9
   hooks:
   - id: ruff
 - repo: local
