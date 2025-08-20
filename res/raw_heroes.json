@@ -32807,7 +32807,7 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.786,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.77,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 43.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
@@ -38555,7 +38555,7 @@
       "ability_innate3": "citadel_ability_melee_parry",
       "ability_jump": "citadel_ability_jump",
       "ability_mantle": "citadel_ability_mantle",
-      "ability_slide": "citadel_ability_slide",
+      "ability_slide": "ability_punkgoat_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
       "signature1": "ability_punkgoat_ult",
@@ -38803,7 +38803,7 @@
     "name_image": "panorama:\"file://{images}/heroes/hero_names/billy.vsvg\"",
     "needs_testing": false,
     "player_selectable": true,
-    "prerelease_only": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -38967,7 +38967,7 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.18,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.16,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 44.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
