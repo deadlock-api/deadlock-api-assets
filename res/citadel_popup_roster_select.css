@@ -269,6 +269,7 @@ CitadelPopupRosterSelect
 	horizontal-align: right;
 	margin: 50px;
 	vertical-align: bottom;
+	overflow: noclip;
 	visibility: collapse;
 }
 
@@ -589,6 +590,7 @@ CitadelPopupRosterSelect
 	horizontal-align: center;
 	padding: 0px 0px 10px 0px;
 	flow-children: right;
+	overflow: noclip;
 }
 
 #HeroInfo #HeroTags .heroTag

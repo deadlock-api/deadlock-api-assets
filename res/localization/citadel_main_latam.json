@@ -628,6 +628,7 @@
       "Citadel_HeroBuilds_Loading_Failed": "Error al cargar gu\u00edas de h\u00e9roes",
       "Citadel_HeroBuilds_Loading_Title": "Cargando gu\u00edas",
       "Citadel_HeroBuilds_MidGame": "Fase media",
+      "Citadel_HeroBuilds_MissingCategoryName": "Desconocido",
       "Citadel_HeroBuilds_NameLabel": "Nombre de la gu\u00eda",
       "Citadel_HeroBuilds_New": "Nueva",
       "Citadel_HeroBuilds_NewCategory": "Categor\u00eda %number%",
@@ -868,6 +869,7 @@
       "Citadel_IgnoreFriendInvite_ErrorTitle": "Error",
       "Citadel_IgnoreFriendInvite_Title": "Ignorando invitaci\u00f3n",
       "Citadel_InvalidCast_NoFullClips": "NO HAY CLIPS COMPLETOS PARA RECARGAR",
+      "Citadel_InvalidPersonaName": "Nombre de persona no v\u00e1lido",
       "Citadel_InviteFrient_FailedToGetFriends_Body": "No fue posible conectarse con la red de Deadlock para ver a qu\u00e9 amigos puedes invitar. Int\u00e9ntalo m\u00e1s tarde.",
       "Citadel_InviteFrient_FailedToGetFriends_Title": "Error",
       "Citadel_IsComponentOf": "Mejora a:",
@@ -1129,6 +1131,7 @@
       "Citadel_PartyInvite_ErrorTitle": "No se pudo enviar la invitaci\u00f3n",
       "Citadel_PartyInvite_EscapeHint": "{g:citadel_binding:'OpenMainMenu'} para administrar invitaciones",
       "Citadel_PartyInvite_FailedToGetResponse": "No fue posible conectarse con la red de Deadlock e invitar al usuario indicado en este momento. Espera unos minutos y vuelve a intentarlo.",
+      "Citadel_PartyInvite_Hold": "Retener",
       "Citadel_PartyInvite_InternalError": "Ocurri\u00f3 un error interno al intentar invitar al usuario a unirse al grupo",
       "Citadel_PartyInvite_InvalidParty": "El grupo al que intentaste enviar la invitaci\u00f3n ya no existe.",
       "Citadel_PartyInvite_InvalidPermissions": "No tienes permiso para invitar a este usuario al grupo",
@@ -1503,7 +1506,7 @@
       "Citadel_Profile_Win": "Victoria",
       "Citadel_Profile_Win_Short": "V",
       "Citadel_QueueOptions_Button": "Opciones de cola",
-      "Citadel_QueueOptions_Modal_Title": "Opciones de cola",
+      "Citadel_QueueOptions_Modal_Title": "Emparejamiento",
       "Citadel_RP_Away": "Ausente",
       "Citadel_RP_Busy": "Ocupado",
       "Citadel_RP_LookingToPlay": "Deseando jugar",
@@ -1838,6 +1841,7 @@
       "Citadel_TeamMsg_EnemyBossKilledTitle": "{s:lane_color} enemiga, nivel\u00a0{i:boss_tier}",
       "Citadel_TeamMsg_EnemyTitanKilledTitle": "Patr\u00f3n enemigo",
       "Citadel_TeamMsg_TitanKilledTitle": "Tu Patr\u00f3n",
+      "Citadel_TeamOptions_Modal_Title": "Equipo",
       "Citadel_Three_Lanes": "Redise\u00f1o del mapa",
       "Citadel_Tip_0": "Esto es un consejo.",
       "Citadel_Tip_1": "Este es otro consejo.",
@@ -2287,6 +2291,7 @@
       "citadel_bot_message_verbose": "{s:persona} - {s:lane_color} [{d:lane_number}] - {s:assignment}",
       "citadel_bot_name": "Bot",
       "citadel_bot_name_prefix": "[Bot]",
+      "citadel_bot_name_unknown": "Desconocido",
       "citadel_bot_objective_attack_lane": "Atacando la senda",
       "citadel_bot_objective_attack_t1": "Atacando N1",
       "citadel_bot_objective_attack_t2": "Atacando N2",
@@ -2932,7 +2937,7 @@
       "clip_size_pickup_label": "3 clips grandes",
       "cooldown_reduction_pickup/cooldown_reduction": "Tiempo de recarga reducido",
       "cooldown_reduction_pickup_label": "Tiempos de recarga m\u00e1s bajos",
-      "double_jump_pickup/double_jump": "Doble salto y velocidad de la v\u00eda r\u00e1pida",
+      "double_jump_pickup/double_jump": "Doble salto y Velocidad en la v\u00eda r\u00e1pida",
       "extra_gold_pickup/extra_gold_pickup": "Recompensa adicional por matar al siguiente h\u00e9roe",
       "extra_stamina_pickup/extra_stamina": "Resistencia adicional",
       "extra_stamina_pickup_label": "Resistencia adicional",
@@ -3278,8 +3283,8 @@
       "wp_permanent_pickup_label": "+3\u00a0% de da\u00f1o por arma",
       "wp_permanent_pickup_label_lv2": "+4\u00a0% de da\u00f1o por arma",
       "wp_permanent_pickup_label_lv3": "+6\u00a0% de da\u00f1o por arma",
-      "zipline_speed_pickup/zipline_speed": "Velocidad de la v\u00eda r\u00e1pida aumentada",
-      "zipline_speed_pickup_label": "Velocidad de la v\u00eda r\u00e1pida"
+      "zipline_speed_pickup/zipline_speed": "Velocidad en la v\u00eda r\u00e1pida aumentada",
+      "zipline_speed_pickup_label": "Velocidad en la v\u00eda r\u00e1pida"
     }
   }
 }

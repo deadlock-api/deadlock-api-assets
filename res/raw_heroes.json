@@ -32005,7 +32005,7 @@
           "EHeavyMeleeDamage"
         ],
         "weapon_attributes": "EWeaponAttribute_BurstFire | EWeaponAttribute_MediumRange",
-        "weapon_image": "panorama:\"file://{images}/heroes/guns/chrono_gun.psd\""
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/vampirebat_gun.psd\""
       }
     },
     "skin": 0,
@@ -32807,7 +32807,7 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.77,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.693,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 43.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
@@ -34321,7 +34321,7 @@
           "EHeavyMeleeDamage"
         ],
         "weapon_attributes": "EWeaponAttribute_MediumRange | EWeaponAttribute_Projectile",
-        "weapon_image": "panorama:\"file://{images}/heroes/guns/warden_gun.psd\""
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/frank_gun.psd\""
       }
     },
     "skin": 0,
@@ -35025,7 +35025,12 @@
     },
     "recommended_ability_order": null,
     "recommended_upgrades": null,
-    "scaling_stats": {},
+    "scaling_stats": {
+      "EHeavyMeleeDamage": {
+        "scale": 0.7,
+        "scaling_stat": "ETechPower"
+      }
+    },
     "selection_image": "panorama:\"file://{images}/heroes/bookworm.psd\"",
     "shop_stat_display": {
       "spirit_stats_display": {
@@ -35078,7 +35083,7 @@
           "EHeavyMeleeDamage"
         ],
         "weapon_attributes": "EWeaponAttribute_RapidFire | EWeaponAttribute_LongRange",
-        "weapon_image": "panorama:\"file://{images}/heroes/guns/hornet_gun.psd\""
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/bookworm_gun.psd\""
       }
     },
     "skin": 0,
@@ -35086,7 +35091,7 @@
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.8,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 29.0,
-      "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
+      "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.2,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
@@ -35101,8 +35106,8 @@
       "bullet_armor_damage_reduction": null,
       "crit_damage_received_scale": 1.0,
       "crouch_speed": 4.75,
-      "heavy_melee_damage": 116,
-      "light_melee_damage": 50.0,
+      "heavy_melee_damage": 125,
+      "light_melee_damage": 42.0,
       "max_health": 600,
       "max_move_speed": 7.0,
       "move_acceleration": 4.0,
@@ -36468,7 +36473,7 @@
     "name_image": "panorama:\"file://{images}/heroes/hero_names/doorman.vsvg\"",
     "needs_testing": false,
     "player_selectable": true,
-    "prerelease_only": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -36553,26 +36558,7 @@
       ]
     },
     "recommended_ability_order": null,
-    "recommended_upgrades": [
-      "upgrade_endurance",
-      "upgrade_improved_spirit",
-      "upgrade_magic_burst",
-      "upgrade_hollow_point_rounds",
-      "upgrade_extra_charge",
-      "upgrade_long_range",
-      "upgrade_slowing_bullets",
-      "upgrade_quick_silver",
-      "upgrade_vampire",
-      "upgrade_spirit_bubble",
-      "upgrade_sharpshooter",
-      "upgrade_rapid_recharge",
-      "upgrade_magic_shock",
-      "upgrade_chonky",
-      "upgrade_pristine_emblem",
-      "upgrade_critshot",
-      "upgrade_boundless_spirit",
-      "upgrade_tech_overflow"
-    ],
+    "recommended_upgrades": [],
     "scaling_stats": {},
     "selection_image": "panorama:\"file://{images}/heroes/doorman.psd\"",
     "shop_stat_display": {
@@ -36625,8 +36611,8 @@
           "ELightMeleeDamage",
           "EHeavyMeleeDamage"
         ],
-        "weapon_attributes": "EWeaponAttribute_RapidFire | EWeaponAttribute_LongRange",
-        "weapon_image": "panorama:\"file://{images}/heroes/guns/hornet_gun.psd\""
+        "weapon_attributes": "EWeaponAttribute_HeavyHitter | EWeaponAttribute_MediumRange",
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/doorman_gun.psd\""
       }
     },
     "skin": 0,
@@ -38962,7 +38948,7 @@
           "EHeavyMeleeDamage"
         ],
         "weapon_attributes": "EWeaponAttribute_CloseRange",
-        "weapon_image": "panorama:\"file://{images}/heroes/guns/shiv_gun.psd\""
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/punkgoat_gun.psd\""
       }
     },
     "skin": 0,

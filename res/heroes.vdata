@@ -46555,7 +46555,7 @@
 					"EHeavyMeleeDamage",
 				]
 				m_eWeaponAttributes = "EWeaponAttribute_BurstFire | EWeaponAttribute_MediumRange"
-				m_strWeaponImage = panorama:"file://{images}/heroes/guns/chrono_gun.psd"
+				m_strWeaponImage = panorama:"file://{images}/heroes/guns/vampirebat_gun.psd"
 			}
 			m_eVitalityStatsDisplay =
 			{
@@ -47550,7 +47550,7 @@
 		}
 		m_mapStandardLevelUpUpgrades =
 		{
-			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.770000
+			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.693000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
 			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 43
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
@@ -49713,7 +49713,7 @@
 					"EHeavyMeleeDamage",
 				]
 				m_eWeaponAttributes = "EWeaponAttribute_MediumRange | EWeaponAttribute_Projectile"
-				m_strWeaponImage = panorama:"file://{images}/heroes/guns/warden_gun.psd"
+				m_strWeaponImage = panorama:"file://{images}/heroes/guns/frank_gun.psd"
 			}
 			m_eVitalityStatsDisplay =
 			{
@@ -49998,8 +49998,8 @@
 			ESprintSpeed = 2.000000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
-			ELightMeleeDamage = 50
-			EHeavyMeleeDamage = 116
+			ELightMeleeDamage = 42.000000
+			EHeavyMeleeDamage = 125.000000
 			EMaxHealth = 600.000000
 			EWeaponPower = 0
 			EReloadSpeed = 1
@@ -50665,6 +50665,11 @@
 		}
 		m_mapScalingStats =
 		{
+			EHeavyMeleeDamage =
+			{
+				eScalingStat = "ETechPower"
+				flScale = 0.700000
+			}
 		}
 		m_heroStatsDisplay =
 		{
@@ -50713,7 +50718,7 @@
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.800000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
 			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 29
-			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
+			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.200000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
 			MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST = 0.000000
@@ -50747,7 +50752,7 @@
 					"EHeavyMeleeDamage",
 				]
 				m_eWeaponAttributes = "EWeaponAttribute_RapidFire | EWeaponAttribute_LongRange"
-				m_strWeaponImage = panorama:"file://{images}/heroes/guns/hornet_gun.psd"
+				m_strWeaponImage = panorama:"file://{images}/heroes/guns/bookworm_gun.psd"
 			}
 			m_eVitalityStatsDisplay =
 			{
@@ -52071,7 +52076,7 @@
 		m_bNeedsTesting = false
 		m_bAssignedPlayersOnly = false
 		m_bLimitedTesting = false
-		m_bPrereleaseOnly = true
+		m_bPrereleaseOnly = false
 		m_nComplexity = 1
 		m_nAllyBotDifficulty = 0
 		m_nEnemyBotDifficulty = 0
@@ -52109,9 +52114,9 @@
 			EHeroSpiritLifestealEffectiveness = 1.000000
 			EHeroBulletLifestealEffectiveness = 1.000000
 			EGroundDashDistanceInMeters = 10.000000
-			EGroundDashDuration = 0.680000
+			EGroundDashDuration = 0.620000
 			EAirDashDistanceInMeters = 8.000000
-			EAirDashDuration = 0.470000
+			EAirDashDuration = 0.430000
 		}
 		m_groundDashPositionCurve =
 		{
@@ -52838,8 +52843,8 @@
 					"ELightMeleeDamage",
 					"EHeavyMeleeDamage",
 				]
-				m_eWeaponAttributes = "EWeaponAttribute_RapidFire | EWeaponAttribute_LongRange"
-				m_strWeaponImage = panorama:"file://{images}/heroes/guns/hornet_gun.psd"
+				m_eWeaponAttributes = "EWeaponAttribute_HeavyHitter | EWeaponAttribute_MediumRange"
+				m_strWeaponImage = panorama:"file://{images}/heroes/guns/doorman_gun.psd"
 			}
 			m_eVitalityStatsDisplay =
 			{
@@ -53087,35 +53092,9 @@
 		m_strTopBarVertical = panorama:"file://{images}/heroes/doorman_vertical.psd"
 		m_RecommendedUpgrades =
 		[
-			"upgrade_endurance",
-			"upgrade_improved_spirit",
-			"upgrade_magic_burst",
-			"upgrade_hollow_point_rounds",
-			"upgrade_extra_charge",
-			"upgrade_long_range",
-			"upgrade_slowing_bullets",
-			"upgrade_quick_silver",
-			"upgrade_vampire",
-			"upgrade_spirit_bubble",
-			"upgrade_sharpshooter",
-			"upgrade_rapid_recharge",
-			"upgrade_magic_shock",
-			"upgrade_chonky",
-			"upgrade_pristine_emblem",
-			"upgrade_critshot",
-			"upgrade_boundless_spirit",
-			"upgrade_tech_overflow",
 		]
 		m_mapRecommendedUpgradeHints =
 		{
-			upgrade_magic_burst =
-			{
-				sImbueTarget = "citadel_ability_hornet_sting"
-			}
-			upgrade_quick_silver =
-			{
-				sImbueTarget = "citadel_ability_hornet_sting"
-			}
 		}
 		m_sAG2VariationName = resource_name:"animgraphs/animgraph2/hero/hero.vnmgraph+doorman.vnmgraph"
 		m_strPostGameDefeatSound = soundevent:"Inferno.Progession.Page.Lose.VO"
@@ -56033,7 +56012,7 @@
 					"EHeavyMeleeDamage",
 				]
 				m_eWeaponAttributes = "EWeaponAttribute_CloseRange"
-				m_strWeaponImage = panorama:"file://{images}/heroes/guns/shiv_gun.psd"
+				m_strWeaponImage = panorama:"file://{images}/heroes/guns/punkgoat_gun.psd"
 			}
 			m_eVitalityStatsDisplay =
 			{
