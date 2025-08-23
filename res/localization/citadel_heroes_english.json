@@ -887,6 +887,8 @@
       "NonHeroHealingFactor_label": "Lifesteal vs Non-Heroes",
       "NonHeroHealingFactor_postfix": "%",
       "NonHeroHealingFactor_postvalue_label": "Lifesteal vs Non-Heroes",
+      "NonPlayerResourceScalePct_postfix": "%",
+      "NonPlayerResourceScalePct_postvalue_label": "Non-Player Effectiveness",
       "NotSeenByEnemiesRegen_label": "Max Health Regen",
       "NotSeenByEnemiesRegen_postfix": "%",
       "NotSeenByEnemiesRegen_postvalue_label": "Max Health Regen",

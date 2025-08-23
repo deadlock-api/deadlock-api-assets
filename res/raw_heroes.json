@@ -35113,7 +35113,7 @@
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 4.0,
       "stamina": 2,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -38955,7 +38955,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.16,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 44.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 43.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -38967,7 +38967,7 @@
     "starting_stats": {
       "ability_resource_max": 0,
       "ability_resource_regen_per_second": 0,
-      "base_health_regen": 2.5,
+      "base_health_regen": 3.0,
       "bullet_armor_damage_reduction": null,
       "crit_damage_received_scale": 1.0,
       "crouch_speed": 4.75,
