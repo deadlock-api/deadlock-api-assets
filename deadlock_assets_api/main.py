@@ -3,7 +3,7 @@ import os
 import sys
 
 from fastapi import FastAPI
-from scalar_fastapi import get_scalar_api_reference
+from scalar_fastapi import get_scalar_api_reference, Theme
 from starlette.middleware.gzip import GZipMiddleware
 from starlette.requests import Request
 from starlette.responses import FileResponse, RedirectResponse, Response
@@ -147,7 +147,7 @@ async def scalar_html():
     return get_scalar_api_reference(
         openapi_url="https://assets.deadlock-api.com/openapi.json",
         title=app.title,
-        scalar_theme="default",
+        theme=Theme.ALTERNATE,
     )
 
 
