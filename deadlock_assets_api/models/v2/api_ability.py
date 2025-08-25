@@ -84,7 +84,8 @@ class AbilityDescriptionV2(BaseModel):
                 localization.get(f"{raw_ability.class_name}_active_desc")
                 or localization.get(f"{raw_ability.class_name}_active")
                 or localization.get(f"{raw_ability.class_name}_active1")
-                or localization.get(f"{raw_ability.class_name}_active2"),
+                or localization.get(f"{raw_ability.class_name}_active2")
+                or localization.get(f"{raw_ability.class_name}/blastedactive"),
             ),
             passive=replace_templates(
                 raw_ability,
