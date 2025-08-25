@@ -43,6 +43,7 @@ class ItemPropertyV2(RawItemPropertyV2):
     prefix: str | None = Field(None)
     label: str | None = Field(None)
     postfix: str | None = Field(None)
+    postvalue_label: str | None = Field(None)
     conditional: str | None = Field(None)
     icon: str | None = Field(None)
     scale_function: RawItemPropertyScaleFunctionSubclassV2 | None = Field(None)
@@ -71,10 +72,16 @@ class ItemPropertyV2(RawItemPropertyV2):
             key = "DOTDuration"
         if key == "AuraRadius":
             key = "Radius"
-        raw_property["label"] = localization.get(f"{key}_label", localization.get(f"{key}_Label"))
+        raw_property["label"] = localization.get(
+            f"{key}_label",
+            localization.get(f"{key}_Label", localization.get(f"{key}_postvalue_label")),
+        )
         raw_property["prefix"] = localization.get(f"{key}_prefix")
-        raw_property["postfix"] = localization.get(f"{key}_postfix") or localization.get(
-            f"{key}_postfx"
+        raw_property["postvalue_label"] = localization.get(
+            f"{key}_postvalue_label", localization.get(f"{key}_postvalue_postvalue_label")
+        )
+        raw_property["postfix"] = localization.get(
+            f"{key}_postfix", localization.get(f"{key}_Postfix", localization.get(f"{key}_postfx"))
         )
         raw_property["conditional"] = localization.get(f"{key}_conditional")
         raw_property["scale_function"] = (
