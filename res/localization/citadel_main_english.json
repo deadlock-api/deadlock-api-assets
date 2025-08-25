@@ -2687,6 +2687,7 @@
       "citadel_settings_crosshair_color_g": "Green",
       "citadel_settings_crosshair_color_r": "Red",
       "citadel_settings_crosshair_defaults": "Reset to Default",
+      "citadel_settings_crosshair_disable_custom": "Disable Custom Hero Crosshairs",
       "citadel_settings_crosshair_dot_opacity": "Dot Opacity",
       "citadel_settings_crosshair_dot_outline_opacity": "Dot Outline Opacity",
       "citadel_settings_crosshair_pip_border": "Show Pip Border",

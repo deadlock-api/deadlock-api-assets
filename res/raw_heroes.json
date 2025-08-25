@@ -34939,7 +34939,7 @@
     "name_image": "panorama:\"file://{images}/heroes/hero_names/paige.vsvg\"",
     "needs_testing": false,
     "player_selectable": true,
-    "prerelease_only": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -35027,7 +35027,7 @@
     "recommended_upgrades": null,
     "scaling_stats": {
       "EHeavyMeleeDamage": {
-        "scale": 0.7,
+        "scale": 0.3,
         "scaling_stat": "ETechPower"
       }
     },
@@ -35106,7 +35106,7 @@
       "bullet_armor_damage_reduction": null,
       "crit_damage_received_scale": 1.0,
       "crouch_speed": 4.75,
-      "heavy_melee_damage": 125,
+      "heavy_melee_damage": 120,
       "light_melee_damage": 42.0,
       "max_health": 600,
       "max_move_speed": 7.0,
