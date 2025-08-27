@@ -730,7 +730,6 @@
       "Citadel_Hideout_Intro": "Appuyez sur une touche pour commencer",
       "Citadel_Hideout_Learn": "Appuyez sur {g:citadel_binding:'HideoutUse'} pour apprendre \u00e0 jouer",
       "Citadel_Hideout_News": "Tout en d\u00e9tail",
-      "Citadel_Hideout_Play": "Appuyez sur {g:citadel_binding:'HideoutUse'} pour lancer une partie",
       "Citadel_Hideout_Resources": "Appuyez sur {g:citadel_binding:'HideoutUse'} pour afficher les ressources",
       "Citadel_Hideout_ToggleFastCooldowns": "{g:citadel_binding:'AbilityMelee'}M\u00eal\u00e9e pour activer/d\u00e9sactiver les temps de r\u00e9cup\u00e9ration et l'endurance rapides",
       "Citadel_Hideout_VoteHero": "Appuyez sur {g:citadel_binding:'HideoutUse'} pour voter pour un occultiste",

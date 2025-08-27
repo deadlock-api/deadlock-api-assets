@@ -24322,7 +24322,7 @@
           "EHeavyMeleeDamage"
         ],
         "weapon_attributes": "EWeaponAttribute_MediumRange | EWeaponAttribute_HeavyHitter",
-        "weapon_image": null
+        "weapon_image": "panorama:\"file://{images}/heroes/guns/mirage_gun.psd\""
       }
     },
     "skin": 0,
@@ -32623,7 +32623,7 @@
     "name_image": "panorama:\"file://{images}/heroes/hero_names/drifter.vsvg\"",
     "needs_testing": false,
     "player_selectable": true,
-    "prerelease_only": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -32827,7 +32827,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 120,
       "light_melee_damage": 51.5,
-      "max_health": 725,
+      "max_health": 750,
       "max_move_speed": 7.0,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,

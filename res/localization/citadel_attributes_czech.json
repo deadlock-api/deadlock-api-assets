@@ -774,6 +774,7 @@
       "InlineAttribute_BonusFireRate": "bonus k rychlosti st\u0159elby",
       "InlineAttribute_BonusMoveSpeed": "bonus k rychlosti pohybu",
       "InlineAttribute_BonusSpiritDamage": "bonusov\u00e9 spiritu\u00e1ln\u00ed po\u0161kozen\u00ed",
+      "InlineAttribute_BonusSprintSpeed": "bonus k rychlosti sprintu",
       "InlineAttribute_BonusWeaponDamage": "bonusov\u00e9 fyzick\u00e9 po\u0161kozen\u00ed",
       "InlineAttribute_BulletDamage": "balistick\u00e9 po\u0161kozen\u00ed",
       "InlineAttribute_BulletResist": "balistick\u00e9 odolnosti",

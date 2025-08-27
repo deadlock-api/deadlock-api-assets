@@ -774,6 +774,7 @@
       "InlineAttribute_BonusFireRate": "Bonusfeuerrate",
       "InlineAttribute_BonusMoveSpeed": "Bonus\u00adbewegungstempo",
       "InlineAttribute_BonusSpiritDamage": "Bonusmagieschaden",
+      "InlineAttribute_BonusSprintSpeed": "Bonussprinttempo",
       "InlineAttribute_BonusWeaponDamage": "Bonuswaffenschaden",
       "InlineAttribute_BulletDamage": "Kugel\u00adschaden",
       "InlineAttribute_BulletResist": "Kugelresistenz",
