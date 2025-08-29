@@ -34177,7 +34177,7 @@
     "name_image": "panorama:\"file://{images}/heroes/hero_names/victor.vsvg\"",
     "needs_testing": false,
     "player_selectable": true,
-    "prerelease_only": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {

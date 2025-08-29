@@ -441,6 +441,7 @@
       "upgrade_fury_trance_active": "Grants <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Spirit Resistance</span> but <span class=\"highlight\">Silences</span> you and <span class=\"highlight\">disables stamina usage and regeneration</span>.",
       "upgrade_glass_cannon2_desc": "Each hero kill grants <span class=\"highlight\">permanent Weapon Damage</span> (up to a max of {s:MaxStacks} times).  Death results in the loss of 1 stack.",
       "upgrade_glass_cannon_desc": "Each hero kill grants <span class=\"highlight\">permanent Fire Rate</span> (up to a max of {s:MaxStacks} times).  Death results in the loss of 1 stack.",
+      "upgrade_glass_cannon_plus1": "Glass Cannon +1",
       "upgrade_glitch/modifier_glitch_debuff": "Cursed!",
       "upgrade_glitch_desc": "Curses an enemy - <span class=\"highlight\">interrupting, Silencing, Disarming</span>, and <span class=\"highlight\">preventing item usage</span>.",
       "upgrade_greater_withering_whip_debuff": "Disarmed",

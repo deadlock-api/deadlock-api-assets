@@ -438,6 +438,7 @@
       "upgrade_fury_trance_active": "\u83b7\u5f97<span class=\"highlight\">\u5c04\u901f</span>\u548c<span class=\"highlight\">\u5143\u7075\u6297\u6027</span>\uff0c\u4f46\u4f1a\u4f7f\u81ea\u8eab<span class=\"highlight\">\u6c89\u9ed8</span>\uff0c\u540c\u65f6<span class=\"highlight\">\u65e0\u6cd5\u4f7f\u7528\u548c\u6062\u590d\u8010\u529b</span>\u3002",
       "upgrade_glass_cannon2_desc": "\u6bcf\u6b21\u51fb\u8d25\u82f1\u96c4\u90fd\u4f1a\u8d4b\u4e88<span class=\"highlight\">\u6c38\u4e45\u6b66\u5668\u4f24\u5bb3</span>\uff08\u6700\u591a{s:MaxStacks}\u5c42\uff09\u3002\u5982\u679c\u88ab\u51fb\u8d25\uff0c\u5219\u4f1a\u5931\u53bb1\u5c42\u53e0\u52a0\u3002",
       "upgrade_glass_cannon_desc": "\u6bcf\u6b21\u51fb\u8d25\u82f1\u96c4\u90fd\u4f1a\u83b7\u5f97<span class=\"highlight\">\u6c38\u4e45\u5c04\u901f</span>\uff08\u6700\u591a\u53ef\u53e0\u52a0{s:MaxStacks}\u5c42\uff09\u3002\u5982\u679c\u88ab\u51fb\u5012\uff0c\u5219\u4f1a\u5931\u53bb1\u5c42\u53e0\u52a0\u3002",
+      "upgrade_glass_cannon_plus1": "\u73bb\u7483\u5927\u70ae +1",
       "upgrade_glitch/modifier_glitch_debuff": "\u53d7\u5230\u5e72\u6270\uff01",
       "upgrade_glitch_desc": "\u5e72\u6270\u67d0\u4e2a\u654c\u4eba\u2014\u2014<span class=\"highlight\">\u6253\u65ad\u3001\u6c89\u9ed8\u3001\u7f34\u68b0</span>\uff0c\u5e76<span class=\"highlight\">\u963b\u6b62\u5176\u4f7f\u7528\u7269\u54c1</span>\u3002",
       "upgrade_greater_withering_whip_debuff": "\u88ab\u7f34\u68b0",

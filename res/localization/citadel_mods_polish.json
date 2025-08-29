@@ -438,6 +438,7 @@
       "upgrade_fury_trance_active": "Przyznaje <span class=\"highlight\">szybkostrzelno\u015b\u0107</span> oraz <span class=\"highlight\">odporno\u015b\u0107 spirytualn\u0105</span>, ale <span class=\"highlight\">ucisza</span> ci\u0119 i <span class=\"highlight\">wy\u0142\u0105cza u\u017cywanie i regeneracj\u0119 wytrzyma\u0142o\u015bci</span>.",
       "upgrade_glass_cannon2_desc": "Ka\u017cde zab\u00f3jstwo bohatera przyznaje <span class=\"highlight\">trwa\u0142e obra\u017cenia od broni</span> (maksymalnie {s:MaxStacks} razy). \u015amier\u0107 skutkuje utrat\u0105 1 instancji.",
       "upgrade_glass_cannon_desc": "Ka\u017cde zab\u00f3jstwo bohatera przyznaje <span class=\"highlight\">trwa\u0142\u0105 szybkostrzelno\u015b\u0107</span> (maksymalnie {s:MaxStacks} razy). \u015amier\u0107 skutkuje utrat\u0105 1 instancji.",
+      "upgrade_glass_cannon_plus1": "W\u0105t\u0142y Mocarz +1",
       "upgrade_glitch/modifier_glitch_debuff": "Przekl\u0119to!",
       "upgrade_glitch_desc": "Rzuca na wroga kl\u0105tw\u0119 \u2013 <span class=\"highlight\">przerywaj\u0105c dzia\u0142ania, uciszaj\u0105c, rozbrajaj\u0105c</span> i <span class=\"highlight\">uniemo\u017cliwiaj\u0105c u\u017cycie przedmiot\u00f3w</span>.",
       "upgrade_greater_withering_whip_debuff": "Rozbrojono",

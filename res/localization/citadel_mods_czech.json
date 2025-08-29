@@ -438,6 +438,7 @@
       "upgrade_fury_trance_active": "Vlastn\u00edk z\u00edsk\u00e1 bonusy k <span class=\"highlight\">rychlosti st\u0159elby</span> a <span class=\"highlight\">spiritu\u00e1ln\u00ed odolnosti</span>, ale je <span class=\"highlight\">uml\u010den</span> a <span class=\"highlight\">nem\u016f\u017ee spot\u0159ebov\u00e1vat v\u00fddr\u017e, kter\u00e1 se mu tak\u00e9 neregeneruje</span>.",
       "upgrade_glass_cannon2_desc": "Ka\u017ed\u00e9 zabit\u00ed hrdiny poskytuje vlastn\u00edkovi <span class=\"highlight\">permanentn\u00ed bonus k fyzick\u00e9mu po\u0161kozen\u00ed</span> (maxim\u00e1ln\u011b {s:MaxStacks} se\u010dten\u00ed). \u00damrt\u00edm je v\u017edy jedno se\u010dten\u00ed ztraceno.",
       "upgrade_glass_cannon_desc": "Ka\u017ed\u00e9 zabit\u00ed hrdiny poskytuje vlastn\u00edkovi <span class=\"highlight\">permanentn\u00ed bonus k rychlosti st\u0159elby</span> (maxim\u00e1ln\u011b {s:MaxStacks} se\u010dten\u00ed). \u00damrt\u00edm je v\u017edy jedno se\u010dten\u00ed ztraceno.",
+      "upgrade_glass_cannon_plus1": "F\u00f3rov\u00fd kan\u00f3n +1",
       "upgrade_glitch/modifier_glitch_debuff": "Kletba",
       "upgrade_glitch_desc": "Vlastn\u00edk prokleje nep\u0159\u00edtele \u2013 <span class=\"highlight\">p\u0159eru\u0161\u00ed, uml\u010d\u00ed a odzbroj\u00ed ho</span> a <span class=\"highlight\">zamez\u00ed mu v pou\u017e\u00edv\u00e1n\u00ed p\u0159edm\u011bt\u016f</span>.",
       "upgrade_greater_withering_whip_debuff": "Odzbrojen\u00ed",

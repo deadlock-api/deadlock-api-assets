@@ -438,6 +438,7 @@
       "upgrade_fury_trance_active": "Otorga <span class=\"highlight\">cadencia de tiro</span> y <span class=\"highlight\">resistencia espiritual</span> pero te <span class=\"highlight\">silencia</span> y <span class=\"highlight\">deshabilita tu resistencia y regeneraci\u00f3n</span>.",
       "upgrade_glass_cannon2_desc": "Cada h\u00e9roe asesinado otorga <span class=\"highlight\">da\u00f1o por arma permanente</span> (hasta un m\u00e1ximo de {s:MaxStacks}\u00a0veces). Morir provoca la p\u00e9rdida de 1\u00a0acumulaci\u00f3n.",
       "upgrade_glass_cannon_desc": "Siempre que matas a un h\u00e9roe, te otorga <span class=\"highlight\">cadencia de tiro permanente</span> (con hasta un m\u00e1ximo de {s:MaxStacks} veces). Al morir, se pierde 1 acumulaci\u00f3n.",
+      "upgrade_glass_cannon_plus1": "Ca\u00f1\u00f3n de vidrio +1",
       "upgrade_glitch/modifier_glitch_debuff": "\u00a1Maldici\u00f3n!",
       "upgrade_glitch_desc": "Maldice a un enemigo, <span class=\"highlight\">interrumpi\u00e9ndolo, silenci\u00e1ndolo y desarm\u00e1ndolo</span> tambi\u00e9n puedes <span class=\"highlight\">impedir que use objetos</span>.",
       "upgrade_greater_withering_whip_debuff": "Desarmado",
