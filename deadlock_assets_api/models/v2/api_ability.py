@@ -60,21 +60,30 @@ class AbilityDescriptionV2(BaseModel):
                 raw_ability,
                 raw_heroes,
                 localization,
-                localization.get(f"{raw_ability.class_name}_t1_desc"),
+                localization.get(
+                    f"{raw_ability.class_name}_t1_desc",
+                    localization.get(f"{raw_ability.class_name}_desc_t1bonus"),
+                ),
                 1,
             ),
             t2_desc=replace_templates(
                 raw_ability,
                 raw_heroes,
                 localization,
-                localization.get(f"{raw_ability.class_name}_t2_desc"),
+                localization.get(
+                    f"{raw_ability.class_name}_t2_desc",
+                    localization.get(f"{raw_ability.class_name}_desc_t2bonus"),
+                ),
                 2,
             ),
             t3_desc=replace_templates(
                 raw_ability,
                 raw_heroes,
                 localization,
-                localization.get(f"{raw_ability.class_name}_t3_desc"),
+                localization.get(
+                    f"{raw_ability.class_name}_t3_desc",
+                    localization.get(f"{raw_ability.class_name}_desc_t3bonus"),
+                ),
                 3,
             ),
             active=replace_templates(
