@@ -317,7 +317,13 @@ class HeroV2(BaseModel):
         )
         raw_model["hideout_rich_presence"] = (
             localization.get(
-                raw_hero.hideout_rich_presence.strip("#"), raw_hero.hideout_rich_presence
+                raw_hero.hideout_rich_presence.strip("#"),
+                localization.get(
+                    "Steam_Citadel_Hideout_Ranting"
+                    if raw_hero.hideout_rich_presence == "#Steam_Citadel_Hideout_Rant"
+                    else raw_hero.hideout_rich_presence,
+                    raw_hero.hideout_rich_presence,
+                ),
             )
             if raw_hero.hideout_rich_presence
             else None
