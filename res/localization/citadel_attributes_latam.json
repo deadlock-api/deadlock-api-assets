@@ -774,6 +774,7 @@
       "InlineAttribute_BonusFireRate": "cadencia de tiro adicional",
       "InlineAttribute_BonusMoveSpeed": "velocidad de movimiento adicional",
       "InlineAttribute_BonusSpiritDamage": "da\u00f1o espiritual adicional",
+      "InlineAttribute_BonusSprintSpeed": "velocidad de esprint adicional",
       "InlineAttribute_BonusWeaponDamage": "da\u00f1o adicional por arma",
       "InlineAttribute_BulletDamage": "da\u00f1o bal\u00edstico",
       "InlineAttribute_BulletResist": "resistencia bal\u00edstica",
