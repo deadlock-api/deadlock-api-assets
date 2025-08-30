@@ -30,7 +30,13 @@ class WeaponV2(ItemBaseV2):
                     raw_model["class_name"]
                     .replace("citadel_weapon", "citadel_weapon_hero")
                     .replace("_alt", "_set"),
-                    raw_model["class_name"],
+                    localization.get(
+                        raw_model["class_name"]
+                        .replace("citadel_weapon", "citadel_weapon_hero")
+                        .replace("_alt", "_set")
+                        .replace("set2", "set"),
+                        raw_model["class_name"],
+                    ).strip(),
                 ).strip(),
             ).strip(),
         ).strip()
