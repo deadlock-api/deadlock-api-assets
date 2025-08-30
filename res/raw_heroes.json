@@ -34340,7 +34340,7 @@
     "starting_stats": {
       "ability_resource_max": 0,
       "ability_resource_regen_per_second": 0,
-      "base_health_regen": 3.0,
+      "base_health_regen": 1.5,
       "bullet_armor_damage_reduction": null,
       "crit_damage_received_scale": 1.0,
       "crouch_speed": 4.75,
