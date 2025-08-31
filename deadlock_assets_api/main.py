@@ -149,6 +149,7 @@ async def scalar_html():
         openapi_url="https://assets.deadlock-api.com/openapi.json",
         title=app.title,
         theme=Theme.ALTERNATE,
+        scalar_favicon_url="/favicon.ico",
     )
 
 
