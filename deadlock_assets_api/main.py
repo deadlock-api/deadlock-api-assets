@@ -39,6 +39,7 @@ LOGGER = logging.getLogger(__name__)
 
 app = FastAPI(
     title="Assets - Deadlock API",
+    servers=[{"url": "https://assets.deadlock-api.com"}],
     description="""
 ## Support the Deadlock API
 
