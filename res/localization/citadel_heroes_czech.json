@@ -1612,7 +1612,7 @@
       "ability_frank_revive_t3_desc": "<span class=\"highlight\">+{s:Damage} bod\u016f</span> k po\u0161kozen\u00ed a <span class=\"highlight\">{s:Radius}\u00a0m</span> k rozsahu",
       "ability_frank_selfzap": "Nakopnut\u00ed",
       "ability_frank_selfzap/selfzap": "Nakopnut\u00ed",
-      "ability_frank_selfzap_desc": "Victor ud\u011bl\u00ed s\u00e1m sob\u011b {g:citadel_inline_attribute:'SpiritDamage'}, na\u010de\u017e z\u00edsk\u00e1 bonus k {g:citadel_inline_attribute:'Regen'} a {g:citadel_inline_attribute:'BonusMoveSpeed'}. Oba tyto bonusy postupn\u011b sl\u00e1bnou.",
+      "ability_frank_selfzap_desc": "Victor ud\u011bl\u00ed s\u00e1m sob\u011b {g:citadel_inline_attribute:'SpiritDamage'} odv\u00edjej\u00edc\u00ed se jeho moment\u00e1ln\u00edho zdrav\u00ed, na\u010de\u017e z\u00edsk\u00e1 bonusy k {g:citadel_inline_attribute:'Regen'} a <panel class=\"InlineAttributeIcon BonusMoveSpeed\" replacechar=\"_\"><span class=\"InlineAttributeName BonusMoveSpeed\">rychlosti pohybu</span>. Tyto bonusy postupn\u011b sl\u00e1bnou.",
       "ability_frank_selfzap_t3_desc": "<span class=\"highlight\">{s:AbilityCooldown} s</span> z doby obnoven\u00ed a po sesl\u00e1n\u00ed ze sebe Victor tak\u00e9 o\u010dist\u00ed debuffy s v\u00fdjimkou t\u011bch od ultim\u00e1tn\u00edch schopnost\u00ed",
       "ability_frank_shocktarget": "Nabit\u00e9 zlo",
       "ability_frank_shocktarget2": "Nabit\u00e9 zlo",

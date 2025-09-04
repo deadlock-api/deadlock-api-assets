@@ -238,6 +238,7 @@
       "BonusDamagePercent_label": "Bonus Damage",
       "BonusDamagePercent_postfix": "%",
       "BonusDamagePercent_postvalue_label": "Bonus Damage",
+      "BonusDamagePercent_prefix": "{s:sign}",
       "BonusDamage_label": "Bonus Damage",
       "BonusDamage_postvalue_label": "Bonus Damage",
       "BonusDuration_postfix": "s",

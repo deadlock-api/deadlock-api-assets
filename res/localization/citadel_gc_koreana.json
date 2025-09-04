@@ -142,7 +142,7 @@
       "ItemHistory_Transaction_UnlockCrate": "\ubcf4\ubb3c\ud568 \uac1c\ubd09",
       "ItemNameCraftNumberFormat": " #%s1",
       "ItemNameUniqueFormat": "%s1\uc758 %s2%s3",
-      "ItemNameWithQualityFormat": "%s1 %s2%s3",
+      "ItemNameWithQualityFormat": "%s1 %s2%s311",
       "ItemTypeDesc": "\ub808\ubca8 %s1 %s2",
       "ItemTypeDescKillEater": "%s1 %s2",
       "ItemTypeDescKillEaterAlt": "%s2: %s1",

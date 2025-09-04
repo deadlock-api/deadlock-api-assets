@@ -1559,7 +1559,6 @@
       "ability_frank_selfzap_t3_desc": "<span class=\"highlight\">{s:AbilityCooldown}s</span> de recarga. Ao usar: expurga malef\u00edcios que n\u00e3o sejam de Supremas",
       "ability_frank_shocktarget": "Pilhado",
       "ability_frank_shocktarget2": "Pilhado",
-      "ability_frank_shocktarget2_desc": "<span class=\"highlight\">Sofrer qualquer dano</span> deixa voc\u00ea cada vez mais Pilhado. <br><br>Ap\u00f3s chegar ao seu limite, ative a habilidade para eletrocutar todos os inimigos na sua frente, causando {g:citadel_inline_attribute:'SpiritDamage'}.",
       "ability_frank_shocktarget2_t2_desc": "Ao atingir: aplica <span class=\"highlight\">{s:SlowPercent}%</span> de desacelera\u00e7\u00e3o apor <span class=\"highlight\">{s:SlowDuration}s</span>",
       "ability_frank_shocktarget2_t3_desc": "Ao atingir um her\u00f3i: cura <span class=\"highlight\">{s:MissingHealthPercentHeal}%</span> da sua vida perdida",
       "ability_frank_shocktarget_desc": "Eletrocuta um alvo na sua frente, causando {g:citadel_inline_attribute:'SpiritDamage'} e aplicando uma breve {g:citadel_inline_attribute:'Slow'}. <br><br>O <span class=\"highlight\">dano sofrido</span> \u00e9 armazenado como {g:citadel_inline_attribute:'BonusSpiritDamage'}, a ser causado no seu pr\u00f3ximo uso, at\u00e9 um valor-limite.",

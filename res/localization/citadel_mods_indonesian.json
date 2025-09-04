@@ -438,6 +438,7 @@
       "upgrade_fury_trance_active": "Memberikan <span class=\"highlight\">Tingkat Tembakan</span> dan <span class=\"highlight\">Pertahanan spirit</span>, tapi kamu akan menerima efek <span class=\"highlight\">Bungkam</span> dan <span class=\"highlight\">menonaktifkan penggunaan stamina dan pemulihan</span>.",
       "upgrade_glass_cannon2_desc": "Setiap melakukan kill pada hero, akan memberikan akumulasi <span class=\"highlight\">Damage Senjata permanen</span> (maks. hingga {s:MaxStacks} kali). Death akan mengakibatkan hilangnya 1 akumulasi.",
       "upgrade_glass_cannon_desc": "Setiap melakukan kill pada hero, akan memberikan akumulasi <span class=\"highlight\">Tingkat Tembakan permanen</span> (maks. hingga {s:MaxStacks} kali). Death akan mengakibatkan hilangnya 1 akumulasi.",
+      "upgrade_glass_cannon_plus1": "Meriam Kaca +1",
       "upgrade_glitch/modifier_glitch_debuff": "Dikutuk!",
       "upgrade_glitch_desc": "Mengutuk musuh - <span class=\"highlight\">menginterupsi, Membungkam, Melucuti Senjata</span>, dan <span class=\"highlight\">mencegah penggunaan item</span>.",
       "upgrade_greater_withering_whip_debuff": "Senjata Dilucuti",

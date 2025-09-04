@@ -438,6 +438,7 @@
       "upgrade_fury_trance_active": "Conferisce <span class=\"highlight\">cadenza di fuoco</span> e <span class=\"highlight\">resistenza spirituale</span>, ma ti <span class=\"highlight\">silenzia</span> e <span class=\"highlight\">disabilita l'uso e la rigenerazione della resistenza</span>.",
       "upgrade_glass_cannon2_desc": "Ogni eroe ucciso conferisce <span class=\"highlight\">danni permanenti da arma</span> (fino a un massimo di {s:MaxStacks} volte). Se muori perdi 1 istanza.",
       "upgrade_glass_cannon_desc": "Ogni eroe ucciso conferisce <span class=\"highlight\">cadenza di fuoco permanente</span> (fino a un massimo di {s:MaxStacks} volte). Se muori perdi 1 istanza.",
+      "upgrade_glass_cannon_plus1": "Cannone di vetro +1",
       "upgrade_glitch/modifier_glitch_debuff": "Maledetto!",
       "upgrade_glitch_desc": "Maledice un nemico, <span class=\"highlight\">interrompendolo, silenziandolo, disarmandolo</span> e <span class=\"highlight\"> impedendogli di usare gli oggetti</span>.",
       "upgrade_greater_withering_whip_debuff": "Disarmo",

@@ -1616,7 +1616,6 @@
       "ability_frank_selfzap_t3_desc": "<span class=\"highlight\">{s:AbilityCooldown}\u00a0s</span> de temps de r\u00e9cup\u00e9ration. Au lancement, \u00e9limine tous les effets n\u00e9gatifs non ultimes.",
       "ability_frank_shocktarget": "Batterie d'affliction",
       "ability_frank_shocktarget2": "Batterie d'affliction",
-      "ability_frank_shocktarget2_desc": "<span class=\"highlight\">Les d\u00e9g\u00e2ts </span> rechargent passivement la Batterie d'affliction. <br><br>Une fois la batterie pleine, l'activation de la capacit\u00e9 \u00e9lectrocute toutes les cibles qui se trouvent devant {s:hero_name}, leur infligeant {g:citadel_inline_attribute:'SpiritDamage'}. ",
       "ability_frank_shocktarget2_t2_desc": "\u00c0 l'impact\u00a0: <span class=\"highlight\">{s:SlowPercent}\u00a0%</span> de ralentissement pendant <span class=\"highlight\">{s:SlowDuration}\u00a0s</span>",
       "ability_frank_shocktarget2_t3_desc": "\u00c0 l'impact (unit\u00e9 occultiste)\u00a0: soigne <span class=\"highlight\">{s:MissingHealthPercentHeal}\u00a0%</span> de vos PV manquants",
       "ability_frank_shocktarget_desc": "{s:hero_name} \u00e9lectrocute une cible en face de lui. Elle subit des {g:citadel_inline_attribute:'SpiritDamage'} et un bref {g:citadel_inline_attribute:'Slow'}. <br><br><span class=\"highlight\">Les d\u00e9g\u00e2ts subis</span> sont absorb\u00e9s et servent de bonus de {g:citadel_inline_attribute:'BonusSpiritDamage'} pour votre prochaine incantation (jusqu'\u00e0 une certaine limite).",

@@ -1537,12 +1537,12 @@
       "ability_resource_regen_per_second": 0,
       "base_health_regen": 1.0,
       "bullet_armor_damage_reduction": null,
-      "crit_damage_received_scale": 0.65,
+      "crit_damage_received_scale": 0.75,
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 650,
-      "max_move_speed": 6.9,
+      "max_move_speed": 6.8,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -6304,7 +6304,7 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.275,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.27,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 47.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
@@ -9482,7 +9482,7 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.08,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.23,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
@@ -10275,11 +10275,11 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.13,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.14,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 54.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
-      "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 48.0,
+      "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 59.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.3,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
@@ -11806,7 +11806,7 @@
     ],
     "scaling_stats": {
       "EBulletDamage": {
-        "scale": 0.07,
+        "scale": 0.08,
         "scaling_stat": "ETechPower"
       },
       "EMaxMoveSpeed": {
@@ -15834,7 +15834,7 @@
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.5,
+      "sprint_speed": 2.0,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -18198,7 +18198,7 @@
     "skin": 0,
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.45,
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 1.25,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 44.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
@@ -32807,9 +32807,9 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.55,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.52,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 39.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -34328,7 +34328,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.3,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 45.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -38973,7 +38973,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 730,
+      "max_health": 740,
       "max_move_speed": 7.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
