@@ -88,7 +88,7 @@ def get_items(
 
 @router.get("/items/{id_or_class_name}", response_model_exclude_none=True, tags=["Items"])
 def get_item(
-    id_or_class_name: int | str,
+    id_or_class_name: str,
     language: Language | None = None,
     client_version: VALID_CLIENT_VERSIONS | None = None,
 ) -> ItemV2:
