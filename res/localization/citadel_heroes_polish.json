@@ -2518,7 +2518,7 @@
       "mirage_teleport_desc": "Inkantacja. Wska\u017c sojuszniczego lub widocznego wrogiego bohatera na minimapie, a nast\u0119pnie <span class=\"highlight\">przeteleportuj si\u0119</span> w miejsce, w kt\u00f3rym by\u0142 w momencie rozpocz\u0119cia inkantacji. Po teleportacji zyskujesz <span class=\"highlight\">szybko\u015b\u0107 ruchu</span> oraz <span class=\"highlight\">szybkostrzelno\u015b\u0107 do momentu kolejnego prze\u0142adowania</span>.",
       "mirage_teleport_movespeed": "Podr\u00f3\u017cnik \u2013 szybszy ruch",
       "mirage_teleport_quip": "Teleportuj si\u0119 do sojuszniczego lub wrogiego bohatera.",
-      "mirage_teleport_t2_desc": "Przyznaje sojusznikowi wzmocnienia podr\u00f3\u017cnika.",
+      "mirage_teleport_t2_desc": "Przyznaje sojusznikowi wzmocnienia z Podr\u00f3\u017cnika.",
       "mirage_teleport_t3_desc": "Po teleportacji sta\u0144 si\u0119 <span class=\"highlight\">niewra\u017cliwy</span> na og\u0142uszenie, uciszenie, u\u015bpienie, unieruchomienie i rozbrojenie na <span class=\"highlight\">{s:ImmunityDuration} s</span>.",
       "mirage_tornado": "Tornado",
       "mirage_tornado_desc": "Przemie\u0144 si\u0119 w tornado, kt\u00f3re przemieszcza si\u0119 do przodu, <span class=\"highlight\">zadaj\u0105c obra\u017cenia wrogom</span> oraz <span class=\"highlight\">unosz\u0105c ich</span>. Po wyj\u015bciu z tornada <span class=\"highlight\">unikasz naboj\u00f3w</span>.",
