@@ -15,7 +15,7 @@ repos:
   - id: pretty-format-json
     args: [--autofix]
 - repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: v0.13.3
+  rev: v0.14.0
   hooks:
   - id: ruff-format
   # Hooks for validation
@@ -30,9 +30,14 @@ repos:
   - id: check-ast
   - id: debug-statements
 - repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: v0.13.3
+  rev: v0.14.0
   hooks:
   - id: ruff
+- repo: https://github.com/asottile/pyupgrade
+  rev: v3.21.0
+  hooks:
+  - id: pyupgrade
+    args: [--py314-plus]
 - repo: local
   hooks:
   - id: hadolint-docker

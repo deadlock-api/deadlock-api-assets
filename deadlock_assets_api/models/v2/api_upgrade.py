@@ -31,7 +31,7 @@ class UpgradeDescriptionV2(BaseModel):
         raw_upgrade: RawUpgradeV2,
         raw_heroes: list[RawHeroV2],
         localization: dict[str, str],
-    ) -> "UpgradeDescriptionV2":
+    ) -> UpgradeDescriptionV2:
         return cls(
             desc=replace_templates(
                 raw_upgrade,
@@ -81,7 +81,7 @@ class UpgradePropertyV2(ItemPropertyV2):
         raw_property: RawItemPropertyV2,
         tooltip_sections: list[RawUpgradeTooltipSectionV2] | None,
         localization: dict[str, str],
-    ) -> "UpgradePropertyV2":
+    ) -> UpgradePropertyV2:
         def in_important_properties(name: str, sa: RawUpgradeTooltipSectionAttributeV2) -> bool:
             return any(
                 name == p.get("important_property")
@@ -274,7 +274,7 @@ class UpgradeV2(ItemBaseV2):
         raw_upgrade: RawUpgradeV2,
         raw_heroes: list[RawHeroV2],
         localization: dict[str, str],
-    ) -> "UpgradeV2":
+    ) -> UpgradeV2:
         raw_model = super().from_raw_item(raw_upgrade, raw_heroes, localization)
         raw_model["shop_image"] = parse_img_path(raw_model["shop_image"])
         if raw_model["shop_image"] is not None:

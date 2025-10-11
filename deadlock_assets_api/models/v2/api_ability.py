@@ -40,7 +40,7 @@ class AbilityDescriptionV2(BaseModel):
         raw_ability: RawAbilityV2,
         raw_heroes: list[RawHeroV2],
         localization: dict[str, str],
-    ) -> "AbilityDescriptionV2":
+    ) -> AbilityDescriptionV2:
         return cls(
             desc=replace_templates(
                 raw_ability,
@@ -118,7 +118,7 @@ class AbilityVideosV2(BaseModel):
     mp4: str | None = None
 
     @classmethod
-    def from_raw_video(cls, raw_video: str) -> "AbilityVideosV2":
+    def from_raw_video(cls, raw_video: str) -> AbilityVideosV2:
         webm = extract_video_url(raw_video)
         return cls(
             webm=webm,
@@ -139,7 +139,7 @@ class AbilityV2TooltipDetailsInfoSectionPropertyBlockProperty(BaseModel):
     @classmethod
     def from_raw_property(
         cls, raw_property: dict, localization: dict[str, str]
-    ) -> "AbilityV2TooltipDetailsInfoSectionPropertyBlockProperty":
+    ) -> AbilityV2TooltipDetailsInfoSectionPropertyBlockProperty:
         raw_property["important_property_icon"] = parse_img_path(
             raw_property["important_property_icon_path"]
         )
@@ -165,7 +165,7 @@ class AbilityTooltipDetailsInfoSectionPropertyBlockV2(BaseModel):
         raw_heroes: list[RawHeroV2],
         raw_info_section_property_block: RawAbilityV2TooltipDetailsInfoSectionPropertyBlock,
         localization: dict[str, str],
-    ) -> "AbilityTooltipDetailsInfoSectionPropertyBlockV2":
+    ) -> AbilityTooltipDetailsInfoSectionPropertyBlockV2:
         return cls(
             loc_string=replace_templates(
                 raw_item,
@@ -204,7 +204,7 @@ class AbilityTooltipDetailsInfoSectionV2(BaseModel):
         raw_heroes: list[RawHeroV2],
         raw_info_section: RawAbilityV2TooltipDetailsInfoSection,
         localization: dict[str, str],
-    ) -> "AbilityTooltipDetailsInfoSectionV2":
+    ) -> AbilityTooltipDetailsInfoSectionV2:
         return cls(
             loc_string=replace_templates(
                 raw_item,
@@ -245,7 +245,7 @@ class AbilityTooltipDetailsV2(BaseModel):
         raw_heroes: list[RawHeroV2],
         raw_tooltip_details: RawAbilityV2TooltipDetails,
         localization: dict[str, str],
-    ) -> "AbilityTooltipDetailsV2":
+    ) -> AbilityTooltipDetailsV2:
         return cls(
             info_sections=[
                 AbilityTooltipDetailsInfoSectionV2.from_raw_info_section(
@@ -282,7 +282,7 @@ class AbilityV2(ItemBaseV2):
         raw_ability: RawAbilityV2,
         raw_heroes: list[RawHeroV2],
         localization: dict[str, str],
-    ) -> "AbilityV2":
+    ) -> AbilityV2:
         raw_model = super().from_raw_item(raw_ability, raw_heroes, localization)
         raw_model["behaviours"] = (
             [b.strip() for b in raw_ability.behaviour_bits.split("|")]

@@ -91,7 +91,7 @@ def read_parse_data_ta[T](filepath: str, type_adapter: TypeAdapter[T]) -> T:
         return type_adapter.validate_json(f.read())
 
 
-def read_parse_data_model[T: BaseModel](filepath: str, model: Type[T]) -> T:
+def read_parse_data_model[T: BaseModel](filepath: str, model: type[T]) -> T:
     LOGGER.debug(f"Reading {filepath}")
     with open(filepath) as f:
         return model.model_validate_json(f.read())

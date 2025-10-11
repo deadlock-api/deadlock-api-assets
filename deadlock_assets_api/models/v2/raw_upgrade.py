@@ -57,7 +57,7 @@ class RawUpgradeTooltipSectionAttributeV2ImportantPropertyWithIcon(BaseModel):
     @classmethod
     def from_name(
         cls, name: str | None
-    ) -> Optional["RawUpgradeTooltipSectionAttributeV2ImportantPropertyWithIcon"]:
+    ) -> RawUpgradeTooltipSectionAttributeV2ImportantPropertyWithIcon | None:
         icon = parse_css_ability_properties_icon("res/ability_property_icons.css", name)
         if icon is None:
             return None

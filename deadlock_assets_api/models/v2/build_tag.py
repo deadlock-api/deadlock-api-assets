@@ -21,7 +21,7 @@ class BuildTagV2(BaseModel):
         return f"{SVGS_BASE_URL}/{self.class_name}.svg"
 
     @classmethod
-    def from_localization(cls, localization: dict[str, str]) -> list["BuildTagV2"]:
+    def from_localization(cls, localization: dict[str, str]) -> list[BuildTagV2]:
         return [
             cls(class_name=k, label=v)
             for k, v in localization.items()

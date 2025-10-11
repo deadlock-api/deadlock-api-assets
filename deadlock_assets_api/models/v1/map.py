@@ -108,7 +108,7 @@ class ZiplanePathV1(BaseModel):
     )
 
     @classmethod
-    def from_pathnodes(cls, pathnodes: list[list[float]], **kwargs) -> "ZiplanePathV1":
+    def from_pathnodes(cls, pathnodes: list[list[float]], **kwargs) -> ZiplanePathV1:
         return cls(
             P0_points=[(n[0], n[1], n[2]) for n in pathnodes],
             P1_points=[(n[3], n[4], n[5]) for n in pathnodes],
@@ -163,7 +163,7 @@ class MapV1(BaseModel):
         ]
 
     @classmethod
-    def get_default(cls) -> "MapV1":
+    def get_default(cls) -> MapV1:
         return cls(
             images=MapImagesV1(
                 minimap=f"{IMAGE_BASE_URL}/maps/minimap.png",

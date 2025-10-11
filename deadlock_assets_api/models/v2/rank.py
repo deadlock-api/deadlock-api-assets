@@ -53,7 +53,7 @@ class RankImagesV2(BaseModel):
     small_subrank6_webp: str | None = Field(None)
 
     @classmethod
-    def from_tier(cls, tier: int) -> "RankImagesV2":
+    def from_tier(cls, tier: int) -> RankImagesV2:
         image_folder = f"ranks/rank{tier}"
         images = {
             f.replace("badge_", "")
@@ -81,7 +81,7 @@ class RankV2(BaseModel):
         return RANK_COLORS[self.tier]
 
     @classmethod
-    def from_tier(cls, tier: int, localization: dict[str, str]) -> "RankV2":
+    def from_tier(cls, tier: int, localization: dict[str, str]) -> RankV2:
         return cls(
             tier=tier,
             name=localization[f"Citadel_ranks_rank{tier}"].strip(),

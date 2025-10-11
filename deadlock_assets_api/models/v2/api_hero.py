@@ -60,7 +60,7 @@ class HeroImagesV2(BaseModel):
     name_image: str | None = None
 
     @classmethod
-    def from_raw_hero(cls, raw_hero: RawHeroV2) -> "HeroImagesV2":
+    def from_raw_hero(cls, raw_hero: RawHeroV2) -> HeroImagesV2:
         keys = [
             "icon_hero_card",
             "icon_image_small",
@@ -92,9 +92,7 @@ class HeroDescriptionV2(BaseModel):
     playstyle: str | None = None
 
     @classmethod
-    def from_raw_hero(
-        cls, raw_hero: RawHeroV2, localization: dict[str, str]
-    ) -> "HeroDescriptionV2":
+    def from_raw_hero(cls, raw_hero: RawHeroV2, localization: dict[str, str]) -> HeroDescriptionV2:
         return cls(
             lore=localization.get(f"{raw_hero.class_name}_lore"),
             role=localization.get(f"{raw_hero.class_name}_role"),
@@ -114,7 +112,7 @@ class HeroPhysicsV2(BaseModel):
     step_sound_time_sprinting: float | None = None
 
     @classmethod
-    def from_raw_hero(cls, raw_hero: RawHeroV2) -> "HeroPhysicsV2":
+    def from_raw_hero(cls, raw_hero: RawHeroV2) -> HeroPhysicsV2:
         return cls(
             collision_height=raw_hero.collision_height,
             collision_radius=raw_hero.collision_radius,
@@ -136,7 +134,7 @@ class HeroColorsV2(BaseModel):
     ui: tuple[int, int, int]
 
     @classmethod
-    def from_raw_hero(cls, raw_hero: RawHeroV2) -> "HeroColorsV2":
+    def from_raw_hero(cls, raw_hero: RawHeroV2) -> HeroColorsV2:
         return cls(
             glow_enemy=raw_hero.color_glow_enemy,
             glow_friendly=raw_hero.color_glow_friendly,
@@ -155,7 +153,7 @@ class HeroShopWeaponStatsDisplayV2(RawHeroShopWeaponStatsDisplayV2):
     @classmethod
     def from_raw_hero_shop_weapon_stats_display(
         cls, raw_hero_shop_weapon_stats_display: RawHeroShopWeaponStatsDisplayV2
-    ) -> "HeroShopWeaponStatsDisplayV2":
+    ) -> HeroShopWeaponStatsDisplayV2:
         raw_model = raw_hero_shop_weapon_stats_display.model_dump()
         raw_model["weapon_attributes"] = (
             [i.strip() for i in raw_hero_shop_weapon_stats_display.weapon_attributes.split("|")]
@@ -176,7 +174,7 @@ class HeroShopStatDisplayV2(RawHeroShopStatDisplayV2):
     weapon_stats_display: HeroShopWeaponStatsDisplayV2
 
     @classmethod
-    def from_raw_hero(cls, raw_hero: RawHeroV2) -> "HeroShopStatDisplayV2":
+    def from_raw_hero(cls, raw_hero: RawHeroV2) -> HeroShopStatDisplayV2:
         raw_model = raw_hero.shop_stat_display.model_dump()
         raw_model["weapon_stats_display"] = (
             HeroShopWeaponStatsDisplayV2.from_raw_hero_shop_weapon_stats_display(
@@ -192,7 +190,7 @@ class HeroLevelInfoV2(RawHeroLevelInfoV2):
     bonus_currencies: list[str] | None = None
 
     @classmethod
-    def from_raw_level_info(cls, raw_level_info: RawHeroLevelInfoV2) -> "HeroLevelInfoV2":
+    def from_raw_level_info(cls, raw_level_info: RawHeroLevelInfoV2) -> HeroLevelInfoV2:
         raw_model = raw_level_info.model_dump()
         raw_model["bonus_currencies"] = (
             list(raw_level_info.bonus_currencies.keys())
@@ -237,7 +235,7 @@ class HeroStartingStatsV2(BaseModel):
     @classmethod
     def from_raw_starting_stats(
         cls, raw_hero_starting_stats: RawHeroStartingStatsV2
-    ) -> "HeroStartingStatsV2":
+    ) -> HeroStartingStatsV2:
         return cls(
             **{
                 k: (
@@ -291,7 +289,7 @@ class HeroV2(BaseModel):
     standard_level_up_upgrades: dict[str, float]
 
     @classmethod
-    def from_raw_hero(cls, raw_hero: RawHeroV2, localization: dict[str, str]) -> "HeroV2":
+    def from_raw_hero(cls, raw_hero: RawHeroV2, localization: dict[str, str]) -> HeroV2:
         raw_model = raw_hero.model_dump()
         raw_model["name"] = (
             localization.get(

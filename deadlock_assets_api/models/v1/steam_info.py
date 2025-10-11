@@ -23,7 +23,7 @@ class SteamInfoV1(BaseModel):
         return datetime.combine(date, time)
 
     @classmethod
-    def load(cls) -> "SteamInfoV1":
+    def load(cls) -> SteamInfoV1:
         return cls.model_validate(
             {
                 k.strip(): v.strip()

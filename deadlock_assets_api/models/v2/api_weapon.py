@@ -20,7 +20,7 @@ class WeaponV2(ItemBaseV2):
         raw_weapon: RawWeaponV2,
         raw_heroes: list[RawHeroV2],
         localization: dict[str, str],
-    ) -> "WeaponV2":
+    ) -> WeaponV2:
         raw_model = super().from_raw_item(raw_weapon, raw_heroes, localization)
         raw_model["name"] = localization.get(
             raw_model["class_name"],

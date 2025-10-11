@@ -99,7 +99,7 @@ def replace_templates(
             if key in KEYBIND_SVGS:
                 svg = KEYBIND_SVGS[key]
                 if os.path.exists(f"svgs/{svg}"):
-                    with open(f"svgs/{svg}", "r") as f:
+                    with open(f"svgs/{svg}") as f:
                         return f.read()
             res = localization.get(
                 "citadel_keybind_" + pascal_case_to_snake_case(key).lower(),
@@ -123,7 +123,7 @@ def replace_templates(
                 if background_image.endswith(".svg"):
                     background_image_path = "svgs" + background_image.replace(SVGS_BASE_URL, "")
                     if os.path.exists(background_image_path):
-                        with open(background_image_path, "r") as f:
+                        with open(background_image_path) as f:
                             img_tag = add_fill_to_svg(f.read(), wash_color)
                     else:
                         img_tag = f'<img src="{background_image}" class="inline-attribute {css_class}" alt="{label}"/>'
@@ -134,7 +134,7 @@ def replace_templates(
                 if background_image.endswith(".svg"):
                     background_image_path = "svgs" + background_image.replace(SVGS_BASE_URL, "")
                     if os.path.exists(background_image_path):
-                        with open(background_image_path, "r") as f:
+                        with open(background_image_path) as f:
                             img_tag = add_fill_to_svg(f.read(), wash_color)
                     else:
                         img_tag = f'<object data="{background_image}" class="inline-attribute {css_class}" alt="{label}"/>'
