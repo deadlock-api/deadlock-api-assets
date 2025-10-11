@@ -6,7 +6,7 @@ authors = [
     { name = "Manuel Raimann", email = "raimannma@outlook.de" },
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.14"
 dependencies = [
     "css-parser>=1.0.10",
     "fastapi>=0.115.5",
