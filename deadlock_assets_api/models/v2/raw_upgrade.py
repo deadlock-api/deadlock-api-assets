@@ -1,6 +1,6 @@
 import logging
 from enum import Enum
-from typing import Literal, Optional
+from typing import Literal
 
 from pydantic import ConfigDict, Field, BaseModel, computed_field, model_validator
 

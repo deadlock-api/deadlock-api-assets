@@ -4,7 +4,6 @@ import os
 import re
 from enum import Enum
 from functools import lru_cache
-from typing import Type
 
 import css_parser
 from css_parser.css import CSSRuleList, CSSStyleRule
