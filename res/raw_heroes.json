@@ -727,7 +727,7 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.12,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.08,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 39.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
@@ -7978,7 +7978,7 @@
     "starting_stats": {
       "ability_resource_max": 0,
       "ability_resource_regen_per_second": 0,
-      "base_health_regen": 2.0,
+      "base_health_regen": 1.0,
       "bullet_armor_damage_reduction": null,
       "crit_damage_received_scale": 1.0,
       "crouch_speed": 4.75,
@@ -15888,7 +15888,7 @@
         "scaling_stat": "ETechPower"
       },
       "ERoundsPerSecond": {
-        "scale": 0.0088,
+        "scale": 0.01,
         "scaling_stat": "ETechPower"
       }
     },
@@ -33101,7 +33101,7 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.52,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.56,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 39.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
@@ -36946,7 +36946,7 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.15,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.0,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 42.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,

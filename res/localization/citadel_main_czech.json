@@ -3152,7 +3152,7 @@
       "menu_play_lane_training": "Tr\u00e9nink na lince",
       "menu_play_lane_training_desc": "Nau\u010d se fungov\u00e1n\u00ed a pr\u016fb\u011bh ran\u00e9 f\u00e1ze z\u00e1pasu.",
       "menu_play_lane_training_time_est": "8 minut",
-      "menu_play_low_priority_matchmaking": "Je na tebe uvalena n\u00edzk\u00e1 priorita. A\u0165 u\u017e s\u00e1m, nebo ve skupin\u011b, p\u0159i vyhled\u00e1v\u00e1n\u00ed z\u00e1pas\u016f bude\u0161 spojov\u00e1n pouze s ostatn\u00edmi hr\u00e1\u010di, kte\u0159\u00ed maj\u00ed tak\u00e9 n\u00edzkou prioritu.",
+      "menu_play_low_priority_matchmaking": "Z d\u016fvodu \u010dast\u00e9ho opou\u0161t\u011bn\u00ed z\u00e1pas\u016f nebo nevhodn\u00e9ho chov\u00e1n\u00ed nahl\u00e1\u0161en\u00e9ho dal\u0161\u00edmi hr\u00e1\u010di byla na tebe nebo na jin\u00e9ho \u010dlena skupiny uvalena n\u00edzk\u00e1 priorita ve vyhled\u00e1v\u00e1n\u00ed z\u00e1pas\u016f, kter\u00e1 se vztahuje na celou skupinu.<br><br>B\u011b\u017enou prioritu lze z\u00edskat zp\u011bt v\u00fdhrou <span class=\"LowPriGamesText\">{i:low_pri_games_remaining}</span> z\u00e1pas\u016f nebo vyhozen\u00edm probl\u00e9mov\u00e9ho \u010dlena skupiny.",
       "menu_play_matchmaking": "Zahraj si standardn\u00ed z\u00e1pas proti ostatn\u00edm hr\u00e1\u010d\u016fm.",
       "menu_play_normal": "Deadlock",
       "menu_play_normal_count": "{s:mm_unranked_count} ve vyhled\u00e1v\u00e1n\u00ed",

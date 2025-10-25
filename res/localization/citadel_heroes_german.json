@@ -1505,7 +1505,7 @@
       "ability_bookworm_knightbarrier_t3_desc": "Bis zu <span class=\"highlight\">{s:BonusTargets}</span> weitere Verb\u00fcndete erhalten eine Barriere mit <span class=\"highlight\">{s:BonusTargetsBarrierPercentage}\u00a0%</span> der Barrierepunkte",
       "ability_bookworm_knightcharge": "Ruf in die Schlacht",
       "ability_bookworm_knightcharge/buff": "Ruf in die Schlacht",
-      "ability_bookworm_knightcharge_desc": "{s:hero_name} beschw\u00f6rt eine Welle Spektralreiter, die durch die <span class=\"highlight\">ganze Stadt</span> galoppieren und dabei Verb\u00fcndeten {g:citadel_inline_attribute:'Healing'} gew\u00e4hren und Gegnern {g:citadel_inline_attribute:'SpiritDamage'} zuf\u00fcgen.<br><br>Die St\u00e4rke von {g:citadel_inline_attribute:'Heal'} und {g:citadel_inline_attribute:'SpiritDamage'} nimmt zu, je weiter die Spektralreiter galoppieren.",
+      "ability_bookworm_knightcharge_desc": "{s:hero_name} beschw\u00f6rt eine Welle Spektralreiter, die durch die <span class=\"highlight\">ganze Stadt</span> galoppieren und dabei Verb\u00fcndeten {g:citadel_inline_attribute:'Healing'} gew\u00e4hren und Gegnern {g:citadel_inline_attribute:'SpiritDamage'} zuf\u00fcgen.<br><br>Die St\u00e4rke von {g:citadel_inline_attribute:'Healing'} und {g:citadel_inline_attribute:'SpiritDamage'} nimmt zu, je weiter die Spektralreiter galoppieren.",
       "ability_bookworm_knightcharge_t2_desc": "Vergr\u00f6\u00dfert die Formation um <span class=\"highlight\">+{s:KnightCountInFirstWave} Spektralreiter</span>",
       "ability_bookworm_knightcharge_t3_desc": "<span class=\"highlight\">+{s:Damage}</span> Schaden und <span class=\"highlight\">+{s:StunDuration}\u00a0s</span> Bet\u00e4ubungs\u00addauer",
       "ability_bounce_pad": "Sprungpad",

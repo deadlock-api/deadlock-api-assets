@@ -3120,7 +3120,7 @@
       "menu_play_lane_training": "Treinamento de trilha",
       "menu_play_lane_training_desc": "Aprenda como jogar os primeiros minutos com um her\u00f3i aliado de guia.",
       "menu_play_lane_training_time_est": "8 minutos",
-      "menu_play_low_priority_matchmaking": "Voc\u00ea est\u00e1 na baixa prioridade. Voc\u00ea e o seu grupo jogar\u00e3o partidas apenas com quem tamb\u00e9m estiver na baixa prioridade.",
+      "menu_play_low_priority_matchmaking": "O seu grupo est\u00e1 na fila de cria\u00e7\u00e3o de partidas de baixa prioridade devido ao abandono de partidas por voc\u00ea ou por um membro do grupo, ou por comportamento impr\u00f3prio denunciado por outros jogadores.<br><br>Voc\u00ea deve vencer <span class=\"LowPriGamesText\">{i:low_pri_games_remaining}</span> partidas na fila de baixa prioridade ou remover o membro do grupo penalizado para voltar \u00e0 cria\u00e7\u00e3o de partidas normal.",
       "menu_play_matchmaking": "Jogue uma partida padr\u00e3o contra outros jogadores.",
       "menu_play_normal": "Deadlock",
       "menu_play_normal_count": "{s:mm_unranked_count} na fila",

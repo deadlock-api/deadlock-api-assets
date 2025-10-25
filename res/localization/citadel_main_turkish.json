@@ -3152,7 +3152,7 @@
       "menu_play_lane_training": "Kulvar E\u011fitimi",
       "menu_play_lane_training_desc": "Oyunun ilk a\u015famalar\u0131n\u0131 yol g\u00f6sterici dost bir kahramanla \u00f6\u011frenin.",
       "menu_play_lane_training_time_est": "8 Dakika",
-      "menu_play_low_priority_matchmaking": "D\u00fc\u015f\u00fck \u00f6ncelikli olarak i\u015faretlendiniz. Siz ve partiniz sadece di\u011fer d\u00fc\u015f\u00fck \u00f6ncelikli oyuncularla e\u015fle\u015ftirileceksiniz.",
+      "menu_play_low_priority_matchmaking": "Sizin veya partinizin bir \u00fcyesinin ma\u00e7lar\u0131 terk etmesi veya di\u011fer oyuncular taraf\u0131ndan bildirilen uygunsuz davran\u0131\u015flarda bulunmas\u0131 sonucunda partiniz d\u00fc\u015f\u00fck \u00f6ncelikli e\u015fle\u015ftirme kuyru\u011fundad\u0131r. <br><br>Normal e\u015fle\u015ftirmeye geri d\u00f6nmek i\u00e7in d\u00fc\u015f\u00fck \u00f6ncelikli e\u015fle\u015ftirmede <span class=\"LowPriGamesText\">{i:low_pri_games_remaining}</span> oyun kazanman\u0131z veya ceza alan ki\u015fiyi partinizden \u00e7\u0131karman\u0131z gerekir.",
       "menu_play_matchmaking": "Di\u011fer oyunculara kar\u015f\u0131 standart bir ma\u00e7 oynay\u0131n.",
       "menu_play_normal": "Deadlock",
       "menu_play_normal_count": "{s:mm_unranked_count} ki\u015fi kuyrukta",

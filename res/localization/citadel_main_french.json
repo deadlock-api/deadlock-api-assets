@@ -3152,7 +3152,7 @@
       "menu_play_lane_training": "Les voies",
       "menu_play_lane_training_desc": "D\u00e9couvrez comment se d\u00e9roule un d\u00e9but de partie en choisissant un personnage facile \u00e0 prendre en main.",
       "menu_play_lane_training_time_est": "8 minutes",
-      "menu_play_low_priority_matchmaking": "Vous \u00eates dans le groupe de matchmaking basse priorit\u00e9. Votre groupe et vous ne pourrez jouer qu'avec d'autres personnes en basse priorit\u00e9.",
+      "menu_play_low_priority_matchmaking": "Votre groupe se trouve dans la file d'attente de matchmaking basse priorit\u00e9 soit en raison d'abandons de match par une personne du groupe ou de votre part, soit \u00e0 cause de comportements inappropri\u00e9s signal\u00e9 par la communaut\u00e9. <br><br>Pour retrouver le matchmaking normal, vous devrez gagner <span class=\"LowPriGamesText\">{i:low_pri_games_remaining}</span>\u00a0parties en matchmaking basse priorit\u00e9 ou bien exclure la personne p\u00e9nalis\u00e9e du groupe.",
       "menu_play_matchmaking": "Faites une partie standard contre d'autres personnes.",
       "menu_play_normal": "Deadlock",
       "menu_play_normal_count": "{s:mm_unranked_count} dans la file d'attente",
