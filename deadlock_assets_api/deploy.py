@@ -1,7 +1,7 @@
 import json
-import multiprocessing
 import os
 import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import css_parser
 import stringcase
@@ -9,6 +9,7 @@ from css_parser.css import ColorValue, CSSUnknownRule
 from pydantic import TypeAdapter
 
 from deadlock_assets_api.glob import SOUNDS_BASE_URL, SVGS_BASE_URL
+from deadlock_assets_api.main import app
 from deadlock_assets_api.models.languages import Language
 from deadlock_assets_api.models.v1.colors import ColorV1
 from deadlock_assets_api.models.v1.generic_data import GenericDataV1
@@ -25,7 +26,6 @@ from deadlock_assets_api.models.v2.raw_ability import RawAbilityV2
 from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
 from deadlock_assets_api.models.v2.raw_upgrade import RawUpgradeV2
 from deadlock_assets_api.models.v2.raw_weapon import RawWeaponV2
-from deadlock_assets_api.main import app
 
 
 def load_localizations(version_id: int) -> dict[Language, dict[str, str]]:
@@ -251,11 +251,12 @@ if __name__ == "__main__":
             json.dump(items, f)
         print(f"Finished {language} assets")
 
-    with multiprocessing.Pool() as executor:
-        executor.starmap(
-            build_language_data,
-            [(lang, loc) for lang, loc in localizations.items()],
-        )
+    with ThreadPoolExecutor() as executor:
+        futures = [
+            executor.submit(build_language_data, lang, loc) for lang, loc in localizations.items()
+        ]
+        for future in as_completed(futures):
+            future.result()
 
     openapi_scheme = app.openapi()
     with open(f"{out_folder}/openapi.json", "w") as f:
