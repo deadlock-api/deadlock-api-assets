@@ -109,6 +109,7 @@ cp -r "$citadel_folder"/resource/localization/citadel_gc_mod_names/* localizatio
 mkdir -p svgs
 find depots/game/ -type f -name '*.svg' -print0 | xargs -0 -n 1 cp -t svgs/
 find depots/game/ -type f -name 'keystat_*.png' -print0 | xargs -0 -n 1 cp -t svgs/
+find depots/game/citadel/panorama/images/hud/text_images -type f -name '*.png' -print0 | xargs -0 -n 1 cp -t svgs/
 find svgs -type f -name "*_png.*" -exec bash -c 'mv "$1" "${1/_png./.}"' _ {} \;
 
 # Add SVGs with currentColor fill
