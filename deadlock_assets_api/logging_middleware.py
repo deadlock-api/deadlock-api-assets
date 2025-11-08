@@ -41,6 +41,7 @@ class RouterLoggingMiddleware(BaseHTTPMiddleware):
         if res:
             res_logging = {
                 "status_code": res.status_code,
+                "method": req.method,
                 "time_taken": f"{execution_time:0.4f}s",
             }
         else:
