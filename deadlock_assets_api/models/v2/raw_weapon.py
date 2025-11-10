@@ -100,6 +100,13 @@ class RawWeaponInfoV2(BaseModel):
     zoom_fov: float | None = Field(None, validation_alias="m_flZoomFov")
     zoom_move_speed_percent: float | None = Field(None, validation_alias="m_flZoomMoveSpeedPercent")
     bullets: int | None = Field(None, validation_alias="m_iBullets")
+    reload_single_bullets_initial_delay: float | None = Field(
+        None, validation_alias="m_flReloadSingleBulletsInitialDelay"
+    )
+    reload_single_bullets: bool | None = Field(None, validation_alias="m_bReloadSingleBullets")
+    reload_single_bullets_allow_cancel: bool | None = Field(
+        None, validation_alias="m_bReloadSingleBulletsAllowCancel"
+    )
     burst_shot_count: int | None = Field(None, validation_alias="m_iBurstShotCount")
     clip_size: int | None = Field(None, validation_alias="m_iClipSize")
     spread: float | None = Field(None, validation_alias="m_flSpread")

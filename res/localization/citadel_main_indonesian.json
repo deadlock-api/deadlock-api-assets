@@ -3197,6 +3197,7 @@
       "misc_modifier_HUD_label": "+{s:modifier_value}{s:modifier_postfix} {s:modifier_name}",
       "modifier_citadel_accuracy_tracker": "Akurasi",
       "modifier_citadel_capture_point_meteor/contributor": "Titik Penangkapan",
+      "modifier_citadel_delayed_catapult_launch": "Terkena Damage - Isi daya Bantalan Lompat",
       "modifier_citadel_dps_tracker": "DPS",
       "modifier_citadel_holding_golden_idol": "Bawa Guci ke Altar",
       "modifier_citadel_holding_golden_idol_revealed": "Terlihat oleh musuh! Bawa Guci ke Altar!",

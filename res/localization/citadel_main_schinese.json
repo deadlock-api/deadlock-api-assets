@@ -3197,6 +3197,7 @@
       "misc_modifier_HUD_label": "+{s:modifier_value}{s:modifier_postfix} {s:modifier_name}",
       "modifier_citadel_accuracy_tracker": "\u7cbe\u51c6\u5ea6",
       "modifier_citadel_capture_point_meteor/contributor": "\u6355\u83b7\u70b9",
+      "modifier_citadel_delayed_catapult_launch": "\u53d7\u5230\u4f24\u5bb3 - \u8df3\u677f\u6b63\u5728\u5145\u80fd",
       "modifier_citadel_dps_tracker": "\u6bcf\u79d2\u4f24\u5bb3",
       "modifier_citadel_holding_golden_idol": "\u5c06\u7075\u74ee\u5e26\u81f3\u5723\u575b",
       "modifier_citadel_holding_golden_idol_revealed": "\u654c\u65b9\u53ef\u89c1\uff01\u5c06\u7075\u74ee\u5e26\u81f3\u5723\u575b",

@@ -3197,6 +3197,7 @@
       "misc_modifier_HUD_label": "+{s:modifier_value}{s:modifier_postfix} {s:modifier_name}",
       "modifier_citadel_accuracy_tracker": "P\u0159esnost",
       "modifier_citadel_capture_point_meteor/contributor": "Zab\u00edr\u00e1n\u00ed bodu",
+      "modifier_citadel_delayed_catapult_launch": "Po\u0161kozen\u00ed \u2013 odrazov\u00e1 plo\u0161ina se nab\u00edj\u00ed",
       "modifier_citadel_dps_tracker": "Po\u0161kozen\u00ed/s",
       "modifier_citadel_holding_golden_idol": "Odnes urnu k olt\u00e1\u0159i",
       "modifier_citadel_holding_golden_idol_revealed": "Jsi viditeln\u00fd pro nep\u0159\u00e1tele! Odnes urnu k olt\u00e1\u0159i",

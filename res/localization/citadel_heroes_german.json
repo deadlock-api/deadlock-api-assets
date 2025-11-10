@@ -1626,7 +1626,7 @@
       "ability_frank_shocktarget": "Schmerzbatterie",
       "ability_frank_shocktarget2": "Schmerzbatterie",
       "ability_frank_shocktarget2_desc": "Wenn {s:hero_name} <span class=\"highlight\">beliebigen Schaden erleidet</span>, wird seine Schmerzbatterie passiv aufgeladen.<br><br>Sobald diese vollst\u00e4ndig aufgeladen ist, werden beim F\u00e4higkeitseinsatz mehrere schockende Blitze abgefeuert, die einmal pro Ziel {g:citadel_inline_attribute:'SpiritDamage'} zuf\u00fcgen.",
-      "ability_frank_shocktarget2_t2_desc": "Bei Treffer: Gegner werden f\u00fcr <span class=\"highlight\">{s:SlowDuration}\u00a0s</span> um <span class=\"highlight\">{s:SlowPercent}\u00a0%</span> verlangsamt",
+      "ability_frank_shocktarget2_t1_desc": "Bei Treffer: Gegner werden f\u00fcr <span class=\"highlight\">{s:SlowDuration}\u00a0s</span> um <span class=\"highlight\">{s:SlowPercent}\u00a0%</span> verlangsamt",
       "ability_frank_shocktarget2_t3_desc": "Bei Heldentreffer: {s:hero_name} heilt sich um <span class=\"highlight\">{s:MissingHealthPercentHeal}\u00a0%</span> der fehlenden Lebenspunkte",
       "ability_frank_shocktarget_desc": "{s:hero_name} schockt ein Ziel in seinem Blickfeld, wodurch dieses {g:citadel_inline_attribute:'SpiritDamage'} erleidet und kurzzeitig {g:citadel_inline_attribute:'Slow'} wird.<br><br><span class=\"highlight\">Eingehender Schaden</span> wird gespeichert (bis zu einer max. Menge) und zus\u00e4tzlich als {g:citadel_inline_attribute:'BonusSpiritDamage'} beim n\u00e4chsten F\u00e4higkeitseinsatz zugef\u00fcgt.",
       "ability_frank_shocktarget_desc_t3bonus": "Das Ziel schockt ein weiteres Ziel in der N\u00e4he und f\u00fcgt dabei {g:citadel_inline_attribute:'SpiritDPS'} zu",

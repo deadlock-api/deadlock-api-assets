@@ -1626,7 +1626,7 @@
       "ability_frank_shocktarget": "Baterai Kesakitan",
       "ability_frank_shocktarget2": "Baterai Kesakitan",
       "ability_frank_shocktarget2_desc": "<span class=\"highlight\">Menerima damage apa pun</span> secara pasif mengisi Baterai Kesakitanmu. <br><br>Setelah penuh, mengaktifkan skill yang menembakkan blitz setruman beberapa kali, memberikan {g:citadel_inline_attribute:'SpiritDamage'} sekali untuk setiap target.",
-      "ability_frank_shocktarget2_t2_desc": "Saat Terkena: Menerapkan <span class=\"highlight\">{s:SlowPercent}%</span> Perlambatan selama <span class=\"highlight\">{s:SlowDuration} dtk.</span>",
+      "ability_frank_shocktarget2_t1_desc": "Saat Terkena: Menerapkan <span class=\"highlight\">{s:SlowPercent}%</span> Perlambatan selama <span class=\"highlight\">{s:SlowDuration} dtk.</span>",
       "ability_frank_shocktarget2_t3_desc": "Saat Mengenai Hero: Menyembuhkan sebesar <span class=\"highlight\">{s:MissingHealthPercentHeal}%</span> dari penurunan health-mu",
       "ability_frank_shocktarget_desc": "Setrum target di depanmu, memberikan {g:citadel_inline_attribute:'SpiritDamage'} dan menerapkan {g:citadel_inline_attribute:'Slow'} singkat. <br><br><span class=\"highlight\">Damage yang diterima</span> disimpan sebagai {g:citadel_inline_attribute:'BonusSpiritDamage'} tambahan di penggunaan selanjutnya, hingga jumlah maksimum tertentu.",
       "ability_frank_shocktarget_desc_t3bonus": "Target kemudian menyetrum target terdekat, memberikan {g:citadel_inline_attribute:'SpiritDPS'}.",

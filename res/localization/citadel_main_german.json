@@ -3197,6 +3197,7 @@
       "misc_modifier_HUD_label": "+{s:modifier_value}{s:modifier_postfix} {s:modifier_name}",
       "modifier_citadel_accuracy_tracker": "Genauigkeit",
       "modifier_citadel_capture_point_meteor/contributor": "Eroberungspunkt",
+      "modifier_citadel_delayed_catapult_launch": "Schaden erlitten \u2013 Sprungpad wird aufgeladen",
       "modifier_citadel_dps_tracker": "Schaden pro Sek.",
       "modifier_citadel_holding_golden_idol": "Urne zum Altar bringen",
       "modifier_citadel_holding_golden_idol_revealed": "F\u00fcr Gegner sichtbar! Urne abliefern",

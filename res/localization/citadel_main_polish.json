@@ -3197,6 +3197,7 @@
       "misc_modifier_HUD_label": "+{s:modifier_value}{s:modifier_postfix} {s:modifier_name}",
       "modifier_citadel_accuracy_tracker": "Celno\u015b\u0107",
       "modifier_citadel_capture_point_meteor/contributor": "Przejmowanie punktu",
+      "modifier_citadel_delayed_catapult_launch": "Otrzymano obra\u017cenia \u2013 platforma \u0142aduje si\u0119",
       "modifier_citadel_dps_tracker": "OBR./S",
       "modifier_citadel_holding_golden_idol": "Zanie\u015b urn\u0119 do o\u0142tarza.",
       "modifier_citadel_holding_golden_idol_revealed": "Wrogowie widz\u0105 ci\u0119! Zanie\u015b urn\u0119 do o\u0142tarza.",

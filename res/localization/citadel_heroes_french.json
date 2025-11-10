@@ -1626,7 +1626,7 @@
       "ability_frank_shocktarget": "Batterie d'affliction",
       "ability_frank_shocktarget2": "Batterie d'affliction",
       "ability_frank_shocktarget2_desc": "<span class=\"highlight\">Subir des d\u00e9g\u00e2ts</span> recharge de mani\u00e8re passive la Batterie d'affliction de {s:hero_name}. <br><br>Une fois recharg\u00e9e, activer la capacit\u00e9 d\u00e9clenche une salve de carreaux \u00e9lectriques qui infligent des {g:citadel_inline_attribute:'SpiritDamage'} une fois par cible.",
-      "ability_frank_shocktarget2_t2_desc": "\u00c0 l'impact\u00a0: <span class=\"highlight\">{s:SlowPercent}\u00a0%</span> de ralentissement pendant <span class=\"highlight\">{s:SlowDuration}\u00a0s</span>",
+      "ability_frank_shocktarget2_t1_desc": "\u00c0 l'impact\u00a0: <span class=\"highlight\">{s:SlowPercent}\u00a0%</span> de ralentissement pendant <span class=\"highlight\">{s:SlowDuration}\u00a0s</span>",
       "ability_frank_shocktarget2_t3_desc": "\u00c0 l'impact (unit\u00e9 occultiste)\u00a0: soigne <span class=\"highlight\">{s:MissingHealthPercentHeal}\u00a0%</span> de vos PV manquants",
       "ability_frank_shocktarget_desc": "{s:hero_name} \u00e9lectrocute une cible en face de lui. Elle subit des {g:citadel_inline_attribute:'SpiritDamage'} et un bref {g:citadel_inline_attribute:'Slow'}. <br><br><span class=\"highlight\">Les d\u00e9g\u00e2ts subis</span> sont absorb\u00e9s et servent de bonus de {g:citadel_inline_attribute:'BonusSpiritDamage'} pour votre prochaine incantation (jusqu'\u00e0 une certaine limite).",
       "ability_frank_shocktarget_desc_t3bonus": "L'unit\u00e9 cibl\u00e9e \u00e9lectrocute alors une deuxi\u00e8me cible proche d'elle, infligeant {g:citadel_inline_attribute:'SpiritDPS'}.",

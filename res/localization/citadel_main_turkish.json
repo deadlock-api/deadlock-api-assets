@@ -3197,6 +3197,7 @@
       "misc_modifier_HUD_label": "+{s:modifier_value}{s:modifier_postfix} {s:modifier_name}",
       "modifier_citadel_accuracy_tracker": "\u0130sabet",
       "modifier_citadel_capture_point_meteor/contributor": "Ele Ge\u00e7irme Noktas\u0131",
+      "modifier_citadel_delayed_catapult_launch": "Hasarl\u0131 - Z\u0131plama Platformu \u015earj Oluyor",
       "modifier_citadel_dps_tracker": "SBH",
       "modifier_citadel_holding_golden_idol": "Vazoyu bir suna\u011fa g\u00f6t\u00fcr\u00fcn",
       "modifier_citadel_holding_golden_idol_revealed": "D\u00fc\u015fmanlar sizi g\u00f6r\u00fcyor! Vazoyu bir suna\u011fa g\u00f6t\u00fcr\u00fcn.",

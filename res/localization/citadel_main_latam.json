@@ -3197,6 +3197,7 @@
       "misc_modifier_HUD_label": "+{s:modifier_value}{s:modifier_postfix} {s:modifier_name}",
       "modifier_citadel_accuracy_tracker": "Precisi\u00f3n",
       "modifier_citadel_capture_point_meteor/contributor": "Capturando el punto",
+      "modifier_citadel_delayed_catapult_launch": "Da\u00f1ado - Cargando plataforma de rebote",
       "modifier_citadel_dps_tracker": "DPS",
       "modifier_citadel_holding_golden_idol": "Lleva la urna a un altar",
       "modifier_citadel_holding_golden_idol_revealed": "\u00a1Visible a los enemigos! Lleva la urna a un altar",

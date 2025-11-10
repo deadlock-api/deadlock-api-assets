@@ -1626,7 +1626,7 @@
       "ability_frank_shocktarget": "Bater\u00eda de dolor",
       "ability_frank_shocktarget2": "Bater\u00eda de dolor",
       "ability_frank_shocktarget2_desc": "<span class=\"highlight\">Recibir da\u00f1o</span> carga pasivamente tu Bater\u00eda de dolor. <br><br>Una vez llena, activar la habilidad dispara varios rayos el\u00e9ctricos que infligen {g:citadel_inline_attribute:'SpiritDamage'} una vez por objetivo.",
-      "ability_frank_shocktarget2_t2_desc": "Al impactar, aplica <span class=\"highlight\">{s:SlowPercent}\u00a0%</span> de ralentizaci\u00f3n por <span class=\"highlight\">{s:SlowDuration}\u00a0s</span>",
+      "ability_frank_shocktarget2_t1_desc": "Al impactar, aplica <span class=\"highlight\">{s:SlowPercent}\u00a0%</span> de ralentizaci\u00f3n por <span class=\"highlight\">{s:SlowDuration}\u00a0s</span>",
       "ability_frank_shocktarget2_t3_desc": "Al alcanzar a un h\u00e9roe, te cura un <span class=\"highlight\">{s:MissingHealthPercentHeal}\u00a0%</span> de tu vida faltante",
       "ability_frank_shocktarget_desc": "Electrocuta al objetivo frente a ti, infligi\u00e9ndole {g:citadel_inline_attribute:'SpiritDamage'} y aplic\u00e1ndole una breve {g:citadel_inline_attribute:'Slow'}.<br><br>El <span class=\"highlight\">da\u00f1o recibido</span> se almacena como {g:citadel_inline_attribute:'BonusSpiritDamage'} en tu pr\u00f3ximo lanzamiento, hasta alcanzar una cantidad m\u00e1xima.",
       "ability_frank_shocktarget_desc_t3bonus": "Luego, el objetivo electrocuta a un objetivo cercano, infligi\u00e9ndole {g:citadel_inline_attribute:'SpiritDPS'}.",

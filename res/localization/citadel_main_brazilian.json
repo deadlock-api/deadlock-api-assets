@@ -3165,6 +3165,7 @@
       "misc_modifier_HUD_label": "+{s:modifier_value}{s:modifier_postfix} {s:modifier_name}",
       "modifier_citadel_accuracy_tracker": "Precis\u00e3o",
       "modifier_citadel_capture_point_meteor/contributor": "Capturando o ponto",
+      "modifier_citadel_delayed_catapult_launch": "Sofreu dano recente \u2014 Carregando saltadores",
       "modifier_citadel_dps_tracker": "Dano por segundo",
       "modifier_citadel_holding_golden_idol": "Leve a urna para um altar",
       "modifier_citadel_holding_golden_idol_revealed": "Vis\u00edvel para os inimigos! Leve a urna para um altar",
