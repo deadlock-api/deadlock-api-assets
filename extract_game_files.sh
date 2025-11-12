@@ -36,7 +36,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 fi
 
 # Download Deadlock Game files
-./DepotDownloader -app 1422450 -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -all-platforms -all-languages -validate -remember-password || exit 1
+# ./DepotDownloader -app 1422450 -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -all-platforms -all-languages -validate -remember-password || exit 1
 
 mkdir -p depots/game
 rsync -av depots/*/*/game/* depots/game/
@@ -110,6 +110,7 @@ mkdir -p svgs
 find depots/game/ -type f -name '*.svg' -print0 | xargs -0 -n 1 cp -t svgs/
 find depots/game/ -type f -name 'keystat_*.png' -print0 | xargs -0 -n 1 cp -t svgs/
 find depots/game/citadel/panorama/images/hud/text_images -type f -name '*.png' -print0 | xargs -0 -n 1 cp -t svgs/
+find depots/game/citadel/panorama/images/minimap/ -type f -name '*.png' -print0 | xargs -0 -n 1 cp -t svgs/
 find svgs -type f -name "*_png.*" -exec bash -c 'mv "$1" "${1/_png./.}"' _ {} \;
 
 # Add SVGs with currentColor fill
