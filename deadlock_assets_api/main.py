@@ -41,6 +41,10 @@ app = FastAPI(
     title="Assets - Deadlock API",
     servers=[{"url": "https://assets.deadlock-api.com"}],
     description="""
+## API Clients
+
+We have auto generated and updated clients for many languages. You can find them here: [https://github.com/deadlock-api/openapi-clients](https://github.com/deadlock-api/openapi-clients)
+
 ## Support the Deadlock API
 
 Whether you're building your own database, developing data science projects, or enhancing your website with game and player analytics, the Deadlock API has the data you need.
