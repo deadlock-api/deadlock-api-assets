@@ -48,6 +48,7 @@ citadel_folder="depots/game/citadel"
 ./Source2Viewer-CLI -i "$citadel_folder"/pak01_dir.vpk -d --threads 8 -o "$citadel_folder" -f scripts
 ./Source2Viewer-CLI -i "$citadel_folder"/pak01_dir.vpk -d --threads 8 -o "$citadel_folder" -f resource
 ./Source2Viewer-CLI -i "$citadel_folder"/pak01_dir.vpk -d --threads 8 -o "$citadel_folder" -f panorama
+./Source2Viewer-CLI -i "$citadel_folder"/pak01_dir.vpk -d --threads 8 -o "$citadel_folder" -f materials/minimap
 ./Source2Viewer-CLI -i "$citadel_folder"/pak01_dir.vpk -d --threads 8 -o "$citadel_folder" -f sounds
 
 # Extract chunked VPK files
@@ -111,6 +112,7 @@ find depots/game/ -type f -name '*.svg' -print0 | xargs -0 -n 1 cp -t svgs/
 find depots/game/ -type f -name 'keystat_*.png' -print0 | xargs -0 -n 1 cp -t svgs/
 find depots/game/citadel/panorama/images/hud/text_images -type f -name '*.png' -print0 | xargs -0 -n 1 cp -t svgs/
 find depots/game/citadel/panorama/images/minimap/ -type f -name '*.png' -print0 | xargs -0 -n 1 cp -t svgs/
+find depots/game/citadel/materials/minimap/ -type f -name '*.png' -print0 | xargs -0 -n 1 cp -t svgs/
 find svgs -type f -name "*_png.*" -exec bash -c 'mv "$1" "${1/_png./.}"' _ {} \;
 
 # Add SVGs with currentColor fill
