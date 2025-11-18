@@ -8,6 +8,54 @@ LOGGER = logging.getLogger(__name__)
 Color = tuple[int, int, int] | tuple[int, int, int, int]
 
 
+class ModifierValue(BaseModel):
+    """
+    Handles items within m_vecModifierValues and m_vecScriptValues.
+    Captures both fixed values (m_value) and ranged values (m_valueMin/Max).
+    """
+
+    model_config = ConfigDict(populate_by_name=True)
+
+    value_type: str | None = Field(None, validation_alias="m_eModifierValue")
+    value: float | None = Field(None, validation_alias="m_value")
+    value_min: float | None = Field(None, validation_alias="m_valueMin")
+    value_max: float | None = Field(None, validation_alias="m_valueMax")
+
+
+class ModifierDefinition(BaseModel):
+    """
+    Schema for the m_sModifer block (note the typo in the source key 'Modifer').
+    """
+
+    model_config = ConfigDict(populate_by_name=True)
+
+    class_name: str | None = Field(None, validation_alias="_class")
+    subclass_name: str | None = Field(None, validation_alias="_my_subclass_name")
+
+    # Timing & Scaling
+    duration: float | None = Field(None, validation_alias="m_flDuration")
+    time_min: float | None = Field(None, validation_alias="m_flTimeMin")
+    time_max: float | None = Field(None, validation_alias="m_flTimeMax")
+
+    # Logic & Configuration
+    debuff_type: str | None = Field(None, validation_alias="m_eDebuffType")
+    always_show_in_ui: list[str] | None = Field(
+        None, validation_alias="m_vecAlwaysShowInStatModifierUI"
+    )
+
+    # Nested Values
+    modifier_values: list[ModifierValue] | None = Field(
+        None, validation_alias="m_vecModifierValues"
+    )
+    script_values: list[ModifierValue] | None = Field(None, validation_alias="m_vecScriptValues")
+
+
+class SubclassModifierDefinition(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    subclass: ModifierDefinition = Field(None, validation_alias="subclass")
+
+
 class PickupDefinition(BaseModel):
     """Schema for items inside m_vecPrimaryPickups"""
 
@@ -70,6 +118,7 @@ class MiscV2(BaseModel):
     gold_per_minute_amount: float | None = Field(None, validation_alias="m_flGoldPerMinuteAmount")
 
     # Pickup/Powerup Specifics
+    modifier: SubclassModifierDefinition | None = Field(None, validation_alias="m_sModifer")
     pickup_radius: float | None = Field(None, validation_alias="m_flPickupRadius")
     expiration_duration: float | None = Field(None, validation_alias="m_flPickupExpirationDuration")
     show_on_minimap: bool | None = Field(None, validation_alias="m_bShowOnMinimap")

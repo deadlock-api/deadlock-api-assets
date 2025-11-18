@@ -22,6 +22,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -75,6 +76,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -111,6 +113,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -142,7 +145,7 @@
     "initial_spawn_time": 120.0,
     "is_mantleable": null,
     "lifetime": null,
-    "loot_list_deck_size": 2,
+    "loot_list_deck_size": null,
     "m_vecPickups_lv2": [
       {
         "pickup_name": "spirit_permanent_pickup_lv2",
@@ -197,6 +200,7 @@
     ],
     "match_time_mins_for_level2_pickups": 10,
     "match_time_mins_for_level3_pickups": 30,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -258,6 +262,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -294,7 +299,7 @@
     "initial_spawn_time": 120.0,
     "is_mantleable": null,
     "lifetime": null,
-    "loot_list_deck_size": 2,
+    "loot_list_deck_size": null,
     "m_vecPickups_lv2": [
       {
         "pickup_name": "spirit_permanent_pickup_lv2",
@@ -349,6 +354,7 @@
     ],
     "match_time_mins_for_level2_pickups": 10,
     "match_time_mins_for_level3_pickups": 30,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -410,6 +416,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -451,6 +458,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -492,6 +500,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -533,6 +542,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -574,6 +584,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -615,6 +626,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -656,6 +668,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -697,6 +710,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -738,6 +752,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -779,6 +794,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -820,6 +836,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -861,6 +878,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -902,6 +920,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -943,6 +962,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -984,6 +1004,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -1025,6 +1046,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -1066,6 +1088,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -1107,6 +1130,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -1148,6 +1172,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -1189,6 +1214,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -1230,6 +1256,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -1271,6 +1298,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -1312,6 +1340,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -1353,6 +1382,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -1398,6 +1428,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -1438,6 +1469,35 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": [
+          "MODIFIER_VALUE_FIRE_RATE",
+          "MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT"
+        ],
+        "class_name": "modifier_citadel_powerup_gun",
+        "debuff_type": "MODIFIER_DEBUFF_NO",
+        "duration": 160.0,
+        "modifier_values": [
+          {
+            "value": null,
+            "value_max": 35.0,
+            "value_min": 12.0,
+            "value_type": "MODIFIER_VALUE_FIRE_RATE"
+          },
+          {
+            "value": null,
+            "value_max": 60.0,
+            "value_min": 20.0,
+            "value_type": "MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT"
+          }
+        ],
+        "script_values": null,
+        "subclass_name": "gun_powerup_pickup",
+        "time_max": 40.0,
+        "time_min": 5.0
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -1478,6 +1538,35 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": [
+          "MODIFIER_VALUE_HEALTH_MAX",
+          "MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND"
+        ],
+        "class_name": "modifier_citadel_powerup_survival",
+        "debuff_type": "MODIFIER_DEBUFF_NO",
+        "duration": 160.0,
+        "modifier_values": [
+          {
+            "value": null,
+            "value_max": 700.0,
+            "value_min": 200.0,
+            "value_type": "MODIFIER_VALUE_HEALTH_MAX"
+          },
+          {
+            "value": null,
+            "value_max": 1.5,
+            "value_min": 0.5,
+            "value_type": "MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND"
+          }
+        ],
+        "script_values": null,
+        "subclass_name": "survival_powerup_pickup",
+        "time_max": 40.0,
+        "time_min": 5.0
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -1518,6 +1607,35 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": [
+          "MODIFIER_VALUE_TECH_POWER",
+          "MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE"
+        ],
+        "class_name": "modifier_citadel_powerup_casting",
+        "debuff_type": "MODIFIER_DEBUFF_NO",
+        "duration": 160.0,
+        "modifier_values": [
+          {
+            "value": null,
+            "value_max": 40.0,
+            "value_min": 15.0,
+            "value_type": "MODIFIER_VALUE_TECH_POWER"
+          },
+          {
+            "value": null,
+            "value_max": 25.5,
+            "value_min": 12.0,
+            "value_type": "MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE"
+          }
+        ],
+        "script_values": null,
+        "subclass_name": "casting_powerup_pickup",
+        "time_max": 40.0,
+        "time_min": 5.0
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -1558,6 +1676,48 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": [
+          "MODIFIER_VALUE_SPRINT_SPEED_BONUS",
+          "MODIFIER_VALUE_SPRINT_SPEED_BONUS",
+          "MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE"
+        ],
+        "class_name": "modifier_citadel_powerup_movement",
+        "debuff_type": "MODIFIER_DEBUFF_NO",
+        "duration": 160.0,
+        "modifier_values": [
+          {
+            "value": null,
+            "value_max": 4.0,
+            "value_min": 1.0,
+            "value_type": "MODIFIER_VALUE_STAMINA"
+          },
+          {
+            "value": null,
+            "value_max": 157.48,
+            "value_min": 59.0551,
+            "value_type": "MODIFIER_VALUE_SPRINT_SPEED_BONUS"
+          },
+          {
+            "value": null,
+            "value_max": 80.0,
+            "value_min": 40.0,
+            "value_type": "MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE"
+          },
+          {
+            "value": null,
+            "value_max": 50.0,
+            "value_min": 20.0,
+            "value_type": "MODIFIER_VALUE_STAMINA_REGEN_PER_SECOND_PERCENTAGE"
+          }
+        ],
+        "script_values": null,
+        "subclass_name": "movement_powerup_pickup",
+        "time_max": 40.0,
+        "time_min": 5.0
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -1598,6 +1758,19 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": null,
+        "class_name": "citadel_hero_refresh",
+        "debuff_type": null,
+        "duration": null,
+        "modifier_values": null,
+        "script_values": null,
+        "subclass_name": "citadel_hero_refresh",
+        "time_max": null,
+        "time_min": null
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -1638,6 +1811,19 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": null,
+        "class_name": "citadel_change_team",
+        "debuff_type": null,
+        "duration": null,
+        "modifier_values": null,
+        "script_values": null,
+        "subclass_name": "citadel_change_team",
+        "time_max": null,
+        "time_min": null
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -1678,6 +1864,26 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": null,
+        "class_name": "modifier_permanent_pickup",
+        "debuff_type": null,
+        "duration": null,
+        "modifier_values": null,
+        "script_values": [
+          {
+            "value": 2.0,
+            "value_max": null,
+            "value_min": null,
+            "value_type": "MODIFIER_VALUE_TECH_POWER"
+          }
+        ],
+        "subclass_name": "modifier_permanent_pickup",
+        "time_max": null,
+        "time_min": null
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -1718,6 +1924,26 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": null,
+        "class_name": "modifier_permanent_pickup",
+        "debuff_type": null,
+        "duration": null,
+        "modifier_values": null,
+        "script_values": [
+          {
+            "value": 3.0,
+            "value_max": null,
+            "value_min": null,
+            "value_type": "MODIFIER_VALUE_TECH_POWER"
+          }
+        ],
+        "subclass_name": "modifier_permanent_pickup",
+        "time_max": null,
+        "time_min": null
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -1758,6 +1984,26 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": null,
+        "class_name": "modifier_permanent_pickup",
+        "debuff_type": null,
+        "duration": null,
+        "modifier_values": null,
+        "script_values": [
+          {
+            "value": 4.0,
+            "value_max": null,
+            "value_min": null,
+            "value_type": "MODIFIER_VALUE_TECH_POWER"
+          }
+        ],
+        "subclass_name": "modifier_permanent_pickup",
+        "time_max": null,
+        "time_min": null
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -1798,6 +2044,26 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": null,
+        "class_name": "modifier_permanent_pickup",
+        "debuff_type": null,
+        "duration": null,
+        "modifier_values": null,
+        "script_values": [
+          {
+            "value": 1.5,
+            "value_max": null,
+            "value_min": null,
+            "value_type": "MODIFIER_VALUE_FIRE_RATE"
+          }
+        ],
+        "subclass_name": "modifier_permanent_pickup",
+        "time_max": null,
+        "time_min": null
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -1838,6 +2104,26 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": null,
+        "class_name": "modifier_permanent_pickup",
+        "debuff_type": null,
+        "duration": null,
+        "modifier_values": null,
+        "script_values": [
+          {
+            "value": 2.0,
+            "value_max": null,
+            "value_min": null,
+            "value_type": "MODIFIER_VALUE_FIRE_RATE"
+          }
+        ],
+        "subclass_name": "modifier_permanent_pickup",
+        "time_max": null,
+        "time_min": null
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -1878,6 +2164,26 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": null,
+        "class_name": "modifier_permanent_pickup",
+        "debuff_type": null,
+        "duration": null,
+        "modifier_values": null,
+        "script_values": [
+          {
+            "value": 2.5,
+            "value_max": null,
+            "value_min": null,
+            "value_type": "MODIFIER_VALUE_FIRE_RATE"
+          }
+        ],
+        "subclass_name": "modifier_permanent_pickup",
+        "time_max": null,
+        "time_min": null
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -1918,6 +2224,26 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": null,
+        "class_name": "modifier_permanent_pickup",
+        "debuff_type": null,
+        "duration": null,
+        "modifier_values": null,
+        "script_values": [
+          {
+            "value": 3.0,
+            "value_max": null,
+            "value_min": null,
+            "value_type": "MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT"
+          }
+        ],
+        "subclass_name": "modifier_permanent_pickup",
+        "time_max": null,
+        "time_min": null
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -1958,6 +2284,26 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": null,
+        "class_name": "modifier_permanent_pickup",
+        "debuff_type": null,
+        "duration": null,
+        "modifier_values": null,
+        "script_values": [
+          {
+            "value": 5.0,
+            "value_max": null,
+            "value_min": null,
+            "value_type": "MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT"
+          }
+        ],
+        "subclass_name": "modifier_permanent_pickup",
+        "time_max": null,
+        "time_min": null
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -1998,6 +2344,26 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": null,
+        "class_name": "modifier_permanent_pickup",
+        "debuff_type": null,
+        "duration": null,
+        "modifier_values": null,
+        "script_values": [
+          {
+            "value": 7.0,
+            "value_max": null,
+            "value_min": null,
+            "value_type": "MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT"
+          }
+        ],
+        "subclass_name": "modifier_permanent_pickup",
+        "time_max": null,
+        "time_min": null
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -2038,6 +2404,26 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": null,
+        "class_name": "modifier_permanent_pickup",
+        "debuff_type": null,
+        "duration": null,
+        "modifier_values": null,
+        "script_values": [
+          {
+            "value": 15.0,
+            "value_max": null,
+            "value_min": null,
+            "value_type": "MODIFIER_VALUE_HEALTH_MAX"
+          }
+        ],
+        "subclass_name": "modifier_permanent_pickup",
+        "time_max": null,
+        "time_min": null
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -2078,6 +2464,26 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": null,
+        "class_name": "modifier_permanent_pickup",
+        "debuff_type": null,
+        "duration": null,
+        "modifier_values": null,
+        "script_values": [
+          {
+            "value": 25.0,
+            "value_max": null,
+            "value_min": null,
+            "value_type": "MODIFIER_VALUE_HEALTH_MAX"
+          }
+        ],
+        "subclass_name": "modifier_permanent_pickup",
+        "time_max": null,
+        "time_min": null
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -2118,6 +2524,26 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": null,
+        "class_name": "modifier_permanent_pickup",
+        "debuff_type": null,
+        "duration": null,
+        "modifier_values": null,
+        "script_values": [
+          {
+            "value": 35.0,
+            "value_max": null,
+            "value_min": null,
+            "value_type": "MODIFIER_VALUE_HEALTH_MAX"
+          }
+        ],
+        "subclass_name": "modifier_permanent_pickup",
+        "time_max": null,
+        "time_min": null
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -2158,6 +2584,26 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": null,
+        "class_name": "modifier_permanent_pickup",
+        "debuff_type": null,
+        "duration": null,
+        "modifier_values": null,
+        "script_values": [
+          {
+            "value": 0.75,
+            "value_max": null,
+            "value_min": null,
+            "value_type": "MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE"
+          }
+        ],
+        "subclass_name": "modifier_permanent_pickup",
+        "time_max": null,
+        "time_min": null
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -2198,6 +2644,26 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": null,
+        "class_name": "modifier_permanent_pickup",
+        "debuff_type": null,
+        "duration": null,
+        "modifier_values": null,
+        "script_values": [
+          {
+            "value": 1.0,
+            "value_max": null,
+            "value_min": null,
+            "value_type": "MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE"
+          }
+        ],
+        "subclass_name": "modifier_permanent_pickup",
+        "time_max": null,
+        "time_min": null
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -2238,6 +2704,26 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": null,
+        "class_name": "modifier_permanent_pickup",
+        "debuff_type": null,
+        "duration": null,
+        "modifier_values": null,
+        "script_values": [
+          {
+            "value": 1.5,
+            "value_max": null,
+            "value_min": null,
+            "value_type": "MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE"
+          }
+        ],
+        "subclass_name": "modifier_permanent_pickup",
+        "time_max": null,
+        "time_min": null
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -2278,6 +2764,26 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": null,
+        "class_name": "modifier_permanent_pickup",
+        "debuff_type": null,
+        "duration": null,
+        "modifier_values": null,
+        "script_values": [
+          {
+            "value": 3.0,
+            "value_max": null,
+            "value_min": null,
+            "value_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+          }
+        ],
+        "subclass_name": "modifier_permanent_pickup",
+        "time_max": null,
+        "time_min": null
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -2318,6 +2824,26 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": null,
+        "class_name": "modifier_permanent_pickup",
+        "debuff_type": null,
+        "duration": null,
+        "modifier_values": null,
+        "script_values": [
+          {
+            "value": 4.0,
+            "value_max": null,
+            "value_min": null,
+            "value_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+          }
+        ],
+        "subclass_name": "modifier_permanent_pickup",
+        "time_max": null,
+        "time_min": null
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -2358,6 +2884,26 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": null,
+        "class_name": "modifier_permanent_pickup",
+        "debuff_type": null,
+        "duration": null,
+        "modifier_values": null,
+        "script_values": [
+          {
+            "value": 6.0,
+            "value_max": null,
+            "value_min": null,
+            "value_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+          }
+        ],
+        "subclass_name": "modifier_permanent_pickup",
+        "time_max": null,
+        "time_min": null
+      }
+    },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": 85.0,
@@ -2394,6 +2940,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": 0.3,
     "orb_spawn_delay_min": 0.3,
     "pickup_radius": null,
@@ -2430,6 +2977,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": 0.7,
     "orb_spawn_delay_min": 0.4,
     "pickup_radius": null,
@@ -2466,6 +3014,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": 0.3,
     "orb_spawn_delay_min": 0.3,
     "pickup_radius": null,
@@ -2502,6 +3051,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": 0.3,
     "orb_spawn_delay_min": 0.3,
     "pickup_radius": null,
@@ -2538,6 +3088,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": 0.3,
     "orb_spawn_delay_min": 0.3,
     "pickup_radius": null,
@@ -2574,6 +3125,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": 0.3,
     "orb_spawn_delay_min": 0.3,
     "pickup_radius": null,
@@ -2610,6 +3162,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": 0.7,
     "orb_spawn_delay_min": 0.4,
     "pickup_radius": null,
@@ -2646,6 +3199,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": 0.7,
     "orb_spawn_delay_min": 0.4,
     "pickup_radius": null,
@@ -2682,6 +3236,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -2718,6 +3273,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": 0.3,
     "orb_spawn_delay_min": 0.3,
     "pickup_radius": null,
@@ -2754,6 +3310,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -2790,6 +3347,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -2826,6 +3384,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -2862,6 +3421,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -2898,6 +3458,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -2934,6 +3495,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -2970,6 +3532,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -3006,6 +3569,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -3042,6 +3606,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -3078,6 +3643,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
@@ -3114,6 +3680,7 @@
     "m_vecPickups_lv3": null,
     "match_time_mins_for_level2_pickups": null,
     "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": null,
