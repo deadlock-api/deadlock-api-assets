@@ -10,6 +10,7 @@ from deadlock_assets_api.kv3parser import KV3Parser
 from deadlock_assets_api.parsers.generic_data import parse_generic_data
 from deadlock_assets_api.parsers.heroes import parse_heroes_v2
 from deadlock_assets_api.parsers.items import parse_items_v2
+from deadlock_assets_api.parsers.misc import parse_misc_v2
 from deadlock_assets_api.parsers.npc_units import parse_npc_units_v2
 
 
@@ -45,6 +46,12 @@ VDATA_FILES = (
             parse_npc_units_v2,
             "vdata/npc_units.vdata",
             f"res/builds/{VERSION_ID}/v2/npc_units.json",
+            False,
+        ),
+        (
+            parse_misc_v2,
+            "vdata/misc.vdata",
+            f"res/builds/{VERSION_ID}/v2/misc_entities.json",
             False,
         ),
     ]

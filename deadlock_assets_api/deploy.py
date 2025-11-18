@@ -21,6 +21,7 @@ from deadlock_assets_api.models.v2.api_item import ItemV2
 from deadlock_assets_api.models.v2.api_upgrade import UpgradeV2
 from deadlock_assets_api.models.v2.api_weapon import WeaponV2
 from deadlock_assets_api.models.v2.build_tag import BuildTagV2
+from deadlock_assets_api.models.v2.misc import MiscV2
 from deadlock_assets_api.models.v2.npc_unit import NPCUnitV2
 from deadlock_assets_api.models.v2.rank import RankV2
 from deadlock_assets_api.models.v2.raw_ability import RawAbilityV2
@@ -156,6 +157,13 @@ def load_npc_units(version_id: int) -> list[NPCUnitV2]:
     return TypeAdapter(list[NPCUnitV2]).validate_json(content)
 
 
+def load_misc_entities(version_id: int) -> list[MiscV2]:
+    path = f"res/builds/{version_id}/v2/misc_entities.json"
+    with open(path) as f:
+        content = f.read()
+    return TypeAdapter(list[MiscV2]).validate_json(content)
+
+
 def build_ranks(localization: dict[str, str]) -> list[dict]:
     return [RankV2.from_tier(i, localization).model_dump(exclude_none=True) for i in range(12)]
 
@@ -203,6 +211,7 @@ if __name__ == "__main__":
     client_versions = load_client_versions()
     icons_data = load_icons_data()
     npc_units = load_npc_units(version_id)
+    misc_entities = load_misc_entities(version_id)
     raw_heroes = load_raw_heroes(version_id)
     raw_items = load_raw_items(version_id)
 
@@ -239,6 +248,9 @@ if __name__ == "__main__":
 
     with open(f"{out_folder}/versions/{version_id}/npc_units.json", "w") as f:
         json.dump([n.model_dump(exclude_none=True) for n in npc_units], f)
+
+    with open(f"{out_folder}/versions/{version_id}/misc_entities.json", "w") as f:
+        json.dump([n.model_dump(exclude_none=True) for n in misc_entities], f)
 
     def build_language_data(language: Language, localization: dict[str, str]):
         print(f"Building {language} assets")

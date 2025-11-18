@@ -12,6 +12,7 @@ from deadlock_assets_api.models.v2.api_item import ItemV2
 from deadlock_assets_api.models.v2.api_upgrade import UpgradeV2
 from deadlock_assets_api.models.v2.build_tag import BuildTagV2
 from deadlock_assets_api.models.v2.enums import ItemSlotTypeV2, ItemTypeV2
+from deadlock_assets_api.models.v2.misc import MiscV2
 from deadlock_assets_api.models.v2.npc_unit import NPCUnitV2
 from deadlock_assets_api.models.v2.rank import RankV2
 
@@ -164,7 +165,32 @@ def get_npc_unit(
     for npc_unit in npc_units:
         if npc_unit.id == id or npc_unit.class_name == id:
             return npc_unit
-    raise HTTPException(status_code=404, detail="Item not found")
+    raise HTTPException(status_code=404, detail="NPC Unit not found")
+
+
+@router.get("/misc-entities", response_model_exclude_none=True, tags=["Misc Entities"])
+def get_misc_entities(
+    client_version: VALID_CLIENT_VERSIONS | None = None,
+) -> list[MiscV2]:
+    client_version = utils.validate_client_version(client_version)
+
+    ta = TypeAdapter(list[MiscV2])
+    return utils.read_parse_data_ta(f"deploy/versions/{client_version}/misc_entities.json", ta)
+
+
+@router.get(
+    "/misc-entities/{id_or_class_name}", response_model_exclude_none=True, tags=["Misc Entities"]
+)
+def get_misc_entity(
+    id_or_class_name: str,
+    client_version: VALID_CLIENT_VERSIONS | None = None,
+) -> NPCUnitV2:
+    npc_units = get_npc_units(client_version=client_version)
+    id = int(id_or_class_name) if utils.is_int(id_or_class_name) else id_or_class_name
+    for misc_entity in npc_units:
+        if misc_entity.id == id or misc_entity.class_name == id:
+            return misc_entity
+    raise HTTPException(status_code=404, detail="Misc Entity not found")
 
 
 @router.get("/client-versions")

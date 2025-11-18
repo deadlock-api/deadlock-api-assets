@@ -94,6 +94,7 @@ mkdir -p vdata
 cp "$citadel_folder"/scripts/abilities.vdata vdata/
 cp "$citadel_folder"/scripts/heroes.vdata vdata/
 cp "$citadel_folder"/scripts/npc_units.vdata vdata/
+cp "$citadel_folder"/scripts/misc.vdata vdata/
 cp "$citadel_folder"/scripts/generic_data.vdata vdata/
 cp vdata/* res/
 
