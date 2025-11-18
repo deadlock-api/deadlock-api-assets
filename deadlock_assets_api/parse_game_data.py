@@ -10,6 +10,7 @@ from deadlock_assets_api.kv3parser import KV3Parser
 from deadlock_assets_api.parsers.generic_data import parse_generic_data
 from deadlock_assets_api.parsers.heroes import parse_heroes_v2
 from deadlock_assets_api.parsers.items import parse_items_v2
+from deadlock_assets_api.parsers.npc_units import parse_npc_units_v2
 
 
 def get_version_id():
@@ -38,6 +39,12 @@ VDATA_FILES = (
             parse_items_v2,
             "vdata/abilities.vdata",
             f"res/builds/{VERSION_ID}/v2/raw_items.json",
+            False,
+        ),
+        (
+            parse_npc_units_v2,
+            "vdata/npc_units.vdata",
+            f"res/builds/{VERSION_ID}/v2/npc_units.json",
             False,
         ),
     ]
@@ -141,5 +148,9 @@ if __name__ == "__main__":
     shutil.copyfile(
         f"res/builds/{VERSION_ID}/v2/generic_data.json",
         "res/generic_data.json",
+    )
+    shutil.copyfile(
+        f"res/builds/{VERSION_ID}/v2/npc_units.json",
+        "res/npc_units.json",
     )
     parse_localization()

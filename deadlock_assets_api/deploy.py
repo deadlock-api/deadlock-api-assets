@@ -21,6 +21,7 @@ from deadlock_assets_api.models.v2.api_item import ItemV2
 from deadlock_assets_api.models.v2.api_upgrade import UpgradeV2
 from deadlock_assets_api.models.v2.api_weapon import WeaponV2
 from deadlock_assets_api.models.v2.build_tag import BuildTagV2
+from deadlock_assets_api.models.v2.npc_unit import NPCUnitV2
 from deadlock_assets_api.models.v2.rank import RankV2
 from deadlock_assets_api.models.v2.raw_ability import RawAbilityV2
 from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
@@ -148,6 +149,13 @@ def load_raw_items(version_id: int) -> list[RawAbilityV2 | RawWeaponV2 | RawUpgr
     return TypeAdapter(list[RawAbilityV2 | RawWeaponV2 | RawUpgradeV2]).validate_json(content)
 
 
+def load_npc_units(version_id: int) -> list[NPCUnitV2]:
+    path = f"res/builds/{version_id}/v2/npc_units.json"
+    with open(path) as f:
+        content = f.read()
+    return TypeAdapter(list[NPCUnitV2]).validate_json(content)
+
+
 def build_ranks(localization: dict[str, str]) -> list[dict]:
     return [RankV2.from_tier(i, localization).model_dump(exclude_none=True) for i in range(12)]
 
@@ -194,6 +202,7 @@ if __name__ == "__main__":
     colors_data = load_colors_data()
     client_versions = load_client_versions()
     icons_data = load_icons_data()
+    npc_units = load_npc_units(version_id)
     raw_heroes = load_raw_heroes(version_id)
     raw_items = load_raw_items(version_id)
 
@@ -228,8 +237,8 @@ if __name__ == "__main__":
     with open(f"{out_folder}/versions/{version_id}/raw_items.json", "w") as f:
         json.dump([i.model_dump(exclude_none=True) for i in raw_items], f)
 
-    with open(f"{out_folder}/versions/{version_id}/raw_items.json", "w") as f:
-        json.dump([h.model_dump(exclude_none=True) for h in raw_items], f)
+    with open(f"{out_folder}/versions/{version_id}/npc_units.json", "w") as f:
+        json.dump([n.model_dump(exclude_none=True) for n in npc_units], f)
 
     def build_language_data(language: Language, localization: dict[str, str]):
         print(f"Building {language} assets")
@@ -251,7 +260,7 @@ if __name__ == "__main__":
             json.dump(items, f)
         print(f"Finished {language} assets")
 
-    with ThreadPoolExecutor() as executor:
+    with ThreadPoolExecutor(24) as executor:
         futures = [
             executor.submit(build_language_data, lang, loc) for lang, loc in localizations.items()
         ]

@@ -9,9 +9,10 @@ from deadlock_assets_api import utils
 from deadlock_assets_api.models.languages import Language
 from deadlock_assets_api.models.v2.api_hero import HeroV2
 from deadlock_assets_api.models.v2.api_item import ItemV2
+from deadlock_assets_api.models.v2.api_upgrade import UpgradeV2
 from deadlock_assets_api.models.v2.build_tag import BuildTagV2
 from deadlock_assets_api.models.v2.enums import ItemSlotTypeV2, ItemTypeV2
-from deadlock_assets_api.models.v2.api_upgrade import UpgradeV2
+from deadlock_assets_api.models.v2.npc_unit import NPCUnitV2
 from deadlock_assets_api.models.v2.rank import RankV2
 
 LOGGER = logging.getLogger(__name__)
@@ -141,6 +142,29 @@ def get_items_by_slot_type(
     items = get_items_by_type(ItemTypeV2.UPGRADE, language, client_version)
     slot_type = ItemSlotTypeV2(slot_type.capitalize())
     return [c for c in items if isinstance(c, UpgradeV2) and c.item_slot_type == slot_type]
+
+
+@router.get("/npc-units", response_model_exclude_none=True, tags=["NPC Units"])
+def get_npc_units(
+    client_version: VALID_CLIENT_VERSIONS | None = None,
+) -> list[NPCUnitV2]:
+    client_version = utils.validate_client_version(client_version)
+
+    ta = TypeAdapter(list[NPCUnitV2])
+    return utils.read_parse_data_ta(f"deploy/versions/{client_version}/npc_units.json", ta)
+
+
+@router.get("/npc-units/{id_or_class_name}", response_model_exclude_none=True, tags=["NPC Units"])
+def get_npc_unit(
+    id_or_class_name: str,
+    client_version: VALID_CLIENT_VERSIONS | None = None,
+) -> NPCUnitV2:
+    npc_units = get_npc_units(client_version=client_version)
+    id = int(id_or_class_name) if utils.is_int(id_or_class_name) else id_or_class_name
+    for npc_unit in npc_units:
+        if npc_unit.id == id or npc_unit.class_name == id:
+            return npc_unit
+    raise HTTPException(status_code=404, detail="Item not found")
 
 
 @router.get("/client-versions")
