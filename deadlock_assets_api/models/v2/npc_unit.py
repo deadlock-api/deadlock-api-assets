@@ -18,6 +18,10 @@ class NPCUnitV2(BaseModel):
     max_health: int | None = Field(None, validation_alias="m_nMaxHealth")
     sight_range_players: float | None = Field(None, validation_alias="m_flSightRangePlayers")
     sight_range_npcs: float | None = Field(None, validation_alias="m_flSightRangeNPCs")
+    gold_reward: float | None = Field(None, validation_alias="m_flGoldReward")
+    gold_reward_bonus_percent_per_minute: float | None = Field(
+        None, validation_alias="m_flGoldRewardBonusPercentPerMinute"
+    )
     m_flPlayerDamageResistPct: float | None = Field(
         None, validation_alias="m_flPlayerDamageResistPct"
     )

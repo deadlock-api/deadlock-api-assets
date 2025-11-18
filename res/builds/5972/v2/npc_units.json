@@ -39,6 +39,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -196,6 +198,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -353,6 +357,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -510,6 +516,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -667,6 +675,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -824,6 +834,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -981,6 +993,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -1138,6 +1152,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -1295,6 +1311,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -1452,6 +1470,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -1609,6 +1629,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -1766,6 +1788,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -1923,6 +1947,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -2080,6 +2106,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -2237,6 +2265,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -2394,6 +2424,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -2526,6 +2558,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -2600,6 +2634,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -2732,6 +2768,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -2781,6 +2819,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -2830,6 +2870,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -2879,6 +2921,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -2928,6 +2972,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -2977,6 +3023,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -3026,6 +3074,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -3138,6 +3188,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": 51.0,
+    "gold_reward_bonus_percent_per_minute": 1.08,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -3250,6 +3302,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": 84.0,
+    "gold_reward_bonus_percent_per_minute": 1.08,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -3362,6 +3416,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": 225.0,
+    "gold_reward_bonus_percent_per_minute": 1.08,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -3474,6 +3530,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -3523,6 +3581,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -3572,6 +3632,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -3621,6 +3683,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -3670,6 +3734,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": 164.0,
+    "gold_reward_bonus_percent_per_minute": 1.08,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -3807,6 +3873,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -3901,6 +3969,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -3995,6 +4065,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -4089,6 +4161,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -4183,6 +4257,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -4277,6 +4353,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -4346,6 +4424,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -4458,6 +4538,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -4507,6 +4589,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -4556,6 +4640,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -4605,6 +4691,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -4654,6 +4742,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -4703,6 +4793,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -4752,6 +4844,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -4801,6 +4895,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -4875,6 +4971,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -5032,6 +5130,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -5189,6 +5289,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -5321,6 +5423,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -5370,6 +5474,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -5419,6 +5525,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -5468,6 +5576,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -5542,6 +5652,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -5674,6 +5786,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -5748,6 +5862,8 @@
       125,
       10
     ],
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": [
       230,
       25,
@@ -5817,6 +5933,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -5866,6 +5984,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -5915,6 +6035,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -5964,6 +6086,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -6013,6 +6137,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
@@ -6062,6 +6188,8 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
     "health_bar_color_team1": null,
