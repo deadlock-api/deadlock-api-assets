@@ -21,6 +21,7 @@ class MiscV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     class_name: str
+    color: Color | None = Field(None, validation_alias="m_Color")
 
     # Spawning & Timing
     initial_spawn_time: float | None = Field(None, validation_alias="m_flInitialSpawnTime")
@@ -65,12 +66,13 @@ class MiscV2(BaseModel):
         None, validation_alias="m_vecPickups_lv3"
     )
     roll_type: str | None = Field(None, validation_alias="m_eRollType")
+    gold_amount: float | None = Field(None, validation_alias="m_flGoldAmount")
+    gold_per_minute_amount: float | None = Field(None, validation_alias="m_flGoldPerMinuteAmount")
 
     # Pickup/Powerup Specifics
     pickup_radius: float | None = Field(None, validation_alias="m_flPickupRadius")
     expiration_duration: float | None = Field(None, validation_alias="m_flPickupExpirationDuration")
     show_on_minimap: bool | None = Field(None, validation_alias="m_bShowOnMinimap")
-    name_loc_string: str | None = Field(None, validation_alias="m_sNameLocString")
 
     # XP Orb Specifics
     orb_spawn_delay_min: float | None = Field(None, validation_alias="m_flOrbSpawnDelayMin")

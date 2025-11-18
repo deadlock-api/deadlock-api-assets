@@ -160,4 +160,8 @@ if __name__ == "__main__":
         f"res/builds/{VERSION_ID}/v2/npc_units.json",
         "res/npc_units.json",
     )
+    shutil.copyfile(
+        f"res/builds/{VERSION_ID}/v2/misc_entities.json",
+        "res/misc_entities.json",
+    )
     parse_localization()
