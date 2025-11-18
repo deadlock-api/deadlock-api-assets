@@ -1,12 +1,17 @@
 import json
 import os
 import shutil
+from concurrent.futures import ThreadPoolExecutor
 
 import vdf
 from pydantic import BaseModel
 
 from deadlock_assets_api.kv3parser import KV3Parser
+from deadlock_assets_api.parsers.generic_data import parse_generic_data
+from deadlock_assets_api.parsers.heroes import parse_heroes_v2
+from deadlock_assets_api.parsers.items import parse_items_v2
 from deadlock_assets_api.parsers.misc import parse_misc_v2
+from deadlock_assets_api.parsers.npc_units import parse_npc_units_v2
 
 
 def get_version_id():
@@ -19,30 +24,30 @@ VERSION_ID = get_version_id()
 os.makedirs(f"res/builds/{VERSION_ID}/v2/", exist_ok=True)
 VDATA_FILES = (
     [
-        # (
-        #     parse_generic_data,
-        #     "vdata/generic_data.vdata",
-        #     f"res/builds/{VERSION_ID}/v2/generic_data.json",
-        #     True,
-        # ),
-        # (
-        #     parse_heroes_v2,
-        #     "vdata/heroes.vdata",
-        #     f"res/builds/{VERSION_ID}/v2/raw_heroes.json",
-        #     False,
-        # ),
-        # (
-        #     parse_items_v2,
-        #     "vdata/abilities.vdata",
-        #     f"res/builds/{VERSION_ID}/v2/raw_items.json",
-        #     False,
-        # ),
-        # (
-        #     parse_npc_units_v2,
-        #     "vdata/npc_units.vdata",
-        #     f"res/builds/{VERSION_ID}/v2/npc_units.json",
-        #     False,
-        # ),
+        (
+            parse_generic_data,
+            "vdata/generic_data.vdata",
+            f"res/builds/{VERSION_ID}/v2/generic_data.json",
+            True,
+        ),
+        (
+            parse_heroes_v2,
+            "vdata/heroes.vdata",
+            f"res/builds/{VERSION_ID}/v2/raw_heroes.json",
+            False,
+        ),
+        (
+            parse_items_v2,
+            "vdata/abilities.vdata",
+            f"res/builds/{VERSION_ID}/v2/raw_items.json",
+            False,
+        ),
+        (
+            parse_npc_units_v2,
+            "vdata/npc_units.vdata",
+            f"res/builds/{VERSION_ID}/v2/npc_units.json",
+            False,
+        ),
         (
             parse_misc_v2,
             "vdata/misc.vdata",
@@ -101,11 +106,9 @@ def parse_vdata():
         with open(out_path, "w") as f:
             json.dump(data, f, indent=4)
 
-    for args in VDATA_FILES:
-        parse(*args)
-    # with ThreadPoolExecutor(24) as executor:
-    #     for args in VDATA_FILES:
-    #         executor.submit(parse, *args)
+    with ThreadPoolExecutor(24) as executor:
+        for args in VDATA_FILES:
+            executor.submit(parse, *args)
 
 
 def parse_localization():

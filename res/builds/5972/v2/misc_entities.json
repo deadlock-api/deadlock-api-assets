@@ -145,7 +145,7 @@
     "initial_spawn_time": 120.0,
     "is_mantleable": null,
     "lifetime": null,
-    "loot_list_deck_size": null,
+    "loot_list_deck_size": 2,
     "m_vecPickups_lv2": [
       {
         "pickup_name": "spirit_permanent_pickup_lv2",
@@ -299,7 +299,7 @@
     "initial_spawn_time": 120.0,
     "is_mantleable": null,
     "lifetime": null,
-    "loot_list_deck_size": null,
+    "loot_list_deck_size": 2,
     "m_vecPickups_lv2": [
       {
         "pickup_name": "spirit_permanent_pickup_lv2",
