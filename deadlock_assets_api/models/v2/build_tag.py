@@ -1,5 +1,7 @@
+from typing import Annotated
+
 from murmurhash2 import murmurhash2
-from pydantic import BaseModel, ConfigDict, computed_field
+from pydantic import BaseModel, ConfigDict, computed_field, WithJsonSchema
 
 from deadlock_assets_api.glob import SVGS_BASE_URL
 
@@ -12,7 +14,7 @@ class BuildTagV2(BaseModel):
 
     @computed_field
     @property
-    def id(self) -> int:
+    def id(self) -> Annotated[int, WithJsonSchema({"format": "int64", "type": "integer"})]:
         return murmurhash2(self.class_name.encode(), 0x31415926)
 
     @computed_field

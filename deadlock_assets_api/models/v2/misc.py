@@ -1,7 +1,8 @@
 import logging
+from typing import Annotated
 
 from murmurhash2 import murmurhash2
-from pydantic import ConfigDict, Field, BaseModel, computed_field
+from pydantic import ConfigDict, Field, BaseModel, computed_field, WithJsonSchema
 
 LOGGER = logging.getLogger(__name__)
 
@@ -131,5 +132,5 @@ class MiscV2(BaseModel):
 
     @computed_field
     @property
-    def id(self) -> int:
+    def id(self) -> Annotated[int, WithJsonSchema({"format": "int64", "type": "integer"})]:
         return murmurhash2(self.class_name.encode(), 0x31415926)
