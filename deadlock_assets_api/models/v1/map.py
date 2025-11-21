@@ -11,6 +11,7 @@ from deadlock_assets_api.models.map_data import (
     LANES,
     MAP_RADIUS,
 )
+from deadlock_assets_api.models.v1.colors import ColorV1
 
 TOWER_IDS = {
     **{f"#Team{team_id + 1}Core": f"team{team_id}_core" for team_id in range(2)},
@@ -115,6 +116,11 @@ class ZiplanePathV1(BaseModel):
             P2_points=[(n[6], n[7], n[8]) for n in pathnodes],
             **kwargs,
         )
+
+    @computed_field
+    @property
+    def color_parsed(self) -> ColorV1:
+        return ColorV1.from_hex(self.color)
 
 
 class MapV1(BaseModel):

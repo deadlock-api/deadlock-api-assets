@@ -130,27 +130,7 @@ class NPCUnitV2(BaseModel):
         if isinstance(v, ColorV1):
             return v
         if isinstance(v, dict):
-            try:
-                return ColorV1.model_validate(v)
-            except ValueError as e:
-                LOGGER.error(f"Error parsing color {v}: {e}")
-                raise
+            return ColorV1.model_validate(v)
         if isinstance(v, list):
-            try:
-                color = parse_color(v)
-                return color
-            except ValueError as e:
-                LOGGER.error(f"Error parsing color {v}: {e}")
-                raise
+            return ColorV1.from_list(v)
         raise TypeError(f"Invalid type for color field: {type(v)}")
-
-
-def parse_color(color: list[int]) -> ColorV1:
-    if len(color) == 3:
-        r, g, b = color
-        a = 255
-    elif len(color) == 4:
-        r, g, b, a = color
-    else:
-        raise ValueError("Color must be a tuple or list of 3 or 4 integers.")
-    return ColorV1(red=r, green=g, blue=b, alpha=a)

@@ -1,7 +1,9 @@
 import os
 from functools import lru_cache
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, field_validator
+
+from deadlock_assets_api.models.v1.colors import ColorV1
 
 
 class FlashDataV1(BaseModel):
@@ -11,10 +13,21 @@ class FlashDataV1(BaseModel):
     coverage: float = Field(..., validation_alias="m_flCoverage")
     hardness: float = Field(..., validation_alias="m_flHardness")
     brightness: float = Field(..., validation_alias="m_flBrightness")
-    color: list[int] = Field(..., validation_alias="m_Color")
+    color: ColorV1 = Field(..., validation_alias="m_Color")
     brightness_in_light_sensitivity_mode: float | None = Field(
         None, validation_alias="m_flBrightnessInLightSensitivityMode"
     )
+
+    @field_validator("color", mode="before")
+    @classmethod
+    def validate_colors(cls, v: ColorV1 | list[int] | dict[str, int]) -> ColorV1:
+        if isinstance(v, ColorV1):
+            return v
+        if isinstance(v, dict):
+            return ColorV1.model_validate(v)
+        if isinstance(v, list):
+            return ColorV1.from_list(v)
+        raise TypeError(f"Invalid type for color field: {type(v)}")
 
 
 class DamageFlashV1(BaseModel):

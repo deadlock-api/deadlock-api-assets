@@ -3,11 +3,12 @@
     "bullet_damage": {
       "brightness": 1.2,
       "brightness_in_light_sensitivity_mode": null,
-      "color": [
-        255,
-        0,
-        0
-      ],
+      "color": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 0,
+        "red": 255
+      },
       "coverage": 0.5,
       "duration": 0.25,
       "hardness": 0.7
@@ -15,11 +16,12 @@
     "crit_damage": {
       "brightness": 1.7,
       "brightness_in_light_sensitivity_mode": null,
-      "color": [
-        255,
-        255,
-        0
-      ],
+      "color": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 255,
+        "red": 255
+      },
       "coverage": 0.6,
       "duration": 0.33,
       "hardness": 0.9
@@ -27,11 +29,12 @@
     "healing_damage": {
       "brightness": 1.2,
       "brightness_in_light_sensitivity_mode": 0.6,
-      "color": [
-        0,
-        195,
-        45
-      ],
+      "color": {
+        "alpha": 255,
+        "blue": 45,
+        "green": 195,
+        "red": 0
+      },
       "coverage": 0.5,
       "duration": 1.0,
       "hardness": 0.0
@@ -39,11 +42,12 @@
     "melee_damage": {
       "brightness": 3.0,
       "brightness_in_light_sensitivity_mode": null,
-      "color": [
-        254,
-        101,
-        40
-      ],
+      "color": {
+        "alpha": 255,
+        "blue": 40,
+        "green": 101,
+        "red": 254
+      },
       "coverage": 0.5,
       "duration": 0.275,
       "hardness": 0.0
@@ -51,11 +55,12 @@
     "tech_damage": {
       "brightness": 1.5,
       "brightness_in_light_sensitivity_mode": null,
-      "color": [
-        35,
-        17,
-        236
-      ],
+      "color": {
+        "alpha": 255,
+        "blue": 236,
+        "green": 17,
+        "red": 35
+      },
       "coverage": 0.5,
       "duration": 0.25,
       "hardness": 0.5
