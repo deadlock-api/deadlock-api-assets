@@ -9,63 +9,68 @@
     "barrack_guardian_damage_resist_pct": 67.5,
     "class_name": "trooper_zipline_container",
     "generator_boss_dps": 22.0,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 3237674373,
     "m_flPlayerDamageResistPct": -25.0,
     "max_health": 1,
@@ -168,63 +173,68 @@
     "barrack_guardian_damage_resist_pct": 67.5,
     "class_name": "trooper_normal",
     "generator_boss_dps": 22.0,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 1773848083,
     "m_flPlayerDamageResistPct": -25.0,
     "max_health": 300,
@@ -327,63 +337,68 @@
     "barrack_guardian_damage_resist_pct": 67.5,
     "class_name": "trooper_normal_ag2",
     "generator_boss_dps": 22.0,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 4164228731,
     "m_flPlayerDamageResistPct": -25.0,
     "max_health": 300,
@@ -486,63 +501,68 @@
     "barrack_guardian_damage_resist_pct": 67.5,
     "class_name": "alt_trooper_normal",
     "generator_boss_dps": 22.0,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 2995920460,
     "m_flPlayerDamageResistPct": -25.0,
     "max_health": 300,
@@ -645,63 +665,68 @@
     "barrack_guardian_damage_resist_pct": 67.5,
     "class_name": "trooper_medic",
     "generator_boss_dps": 22.0,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 1003135509,
     "m_flPlayerDamageResistPct": -25.0,
     "max_health": 260,
@@ -804,63 +829,68 @@
     "barrack_guardian_damage_resist_pct": 67.5,
     "class_name": "alt_trooper_medic",
     "generator_boss_dps": 22.0,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 3311660934,
     "m_flPlayerDamageResistPct": -25.0,
     "max_health": 260,
@@ -963,63 +993,68 @@
     "barrack_guardian_damage_resist_pct": 67.5,
     "class_name": "trooper_medic_ag2",
     "generator_boss_dps": 22.0,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 747565566,
     "m_flPlayerDamageResistPct": -25.0,
     "max_health": 260,
@@ -1122,63 +1157,68 @@
     "barrack_guardian_damage_resist_pct": 67.5,
     "class_name": "super_trooper_normal",
     "generator_boss_dps": 41.8,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 2276494733,
     "m_flPlayerDamageResistPct": -25.0,
     "max_health": 300,
@@ -1281,63 +1321,68 @@
     "barrack_guardian_damage_resist_pct": 67.5,
     "class_name": "super_trooper_medic",
     "generator_boss_dps": 41.8,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 3972598550,
     "m_flPlayerDamageResistPct": -25.0,
     "max_health": 260,
@@ -1440,63 +1485,68 @@
     "barrack_guardian_damage_resist_pct": 67.5,
     "class_name": "super_trooper_melee",
     "generator_boss_dps": 41.8,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 3895881341,
     "m_flPlayerDamageResistPct": -25.0,
     "max_health": 400,
@@ -1599,63 +1649,68 @@
     "barrack_guardian_damage_resist_pct": 67.5,
     "class_name": "trooper_melee",
     "generator_boss_dps": 22.0,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 2943225653,
     "m_flPlayerDamageResistPct": -25.0,
     "max_health": 400,
@@ -1758,63 +1813,68 @@
     "barrack_guardian_damage_resist_pct": 67.5,
     "class_name": "trooper_melee_ag2",
     "generator_boss_dps": 22.0,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 3831103061,
     "m_flPlayerDamageResistPct": -25.0,
     "max_health": 400,
@@ -1917,63 +1977,68 @@
     "barrack_guardian_damage_resist_pct": 67.5,
     "class_name": "alt_trooper_melee",
     "generator_boss_dps": 22.0,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 1030187515,
     "m_flPlayerDamageResistPct": -25.0,
     "max_health": 400,
@@ -2076,63 +2141,68 @@
     "barrack_guardian_damage_resist_pct": 67.5,
     "class_name": "trooper_nano",
     "generator_boss_dps": 22.0,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 671231238,
     "m_flPlayerDamageResistPct": -25.0,
     "max_health": 300,
@@ -2235,63 +2305,68 @@
     "barrack_guardian_damage_resist_pct": 67.5,
     "class_name": "npc_boss_tier1",
     "generator_boss_dps": 22.0,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 2977181093,
     "m_flPlayerDamageResistPct": -25.0,
     "max_health": 3500,
@@ -2394,63 +2469,68 @@
     "barrack_guardian_damage_resist_pct": 67.5,
     "class_name": "npc_barrack_boss",
     "generator_boss_dps": 22.0,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 2458524739,
     "m_flPlayerDamageResistPct": -25.0,
     "max_health": 3225,
@@ -2604,63 +2684,68 @@
     "barrack_guardian_damage_resist_pct": 67.5,
     "class_name": "alt_npc_boss_tier1",
     "generator_boss_dps": 22.0,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 2713571573,
     "m_flPlayerDamageResistPct": -25.0,
     "max_health": 3500,
@@ -3843,63 +3928,68 @@
     "barrack_guardian_damage_resist_pct": null,
     "class_name": "npc_boss_tier2",
     "generator_boss_dps": null,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 3493103073,
     "m_flPlayerDamageResistPct": null,
     "max_health": 9200,
@@ -3939,63 +4029,68 @@
     "barrack_guardian_damage_resist_pct": null,
     "class_name": "alt_npc_boss_tier2",
     "generator_boss_dps": null,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 736669903,
     "m_flPlayerDamageResistPct": null,
     "max_health": 9200,
@@ -4035,63 +4130,68 @@
     "barrack_guardian_damage_resist_pct": null,
     "class_name": "npc_boss_tier2_weak",
     "generator_boss_dps": null,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 4174712489,
     "m_flPlayerDamageResistPct": null,
     "max_health": 5800,
@@ -4131,63 +4231,68 @@
     "barrack_guardian_damage_resist_pct": null,
     "class_name": "alt_npc_boss_tier2_weak",
     "generator_boss_dps": null,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 3601160001,
     "m_flPlayerDamageResistPct": null,
     "max_health": 5800,
@@ -4227,63 +4332,68 @@
     "barrack_guardian_damage_resist_pct": null,
     "class_name": "npc_boss_tier3",
     "generator_boss_dps": null,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 4137263170,
     "m_flPlayerDamageResistPct": null,
     "max_health": 5625,
@@ -4323,63 +4433,68 @@
     "barrack_guardian_damage_resist_pct": null,
     "class_name": "alt_npc_boss_tier3",
     "generator_boss_dps": null,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 2372954235,
     "m_flPlayerDamageResistPct": null,
     "max_health": 5625,
@@ -4941,63 +5056,68 @@
     "barrack_guardian_damage_resist_pct": 67.5,
     "class_name": "alt_super_trooper_medic",
     "generator_boss_dps": 41.8,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 4170578154,
     "m_flPlayerDamageResistPct": -25.0,
     "max_health": 260,
@@ -5100,63 +5220,68 @@
     "barrack_guardian_damage_resist_pct": 67.5,
     "class_name": "alt_super_trooper_melee",
     "generator_boss_dps": 41.8,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 2177183683,
     "m_flPlayerDamageResistPct": -25.0,
     "max_health": 400,
@@ -5259,63 +5384,68 @@
     "barrack_guardian_damage_resist_pct": 67.5,
     "class_name": "alt_super_trooper_normal",
     "generator_boss_dps": 41.8,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 3051900280,
     "m_flPlayerDamageResistPct": -25.0,
     "max_health": 300,
@@ -5622,63 +5752,68 @@
     "barrack_guardian_damage_resist_pct": 67.5,
     "class_name": "trooper_siege",
     "generator_boss_dps": 22.0,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 1142435566,
     "m_flPlayerDamageResistPct": -25.0,
     "max_health": 450,
@@ -5832,63 +5967,68 @@
     "barrack_guardian_damage_resist_pct": null,
     "class_name": "tier2_bull",
     "generator_boss_dps": null,
-    "glow_color_enemy": [
-      230,
-      25,
-      25,
-      10
-    ],
-    "glow_color_friend": [
-      255,
-      239,
-      215,
-      10
-    ],
-    "glow_color_team1": [
-      231,
-      182,
-      89,
-      10
-    ],
-    "glow_color_team2": [
-      91,
-      121,
-      230,
-      10
-    ],
-    "glow_color_team_neutral": [
-      0,
-      125,
-      125,
-      10
-    ],
+    "glow_color_enemy": {
+      "alpha": 10,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "glow_color_friend": {
+      "alpha": 10,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "glow_color_team1": {
+      "alpha": 10,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "glow_color_team2": {
+      "alpha": 10,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "glow_color_team_neutral": {
+      "alpha": 10,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
-    "health_bar_color_enemy": [
-      230,
-      25,
-      25
-    ],
-    "health_bar_color_friend": [
-      255,
-      239,
-      215
-    ],
-    "health_bar_color_team1": [
-      231,
-      182,
-      89
-    ],
-    "health_bar_color_team2": [
-      91,
-      121,
-      230
-    ],
-    "health_bar_color_team_neutral": [
-      0,
-      125,
-      125
-    ],
+    "health_bar_color_enemy": {
+      "alpha": 255,
+      "blue": 25,
+      "green": 25,
+      "red": 230
+    },
+    "health_bar_color_friend": {
+      "alpha": 255,
+      "blue": 215,
+      "green": 239,
+      "red": 255
+    },
+    "health_bar_color_team1": {
+      "alpha": 255,
+      "blue": 89,
+      "green": 182,
+      "red": 231
+    },
+    "health_bar_color_team2": {
+      "alpha": 255,
+      "blue": 230,
+      "green": 121,
+      "red": 91
+    },
+    "health_bar_color_team_neutral": {
+      "alpha": 255,
+      "blue": 125,
+      "green": 125,
+      "red": 0
+    },
     "id": 2866693938,
     "m_flPlayerDamageResistPct": null,
     "max_health": 6000,
