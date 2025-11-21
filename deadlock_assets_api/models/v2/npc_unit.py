@@ -22,7 +22,7 @@ class NPCUnitV2(BaseModel):
     gold_reward_bonus_percent_per_minute: float | None = Field(
         None, validation_alias="m_flGoldRewardBonusPercentPerMinute"
     )
-    m_flPlayerDamageResistPct: float | None = Field(
+    player_damage_resist_pct: float | None = Field(
         None, validation_alias="m_flPlayerDamageResistPct"
     )
     trooper_damage_resist_pct: float | None = Field(
