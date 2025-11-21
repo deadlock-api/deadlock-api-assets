@@ -1,6 +1,3 @@
-import json
-from enum import Enum
-
 from fastapi import APIRouter
 from pydantic import TypeAdapter
 from starlette.responses import FileResponse
@@ -8,14 +5,7 @@ from starlette.responses import FileResponse
 from deadlock_assets_api import utils
 from deadlock_assets_api.models.v1.colors import ColorV1
 from deadlock_assets_api.models.v1.map import MapV1
-
-
-with open("deploy/client_versions.json") as f:
-    ALL_CLIENT_VERSIONS = sorted(json.load(f), reverse=True)
-VALID_CLIENT_VERSIONS = Enum(
-    "ValidClientVersions", {str(b): int(b) for b in ALL_CLIENT_VERSIONS}, type=int
-)
-LATEST_VERSION = max(ALL_CLIENT_VERSIONS)
+from deadlock_assets_api.routes import VALID_CLIENT_VERSIONS, LATEST_VERSION
 
 router = APIRouter(prefix="/v1")
 
