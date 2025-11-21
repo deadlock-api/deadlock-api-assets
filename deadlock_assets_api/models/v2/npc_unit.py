@@ -124,7 +124,7 @@ class NPCUnitV2(BaseModel):
         mode="before",
     )
     @classmethod
-    def validate_colors(cls, v: ColorV1 | list[int] | None | dict[str, int]) -> ColorV1 | None:
+    def validate_color(cls, v: ColorV1 | list[int] | None | dict[str, int]) -> ColorV1 | None:
         if v is None:
             return v
         if isinstance(v, ColorV1):

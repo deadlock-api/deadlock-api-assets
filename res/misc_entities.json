@@ -1405,11 +1405,12 @@
     "break_on_dodge_touch": null,
     "class_name": "small_gold_pickup",
     "collision_radius": null,
-    "color": [
-      0,
-      255,
-      204
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 204,
+      "green": 255,
+      "red": 0
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -1446,11 +1447,12 @@
     "break_on_dodge_touch": null,
     "class_name": "gun_powerup_pickup",
     "collision_radius": 40.0,
-    "color": [
-      218,
-      148,
-      65
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 65,
+      "green": 148,
+      "red": 218
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -1515,11 +1517,12 @@
     "break_on_dodge_touch": null,
     "class_name": "survival_powerup_pickup",
     "collision_radius": 40.0,
-    "color": [
-      122,
-      184,
-      29
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 29,
+      "green": 184,
+      "red": 122
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -1584,11 +1587,12 @@
     "break_on_dodge_touch": null,
     "class_name": "casting_powerup_pickup",
     "collision_radius": 40.0,
-    "color": [
-      203,
-      143,
-      252
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 252,
+      "green": 143,
+      "red": 203
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -1653,11 +1657,12 @@
     "break_on_dodge_touch": null,
     "class_name": "movement_powerup_pickup",
     "collision_radius": 40.0,
-    "color": [
-      50,
-      50,
-      255
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 255,
+      "green": 50,
+      "red": 50
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -1735,11 +1740,12 @@
     "break_on_dodge_touch": null,
     "class_name": "refresh_powerup_pickup",
     "collision_radius": 40.0,
-    "color": [
-      203,
-      143,
-      252
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 252,
+      "green": 143,
+      "red": 203
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -1788,11 +1794,12 @@
     "break_on_dodge_touch": null,
     "class_name": "change_team_powerup_pickup",
     "collision_radius": 40.0,
-    "color": [
-      195,
-      82,
-      26
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 26,
+      "green": 82,
+      "red": 195
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -1841,11 +1848,12 @@
     "break_on_dodge_touch": null,
     "class_name": "spirit_permanent_pickup",
     "collision_radius": null,
-    "color": [
-      88,
-      20,
-      180
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 180,
+      "green": 20,
+      "red": 88
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -1901,11 +1909,12 @@
     "break_on_dodge_touch": null,
     "class_name": "spirit_permanent_pickup_lv2",
     "collision_radius": null,
-    "color": [
-      88,
-      20,
-      180
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 180,
+      "green": 20,
+      "red": 88
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -1961,11 +1970,12 @@
     "break_on_dodge_touch": null,
     "class_name": "spirit_permanent_pickup_lv3",
     "collision_radius": null,
-    "color": [
-      88,
-      20,
-      180
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 180,
+      "green": 20,
+      "red": 88
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -2021,11 +2031,12 @@
     "break_on_dodge_touch": null,
     "class_name": "firerate_permanent_pickup",
     "collision_radius": null,
-    "color": [
-      200,
-      0,
-      0
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 0,
+      "green": 0,
+      "red": 200
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -2081,11 +2092,12 @@
     "break_on_dodge_touch": null,
     "class_name": "firerate_permanent_pickup_lv2",
     "collision_radius": null,
-    "color": [
-      200,
-      0,
-      0
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 0,
+      "green": 0,
+      "red": 200
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -2141,11 +2153,12 @@
     "break_on_dodge_touch": null,
     "class_name": "firerate_permanent_pickup_lv3",
     "collision_radius": null,
-    "color": [
-      200,
-      0,
-      0
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 0,
+      "green": 0,
+      "red": 200
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -2201,11 +2214,12 @@
     "break_on_dodge_touch": null,
     "class_name": "ammo_permanent_pickup",
     "collision_radius": null,
-    "color": [
-      255,
-      165,
-      0
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 0,
+      "green": 165,
+      "red": 255
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -2261,11 +2275,12 @@
     "break_on_dodge_touch": null,
     "class_name": "ammo_permanent_pickup_lv2",
     "collision_radius": null,
-    "color": [
-      255,
-      165,
-      0
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 0,
+      "green": 165,
+      "red": 255
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -2321,11 +2336,12 @@
     "break_on_dodge_touch": null,
     "class_name": "ammo_permanent_pickup_lv3",
     "collision_radius": null,
-    "color": [
-      255,
-      165,
-      0
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 0,
+      "green": 165,
+      "red": 255
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -2381,11 +2397,12 @@
     "break_on_dodge_touch": null,
     "class_name": "hp_permanent_pickup",
     "collision_radius": null,
-    "color": [
-      50,
-      205,
-      50
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 50,
+      "green": 205,
+      "red": 50
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -2441,11 +2458,12 @@
     "break_on_dodge_touch": null,
     "class_name": "hp_permanent_pickup_lv2",
     "collision_radius": null,
-    "color": [
-      50,
-      205,
-      50
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 50,
+      "green": 205,
+      "red": 50
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -2501,11 +2519,12 @@
     "break_on_dodge_touch": null,
     "class_name": "hp_permanent_pickup_lv3",
     "collision_radius": null,
-    "color": [
-      50,
-      205,
-      50
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 50,
+      "green": 205,
+      "red": 50
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -2561,11 +2580,12 @@
     "break_on_dodge_touch": null,
     "class_name": "cd_permanent_pickup",
     "collision_radius": null,
-    "color": [
-      0,
-      0,
-      200
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 200,
+      "green": 0,
+      "red": 0
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -2621,11 +2641,12 @@
     "break_on_dodge_touch": null,
     "class_name": "cd_permanent_pickup_lv2",
     "collision_radius": null,
-    "color": [
-      0,
-      0,
-      200
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 200,
+      "green": 0,
+      "red": 0
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -2681,11 +2702,12 @@
     "break_on_dodge_touch": null,
     "class_name": "cd_permanent_pickup_lv3",
     "collision_radius": null,
-    "color": [
-      0,
-      0,
-      200
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 200,
+      "green": 0,
+      "red": 0
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -2741,11 +2763,12 @@
     "break_on_dodge_touch": null,
     "class_name": "wp_permanent_pickup",
     "collision_radius": null,
-    "color": [
-      200,
-      85,
-      0
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 0,
+      "green": 85,
+      "red": 200
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -2801,11 +2824,12 @@
     "break_on_dodge_touch": null,
     "class_name": "wp_permanent_pickup_lv2",
     "collision_radius": null,
-    "color": [
-      200,
-      85,
-      0
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 0,
+      "green": 85,
+      "red": 200
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
@@ -2861,11 +2885,12 @@
     "break_on_dodge_touch": null,
     "class_name": "wp_permanent_pickup_lv3",
     "collision_radius": null,
-    "color": [
-      200,
-      85,
-      0
-    ],
+    "color": {
+      "alpha": 255,
+      "blue": 0,
+      "green": 85,
+      "red": 200
+    },
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,

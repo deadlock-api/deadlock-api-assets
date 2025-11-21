@@ -2,11 +2,11 @@ import logging
 from typing import Annotated
 
 from murmurhash2 import murmurhash2
-from pydantic import ConfigDict, Field, BaseModel, computed_field, WithJsonSchema
+from pydantic import ConfigDict, Field, BaseModel, computed_field, WithJsonSchema, field_validator
+
+from deadlock_assets_api.models.v1.colors import ColorV1
 
 LOGGER = logging.getLogger(__name__)
-
-Color = tuple[int, int, int] | tuple[int, int, int, int]
 
 
 class ModifierValue(BaseModel):
@@ -70,7 +70,7 @@ class MiscV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     class_name: str
-    color: Color | None = Field(None, validation_alias="m_Color")
+    color: ColorV1 | None = Field(None, validation_alias="m_Color")
 
     # Spawning & Timing
     initial_spawn_time: float | None = Field(None, validation_alias="m_flInitialSpawnTime")
@@ -134,3 +134,16 @@ class MiscV2(BaseModel):
     @property
     def id(self) -> Annotated[int, WithJsonSchema({"format": "int64", "type": "integer"})]:
         return murmurhash2(self.class_name.encode(), 0x31415926)
+
+    @field_validator("color", mode="before")
+    @classmethod
+    def validate_color(cls, v: ColorV1 | list[int] | None | dict[str, int]) -> ColorV1 | None:
+        if v is None:
+            return v
+        if isinstance(v, ColorV1):
+            return v
+        if isinstance(v, dict):
+            return ColorV1.model_validate(v)
+        if isinstance(v, list):
+            return ColorV1.from_list(v)
+        raise TypeError(f"Invalid type for color field: {type(v)}")

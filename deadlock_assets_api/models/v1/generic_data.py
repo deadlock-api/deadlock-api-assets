@@ -20,7 +20,7 @@ class FlashDataV1(BaseModel):
 
     @field_validator("color", mode="before")
     @classmethod
-    def validate_colors(cls, v: ColorV1 | list[int] | dict[str, int]) -> ColorV1:
+    def validate_color(cls, v: ColorV1 | list[int] | dict[str, int]) -> ColorV1:
         if isinstance(v, ColorV1):
             return v
         if isinstance(v, dict):
