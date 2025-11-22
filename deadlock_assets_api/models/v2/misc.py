@@ -125,8 +125,10 @@ class MiscV2(BaseModel):
 
     # Pickup/Powerup Specifics
     modifier: SubclassModifierDefinition | None = Field(None, validation_alias="m_sModifer")
-    pickup_radius: Curve | None = Field(None, validation_alias="m_flPickupRadius")
-    expiration_duration: Curve | None = Field(None, validation_alias="m_flPickupExpirationDuration")
+    pickup_radius: Curve | float | None = Field(None, validation_alias="m_flPickupRadius")
+    expiration_duration: Curve | float | None = Field(
+        None, validation_alias="m_flPickupExpirationDuration"
+    )
     show_on_minimap: bool | None = Field(None, validation_alias="m_bShowOnMinimap")
 
     # XP Orb Specifics
