@@ -1,4 +1,6 @@
+import json
 import logging
+from enum import Enum
 
 from fastapi import APIRouter, HTTPException
 from pydantic import TypeAdapter
@@ -13,9 +15,13 @@ from deadlock_assets_api.models.v2.enums import ItemSlotTypeV2, ItemTypeV2
 from deadlock_assets_api.models.v2.misc import MiscV2
 from deadlock_assets_api.models.v2.npc_unit import NPCUnitV2
 from deadlock_assets_api.models.v2.rank import RankV2
-from deadlock_assets_api.routes import VALID_CLIENT_VERSIONS, LATEST_VERSION, ALL_CLIENT_VERSIONS
 
 LOGGER = logging.getLogger(__name__)
+with open("deploy/client_versions.json") as f:
+    ALL_CLIENT_VERSIONS = sorted(json.load(f), reverse=True)
+VALID_CLIENT_VERSIONS = Enum(
+    "ValidClientVersions", {str(b): int(b) for b in ALL_CLIENT_VERSIONS}, type=int
+)
 
 router = APIRouter(prefix="/v2")
 
@@ -26,11 +32,10 @@ def get_heroes(
     client_version: VALID_CLIENT_VERSIONS | None = None,
     only_active: bool | None = None,
 ) -> list[HeroV2]:
-    if client_version is None:
-        client_version = VALID_CLIENT_VERSIONS(LATEST_VERSION)
     if only_active is None:
         only_active = False
     language = utils.validate_language(language)
+    client_version = utils.validate_client_version(client_version)
 
     ta = TypeAdapter(list[HeroV2])
     heroes = utils.read_parse_data_ta(
@@ -74,9 +79,8 @@ def get_items(
     language: Language | None = None,
     client_version: VALID_CLIENT_VERSIONS | None = None,
 ) -> list[ItemV2]:
-    if client_version is None:
-        client_version = VALID_CLIENT_VERSIONS(LATEST_VERSION)
     language = utils.validate_language(language)
+    client_version = utils.validate_client_version(client_version)
 
     ta = TypeAdapter(list[ItemV2])
     return utils.read_parse_data_ta(
@@ -145,8 +149,7 @@ def get_items_by_slot_type(
 def get_npc_units(
     client_version: VALID_CLIENT_VERSIONS | None = None,
 ) -> list[NPCUnitV2]:
-    if client_version is None:
-        client_version = VALID_CLIENT_VERSIONS(LATEST_VERSION)
+    client_version = utils.validate_client_version(client_version)
 
     ta = TypeAdapter(list[NPCUnitV2])
     return utils.read_parse_data_ta(f"deploy/versions/{client_version}/npc_units.json", ta)
@@ -169,8 +172,7 @@ def get_npc_unit(
 def get_misc_entities(
     client_version: VALID_CLIENT_VERSIONS | None = None,
 ) -> list[MiscV2]:
-    if client_version is None:
-        client_version = VALID_CLIENT_VERSIONS(LATEST_VERSION)
+    client_version = utils.validate_client_version(client_version)
 
     ta = TypeAdapter(list[MiscV2])
     return utils.read_parse_data_ta(f"deploy/versions/{client_version}/misc_entities.json", ta)
@@ -201,9 +203,8 @@ def get_ranks(
     language: Language | None = None,
     client_version: VALID_CLIENT_VERSIONS | None = None,
 ) -> list[RankV2]:
-    if client_version is None:
-        client_version = VALID_CLIENT_VERSIONS(LATEST_VERSION)
     language = utils.validate_language(language)
+    client_version = utils.validate_client_version(client_version)
     ta = TypeAdapter(list[RankV2])
     return utils.read_parse_data_ta(
         f"deploy/versions/{client_version}/ranks/{language.value}.json", ta
@@ -215,9 +216,8 @@ def get_build_tags(
     language: Language | None = None,
     client_version: VALID_CLIENT_VERSIONS | None = None,
 ) -> list[BuildTagV2]:
-    if client_version is None:
-        client_version = VALID_CLIENT_VERSIONS(LATEST_VERSION)
     language = utils.validate_language(language)
+    client_version = utils.validate_client_version(client_version)
     ta = TypeAdapter(list[BuildTagV2])
     return utils.read_parse_data_ta(
         f"deploy/versions/{client_version}/build_tags/{language.value}.json", ta

@@ -2,13 +2,21 @@ import json
 import logging
 import os
 import re
+from enum import Enum
 from functools import lru_cache
 
 import css_parser
 from css_parser.css import CSSRuleList, CSSStyleRule
+from fastapi import HTTPException
 from pydantic import TypeAdapter, BaseModel
 
 from deadlock_assets_api.models.languages import Language
+
+with open("deploy/client_versions.json") as f:
+    ALL_CLIENT_VERSIONS = sorted(json.load(f), reverse=True)
+VALID_CLIENT_VERSIONS = Enum(
+    "ValidClientVersions", {str(b): int(b) for b in ALL_CLIENT_VERSIONS}, type=int
+)
 
 LOGGER = logging.getLogger(__name__)
 
@@ -86,6 +94,14 @@ def read_parse_data_model[T: BaseModel](filepath: str, model: type[T]) -> T:
     LOGGER.debug(f"Reading {filepath}")
     with open(filepath) as f:
         return model.model_validate_json(f.read())
+
+
+def validate_client_version(client_version: VALID_CLIENT_VERSIONS | None = None) -> int:
+    if client_version is None:
+        client_version = VALID_CLIENT_VERSIONS(max(ALL_CLIENT_VERSIONS))
+    if client_version not in ALL_CLIENT_VERSIONS:
+        raise HTTPException(status_code=404, detail="Client Version not found")
+    return client_version.value
 
 
 def validate_language(language: Language | None = None) -> Language:
