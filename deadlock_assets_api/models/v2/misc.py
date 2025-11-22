@@ -58,12 +58,17 @@ class SubclassModifierDefinition(BaseModel):
 
 
 class PickupDefinition(BaseModel):
-    """Schema for items inside m_vecPrimaryPickups"""
-
     model_config = ConfigDict(populate_by_name=True)
 
     pickup_name: str | None = Field(None, validation_alias="m_sPickup")
     pickup_weight: float | None = Field(None, validation_alias="m_flPickupWeight")
+
+
+class Curve(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    base: float | None = Field(None, validation_alias="m_flBase")
+    per_minute_after_start: float | None = Field(None, validation_alias="m_flPerMinuteAfterStart")
 
 
 class MiscV2(BaseModel):
@@ -120,8 +125,8 @@ class MiscV2(BaseModel):
 
     # Pickup/Powerup Specifics
     modifier: SubclassModifierDefinition | None = Field(None, validation_alias="m_sModifer")
-    pickup_radius: float | None = Field(None, validation_alias="m_flPickupRadius")
-    expiration_duration: float | None = Field(None, validation_alias="m_flPickupExpirationDuration")
+    pickup_radius: Curve | None = Field(None, validation_alias="m_flPickupRadius")
+    expiration_duration: Curve | None = Field(None, validation_alias="m_flPickupExpirationDuration")
     show_on_minimap: bool | None = Field(None, validation_alias="m_bShowOnMinimap")
 
     # XP Orb Specifics
