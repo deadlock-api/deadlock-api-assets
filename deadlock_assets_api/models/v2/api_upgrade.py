@@ -2,9 +2,9 @@ from typing import Literal
 
 from pydantic import ConfigDict, Field, computed_field, BaseModel
 
-from deadlock_assets_api.models.v1.generic_data import load_generic_data
 from deadlock_assets_api.models.v2.api_item_base import ItemBaseV2, ItemPropertyV2, parse_img_path
 from deadlock_assets_api.models.v2.enums import ItemTierV2, ItemSlotTypeV2
+from deadlock_assets_api.models.v2.generic_data import load_generic_data
 from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
 from deadlock_assets_api.models.v2.raw_item_base import RawItemPropertyV2
 from deadlock_assets_api.models.v2.raw_upgrade import (
@@ -301,4 +301,6 @@ class UpgradeV2(ItemBaseV2):
     @property
     def cost(self) -> int | None:
         generic_data = load_generic_data()
+        if not generic_data:
+            return None
         return generic_data.item_price_per_tier[self.item_tier]

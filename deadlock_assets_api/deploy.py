@@ -12,7 +12,6 @@ from deadlock_assets_api.glob import SOUNDS_BASE_URL, SVGS_BASE_URL
 from deadlock_assets_api.main import app
 from deadlock_assets_api.models.languages import Language
 from deadlock_assets_api.models.v1.colors import ColorV1
-from deadlock_assets_api.models.v1.generic_data import GenericDataV1
 from deadlock_assets_api.models.v1.map import MapV1
 from deadlock_assets_api.models.v1.steam_info import SteamInfoV1
 from deadlock_assets_api.models.v2.api_ability import AbilityV2
@@ -21,6 +20,7 @@ from deadlock_assets_api.models.v2.api_item import ItemV2
 from deadlock_assets_api.models.v2.api_upgrade import UpgradeV2
 from deadlock_assets_api.models.v2.api_weapon import WeaponV2
 from deadlock_assets_api.models.v2.build_tag import BuildTagV2
+from deadlock_assets_api.models.v2.generic_data import GenericDataV2
 from deadlock_assets_api.models.v2.misc import MiscV2
 from deadlock_assets_api.models.v2.npc_unit import NPCUnitV2
 from deadlock_assets_api.models.v2.rank import RankV2
@@ -52,9 +52,9 @@ def load_localizations(version_id: int) -> dict[Language, dict[str, str]]:
     return localizations
 
 
-def load_generic_data(version_id: int) -> GenericDataV1:
+def load_generic_data(version_id: int) -> GenericDataV2:
     with open(f"res/builds/{version_id}/v2/generic_data.json") as f:
-        return GenericDataV1.model_validate_json(f.read())
+        return GenericDataV2.model_validate_json(f.read())
 
 
 def load_client_versions() -> list[int]:

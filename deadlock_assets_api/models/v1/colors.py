@@ -18,6 +18,8 @@ class ColorV1(BaseModel):
             a = 255
         elif len(color) == 4:
             r, g, b, a = color
+            if a is None or not isinstance(a, int):
+                a = 255
         else:
             raise ValueError("Color must be a tuple or list of 3 or 4 integers.")
         return cls(red=r, green=g, blue=b, alpha=a)

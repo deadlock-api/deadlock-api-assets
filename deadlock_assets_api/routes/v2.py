@@ -12,6 +12,7 @@ from deadlock_assets_api.models.v2.api_item import ItemV2
 from deadlock_assets_api.models.v2.api_upgrade import UpgradeV2
 from deadlock_assets_api.models.v2.build_tag import BuildTagV2
 from deadlock_assets_api.models.v2.enums import ItemSlotTypeV2, ItemTypeV2
+from deadlock_assets_api.models.v2.generic_data import GenericDataV2
 from deadlock_assets_api.models.v2.misc import MiscV2
 from deadlock_assets_api.models.v2.npc_unit import NPCUnitV2
 from deadlock_assets_api.models.v2.rank import RankV2
@@ -221,4 +222,12 @@ def get_build_tags(
     ta = TypeAdapter(list[BuildTagV2])
     return utils.read_parse_data_ta(
         f"deploy/versions/{client_version}/build_tags/{language.value}.json", ta
+    )
+
+
+@router.get("/generic-data", response_model_exclude_none=True)
+def get_generic_data(client_version: VALID_CLIENT_VERSIONS | None = None) -> GenericDataV2:
+    client_version = utils.validate_client_version(client_version)
+    return utils.read_parse_data_model(
+        f"deploy/versions/{client_version}/generic_data.json", GenericDataV2
     )
