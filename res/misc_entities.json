@@ -145,7 +145,7 @@
     "initial_spawn_time": 120.0,
     "is_mantleable": null,
     "lifetime": null,
-    "loot_list_deck_size": 2,
+    "loot_list_deck_size": 5,
     "m_vecPickups_lv2": [
       {
         "pickup_name": "spirit_permanent_pickup_lv2",
@@ -299,7 +299,7 @@
     "initial_spawn_time": 120.0,
     "is_mantleable": null,
     "lifetime": null,
-    "loot_list_deck_size": 2,
+    "loot_list_deck_size": 5,
     "m_vecPickups_lv2": [
       {
         "pickup_name": "spirit_permanent_pickup_lv2",
@@ -1414,7 +1414,10 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 300.0,
+    "expiration_duration": {
+      "base": 300.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": 23.0,
     "gold_per_minute_amount": 2.0,
     "health": null,
@@ -1432,7 +1435,10 @@
     "modifier": null,
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -1456,7 +1462,10 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 300.0,
+    "expiration_duration": {
+      "base": 300.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
@@ -1489,8 +1498,8 @@
           },
           {
             "value": null,
-            "value_max": 60.0,
-            "value_min": 20.0,
+            "value_max": 70.0,
+            "value_min": 35.0,
             "value_type": "MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT"
           }
         ],
@@ -1502,7 +1511,10 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -1526,7 +1538,10 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 300.0,
+    "expiration_duration": {
+      "base": 300.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
@@ -1545,7 +1560,7 @@
       "subclass": {
         "always_show_in_ui": [
           "MODIFIER_VALUE_HEALTH_MAX",
-          "MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND"
+          "MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND"
         ],
         "class_name": "modifier_citadel_powerup_survival",
         "debuff_type": "MODIFIER_DEBUFF_NO",
@@ -1553,15 +1568,15 @@
         "modifier_values": [
           {
             "value": null,
-            "value_max": 700.0,
+            "value_max": 750.0,
             "value_min": 200.0,
             "value_type": "MODIFIER_VALUE_HEALTH_MAX"
           },
           {
             "value": null,
-            "value_max": 1.5,
-            "value_min": 0.5,
-            "value_type": "MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND"
+            "value_max": 40.0,
+            "value_min": 4.0,
+            "value_type": "MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND"
           }
         ],
         "script_values": null,
@@ -1572,7 +1587,10 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -1596,7 +1614,10 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 300.0,
+    "expiration_duration": {
+      "base": 300.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
@@ -1623,13 +1644,13 @@
         "modifier_values": [
           {
             "value": null,
-            "value_max": 40.0,
+            "value_max": 65.0,
             "value_min": 15.0,
             "value_type": "MODIFIER_VALUE_TECH_POWER"
           },
           {
             "value": null,
-            "value_max": 25.5,
+            "value_max": 20.0,
             "value_min": 12.0,
             "value_type": "MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE"
           }
@@ -1642,7 +1663,10 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -1666,7 +1690,10 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 300.0,
+    "expiration_duration": {
+      "base": 300.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
@@ -1695,7 +1722,7 @@
           {
             "value": null,
             "value_max": 4.0,
-            "value_min": 1.0,
+            "value_min": 2.0,
             "value_type": "MODIFIER_VALUE_STAMINA"
           },
           {
@@ -1725,7 +1752,10 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -1749,7 +1779,10 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 300.0,
+    "expiration_duration": {
+      "base": 300.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
@@ -1779,7 +1812,10 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -1803,7 +1839,10 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 300.0,
+    "expiration_duration": {
+      "base": 300.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
@@ -1833,7 +1872,10 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -1857,7 +1899,10 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 30.0,
+    "expiration_duration": {
+      "base": 30.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
@@ -1894,7 +1939,10 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -1918,7 +1966,10 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 30.0,
+    "expiration_duration": {
+      "base": 30.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
@@ -1955,7 +2006,10 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -1979,7 +2033,10 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 30.0,
+    "expiration_duration": {
+      "base": 30.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
@@ -2016,7 +2073,10 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -2040,7 +2100,10 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 30.0,
+    "expiration_duration": {
+      "base": 30.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
@@ -2077,7 +2140,10 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -2101,7 +2167,10 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 30.0,
+    "expiration_duration": {
+      "base": 30.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
@@ -2138,7 +2207,10 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -2162,7 +2234,10 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 30.0,
+    "expiration_duration": {
+      "base": 30.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
@@ -2199,7 +2274,10 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -2223,7 +2301,10 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 30.0,
+    "expiration_duration": {
+      "base": 30.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
@@ -2260,7 +2341,10 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -2284,7 +2368,10 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 30.0,
+    "expiration_duration": {
+      "base": 30.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
@@ -2321,7 +2408,10 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -2345,7 +2435,10 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 30.0,
+    "expiration_duration": {
+      "base": 30.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
@@ -2382,7 +2475,10 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -2406,7 +2502,10 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 30.0,
+    "expiration_duration": {
+      "base": 30.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
@@ -2443,7 +2542,10 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -2467,7 +2569,10 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 30.0,
+    "expiration_duration": {
+      "base": 30.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
@@ -2504,7 +2609,10 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -2528,7 +2636,10 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 30.0,
+    "expiration_duration": {
+      "base": 30.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
@@ -2565,7 +2676,10 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -2589,11 +2703,81 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 30.0,
+    "expiration_duration": {
+      "base": 30.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
     "id": 2848399878,
+    "initial_spawn_delay_in_seconds": null,
+    "initial_spawn_delay_seconds": null,
+    "initial_spawn_time": null,
+    "is_mantleable": null,
+    "lifetime": null,
+    "loot_list_deck_size": null,
+    "m_vecPickups_lv2": null,
+    "m_vecPickups_lv3": null,
+    "match_time_mins_for_level2_pickups": null,
+    "match_time_mins_for_level3_pickups": null,
+    "modifier": {
+      "subclass": {
+        "always_show_in_ui": null,
+        "class_name": "modifier_permanent_pickup",
+        "debuff_type": null,
+        "duration": null,
+        "modifier_values": null,
+        "script_values": [
+          {
+            "value": 0.5,
+            "value_max": null,
+            "value_min": null,
+            "value_type": "MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE"
+          }
+        ],
+        "subclass_name": "modifier_permanent_pickup",
+        "time_max": null,
+        "time_min": null
+      }
+    },
+    "orb_spawn_delay_max": null,
+    "orb_spawn_delay_min": null,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
+    "primary_drop_chance": null,
+    "primary_pickups": null,
+    "render_after_death": null,
+    "respawn_time": null,
+    "roll_type": null,
+    "show_on_minimap": false,
+    "solid_after_death": null,
+    "spawn_interval": null,
+    "spawn_interval_in_seconds": null
+  },
+  {
+    "break_on_dodge_touch": null,
+    "class_name": "cd_permanent_pickup_lv2",
+    "collision_radius": null,
+    "color": {
+      "alpha": 255,
+      "blue": 200,
+      "green": 0,
+      "red": 0
+    },
+    "damaged_by_abilities": null,
+    "damaged_by_bullets": null,
+    "damaged_by_melee": null,
+    "expiration_duration": {
+      "base": 30.0,
+      "per_minute_after_start": 0.0
+    },
+    "gold_amount": null,
+    "gold_per_minute_amount": null,
+    "health": null,
+    "id": 2833086415,
     "initial_spawn_delay_in_seconds": null,
     "initial_spawn_delay_seconds": null,
     "initial_spawn_time": null,
@@ -2626,7 +2810,10 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -2639,7 +2826,7 @@
   },
   {
     "break_on_dodge_touch": null,
-    "class_name": "cd_permanent_pickup_lv2",
+    "class_name": "cd_permanent_pickup_lv3",
     "collision_radius": null,
     "color": {
       "alpha": 255,
@@ -2650,11 +2837,14 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 30.0,
+    "expiration_duration": {
+      "base": 30.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
-    "id": 2833086415,
+    "id": 540531328,
     "initial_spawn_delay_in_seconds": null,
     "initial_spawn_delay_seconds": null,
     "initial_spawn_time": null,
@@ -2687,68 +2877,10 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
-    "primary_drop_chance": null,
-    "primary_pickups": null,
-    "render_after_death": null,
-    "respawn_time": null,
-    "roll_type": null,
-    "show_on_minimap": false,
-    "solid_after_death": null,
-    "spawn_interval": null,
-    "spawn_interval_in_seconds": null
-  },
-  {
-    "break_on_dodge_touch": null,
-    "class_name": "cd_permanent_pickup_lv3",
-    "collision_radius": null,
-    "color": {
-      "alpha": 255,
-      "blue": 200,
-      "green": 0,
-      "red": 0
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
     },
-    "damaged_by_abilities": null,
-    "damaged_by_bullets": null,
-    "damaged_by_melee": null,
-    "expiration_duration": 30.0,
-    "gold_amount": null,
-    "gold_per_minute_amount": null,
-    "health": null,
-    "id": 540531328,
-    "initial_spawn_delay_in_seconds": null,
-    "initial_spawn_delay_seconds": null,
-    "initial_spawn_time": null,
-    "is_mantleable": null,
-    "lifetime": null,
-    "loot_list_deck_size": null,
-    "m_vecPickups_lv2": null,
-    "m_vecPickups_lv3": null,
-    "match_time_mins_for_level2_pickups": null,
-    "match_time_mins_for_level3_pickups": null,
-    "modifier": {
-      "subclass": {
-        "always_show_in_ui": null,
-        "class_name": "modifier_permanent_pickup",
-        "debuff_type": null,
-        "duration": null,
-        "modifier_values": null,
-        "script_values": [
-          {
-            "value": 1.5,
-            "value_max": null,
-            "value_min": null,
-            "value_type": "MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE"
-          }
-        ],
-        "subclass_name": "modifier_permanent_pickup",
-        "time_max": null,
-        "time_min": null
-      }
-    },
-    "orb_spawn_delay_max": null,
-    "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -2772,7 +2904,10 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 30.0,
+    "expiration_duration": {
+      "base": 30.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
@@ -2809,7 +2944,10 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -2833,7 +2971,10 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 30.0,
+    "expiration_duration": {
+      "base": 30.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
@@ -2870,7 +3011,10 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
@@ -2894,7 +3038,10 @@
     "damaged_by_abilities": null,
     "damaged_by_bullets": null,
     "damaged_by_melee": null,
-    "expiration_duration": 30.0,
+    "expiration_duration": {
+      "base": 30.0,
+      "per_minute_after_start": 0.0
+    },
     "gold_amount": null,
     "gold_per_minute_amount": null,
     "health": null,
@@ -2931,13 +3078,208 @@
     },
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
-    "pickup_radius": 85.0,
+    "pickup_radius": {
+      "base": 85.0,
+      "per_minute_after_start": 0.0
+    },
     "primary_drop_chance": null,
     "primary_pickups": null,
     "render_after_death": null,
     "respawn_time": null,
     "roll_type": null,
     "show_on_minimap": false,
+    "solid_after_death": null,
+    "spawn_interval": null,
+    "spawn_interval_in_seconds": null
+  },
+  {
+    "break_on_dodge_touch": null,
+    "class_name": "street_brawl_health_pickup",
+    "collision_radius": null,
+    "color": {
+      "alpha": 0,
+      "blue": 0,
+      "green": 0,
+      "red": 0
+    },
+    "damaged_by_abilities": null,
+    "damaged_by_bullets": null,
+    "damaged_by_melee": null,
+    "expiration_duration": {
+      "base": 18.0,
+      "per_minute_after_start": 2.0
+    },
+    "gold_amount": null,
+    "gold_per_minute_amount": null,
+    "health": null,
+    "id": 795535459,
+    "initial_spawn_delay_in_seconds": null,
+    "initial_spawn_delay_seconds": null,
+    "initial_spawn_time": null,
+    "is_mantleable": null,
+    "lifetime": null,
+    "loot_list_deck_size": null,
+    "m_vecPickups_lv2": null,
+    "m_vecPickups_lv3": null,
+    "match_time_mins_for_level2_pickups": null,
+    "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
+    "orb_spawn_delay_max": null,
+    "orb_spawn_delay_min": null,
+    "pickup_radius": {
+      "base": 709.0,
+      "per_minute_after_start": 0.0
+    },
+    "primary_drop_chance": null,
+    "primary_pickups": null,
+    "render_after_death": null,
+    "respawn_time": null,
+    "roll_type": null,
+    "show_on_minimap": null,
+    "solid_after_death": null,
+    "spawn_interval": null,
+    "spawn_interval_in_seconds": null
+  },
+  {
+    "break_on_dodge_touch": null,
+    "class_name": "dropped_soul_orb",
+    "collision_radius": null,
+    "color": {
+      "alpha": 0,
+      "blue": 0,
+      "green": 0,
+      "red": 0
+    },
+    "damaged_by_abilities": null,
+    "damaged_by_bullets": null,
+    "damaged_by_melee": null,
+    "expiration_duration": {
+      "base": 18.0,
+      "per_minute_after_start": 4.0
+    },
+    "gold_amount": null,
+    "gold_per_minute_amount": null,
+    "health": null,
+    "id": 607220400,
+    "initial_spawn_delay_in_seconds": null,
+    "initial_spawn_delay_seconds": null,
+    "initial_spawn_time": null,
+    "is_mantleable": null,
+    "lifetime": null,
+    "loot_list_deck_size": null,
+    "m_vecPickups_lv2": null,
+    "m_vecPickups_lv3": null,
+    "match_time_mins_for_level2_pickups": null,
+    "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
+    "orb_spawn_delay_max": null,
+    "orb_spawn_delay_min": null,
+    "pickup_radius": {
+      "base": 709.0,
+      "per_minute_after_start": 0.0
+    },
+    "primary_drop_chance": null,
+    "primary_pickups": null,
+    "render_after_death": null,
+    "respawn_time": null,
+    "roll_type": null,
+    "show_on_minimap": null,
+    "solid_after_death": null,
+    "spawn_interval": null,
+    "spawn_interval_in_seconds": null
+  },
+  {
+    "break_on_dodge_touch": null,
+    "class_name": "medic_trooper_aoe_health_pickup_amber",
+    "collision_radius": null,
+    "color": {
+      "alpha": 0,
+      "blue": 0,
+      "green": 0,
+      "red": 0
+    },
+    "damaged_by_abilities": null,
+    "damaged_by_bullets": null,
+    "damaged_by_melee": null,
+    "expiration_duration": {
+      "base": 18.0,
+      "per_minute_after_start": 2.0
+    },
+    "gold_amount": null,
+    "gold_per_minute_amount": null,
+    "health": null,
+    "id": 1653866732,
+    "initial_spawn_delay_in_seconds": null,
+    "initial_spawn_delay_seconds": null,
+    "initial_spawn_time": null,
+    "is_mantleable": null,
+    "lifetime": null,
+    "loot_list_deck_size": null,
+    "m_vecPickups_lv2": null,
+    "m_vecPickups_lv3": null,
+    "match_time_mins_for_level2_pickups": null,
+    "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
+    "orb_spawn_delay_max": null,
+    "orb_spawn_delay_min": null,
+    "pickup_radius": {
+      "base": 709.0,
+      "per_minute_after_start": 0.0
+    },
+    "primary_drop_chance": null,
+    "primary_pickups": null,
+    "render_after_death": null,
+    "respawn_time": null,
+    "roll_type": null,
+    "show_on_minimap": null,
+    "solid_after_death": null,
+    "spawn_interval": null,
+    "spawn_interval_in_seconds": null
+  },
+  {
+    "break_on_dodge_touch": null,
+    "class_name": "medic_trooper_aoe_health_pickup_sapphire",
+    "collision_radius": null,
+    "color": {
+      "alpha": 0,
+      "blue": 0,
+      "green": 0,
+      "red": 0
+    },
+    "damaged_by_abilities": null,
+    "damaged_by_bullets": null,
+    "damaged_by_melee": null,
+    "expiration_duration": {
+      "base": 18.0,
+      "per_minute_after_start": 2.0
+    },
+    "gold_amount": null,
+    "gold_per_minute_amount": null,
+    "health": null,
+    "id": 207112043,
+    "initial_spawn_delay_in_seconds": null,
+    "initial_spawn_delay_seconds": null,
+    "initial_spawn_time": null,
+    "is_mantleable": null,
+    "lifetime": null,
+    "loot_list_deck_size": null,
+    "m_vecPickups_lv2": null,
+    "m_vecPickups_lv3": null,
+    "match_time_mins_for_level2_pickups": null,
+    "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
+    "orb_spawn_delay_max": null,
+    "orb_spawn_delay_min": null,
+    "pickup_radius": {
+      "base": 709.0,
+      "per_minute_after_start": 0.0
+    },
+    "primary_drop_chance": null,
+    "primary_pickups": null,
+    "render_after_death": null,
+    "respawn_time": null,
+    "roll_type": null,
+    "show_on_minimap": null,
     "solid_after_death": null,
     "spawn_interval": null,
     "spawn_interval_in_seconds": null
@@ -3458,7 +3800,7 @@
     "show_on_minimap": null,
     "solid_after_death": null,
     "spawn_interval": null,
-    "spawn_interval_in_seconds": 180
+    "spawn_interval_in_seconds": 120
   },
   {
     "break_on_dodge_touch": null,
