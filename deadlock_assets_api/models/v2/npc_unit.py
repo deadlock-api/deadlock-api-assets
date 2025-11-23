@@ -10,12 +10,91 @@ from deadlock_assets_api.models.v2.raw_weapon import RawWeaponInfoV2
 LOGGER = logging.getLogger(__name__)
 
 
+class BulletResistModifier(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    bullet_resist: int | None = Field(None, validation_alias="m_BulletResist")
+    bullet_resist_reduction_per_hero: int | None = Field(
+        None, validation_alias="m_BulletResistReductionPerHero"
+    )
+
+
+class SubclassBulletResistModifier(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    subclass: BulletResistModifier = Field(None, validation_alias="subclass")
+
+
+class TrooperDamageReduction(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    damage_reduction_for_troopers: float | None = Field(
+        None, validation_alias="m_flDamageReductionForTroopers"
+    )
+
+
+class SubclassTrooperDamageReduction(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    subclass: TrooperDamageReduction = Field(None, validation_alias="subclass")
+
+
+class RangedArmorModifier(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    range_min: float | None = Field(None, validation_alias="m_flRangeMin")
+    range_max: float | None = Field(None, validation_alias="m_flRangeMax")
+    invuln_range: float | None = Field(None, validation_alias="m_flInvulnRange")
+
+
+class SubclassRangedArmorModifier(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    subclass: RangedArmorModifier = Field(None, validation_alias="subclass")
+
+
+class ScriptValues(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    modifier_value: str | None = Field(None, validation_alias="m_eModifierValue")
+    value: float | None = Field(None, validation_alias="m_value")
+
+
+class IntrinsicModifiers(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    script_values: list[ScriptValues] | None = Field(None, validation_alias="m_vecScriptValues")
+
+
+class SubclassIntrinsicModifiers(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    subclass: IntrinsicModifiers = Field(None, validation_alias="subclass")
+
+
 class NPCUnitV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     class_name: str
     weapon_info: RawWeaponInfoV2 | None = Field(None, validation_alias="m_WeaponInfo")
     max_health: int | None = Field(None, validation_alias="m_nMaxHealth")
+    max_health_final: int | None = Field(None, validation_alias="m_iMaxHealthFinal")
+    max_health_generator: int | None = Field(None, validation_alias="m_iMaxHealthGenerator")
+    enemy_trooper_protection_range: float | None = Field(
+        None, validation_alias="m_flEnemyTrooperProtectionRange"
+    )
+    backdoor_bullet_resist_modifier: SubclassBulletResistModifier | None = Field(
+        None, validation_alias="m_BackdoorBulletResistModifier"
+    )
+    enemy_trooper_damage_reduction: SubclassTrooperDamageReduction | None = Field(
+        None, validation_alias="m_EnemyTrooperDamageReduction"
+    )
+    ranged_armor_modifier: SubclassRangedArmorModifier | None = Field(
+        None, validation_alias="m_RangedArmorModifier"
+    )
+    intrinsic_modifiers: list[SubclassIntrinsicModifiers] | None = Field(
+        None, validation_alias="m_vecIntrinsicModifiers"
+    )
     sight_range_players: float | None = Field(None, validation_alias="m_flSightRangePlayers")
     sight_range_npcs: float | None = Field(None, validation_alias="m_flSightRangeNPCs")
     gold_reward: float | None = Field(None, validation_alias="m_flGoldReward")
