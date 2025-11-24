@@ -5,6 +5,7 @@ from murmurhash2 import murmurhash2
 from pydantic import ConfigDict, Field, BaseModel, computed_field, WithJsonSchema, field_validator
 
 from deadlock_assets_api.models.v1.colors import ColorV1
+from deadlock_assets_api.models.v2.enums import HeroItemTypeV2
 from deadlock_assets_api.models.v2.raw_weapon import RawWeaponInfoV2
 
 LOGGER = logging.getLogger(__name__)
@@ -72,12 +73,49 @@ class SubclassIntrinsicModifiers(BaseModel):
     subclass: IntrinsicModifiers = Field(None, validation_alias="subclass")
 
 
+class ObjectiveRegen(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    out_of_combat_health_regen: int | None = Field(
+        None, validation_alias="m_flOutOfCombatHealthRegen"
+    )
+    out_of_combat_regen_delay: float | None = Field(
+        None, validation_alias="m_flOutOfCombatRegenDelay"
+    )
+
+
+class SubclassObjectiveRegen(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    subclass: ObjectiveRegen = Field(None, validation_alias="subclass")
+
+
+class ObjectiveHealthGrowthPhase(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    growth_per_minute: int | None = Field(None, validation_alias="m_iGrowthPerMinute")
+    tick_rate: float | None = Field(None, validation_alias="m_flTickRate")
+    growth_start_time_in_minutes: int | None = Field(
+        None, validation_alias="m_iGrowthStartTimeInMinutes"
+    )
+
+
+class SubclassObjectiveHealthGrowthPhase(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    subclass: ObjectiveHealthGrowthPhase = Field(None, validation_alias="subclass")
+
+
 class NPCUnitV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     class_name: str
     weapon_info: RawWeaponInfoV2 | None = Field(None, validation_alias="m_WeaponInfo")
     max_health: int | None = Field(None, validation_alias="m_nMaxHealth")
+    phase2_health: int | None = Field(None, validation_alias="m_nPhase2Health")
+    bound_abilities: dict[HeroItemTypeV2, str] | None = Field(
+        None, validation_alias="m_mapBoundAbilities"
+    )
     max_health_final: int | None = Field(None, validation_alias="m_iMaxHealthFinal")
     max_health_generator: int | None = Field(None, validation_alias="m_iMaxHealthGenerator")
     enemy_trooper_protection_range: float | None = Field(
@@ -85,6 +123,15 @@ class NPCUnitV2(BaseModel):
     )
     backdoor_bullet_resist_modifier: SubclassBulletResistModifier | None = Field(
         None, validation_alias="m_BackdoorBulletResistModifier"
+    )
+    objective_regen: SubclassObjectiveRegen | None = Field(
+        None, validation_alias="m_ObjectiveRegen"
+    )
+    objective_health_growth_phase1: SubclassObjectiveHealthGrowthPhase | None = Field(
+        None, validation_alias="m_ObjectiveHealthGrowthPhase1"
+    )
+    objective_health_growth_phase2: SubclassObjectiveHealthGrowthPhase | None = Field(
+        None, validation_alias="m_ObjectiveHealthGrowthPhase2"
     )
     enemy_trooper_damage_reduction: SubclassTrooperDamageReduction | None = Field(
         None, validation_alias="m_EnemyTrooperDamageReduction"
@@ -120,6 +167,17 @@ class NPCUnitV2(BaseModel):
         None, validation_alias="m_flBarrackGuardianDamageResistPct"
     )
     near_death_duration: float | None = Field(None, validation_alias="m_flNearDeathDuration")
+    laser_dpsto_players: float | None = Field(None, validation_alias="m_flLaserDPSToPlayers")
+    laser_dpsmax_health: float | None = Field(None, validation_alias="m_flLaserDPSMaxHealth")
+    no_shield_laser_dpsto_players: float | None = Field(
+        None, validation_alias="m_flNoShieldLaserDPSToPlayers"
+    )
+    stomp_damage: float | None = Field(None, validation_alias="m_flStompDamage")
+    stomp_damage_max_health_percent: float | None = Field(
+        None, validation_alias="m_flStompDamageMaxHealthPercent"
+    )
+    stun_duration: float | None = Field(None, validation_alias="m_flStunDuration")
+    stomp_impact_radius: float | None = Field(None, validation_alias="m_flStompImpactRadius")
     walk_speed: float | None = Field(None, validation_alias="m_flWalkSpeed")
     run_speed: float | None = Field(None, validation_alias="m_flRunSpeed")
     acceleration: float | None = Field(None, validation_alias="m_flAcceleration")
