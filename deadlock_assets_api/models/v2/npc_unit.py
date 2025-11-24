@@ -167,9 +167,9 @@ class NPCUnitV2(BaseModel):
         None, validation_alias="m_flBarrackGuardianDamageResistPct"
     )
     near_death_duration: float | None = Field(None, validation_alias="m_flNearDeathDuration")
-    laser_dpsto_players: float | None = Field(None, validation_alias="m_flLaserDPSToPlayers")
-    laser_dpsmax_health: float | None = Field(None, validation_alias="m_flLaserDPSMaxHealth")
-    no_shield_laser_dpsto_players: float | None = Field(
+    laser_dps_to_players: float | None = Field(None, validation_alias="m_flLaserDPSToPlayers")
+    laser_dps_max_health: float | None = Field(None, validation_alias="m_flLaserDPSMaxHealth")
+    no_shield_laser_dps_to_players: float | None = Field(
         None, validation_alias="m_flNoShieldLaserDPSToPlayers"
     )
     stomp_damage: float | None = Field(None, validation_alias="m_flStompDamage")
