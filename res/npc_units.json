@@ -2773,7 +2773,7 @@
         }
       }
     ],
-    "max_health": 4250,
+    "max_health": 5500,
     "max_health_final": null,
     "max_health_generator": null,
     "melee_attempt_range": 196.85,
@@ -2964,7 +2964,7 @@
         }
       }
     ],
-    "max_health": 3225,
+    "max_health": 5500,
     "max_health_final": null,
     "max_health_generator": null,
     "melee_attempt_range": 196.85,
@@ -3230,7 +3230,7 @@
         }
       }
     ],
-    "max_health": 4250,
+    "max_health": 5500,
     "max_health_final": null,
     "max_health_generator": null,
     "melee_attempt_range": 196.85,
