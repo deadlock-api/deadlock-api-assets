@@ -1,10 +1,62 @@
 from typing import Literal
 
-from pydantic import ConfigDict
+from pydantic import ConfigDict, computed_field
 
 from deadlock_assets_api.models.v2.api_item_base import ItemBaseV2
 from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
 from deadlock_assets_api.models.v2.raw_weapon import RawWeaponInfoV2, RawWeaponV2
+
+
+class WeaponInfoV2(RawWeaponInfoV2):
+    model_config = ConfigDict(populate_by_name=True)
+
+    @computed_field(description="Calculates the shots per second of the weapon")
+    @property
+    def shots_per_second(self) -> float | None:
+        if self.cycle_time is None:
+            return None
+        intra_burst_cycle_time = self.intra_burst_cycle_time or 0
+        burst_shot_count = self.burst_shot_count or 1
+        adjusted_cycle_time = (burst_shot_count * intra_burst_cycle_time) + self.cycle_time
+        return burst_shot_count / adjusted_cycle_time if adjusted_cycle_time else 0
+
+    @computed_field(
+        description="Calculates the bullets per second of the weapon, by multiplying shots per second by bullets per shot."
+    )
+    @property
+    def bullets_per_second(self) -> float | None:
+        return (
+            self.shots_per_second * self.bullets if self.shots_per_second and self.bullets else None
+        )
+
+    @computed_field(
+        description="Calculates the damage per second of the weapon, by multiplying bullets per second by bullet damage."
+    )
+    @property
+    def damage_per_second(self) -> float | None:
+        return (
+            self.bullets_per_second * self.bullet_damage
+            if self.bullets_per_second and self.bullet_damage
+            else None
+        )
+
+    @computed_field(
+        description="Calculates the damage per shot of the weapon, by multiplying bullets per shot by bullet damage."
+    )
+    @property
+    def damage_per_shot(self) -> float | None:
+        return self.bullets * self.bullet_damage if self.bullets and self.bullet_damage else None
+
+    @computed_field(
+        description="Calculates the damage per magazine of the weapon, by multiplying clip size by damage per shot."
+    )
+    @property
+    def damage_per_magazine(self) -> float | None:
+        return (
+            self.clip_size * self.damage_per_shot
+            if self.clip_size and self.clip_size > 0 and self.damage_per_shot
+            else None
+        )
 
 
 class WeaponV2(ItemBaseV2):
@@ -12,7 +64,7 @@ class WeaponV2(ItemBaseV2):
 
     type: Literal["weapon"] = "weapon"
 
-    weapon_info: RawWeaponInfoV2 | None = None
+    weapon_info: WeaponInfoV2 | None = None
 
     @classmethod
     def from_raw_item(

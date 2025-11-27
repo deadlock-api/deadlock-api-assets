@@ -5,8 +5,8 @@ from murmurhash2 import murmurhash2
 from pydantic import ConfigDict, Field, BaseModel, computed_field, WithJsonSchema, field_validator
 
 from deadlock_assets_api.models.v1.colors import ColorV1
+from deadlock_assets_api.models.v2.api_weapon import WeaponInfoV2
 from deadlock_assets_api.models.v2.enums import HeroItemTypeV2
-from deadlock_assets_api.models.v2.raw_weapon import RawWeaponInfoV2
 
 LOGGER = logging.getLogger(__name__)
 
@@ -110,7 +110,7 @@ class NPCUnitV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     class_name: str
-    weapon_info: RawWeaponInfoV2 | None = Field(None, validation_alias="m_WeaponInfo")
+    weapon_info: WeaponInfoV2 | None = Field(None, validation_alias="m_WeaponInfo")
     max_health: int | None = Field(None, validation_alias="m_nMaxHealth")
     phase2_health: int | None = Field(None, validation_alias="m_nPhase2Health")
     bound_abilities: dict[HeroItemTypeV2, str] | None = Field(
