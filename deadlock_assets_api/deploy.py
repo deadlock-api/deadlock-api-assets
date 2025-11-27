@@ -1,7 +1,7 @@
 import json
+import multiprocessing as mp
 import os
 import sys
-from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import css_parser
 import stringcase
@@ -272,13 +272,12 @@ if __name__ == "__main__":
             json.dump(items, f)
         print(f"Finished {language} assets")
 
-    with ThreadPoolExecutor(24) as executor:
-        futures = [
-            executor.submit(build_language_data, lang, loc) for lang, loc in localizations.items()
-        ]
-        for future in as_completed(futures):
-            future.result()
-
     openapi_scheme = app.openapi()
     with open(f"{out_folder}/openapi.json", "w") as f:
         json.dump(openapi_scheme, f)
+
+    with mp.get_context("fork").Pool(processes=min(12, os.cpu_count() or 1)) as pool:
+        pool.starmap(
+            build_language_data,
+            [(language, localizations[language]) for language in Language],
+        )
