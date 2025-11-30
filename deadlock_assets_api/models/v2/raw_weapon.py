@@ -68,6 +68,7 @@ class RawWeaponInfoV2(BaseModel):
     recoil_recovery_delay_factor: float | None = Field(
         None, validation_alias="m_flRecoilRecoveryDelayFactor"
     )
+    bullet_speed: float | None = Field(None, validation_alias="m_flBulletSpeed")
     recoil_recovery_speed: float | None = Field(None, validation_alias="m_flRecoilRecoverySpeed")
     recoil_shot_index_recovery_time_factor: float | None = Field(
         None, validation_alias="m_flRecoilShotIndexRecoveryTimeFactor"
