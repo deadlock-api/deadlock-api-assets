@@ -2260,7 +2260,7 @@
       "citadel_ability_sticky_bomb_desc": "Przyczep bomb\u0119, kt\u00f3ra eksploduje po op\u00f3\u017anieniu, zadaj\u0105c pobliskim wrogom {g:citadel_inline_attribute:'SpiritDamage'}.<br><br>Je\u015bli bomba trafi lub zabije bohatera, zyskujesz <span class=\"highlight\">trwa\u0142\u0105 premi\u0119 do obra\u017ce\u0144</span> od bomby.<br><br><span class=\"diminish\">Przytrzymaj {g:citadel_binding:'AltCast'}, by przyczepi\u0107 bomb\u0119 do siebie.",
       "citadel_ability_sticky_bomb_quip": "Pod\u0142\u00f3\u017c bomb\u0119 na wrogu.",
       "citadel_ability_sticky_bomb_t3_desc": "Po rzucie: nak\u0142ada <span class=\"highlight\">{s:MovementSpeedBonus}\u00a0m/s</span> na <span class=\"highlight\">{s:MovementSpeedBonusDuration}\u00a0s</span>.",
-      "citadel_ability_stomp": "Puls Kinetyczny",
+      "citadel_ability_stomp": "Kinetyczny Puls",
       "citadel_ability_stomp_desc": "Wyzw\u00f3l impuls energii przemieszczaj\u0105cy si\u0119 po ziemi, zadaj\u0105c celom {g:citadel_inline_attribute:'SpiritDamage'} oraz <panel class=\"InlineAttributeIcon KnockUp\" replacechar=\"_\"><span class=\"InlineAttributeName KnockUp\">wyrzucaj\u0105c je w powietrze</span>.",
       "citadel_ability_stomp_quip": "Uwolnij puls energii, kt\u00f3ry wyrzuca wrog\u00f3w w powietrze.",
       "citadel_ability_stomp_t1_desc": "Po trafieniu: <span class=\"highlight\">{s:SlowPercent}%</span> spowolnienia i <span class=\"highlight\">{s:BonusFireRate}%</span> szybkostrzelno\u015bci na {s:SlowDuration}\u00a0s.",

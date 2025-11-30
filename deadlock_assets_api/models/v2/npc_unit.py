@@ -11,6 +11,20 @@ from deadlock_assets_api.models.v2.enums import HeroItemTypeV2
 LOGGER = logging.getLogger(__name__)
 
 
+class EmpoweredModifierLevel(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    max_health: int | None = Field(None, validation_alias="m_nMaxHealth")
+    transition_duration: float | None = Field(None, validation_alias="m_flTransitionDuration")
+    model_scale: float | None = Field(None, validation_alias="m_flModelScale")
+
+
+class SubclassEmpoweredModifierLevel(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    subclass: EmpoweredModifierLevel = Field(None, validation_alias="subclass")
+
+
 class BulletResistModifier(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
@@ -120,6 +134,12 @@ class NPCUnitV2(BaseModel):
     max_health_generator: int | None = Field(None, validation_alias="m_iMaxHealthGenerator")
     enemy_trooper_protection_range: float | None = Field(
         None, validation_alias="m_flEnemyTrooperProtectionRange"
+    )
+    empowered_modifier_level1: SubclassEmpoweredModifierLevel | None = Field(
+        None, validation_alias="m_EmpoweredModifierLevel1"
+    )
+    empowered_modifier_level2: SubclassEmpoweredModifierLevel | None = Field(
+        None, validation_alias="m_EmpoweredModifierLevel2"
     )
     backdoor_bullet_resist_modifier: SubclassBulletResistModifier | None = Field(
         None, validation_alias="m_BackdoorBulletResistModifier"
