@@ -21,12 +21,41 @@ class WeaponInfoV2(RawWeaponInfoV2):
         return burst_shot_count / adjusted_cycle_time if adjusted_cycle_time else 0
 
     @computed_field(
+        description="Calculates the shots per second of the weapon adjusted for reload time"
+    )
+    @property
+    def shots_per_second_with_reload(self) -> float | None:
+        if self.cycle_time is None or self.reload_duration is None or self.clip_size is None:
+            return None
+        intra_burst_cycle_time = self.intra_burst_cycle_time or 0
+        burst_shot_count = self.burst_shot_count or 1
+        recoil_shot_index_recovery_time_factor = self.recoil_shot_index_recovery_time_factor or 0
+        adjusted_cycle_time = (burst_shot_count * intra_burst_cycle_time) + self.cycle_time
+        total_time_per_clip = (
+            (self.clip_size / burst_shot_count) * adjusted_cycle_time
+            + recoil_shot_index_recovery_time_factor
+            + self.reload_duration
+        )
+        return self.clip_size / total_time_per_clip if total_time_per_clip else 0
+
+    @computed_field(
         description="Calculates the bullets per second of the weapon, by multiplying shots per second by bullets per shot."
     )
     @property
     def bullets_per_second(self) -> float | None:
         return (
             self.shots_per_second * self.bullets if self.shots_per_second and self.bullets else None
+        )
+
+    @computed_field(
+        description="Calculates the bullets per second of the weapon adjusted for reload time."
+    )
+    @property
+    def bullets_per_second_with_reload(self) -> float | None:
+        return (
+            self.shots_per_second_with_reload * self.bullets
+            if self.shots_per_second_with_reload and self.bullets
+            else None
         )
 
     @computed_field(
@@ -37,6 +66,17 @@ class WeaponInfoV2(RawWeaponInfoV2):
         return (
             self.bullets_per_second * self.bullet_damage
             if self.bullets_per_second and self.bullet_damage
+            else None
+        )
+
+    @computed_field(
+        description="Calculates the damage per second of the weapon adjusted for reload time."
+    )
+    @property
+    def damage_per_second_with_reload(self) -> float | None:
+        return (
+            self.bullets_per_second_with_reload * self.bullet_damage
+            if self.bullets_per_second_with_reload and self.bullet_damage
             else None
         )
 
