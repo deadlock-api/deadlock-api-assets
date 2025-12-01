@@ -48,8 +48,14 @@ class RawWeaponInfoV2(BaseModel):
     crit_bonus_start: float | None = Field(None, validation_alias="m_flCritBonusStart")
     crit_bonus_start_range: float | None = Field(None, validation_alias="m_flCritBonusStartRange")
     cycle_time: float | None = Field(None, validation_alias="m_flCycleTime")
-    intra_burst_cycle_time: float | None = Field(None, validation_alias="m_flIntraBurstCycleTime")
+    spins_up: bool | None = Field(None, validation_alias="m_bSpinsUp")
+    is_semi_auto: bool | None = Field(None, validation_alias="m_bIsSemiAuto")
+    semi_auto_cycle_rate: float | None = Field(None, validation_alias="m_flSemiAutoCycleRate")
     max_spin_cycle_time: float | None = Field(None, validation_alias="m_flMaxSpinCycleTime")
+    spin_increase_rate: float | None = Field(None, validation_alias="m_flSpinIncreaseRate")
+    spin_decay_rate: float | None = Field(None, validation_alias="m_flSpinDecayRate")
+    build_up_rate: float | None = Field(None, validation_alias="m_flBuildUpRate")
+    intra_burst_cycle_time: float | None = Field(None, validation_alias="m_flIntraBurstCycleTime")
     damage_falloff_bias: float | None = Field(None, validation_alias="m_flDamageFalloffBias")
     damage_falloff_end_range: float | None = Field(
         None, validation_alias="m_flDamageFalloffEndRange"
