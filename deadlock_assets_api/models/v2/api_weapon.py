@@ -30,11 +30,21 @@ class WeaponInfoV2(RawWeaponInfoV2):
         intra_burst_cycle_time = self.intra_burst_cycle_time or 0
         burst_shot_count = self.burst_shot_count or 1
         recoil_shot_index_recovery_time_factor = self.recoil_shot_index_recovery_time_factor or 0
-        adjusted_cycle_time = (burst_shot_count * intra_burst_cycle_time) + self.cycle_time
+
+        full_bursts_in_clip = self.clip_size // burst_shot_count
+        total_burst_time = (
+            full_bursts_in_clip * ((burst_shot_count * intra_burst_cycle_time) + self.cycle_time)
+            - intra_burst_cycle_time
+        )
+
+        remaining_shots_in_clip = self.clip_size % burst_shot_count
+        total_remaining_shot_time = remaining_shots_in_clip * intra_burst_cycle_time
+
         total_time_per_clip = (
-            (self.clip_size / burst_shot_count) * adjusted_cycle_time
-            + recoil_shot_index_recovery_time_factor
+            total_burst_time
+            + total_remaining_shot_time
             + self.reload_duration
+            + recoil_shot_index_recovery_time_factor
         )
         return self.clip_size / total_time_per_clip if total_time_per_clip else 0
 
