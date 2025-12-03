@@ -175,6 +175,7 @@ find images -type f -name "*.png" -print0 | xargs -0 -P 24 -I {} sh -c '
 
 # Rename Images, replace "_psd." and "_png." with "."
 find images -type f -name "*_psd.*" -exec bash -c 'mv "$1" "${1/_psd./.}"' _ {} \;
+find images -type f -name "*_psd_128.*" -exec bash -c 'mv "$1" "${1/_psd_128./.}"' _ {} \;
 find images -type f -name "*_png.*" -exec bash -c 'mv "$1" "${1/_png./.}"' _ {} \;
 
 # Optimize images
