@@ -8,7 +8,7 @@ import stringcase
 from css_parser.css import ColorValue, CSSUnknownRule
 from pydantic import TypeAdapter
 
-from deadlock_assets_api.glob import SOUNDS_BASE_URL, SVGS_BASE_URL
+from deadlock_assets_api.glob import SOUNDS_BASE_URL, SVGS_BASE_URL, IMAGE_BASE_URL
 from deadlock_assets_api.main import app
 from deadlock_assets_api.models.languages import Language
 from deadlock_assets_api.models.v1.colors import ColorV1
@@ -136,6 +136,18 @@ def load_icons_data() -> dict:
     return {i.rstrip(".svg").rstrip(".png"): f"{SVGS_BASE_URL}/{i}" for i in all_icons}
 
 
+def load_images_data() -> dict:
+    all_images = {}
+    for root, _, files in os.walk("images"):
+        for file in files:
+            if not (file.endswith(".png") or file.endswith(".jpg") or file.endswith(".svg")):
+                continue
+            relative_path = os.path.relpath(os.path.join(root, file), "images")
+            key = relative_path.replace("\\", "/").rsplit(".", 1)[0]
+            all_images[key] = f"{IMAGE_BASE_URL}/{relative_path.replace('\\', '/')}"
+    return all_images
+
+
 def load_raw_heroes(version_id: int) -> list[RawHeroV2]:
     path = f"res/builds/{version_id}/v2/raw_heroes.json"
     with open(path) as f:
@@ -210,6 +222,7 @@ if __name__ == "__main__":
     colors_data = load_colors_data()
     client_versions = load_client_versions()
     icons_data = load_icons_data()
+    images_data = load_images_data()
     npc_units = load_npc_units(version_id)
     misc_entities = load_misc_entities(version_id)
     raw_heroes = load_raw_heroes(version_id)
@@ -239,6 +252,9 @@ if __name__ == "__main__":
 
     with open(f"{out_folder}/versions/{version_id}/icons_data.json", "w") as f:
         json.dump(icons_data, f)
+
+    with open(f"{out_folder}/versions/{version_id}/images_data.json", "w") as f:
+        json.dump(images_data, f)
 
     with open(f"{out_folder}/versions/{version_id}/raw_heroes.json", "w") as f:
         json.dump([h.model_dump(exclude_none=True) for h in raw_heroes], f)
