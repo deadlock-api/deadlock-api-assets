@@ -140,10 +140,15 @@ def load_images_data() -> dict:
     all_images = {}
     for root, _, files in os.walk("images"):
         for file in files:
-            if not (file.endswith(".png") or file.endswith(".jpg") or file.endswith(".svg")):
+            if not (
+                file.endswith(".webp")
+                or file.endswith(".png")
+                or file.endswith(".jpg")
+                or file.endswith(".svg")
+            ):
                 continue
             relative_path = os.path.relpath(os.path.join(root, file), "images")
-            key = relative_path.replace("\\", "/").rsplit(".", 1)[0]
+            key = relative_path.replace("\\", "/").replace(".", "_").replace("/", "_")
             all_images[key] = f"{IMAGE_BASE_URL}/{relative_path.replace('\\', '/')}"
     return all_images
 
