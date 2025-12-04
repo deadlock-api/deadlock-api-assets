@@ -4374,6 +4374,10 @@
             {
               "modifier_value": "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT",
               "value": 0.0
+            },
+            {
+              "modifier_value": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+              "value": 15.0
             }
           ]
         }
@@ -4737,7 +4741,7 @@
     "weapon_info": {
       "aiming_shot_spread_penalty": null,
       "build_up_rate": null,
-      "bullet_damage": 3.45,
+      "bullet_damage": 2.415,
       "bullet_gravity_scale": 0.0,
       "bullet_inherit_shooter_velocity_scale": 0.0,
       "bullet_lifetime": 2.0,
@@ -4767,9 +4771,9 @@
       "damage_falloff_start_range": 1500.0,
       "damage_falloff_start_scale": null,
       "damage_per_magazine": null,
-      "damage_per_second": 6.9,
+      "damage_per_second": 4.83,
       "damage_per_second_with_reload": null,
-      "damage_per_shot": 3.45,
+      "damage_per_shot": 2.415,
       "horizontal_punch": 0.0,
       "horizontal_recoil": {
         "burst_exponent": 0.0,
@@ -4902,7 +4906,7 @@
     "weapon_info": {
       "aiming_shot_spread_penalty": null,
       "build_up_rate": null,
-      "bullet_damage": 8.75,
+      "bullet_damage": 6.125,
       "bullet_gravity_scale": 0.0,
       "bullet_inherit_shooter_velocity_scale": 0.0,
       "bullet_lifetime": 2.0,
@@ -4932,9 +4936,9 @@
       "damage_falloff_start_range": 1500.0,
       "damage_falloff_start_scale": null,
       "damage_per_magazine": null,
-      "damage_per_second": 17.5,
+      "damage_per_second": 12.25,
       "damage_per_second_with_reload": null,
-      "damage_per_shot": 8.75,
+      "damage_per_shot": 6.125,
       "horizontal_punch": 0.0,
       "horizontal_recoil": {
         "burst_exponent": 0.0,
@@ -5019,6 +5023,10 @@
             {
               "modifier_value": "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT",
               "value": 50.0
+            },
+            {
+              "modifier_value": "MODIFIER_VALUE_MELEE_DAMAGE_INCREASE_PERCENT",
+              "value": 20.0
             }
           ]
         }
@@ -5067,7 +5075,7 @@
     "weapon_info": {
       "aiming_shot_spread_penalty": null,
       "build_up_rate": null,
-      "bullet_damage": 13.0,
+      "bullet_damage": 9.1,
       "bullet_gravity_scale": 0.0,
       "bullet_inherit_shooter_velocity_scale": 0.0,
       "bullet_lifetime": 2.0,
@@ -5097,9 +5105,9 @@
       "damage_falloff_start_range": 1500.0,
       "damage_falloff_start_scale": null,
       "damage_per_magazine": null,
-      "damage_per_second": 26.0,
+      "damage_per_second": 18.2,
       "damage_per_second_with_reload": null,
-      "damage_per_shot": 13.0,
+      "damage_per_shot": 9.1,
       "horizontal_punch": 0.0,
       "horizontal_recoil": {
         "burst_exponent": 0.0,
@@ -5678,14 +5686,14 @@
     "class_name": "npc_boss_tier2",
     "empowered_modifier_level1": {
       "subclass": {
-        "max_health": 11000,
+        "max_health": 9350,
         "model_scale": 1.0,
         "transition_duration": 1.0
       }
     },
     "empowered_modifier_level2": {
       "subclass": {
-        "max_health": 14000,
+        "max_health": 11900,
         "model_scale": 1.2,
         "transition_duration": 1.0
       }
@@ -5763,6 +5771,10 @@
             {
               "modifier_value": "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT",
               "value": 0.0
+            },
+            {
+              "modifier_value": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+              "value": 15.0
             }
           ]
         }
@@ -5770,7 +5782,7 @@
     ],
     "laser_dps_max_health": null,
     "laser_dps_to_players": null,
-    "max_health": 8000,
+    "max_health": 6800,
     "max_health_final": null,
     "max_health_generator": null,
     "melee_attempt_range": 600.0,
@@ -5834,14 +5846,14 @@
     "class_name": "alt_npc_boss_tier2",
     "empowered_modifier_level1": {
       "subclass": {
-        "max_health": 11000,
+        "max_health": 9350,
         "model_scale": 1.0,
         "transition_duration": 1.0
       }
     },
     "empowered_modifier_level2": {
       "subclass": {
-        "max_health": 14000,
+        "max_health": 11900,
         "model_scale": 1.2,
         "transition_duration": 1.0
       }
@@ -5919,6 +5931,10 @@
             {
               "modifier_value": "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT",
               "value": 0.0
+            },
+            {
+              "modifier_value": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+              "value": 15.0
             }
           ]
         }
@@ -5926,7 +5942,7 @@
     ],
     "laser_dps_max_health": null,
     "laser_dps_to_players": null,
-    "max_health": 8000,
+    "max_health": 6800,
     "max_health_final": null,
     "max_health_generator": null,
     "melee_attempt_range": 600.0,
@@ -5990,14 +6006,14 @@
     "class_name": "npc_boss_tier2_weak",
     "empowered_modifier_level1": {
       "subclass": {
-        "max_health": 11000,
+        "max_health": 9350,
         "model_scale": 1.0,
         "transition_duration": 1.0
       }
     },
     "empowered_modifier_level2": {
       "subclass": {
-        "max_health": 14000,
+        "max_health": 11900,
         "model_scale": 1.2,
         "transition_duration": 1.0
       }
@@ -6075,6 +6091,10 @@
             {
               "modifier_value": "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT",
               "value": 0.0
+            },
+            {
+              "modifier_value": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+              "value": 15.0
             }
           ]
         }
@@ -6082,7 +6102,7 @@
     ],
     "laser_dps_max_health": null,
     "laser_dps_to_players": null,
-    "max_health": 8000,
+    "max_health": 6800,
     "max_health_final": null,
     "max_health_generator": null,
     "melee_attempt_range": 600.0,
@@ -6146,14 +6166,14 @@
     "class_name": "alt_npc_boss_tier2_weak",
     "empowered_modifier_level1": {
       "subclass": {
-        "max_health": 11000,
+        "max_health": 9350,
         "model_scale": 1.0,
         "transition_duration": 1.0
       }
     },
     "empowered_modifier_level2": {
       "subclass": {
-        "max_health": 14000,
+        "max_health": 11900,
         "model_scale": 1.2,
         "transition_duration": 1.0
       }
@@ -6231,6 +6251,10 @@
             {
               "modifier_value": "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT",
               "value": 0.0
+            },
+            {
+              "modifier_value": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+              "value": 15.0
             }
           ]
         }
@@ -6238,7 +6262,7 @@
     ],
     "laser_dps_max_health": null,
     "laser_dps_to_players": null,
-    "max_health": 8000,
+    "max_health": 6800,
     "max_health_final": null,
     "max_health_generator": null,
     "melee_attempt_range": 600.0,

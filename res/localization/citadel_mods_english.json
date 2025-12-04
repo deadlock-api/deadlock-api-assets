@@ -429,7 +429,7 @@
       "upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff": "Escalating Exposure",
       "upgrade_escalating_exposure_desc": "Dealing <span class=\"highlight\">Spirit Damage</span> applies a stacking <span class=\"highlight\">Spirit Amp</span> that increases your <span class=\"highlight\">Spirit Damage</span> to the target.",
       "upgrade_ethereal_bullets_desc": "Your imbued ability charges up over time with {g:citadel_inline_attribute:'BonusSpiritDamage'}, {g:citadel_inline_attribute:'BonusFireRate'}, and <span class=\"highlight\">reloads bullets</span> on use. Until your next reload, your <span class=\"highlight\">bullets deal bonus Spirit Damage</span> based on your Spirit Power.",
-      "upgrade_express_shot_desc": "After not attacking for {s:AbilityCooldown}s, your next attack will <span class=\"highlight\">fire twice</span> in quick succession with <span class=\"highlight\">increased damage</span> and velocity.  This attack consumes extra ammo.",
+      "upgrade_express_shot_desc": "Your next attack will <span class=\"highlight\">fire twice</span> in quick succession with <span class=\"highlight\">increased damage</span> and velocity.  This attack consumes extra ammo.",
       "upgrade_fervor_passive": "While you are <span class=\"highlight\">below {s:LowHealthThreshold}% health</span>, you gain stat bonuses.",
       "upgrade_fleetfoot_boots_active_desc": "Gain bonus <span class=\"highlight\">Move Speed</span> and <span class=\"highlight\">Slow Resistance</span>.",
       "upgrade_fleetfoot_boots_passive_desc": "Removes the <span class=\"highlight\">Move Speed</span> penalty while shooting.",
