@@ -36,7 +36,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 fi
 
 # Download Deadlock Game files
-# ./DepotDownloader -app 1422450 -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -all-platforms -all-languages -validate -remember-password || exit 1
+./DepotDownloader -app 1422450 -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -all-platforms -all-languages -validate -remember-password || exit 1
 
 mkdir -p depots/game
 rsync -av depots/*/*/game/* depots/game/
