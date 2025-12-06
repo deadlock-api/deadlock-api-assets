@@ -212,6 +212,12 @@ if __name__ == "__main__":
 
     steam_info = load_steam_info()
     version_id = steam_info.client_version
+    with open(f"{out_folder}/latest_version.txt", "w") as f:
+        f.write(str(version_id))
+
+    client_versions = load_client_versions()
+    with open(f"{out_folder}/client_versions.json", "w") as f:
+        json.dump(client_versions, f)
 
     # Prepare Folders
     os.makedirs(f"{out_folder}/versions/{version_id}/ranks", exist_ok=True)
@@ -225,7 +231,6 @@ if __name__ == "__main__":
     map_data = load_map_data()
     sounds_data = load_sounds_data()
     colors_data = load_colors_data()
-    client_versions = load_client_versions()
     icons_data = load_icons_data()
     images_data = load_images_data()
     npc_units = load_npc_units(version_id)
@@ -234,12 +239,6 @@ if __name__ == "__main__":
     raw_items = load_raw_items(version_id)
 
     # Write Data files
-    with open(f"{out_folder}/latest_version.txt", "w") as f:
-        f.write(str(version_id))
-
-    with open(f"{out_folder}/client_versions.json", "w") as f:
-        json.dump(client_versions, f)
-
     with open(f"{out_folder}/versions/{version_id}/generic_data.json", "w") as f:
         f.write(generic_data.model_dump_json())
 
