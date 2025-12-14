@@ -37,6 +37,20 @@ logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 LOGGER = logging.getLogger(__name__)
 
+openapi_tags = [
+    {
+        "name": "Items",
+        "description": """
+Items are purchasable objects in the game.
+
+There are 3 main types of items:
+- Upgrade Items
+- Ability Items
+- Weapon Items
+        """,
+    },
+]
+
 app = FastAPI(
     title="Assets - Deadlock API",
     servers=[{"url": "https://assets.deadlock-api.com"}],
@@ -63,6 +77,7 @@ _deadlock-api.com is not endorsed by Valve and does not reflect the views or opi
         "url": "https://github.com/deadlock-api/deadlock-api-assets/blob/master/LICENSE",
     },
     contact={"name": "Deadlock API - Discord", "url": "https://discord.gg/XMF9Xrgfqu"},
+    openapi_tags=openapi_tags,
 )
 
 app.add_middleware(GZipMiddleware, minimum_size=1000, compresslevel=5)
