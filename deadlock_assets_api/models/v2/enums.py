@@ -69,6 +69,7 @@ class HeroItemTypeV2(str, Enum):
     ESlot_Signature_2 = "signature2"
     ESlot_Signature_3 = "signature3"
     ESlot_Signature_4 = "signature4"
+    ESlot_Cosmetic_1 = "eslot_cosmetic_1"
 
     @classmethod
     def _missing_(cls, new_value: str):
