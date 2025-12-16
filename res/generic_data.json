@@ -212,8 +212,8 @@
     "white_noise_strength": 3.0
   },
   "hero_kill_gold_share_frac": [
-    1.0,
-    0.5,
+    1.25,
+    0.575,
     0.283,
     0.175,
     0.11,

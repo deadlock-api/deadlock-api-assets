@@ -183,7 +183,7 @@
       "BloodPoolRadius_postfix": " m",
       "BlurVisionRange_postfix": " m",
       "BonusAbilityCharges_label": "Carga(s) para as habilidades",
-      "BonusAbilityCharges_postvalue_label": "de carga(s) para as habilidades",
+      "BonusAbilityCharges_postvalue_label": "carga(s) para as habilidades",
       "BonusAbilityCharges_prefix": "{s:sign}",
       "BonusAbilityDurationPercent_label": "Dura\u00e7\u00e3o das habilidades",
       "BonusAbilityDurationPercent_postfix": "%",

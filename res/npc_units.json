@@ -1156,7 +1156,7 @@
     "attack_t1_boss_max_range": 472.441,
     "attack_t3_boss_max_range": 1000.0,
     "attack_t3_boss_phase2_max_range": 472.441,
-    "attack_trooper_max_range": 700.0,
+    "attack_trooper_max_range": 900.0,
     "backdoor_bullet_resist_modifier": null,
     "barrack_boss_dps": 80.0,
     "barrack_guardian_damage_resist_pct": 67.5,
@@ -1235,7 +1235,7 @@
     "intrinsic_modifiers": null,
     "laser_dps_max_health": null,
     "laser_dps_to_players": null,
-    "max_health": 260,
+    "max_health": 350,
     "max_health_final": null,
     "max_health_generator": null,
     "melee_attempt_range": 100.0,
@@ -1253,7 +1253,7 @@
     "ranged_armor_modifier": null,
     "run_speed": 512.0,
     "sight_range_npcs": 1600.0,
-    "sight_range_players": 700.0,
+    "sight_range_players": 900.0,
     "stomp_damage": null,
     "stomp_damage_max_health_percent": null,
     "stomp_impact_radius": null,
@@ -1271,7 +1271,7 @@
     "t3_boss_damage_resist_pct": 80.0,
     "t3_boss_dps": 34.0,
     "trooper_damage_resist_pct": 42.5,
-    "trooper_dps": 35.0,
+    "trooper_dps": 45.0,
     "walk_speed": 248.0,
     "weapon_info": {
       "aiming_shot_spread_penalty": null,
@@ -1358,7 +1358,7 @@
     "attack_t1_boss_max_range": 472.441,
     "attack_t3_boss_max_range": 1000.0,
     "attack_t3_boss_phase2_max_range": 472.441,
-    "attack_trooper_max_range": 700.0,
+    "attack_trooper_max_range": 900.0,
     "backdoor_bullet_resist_modifier": null,
     "barrack_boss_dps": 80.0,
     "barrack_guardian_damage_resist_pct": 67.5,
@@ -1437,7 +1437,7 @@
     "intrinsic_modifiers": null,
     "laser_dps_max_health": null,
     "laser_dps_to_players": null,
-    "max_health": 260,
+    "max_health": 350,
     "max_health_final": null,
     "max_health_generator": null,
     "melee_attempt_range": 100.0,
@@ -1455,7 +1455,7 @@
     "ranged_armor_modifier": null,
     "run_speed": 512.0,
     "sight_range_npcs": 1600.0,
-    "sight_range_players": 700.0,
+    "sight_range_players": 900.0,
     "stomp_damage": null,
     "stomp_damage_max_health_percent": null,
     "stomp_impact_radius": null,
@@ -1473,7 +1473,7 @@
     "t3_boss_damage_resist_pct": 80.0,
     "t3_boss_dps": 34.0,
     "trooper_damage_resist_pct": 42.5,
-    "trooper_dps": 35.0,
+    "trooper_dps": 45.0,
     "walk_speed": 248.0,
     "weapon_info": {
       "aiming_shot_spread_penalty": null,
@@ -1560,7 +1560,7 @@
     "attack_t1_boss_max_range": 472.441,
     "attack_t3_boss_max_range": 1000.0,
     "attack_t3_boss_phase2_max_range": 472.441,
-    "attack_trooper_max_range": 700.0,
+    "attack_trooper_max_range": 900.0,
     "backdoor_bullet_resist_modifier": null,
     "barrack_boss_dps": 80.0,
     "barrack_guardian_damage_resist_pct": 67.5,
@@ -1639,7 +1639,7 @@
     "intrinsic_modifiers": null,
     "laser_dps_max_health": null,
     "laser_dps_to_players": null,
-    "max_health": 260,
+    "max_health": 350,
     "max_health_final": null,
     "max_health_generator": null,
     "melee_attempt_range": 100.0,
@@ -1657,7 +1657,7 @@
     "ranged_armor_modifier": null,
     "run_speed": 512.0,
     "sight_range_npcs": 1600.0,
-    "sight_range_players": 700.0,
+    "sight_range_players": 900.0,
     "stomp_damage": null,
     "stomp_damage_max_health_percent": null,
     "stomp_impact_radius": null,
@@ -1675,7 +1675,7 @@
     "t3_boss_damage_resist_pct": 80.0,
     "t3_boss_dps": 34.0,
     "trooper_damage_resist_pct": 42.5,
-    "trooper_dps": 35.0,
+    "trooper_dps": 45.0,
     "walk_speed": 248.0,
     "weapon_info": {
       "aiming_shot_spread_penalty": null,
@@ -1962,7 +1962,7 @@
     "attack_t1_boss_max_range": 472.441,
     "attack_t3_boss_max_range": 1000.0,
     "attack_t3_boss_phase2_max_range": 472.441,
-    "attack_trooper_max_range": 700.0,
+    "attack_trooper_max_range": 900.0,
     "backdoor_bullet_resist_modifier": null,
     "barrack_boss_dps": 209.0,
     "barrack_guardian_damage_resist_pct": 67.5,
@@ -2041,7 +2041,7 @@
     "intrinsic_modifiers": null,
     "laser_dps_max_health": null,
     "laser_dps_to_players": null,
-    "max_health": 260,
+    "max_health": 350,
     "max_health_final": null,
     "max_health_generator": null,
     "melee_attempt_range": 100.0,
@@ -2059,7 +2059,7 @@
     "ranged_armor_modifier": null,
     "run_speed": 512.0,
     "sight_range_npcs": 1600.0,
-    "sight_range_players": 700.0,
+    "sight_range_players": 900.0,
     "stomp_damage": null,
     "stomp_damage_max_health_percent": null,
     "stomp_impact_radius": null,
@@ -3644,7 +3644,7 @@
     "laser_dps_to_players": null,
     "max_health": null,
     "max_health_final": 9750,
-    "max_health_generator": 3000,
+    "max_health_generator": 7000,
     "melee_attempt_range": null,
     "melee_damage": null,
     "melee_duration": null,
@@ -4692,7 +4692,7 @@
             },
             {
               "modifier_value": "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT",
-              "value": 30.0
+              "value": 35.0
             }
           ]
         }
@@ -4700,7 +4700,7 @@
     ],
     "laser_dps_max_health": null,
     "laser_dps_to_players": null,
-    "max_health": 230,
+    "max_health": 184,
     "max_health_final": null,
     "max_health_generator": null,
     "melee_attempt_range": null,
@@ -4857,7 +4857,7 @@
             },
             {
               "modifier_value": "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT",
-              "value": 40.0
+              "value": 45.0
             }
           ]
         }
@@ -4865,7 +4865,7 @@
     ],
     "laser_dps_max_health": null,
     "laser_dps_to_players": null,
-    "max_health": 575,
+    "max_health": 460,
     "max_health_final": null,
     "max_health_generator": null,
     "melee_attempt_range": null,
@@ -5022,7 +5022,7 @@
             },
             {
               "modifier_value": "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT",
-              "value": 50.0
+              "value": 55.0
             },
             {
               "modifier_value": "MODIFIER_VALUE_MELEE_DAMAGE_INCREASE_PERCENT",
@@ -5034,7 +5034,7 @@
     ],
     "laser_dps_max_health": null,
     "laser_dps_to_players": null,
-    "max_health": 2024,
+    "max_health": 1619,
     "max_health_final": null,
     "max_health_generator": null,
     "melee_attempt_range": null,
@@ -5533,7 +5533,7 @@
     "glow_color_team1": null,
     "glow_color_team2": null,
     "glow_color_team_neutral": null,
-    "gold_reward": 172.0,
+    "gold_reward": 155.0,
     "gold_reward_bonus_percent_per_minute": 1.08,
     "health_bar_color_enemy": null,
     "health_bar_color_friend": null,
@@ -5694,7 +5694,7 @@
     "empowered_modifier_level2": {
       "subclass": {
         "max_health": 11900,
-        "model_scale": 1.2,
+        "model_scale": 1.15,
         "transition_duration": 1.0
       }
     },
@@ -5854,7 +5854,7 @@
     "empowered_modifier_level2": {
       "subclass": {
         "max_health": 11900,
-        "model_scale": 1.2,
+        "model_scale": 1.15,
         "transition_duration": 1.0
       }
     },
@@ -6014,7 +6014,7 @@
     "empowered_modifier_level2": {
       "subclass": {
         "max_health": 11900,
-        "model_scale": 1.2,
+        "model_scale": 1.15,
         "transition_duration": 1.0
       }
     },
@@ -6174,7 +6174,7 @@
     "empowered_modifier_level2": {
       "subclass": {
         "max_health": 11900,
-        "model_scale": 1.2,
+        "model_scale": 1.15,
         "transition_duration": 1.0
       }
     },
@@ -7439,7 +7439,7 @@
     "attack_t1_boss_max_range": 472.441,
     "attack_t3_boss_max_range": 1000.0,
     "attack_t3_boss_phase2_max_range": 472.441,
-    "attack_trooper_max_range": 700.0,
+    "attack_trooper_max_range": 900.0,
     "backdoor_bullet_resist_modifier": null,
     "barrack_boss_dps": 209.0,
     "barrack_guardian_damage_resist_pct": 67.5,
@@ -7518,7 +7518,7 @@
     "intrinsic_modifiers": null,
     "laser_dps_max_health": null,
     "laser_dps_to_players": null,
-    "max_health": 260,
+    "max_health": 350,
     "max_health_final": null,
     "max_health_generator": null,
     "melee_attempt_range": 100.0,
@@ -7536,7 +7536,7 @@
     "ranged_armor_modifier": null,
     "run_speed": 512.0,
     "sight_range_npcs": 1600.0,
-    "sight_range_players": 700.0,
+    "sight_range_players": 900.0,
     "stomp_damage": null,
     "stomp_damage_max_health_percent": null,
     "stomp_impact_radius": null,
