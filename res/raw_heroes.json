@@ -55,7 +55,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -87,52 +87,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -293,6 +293,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_incendiary_projectile",
       "signature2": "ability_flame_dash",
       "signature3": "ability_afterburn",
@@ -762,11 +763,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 800,
-      "max_move_speed": 6.8,
+      "max_move_speed": 6.7,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -871,7 +872,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -903,52 +904,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -1109,6 +1110,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_lightning_ball",
       "signature2": "citadel_ability_static_charge",
       "signature3": "ability_power_surge",
@@ -1502,7 +1504,7 @@
     ],
     "scaling_stats": {
       "EMaxMoveSpeed": {
-        "scale": 0.02,
+        "scale": 0.012,
         "scaling_stat": "ETechPower"
       }
     },
@@ -1584,11 +1586,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 700,
-      "max_move_speed": 6.8,
+      "max_move_speed": 6.7,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 1.0,
+      "sprint_speed": 0.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -1693,7 +1695,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -1725,52 +1727,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -1931,6 +1933,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_hornet_chain",
       "signature2": "citadel_ability_hornet_leap",
       "signature3": "citadel_ability_hornet_sting",
@@ -2410,11 +2413,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 725,
-      "max_move_speed": 8.0,
+      "max_move_speed": 7.9,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 2,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -2519,7 +2522,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -2551,52 +2554,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -2757,6 +2760,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_blood_bomb",
       "signature2": "ability_life_drain",
       "signature3": "ability_blood_shards",
@@ -3227,7 +3231,7 @@
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 3.0,
+      "sprint_speed": 2.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -3332,7 +3336,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -3364,52 +3368,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -3570,6 +3574,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_bull_heal",
       "signature2": "citadel_ability_bull_charge",
       "signature3": "citadel_ability_passive_beefy",
@@ -4037,11 +4042,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 770,
-      "max_move_speed": 6.5,
+      "max_move_speed": 6.4,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -4146,7 +4151,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -4178,52 +4183,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -4384,6 +4389,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_card_toss",
       "signature2": "citadel_ability_projectmind",
       "signature3": "citadel_ability_wraith_rapidfire",
@@ -4774,7 +4780,7 @@
     ],
     "scaling_stats": {
       "ESprintSpeed": {
-        "scale": 0.06,
+        "scale": 0.05,
         "scaling_stat": "ETechPower"
       }
     },
@@ -4835,7 +4841,7 @@
     },
     "skin": 1,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.17,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.14,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 35.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
@@ -4856,11 +4862,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 700,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -4965,7 +4971,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -4997,52 +5003,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -5203,6 +5209,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_shieldedsentry",
       "signature2": "citadel_ability_mobile_resupply",
       "signature3": "citadel_ability_fissure_wall",
@@ -5677,11 +5684,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 750,
-      "max_move_speed": 6.8,
+      "max_move_speed": 6.7,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 2,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -5786,7 +5793,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -5818,52 +5825,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -6024,6 +6031,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_chrono_pulse_grenade",
       "signature2": "citadel_ability_chrono_time_wall",
       "signature3": "citadel_ability_chrono_kinetic_carbine",
@@ -6493,11 +6501,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 700,
-      "max_move_speed": 6.8,
+      "max_move_speed": 6.7,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -6602,7 +6610,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -6634,52 +6642,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -6840,6 +6848,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_stomp",
       "signature2": "citadel_ability_void_sphere",
       "signature3": "citadel_ability_nikuman",
@@ -7300,18 +7309,18 @@
     "starting_stats": {
       "ability_resource_max": 0,
       "ability_resource_regen_per_second": 0,
-      "base_health_regen": 2.5,
+      "base_health_regen": 1.75,
       "bullet_armor_damage_reduction": null,
       "crit_damage_received_scale": 1.0,
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 850,
-      "max_move_speed": 6.8,
+      "max_move_speed": 6.7,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -7416,7 +7425,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -7448,52 +7457,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -7654,6 +7663,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_ice_grenade",
       "signature2": "ability_icepath",
       "signature3": "ability_icebeam",
@@ -8125,11 +8135,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 850,
-      "max_move_speed": 6.8,
+      "max_move_speed": 6.7,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 1.5,
+      "sprint_speed": 1.1,
       "stamina": 3,
       "stamina_regen_per_second": 0.1666,
       "tech_armor_damage_reduction": null,
@@ -8234,7 +8244,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -8266,52 +8276,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -8472,6 +8482,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_sleep_dagger",
       "signature2": "ability_smoke_bomb",
       "signature3": "ability_stacking_damage",
@@ -8943,11 +8954,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 700,
-      "max_move_speed": 8.3,
+      "max_move_speed": 8.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -9052,7 +9063,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -9084,52 +9095,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -9290,6 +9301,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_explosive_barrel",
       "signature2": "ability_bounce_pad",
       "signature3": "ability_crackshot",
@@ -9755,11 +9767,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 750,
-      "max_move_speed": 8.3,
+      "max_move_speed": 8.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 2,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -9864,7 +9876,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -9896,52 +9908,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -10102,6 +10114,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_uppercut",
       "signature2": "citadel_ability_sticky_bomb",
       "signature3": "citadel_ability_hook",
@@ -10569,11 +10582,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63.0,
       "max_health": 850,
-      "max_move_speed": 6.55,
+      "max_move_speed": 6.45,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 4.5,
+      "sprint_speed": 4.0,
       "stamina": 2,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -10678,7 +10691,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -10710,52 +10723,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -10916,6 +10929,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_nano_clustergrenade",
       "signature2": "ability_nano_dash",
       "signature3": "ability_nano_catform",
@@ -11385,11 +11399,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63.0,
       "max_health": 700,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -11494,7 +11508,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -11526,52 +11540,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -11732,6 +11746,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_charged_shot",
       "signature2": "ability_power_jump",
       "signature3": "ability_immobilize_trap",
@@ -12125,7 +12140,7 @@
         "scaling_stat": "ETechPower"
       },
       "EMaxMoveSpeed": {
-        "scale": 0.014,
+        "scale": 0.0084,
         "scaling_stat": "ETechPower"
       }
     },
@@ -12211,7 +12226,7 @@
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 4,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -12316,7 +12331,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -12348,52 +12363,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -12554,6 +12569,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_intimidate",
       "signature2": "ability_burrow",
       "signature3": "ability_throw_sand",
@@ -13022,11 +13038,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 900,
-      "max_move_speed": 8.1,
+      "max_move_speed": 8.0,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -13131,7 +13147,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -13163,52 +13179,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -13369,6 +13385,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_shiv_dagger",
       "signature2": "citadel_ability_shiv_dash",
       "signature3": "citadel_ability_shiv_defer_damage",
@@ -13838,11 +13855,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 800,
-      "max_move_speed": 6.8,
+      "max_move_speed": 6.7,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -13947,7 +13964,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -13979,52 +13996,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -14185,6 +14202,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_tengu_urn",
       "signature2": "citadel_ability_tangotether",
       "signature3": "citadel_ability_tengu_stone_form",
@@ -14650,11 +14668,11 @@
       "heavy_melee_damage": 99,
       "light_melee_damage": 43.0,
       "max_health": 725,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 4,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -14759,7 +14777,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -14791,52 +14809,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -14997,6 +15015,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_kali_spinning_blade",
       "signature2": "citadel_ability_kali_disruptive_charge",
       "signature3": "ability_kali_dust_storm",
@@ -15428,11 +15447,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 750,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -15533,7 +15552,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -15565,52 +15584,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -15771,6 +15790,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_warden_crowd_control",
       "signature2": "ability_warden_high_alert",
       "signature3": "ability_warden_lock_down",
@@ -16254,7 +16274,7 @@
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -16359,7 +16379,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -16391,52 +16411,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -16597,6 +16617,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_power_slash",
       "signature2": "citadel_ability_flying_strike",
       "signature3": "citadel_ability_healing_slash",
@@ -17075,11 +17096,11 @@
       "heavy_melee_damage": 128,
       "light_melee_damage": 55.0,
       "max_health": 700,
-      "max_move_speed": 8.3,
+      "max_move_speed": 8.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -17184,7 +17205,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -17216,52 +17237,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -17422,6 +17443,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_lash_down_strike",
       "signature2": "citadel_ability_lash",
       "signature3": "ability_lash_flog",
@@ -17886,11 +17908,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 750,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.5,
+      "sprint_speed": 2.1,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": 10.0,
@@ -17995,7 +18017,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -18027,52 +18049,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -18233,6 +18255,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "viscous_goo_grenade",
       "signature2": "viscous_restorative_goo",
       "signature3": "viscous_telepunch",
@@ -18701,11 +18724,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 63.0,
       "max_health": 750,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -18810,7 +18833,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -18842,52 +18865,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -19048,6 +19071,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_chrono_pulse_grenade",
       "signature2": "gunslinger_knockbackblast",
       "signature3": "gunslinger_demonMark",
@@ -19479,11 +19503,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 750,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -19584,7 +19608,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -19616,52 +19640,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -19822,6 +19846,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "yakuza_shakedown_target",
       "signature2": "yakuza_kobun",
       "signature3": "yakuza_protection_racket",
@@ -20253,11 +20278,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 750,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -20358,7 +20383,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -20390,52 +20415,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -20596,6 +20621,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "tokamak_hot_shot",
       "signature2": "tokamak_dying_star",
       "signature3": "tokamak_radiance",
@@ -21027,11 +21053,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 750,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -21132,7 +21158,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -21164,52 +21190,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -21370,6 +21396,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_wrecker_bouldergrenade",
       "signature2": "ability_wrecker_salvage",
       "signature3": "ability_scrap_blast",
@@ -21823,11 +21850,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 750,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -21928,7 +21955,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -21960,52 +21987,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -22166,6 +22193,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "rutger_rocket",
       "signature2": "rutger_force_field",
       "signature3": "rutger_cheat_death",
@@ -22597,11 +22625,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 750,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -22702,7 +22730,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -22734,52 +22762,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -22940,6 +22968,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "synth_barrage",
       "signature2": "synth_plasma_flux",
       "signature3": "synth_pulse",
@@ -23411,11 +23440,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 60.0,
       "max_health": 750,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": -15.0,
@@ -23520,7 +23549,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -23552,52 +23581,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -23758,6 +23787,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "thumper_ability_1",
       "signature2": "thumper_ability_2",
       "signature3": "thumper_ability_3",
@@ -24189,11 +24219,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 750,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -24294,7 +24324,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -24326,52 +24356,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -24532,6 +24562,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "mirage_fire_beetles",
       "signature2": "mirage_tornado",
       "signature3": "mirage_sand_phantom",
@@ -24978,7 +25009,7 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.616,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.5,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 44.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
@@ -24999,11 +25030,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 700,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.0,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -25108,7 +25139,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -25140,52 +25171,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -25346,6 +25377,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "fathom_scalding_spray",
       "signature2": "fathom_breach",
       "signature3": "fathom_reefdweller_harpoon",
@@ -25792,11 +25824,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 750,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -25897,7 +25929,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -25929,52 +25961,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -26135,6 +26167,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "cadence_ability_anthem",
       "signature2": "cadence_ability_silencecontraptions",
       "signature3": "cadence_ability_lullaby",
@@ -26566,11 +26599,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 800,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -26671,7 +26704,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -26703,52 +26736,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -26909,6 +26942,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_charged_bomb",
       "signature2": "ability_bomber_ability02",
       "signature3": "ability_bomber_ability03",
@@ -27340,11 +27374,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 750,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -27445,7 +27479,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -27477,52 +27511,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -27683,6 +27717,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_shieldguy_ability01",
       "signature2": "ability_shieldguy_ability02",
       "signature3": "ability_shieldguy_ability03",
@@ -28114,11 +28149,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 750,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -28219,7 +28254,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -28251,52 +28286,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -28457,6 +28492,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_viper_debuffdagger",
       "signature2": "ability_viper_venom",
       "signature3": "ability_viper_snakedash",
@@ -28847,7 +28883,7 @@
     ],
     "scaling_stats": {
       "EMaxMoveSpeed": {
-        "scale": 0.023,
+        "scale": 0.0138,
         "scaling_stat": "ETechPower"
       }
     },
@@ -28929,11 +28965,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 750,
-      "max_move_speed": 7.0,
+      "max_move_speed": 6.9,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 4,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -29038,7 +29074,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -29070,52 +29106,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -29276,6 +29312,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_vandal_surge",
       "signature2": "ability_vandal_pillar",
       "signature3": "ability_haunt",
@@ -29719,11 +29756,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 750,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 4,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -29824,7 +29861,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -29856,52 +29893,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -30062,6 +30099,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_magician_magicbolt",
       "signature2": "ability_magician_cloneturret",
       "signature3": "ability_magician_animalhexarea",
@@ -30451,7 +30489,7 @@
     ],
     "scaling_stats": {
       "EMaxMoveSpeed": {
-        "scale": 0.023,
+        "scale": 0.0138,
         "scaling_stat": "ETechPower"
       }
     },
@@ -30533,11 +30571,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 700,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -30642,7 +30680,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -30674,52 +30712,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -30880,6 +30918,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_trapper_poisonjar",
       "signature2": "ability_trapper_webwall",
       "signature3": "ability_trapper_spidershield",
@@ -31329,11 +31368,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 750,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": -15.0,
@@ -31434,7 +31473,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -31466,52 +31505,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -31672,6 +31711,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "operative_blindside",
       "signature2": "operative_umbrella_maneuver",
       "signature3": "citadel_ability_wraith_rapidfire",
@@ -32118,11 +32158,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 750,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -32223,7 +32263,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -32255,52 +32295,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -32461,6 +32501,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_vampirebat_steallife",
       "signature2": "ability_vampirebat_batblink",
       "signature3": "ability_vampirebat_lovebites",
@@ -32892,11 +32933,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 630,
-      "max_move_speed": 6.7,
+      "max_move_speed": 6.6,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 2,
       "stamina_regen_per_second": 0.25,
       "tech_armor_damage_reduction": null,
@@ -33001,7 +33042,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -33033,52 +33074,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -33239,6 +33280,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "drifter_blood_blast",
       "signature2": "drifter_shadow_mark",
       "signature3": "ability_drifter_hunger",
@@ -33710,11 +33752,11 @@
       "heavy_melee_damage": 120,
       "light_melee_damage": 51.5,
       "max_health": 725,
-      "max_move_speed": 7.0,
+      "max_move_speed": 6.9,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -33819,7 +33861,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -33851,52 +33893,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -34057,6 +34099,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_priest_flashbang",
       "signature2": "ability_priest_knockback",
       "signature3": "ability_priest_stackingdefense",
@@ -34492,7 +34535,7 @@
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -34597,7 +34640,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -34629,52 +34672,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -34835,6 +34878,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_frank_shocktarget2",
       "signature2": "ability_frank_selfzap",
       "signature3": "ability_frank_painaura",
@@ -35275,7 +35319,7 @@
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 1.5,
+      "sprint_speed": 1.1,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": 0.0,
@@ -35380,7 +35424,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -35412,52 +35456,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -35618,6 +35662,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_bookworm_dragonfire",
       "signature2": "ability_bookworm_knightbarrier",
       "signature3": "ability_bookworm_aoemagic",
@@ -36054,11 +36099,11 @@
       "heavy_melee_damage": 120,
       "light_melee_damage": 42.0,
       "max_health": 650,
-      "max_move_speed": 7.0,
+      "max_move_speed": 6.9,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 4.0,
+      "sprint_speed": 3.5,
       "stamina": 2,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -36163,7 +36208,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -36195,52 +36240,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -36401,6 +36446,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_boho_bouncyprojectile",
       "signature2": "ability_boho_doublehit",
       "signature3": "ability_boho_damageshare",
@@ -36855,7 +36901,7 @@
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -36956,7 +37002,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -36988,52 +37034,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -37194,6 +37240,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_doorman_bomb",
       "signature2": "ability_doorman_doorway",
       "signature3": "ability_doorman_luggage_cart",
@@ -37625,11 +37672,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 725,
-      "max_move_speed": 8.0,
+      "max_move_speed": 7.9,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -37734,7 +37781,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -37766,52 +37813,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -37972,6 +38019,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_skyrunner_swingline",
       "signature2": "ability_skyrunner_magic_beam",
       "signature3": "ability_skyrunner_flakshot",
@@ -38418,7 +38466,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 750,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -38523,7 +38571,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -38555,52 +38603,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -38761,6 +38809,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_swan_featherboomerang",
       "signature2": "ability_swan_leap",
       "signature3": "ability_swan_acrobat",
@@ -39234,7 +39283,7 @@
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -39335,7 +39384,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -39367,52 +39416,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -39573,6 +39622,7 @@
       "ability_slide": "ability_punkgoat_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_punkgoat_ult",
       "signature2": "ability_punkgoat_goatflip",
       "signature3": "ability_punkgoat_blasted",
@@ -40017,18 +40067,18 @@
     "starting_stats": {
       "ability_resource_max": 0,
       "ability_resource_regen_per_second": 0,
-      "base_health_regen": 3.0,
+      "base_health_regen": 2.5,
       "bullet_armor_damage_reduction": null,
       "crit_damage_received_scale": 1.0,
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 790,
-      "max_move_speed": 7.1,
+      "max_move_speed": 7.0,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -40133,7 +40183,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -40165,52 +40215,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -40371,6 +40421,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_druid_ability01",
       "signature2": "ability_druid_ability02",
       "signature3": "ability_druid_sprout",
@@ -40802,11 +40853,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 750,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -40907,7 +40958,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -40939,52 +40990,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -41145,6 +41196,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_graf_ability01",
       "signature2": "ability_graf_ability02",
       "signature3": "ability_graf_ability03",
@@ -41576,11 +41628,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 480,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,
@@ -41685,7 +41737,7 @@
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 45.0,
+          "bonus": 38.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
@@ -41717,52 +41769,52 @@
       ],
       "vitality": [
         {
-          "bonus": 8.0,
+          "bonus": 75.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 10.0,
+          "bonus": 125.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 13.0,
+          "bonus": 200.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 17.0,
+          "bonus": 275.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 34.0,
+          "bonus": 525.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 39.0,
+          "bonus": 625.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 44.0,
+          "bonus": 750.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 48.0,
+          "bonus": 1000.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 52.0,
+          "bonus": 1200.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 56.0,
+          "bonus": 1400.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -41923,6 +41975,7 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
+      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_fortuna_ability01",
       "signature2": "ability_fortuna_ability02",
       "signature3": "ability_fortuna_ability03",
@@ -42395,11 +42448,11 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 650,
-      "max_move_speed": 7.3,
+      "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 2.0,
+      "sprint_speed": 1.6,
       "stamina": 3,
       "stamina_regen_per_second": 0.2,
       "tech_armor_damage_reduction": null,

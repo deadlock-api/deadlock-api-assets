@@ -3224,7 +3224,7 @@
     "orb_spawn_delay_min": null,
     "pickup_radius": {
       "base": 709.0,
-      "per_minute_after_start": 39.3701
+      "per_minute_after_start": 59.0125
     },
     "primary_drop_chance": null,
     "primary_pickups": null,
@@ -3272,7 +3272,7 @@
     "orb_spawn_delay_min": null,
     "pickup_radius": {
       "base": 709.0,
-      "per_minute_after_start": 39.3701
+      "per_minute_after_start": 59.0125
     },
     "primary_drop_chance": null,
     "primary_pickups": null,

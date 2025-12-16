@@ -26,8 +26,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -112,6 +112,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 		}
 		m_mapItemSlotInfo =
 		{
@@ -908,61 +909,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -995,7 +996,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -1055,8 +1056,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 6.800000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 6.700000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -1141,6 +1142,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_incendiary_projectile"
 			ESlot_Signature_2 = "ability_flame_dash"
 			ESlot_Signature_3 = "ability_afterburn"
@@ -1943,61 +1945,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -2030,7 +2032,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -2184,8 +2186,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 6.800000
-			ESprintSpeed = 1.000000
+			EMaxMoveSpeed = 6.700000
+			ESprintSpeed = 0.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -2270,6 +2272,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "citadel_ability_lightning_ball"
 			ESlot_Signature_2 = "citadel_ability_static_charge"
 			ESlot_Signature_3 = "ability_power_surge"
@@ -2885,7 +2888,7 @@
 			EMaxMoveSpeed =
 			{
 				eScalingStat = "ETechPower"
-				flScale = 0.020000
+				flScale = 0.012000
 			}
 		}
 		m_heroStatsDisplay =
@@ -3077,61 +3080,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -3164,7 +3167,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -3318,8 +3321,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 8
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.900000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -3404,6 +3407,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "citadel_ability_hornet_chain"
 			ESlot_Signature_2 = "citadel_ability_hornet_leap"
 			ESlot_Signature_3 = "citadel_ability_hornet_sting"
@@ -4216,61 +4220,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -4303,7 +4307,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -4450,7 +4454,7 @@
 		m_mapStartingStats =
 		{
 			EMaxMoveSpeed = 6.300000
-			ESprintSpeed = 3.000000
+			ESprintSpeed = 2.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -4472,9 +4476,9 @@
 			EHeroSpiritLifestealEffectiveness = 1.000000
 			EHeroBulletLifestealEffectiveness = 1.000000
 			EGroundDashDistanceInMeters = 10.000000
-			EGroundDashDuration = 0.680000
+			EGroundDashDuration = 0.700000
 			EAirDashDistanceInMeters = 8.000000
-			EAirDashDuration = 0.470000
+			EAirDashDuration = 0.490000
 		}
 		m_groundDashPositionCurve =
 		{
@@ -4535,6 +4539,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_blood_bomb"
 			ESlot_Signature_2 = "ability_life_drain"
 			ESlot_Signature_3 = "ability_blood_shards"
@@ -5337,61 +5342,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -5424,7 +5429,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -5560,8 +5565,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 6.500000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 6.400000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -5646,6 +5651,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "citadel_ability_bull_heal"
 			ESlot_Signature_2 = "citadel_ability_bull_charge"
 			ESlot_Signature_3 = "citadel_ability_passive_beefy"
@@ -6450,61 +6456,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -6537,7 +6543,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -6670,8 +6676,8 @@
 		m_nModelSkin = 1
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -6756,6 +6762,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "citadel_ability_card_toss"
 			ESlot_Signature_2 = "citadel_ability_projectmind"
 			ESlot_Signature_3 = "citadel_ability_wraith_rapidfire"
@@ -7371,7 +7378,7 @@
 			ESprintSpeed =
 			{
 				eScalingStat = "ETechPower"
-				flScale = 0.060000
+				flScale = 0.050000
 			}
 		}
 		m_heroStatsDisplay =
@@ -7418,7 +7425,7 @@
 		}
 		m_mapStandardLevelUpUpgrades =
 		{
-			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.170000
+			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.140000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
 			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 35
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
@@ -7564,61 +7571,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -7651,7 +7658,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -7797,8 +7804,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 6.800000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 6.700000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -7883,6 +7890,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "citadel_ability_shieldedsentry"
 			ESlot_Signature_2 = "citadel_ability_mobile_resupply"
 			ESlot_Signature_3 = "citadel_ability_fissure_wall"
@@ -8686,61 +8694,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -8773,7 +8781,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -8927,8 +8935,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 6.800000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 6.700000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -9013,6 +9021,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "citadel_ability_chrono_pulse_grenade"
 			ESlot_Signature_2 = "citadel_ability_chrono_time_wall"
 			ESlot_Signature_3 = "citadel_ability_chrono_kinetic_carbine"
@@ -9815,61 +9824,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -9902,7 +9911,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -10041,8 +10050,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 6.800000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 6.700000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -10053,7 +10062,7 @@
 			EWeaponPowerScale = 1
 			EProcBuildUpRateScale = 1
 			EStamina = 3
-			EBaseHealthRegen = 2.500000
+			EBaseHealthRegen = 1.750000
 			EStaminaRegenPerSecond = 0.200000
 			EAbilityResourceMax = 0
 			EAbilityResourceRegenPerSecond = 0
@@ -10127,6 +10136,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "citadel_ability_stomp"
 			ESlot_Signature_2 = "citadel_ability_void_sphere"
 			ESlot_Signature_3 = "citadel_ability_nikuman"
@@ -10934,61 +10944,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -11021,7 +11031,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -11172,8 +11182,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 6.800000
-			ESprintSpeed = 1.500000
+			EMaxMoveSpeed = 6.700000
+			ESprintSpeed = 1.100000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -11258,6 +11268,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_ice_grenade"
 			ESlot_Signature_2 = "ability_icepath"
 			ESlot_Signature_3 = "ability_icebeam"
@@ -12060,61 +12071,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -12147,7 +12158,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -12290,8 +12301,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 8.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 8.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -12376,6 +12387,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_sleep_dagger"
 			ESlot_Signature_2 = "ability_smoke_bomb"
 			ESlot_Signature_3 = "ability_stacking_damage"
@@ -13183,61 +13195,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -13270,7 +13282,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -13408,8 +13420,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 8.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 8.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -13494,6 +13506,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_explosive_barrel"
 			ESlot_Signature_2 = "ability_bounce_pad"
 			ESlot_Signature_3 = "ability_crackshot"
@@ -14296,61 +14309,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -14383,7 +14396,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -14527,8 +14540,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 6.550000
-			ESprintSpeed = 4.500000
+			EMaxMoveSpeed = 6.450000
+			ESprintSpeed = 4.000000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 63
@@ -14613,6 +14626,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "citadel_ability_uppercut"
 			ESlot_Signature_2 = "citadel_ability_sticky_bomb"
 			ESlot_Signature_3 = "citadel_ability_hook"
@@ -15416,61 +15430,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -15503,7 +15517,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -15643,8 +15657,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 63
@@ -15729,6 +15743,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_nano_clustergrenade"
 			ESlot_Signature_2 = "ability_nano_dash"
 			ESlot_Signature_3 = "ability_nano_catform"
@@ -16531,61 +16546,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -16618,7 +16633,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -16764,7 +16779,7 @@
 		m_mapStartingStats =
 		{
 			EMaxMoveSpeed = 6.300000
-			ESprintSpeed = 2.000000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -16849,6 +16864,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_charged_shot"
 			ESlot_Signature_2 = "ability_power_jump"
 			ESlot_Signature_3 = "ability_immobilize_trap"
@@ -17464,7 +17480,7 @@
 			EMaxMoveSpeed =
 			{
 				eScalingStat = "ETechPower"
-				flScale = 0.014000
+				flScale = 0.008400
 			}
 			EBulletDamage =
 			{
@@ -17661,61 +17677,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -17748,7 +17764,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -17899,8 +17915,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 8.100000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 8.000000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -17985,6 +18001,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_intimidate"
 			ESlot_Signature_2 = "ability_burrow"
 			ESlot_Signature_3 = "ability_throw_sand"
@@ -18787,61 +18804,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -18874,7 +18891,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -19028,8 +19045,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 6.800000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 6.700000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -19114,6 +19131,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Weapon_Secondary = "citadel_weapon_shiv_alt"
 			ESlot_Signature_1 = "citadel_ability_shiv_dagger"
 			ESlot_Signature_2 = "citadel_ability_shiv_dash"
@@ -19917,61 +19935,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -20004,7 +20022,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -20146,8 +20164,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 43
@@ -20232,6 +20250,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "citadel_ability_tengu_urn"
 			ESlot_Signature_2 = "citadel_ability_tangotether"
 			ESlot_Signature_3 = "citadel_ability_tengu_stone_form"
@@ -21034,61 +21053,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -21121,7 +21140,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -21252,8 +21271,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -21338,6 +21357,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "citadel_ability_kali_spinning_blade"
 			ESlot_Signature_2 = "citadel_ability_kali_disruptive_charge"
 			ESlot_Signature_3 = "ability_kali_dust_storm"
@@ -22138,61 +22158,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -22225,7 +22245,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -22292,7 +22312,7 @@
 		m_mapStartingStats =
 		{
 			EMaxMoveSpeed = 6.300000
-			ESprintSpeed = 2.000000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -22377,6 +22397,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_warden_crowd_control"
 			ESlot_Signature_2 = "ability_warden_high_alert"
 			ESlot_Signature_3 = "ability_warden_lock_down"
@@ -23189,61 +23210,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -23276,7 +23297,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -23420,8 +23441,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 8.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 8.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 55
@@ -23506,6 +23527,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Weapon_Secondary = "citadel_weapon_yamato_alt"
 			ESlot_Signature_1 = "citadel_ability_power_slash"
 			ESlot_Signature_2 = "citadel_ability_flying_strike"
@@ -24314,61 +24336,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -24401,7 +24423,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -24543,8 +24565,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.500000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 2.100000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -24630,6 +24652,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "citadel_ability_lash_down_strike"
 			ESlot_Signature_2 = "citadel_ability_lash"
 			ESlot_Signature_3 = "ability_lash_flog"
@@ -25432,61 +25455,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -25519,7 +25542,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -25652,8 +25675,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 63
@@ -25738,6 +25761,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "viscous_goo_grenade"
 			ESlot_Signature_2 = "viscous_restorative_goo"
 			ESlot_Signature_3 = "viscous_telepunch"
@@ -26541,61 +26565,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -26628,7 +26652,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -26768,8 +26792,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -26854,6 +26878,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "citadel_ability_chrono_pulse_grenade"
 			ESlot_Signature_2 = "gunslinger_knockbackblast"
 			ESlot_Signature_3 = "gunslinger_demonMark"
@@ -27654,61 +27679,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -27741,7 +27766,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -27806,8 +27831,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -27892,6 +27917,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "yakuza_shakedown_target"
 			ESlot_Signature_2 = "yakuza_kobun"
 			ESlot_Signature_3 = "yakuza_protection_racket"
@@ -28692,61 +28718,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -28779,7 +28805,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -28845,8 +28871,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -28931,6 +28957,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "genericperson_ability_1"
 			ESlot_Signature_2 = "genericperson_ability_2"
 			ESlot_Signature_3 = "genericperson_ability_3"
@@ -29731,61 +29758,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -29818,7 +29845,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -29884,8 +29911,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -29970,6 +29997,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "tokamak_hot_shot"
 			ESlot_Signature_2 = "tokamak_dying_star"
 			ESlot_Signature_3 = "tokamak_radiance"
@@ -30770,61 +30798,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -30857,7 +30885,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -30925,8 +30953,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -31011,6 +31039,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "citadel_ability_wrecker_bouldergrenade"
 			ESlot_Signature_2 = "ability_wrecker_salvage"
 			ESlot_Signature_3 = "ability_scrap_blast"
@@ -31812,61 +31841,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -31899,7 +31928,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -31995,8 +32024,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -32081,6 +32110,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "rutger_rocket"
 			ESlot_Signature_2 = "rutger_force_field"
 			ESlot_Signature_3 = "rutger_cheat_death"
@@ -32881,61 +32911,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -32968,7 +32998,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -33035,8 +33065,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 60
@@ -33122,6 +33152,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "synth_barrage"
 			ESlot_Signature_2 = "synth_plasma_flux"
 			ESlot_Signature_3 = "synth_pulse"
@@ -33924,61 +33955,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -34011,7 +34042,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -34152,8 +34183,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -34238,6 +34269,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "thumper_ability_1"
 			ESlot_Signature_2 = "thumper_ability_2"
 			ESlot_Signature_3 = "thumper_ability_3"
@@ -35038,61 +35070,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -35125,7 +35157,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -35191,8 +35223,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.000000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -35277,6 +35309,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "mirage_fire_beetles"
 			ESlot_Signature_2 = "mirage_tornado"
 			ESlot_Signature_3 = "mirage_sand_phantom"
@@ -35934,7 +35967,7 @@
 		}
 		m_mapStandardLevelUpUpgrades =
 		{
-			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.616000
+			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.500000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.000000
 			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 44
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
@@ -36079,61 +36112,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -36166,7 +36199,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -36307,8 +36340,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -36393,6 +36426,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "fathom_scalding_spray"
 			ESlot_Signature_2 = "fathom_breach"
 			ESlot_Signature_3 = "fathom_reefdweller_harpoon"
@@ -37195,61 +37229,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -37282,7 +37316,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -37369,8 +37403,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -37455,6 +37489,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "cadence_ability_anthem"
 			ESlot_Signature_2 = "cadence_ability_silencecontraptions"
 			ESlot_Signature_3 = "cadence_ability_lullaby"
@@ -38255,61 +38290,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -38342,7 +38377,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -38409,8 +38444,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -38495,6 +38530,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "targetdummy_ability_1"
 			ESlot_Signature_2 = "targetdummy_ability_2"
 			ESlot_Signature_3 = "targetdummy_ability_3"
@@ -39295,61 +39331,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -39382,7 +39418,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -39450,8 +39486,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -39536,6 +39572,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_charged_bomb"
 			ESlot_Signature_2 = "ability_bomber_ability02"
 			ESlot_Signature_3 = "ability_bomber_ability03"
@@ -40336,61 +40373,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -40423,7 +40460,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -40484,8 +40521,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -40570,6 +40607,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_shieldguy_ability01"
 			ESlot_Signature_2 = "ability_shieldguy_ability02"
 			ESlot_Signature_3 = "ability_shieldguy_ability03"
@@ -41370,61 +41408,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -41457,7 +41495,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -41518,8 +41556,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.000000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 6.900000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -41604,6 +41642,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_viper_debuffdagger"
 			ESlot_Signature_2 = "ability_viper_venom"
 			ESlot_Signature_3 = "ability_viper_snakedash"
@@ -42219,7 +42258,7 @@
 			EMaxMoveSpeed =
 			{
 				eScalingStat = "ETechPower"
-				flScale = 0.023000
+				flScale = 0.013800
 			}
 		}
 		m_heroStatsDisplay =
@@ -42411,61 +42450,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -42498,7 +42537,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -42639,8 +42678,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -42725,6 +42764,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "citadel_ability_vandal_surge"
 			ESlot_Signature_2 = "ability_vandal_pillar"
 			ESlot_Signature_3 = "ability_haunt"
@@ -43527,61 +43567,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -43614,7 +43654,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -43700,8 +43740,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -43786,6 +43826,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_magician_magicbolt"
 			ESlot_Signature_2 = "ability_magician_cloneturret"
 			ESlot_Signature_3 = "ability_magician_animalhexarea"
@@ -44401,7 +44442,7 @@
 			EMaxMoveSpeed =
 			{
 				eScalingStat = "ETechPower"
-				flScale = 0.023000
+				flScale = 0.013800
 			}
 		}
 		m_heroStatsDisplay =
@@ -44593,61 +44634,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -44680,7 +44721,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -44819,8 +44860,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -44906,6 +44947,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_trapper_poisonjar"
 			ESlot_Signature_2 = "ability_trapper_webwall"
 			ESlot_Signature_3 = "ability_trapper_spidershield"
@@ -45708,61 +45750,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -45795,7 +45837,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -45887,8 +45929,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -45973,6 +46015,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "operative_blindside"
 			ESlot_Signature_2 = "operative_umbrella_maneuver"
 			ESlot_Signature_3 = "citadel_ability_wraith_rapidfire"
@@ -46774,61 +46817,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -46861,7 +46904,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -46948,8 +46991,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 6.700000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 6.600000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -47034,6 +47077,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_vampirebat_steallife"
 			ESlot_Signature_2 = "ability_vampirebat_batblink"
 			ESlot_Signature_3 = "ability_vampirebat_lovebites"
@@ -47836,61 +47880,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -47923,7 +47967,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -48008,8 +48052,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.000000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 6.900000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 51.500000
@@ -48094,6 +48138,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "drifter_blood_blast"
 			ESlot_Signature_2 = "drifter_shadow_mark"
 			ESlot_Signature_3 = "ability_drifter_hunger"
@@ -48896,61 +48941,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -48983,7 +49028,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -49123,7 +49168,7 @@
 		m_mapStartingStats =
 		{
 			EMaxMoveSpeed = 6.500000
-			ESprintSpeed = 2.000000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -49208,6 +49253,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_priest_flashbang"
 			ESlot_Signature_2 = "ability_priest_knockback"
 			ESlot_Signature_3 = "ability_priest_stackingdefense"
@@ -50010,61 +50056,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -50097,7 +50143,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -50180,7 +50226,7 @@
 		m_mapStartingStats =
 		{
 			EMaxMoveSpeed = 6.300000
-			ESprintSpeed = 1.500000
+			ESprintSpeed = 1.100000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -50266,6 +50312,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_frank_shocktarget2"
 			ESlot_Signature_2 = "ability_frank_selfzap"
 			ESlot_Signature_3 = "ability_frank_painaura"
@@ -51073,61 +51120,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -51160,7 +51207,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -51245,8 +51292,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.000000
-			ESprintSpeed = 4.000000
+			EMaxMoveSpeed = 6.900000
+			ESprintSpeed = 3.500000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 42.000000
@@ -51331,6 +51378,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_bookworm_dragonfire"
 			ESlot_Signature_2 = "ability_bookworm_knightbarrier"
 			ESlot_Signature_3 = "ability_bookworm_aoemagic"
@@ -52138,61 +52186,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -52225,7 +52273,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -52313,7 +52361,7 @@
 		m_mapStartingStats =
 		{
 			EMaxMoveSpeed = 8.000000
-			ESprintSpeed = 2.000000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -52398,6 +52446,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_boho_bouncyprojectile"
 			ESlot_Signature_2 = "ability_boho_doublehit"
 			ESlot_Signature_3 = "ability_boho_damageshare"
@@ -53200,61 +53249,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -53287,7 +53336,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -53394,8 +53443,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 8
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.900000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -53480,6 +53529,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_doorman_bomb"
 			ESlot_Signature_2 = "ability_doorman_doorway"
 			ESlot_Signature_3 = "ability_doorman_luggage_cart"
@@ -54282,61 +54332,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -54369,7 +54419,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -54463,7 +54513,7 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
+			EMaxMoveSpeed = 7.200000
 			ESprintSpeed = 2.500000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
@@ -54550,6 +54600,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_skyrunner_swingline"
 			ESlot_Signature_2 = "ability_skyrunner_magic_beam"
 			ESlot_Signature_3 = "ability_skyrunner_flakshot"
@@ -55353,61 +55404,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -55440,7 +55491,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -55539,7 +55590,7 @@
 		m_mapStartingStats =
 		{
 			EMaxMoveSpeed = 6.800000
-			ESprintSpeed = 2.000000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -55624,6 +55675,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_swan_featherboomerang"
 			ESlot_Signature_2 = "ability_swan_leap"
 			ESlot_Signature_3 = "ability_swan_acrobat"
@@ -56426,61 +56478,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -56513,7 +56565,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -56642,8 +56694,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.100000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.000000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -56654,7 +56706,7 @@
 			EWeaponPowerScale = 1
 			EProcBuildUpRateScale = 1
 			EStamina = 3
-			EBaseHealthRegen = 3.000000
+			EBaseHealthRegen = 2.500000
 			EStaminaRegenPerSecond = 0.200000
 			EAbilityResourceMax = 0
 			EAbilityResourceRegenPerSecond = 0
@@ -56728,6 +56780,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_punkgoat_ult"
 			ESlot_Signature_2 = "ability_punkgoat_goatflip"
 			ESlot_Signature_3 = "ability_punkgoat_blasted"
@@ -57530,61 +57583,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -57617,7 +57670,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -57737,8 +57790,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -57823,6 +57876,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_druid_ability01"
 			ESlot_Signature_2 = "ability_druid_ability02"
 			ESlot_Signature_3 = "ability_druid_sprout"
@@ -58623,61 +58677,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -58710,7 +58764,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -58781,8 +58835,8 @@
 		m_nModelSkin = 0
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -58867,6 +58921,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_graf_ability01"
 			ESlot_Signature_2 = "ability_graf_ability02"
 			ESlot_Signature_3 = "ability_graf_ability03"
@@ -59669,61 +59724,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -59756,7 +59811,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 
@@ -59835,8 +59890,8 @@
 		m_nModelSkin = 1
 		m_mapStartingStats =
 		{
-			EMaxMoveSpeed = 7.300000
-			ESprintSpeed = 2.000000
+			EMaxMoveSpeed = 7.200000
+			ESprintSpeed = 1.600000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
@@ -59921,6 +59976,7 @@
 			ESlot_Ability_Innate_1 = "citadel_ability_dash"
 			ESlot_Ability_Innate_2 = "citadel_ability_sprint"
 			ESlot_Ability_Innate_3 = "citadel_ability_melee_parry"
+			ESlot_Cosmetic_1 = "cosmetic_item_snowball"
 			ESlot_Signature_1 = "ability_fortuna_ability01"
 			ESlot_Signature_2 = "ability_fortuna_ability02"
 			ESlot_Signature_3 = "ability_fortuna_ability03"
@@ -60729,61 +60785,61 @@
 
 				{
 					nGoldThreshold = 800
-					flBonus = 8
+					flBonus = 75
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 1600
-					flBonus = 10
+					flBonus = 125
 					flPercentOnGraph = 8
 				},
 
 				{
 					nGoldThreshold = 2400
-					flBonus = 13
+					flBonus = 200
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 3200
-					flBonus = 17
+					flBonus = 275
 					flPercentOnGraph = 9
 				},
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 34
+					flBonus = 525
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 7200
-					flBonus = 39
+					flBonus = 625
 					flPercentOnGraph = 10
 				},
 
 				{
 					nGoldThreshold = 9600
-					flBonus = 44
+					flBonus = 750
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 16000
-					flBonus = 48
+					flBonus = 1000
 					flPercentOnGraph = 11
 				},
 
 				{
 					nGoldThreshold = 22400
-					flBonus = 52
+					flBonus = 1200
 					flPercentOnGraph = 12
 				},
 
 				{
 					nGoldThreshold = 28800
-					flBonus = 56
+					flBonus = 1400
 					flPercentOnGraph = 12
 				},
 			]
@@ -60816,7 +60872,7 @@
 
 				{
 					nGoldThreshold = 4800
-					flBonus = 45
+					flBonus = 38
 					flPercentOnGraph = 10
 				},
 

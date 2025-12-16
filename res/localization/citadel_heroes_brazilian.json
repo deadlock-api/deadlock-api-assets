@@ -2200,6 +2200,7 @@
       "citadel_ability_sticky_bomb": "Bomba Pegajosa",
       "citadel_ability_sticky_bomb_desc": "Gruda uma bomba que explode ap\u00f3s um breve atraso, causando {g:citadel_inline_attribute:'SpiritDamage'} aos inimigos pr\u00f3ximos. <br><br>Caso a bomba atinja ou mate um her\u00f3i, <span class=\"highlight\">aumenta permanentemente o dano</span> da Bomba Pegajosa.<br><br><span class=\"diminish\">Segure{g:citadel_binding:'AltCast'}para grudar a Bomba Pegajosa em si mesmo.</span>",
       "citadel_ability_sticky_bomb_quip": "Gruda uma bomba em um inimigo",
+      "citadel_ability_sticky_bomb_t3_desc": "Ao usar: <span class=\"highlight\">+{s:MovementSpeedBonus}\u00a0m/s</span> por <span class=\"highlight\">{s:MovementSpeedBonusDuration}s</span>",
       "citadel_ability_stomp": "Pulso Cin\u00e9tico",
       "citadel_ability_stomp_desc": "Libera um pulso de energia que viaja pelo ch\u00e3o, causando {g:citadel_inline_attribute:'SpiritDamage'} e aplicando um {g:citadel_inline_attribute:'KnockUp'}.",
       "citadel_ability_stomp_quip": "Libera um pulso no ch\u00e3o que lan\u00e7a os inimigos no ar",

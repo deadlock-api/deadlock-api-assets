@@ -163,7 +163,7 @@
       "BarrierDuration_postvalue_label": "\u5c4f\u969c\u6301\u7eed\u65f6\u95f4",
       "BaseAttackDamagePercentAltFire_label": "\u6b21\u8981\u53d1\u5c04\u6b66\u5668\u4f24\u5bb3",
       "BaseAttackDamagePercentAltFire_postfix": "%",
-      "BaseAttackDamagePercentAltFire_postvalue_label": "\u4e8c\u6b21\u53d1\u5c04\u6b66\u5668\u4f24\u5bb3",
+      "BaseAttackDamagePercentAltFire_postvalue_label": "\u6b21\u8981\u53d1\u5c04\u6b66\u5668\u4f24\u5bb3",
       "BaseAttackDamagePercentAltFire_prefix": "{s:sign}",
       "BaseAttackDamagePercent_label": "\u6b66\u5668\u4f24\u5bb3",
       "BaseAttackDamagePercent_postfix": "%",
