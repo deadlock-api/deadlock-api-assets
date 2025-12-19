@@ -50,7 +50,7 @@
       "BonusBaseDamage_postfix": "%",
       "BonusBaseHealth_label": "\u0411\u0430\u0437\u043e\u0432\u043e\u0435 \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u0435",
       "BonusBaseHealth_postfix": "%",
-      "BonusBaseHealth_postvalue_label": "\u0411\u0430\u0437\u043e\u0432\u043e\u0435 \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u0435",
+      "BonusBaseHealth_postvalue_label": "\u043a \u0431\u0430\u0437\u043e\u0432\u043e\u043c\u0443 \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044e",
       "BonusBaseHealth_prefix": "+",
       "BonusBaseWeaponDamageTaken_label": "\u0423\u0440\u043e\u043d \u043e\u0442 \u043e\u0440\u0443\u0436\u0438\u044f",
       "BonusBaseWeaponDamageTaken_postfix": "%",
