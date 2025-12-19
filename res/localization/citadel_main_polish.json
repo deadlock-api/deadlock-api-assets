@@ -861,7 +861,7 @@
       "Citadel_Hud_Spectate": "Tryb widza",
       "Citadel_Hud_TeamChoice": "Dru\u017cyna:",
       "Citadel_Hud_ToNext": "DO DARU",
-      "Citadel_Hud_Toast_SeasonalAchievement2024Unlocked": "Gracz {g:citadel_persona:account_id} sprawia, \u017ce jego bohater ({s:hero_name}) czuje magi\u0119 tych \u015awi\u0105t!",
+      "Citadel_Hud_Toast_SeasonalAchievement2024Unlocked": "Gracz {g:citadel_persona:account_id} sprawia, \u017ce jego bohater czuje magi\u0119 tych \u015awi\u0105t!",
       "Citadel_Hud_Toast_SeasonalAchievement2025Unlocked": "{g:citadel_persona:account_id} odblokowuje ozdob\u0119 dla swojego bohatera!",
       "Citadel_Hud_Toast_SeasonalKill": "<span class=\"Emphasis\"{g:citadel_persona:killer_account_id}</span>",
       "Citadel_Hud_Toast_SeasonalKill2": "zabija \u015bnie\u017ck\u0105!",
