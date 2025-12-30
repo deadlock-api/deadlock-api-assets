@@ -215,15 +215,15 @@ if __name__ == "__main__":
     with open(f"{out_folder}/latest_version.txt", "w") as f:
         f.write(str(version_id))
 
-    client_versions = load_client_versions()
-    with open(f"{out_folder}/client_versions.json", "w") as f:
-        json.dump(client_versions, f)
-
     # Prepare Folders
     os.makedirs(f"{out_folder}/versions/{version_id}/ranks", exist_ok=True)
     os.makedirs(f"{out_folder}/versions/{version_id}/heroes", exist_ok=True)
     os.makedirs(f"{out_folder}/versions/{version_id}/items", exist_ok=True)
     os.makedirs(f"{out_folder}/versions/{version_id}/build_tags", exist_ok=True)
+
+    client_versions = load_client_versions()
+    with open(f"{out_folder}/client_versions.json", "w") as f:
+        json.dump(client_versions, f)
 
     # Load Data
     localizations = load_localizations(version_id)
