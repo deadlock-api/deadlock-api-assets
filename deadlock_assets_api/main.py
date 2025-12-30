@@ -7,7 +7,6 @@ from scalar_fastapi import get_scalar_api_reference, Theme
 from starlette.middleware.gzip import GZipMiddleware
 from starlette.requests import Request
 from starlette.responses import FileResponse, RedirectResponse, Response
-from starlette.staticfiles import StaticFiles
 from starlette.status import HTTP_308_PERMANENT_REDIRECT
 
 from deadlock_assets_api.logging_middleware import RouterLoggingMiddleware
@@ -122,22 +121,6 @@ async def add_cache_headers(request: Request, call_next):
             f"public, max-age={60 * 60}, stale-while-revalidate={24 * 60 * 60}, stale-if-error={24 * 60 * 60}"
         )
     return response
-
-
-class StaticFilesCache(StaticFiles):
-    def file_response(self, *args, **kwargs) -> Response:
-        resp: Response = super().file_response(*args, **kwargs)
-        resp.headers.setdefault(
-            "Cache-Control",
-            f"public, max-age={24 * 60 * 60}, s-maxage={60 * 60}, stale-while-revalidate={24 * 60 * 60}",
-        )
-        return resp
-
-
-app.mount("/images", StaticFilesCache(directory="images"), name="images")
-app.mount("/videos", StaticFilesCache(directory="videos"), name="videos")
-app.mount("/icons", StaticFilesCache(directory="svgs"), name="svgs")
-app.mount("/sounds", StaticFilesCache(directory="sounds"), name="sounds")
 
 
 @app.get("/", include_in_schema=False)
