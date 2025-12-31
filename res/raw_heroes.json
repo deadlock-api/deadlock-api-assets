@@ -10588,7 +10588,7 @@
       "reload_speed": 1,
       "sprint_speed": 4.0,
       "stamina": 3,
-      "stamina_regen_per_second": 0.166667,
+      "stamina_regen_per_second": 0.181818,
       "tech_armor_damage_reduction": null,
       "tech_duration": 1,
       "tech_range": 1,
