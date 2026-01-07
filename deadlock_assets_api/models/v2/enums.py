@@ -190,3 +190,15 @@ class ItemTypeV2(StrEnum):
             return cls.ABILITY
         logging.warning(f"Unknown ItemType: {value}")
         return None
+
+
+class GameMode(StrEnum):
+    k_ECitadelGameMode_Normal = "normal"
+
+    @classmethod
+    def _missing_(cls, new_value: str):
+        new_value = new_value.lower()
+        for member in cls:
+            if new_value in [member.value.lower(), member.name.lower()]:
+                return member
+        raise ValueError(f"Unknown GameMode: {new_value}")

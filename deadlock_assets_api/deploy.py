@@ -15,6 +15,7 @@ from deadlock_assets_api.models.v1.colors import ColorV1
 from deadlock_assets_api.models.v1.map import MapV1
 from deadlock_assets_api.models.v1.steam_info import SteamInfoV1
 from deadlock_assets_api.models.v2.api_ability import AbilityV2
+from deadlock_assets_api.models.v2.api_accolade import AccoladeV2
 from deadlock_assets_api.models.v2.api_hero import HeroV2
 from deadlock_assets_api.models.v2.api_item import ItemV2
 from deadlock_assets_api.models.v2.api_upgrade import UpgradeV2
@@ -25,6 +26,7 @@ from deadlock_assets_api.models.v2.misc import MiscV2
 from deadlock_assets_api.models.v2.npc_unit import NPCUnitV2
 from deadlock_assets_api.models.v2.rank import RankV2
 from deadlock_assets_api.models.v2.raw_ability import RawAbilityV2
+from deadlock_assets_api.models.v2.raw_accolade import RawAccoladeV2
 from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
 from deadlock_assets_api.models.v2.raw_upgrade import RawUpgradeV2
 from deadlock_assets_api.models.v2.raw_weapon import RawWeaponV2
@@ -43,12 +45,17 @@ def load_localizations(version_id: int) -> dict[Language, dict[str, str]]:
             f"res/builds/{version_id}/v2/localization/citadel_attributes_{language}.json",
             f"res/builds/{version_id}/v2/localization/citadel_gc_hero_names_{language}.json",
             f"res/builds/{version_id}/v2/localization/citadel_gc_mod_names_{language}.json",
+            f"res/builds/{version_id}/v2/localization/accolades_{language}.json",
         ]
         for path in paths:
             if not os.path.exists(path):
                 continue
             with open(path) as f:
-                localizations[language].update(json.load(f)["lang"]["Tokens"])
+                data = json.load(f)
+                if "lang" in data and "Tokens" in data["lang"]:
+                    localizations[language].update(data["lang"]["Tokens"])
+                else:
+                    localizations[language].update(data["accolades.vdata"])
     return localizations
 
 
@@ -160,6 +167,13 @@ def load_raw_heroes(version_id: int) -> list[RawHeroV2]:
     return TypeAdapter(list[RawHeroV2]).validate_json(content)
 
 
+def load_raw_accolades(version_id: int) -> list[RawAccoladeV2]:
+    path = f"res/builds/{version_id}/v2/raw_accolades.json"
+    with open(path) as f:
+        content = f.read()
+    return TypeAdapter(list[RawAccoladeV2]).validate_json(content)
+
+
 def load_raw_items(version_id: int) -> list[RawAbilityV2 | RawWeaponV2 | RawUpgradeV2]:
     path = f"res/builds/{version_id}/v2/raw_items.json"
     with open(path) as f:
@@ -193,6 +207,13 @@ def build_heroes(raw_heroes, localization: dict[str, str]) -> list[HeroV2]:
     return [HeroV2.from_raw_hero(r, localization).model_dump(exclude_none=True) for r in raw_heroes]
 
 
+def build_accolades(raw_accolades, localization: dict[str, str]) -> list[AccoladeV2]:
+    return [
+        AccoladeV2.from_raw_accolade(r, localization).model_dump(exclude_none=True)
+        for r in raw_accolades
+    ]
+
+
 def build_items(raw_items, raw_heroes, localization: dict[str, str]) -> list[ItemV2]:
     def item_from_raw_item(raw_item: RawUpgradeV2 | RawAbilityV2 | RawWeaponV2) -> ItemV2:
         if raw_item.type == "ability":
@@ -219,6 +240,7 @@ if __name__ == "__main__":
     os.makedirs(f"{out_folder}/versions/{version_id}/ranks", exist_ok=True)
     os.makedirs(f"{out_folder}/versions/{version_id}/heroes", exist_ok=True)
     os.makedirs(f"{out_folder}/versions/{version_id}/items", exist_ok=True)
+    os.makedirs(f"{out_folder}/versions/{version_id}/accolades", exist_ok=True)
     os.makedirs(f"{out_folder}/versions/{version_id}/build_tags", exist_ok=True)
 
     client_versions = load_client_versions()
@@ -236,6 +258,7 @@ if __name__ == "__main__":
     npc_units = load_npc_units(version_id)
     misc_entities = load_misc_entities(version_id)
     raw_heroes = load_raw_heroes(version_id)
+    raw_accolades = load_raw_accolades(version_id)
     raw_items = load_raw_items(version_id)
 
     # Write Data files
@@ -263,6 +286,9 @@ if __name__ == "__main__":
     with open(f"{out_folder}/versions/{version_id}/raw_heroes.json", "w") as f:
         json.dump([h.model_dump(exclude_none=True) for h in raw_heroes], f)
 
+    with open(f"{out_folder}/versions/{version_id}/raw_accolades.json", "w") as f:
+        json.dump([h.model_dump(exclude_none=True) for h in raw_accolades], f)
+
     with open(f"{out_folder}/versions/{version_id}/raw_items.json", "w") as f:
         json.dump([i.model_dump(exclude_none=True) for i in raw_items], f)
 
@@ -286,6 +312,10 @@ if __name__ == "__main__":
         heroes = build_heroes(raw_heroes, localization)
         with open(f"{out_folder}/versions/{version_id}/heroes/{language.value}.json", "w") as f:
             json.dump(heroes, f)
+
+        accolades = build_accolades(raw_accolades, localization)
+        with open(f"{out_folder}/versions/{version_id}/accolades/{language.value}.json", "w") as f:
+            json.dump(accolades, f)
 
         items = build_items(raw_items, raw_heroes, localization)
         with open(f"{out_folder}/versions/{version_id}/items/{language.value}.json", "w") as f:

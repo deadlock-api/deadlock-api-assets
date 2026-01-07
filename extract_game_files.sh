@@ -36,7 +36,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 fi
 
 # Download Deadlock Game files
-./DepotDownloader -app 1422450 -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -all-platforms -all-languages -validate -remember-password || exit 1
+#./DepotDownloader -app 1422450 -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -all-platforms -all-languages -validate -remember-password || exit 1
 
 mkdir -p depots/game
 rsync -av depots/*/*/game/* depots/game/
@@ -96,6 +96,7 @@ cp "$citadel_folder"/scripts/heroes.vdata vdata/
 cp "$citadel_folder"/scripts/npc_units.vdata vdata/
 cp "$citadel_folder"/scripts/misc.vdata vdata/
 cp "$citadel_folder"/scripts/generic_data.vdata vdata/
+cp "$citadel_folder"/scripts/accolades.vdata vdata/
 cp vdata/* res/
 
 # Extract localization files
@@ -104,6 +105,7 @@ cp -r "$citadel_folder"/resource/localization/citadel_gc/* localization/
 cp -r "$citadel_folder"/resource/localization/citadel_heroes/* localization/
 cp -r "$citadel_folder"/resource/localization/citadel_mods/* localization/
 cp -r "$citadel_folder"/resource/localization/citadel_main/* localization/
+cp -r "$citadel_folder"/resource/localization/citadel_vdata/accolades/* localization/
 cp -r "$citadel_folder"/resource/localization/citadel_attributes/* localization/
 cp -r "$citadel_folder"/resource/localization/citadel_gc_hero_names/* localization/
 cp -r "$citadel_folder"/resource/localization/citadel_gc_mod_names/* localization/

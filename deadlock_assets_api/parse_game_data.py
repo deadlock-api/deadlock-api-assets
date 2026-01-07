@@ -10,6 +10,7 @@ from deadlock_assets_api.kv3parser import KV3Parser
 from deadlock_assets_api.parsers.generic_data import parse_generic_data
 from deadlock_assets_api.parsers.heroes import parse_heroes_v2
 from deadlock_assets_api.parsers.items import parse_items_v2
+from deadlock_assets_api.parsers.accolades import parse_accolades_v2
 from deadlock_assets_api.parsers.misc import parse_misc_v2
 from deadlock_assets_api.parsers.npc_units import parse_npc_units_v2
 
@@ -40,6 +41,12 @@ VDATA_FILES = (
             parse_items_v2,
             "vdata/abilities.vdata",
             f"res/builds/{VERSION_ID}/v2/raw_items.json",
+            False,
+        ),
+        (
+            parse_accolades_v2,
+            "vdata/accolades.vdata",
+            f"res/builds/{VERSION_ID}/v2/raw_accolades.json",
             False,
         ),
         (
@@ -151,6 +158,10 @@ if __name__ == "__main__":
     shutil.copyfile(
         f"res/builds/{VERSION_ID}/v2/raw_heroes.json",
         "res/raw_heroes.json",
+    )
+    shutil.copyfile(
+        f"res/builds/{VERSION_ID}/v2/raw_accolades.json",
+        "res/raw_accolades.json",
     )
     shutil.copyfile(
         f"res/builds/{VERSION_ID}/v2/generic_data.json",

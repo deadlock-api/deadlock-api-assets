@@ -4,6 +4,7 @@ from pydantic import TypeAdapter
 from deadlock_assets_api import utils
 from deadlock_assets_api.models.enums import ValidClientVersions, ALL_CLIENT_VERSIONS
 from deadlock_assets_api.models.languages import Language
+from deadlock_assets_api.models.v2.api_accolade import AccoladeV2
 from deadlock_assets_api.models.v2.api_hero import HeroV2
 from deadlock_assets_api.models.v2.api_item import ItemV2
 from deadlock_assets_api.models.v2.api_upgrade import UpgradeV2
@@ -134,6 +135,47 @@ def get_items_by_slot_type(
     items = get_items_by_type(ItemTypeV2.UPGRADE, language, client_version)
     slot_type = ItemSlotTypeV2(slot_type.capitalize())
     return [c for c in items if isinstance(c, UpgradeV2) and c.item_slot_type == slot_type]
+
+
+@router.get("/accolades", response_model_exclude_none=True, tags=["Accolades"])
+def get_accolades(
+    language: Language | None = None,
+    client_version: ValidClientVersions | None = None,
+) -> list[AccoladeV2]:
+    language = utils.validate_language(language)
+    client_version = utils.validate_client_version(client_version)
+
+    ta = TypeAdapter(list[AccoladeV2])
+    accolades = utils.read_parse_data_ta(
+        f"deploy/versions/{client_version}/accolades/{language.value}.json", ta
+    )
+    return accolades
+
+
+@router.get("/accolades/{id}", response_model_exclude_none=True, tags=["Accolades"])
+def get_accolade(
+    id: int,
+    language: Language | None = None,
+    client_version: ValidClientVersions | None = None,
+) -> AccoladeV2:
+    accolades = get_accolades(language, client_version)
+    for accolade in accolades:
+        if accolade.id == id:
+            return accolade
+    raise HTTPException(status_code=404, detail="Accolade not found")
+
+
+@router.get("/accolades/by-name/{name}", response_model_exclude_none=True, tags=["Accolades"])
+def get_accolade_by_name(
+    name: str,
+    language: Language | None = None,
+    client_version: ValidClientVersions | None = None,
+) -> AccoladeV2:
+    accolades = get_accolades(language, client_version)
+    for accolade in accolades:
+        if accolade.name.lower() == name.lower():
+            return accolade
+    raise HTTPException(status_code=404, detail="Accolade not found")
 
 
 @router.get("/npc-units", response_model_exclude_none=True, tags=["NPC Units"])

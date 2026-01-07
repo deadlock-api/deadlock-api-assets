@@ -22,6 +22,13 @@ def get_raw_items(client_version: ValidClientVersions | None = None) -> FileResp
     return FileResponse(f"deploy/versions/{client_version.value}/raw_items.json")
 
 
+@router.get("/accolades")
+def get_raw_accolades(client_version: ValidClientVersions | None = None) -> FileResponse:
+    if client_version is None:
+        client_version = ValidClientVersions(LATEST_VERSION)
+    return FileResponse(f"deploy/versions/{client_version.value}/raw_accolades.json")
+
+
 # BACKWARD COMPATIBILITY ROUTES
 @router.get("/generic_data", response_model_exclude_none=True, include_in_schema=False)
 def get_generic_data(client_version: ValidClientVersions | None = None) -> GenericDataV2:
