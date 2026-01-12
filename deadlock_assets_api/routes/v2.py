@@ -217,10 +217,10 @@ def get_misc_entities(
 def get_misc_entity(
     id_or_class_name: str,
     client_version: ValidClientVersions | None = None,
-) -> NPCUnitV2:
-    npc_units = get_npc_units(client_version=client_version)
+) -> MiscV2:
+    misc_entities = get_misc_entities(client_version=client_version)
     id = int(id_or_class_name) if utils.is_int(id_or_class_name) else id_or_class_name
-    for misc_entity in npc_units:
+    for misc_entity in misc_entities:
         if misc_entity.id == id or misc_entity.class_name == id:
             return misc_entity
     raise HTTPException(status_code=404, detail="Misc Entity not found")
