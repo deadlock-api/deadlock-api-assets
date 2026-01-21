@@ -3800,7 +3800,7 @@
     "show_on_minimap": null,
     "solid_after_death": null,
     "spawn_interval": null,
-    "spawn_interval_in_seconds": 120
+    "spawn_interval_in_seconds": 85
   },
   {
     "break_on_dodge_touch": null,
@@ -3874,7 +3874,7 @@
     "show_on_minimap": null,
     "solid_after_death": null,
     "spawn_interval": null,
-    "spawn_interval_in_seconds": 420
+    "spawn_interval_in_seconds": 290
   },
   {
     "break_on_dodge_touch": null,
@@ -3948,7 +3948,7 @@
     "show_on_minimap": null,
     "solid_after_death": null,
     "spawn_interval": null,
-    "spawn_interval_in_seconds": 480
+    "spawn_interval_in_seconds": 335
   },
   {
     "break_on_dodge_touch": null,

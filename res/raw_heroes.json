@@ -4,8 +4,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/infernus_bg.psd\"",
     "class_name": "hero_inferno",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -293,7 +293,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_incendiary_projectile",
       "signature2": "ability_flame_dash",
       "signature3": "ability_afterburn",
@@ -805,7 +804,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -821,8 +820,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/seven_bg.psd\"",
     "class_name": "hero_gigawatt",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -1110,7 +1109,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_lightning_ball",
       "signature2": "citadel_ability_static_charge",
       "signature3": "ability_power_surge",
@@ -1628,7 +1626,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -1644,8 +1642,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/vindicta_bg.psd\"",
     "class_name": "hero_hornet",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -1933,7 +1931,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_hornet_chain",
       "signature2": "citadel_ability_hornet_leap",
       "signature3": "citadel_ability_hornet_sting",
@@ -2455,7 +2452,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -2471,8 +2468,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/geist_bg.psd\"",
     "class_name": "hero_ghost",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -2760,7 +2757,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_blood_bomb",
       "signature2": "ability_life_drain",
       "signature3": "ability_blood_shards",
@@ -3269,7 +3265,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -3285,8 +3281,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/abrams_bg.psd\"",
     "class_name": "hero_atlas",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -3574,7 +3570,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_bull_heal",
       "signature2": "citadel_ability_bull_charge",
       "signature3": "citadel_ability_passive_beefy",
@@ -4084,7 +4079,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -4100,8 +4095,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/wraith_bg.psd\"",
     "class_name": "hero_wraith",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -4389,7 +4384,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_card_toss",
       "signature2": "citadel_ability_projectmind",
       "signature3": "citadel_ability_wraith_rapidfire",
@@ -4904,7 +4898,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -4920,8 +4914,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/mcginnis_bg.psd\"",
     "class_name": "hero_forge",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -5209,7 +5203,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_shieldedsentry",
       "signature2": "citadel_ability_mobile_resupply",
       "signature3": "citadel_ability_fissure_wall",
@@ -5726,7 +5719,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -5742,8 +5735,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/paradox_bg.psd\"",
     "class_name": "hero_chrono",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -6031,7 +6024,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_chrono_pulse_grenade",
       "signature2": "citadel_ability_chrono_time_wall",
       "signature3": "citadel_ability_chrono_kinetic_carbine",
@@ -6543,7 +6535,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -6559,8 +6551,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/dynamo_bg.psd\"",
     "class_name": "hero_dynamo",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -6848,7 +6840,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_stomp",
       "signature2": "citadel_ability_void_sphere",
       "signature3": "citadel_ability_nikuman",
@@ -7358,7 +7349,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -7374,8 +7365,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/kelvin_bg.psd\"",
     "class_name": "hero_kelvin",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -7663,7 +7654,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_ice_grenade",
       "signature2": "ability_icepath",
       "signature3": "ability_icebeam",
@@ -8177,7 +8167,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -8193,8 +8183,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/haze_bg.psd\"",
     "class_name": "hero_haze",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -8482,7 +8472,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_sleep_dagger",
       "signature2": "ability_smoke_bomb",
       "signature3": "ability_stacking_damage",
@@ -8996,7 +8985,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -9012,8 +9001,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/astro_bg.psd\"",
     "class_name": "hero_astro",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -9301,7 +9290,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_explosive_barrel",
       "signature2": "ability_bounce_pad",
       "signature3": "ability_crackshot",
@@ -9809,7 +9797,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -9825,8 +9813,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/bebop_bg.psd\"",
     "class_name": "hero_bebop",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -10114,7 +10102,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_uppercut",
       "signature2": "citadel_ability_sticky_bomb",
       "signature3": "citadel_ability_hook",
@@ -10624,7 +10611,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -10640,8 +10627,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/calico_bg.psd\"",
     "class_name": "hero_nano",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -10929,7 +10916,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_nano_clustergrenade",
       "signature2": "ability_nano_dash",
       "signature3": "ability_nano_catform",
@@ -11441,7 +11427,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -11457,8 +11443,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/grey_talon_bg.psd\"",
     "class_name": "hero_orion",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -11746,7 +11732,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_charged_shot",
       "signature2": "ability_power_jump",
       "signature3": "ability_immobilize_trap",
@@ -12264,7 +12249,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -12280,7 +12265,7 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/krill_bg.psd\"",
     "class_name": "hero_krill",
-    "collision_height": 80.0,
+    "collision_height": null,
     "collision_radius": 28.0,
     "color_glow_enemy": [
       255,
@@ -12569,7 +12554,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_intimidate",
       "signature2": "ability_burrow",
       "signature3": "ability_throw_sand",
@@ -13096,8 +13080,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/shiv_bg.psd\"",
     "class_name": "hero_shiv",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -13385,7 +13369,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_shiv_dagger",
       "signature2": "citadel_ability_shiv_dash",
       "signature3": "citadel_ability_shiv_defer_damage",
@@ -13897,7 +13880,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -13913,8 +13896,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/ivy_bg.psd\"",
     "class_name": "hero_tengu",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -14202,7 +14185,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_tengu_urn",
       "signature2": "citadel_ability_tangotether",
       "signature3": "citadel_ability_tengu_stone_form",
@@ -14710,7 +14692,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -14726,8 +14708,8 @@
     "available_in_hero_labs": null,
     "background_image": null,
     "class_name": "hero_kali",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -15015,7 +14997,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_kali_spinning_blade",
       "signature2": "citadel_ability_kali_disruptive_charge",
       "signature3": "ability_kali_dust_storm",
@@ -15489,7 +15470,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": null,
@@ -15501,8 +15482,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/warden_bg.psd\"",
     "class_name": "hero_warden",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -15790,7 +15771,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_warden_crowd_control",
       "signature2": "ability_warden_high_alert",
       "signature3": "ability_warden_lock_down",
@@ -16312,7 +16292,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -16328,8 +16308,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/yamato_bg.psd\"",
     "class_name": "hero_yamato",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -16617,7 +16597,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_power_slash",
       "signature2": "citadel_ability_flying_strike",
       "signature3": "citadel_ability_healing_slash",
@@ -17138,7 +17117,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -17154,8 +17133,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/lash_bg.psd\"",
     "class_name": "hero_lash",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -17443,7 +17422,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_lash_down_strike",
       "signature2": "citadel_ability_lash",
       "signature3": "ability_lash_flog",
@@ -17950,7 +17928,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -17966,8 +17944,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/viscous_bg.psd\"",
     "class_name": "hero_viscous",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -18255,7 +18233,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "viscous_goo_grenade",
       "signature2": "viscous_restorative_goo",
       "signature3": "viscous_telepunch",
@@ -18766,7 +18743,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -18782,8 +18759,8 @@
     "available_in_hero_labs": null,
     "background_image": null,
     "class_name": "hero_gunslinger",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -19071,7 +19048,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_chrono_pulse_grenade",
       "signature2": "gunslinger_knockbackblast",
       "signature3": "gunslinger_demonMark",
@@ -19545,7 +19521,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": null,
@@ -19557,8 +19533,8 @@
     "available_in_hero_labs": null,
     "background_image": null,
     "class_name": "hero_yakuza",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -19846,7 +19822,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "yakuza_shakedown_target",
       "signature2": "yakuza_kobun",
       "signature3": "yakuza_protection_racket",
@@ -20320,7 +20295,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": null,
@@ -20332,8 +20307,8 @@
     "available_in_hero_labs": null,
     "background_image": null,
     "class_name": "hero_tokamak",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -20621,7 +20596,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "tokamak_hot_shot",
       "signature2": "tokamak_dying_star",
       "signature3": "tokamak_radiance",
@@ -21095,7 +21069,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": null,
@@ -21107,8 +21081,8 @@
     "available_in_hero_labs": null,
     "background_image": null,
     "class_name": "hero_wrecker",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -21396,7 +21370,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_wrecker_bouldergrenade",
       "signature2": "ability_wrecker_salvage",
       "signature3": "ability_scrap_blast",
@@ -21892,7 +21865,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": null,
@@ -21904,8 +21877,8 @@
     "available_in_hero_labs": null,
     "background_image": null,
     "class_name": "hero_rutger",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -22193,7 +22166,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "rutger_rocket",
       "signature2": "rutger_force_field",
       "signature3": "rutger_cheat_death",
@@ -22667,7 +22639,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": null,
@@ -22679,8 +22651,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/pocket_bg.psd\"",
     "class_name": "hero_synth",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -22968,7 +22940,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "synth_barrage",
       "signature2": "synth_plasma_flux",
       "signature3": "synth_pulse",
@@ -23482,7 +23453,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -23498,8 +23469,8 @@
     "available_in_hero_labs": null,
     "background_image": null,
     "class_name": "hero_thumper",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -23787,7 +23758,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "thumper_ability_1",
       "signature2": "thumper_ability_2",
       "signature3": "thumper_ability_3",
@@ -24261,7 +24231,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": null,
@@ -24273,8 +24243,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/mirage_bg.psd\"",
     "class_name": "hero_mirage",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -24562,7 +24532,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "mirage_fire_beetles",
       "signature2": "mirage_tornado",
       "signature3": "mirage_sand_phantom",
@@ -25072,7 +25041,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -25088,8 +25057,8 @@
     "available_in_hero_labs": null,
     "background_image": null,
     "class_name": "hero_slork",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -25377,7 +25346,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "fathom_scalding_spray",
       "signature2": "fathom_breach",
       "signature3": "fathom_reefdweller_harpoon",
@@ -25866,7 +25834,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": null,
@@ -25878,8 +25846,8 @@
     "available_in_hero_labs": null,
     "background_image": null,
     "class_name": "hero_cadence",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -26167,7 +26135,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "cadence_ability_anthem",
       "signature2": "cadence_ability_silencecontraptions",
       "signature3": "cadence_ability_lullaby",
@@ -26641,7 +26608,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": null,
@@ -26653,8 +26620,8 @@
     "available_in_hero_labs": null,
     "background_image": null,
     "class_name": "hero_bomber",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -26942,7 +26909,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_charged_bomb",
       "signature2": "ability_bomber_ability02",
       "signature3": "ability_bomber_ability03",
@@ -27416,7 +27382,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": null,
@@ -27428,8 +27394,8 @@
     "available_in_hero_labs": null,
     "background_image": null,
     "class_name": "hero_shieldguy",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -27717,7 +27683,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_shieldguy_ability01",
       "signature2": "ability_shieldguy_ability02",
       "signature3": "ability_shieldguy_ability03",
@@ -28191,7 +28156,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": null,
@@ -28203,8 +28168,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/vyper_bg.psd\"",
     "class_name": "hero_viper",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -28492,7 +28457,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_viper_debuffdagger",
       "signature2": "ability_viper_venom",
       "signature3": "ability_viper_snakedash",
@@ -29007,7 +28971,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -29023,8 +28987,8 @@
     "available_in_hero_labs": null,
     "background_image": null,
     "class_name": "hero_vandal",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -29312,7 +29276,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "citadel_ability_vandal_surge",
       "signature2": "ability_vandal_pillar",
       "signature3": "ability_haunt",
@@ -29798,7 +29761,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": null,
@@ -29810,8 +29773,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/magician_bg.psd\"",
     "class_name": "hero_magician",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -30099,7 +30062,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_magician_magicbolt",
       "signature2": "ability_magician_cloneturret",
       "signature3": "ability_magician_animalhexarea",
@@ -30613,7 +30575,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -30629,8 +30591,8 @@
     "available_in_hero_labs": null,
     "background_image": null,
     "class_name": "hero_trapper",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -30918,7 +30880,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_trapper_poisonjar",
       "signature2": "ability_trapper_webwall",
       "signature3": "ability_trapper_spidershield",
@@ -31410,7 +31371,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": null,
@@ -31422,8 +31383,8 @@
     "available_in_hero_labs": null,
     "background_image": null,
     "class_name": "hero_operative",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -31711,7 +31672,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "operative_blindside",
       "signature2": "operative_umbrella_maneuver",
       "signature3": "citadel_ability_wraith_rapidfire",
@@ -32200,7 +32160,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": null,
@@ -32212,8 +32172,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/mina_bg.psd\"",
     "class_name": "hero_vampirebat",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -32501,7 +32461,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_vampirebat_steallife",
       "signature2": "ability_vampirebat_batblink",
       "signature3": "ability_vampirebat_lovebites",
@@ -32975,7 +32934,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -32991,8 +32950,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/drifter_bg.psd\"",
     "class_name": "hero_drifter",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -33280,7 +33239,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "drifter_blood_blast",
       "signature2": "drifter_shadow_mark",
       "signature3": "ability_drifter_hunger",
@@ -33794,7 +33752,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -33810,8 +33768,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/priest_bg.psd\"",
     "class_name": "hero_priest",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -34099,7 +34057,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_priest_flashbang",
       "signature2": "ability_priest_knockback",
       "signature3": "ability_priest_stackingdefense",
@@ -34573,7 +34530,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -34589,8 +34546,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/victor_bg.psd\"",
     "class_name": "hero_frank",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -34878,7 +34835,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_frank_shocktarget2",
       "signature2": "ability_frank_selfzap",
       "signature3": "ability_frank_painaura",
@@ -35357,7 +35313,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -35373,8 +35329,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/patience_bg.psd\"",
     "class_name": "hero_bookworm",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -35662,7 +35618,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_bookworm_dragonfire",
       "signature2": "ability_bookworm_knightbarrier",
       "signature3": "ability_bookworm_aoemagic",
@@ -36141,7 +36096,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -36157,8 +36112,8 @@
     "available_in_hero_labs": null,
     "background_image": null,
     "class_name": "hero_boho",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -36446,7 +36401,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_boho_bouncyprojectile",
       "signature2": "ability_boho_doublehit",
       "signature3": "ability_boho_damageshare",
@@ -36939,7 +36893,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": null,
@@ -36951,8 +36905,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/doorman_bg.psd\"",
     "class_name": "hero_doorman",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -37240,7 +37194,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_doorman_bomb",
       "signature2": "ability_doorman_doorway",
       "signature3": "ability_doorman_luggage_cart",
@@ -37714,7 +37667,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -37730,8 +37683,8 @@
     "available_in_hero_labs": null,
     "background_image": null,
     "class_name": "hero_skyrunner",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -38019,7 +37972,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_skyrunner_swingline",
       "signature2": "ability_skyrunner_magic_beam",
       "signature3": "ability_skyrunner_flakshot",
@@ -38508,7 +38460,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": null,
@@ -38520,8 +38472,8 @@
     "available_in_hero_labs": null,
     "background_image": null,
     "class_name": "hero_swan",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -38809,7 +38761,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_swan_featherboomerang",
       "signature2": "ability_swan_leap",
       "signature3": "ability_swan_acrobat",
@@ -39321,7 +39272,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": null,
@@ -39333,8 +39284,8 @@
     "available_in_hero_labs": null,
     "background_image": "panorama:\"file://{images}/heroes/backgrounds/billy_bg.psd\"",
     "class_name": "hero_punkgoat",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -39622,7 +39573,6 @@
       "ability_slide": "ability_punkgoat_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_punkgoat_ult",
       "signature2": "ability_punkgoat_goatflip",
       "signature3": "ability_punkgoat_blasted",
@@ -40116,7 +40066,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -40132,8 +40082,8 @@
     "available_in_hero_labs": null,
     "background_image": null,
     "class_name": "hero_druid",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -40421,7 +40371,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_druid_ability01",
       "signature2": "ability_druid_ability02",
       "signature3": "ability_druid_sprout",
@@ -40895,7 +40844,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": 0.325,
     "step_sound_time_sprinting": null,
     "tags": null,
@@ -40907,8 +40856,8 @@
     "available_in_hero_labs": null,
     "background_image": null,
     "class_name": "hero_graf",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -41196,7 +41145,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_graf_ability01",
       "signature2": "ability_graf_ability02",
       "signature3": "ability_graf_ability03",
@@ -41670,7 +41618,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
@@ -41686,8 +41634,8 @@
     "available_in_hero_labs": null,
     "background_image": null,
     "class_name": "hero_fortuna",
-    "collision_height": 80.0,
-    "collision_radius": 20.0,
+    "collision_height": null,
+    "collision_radius": null,
     "color_glow_enemy": [
       255,
       0,
@@ -41975,7 +41923,6 @@
       "ability_slide": "citadel_ability_slide",
       "ability_zip_line": "citadel_ability_zip_line",
       "ability_zip_line_boost": "citadel_ability_zipline_boost",
-      "eslot_cosmetic_1": "cosmetic_item_snowball",
       "signature1": "ability_fortuna_ability01",
       "signature2": "ability_fortuna_ability02",
       "signature3": "ability_fortuna_ability03",
@@ -42490,7 +42437,7 @@
       ]
     },
     "stealth_speed_meters_per_second": 4.0,
-    "step_height": 32.0,
+    "step_height": null,
     "step_sound_time": null,
     "step_sound_time_sprinting": null,
     "tags": [
