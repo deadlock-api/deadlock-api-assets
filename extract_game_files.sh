@@ -153,6 +153,7 @@ cp "$citadel_folder"/panorama/images/*.* images/
 cp -r "$citadel_folder"/panorama/images/hud/hero_portraits images/hud/
 cp -r "$citadel_folder"/panorama/images/items/ images/
 cp -r "$citadel_folder"/panorama/images/shop/ images/
+cp -r "$citadel_folder"/panorama/images/main_menu/ images/
 
 mkdir -p images/abilities
 cp -r "$citadel_folder"/panorama/images/hud/abilities images/
