@@ -172,15 +172,15 @@ class RawHeroV2(BaseModel):
     color_glow_team1: tuple[int, int, int] = Field(..., validation_alias="m_colorGlowTeam1")
     color_glow_team2: tuple[int, int, int] = Field(..., validation_alias="m_colorGlowTeam2")
     color_ui: tuple[int, int, int] = Field(..., validation_alias="m_colorUI")
-    collision_height: float = Field(..., validation_alias="m_flCollisionHeight")
-    collision_radius: float = Field(..., validation_alias="m_flCollisionRadius")
+    collision_height: float | None = Field(None, validation_alias="m_flCollisionHeight")
+    collision_radius: float | None = Field(None, validation_alias="m_flCollisionRadius")
     footstep_sound_travel_distance_meters: float | None = Field(
         None, validation_alias="m_flFootstepSoundTravelDistanceMeters"
     )
     stealth_speed_meters_per_second: float = Field(
         ..., validation_alias="m_flStealthSpeedMetersPerSecond"
     )
-    step_height: float = Field(..., validation_alias="m_flStepHeight")
+    step_height: float | None = Field(None, validation_alias="m_flStepHeight")
     step_sound_time: float | None = Field(None, validation_alias="m_flStepSoundTime")
     step_sound_time_sprinting: float | None = Field(
         None, validation_alias="m_flStepSoundTimeSprinting"

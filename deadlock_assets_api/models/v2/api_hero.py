@@ -103,10 +103,10 @@ class HeroDescriptionV2(BaseModel):
 class HeroPhysicsV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    collision_height: float
-    collision_radius: float
+    collision_height: float | None
+    collision_radius: float | None
     stealth_speed_meters_per_second: float
-    step_height: float
+    step_height: float | None
     footstep_sound_travel_distance_meters: float | None = None
     step_sound_time: float | None = None
     step_sound_time_sprinting: float | None = None
