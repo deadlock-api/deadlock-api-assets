@@ -34,8 +34,8 @@ VDATA_FILES = (
         ),
         (
             parse_loot_table,
-            "vdata/loot_table.vdata",
-            f"res/builds/{VERSION_ID}/v2/loot_table.json",
+            "vdata/loot_tables.vdata",
+            f"res/builds/{VERSION_ID}/v2/loot_tables.json",
             True,
         ),
         (
@@ -175,8 +175,8 @@ if __name__ == "__main__":
         "res/generic_data.json",
     )
     shutil.copyfile(
-        f"res/builds/{VERSION_ID}/v2/loot_table.json",
-        "res/loot_table.json",
+        f"res/builds/{VERSION_ID}/v2/loot_tables.json",
+        "res/loot_tables.json",
     )
     shutil.copyfile(
         f"res/builds/{VERSION_ID}/v2/npc_units.json",

@@ -22,7 +22,7 @@ from deadlock_assets_api.models.v2.api_upgrade import UpgradeV2
 from deadlock_assets_api.models.v2.api_weapon import WeaponV2
 from deadlock_assets_api.models.v2.build_tag import BuildTagV2
 from deadlock_assets_api.models.v2.generic_data import GenericDataV2
-from deadlock_assets_api.models.v2.loot_table import LootTableV2
+from deadlock_assets_api.models.v2.loot_table import LootTablesV2
 from deadlock_assets_api.models.v2.misc import MiscV2
 from deadlock_assets_api.models.v2.npc_unit import NPCUnitV2
 from deadlock_assets_api.models.v2.rank import RankV2
@@ -65,9 +65,9 @@ def load_generic_data(version_id: int) -> GenericDataV2:
         return GenericDataV2.model_validate_json(f.read())
 
 
-def load_loot_table(version_id: int) -> LootTableV2:
-    with open(f"res/builds/{version_id}/v2/loot_table.json") as f:
-        return LootTableV2.model_validate_json(f.read())
+def load_loot_tables(version_id: int) -> LootTablesV2:
+    with open(f"res/builds/{version_id}/v2/loot_tables.json") as f:
+        return LootTablesV2.model_validate_json(f.read())
 
 
 def load_client_versions() -> list[int]:
@@ -256,7 +256,7 @@ if __name__ == "__main__":
     # Load Data
     localizations = load_localizations(version_id)
     generic_data = load_generic_data(version_id)
-    loot_table = load_loot_table(version_id)
+    loot_tables = load_loot_tables(version_id)
     map_data = load_map_data()
     sounds_data = load_sounds_data()
     colors_data = load_colors_data()
@@ -272,8 +272,8 @@ if __name__ == "__main__":
     with open(f"{out_folder}/versions/{version_id}/generic_data.json", "w") as f:
         f.write(generic_data.model_dump_json())
 
-    with open(f"{out_folder}/versions/{version_id}/loot_table.json", "w") as f:
-        f.write(loot_table.model_dump_json())
+    with open(f"{out_folder}/versions/{version_id}/loot_tables.json", "w") as f:
+        f.write(loot_tables.model_dump_json())
 
     with open(f"{out_folder}/versions/{version_id}/map_data.json", "w") as f:
         f.write(map_data.model_dump_json())

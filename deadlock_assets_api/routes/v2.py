@@ -11,7 +11,7 @@ from deadlock_assets_api.models.v2.api_upgrade import UpgradeV2
 from deadlock_assets_api.models.v2.build_tag import BuildTagV2
 from deadlock_assets_api.models.v2.enums import ItemSlotTypeV2, ItemTypeV2
 from deadlock_assets_api.models.v2.generic_data import GenericDataV2
-from deadlock_assets_api.models.v2.loot_table import LootTableV2
+from deadlock_assets_api.models.v2.loot_table import LootTablesV2
 from deadlock_assets_api.models.v2.misc import MiscV2
 from deadlock_assets_api.models.v2.npc_unit import NPCUnitV2
 from deadlock_assets_api.models.v2.rank import RankV2
@@ -266,9 +266,9 @@ def get_generic_data(client_version: ValidClientVersions | None = None) -> Gener
     )
 
 
-@router.get("/loot-table", response_model_exclude_none=True)
-def get_loot_table(client_version: ValidClientVersions | None = None) -> LootTableV2:
+@router.get("/loot-tables", response_model_exclude_none=True)
+def get_loot_tables(client_version: ValidClientVersions | None = None) -> LootTablesV2:
     client_version = utils.validate_client_version(client_version)
     return utils.read_parse_data_model(
-        f"deploy/versions/{client_version}/loot_table.json", LootTableV2
+        f"deploy/versions/{client_version}/loot_tables.json", LootTablesV2
     )
