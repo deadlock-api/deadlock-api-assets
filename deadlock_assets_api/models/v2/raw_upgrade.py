@@ -18,6 +18,7 @@ class RawAbilityActivationV2(str, Enum):
     CITADEL_ABILITY_ACTIVATION_PASSIVE = "passive"
     CITADEL_ABILITY_ACTIVATION_PRESS = "press"
     CITADEL_ABILITY_ACTIVATION_PRESS_TOGGLE = "press_toggle"
+    CITADEL_ABILITY_ACTIVATION_INSTANT_CAST_TOGGLE = "instant_cast_toggle"
 
     @classmethod
     def _missing_(cls, value):

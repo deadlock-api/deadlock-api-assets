@@ -24,6 +24,7 @@ class ItemTierV2(int, Enum):
     EModTier_2 = 2
     EModTier_3 = 3
     EModTier_4 = 4
+    EModTier_5 = 5
 
     @classmethod
     def _missing_(cls, value):
