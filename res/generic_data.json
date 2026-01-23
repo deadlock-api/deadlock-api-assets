@@ -115,20 +115,20 @@
   ],
   "damage_flash": {
     "bullet_damage": {
-      "brightness": 1.2,
-      "brightness_in_light_sensitivity_mode": null,
+      "brightness": 0.2,
+      "brightness_in_light_sensitivity_mode": 0.0,
       "color": {
         "alpha": 255,
         "blue": 0,
-        "green": 0,
+        "green": 128,
         "red": 255
       },
-      "coverage": 0.5,
-      "duration": 0.25,
-      "hardness": 0.7
+      "coverage": 1.0,
+      "duration": 0.1,
+      "hardness": 1.0
     },
     "crit_damage": {
-      "brightness": 1.7,
+      "brightness": 0.5,
       "brightness_in_light_sensitivity_mode": null,
       "color": {
         "alpha": 255,
@@ -136,7 +136,7 @@
         "green": 255,
         "red": 255
       },
-      "coverage": 0.6,
+      "coverage": 0.8,
       "duration": 0.33,
       "hardness": 0.9
     },
@@ -154,30 +154,30 @@
       "hardness": 0.0
     },
     "melee_damage": {
-      "brightness": 3.0,
+      "brightness": 0.8,
       "brightness_in_light_sensitivity_mode": null,
       "color": {
         "alpha": 255,
-        "blue": 40,
-        "green": 101,
-        "red": 254
+        "blue": 250,
+        "green": 169,
+        "red": 49
       },
-      "coverage": 0.5,
-      "duration": 0.275,
+      "coverage": 1.0,
+      "duration": 0.1,
       "hardness": 0.0
     },
     "tech_damage": {
-      "brightness": 1.5,
+      "brightness": 0.2,
       "brightness_in_light_sensitivity_mode": null,
       "color": {
         "alpha": 255,
-        "blue": 236,
-        "green": 17,
-        "red": 35
+        "blue": 255,
+        "green": 51,
+        "red": 165
       },
-      "coverage": 0.5,
-      "duration": 0.25,
-      "hardness": 0.5
+      "coverage": 1.0,
+      "duration": 0.1,
+      "hardness": 1.0
     }
   },
   "enemy_objectives_and_zipline_color": {
@@ -228,6 +228,28 @@
     9999
   ],
   "lane_info": [
+    {
+      "color": {
+        "alpha": 255,
+        "blue": 200,
+        "green": 200,
+        "red": 200
+      },
+      "css_class": "whiteLane",
+      "lane_name": "White",
+      "minimap_zipline_color_override": {
+        "alpha": 255,
+        "blue": 200,
+        "green": 200,
+        "red": 200
+      },
+      "objective_color": {
+        "alpha": 255,
+        "blue": 200,
+        "green": 200,
+        "red": 200
+      }
+    },
     {
       "color": {
         "alpha": 255,

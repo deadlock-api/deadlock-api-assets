@@ -1487,7 +1487,6 @@
           "MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT"
         ],
         "class_name": "modifier_citadel_powerup_gun",
-        "debuff_type": "MODIFIER_DEBUFF_NO",
         "duration": 160.0,
         "modifier_values": [
           {
@@ -1563,7 +1562,6 @@
           "MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND"
         ],
         "class_name": "modifier_citadel_powerup_survival",
-        "debuff_type": "MODIFIER_DEBUFF_NO",
         "duration": 160.0,
         "modifier_values": [
           {
@@ -1639,7 +1637,6 @@
           "MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE"
         ],
         "class_name": "modifier_citadel_powerup_casting",
-        "debuff_type": "MODIFIER_DEBUFF_NO",
         "duration": 160.0,
         "modifier_values": [
           {
@@ -1716,7 +1713,6 @@
           "MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE"
         ],
         "class_name": "modifier_citadel_powerup_movement",
-        "debuff_type": "MODIFIER_DEBUFF_NO",
         "duration": 160.0,
         "modifier_values": [
           {
@@ -1801,7 +1797,6 @@
       "subclass": {
         "always_show_in_ui": null,
         "class_name": "citadel_hero_refresh",
-        "debuff_type": null,
         "duration": null,
         "modifier_values": null,
         "script_values": null,
@@ -1861,7 +1856,6 @@
       "subclass": {
         "always_show_in_ui": null,
         "class_name": "citadel_change_team",
-        "debuff_type": null,
         "duration": null,
         "modifier_values": null,
         "script_values": null,
@@ -1921,7 +1915,6 @@
       "subclass": {
         "always_show_in_ui": null,
         "class_name": "modifier_permanent_pickup",
-        "debuff_type": null,
         "duration": null,
         "modifier_values": null,
         "script_values": [
@@ -1988,7 +1981,6 @@
       "subclass": {
         "always_show_in_ui": null,
         "class_name": "modifier_permanent_pickup",
-        "debuff_type": null,
         "duration": null,
         "modifier_values": null,
         "script_values": [
@@ -2055,7 +2047,6 @@
       "subclass": {
         "always_show_in_ui": null,
         "class_name": "modifier_permanent_pickup",
-        "debuff_type": null,
         "duration": null,
         "modifier_values": null,
         "script_values": [
@@ -2122,7 +2113,6 @@
       "subclass": {
         "always_show_in_ui": null,
         "class_name": "modifier_permanent_pickup",
-        "debuff_type": null,
         "duration": null,
         "modifier_values": null,
         "script_values": [
@@ -2189,7 +2179,6 @@
       "subclass": {
         "always_show_in_ui": null,
         "class_name": "modifier_permanent_pickup",
-        "debuff_type": null,
         "duration": null,
         "modifier_values": null,
         "script_values": [
@@ -2256,7 +2245,6 @@
       "subclass": {
         "always_show_in_ui": null,
         "class_name": "modifier_permanent_pickup",
-        "debuff_type": null,
         "duration": null,
         "modifier_values": null,
         "script_values": [
@@ -2323,7 +2311,6 @@
       "subclass": {
         "always_show_in_ui": null,
         "class_name": "modifier_permanent_pickup",
-        "debuff_type": null,
         "duration": null,
         "modifier_values": null,
         "script_values": [
@@ -2390,7 +2377,6 @@
       "subclass": {
         "always_show_in_ui": null,
         "class_name": "modifier_permanent_pickup",
-        "debuff_type": null,
         "duration": null,
         "modifier_values": null,
         "script_values": [
@@ -2457,7 +2443,6 @@
       "subclass": {
         "always_show_in_ui": null,
         "class_name": "modifier_permanent_pickup",
-        "debuff_type": null,
         "duration": null,
         "modifier_values": null,
         "script_values": [
@@ -2524,7 +2509,6 @@
       "subclass": {
         "always_show_in_ui": null,
         "class_name": "modifier_permanent_pickup",
-        "debuff_type": null,
         "duration": null,
         "modifier_values": null,
         "script_values": [
@@ -2591,7 +2575,6 @@
       "subclass": {
         "always_show_in_ui": null,
         "class_name": "modifier_permanent_pickup",
-        "debuff_type": null,
         "duration": null,
         "modifier_values": null,
         "script_values": [
@@ -2658,7 +2641,6 @@
       "subclass": {
         "always_show_in_ui": null,
         "class_name": "modifier_permanent_pickup",
-        "debuff_type": null,
         "duration": null,
         "modifier_values": null,
         "script_values": [
@@ -2725,7 +2707,6 @@
       "subclass": {
         "always_show_in_ui": null,
         "class_name": "modifier_permanent_pickup",
-        "debuff_type": null,
         "duration": null,
         "modifier_values": null,
         "script_values": [
@@ -2792,7 +2773,6 @@
       "subclass": {
         "always_show_in_ui": null,
         "class_name": "modifier_permanent_pickup",
-        "debuff_type": null,
         "duration": null,
         "modifier_values": null,
         "script_values": [
@@ -2859,7 +2839,6 @@
       "subclass": {
         "always_show_in_ui": null,
         "class_name": "modifier_permanent_pickup",
-        "debuff_type": null,
         "duration": null,
         "modifier_values": null,
         "script_values": [
@@ -2926,7 +2905,6 @@
       "subclass": {
         "always_show_in_ui": null,
         "class_name": "modifier_permanent_pickup",
-        "debuff_type": null,
         "duration": null,
         "modifier_values": null,
         "script_values": [
@@ -2993,7 +2971,6 @@
       "subclass": {
         "always_show_in_ui": null,
         "class_name": "modifier_permanent_pickup",
-        "debuff_type": null,
         "duration": null,
         "modifier_values": null,
         "script_values": [
@@ -3060,7 +3037,6 @@
       "subclass": {
         "always_show_in_ui": null,
         "class_name": "modifier_permanent_pickup",
-        "debuff_type": null,
         "duration": null,
         "modifier_values": null,
         "script_values": [
@@ -3088,54 +3064,6 @@
     "respawn_time": null,
     "roll_type": null,
     "show_on_minimap": false,
-    "solid_after_death": null,
-    "spawn_interval": null,
-    "spawn_interval_in_seconds": null
-  },
-  {
-    "break_on_dodge_touch": null,
-    "class_name": "street_brawl_health_pickup",
-    "collision_radius": null,
-    "color": {
-      "alpha": 0,
-      "blue": 0,
-      "green": 0,
-      "red": 0
-    },
-    "damaged_by_abilities": null,
-    "damaged_by_bullets": null,
-    "damaged_by_melee": null,
-    "expiration_duration": {
-      "base": 18.0,
-      "per_minute_after_start": 2.0
-    },
-    "gold_amount": null,
-    "gold_per_minute_amount": null,
-    "health": null,
-    "id": 795535459,
-    "initial_spawn_delay_in_seconds": null,
-    "initial_spawn_delay_seconds": null,
-    "initial_spawn_time": null,
-    "is_mantleable": null,
-    "lifetime": null,
-    "loot_list_deck_size": null,
-    "m_vecPickups_lv2": null,
-    "m_vecPickups_lv3": null,
-    "match_time_mins_for_level2_pickups": null,
-    "match_time_mins_for_level3_pickups": null,
-    "modifier": null,
-    "orb_spawn_delay_max": null,
-    "orb_spawn_delay_min": null,
-    "pickup_radius": {
-      "base": 709.0,
-      "per_minute_after_start": 0.0
-    },
-    "primary_drop_chance": null,
-    "primary_pickups": null,
-    "render_after_death": null,
-    "respawn_time": null,
-    "roll_type": null,
-    "show_on_minimap": null,
     "solid_after_death": null,
     "spawn_interval": null,
     "spawn_interval_in_seconds": null
@@ -3273,6 +3201,54 @@
     "pickup_radius": {
       "base": 709.0,
       "per_minute_after_start": 59.0125
+    },
+    "primary_drop_chance": null,
+    "primary_pickups": null,
+    "render_after_death": null,
+    "respawn_time": null,
+    "roll_type": null,
+    "show_on_minimap": null,
+    "solid_after_death": null,
+    "spawn_interval": null,
+    "spawn_interval_in_seconds": null
+  },
+  {
+    "break_on_dodge_touch": null,
+    "class_name": "dropped_necro_pickup",
+    "collision_radius": null,
+    "color": {
+      "alpha": 0,
+      "blue": 0,
+      "green": 0,
+      "red": 0
+    },
+    "damaged_by_abilities": null,
+    "damaged_by_bullets": null,
+    "damaged_by_melee": null,
+    "expiration_duration": {
+      "base": 10.0,
+      "per_minute_after_start": 0.0
+    },
+    "gold_amount": null,
+    "gold_per_minute_amount": null,
+    "health": null,
+    "id": 3657004675,
+    "initial_spawn_delay_in_seconds": null,
+    "initial_spawn_delay_seconds": null,
+    "initial_spawn_time": null,
+    "is_mantleable": null,
+    "lifetime": null,
+    "loot_list_deck_size": null,
+    "m_vecPickups_lv2": null,
+    "m_vecPickups_lv3": null,
+    "match_time_mins_for_level2_pickups": null,
+    "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
+    "orb_spawn_delay_max": null,
+    "orb_spawn_delay_min": null,
+    "pickup_radius": {
+      "base": 400.0,
+      "per_minute_after_start": 0.0
     },
     "primary_drop_chance": null,
     "primary_pickups": null,
@@ -4023,6 +3999,80 @@
     "solid_after_death": null,
     "spawn_interval": null,
     "spawn_interval_in_seconds": 420
+  },
+  {
+    "break_on_dodge_touch": null,
+    "class_name": "neutral_camp_bug",
+    "collision_radius": null,
+    "color": null,
+    "damaged_by_abilities": null,
+    "damaged_by_bullets": null,
+    "damaged_by_melee": null,
+    "expiration_duration": null,
+    "gold_amount": null,
+    "gold_per_minute_amount": null,
+    "health": null,
+    "id": 992563467,
+    "initial_spawn_delay_in_seconds": 120,
+    "initial_spawn_delay_seconds": 120,
+    "initial_spawn_time": null,
+    "is_mantleable": null,
+    "lifetime": null,
+    "loot_list_deck_size": null,
+    "m_vecPickups_lv2": null,
+    "m_vecPickups_lv3": null,
+    "match_time_mins_for_level2_pickups": null,
+    "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
+    "orb_spawn_delay_max": null,
+    "orb_spawn_delay_min": null,
+    "pickup_radius": null,
+    "primary_drop_chance": null,
+    "primary_pickups": null,
+    "render_after_death": null,
+    "respawn_time": null,
+    "roll_type": null,
+    "show_on_minimap": null,
+    "solid_after_death": null,
+    "spawn_interval": null,
+    "spawn_interval_in_seconds": 120
+  },
+  {
+    "break_on_dodge_touch": null,
+    "class_name": "neutral_camp_bug_herotest",
+    "collision_radius": null,
+    "color": null,
+    "damaged_by_abilities": null,
+    "damaged_by_bullets": null,
+    "damaged_by_melee": null,
+    "expiration_duration": null,
+    "gold_amount": null,
+    "gold_per_minute_amount": null,
+    "health": null,
+    "id": 375979665,
+    "initial_spawn_delay_in_seconds": 0,
+    "initial_spawn_delay_seconds": 0,
+    "initial_spawn_time": null,
+    "is_mantleable": null,
+    "lifetime": null,
+    "loot_list_deck_size": null,
+    "m_vecPickups_lv2": null,
+    "m_vecPickups_lv3": null,
+    "match_time_mins_for_level2_pickups": null,
+    "match_time_mins_for_level3_pickups": null,
+    "modifier": null,
+    "orb_spawn_delay_max": null,
+    "orb_spawn_delay_min": null,
+    "pickup_radius": null,
+    "primary_drop_chance": null,
+    "primary_pickups": null,
+    "render_after_death": null,
+    "respawn_time": null,
+    "roll_type": null,
+    "show_on_minimap": null,
+    "solid_after_death": null,
+    "spawn_interval": null,
+    "spawn_interval_in_seconds": 10
   },
   {
     "break_on_dodge_touch": null,
