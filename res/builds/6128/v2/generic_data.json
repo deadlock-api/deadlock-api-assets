@@ -1,0 +1,719 @@
+{
+  "aim_spring_strength": [
+    0.0,
+    2.0,
+    10.0,
+    300.0
+  ],
+  "armor_groups": [
+    {
+      "shop_group": "EMoreHealth",
+      "upgrades": [
+        "upgrade_health",
+        "upgrade_health_2",
+        "upgrade_chonky",
+        "upgrade_colossus",
+        "upgrade_unstoppable"
+      ]
+    },
+    {
+      "shop_group": "EHealing",
+      "upgrades": [
+        "upgrade_medic_bullets",
+        "upgrade_health_stimpak",
+        "upgrade_health_nova",
+        "upgrade_rescue_beam"
+      ]
+    },
+    {
+      "shop_group": "ERevitalization",
+      "upgrades": [
+        "upgrade_endurance",
+        "upgrade_restorative_locket",
+        "upgrade_vex_barrier",
+        "upgrade_healing_booster",
+        "upgrade_healbuff"
+      ]
+    },
+    {
+      "shop_group": "EDebuffs",
+      "upgrades": [
+        "upgrade_debuff_reducer",
+        "upgrade_reduce_debuff_duration",
+        "upgrade_inhibitor"
+      ]
+    },
+    {
+      "shop_group": "ESpiritProtection",
+      "upgrades": [
+        "upgrade_tech_armor",
+        "upgrade_magic_shield",
+        "upgrade_tech_purge",
+        "upgrade_cheat_death",
+        "upgrade_absorbing_armor",
+        "upgrade_phantom_strike",
+        "upgrade_spellbreaker"
+      ]
+    },
+    {
+      "shop_group": "EBulletProtection",
+      "upgrades": [
+        "upgrade_return_fire",
+        "upgrade_regenerating_bullet_shield",
+        "upgrade_bullet_armor",
+        "upgrade_improved_bullet_armor",
+        "upgrade_deflecting_armor"
+      ]
+    },
+    {
+      "shop_group": "ELifesteal",
+      "upgrades": [
+        "upgrade_vampire",
+        "upgrade_surging_power",
+        "upgrade_health_stealing_magic",
+        "upgrade_infuser",
+        "upgrade_damage_recycler"
+      ]
+    },
+    {
+      "shop_group": "EMelee",
+      "upgrades": [
+        "upgrade_lifestrike_gauntlets",
+        "upgrade_melee_rebuttal",
+        "upgrade_boxing_glove"
+      ]
+    },
+    {
+      "shop_group": "EMovementAndAgility",
+      "upgrades": [
+        "upgrade_improved_stamina",
+        "upgrade_sprint_booster",
+        "upgrade_cardio_calibrator",
+        "upgrade_superior_stamina",
+        "upgrade_rocket_booster",
+        "upgrade_juggernaut"
+      ]
+    },
+    {
+      "shop_group": "EAntiHealing",
+      "upgrades": [
+        "upgrade_healbane"
+      ]
+    },
+    {
+      "shop_group": "EAdditionalProtection",
+      "upgrades": [
+        "upgrade_weapon_shielding",
+        "upgrade_spirit_bubble",
+        "upgrade_savior",
+        "upgrade_metal_skin",
+        "upgrade_veil_walker",
+        "upgrade_siphon_bullets",
+        "upgrade_diviners_kevlar"
+      ]
+    }
+  ],
+  "damage_flash": {
+    "bullet_damage": {
+      "brightness": 0.2,
+      "brightness_in_light_sensitivity_mode": 0.0,
+      "color": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 128,
+        "red": 255
+      },
+      "coverage": 1.0,
+      "duration": 0.1,
+      "hardness": 1.0
+    },
+    "crit_damage": {
+      "brightness": 0.5,
+      "brightness_in_light_sensitivity_mode": null,
+      "color": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 255,
+        "red": 255
+      },
+      "coverage": 0.8,
+      "duration": 0.33,
+      "hardness": 0.9
+    },
+    "healing_damage": {
+      "brightness": 1.2,
+      "brightness_in_light_sensitivity_mode": 0.6,
+      "color": {
+        "alpha": 255,
+        "blue": 45,
+        "green": 195,
+        "red": 0
+      },
+      "coverage": 0.5,
+      "duration": 1.0,
+      "hardness": 0.0
+    },
+    "melee_damage": {
+      "brightness": 0.8,
+      "brightness_in_light_sensitivity_mode": null,
+      "color": {
+        "alpha": 255,
+        "blue": 250,
+        "green": 169,
+        "red": 49
+      },
+      "coverage": 1.0,
+      "duration": 0.1,
+      "hardness": 0.0
+    },
+    "tech_damage": {
+      "brightness": 0.2,
+      "brightness_in_light_sensitivity_mode": null,
+      "color": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 51,
+        "red": 165
+      },
+      "coverage": 1.0,
+      "duration": 0.1,
+      "hardness": 1.0
+    }
+  },
+  "enemy_objectives_and_zipline_color": {
+    "alpha": 255,
+    "blue": 47,
+    "green": 76,
+    "red": 220
+  },
+  "enemy_objectives_color": {
+    "alpha": 255,
+    "blue": 47,
+    "green": 76,
+    "red": 220
+  },
+  "enemy_zipline_color": {
+    "alpha": 255,
+    "blue": 38,
+    "green": 55,
+    "red": 140
+  },
+  "glitch_settings": {
+    "breakup_strength": 0.0,
+    "distort_strength": 1.25,
+    "frame_rate": 5.0,
+    "jump_strength": 1.0,
+    "quantize_scale": 0.5,
+    "quantize_strength": 0.2,
+    "scanline_strength": 1.5,
+    "speed": 10.0,
+    "strength": 1.0,
+    "uantize_type": 2.0,
+    "white_noise_strength": 3.0
+  },
+  "hero_kill_gold_share_frac": [
+    1.25,
+    0.575,
+    0.283,
+    0.175,
+    0.11,
+    0.083
+  ],
+  "item_price_per_tier": [
+    0,
+    800,
+    1600,
+    3200,
+    6400,
+    9999
+  ],
+  "lane_info": [
+    {
+      "color": {
+        "alpha": 255,
+        "blue": 200,
+        "green": 200,
+        "red": 200
+      },
+      "css_class": "whiteLane",
+      "lane_name": "White",
+      "minimap_zipline_color_override": {
+        "alpha": 255,
+        "blue": 200,
+        "green": 200,
+        "red": 200
+      },
+      "objective_color": {
+        "alpha": 255,
+        "blue": 200,
+        "green": 200,
+        "red": 200
+      }
+    },
+    {
+      "color": {
+        "alpha": 255,
+        "blue": 48,
+        "green": 204,
+        "red": 241
+      },
+      "css_class": "yellowLane",
+      "lane_name": "Yellow",
+      "minimap_zipline_color_override": {
+        "alpha": 255,
+        "blue": 78,
+        "green": 169,
+        "red": 190
+      },
+      "objective_color": {
+        "alpha": 255,
+        "blue": 5,
+        "green": 212,
+        "red": 249
+      }
+    },
+    {
+      "color": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 0,
+        "red": 0
+      },
+      "css_class": null,
+      "lane_name": "Yellow + Orange",
+      "minimap_zipline_color_override": null,
+      "objective_color": null
+    },
+    {
+      "color": {
+        "alpha": 255,
+        "blue": 147,
+        "green": 20,
+        "red": 255
+      },
+      "css_class": "greenLane",
+      "lane_name": "Green",
+      "minimap_zipline_color_override": {
+        "alpha": 255,
+        "blue": 147,
+        "green": 20,
+        "red": 255
+      },
+      "objective_color": {
+        "alpha": 255,
+        "blue": 147,
+        "green": 20,
+        "red": 255
+      }
+    },
+    {
+      "color": {
+        "alpha": 255,
+        "blue": 204,
+        "green": 177,
+        "red": 41
+      },
+      "css_class": "blueLane",
+      "lane_name": "Blue",
+      "minimap_zipline_color_override": {
+        "alpha": 255,
+        "blue": 190,
+        "green": 155,
+        "red": 85
+      },
+      "objective_color": {
+        "alpha": 255,
+        "blue": 220,
+        "green": 125,
+        "red": 67
+      }
+    },
+    {
+      "color": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 0,
+        "red": 0
+      },
+      "css_class": null,
+      "lane_name": " + Purple",
+      "minimap_zipline_color_override": null,
+      "objective_color": null
+    },
+    {
+      "color": {
+        "alpha": 255,
+        "blue": 71,
+        "green": 178,
+        "red": 89
+      },
+      "css_class": "purpleLane",
+      "lane_name": "Purple",
+      "minimap_zipline_color_override": {
+        "alpha": 255,
+        "blue": 92,
+        "green": 153,
+        "red": 102
+      },
+      "objective_color": {
+        "alpha": 255,
+        "blue": 71,
+        "green": 178,
+        "red": 89
+      }
+    }
+  ],
+  "mini_map_offsets": [
+    {
+      "entity_class": "CLASS_BOSS_TIER_3",
+      "lane_index": 0,
+      "offset_2d": [
+        0.0,
+        1000.0
+      ]
+    },
+    {
+      "entity_class": "CLASS_BOSS_BARRACKS",
+      "lane_index": 1,
+      "offset_2d": [
+        500.0,
+        0.0
+      ]
+    },
+    {
+      "entity_class": "CLASS_BOSS_BARRACKS",
+      "lane_index": 6,
+      "offset_2d": [
+        500.0,
+        0.0
+      ]
+    },
+    {
+      "entity_class": "CLASS_DESTROYABLE_BUILDING",
+      "lane_index": null,
+      "offset_2d": [
+        0.0,
+        400.0
+      ]
+    }
+  ],
+  "minimap_team_combine_color": {
+    "alpha": 255,
+    "blue": 51,
+    "green": 51,
+    "red": 83
+  },
+  "minimap_team_rebels_color": {
+    "alpha": 255,
+    "blue": 66,
+    "green": 91,
+    "red": 58
+  },
+  "new_player_metrics": [
+    {
+      "abilities_upgraded": 1,
+      "boss_damage": 300,
+      "damage_taken": 6600,
+      "last_hits": 1,
+      "mods_purchased": 1,
+      "net_worth": 1000,
+      "orbs_denied": 1,
+      "orbs_secured": 1,
+      "player_damage": 900,
+      "skill_tier_name": "Bronze"
+    },
+    {
+      "abilities_upgraded": 1,
+      "boss_damage": 400,
+      "damage_taken": 5800,
+      "last_hits": 1,
+      "mods_purchased": 1,
+      "net_worth": 1000,
+      "orbs_denied": 1,
+      "orbs_secured": 1,
+      "player_damage": 1400,
+      "skill_tier_name": "Silver"
+    },
+    {
+      "abilities_upgraded": 1,
+      "boss_damage": 600,
+      "damage_taken": 5000,
+      "last_hits": 1,
+      "mods_purchased": 1,
+      "net_worth": 1000,
+      "orbs_denied": 1,
+      "orbs_secured": 1,
+      "player_damage": 1800,
+      "skill_tier_name": "Gold"
+    },
+    {
+      "abilities_upgraded": 1,
+      "boss_damage": 700,
+      "damage_taken": 4600,
+      "last_hits": 1,
+      "mods_purchased": 1,
+      "net_worth": 1000,
+      "orbs_denied": 1,
+      "orbs_secured": 1,
+      "player_damage": 2300,
+      "skill_tier_name": "Platinum"
+    }
+  ],
+  "objective_params": {
+    "base_guardians_gold_kill": 750,
+    "base_guardians_gold_orbs": 0,
+    "gold_per_orb": 0,
+    "near_player_split_pct": 40.0,
+    "patron_phase1_gold_kill": 0,
+    "patron_phase1_gold_orbs": 0,
+    "shrines_gold_kill": 0,
+    "shrines_gold_orbs": 0,
+    "tier1_gold_kill": 1000,
+    "tier1_gold_orbs": 0,
+    "tier2_gold_kill": 3500,
+    "tier2_gold_orbs": 0
+  },
+  "rejuv_params": {
+    "player_respawn_mult": [
+      0.5,
+      0.4,
+      0.3
+    ],
+    "rejuvinator_buff_duration": 240.0,
+    "rejuvinator_drop_duration": 7.0,
+    "rejuvinator_drop_height": 500.0,
+    "rejuvinator_expiration_warning_timing": 30.0,
+    "rejuvinator_rebirth_duration": [
+      240.0,
+      240.0,
+      240.0
+    ],
+    "trooper_health_mult": [
+      1.7,
+      2.0,
+      2.3
+    ]
+  },
+  "spirit_groups": [
+    {
+      "shop_group": "EMoreSpirit",
+      "upgrades": [
+        "upgrade_improved_spirit",
+        "upgrade_magic_storm",
+        "upgrade_soaring_spirit",
+        "upgrade_boundless_spirit"
+      ]
+    },
+    {
+      "shop_group": "EBurstDamage",
+      "upgrades": [
+        "upgrade_magic_burst",
+        "upgrade_quick_silver",
+        "upgrade_magic_shock",
+        "upgrade_ultimate_burst"
+      ]
+    },
+    {
+      "shop_group": "ESpiritRange",
+      "upgrades": [
+        "upgrade_magic_reach",
+        "upgrade_arcane_surge",
+        "upgrade_tech_range"
+      ]
+    },
+    {
+      "shop_group": "EDuration",
+      "upgrades": [
+        "upgrade_arcane_extension",
+        "upgrade_imbued_duration_extender",
+        "upgrade_magic_carpet",
+        "upgrade_spirit_burn"
+      ]
+    },
+    {
+      "shop_group": "ECharges",
+      "upgrades": [
+        "upgrade_extra_charge",
+        "upgrade_rapid_recharge"
+      ]
+    },
+    {
+      "shop_group": "ECooldown",
+      "upgrades": [
+        "upgrade_magic_tempo",
+        "upgrade_cooldown_reduction",
+        "upgrade_ability_power_shard"
+      ]
+    },
+    {
+      "shop_group": "EMeleeSpirit",
+      "upgrades": [
+        "upgrade_acolytes_glove",
+        "upgrade_spirit_snatch"
+      ]
+    },
+    {
+      "shop_group": "ESlowingMagic",
+      "upgrades": [
+        "upgrade_suppressor",
+        "upgrade_magic_slow",
+        "upgrade_tech_bleed"
+      ]
+    },
+    {
+      "shop_group": "EMagicVulnerability",
+      "upgrades": [
+        "upgrade_magic_vulnerability",
+        "upgrade_escalating_exposure"
+      ]
+    },
+    {
+      "shop_group": "ECrownControl",
+      "upgrades": [
+        "upgrade_containment",
+        "upgrade_target_stun",
+        "upgrade_aoe_root"
+      ]
+    },
+    {
+      "shop_group": "EAntiGun",
+      "upgrades": [
+        "upgrade_withering_whip",
+        "upgrade_greater_withering_whip"
+      ]
+    },
+    {
+      "shop_group": "EMiscSpirit",
+      "upgrades": [
+        "upgrade_mystic_regeneration",
+        "upgrade_bullet_resist_shredder",
+        "upgrade_tech_damage_pulse"
+      ]
+    },
+    {
+      "shop_group": "EActives",
+      "upgrades": [
+        "upgrade_spirit_sap",
+        "upgrade_rupture",
+        "upgrade_cold_front",
+        "upgrade_self_bubble",
+        "upgrade_targeted_silence",
+        "upgrade_glitch",
+        "upgrade_discord",
+        "upgrade_focus_lens",
+        "upgrade_ability_refresher"
+      ]
+    }
+  ],
+  "targeting_spring_strength": [
+    0.0,
+    2.0,
+    10.0,
+    30.0
+  ],
+  "trooper_kill_gold_share_frac": [
+    1.0,
+    0.54,
+    0.36,
+    0.25,
+    0.2,
+    0.16
+  ],
+  "weapon_groups": [
+    {
+      "shop_group": "EMagazines",
+      "upgrades": [
+        "upgrade_clip_size",
+        "upgrade_active_reload",
+        "upgrade_intensifying_clip",
+        "upgrade_titan_round",
+        "upgrade_infinitemagazine",
+        "upgrade_reinforcing_casings"
+      ]
+    },
+    {
+      "shop_group": "ERateOfFire",
+      "upgrades": [
+        "upgrade_rapid_rounds",
+        "upgrade_blitz_bullets",
+        "upgrade_burst_fire",
+        "upgrade_ricochet"
+      ]
+    },
+    {
+      "shop_group": "EBulletVelocity",
+      "upgrades": [
+        "upgrade_weighted_shots",
+        "upgrade_high_velocity_mag",
+        "upgrade_long_range",
+        "upgrade_split_shot",
+        "upgrade_pristine_emblem",
+        "upgrade_sharpshooter",
+        "upgrade_aprounds"
+      ]
+    },
+    {
+      "shop_group": "EHeadshotEnthusiasts",
+      "upgrades": [
+        "upgrade_headshot_booster",
+        "upgrade_headshot_booster2",
+        "upgrade_headhunter",
+        "upgrade_banshee_slugs"
+      ]
+    },
+    {
+      "shop_group": "EWeaponRange",
+      "upgrades": [
+        "upgrade_close_range",
+        "upgrade_close_quarter_combat",
+        "upgrade_bullet_armor_reduction_aura",
+        "upgrade_cloaking_device_active",
+        "upgrade_proc_silence"
+      ]
+    },
+    {
+      "shop_group": "ETankingBullets",
+      "upgrades": [
+        "upgrade_melee_charge",
+        "upgrade_berserker",
+        "upgrade_fervor"
+      ]
+    },
+    {
+      "shop_group": "ESpiritSlinger",
+      "upgrades": [
+        "upgrade_crackshot",
+        "upgrade_tech_defense_shredders",
+        "upgrade_spellslinger_headshots",
+        "upgrade_chain_lightning",
+        "upgrade_tech_overflow"
+      ]
+    },
+    {
+      "shop_group": "EActives",
+      "upgrades": [
+        "upgrade_fleetfoot_boots",
+        "upgrade_thermal_detonator",
+        "upgrade_dps_aura",
+        "upgrade_warp_stone"
+      ]
+    },
+    {
+      "shop_group": "EMisc",
+      "upgrades": [
+        "upgrade_hollow_point_rounds",
+        "upgrade_non_player_bonus",
+        "upgrade_kinetic_sash",
+        "upgrade_toxic_bullets",
+        "upgrade_critshot"
+      ]
+    },
+    {
+      "shop_group": "ESlowingBullets",
+      "upgrades": [
+        "upgrade_slowing_bullets",
+        "upgrade_glass_cannon"
+      ]
+    }
+  ]
+}
