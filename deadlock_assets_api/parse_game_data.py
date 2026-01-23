@@ -8,6 +8,7 @@ from pydantic import BaseModel
 
 from deadlock_assets_api.kv3parser import KV3Parser
 from deadlock_assets_api.parsers.generic_data import parse_generic_data
+from deadlock_assets_api.parsers.loot_table import parse_loot_table
 from deadlock_assets_api.parsers.heroes import parse_heroes_v2
 from deadlock_assets_api.parsers.items import parse_items_v2
 from deadlock_assets_api.parsers.accolades import parse_accolades_v2
@@ -29,6 +30,12 @@ VDATA_FILES = (
             parse_generic_data,
             "vdata/generic_data.vdata",
             f"res/builds/{VERSION_ID}/v2/generic_data.json",
+            True,
+        ),
+        (
+            parse_loot_table,
+            "vdata/loot_table.vdata",
+            f"res/builds/{VERSION_ID}/v2/loot_table.json",
             True,
         ),
         (
@@ -166,6 +173,10 @@ if __name__ == "__main__":
     shutil.copyfile(
         f"res/builds/{VERSION_ID}/v2/generic_data.json",
         "res/generic_data.json",
+    )
+    shutil.copyfile(
+        f"res/builds/{VERSION_ID}/v2/loot_table.json",
+        "res/loot_table.json",
     )
     shutil.copyfile(
         f"res/builds/{VERSION_ID}/v2/npc_units.json",
