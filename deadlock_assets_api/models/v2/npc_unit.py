@@ -202,6 +202,9 @@ class NPCUnitV2(BaseModel):
     run_speed: float | None = Field(None, validation_alias="m_flRunSpeed")
     acceleration: float | None = Field(None, validation_alias="m_flAcceleration")
     melee_damage: float | None = Field(None, validation_alias="m_flMeleeDamage")
+    spawn_breakables_on_death: bool | None = Field(
+        None, validation_alias="m_bSpawnBreakablesOnDeath"
+    )
     melee_attempt_range: float | None = Field(None, validation_alias="m_flMeleeAttemptRange")
     melee_hit_range: float | None = Field(None, validation_alias="m_flMeleeHitRange")
     melee_duration: float | None = Field(None, validation_alias="m_flMeleeDuration")
@@ -241,26 +244,6 @@ class NPCUnitV2(BaseModel):
     health_bar_color_team_neutral: ColorV1 | None = Field(
         None, validation_alias="m_HealthBarColorTeamNeutral"
     )
-    glow_color_friend: ColorV1 | None = Field(
-        None,
-        validation_alias="m_GlowColorFriend",
-    )
-    glow_color_enemy: ColorV1 | None = Field(
-        None,
-        validation_alias="m_GlowColorEnemy",
-    )
-    glow_color_team1: ColorV1 | None = Field(
-        None,
-        validation_alias="m_GlowColorTeam1",
-    )
-    glow_color_team2: ColorV1 | None = Field(
-        None,
-        validation_alias="m_GlowColorTeam2",
-    )
-    glow_color_team_neutral: ColorV1 | None = Field(
-        None,
-        validation_alias="m_GlowColorTeamNeutral",
-    )
 
     @computed_field
     @property
@@ -273,11 +256,6 @@ class NPCUnitV2(BaseModel):
         "health_bar_color_team1",
         "health_bar_color_team2",
         "health_bar_color_team_neutral",
-        "glow_color_friend",
-        "glow_color_enemy",
-        "glow_color_team1",
-        "glow_color_team2",
-        "glow_color_team_neutral",
         mode="before",
     )
     @classmethod

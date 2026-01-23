@@ -39,7 +39,6 @@ class ModifierDefinition(BaseModel):
     time_max: float | None = Field(None, validation_alias="m_flTimeMax")
 
     # Logic & Configuration
-    debuff_type: str | None = Field(None, validation_alias="m_eDebuffType")
     always_show_in_ui: list[str] | None = Field(
         None, validation_alias="m_vecAlwaysShowInStatModifierUI"
     )
