@@ -128,18 +128,10 @@ class HeroColorsV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     ui: tuple[int, int, int]
-    glow_enemy: tuple[int, int, int] | None = None
-    glow_friendly: tuple[int, int, int] | None = None
-    glow_team1: tuple[int, int, int] | None = None
-    glow_team2: tuple[int, int, int] | None = None
 
     @classmethod
     def from_raw_hero(cls, raw_hero: RawHeroV2) -> HeroColorsV2:
         return cls(
-            glow_enemy=raw_hero.color_glow_enemy,
-            glow_friendly=raw_hero.color_glow_friendly,
-            glow_team1=raw_hero.color_glow_team1,
-            glow_team2=raw_hero.color_glow_team2,
             ui=raw_hero.color_ui,
         )
 
@@ -258,8 +250,7 @@ class HeroV2(BaseModel):
     class_name: str
     name: str
     description: HeroDescriptionV2
-    recommended_upgrades: list[str] | None = None
-    recommended_ability_order: list[str] | None = None
+    item_draft_weights: dict[str, float] | None = None
     player_selectable: bool
     disabled: bool
     in_development: bool

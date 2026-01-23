@@ -138,9 +138,8 @@ class RawHeroV2(BaseModel):
 
     id: int = Field(..., validation_alias="m_HeroID")
     class_name: str
-    recommended_upgrades: list[str] | None = Field(None, validation_alias="m_RecommendedUpgrades")
-    recommended_ability_order: list[str] | None = Field(
-        None, validation_alias="m_RecommendedAbilityOrder"
+    item_draft_weights: dict[str, float] | None = Field(
+        None, validation_alias="m_mapItemDraftWeights"
     )
     player_selectable: bool = Field(..., validation_alias="m_bPlayerSelectable")
     disabled: bool = Field(..., validation_alias="m_bDisabled")
@@ -168,12 +167,6 @@ class RawHeroV2(BaseModel):
     cost_bonuses: dict[ItemSlotTypeV2, list[RawHeroMapModCostBonusesV2]] = Field(
         ..., validation_alias="m_MapModCostBonuses"
     )
-    color_glow_enemy: tuple[int, int, int] | None = Field(None, validation_alias="m_colorGlowEnemy")
-    color_glow_friendly: tuple[int, int, int] | None = Field(
-        None, validation_alias="m_colorGlowFriendly"
-    )
-    color_glow_team1: tuple[int, int, int] | None = Field(None, validation_alias="m_colorGlowTeam1")
-    color_glow_team2: tuple[int, int, int] | None = Field(None, validation_alias="m_colorGlowTeam2")
     color_ui: tuple[int, int, int] = Field(..., validation_alias="m_colorUI")
     collision_height: float | None = Field(None, validation_alias="m_flCollisionHeight")
     collision_radius: float | None = Field(None, validation_alias="m_flCollisionRadius")
