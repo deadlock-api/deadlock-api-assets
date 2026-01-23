@@ -172,13 +172,25 @@ class StreetBrawl(BaseModel):
     respawn_times: list[int] = Field(..., validation_alias="m_vecRespawnTimes")
     gold_per_round: list[int] = Field(..., validation_alias="m_vecGoldPerRound")
     apper_round: list[int] = Field(..., validation_alias="m_vecAPPerRound")
-    item_draft_rerolls_per_round: list[int] = Field(..., validation_alias="m_vecItemDraftRerollsPerRound")
+    item_draft_rerolls_per_round: list[int] = Field(
+        ..., validation_alias="m_vecItemDraftRerollsPerRound"
+    )
     round_length_minutes: list[int] = Field(..., validation_alias="m_vecRoundLengthMinutes")
-    round_length_minutes_urgent: list[float] = Field(..., validation_alias="m_vecRoundLengthMinutesUrgent")
-    overtime_respawn_time_increase: list[float] = Field(..., validation_alias="m_flOvertimeRespawnTimeIncrease")
-    overtime_respawn_time_increase_urgent: list[float] = Field(..., validation_alias="m_flOvertimeRespawnTimeIncreaseUrgent")
-    overtime_trooper_health_scale: list[float] = Field(..., validation_alias="m_flOvertimeTrooperHealthScale")
-    overtime_trooper_damage_scale: list[float] = Field(..., validation_alias="m_flOvertimeTrooperDamageScale")
+    round_length_minutes_urgent: list[float] = Field(
+        ..., validation_alias="m_vecRoundLengthMinutesUrgent"
+    )
+    overtime_respawn_time_increase: list[float] = Field(
+        ..., validation_alias="m_flOvertimeRespawnTimeIncrease"
+    )
+    overtime_respawn_time_increase_urgent: list[float] = Field(
+        ..., validation_alias="m_flOvertimeRespawnTimeIncreaseUrgent"
+    )
+    overtime_trooper_health_scale: list[float] = Field(
+        ..., validation_alias="m_flOvertimeTrooperHealthScale"
+    )
+    overtime_trooper_damage_scale: list[float] = Field(
+        ..., validation_alias="m_flOvertimeTrooperDamageScale"
+    )
     buy_time: list[int] = Field(..., validation_alias="m_vecBuyTime")
     pre_buy_time: list[float] = Field(..., validation_alias="m_vecPreBuyTime")
     score_to_win: int = Field(..., validation_alias="m_iScoreToWin")
@@ -187,20 +199,26 @@ class StreetBrawl(BaseModel):
     objective_max_health: list[int] = Field(..., validation_alias="m_vecObjectiveMaxHealth")
     tier2_bonus_health: int = Field(..., validation_alias="m_nTier2BonusHealth")
     comeback_bonus_health: int = Field(..., validation_alias="m_nComebackBonusHealth")
-    comeback_bonus_health_critical: int = Field(..., validation_alias="m_nComebackBonusHealthCritical")
+    comeback_bonus_health_critical: int = Field(
+        ..., validation_alias="m_nComebackBonusHealthCritical"
+    )
     trooper_spawn_timer: list[float] = Field(..., validation_alias="m_flTrooperSpawnTimer")
-    trooper_spawn_before_round_start_timer: float = Field(..., validation_alias="m_flTrooperSpawnBeforeRoundStartTimer")
+    trooper_spawn_before_round_start_timer: float = Field(
+        ..., validation_alias="m_flTrooperSpawnBeforeRoundStartTimer"
+    )
     zip_boost_cooldown_on_start: float = Field(..., validation_alias="m_flZipBoostCooldownOnStart")
     buy_time_grace_period: float = Field(..., validation_alias="m_flBuyTimeGracePeriod")
     tier1_max_resist_time: float = Field(..., validation_alias="m_flTier1MaxResistTime")
     tier2_max_resist_time: float = Field(..., validation_alias="m_flTier2MaxResistTime")
     ultimate_unlock_round: int = Field(..., validation_alias="m_iUltimateUnlockRound")
-    item_draft_rounds_per_game_round: list[ItemDraftRoundPerGameRound] = Field(..., validation_alias="m_vecItemDraftRoundsPerGameRound")
-    outline_color_friend: list[int] = Field(..., validation_alias="m_OutlineColorFriend")
-    outline_color_enemy: list[int] = Field(..., validation_alias="m_OutlineColorEnemy")
-    outline_color_team1: list[int] = Field(..., validation_alias="m_OutlineColorTeam1")
-    outline_color_team2: list[int] = Field(..., validation_alias="m_OutlineColorTeam2")
-    outline_color_neutral: list[int] = Field(..., validation_alias="m_OutlineColorNeutral")
+    item_draft_rounds_per_game_round: list[ItemDraftRoundPerGameRound] = Field(
+        ..., validation_alias="m_vecItemDraftRoundsPerGameRound"
+    )
+    outline_color_friend: list[int] | None = Field(None, validation_alias="m_OutlineColorFriend")
+    outline_color_enemy: list[int] | None = Field(None, validation_alias="m_OutlineColorEnemy")
+    outline_color_team1: list[int] | None = Field(None, validation_alias="m_OutlineColorTeam1")
+    outline_color_team2: list[int] | None = Field(None, validation_alias="m_OutlineColorTeam2")
+    outline_color_neutral: list[int] | None = Field(None, validation_alias="m_OutlineColorNeutral")
 
 
 class GenericDataV2(BaseModel):
