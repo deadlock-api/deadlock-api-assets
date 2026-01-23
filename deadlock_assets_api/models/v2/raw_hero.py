@@ -3,7 +3,7 @@ import json
 from pydantic import BaseModel, ConfigDict, Field, computed_field
 
 from deadlock_assets_api.models.v2.enums import ItemSlotTypeV2, HeroItemTypeV2, HeroTypeV2
-from deadlock_assets_api.utils import parse_css_heroes_background, parse_css_heroes_names
+from deadlock_assets_api.utils import parse_css_heroes_background
 
 
 class RawHeroStartingStatsV2(BaseModel):
@@ -156,8 +156,9 @@ class RawHeroV2(BaseModel):
     icon_hero_card: str | None = Field(None, validation_alias="m_strIconHeroCard")
     icon_image_small: str | None = Field(None, validation_alias="m_strIconImageSmall")
     minimap_image: str | None = Field(None, validation_alias="m_strMinimapImage")
-    selection_image: str | None = Field(None, validation_alias="m_strSelectionImage")
-    top_bar_image: str | None = Field(None, validation_alias="m_strTopBarImage")
+    name_image: str | None = Field(None, validation_alias="m_strLogoImageEnglish")
+    hero_card_critical: str | None = Field(None, validation_alias="m_strIconHeroCardCritical")
+    hero_card_gloat: str | None = Field(None, validation_alias="m_strIconHeroCardGloat")
     top_bar_vertical_image: str | None = Field(None, validation_alias="m_strTopBarVertical")
     tags: list[str] | None = Field(None, validation_alias="m_vecHeroTags")
     gun_tag: str | None = Field(None, validation_alias="m_strGunTag")
@@ -167,10 +168,12 @@ class RawHeroV2(BaseModel):
     cost_bonuses: dict[ItemSlotTypeV2, list[RawHeroMapModCostBonusesV2]] = Field(
         ..., validation_alias="m_MapModCostBonuses"
     )
-    color_glow_enemy: tuple[int, int, int] = Field(..., validation_alias="m_colorGlowEnemy")
-    color_glow_friendly: tuple[int, int, int] = Field(..., validation_alias="m_colorGlowFriendly")
-    color_glow_team1: tuple[int, int, int] = Field(..., validation_alias="m_colorGlowTeam1")
-    color_glow_team2: tuple[int, int, int] = Field(..., validation_alias="m_colorGlowTeam2")
+    color_glow_enemy: tuple[int, int, int] | None = Field(None, validation_alias="m_colorGlowEnemy")
+    color_glow_friendly: tuple[int, int, int] | None = Field(
+        None, validation_alias="m_colorGlowFriendly"
+    )
+    color_glow_team1: tuple[int, int, int] | None = Field(None, validation_alias="m_colorGlowTeam1")
+    color_glow_team2: tuple[int, int, int] | None = Field(None, validation_alias="m_colorGlowTeam2")
     color_ui: tuple[int, int, int] = Field(..., validation_alias="m_colorUI")
     collision_height: float | None = Field(None, validation_alias="m_flCollisionHeight")
     collision_radius: float | None = Field(None, validation_alias="m_flCollisionRadius")
@@ -205,10 +208,6 @@ class RawHeroV2(BaseModel):
     @computed_field
     def background_image(self) -> str | None:
         return parse_css_heroes_background(self.class_name)
-
-    @computed_field
-    def name_image(self) -> str | None:
-        return parse_css_heroes_names(self.class_name)
 
 
 def test_parse():

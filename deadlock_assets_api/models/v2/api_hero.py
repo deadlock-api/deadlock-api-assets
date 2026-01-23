@@ -47,10 +47,10 @@ class HeroImagesV2(BaseModel):
     icon_image_small_webp: str | None = None
     minimap_image: str | None = None
     minimap_image_webp: str | None = None
-    selection_image: str | None = None
-    selection_image_webp: str | None = None
-    top_bar_image: str | None = None
-    top_bar_image_webp: str | None = None
+    hero_card_critical: str | None = None
+    hero_card_critical_webp: str | None = None
+    hero_card_gloat: str | None = None
+    hero_card_gloat_webp: str | None = None
     top_bar_vertical_image: str | None = None
     top_bar_vertical_image_webp: str | None = None
     weapon_image: str | None = None
@@ -65,8 +65,8 @@ class HeroImagesV2(BaseModel):
             "icon_hero_card",
             "icon_image_small",
             "minimap_image",
-            "selection_image",
-            "top_bar_image",
+            "hero_card_critical",
+            "hero_card_gloat",
             "top_bar_vertical_image",
             "weapon_image",
             "background_image",
@@ -127,11 +127,11 @@ class HeroPhysicsV2(BaseModel):
 class HeroColorsV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    glow_enemy: tuple[int, int, int]
-    glow_friendly: tuple[int, int, int]
-    glow_team1: tuple[int, int, int]
-    glow_team2: tuple[int, int, int]
     ui: tuple[int, int, int]
+    glow_enemy: tuple[int, int, int] | None = None
+    glow_friendly: tuple[int, int, int] | None = None
+    glow_team1: tuple[int, int, int] | None = None
+    glow_team2: tuple[int, int, int] | None = None
 
     @classmethod
     def from_raw_hero(cls, raw_hero: RawHeroV2) -> HeroColorsV2:
