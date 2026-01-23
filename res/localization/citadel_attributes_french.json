@@ -1283,6 +1283,8 @@
       "NPCProcChance_postvalue_label": "Chances d'activation (troupiers)",
       "NanoTechPerShot_label": "D\u00e9g\u00e2ts spirituels",
       "NanoTechPerShot_postvalue_label": "D\u00e9g\u00e2ts spirituels",
+      "NonHeroStackLimit_label": "Limite de cumul pour les non-occultistes",
+      "NonHeroStackLimit_postvalue_label": "Limite de cumul pour les non-occultistes",
       "NonImbuedBonusDuration_label": "Dur\u00e9e de capacit\u00e9 non impr\u00e9gn\u00e9e",
       "NonImbuedBonusDuration_postfix": "\u00a0%",
       "NonImbuedBonusDuration_postvalue_label": "Dur\u00e9e de capacit\u00e9 non impr\u00e9gn\u00e9e",

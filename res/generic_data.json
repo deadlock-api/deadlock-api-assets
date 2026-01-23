@@ -605,6 +605,314 @@
       ]
     }
   ],
+  "street_brawl": {
+    "apper_round": [
+      6,
+      6,
+      5,
+      5,
+      5
+    ],
+    "buy_time": [
+      55,
+      55,
+      55,
+      55,
+      55
+    ],
+    "buy_time_grace_period": 60.0,
+    "comeback_bonus_health": 1200,
+    "comeback_bonus_health_critical": 2800,
+    "gold_per_round": [
+      5600,
+      7400,
+      9400,
+      11600,
+      14000
+    ],
+    "item_draft_rerolls_per_round": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "item_draft_rounds_per_game_round": [
+      {
+        "chance_enhanced": {
+          "outcomes_to_weights": {
+            "0": 10.0,
+            "1": 20.0,
+            "2": 20.0,
+            "3": 35.0,
+            "4": 10.0,
+            "5": 0.0,
+            "6": 0.0
+          }
+        },
+        "chance_rare": {
+          "outcomes_to_weights": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 10.0,
+            "3": 60.0,
+            "4": 40.0,
+            "5": 20.0,
+            "6": 0.0
+          }
+        },
+        "item_draft_rounds": [
+          {
+            "chance_enhanced": 2,
+            "chance_rare": 1
+          },
+          {
+            "chance_enhanced": 3,
+            "chance_rare": 2
+          },
+          {
+            "chance_enhanced": 4,
+            "chance_rare": 3
+          }
+        ]
+      },
+      {
+        "chance_enhanced": {
+          "outcomes_to_weights": {
+            "0": 10.0,
+            "1": 20.0,
+            "2": 20.0,
+            "3": 35.0,
+            "4": 10.0,
+            "5": 0.0,
+            "6": 0.0
+          }
+        },
+        "chance_rare": {
+          "outcomes_to_weights": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 10.0,
+            "3": 60.0,
+            "4": 40.0,
+            "5": 20.0,
+            "6": 0.0
+          }
+        },
+        "item_draft_rounds": [
+          {
+            "chance_enhanced": 3,
+            "chance_rare": 2
+          },
+          {
+            "chance_enhanced": 4,
+            "chance_rare": 3
+          },
+          {
+            "chance_enhanced": 4,
+            "chance_rare": 3
+          }
+        ]
+      },
+      {
+        "chance_enhanced": {
+          "outcomes_to_weights": {
+            "0": 10.0,
+            "1": 20.0,
+            "2": 20.0,
+            "3": 35.0,
+            "4": 10.0,
+            "5": 0.0,
+            "6": 0.0
+          }
+        },
+        "chance_rare": {
+          "outcomes_to_weights": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 10.0,
+            "3": 60.0,
+            "4": 40.0,
+            "5": 20.0,
+            "6": 0.0
+          }
+        },
+        "item_draft_rounds": [
+          {
+            "chance_enhanced": 3,
+            "chance_rare": 2
+          },
+          {
+            "chance_enhanced": 4,
+            "chance_rare": 3
+          },
+          {
+            "chance_enhanced": 5,
+            "chance_rare": 4
+          }
+        ]
+      },
+      {
+        "chance_enhanced": {
+          "outcomes_to_weights": {
+            "0": 10.0,
+            "1": 20.0,
+            "2": 20.0,
+            "3": 35.0,
+            "4": 10.0,
+            "5": 0.0,
+            "6": 0.0
+          }
+        },
+        "chance_rare": {
+          "outcomes_to_weights": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 10.0,
+            "3": 60.0,
+            "4": 40.0,
+            "5": 20.0,
+            "6": 0.0
+          }
+        },
+        "item_draft_rounds": [
+          {
+            "chance_enhanced": 4,
+            "chance_rare": 3
+          },
+          {
+            "chance_enhanced": 4,
+            "chance_rare": 3
+          },
+          {
+            "chance_enhanced": 5,
+            "chance_rare": 4
+          }
+        ]
+      },
+      {
+        "chance_enhanced": {
+          "outcomes_to_weights": {
+            "0": 0.0,
+            "1": 5.0,
+            "2": 5.0,
+            "3": 35.0,
+            "4": 10.0,
+            "5": 0.0,
+            "6": 0.0
+          }
+        },
+        "chance_rare": {
+          "outcomes_to_weights": {
+            "0": 5.0,
+            "1": 10.0,
+            "2": 35.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0
+          }
+        },
+        "item_draft_rounds": [
+          {
+            "chance_enhanced": 5,
+            "chance_rare": 4
+          },
+          {
+            "chance_enhanced": 5,
+            "chance_rare": 4
+          },
+          {
+            "chance_enhanced": 5,
+            "chance_rare": 4
+          }
+        ]
+      }
+    ],
+    "lane_number": 4,
+    "objective_max_health": [
+      1800,
+      3200,
+      4600,
+      6000,
+      7400
+    ],
+    "outline_color_enemy": null,
+    "outline_color_friend": null,
+    "outline_color_neutral": null,
+    "outline_color_team1": null,
+    "outline_color_team2": null,
+    "overtime_respawn_time_increase": [
+      25.0,
+      25.0,
+      25.0,
+      25.0,
+      30.0
+    ],
+    "overtime_respawn_time_increase_urgent": [
+      40.0,
+      40.0,
+      40.0,
+      40.0,
+      45.0
+    ],
+    "overtime_trooper_damage_scale": [
+      1.2,
+      1.2,
+      1.2,
+      1.2,
+      1.3
+    ],
+    "overtime_trooper_health_scale": [
+      1.75,
+      1.75,
+      1.75,
+      2.0,
+      2.5
+    ],
+    "pre_buy_time": [
+      6.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "respawn_times": [
+      25,
+      25,
+      30,
+      30,
+      30
+    ],
+    "round_length_minutes": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "round_length_minutes_urgent": [
+      4.5,
+      4.5,
+      4.5,
+      4.5,
+      4.5
+    ],
+    "score_to_win": 3,
+    "scoring_time": 6.0,
+    "tier1_max_resist_time": 2.5,
+    "tier2_bonus_health": 4000,
+    "tier2_max_resist_time": 2.5,
+    "trooper_spawn_before_round_start_timer": 5.0,
+    "trooper_spawn_timer": [
+      20.0,
+      20.0,
+      20.0,
+      15.0,
+      15.0
+    ],
+    "ultimate_unlock_round": 1,
+    "zip_boost_cooldown_on_start": 20.0
+  },
   "targeting_spring_strength": [
     0.0,
     2.0,

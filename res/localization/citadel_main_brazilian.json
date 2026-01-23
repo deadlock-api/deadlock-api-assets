@@ -710,7 +710,7 @@
       "Citadel_HeroReleaseVote_VoteButton": "Votar",
       "Citadel_HeroReleaseVote_VoteCounter": "Seu total",
       "Citadel_HeroReleaseVote_World": "Votar",
-      "Citadel_HeroReleaseVote_World_HasVotes": "Votos",
+      "Citadel_HeroReleaseVote_World_HasVotes": "Votar",
       "Citadel_HeroReleaseVote_World_RemainingVotes:p{remaining_votes}": "Voc\u00ea tem {d:remaining_votes} voto#|#Voc\u00ea tem {d:remaining_votes} votos",
       "Citadel_Hero_Stats_ItemValue": "Valor dos itens",
       "Citadel_Hero_Stats_Souls": "almas",
