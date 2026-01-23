@@ -740,7 +740,7 @@
       "Citadel_HeroReleaseVote_VoteButton": "G\u0142osuj",
       "Citadel_HeroReleaseVote_VoteCounter": "Twoje g\u0142osy",
       "Citadel_HeroReleaseVote_World": "G\u0142osuj",
-      "Citadel_HeroReleaseVote_World_HasVotes": "G\u0142osy",
+      "Citadel_HeroReleaseVote_World_HasVotes": "G\u0142osuj",
       "Citadel_HeroReleaseVote_World_RemainingVotes:p{remaining_votes}": "{d:remaining_votes} g\u0142os do oddania#|#{d:remaining_votes} g\u0142osy do oddania#|#{d:remaining_votes} g\u0142os\u00f3w do oddania#|#{d:remaining_votes} g\u0142osu do oddania",
       "Citadel_Hero_Stats_ItemValue": "Warto\u015b\u0107 przedmiot\u00f3w",
       "Citadel_Hero_Stats_Souls": "Dusze",
