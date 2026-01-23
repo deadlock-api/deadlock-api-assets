@@ -131,7 +131,7 @@ def replace_templates(
                     img_tag = f'<img src="{background_image}" class="inline-attribute {css_class}" alt="{label}"/>'
                 label_tag = f'<span class="inline-attribute-label {css_class}" style="color: {wash_color};">{label}</span>'
             else:
-                if background_image.endswith(".svg"):
+                if background_image and background_image.endswith(".svg"):
                     background_image_path = "svgs" + background_image.replace(SVGS_BASE_URL, "")
                     if os.path.exists(background_image_path):
                         with open(background_image_path) as f:
