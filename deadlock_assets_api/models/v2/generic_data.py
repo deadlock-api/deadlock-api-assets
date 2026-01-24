@@ -252,7 +252,7 @@ class GenericDataV2(BaseModel):
     weapon_groups: list[ItemGroup] = Field(..., validation_alias="m_vecWeaponGroups")
     armor_groups: list[ItemGroup] = Field(..., validation_alias="m_vecArmorGroups")
     spirit_groups: list[ItemGroup] = Field(..., validation_alias="m_vecSpiritGroups")
-    street_brawl: StreetBrawl = Field(..., validation_alias="m_StreetBrawl")
+    street_brawl: StreetBrawl | None = Field(None, validation_alias="m_StreetBrawl")
 
     @field_validator(
         "minimap_team_rebels_color",
