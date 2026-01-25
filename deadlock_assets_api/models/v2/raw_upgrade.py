@@ -5,6 +5,7 @@ from typing import Literal
 from pydantic import ConfigDict, Field, BaseModel, computed_field, model_validator
 
 from deadlock_assets_api.models.v2.enums import ItemTierV2, ItemSlotTypeV2
+from deadlock_assets_api.models.v2.raw_ability import RawAbilityUpgradeV2
 from deadlock_assets_api.models.v2.raw_item_base import RawItemBaseV2
 from deadlock_assets_api.utils import parse_css_ability_properties_icon, parse_css_ability_icon
 
@@ -134,6 +135,9 @@ class RawUpgradeV2(RawItemBaseV2):
     component_items: list[str] | None = Field(None, validation_alias="m_vecComponentItems")
     tooltip_sections: list[RawUpgradeTooltipSectionV2] | None = Field(
         None, validation_alias="m_vecTooltipSectionInfo"
+    )
+    upgrades: list[RawAbilityUpgradeV2] | None = Field(
+        None, validation_alias="m_vecAbilityUpgrades"
     )
 
     @model_validator(mode="after")

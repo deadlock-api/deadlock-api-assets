@@ -5,6 +5,7 @@ from pydantic import ConfigDict, Field, computed_field, BaseModel
 from deadlock_assets_api.models.v2.api_item_base import ItemBaseV2, ItemPropertyV2, parse_img_path
 from deadlock_assets_api.models.v2.enums import ItemTierV2, ItemSlotTypeV2
 from deadlock_assets_api.models.v2.generic_data import load_generic_data
+from deadlock_assets_api.models.v2.raw_ability import RawAbilityUpgradeV2
 from deadlock_assets_api.models.v2.raw_hero import RawHeroV2
 from deadlock_assets_api.models.v2.raw_item_base import RawItemPropertyV2
 from deadlock_assets_api.models.v2.raw_upgrade import (
@@ -244,6 +245,7 @@ class UpgradeV2(ItemBaseV2):
     imbue: RawAbilityImbueV2 | None = None
     component_items: list[str] | None = None
     tooltip_sections: list[UpgradeTooltipSectionV2] | None = None
+    upgrades: list[RawAbilityUpgradeV2] | None = None
 
     @computed_field
     @property
