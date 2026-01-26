@@ -50372,12 +50372,7 @@
         }
       ]
     },
-    "scaling_stats": {
-      "EBulletDamage": {
-        "scale": 0.03,
-        "scaling_stat": "ETechPower"
-      }
-    },
+    "scaling_stats": {},
     "shop_stat_display": {
       "spirit_stats_display": {
         "display_stats": [
@@ -50434,7 +50429,7 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.1,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.06,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 33.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
@@ -52612,20 +52607,20 @@
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
     "hero_type": null,
-    "hideout_rich_presence": null,
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Dreams",
     "icon_hero_card": "panorama:\"file://{images}/heroes/familiar_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/familiar_sm.psd\"",
     "id": 79,
     "in_development": false,
     "item_draft_weights": {
-      "upgrade_ability_power_shard": 1.0,
+      "upgrade_ability_power_shard": 2.4,
       "upgrade_ability_refresher": 1.0,
-      "upgrade_absorbing_armor": 1.0,
+      "upgrade_absorbing_armor": 2.4,
       "upgrade_acolytes_glove": 2.2,
       "upgrade_active_reload": 1.0,
       "upgrade_aerial_supremacy": 1.0,
       "upgrade_ancient_shield": 1.0,
-      "upgrade_aoe_root": 1.0,
+      "upgrade_aoe_root": 2.4,
       "upgrade_apex_combat": 1.0,
       "upgrade_aprounds": 1.0,
       "upgrade_arcane_extension": 2.4,
@@ -52693,7 +52688,7 @@
       "upgrade_healing_booster": 2.4,
       "upgrade_health": 1.0,
       "upgrade_health_nova": 2.4,
-      "upgrade_health_stealing_magic": 1.0,
+      "upgrade_health_stealing_magic": 2.4,
       "upgrade_health_stimpak": 2.4,
       "upgrade_high_velocity_mag": 1.0,
       "upgrade_hollow_point_rounds": 1.0,
@@ -52716,7 +52711,7 @@
       "upgrade_magic_shield": 2.4,
       "upgrade_magic_shock": 2.4,
       "upgrade_magic_slow": 2.4,
-      "upgrade_magic_storm": 1.0,
+      "upgrade_magic_storm": 2.4,
       "upgrade_magic_tempo": 2.4,
       "upgrade_magic_vulnerability": 1.0,
       "upgrade_medic_bullets": 0.4,
@@ -52737,7 +52732,7 @@
       "upgrade_quick_silver": 1.0,
       "upgrade_rapid_recharge": 2.4,
       "upgrade_rapid_rounds": 1.0,
-      "upgrade_rechargingbullets": 1.0,
+      "upgrade_rechargingbullets": 2.4,
       "upgrade_reduce_debuff_duration": 1.0,
       "upgrade_regenerating_bullet_shield": 1.0,
       "upgrade_reinforcing_casings": 1.0,
@@ -52748,7 +52743,7 @@
       "upgrade_ricochet": 1.0,
       "upgrade_rocket_booster": 1.0,
       "upgrade_runed_gauntlets": 1.0,
-      "upgrade_rupture": 1.0,
+      "upgrade_rupture": 2.4,
       "upgrade_self_bubble": 1.0,
       "upgrade_shadow_step": 1.0,
       "upgrade_shadow_strike": 1.0,
@@ -52783,7 +52778,7 @@
       "upgrade_toxic_bullets": 1.0,
       "upgrade_transcendent_cooldown": 2.4,
       "upgrade_trophy_collector": 1.0,
-      "upgrade_ultimate_burst": 1.0,
+      "upgrade_ultimate_burst": 2.4,
       "upgrade_unstable_concoction": 1.0,
       "upgrade_unstoppable": 1.0,
       "upgrade_vampire": 1.0,
@@ -53095,7 +53090,7 @@
     "name_image": "panorama:\"file://{images}/heroes/hero_names/familiar.svg\"",
     "needs_testing": false,
     "player_selectable": true,
-    "prerelease_only": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -53238,7 +53233,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.34,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 30.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 29.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -53261,7 +53256,7 @@
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
-      "sprint_speed": 1.6,
+      "sprint_speed": 4.0,
       "stamina": 3,
       "stamina_regen_per_second": 0.222222,
       "tech_armor_damage_reduction": null,
@@ -54171,7 +54166,7 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.1872,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.168,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.819,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 29.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
