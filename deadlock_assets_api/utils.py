@@ -105,8 +105,18 @@ def validate_language(language: Language | None = None) -> Language:
 
 
 @lru_cache
-def parse_css_rules(filename: str) -> CSSRuleList:
-    return css_parser.parseFile(filename).cssRules
+def parse_css_rules(filename: str, start_at_first_line_with: str | None = None) -> CSSRuleList:
+    if start_at_first_line_with is None:
+        return css_parser.parseFile(filename).cssRules
+    with open(filename) as f:
+        if start_at_first_line_with is not None:
+            lines = f.readlines()
+            start_index = next(
+                (i for i, line in enumerate(lines) if start_at_first_line_with in line), 0
+            )
+        return css_parser.parseString(
+            "".join(lines[start_index:]) if start_at_first_line_with else f.read()
+        ).cssRules
 
 
 def parse_css_heroes_background(class_name: str) -> str | None:

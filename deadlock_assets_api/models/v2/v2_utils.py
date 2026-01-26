@@ -20,8 +20,8 @@ LOGGER = logging.getLogger(__name__)
 
 
 @lru_cache
-def load_base_css():
-    css_rules = parse_css_rules("res/citadel_base_styles.css")
+def load_base_css(start_at_first_line_with: str | None = None):
+    css_rules = parse_css_rules("res/citadel_base_styles.css", start_at_first_line_with)
     color_definitions = {}
     for rule in css_rules:
         if not rule.cssText or not rule.cssText.startswith("@define"):
@@ -34,8 +34,10 @@ def load_base_css():
 
 
 @lru_cache
-def parse_css_base_styles(css_class_selector: str) -> (str | None, str | None):
-    css_rules, color_definitions = load_base_css()
+def parse_css_base_styles(
+    css_class_selector: str, start_at_first_line_with: str | None = None
+) -> (str | None, str | None):
+    css_rules, color_definitions = load_base_css(start_at_first_line_with)
     for rule in css_rules:
         if not isinstance(rule, CSSStyleRule):
             continue
@@ -116,7 +118,7 @@ def replace_templates(
             localization_key = f"InlineAttribute_{css_class}"
             label = localization.get(localization_key, prettify_pascal_case(css_class))
             background_image, wash_color = parse_css_base_styles(
-                f".InlineAttributeIcon.{css_class}"
+                f".InlineAttributeIcon.{css_class}", "InlineAttributeIcon"
             )
             background_image = parse_img_path(background_image)
             if wash_color:
