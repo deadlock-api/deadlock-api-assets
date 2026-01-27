@@ -26,7 +26,7 @@ def detect_item_type(data: dict) -> Literal["weapon", "ability", "upgrade"] | No
             return "ability"
 
     if source_name := data.get("m_strAG2SourceName"):
-        if source_name == "item":
+        if source_name == "item" and data.get("m_iItemTier") and data.get("m_eItemSlotType"):
             return "upgrade"
         elif source_name == "weapon":
             return "weapon"
