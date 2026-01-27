@@ -22,7 +22,7 @@ def detect_item_type(data: dict) -> Literal["weapon", "ability", "upgrade"] | No
             "EAbilityType_Innate",
             "EAbilityType_Signature",
             "EAbilityType_Ultimate",
-        ]:
+        ] and data.get("m_vecAbilityUpgrades"):
             return "ability"
 
     if source_name := data.get("m_strAG2SourceName"):
@@ -36,8 +36,13 @@ def detect_item_type(data: dict) -> Literal["weapon", "ability", "upgrade"] | No
     if _ := data.get("m_iItemTier"):
         return "upgrade"
 
-    if _ := data.get("m_eItemSlotType"):
-        return "upgrade"
+    if slot_type := data.get("m_eItemSlotType"):
+        if slot_type in [
+            "EItemSlotType_WeaponMod",
+            "EItemSlotType_Tech",
+            "EItemSlotType_Armor",
+        ]:
+            return "upgrade"
 
     return None
 
@@ -53,13 +58,16 @@ def parse_items_v2(data: dict) -> list[RawWeaponV2 | RawUpgradeV2 | RawAbilityV2
     }
 
     def parse(class_name, data) -> RawWeaponV2 | RawUpgradeV2 | RawAbilityV2 | None:
-        item_type = detect_item_type(data)
-        if item_type == "weapon":
-            return RawWeaponV2(class_name=class_name, **data)
-        elif item_type == "ability":
-            return RawAbilityV2(class_name=class_name, **data)
-        elif item_type == "upgrade":
-            return RawUpgradeV2(class_name=class_name, **data)
+        try:
+            item_type = detect_item_type(data)
+            if item_type == "weapon":
+                return RawWeaponV2(class_name=class_name, **data)
+            elif item_type == "ability":
+                return RawAbilityV2(class_name=class_name, **data)
+            elif item_type == "upgrade":
+                return RawUpgradeV2(class_name=class_name, **data)
+        except Exception as e:
+            LOGGER.warning(f"Failed to parse item {class_name}: {e}")
         LOGGER.warning(f"Unknown class name: {class_name}")
         return None
 
