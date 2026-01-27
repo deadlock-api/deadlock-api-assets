@@ -12,7 +12,11 @@ def detect_item_type(data: dict) -> Literal["weapon", "ability", "upgrade"] | No
     if ability_type := data.get("m_eAbilityType"):
         if ability_type in ["EAbilityType_Weapon", "EAbilityType_Melee"]:
             return "weapon"
-        elif ability_type == "EAbilityType_Item":
+        elif (
+            ability_type == "EAbilityType_Item"
+            and data.get("m_iItemTier")
+            and data.get("m_eItemSlotType")
+        ):
             return "upgrade"
         elif ability_type in [
             "EAbilityType_Innate",
