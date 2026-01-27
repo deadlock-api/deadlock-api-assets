@@ -14,7 +14,11 @@ def detect_item_type(data: dict) -> Literal["weapon", "ability", "upgrade"] | No
             return "weapon"
         elif ability_type == "EAbilityType_Item":
             return "upgrade"
-        else:
+        elif ability_type in [
+            "EAbilityType_Innate",
+            "EAbilityType_Signature",
+            "EAbilityType_Ultimate",
+        ]:
             return "ability"
 
     if source_name := data.get("m_strAG2SourceName"):
