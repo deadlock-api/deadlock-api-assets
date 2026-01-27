@@ -20,13 +20,19 @@ def parse_items_v2(data: dict) -> list[RawWeaponV2 | RawUpgradeV2 | RawAbilityV2
 
     def parse(class_name, data) -> RawWeaponV2 | RawUpgradeV2 | RawAbilityV2 | None:
         name = utils.strip_prefix(class_name, "citadel_").lower()
+        bases = data["_multibase"]
         first_word = name.split("_")[0]
-        if first_word == "ability":
-            return RawAbilityV2(class_name=class_name, **data)
-        elif first_word == "upgrade":
-            return RawUpgradeV2(class_name=class_name, **data)
-        elif first_word == "weapon":
+        if (
+            first_word == "weapon"
+            or "weapon_base" in bases
+            or "hero_weapon_base" in bases
+            or "citadel_hold_melee" in bases
+        ):
             return RawWeaponV2(class_name=class_name, **data)
+        elif first_word == "upgrade" or "upgrade_base" in bases:
+            return RawUpgradeV2(class_name=class_name, **data)
+        elif first_word == "ability" or "signature_base" in bases or "ultimate_base" in bases:
+            return RawAbilityV2(class_name=class_name, **data)
 
         hero_list = [
             "astro",
