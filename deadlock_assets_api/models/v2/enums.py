@@ -43,6 +43,7 @@ class AbilityTypeV2(str, Enum):
     EAbilityType_Ultimate = "ultimate"
     EAbilityType_Weapon = "weapon"
     EAbilityType_Melee = "melee"
+    EAbilityType_Cosmetic = "cosmetic"
 
     @classmethod
     def _missing_(cls, value):
