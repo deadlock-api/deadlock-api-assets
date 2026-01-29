@@ -228,13 +228,17 @@ class GenericDataV2(BaseModel):
     glitch_settings: GlitchSettingsV2 = Field(..., validation_alias="m_GlitchSettings")
     lane_info: list[LaneInfoV2] = Field(..., validation_alias="m_LaneInfo")
     new_player_metrics: list[NewPlayerMetricsV2] = Field(..., validation_alias="m_NewPlayerMetrics")
-    minimap_team_rebels_color: ColorV1 = Field(..., validation_alias="m_MinimapTeamRebelsColor")
-    minimap_team_combine_color: ColorV1 = Field(..., validation_alias="m_MinimapTeamCombineColor")
-    enemy_objectives_and_zipline_color: ColorV1 = Field(
-        ..., validation_alias="m_enemyObjectivesAndZiplineColor"
+    minimap_team_rebels_color: ColorV1 | None = Field(
+        None, validation_alias="m_MinimapTeamRebelsColor"
     )
-    enemy_objectives_color: ColorV1 = Field(..., validation_alias="m_enemyObjectivesColor")
-    enemy_zipline_color: ColorV1 = Field(..., validation_alias="m_enemyZiplineColor")
+    minimap_team_combine_color: ColorV1 | None = Field(
+        None, validation_alias="m_MinimapTeamCombineColor"
+    )
+    enemy_objectives_and_zipline_color: ColorV1 | None = Field(
+        None, validation_alias="m_enemyObjectivesAndZiplineColor"
+    )
+    enemy_objectives_color: ColorV1 | None = Field(None, validation_alias="m_enemyObjectivesColor")
+    enemy_zipline_color: ColorV1 | None = Field(None, validation_alias="m_enemyZiplineColor")
     item_price_per_tier: list[int] = Field(..., validation_alias="m_nItemPricePerTier")
     trooper_kill_gold_share_frac: list[float] = Field(
         ..., validation_alias="m_flTrooperKillGoldShareFrac"
