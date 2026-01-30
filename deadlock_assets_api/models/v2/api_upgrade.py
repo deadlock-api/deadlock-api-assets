@@ -23,6 +23,7 @@ class UpgradeDescriptionV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     desc: str | None = None
+    desc2: str | None = None
     active: str | None = None
     passive: str | None = None
 
@@ -39,7 +40,16 @@ class UpgradeDescriptionV2(BaseModel):
                 raw_heroes,
                 localization,
                 localization.get(f"{raw_upgrade.class_name}_desc")
-                or localization.get(f"{raw_upgrade.class_name}_headshots_desc"),
+                or localization.get(f"{raw_upgrade.class_name}_headshots_desc")
+                or localization.get(f"{raw_upgrade.class_name}_desc1")
+                or localization.get(f"{raw_upgrade.class_name}_headshots_desc1"),
+            ),
+            desc2=replace_templates(
+                raw_upgrade,
+                raw_heroes,
+                localization,
+                localization.get(f"{raw_upgrade.class_name}_desc2")
+                or localization.get(f"{raw_upgrade.class_name}_headshots_desc2"),
             ),
             active=replace_templates(
                 raw_upgrade,
