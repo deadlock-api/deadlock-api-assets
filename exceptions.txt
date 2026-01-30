@@ -10401,3 +10401,704 @@ Exception: System.NullReferenceException: Object reference not set to an instanc
    at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 161
    at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
    at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/2bases_2lanes.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/2bases_3lanes.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/boss_health.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/boss_health_fill.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/boss_health_fill_final.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/boss_health_final.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/caldera.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/caldera_jungle.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/caldera_royale.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/caldera_tile.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/caldera_trooper.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/dl_midtown.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/dl_streets.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/goldrush.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/goldrush_half.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/hero_testing.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/highway.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/laning_test.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/minimap.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/movement_test.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/neutral_test.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/new_player_basics.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/ramp_test.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/sb_test.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/single_bases.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/single_lane.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/street_test.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/streetwar.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/streetwar_expanded.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/streetwar_expanded2.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/streetwar_jeffr.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/streetwar_mortenp.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/streetwar_square.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: materials/minimap/trooper_test.vmat_c
+Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Assertion 'vcsMagicId == MAGIC' failed. Value: 2226 (0x8B2)
+   at ValveResourceFormat.Utils.UnexpectedMagicException.Assert[T](Boolean condition, T actualMagic, String conditionExpression) in /_/ValveResourceFormat/Utils/UnexpectedMagicException.cs:line 51
+   at ValveResourceFormat.CompiledShader.VfxProgramData.VfxCreateFromVcs() in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 135
+   at ValveResourceFormat.CompiledShader.VfxProgramData.Read(String filenamepath, Stream input) in /_/ValveResourceFormat/CompiledShader/VfxProgramData.cs:line 109
+   at ValveResourceFormat.IO.GameFileLoader.<LoadShaderFromDisk>g__TryLoadShader|22_0(VcsProgramType programType, VcsPlatformType platformType, VcsShaderModelType modelType, <>c__DisplayClass22_0&) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 242
+   at ValveResourceFormat.IO.GameFileLoader.LoadShaderFromDisk(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 267
+   at ValveResourceFormat.IO.GameFileLoader.LoadShader(String shaderName) in /_/ValveResourceFormat/IO/GameFileLoader.cs:line 300
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture_Internal(String textureType, Material material)
+   at ValveResourceFormat.IO.ShaderDataProvider.GetInputsForTexture(String textureType, Material material) in /_/ValveResourceFormat/IO/ShaderDataProvider.cs:line 33
+   at ValveResourceFormat.IO.MaterialExtract.GetTextureUnpackInfos(String textureType, String texturePath, Texture texture, Boolean omitDefaults, Boolean omitUniforms)+MoveNext() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 142
+   at ValveResourceFormat.IO.MaterialExtract.ToValveMaterial() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 206
+   at ValveResourceFormat.IO.MaterialExtract.ToContentFile() in /_/ValveResourceFormat/IO/MaterialExtract.cs:line 52
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 181
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: sounds/abilities/bookworm/a4_rallying_charge/bookworm_rallying_charge_global_blend.vsnd_c
+Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 161
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: sounds/abilities/bookworm/a4_rallying_charge/bookworm_rallying_charge_lp_blend.vsnd_c
+Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 161
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: sounds/abilities/necro/necro_shambler_emote_loop_trigger.vsnd_c
+Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 161
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: sounds/ambient/soundscapes/hotel_music_blend.vsnd_c
+Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 161
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: sounds/ambient/soundscapes/teleporter_music_blend.vsnd_c
+Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 161
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: sounds/ambient/soundscapes/city_oneshots/churchbell_blend.vsnd_c
+Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 161
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
+
+---------------
+Parent file: /root/assets-api/deadlock-assets-api/depots/game/citadel/pak01_dir.vpk
+File: sounds/weapons/bebop/bebop_primaryweapon_container_loop.vsnd_c
+Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ValveResourceFormat.IO.FileExtract.Extract(Resource resource, IFileLoader fileLoader, IProgress`1 progress) in /_/ValveResourceFormat/IO/FileExtract.cs:line 161
+   at Decompiler.Decompiler.DecompileResource(Resource resource, IFileLoader fileLoader) in /_/CLI/Decompiler.cs:line 721
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1240
