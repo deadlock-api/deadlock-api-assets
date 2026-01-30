@@ -1560,6 +1560,7 @@
       "StatDesc_FireRateDesc": "<b>Rychlost st\u0159elby</b> \u2013 Procentu\u00e1ln\u00ed \u00faprava rychlosti st\u0159elby tv\u00e9 zbran\u011b",
       "StatDesc_FireRate_postfix": "\u00a0%",
       "StatDesc_FireRate_postvalue_label": "Rychlost st\u0159elby",
+      "StatDesc_HealingAmpDesc": "<b>Nav\u00fd\u0161en\u00ed l\u00e9\u010den\u00ed</b> \u2013 Procentu\u00e1ln\u00ed \u00faprava p\u0159ijat\u00e9ho l\u00e9\u010den\u00ed",
       "StatDesc_HealingBoostDesc": "<b>\u00da\u010dinnost l\u00e9\u010den\u00ed</b> \u2013 Procentu\u00e1ln\u00ed \u00faprava \u00fa\u010dinnosti tv\u00fdch l\u00e9\u010div\u00fdch schopnost\u00ed",
       "StatDesc_HealingOutput": "Nav\u00fd\u0161en\u00ed l\u00e9\u010den\u00ed",
       "StatDesc_HealingOutput_postfix": "\u00a0%",

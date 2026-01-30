@@ -180,12 +180,7 @@
       "hardness": 1.0
     }
   },
-  "enemy_objectives_and_zipline_color": {
-    "alpha": 255,
-    "blue": 47,
-    "green": 76,
-    "red": 220
-  },
+  "enemy_objectives_and_zipline_color": null,
   "enemy_objectives_color": {
     "alpha": 255,
     "blue": 47,

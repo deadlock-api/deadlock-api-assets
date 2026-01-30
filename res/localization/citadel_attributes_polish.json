@@ -1560,6 +1560,7 @@
       "StatDesc_FireRateDesc": "<b>Szybkostrzelno\u015b\u0107</b> \u2013 procentowa modyfikacja szybkostrzelno\u015bci twojej broni.",
       "StatDesc_FireRate_postfix": "%",
       "StatDesc_FireRate_postvalue_label": "szybkostrzelno\u015bci",
+      "StatDesc_HealingAmpDesc": "<b>Przyrost leczenia</b> \u2013 procentowa modyfikacja otrzymywanego leczenia.",
       "StatDesc_HealingBoostDesc": "<b>Skuteczno\u015b\u0107 leczenia</b> \u2013 procentowa modyfikacja skuteczno\u015bci leczenia z twoich umiej\u0119tno\u015bci lecz\u0105cych.",
       "StatDesc_HealingOutput": "Przyrost leczenia",
       "StatDesc_HealingOutput_postfix": "%",

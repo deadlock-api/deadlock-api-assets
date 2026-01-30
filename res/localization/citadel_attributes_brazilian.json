@@ -1552,6 +1552,7 @@
       "StatDesc_FireRateDesc": "<b>Taxa de disparo</b><br>Altera proporcionalmente a taxa de disparo da sua arma.",
       "StatDesc_FireRate_postfix": "%",
       "StatDesc_FireRate_postvalue_label": "de taxa de disparo",
+      "StatDesc_HealingAmpDesc": "<b>Amplifica\u00e7\u00e3o de cura</b><br>Altera proporcionalmente a cura recebida.",
       "StatDesc_HealingBoostDesc": "<b>Efic\u00e1cia de cura</b><br>Altera proporcionalmente a efic\u00e1cia das suas habilidades curativas.",
       "StatDesc_HealingOutput": "Amp. de cura",
       "StatDesc_HealingOutput_postfix": "%",
