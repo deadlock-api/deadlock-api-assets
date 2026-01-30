@@ -1560,6 +1560,7 @@
       "StatDesc_FireRateDesc": "<b>\u5c04\u901f</b> - \u5bf9\u4f60\u7684\u67aa\u68b0\u5c04\u51fb\u901f\u5ea6\u8fdb\u884c\u7684\u767e\u5206\u6bd4\u4fee\u6539",
       "StatDesc_FireRate_postfix": "%",
       "StatDesc_FireRate_postvalue_label": "\u5c04\u901f",
+      "StatDesc_HealingAmpDesc": "<b>\u6cbb\u7597\u589e\u5f3a</b> - \u5bf9\u4f60\u83b7\u5f97\u7684\u6cbb\u7597\u6548\u679c\u8fdb\u884c\u7684\u767e\u5206\u6bd4\u4fee\u6539",
       "StatDesc_HealingBoostDesc": "<b>\u6cbb\u7597\u6548\u679c</b> - \u5bf9\u4f60\u7684\u6cbb\u7597\u6548\u679c\u8fdb\u884c\u7684\u767e\u5206\u6bd4\u4fee\u6539",
       "StatDesc_HealingOutput": "\u6cbb\u7597\u63d0\u5347",
       "StatDesc_HealingOutput_postfix": "%",

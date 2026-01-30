@@ -1560,6 +1560,7 @@
       "StatDesc_FireRateDesc": "<b>\uc5f0\uc0ac \uc18d\ub3c4</b> - \ubb34\uae30\uc758 \uc5f0\uc0ac \uc18d\ub3c4 \uc870\uc815 \ube44\uc728",
       "StatDesc_FireRate_postfix": "%",
       "StatDesc_FireRate_postvalue_label": "\uc5f0\uc0ac \uc18d\ub3c4",
+      "StatDesc_HealingAmpDesc": "<b>\uce58\uc720 \uc99d\ud3ed</b> - \ubc1b\ub294 \uce58\uc720\ub7c9 \uc870\uc815 \ube44\uc728",
       "StatDesc_HealingBoostDesc": "<b>\uce58\uc720 \ud6a8\uacfc</b> - \uce58\uc720 \ub2a5\ub825 \uc870\uc815 \ube44\uc728",
       "StatDesc_HealingOutput": "\uce58\uc720 \uc99d\ud3ed",
       "StatDesc_HealingOutput_postfix": "%",

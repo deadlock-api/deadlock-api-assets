@@ -1560,6 +1560,7 @@
       "StatDesc_FireRateDesc": "<b>Cadencia de tiro</b>: Porcentaje de modificaci\u00f3n de la cadencia de tiro de tu arma.",
       "StatDesc_FireRate_postfix": "\u00a0%",
       "StatDesc_FireRate_postvalue_label": "de cadencia de tiro",
+      "StatDesc_HealingAmpDesc": "<b>Amplificaci\u00f3n de curaci\u00f3n</b>: Porcentaje de modificaci\u00f3n de la curaci\u00f3n que se recibe.",
       "StatDesc_HealingBoostDesc": "<b>Eficacia de curaci\u00f3n</b>: Porcentaje de modificaci\u00f3n de la eficacia de tus habilidades curativas.",
       "StatDesc_HealingOutput": "Amp. de curaci\u00f3n",
       "StatDesc_HealingOutput_postfix": "\u00a0%",

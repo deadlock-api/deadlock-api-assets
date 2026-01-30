@@ -6172,7 +6172,7 @@
     "weapon_info": null
   },
   {
-    "acceleration": 200.0,
+    "acceleration": 0.0,
     "attack_t1_boss_max_range": null,
     "attack_t3_boss_max_range": null,
     "attack_t3_boss_phase2_max_range": null,

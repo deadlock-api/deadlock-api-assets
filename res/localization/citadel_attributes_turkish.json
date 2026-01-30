@@ -1560,6 +1560,7 @@
       "StatDesc_FireRateDesc": "<b>At\u0131\u015f H\u0131z\u0131</b>: Silah\u0131n\u0131z\u0131n at\u0131\u015f h\u0131z\u0131n\u0131n y\u00fczdelik kar\u015f\u0131l\u0131\u011f\u0131.",
       "StatDesc_FireRate_postfix": "%",
       "StatDesc_FireRate_postvalue_label": "At\u0131\u015f H\u0131z\u0131",
+      "StatDesc_HealingAmpDesc": "<b>\u0130yile\u015ftirme Art\u0131r\u0131m\u0131</b> - Al\u0131nan iyile\u015ftirmenin y\u00fczde baz\u0131nda de\u011fi\u015fikli\u011fi.",
       "StatDesc_HealingBoostDesc": "<b>\u0130yile\u015ftirme Etkinli\u011fi</b>: \u0130yile\u015ftirme yeteneklerinizin etkinli\u011finin y\u00fczdelik kar\u015f\u0131l\u0131\u011f\u0131.",
       "StatDesc_HealingOutput": "\u0130yile\u015ftirme Art\u0131r\u0131m\u0131",
       "StatDesc_HealingOutput_postfix": "%",
