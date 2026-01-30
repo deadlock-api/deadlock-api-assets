@@ -267,7 +267,11 @@ class GenericDataV2(BaseModel):
         mode="before",
     )
     @classmethod
-    def validate_color_fields(cls, v: ColorV1 | list[int] | dict[str, int]) -> ColorV1:
+    def validate_color_fields(
+        cls, v: ColorV1 | list[int] | dict[str, int] | None
+    ) -> ColorV1 | None:
+        if v is None:
+            return None
         if isinstance(v, ColorV1):
             return v
         if isinstance(v, dict):
