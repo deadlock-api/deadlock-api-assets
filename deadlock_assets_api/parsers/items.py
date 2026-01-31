@@ -8,7 +8,7 @@ from deadlock_assets_api.models.v2.raw_weapon import RawWeaponV2
 LOGGER = logging.getLogger(__name__)
 
 
-def detect_item_type(data: dict) -> Literal["weapon", "ability", "upgrade"] | None:
+def detect_item_type(class_name: str, data: dict) -> Literal["weapon", "ability", "upgrade"] | None:
     if ability_type := data.get("m_eAbilityType"):
         if ability_type in ["EAbilityType_Weapon", "EAbilityType_Melee"]:
             return "weapon"
@@ -44,6 +44,9 @@ def detect_item_type(data: dict) -> Literal["weapon", "ability", "upgrade"] | No
         ]:
             return "upgrade"
 
+    if class_name.startswith("citadel_ability_") or class_name.startswith("ability_"):
+        return "ability"
+
     return None
 
 
@@ -59,7 +62,7 @@ def parse_items_v2(data: dict) -> list[RawWeaponV2 | RawUpgradeV2 | RawAbilityV2
 
     def parse(class_name, data) -> RawWeaponV2 | RawUpgradeV2 | RawAbilityV2 | None:
         try:
-            item_type = detect_item_type(data)
+            item_type = detect_item_type(class_name, data)
             if item_type == "weapon":
                 return RawWeaponV2(class_name=class_name, **data)
             elif item_type == "ability":

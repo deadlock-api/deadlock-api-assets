@@ -43,6 +43,7 @@ class RawItemPropertyScaleFunctionSubclassV2(BaseModel):
     specific_stat_scale_type: str | None = Field(None, validation_alias="m_eSpecificStatScaleType")
     scaling_stats: list[str] | None = Field(None, validation_alias="m_vecScalingStats")
     stat_scale: float | None = Field(None, validation_alias="m_flStatScale")
+    street_brawl_stat_scale: float | None = Field(None, validation_alias="m_flStreetBrawlStatScale")
 
 
 class RawItemPropertyScaleFunctionV2(BaseModel):
@@ -59,6 +60,7 @@ class RawItemPropertyV2(BaseModel):
     value: str | float | None = Field(
         None, validation_alias=AliasChoices("m_strValue", "m_strVAlue")
     )
+    street_brawl_value: str | float | None = Field(None, validation_alias="m_strStreetBrawlValue")
     can_set_token_override: bool | None = Field(None, validation_alias="m_bCanSetTokenOverride")
     provided_property_type: str | None = Field(None, validation_alias="m_eProvidedPropertyType")
     css_class: str | None = Field(None, validation_alias="m_strCSSClass")
