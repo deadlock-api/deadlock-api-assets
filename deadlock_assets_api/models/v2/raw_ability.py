@@ -85,9 +85,7 @@ class RawAbilityV2(RawItemBaseV2):
 
     type: Literal["ability"] = "ability"
     behaviour_bits: str | None = Field(None, validation_alias="m_AbilityBehaviorsBits")
-    upgrades: list[RawAbilityUpgradeV2] | None = Field(
-        None, validation_alias="m_vecAbilityUpgrades"
-    )
+    upgrades: list[RawAbilityUpgradeV2] = Field(..., validation_alias="m_vecAbilityUpgrades")
     ability_type: AbilityTypeV2 | None = Field(None, validation_alias="m_eAbilityType")
     boss_damage_scale: float | None = Field(None, validation_alias="m_flBossDamageScale")
     dependant_abilities: list[str] | None = Field(None, validation_alias="m_vecDependentAbilities")
