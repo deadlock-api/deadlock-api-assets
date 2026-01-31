@@ -2095,7 +2095,7 @@
       "ability_necro_summonskele_t2_desc": "<span class=\"highlight\">+%{s:MoveSpeedPercent}</span> Hortlak H\u0131z\u0131",
       "ability_necro_summonskele_t3_desc": "<span class=\"highlight\">+{s:GhoulHealth}</span> Hortlak Sa\u011fl\u0131\u011f\u0131. Hortlaklar t\u00fcm mezar ta\u015flar\u0131nda ortaya \u00e7\u0131kar.",
       "ability_necro_wither": "Soldur ve \u00d6ld\u00fcr",
-      "ability_necro_wither_desc_1": "Silah\u0131n\u0131zla vurdu\u011funuz d\u00fc\u015fmanlar <span class=\"highlight\">solarak</span> {g:citadel_inline_attribute:'Slow'} de\u011ferinde art\u0131\u015f ve {g:citadel_inline_attribute:'SpiritResist'} de\u011ferinde azalma g\u00f6r\u00fcr.",
+      "ability_necro_wither_desc_1": "Silah\u0131n\u0131zla vurdu\u011funuz d\u00fc\u015fmanlar <span class=\"highlight\">solarak</span> giderek {g:citadel_inline_attribute:'Slow'} yava\u015flar ve daha az {g:citadel_inline_attribute:'SpiritResist'} sahibi olur.",
       "ability_necro_wither_desc_2": "<span class=\"highlight\">Solmu\u015fken</span> \u00f6len d\u00fc\u015fmanlar, d\u00fc\u015fmanlar\u0131 kovalayarak {g:citadel_inline_attribute:'SpiritDamage'} veren \u00f6l\u00fc kafalar ortaya \u00e7\u0131kar\u0131r. <br><br><span class=\"diminish\">Yak\u0131nlarda d\u00fc\u015fman yoksa \u00f6l\u00fc kafalar sizi takip eder.<br>\u00d6l\u00fc kafalar silah hedefinize \u00f6ncelik verir.</span>",
       "ability_necro_wither_t3_desc": "Her <span class=\"highlight\">{s:StacksToProcSkull}</span> istifte bir \u00f6l\u00fc kafa \u00e7a\u011fr\u0131l\u0131r.",
       "ability_necro_zombiewall": "Hortlak Eller",

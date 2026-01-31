@@ -833,7 +833,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -1773,7 +1774,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -2121,7 +2123,7 @@
       "upgrade_ability_power_shard": 1.0,
       "upgrade_ability_refresher": 1.0,
       "upgrade_absorbing_armor": 1.0,
-      "upgrade_acolytes_glove": 2.2,
+      "upgrade_acolytes_glove": 1.0,
       "upgrade_active_reload": 1.0,
       "upgrade_aerial_supremacy": 1.0,
       "upgrade_ancient_shield": 1.0,
@@ -2136,7 +2138,7 @@
       "upgrade_blitz_bullets": 2.4,
       "upgrade_blood_tribute": 1.0,
       "upgrade_boundless_spirit": 2.4,
-      "upgrade_boxing_glove": 2.2,
+      "upgrade_boxing_glove": 1.0,
       "upgrade_bullet_armor_reduction_aura": 1.0,
       "upgrade_bullet_resist_shredder": 2.4,
       "upgrade_bulletshredimbue": 1.0,
@@ -2159,7 +2161,7 @@
       "upgrade_counterspell": 1.0,
       "upgrade_crackshot": 1.0,
       "upgrade_critshot": 1.0,
-      "upgrade_crushing_fists": 2.2,
+      "upgrade_crushing_fists": 1.0,
       "upgrade_damage_recycler": 2.4,
       "upgrade_debuff_reducer": 2.4,
       "upgrade_deflecting_armor": 1.0,
@@ -2208,7 +2210,7 @@
       "upgrade_intensifying_clip": 1.0,
       "upgrade_juggernaut": 1.0,
       "upgrade_kinetic_sash": 2.4,
-      "upgrade_lifestrike_gauntlets": 2.2,
+      "upgrade_lifestrike_gauntlets": 1.0,
       "upgrade_long_range": 2.4,
       "upgrade_magic_burst": 1.0,
       "upgrade_magic_carpet": 1.0,
@@ -2220,7 +2222,7 @@
       "upgrade_magic_tempo": 2.4,
       "upgrade_magic_vulnerability": 2.4,
       "upgrade_medic_bullets": 0.4,
-      "upgrade_melee_charge": 2.2,
+      "upgrade_melee_charge": 1.0,
       "upgrade_melee_rebuttal": 1.0,
       "upgrade_metal_skin": 1.0,
       "upgrade_mystic_regeneration": 2.4,
@@ -2263,7 +2265,7 @@
       "upgrade_spirit_bubble": 2.4,
       "upgrade_spirit_burn": 1.0,
       "upgrade_spirit_sap": 1.0,
-      "upgrade_spirit_snatch": 2.2,
+      "upgrade_spirit_snatch": 1.0,
       "upgrade_split_shot": 1.0,
       "upgrade_sprint_booster": 1.0,
       "upgrade_superior_stamina": 1.0,
@@ -2717,7 +2719,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -3117,7 +3120,7 @@
       "upgrade_endurance": 0.4,
       "upgrade_escalating_exposure": 2.4,
       "upgrade_eternal_gift": 1.0,
-      "upgrade_ethereal_bullets": 1.0,
+      "upgrade_ethereal_bullets": 2.4,
       "upgrade_express_shot": 1.0,
       "upgrade_extra_charge": 2.4,
       "upgrade_fervor": 2.4,
@@ -3135,7 +3138,7 @@
       "upgrade_healbane": 2.4,
       "upgrade_healbuff": 1.0,
       "upgrade_healing_booster": 2.4,
-      "upgrade_health": 1.0,
+      "upgrade_health": 2.4,
       "upgrade_health_nova": 1.0,
       "upgrade_health_stealing_magic": 2.4,
       "upgrade_health_stimpak": 1.0,
@@ -3147,7 +3150,7 @@
       "upgrade_improved_spirit": 2.4,
       "upgrade_improved_stamina": 2.4,
       "upgrade_infinite_rounds": 1.0,
-      "upgrade_infuser": 1.0,
+      "upgrade_infuser": 2.4,
       "upgrade_inhibitor": 1.0,
       "upgrade_intensifying_clip": 1.0,
       "upgrade_juggernaut": 2.4,
@@ -3205,7 +3208,7 @@
       "upgrade_spellbreaker": 1.0,
       "upgrade_spellslinger_headshots": 2.4,
       "upgrade_spirit_bubble": 1.0,
-      "upgrade_spirit_burn": 1.0,
+      "upgrade_spirit_burn": 2.4,
       "upgrade_spirit_sap": 1.0,
       "upgrade_spirit_snatch": 2.2,
       "upgrade_split_shot": 1.0,
@@ -3652,7 +3655,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -4587,7 +4591,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -4615,7 +4620,7 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.154,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.13,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 49.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
@@ -4953,7 +4958,7 @@
       "upgrade_boxing_glove": 2.2,
       "upgrade_bullet_armor_reduction_aura": 1.0,
       "upgrade_bullet_resist_shredder": 1.0,
-      "upgrade_bulletshredimbue": 1.0,
+      "upgrade_bulletshredimbue": 2.4,
       "upgrade_burst_fire": 2.4,
       "upgrade_capacitor": 2.4,
       "upgrade_cardio_calibrator": 1.0,
@@ -4969,13 +4974,13 @@
       "upgrade_cold_front": 1.0,
       "upgrade_colossus": 1.0,
       "upgrade_containment": 1.0,
-      "upgrade_cooldown_reduction": 2.4,
+      "upgrade_cooldown_reduction": 1.0,
       "upgrade_counterspell": 1.0,
       "upgrade_crackshot": 1.0,
-      "upgrade_critshot": 2.4,
+      "upgrade_critshot": 1.0,
       "upgrade_crushing_fists": 2.2,
       "upgrade_damage_recycler": 2.4,
-      "upgrade_debuff_reducer": 2.4,
+      "upgrade_debuff_reducer": 1.0,
       "upgrade_deflecting_armor": 1.0,
       "upgrade_discord": 1.0,
       "upgrade_divine_barrier": 1.0,
@@ -5001,7 +5006,7 @@
       "upgrade_haunting_scream": 1.0,
       "upgrade_headhunter": 1.0,
       "upgrade_headshot_booster": 1.0,
-      "upgrade_headshot_booster2": 1.0,
+      "upgrade_headshot_booster2": 2.4,
       "upgrade_healbane": 2.4,
       "upgrade_healbuff": 1.0,
       "upgrade_healing_booster": 1.0,
@@ -5013,7 +5018,7 @@
       "upgrade_hollow_point_rounds": 2.4,
       "upgrade_icarus_wings": 1.0,
       "upgrade_imbued_duration_extender": 1.0,
-      "upgrade_improved_bullet_armor": 2.4,
+      "upgrade_improved_bullet_armor": 1.0,
       "upgrade_improved_spirit": 2.4,
       "upgrade_improved_stamina": 1.0,
       "upgrade_infinite_rounds": 1.0,
@@ -5028,10 +5033,10 @@
       "upgrade_magic_carpet": 1.0,
       "upgrade_magic_reach": 1.0,
       "upgrade_magic_shield": 2.4,
-      "upgrade_magic_shock": 1.0,
+      "upgrade_magic_shock": 2.4,
       "upgrade_magic_slow": 1.0,
       "upgrade_magic_storm": 2.4,
-      "upgrade_magic_tempo": 2.4,
+      "upgrade_magic_tempo": 1.0,
       "upgrade_magic_vulnerability": 1.0,
       "upgrade_medic_bullets": 0.4,
       "upgrade_melee_charge": 2.2,
@@ -5049,9 +5054,9 @@
       "upgrade_pristine_emblem": 1.0,
       "upgrade_proc_silence": 1.0,
       "upgrade_quick_silver": 2.4,
-      "upgrade_rapid_recharge": 1.0,
+      "upgrade_rapid_recharge": 2.4,
       "upgrade_rapid_rounds": 2.4,
-      "upgrade_rechargingbullets": 1.0,
+      "upgrade_rechargingbullets": 2.4,
       "upgrade_reduce_debuff_duration": 2.4,
       "upgrade_regenerating_bullet_shield": 2.4,
       "upgrade_reinforcing_casings": 2.4,
@@ -5069,10 +5074,10 @@
       "upgrade_sharpshooter": 1.0,
       "upgrade_shivas_bracelet": 1.0,
       "upgrade_shrink_ray": 0.3,
-      "upgrade_siphon_bullets": 1.0,
+      "upgrade_siphon_bullets": 2.4,
       "upgrade_slowing_bullets": 1.0,
       "upgrade_soaring_spirit": 2.4,
-      "upgrade_spellbreaker": 1.0,
+      "upgrade_spellbreaker": 2.4,
       "upgrade_spellslinger_headshots": 1.0,
       "upgrade_spirit_bubble": 1.0,
       "upgrade_spirit_burn": 1.0,
@@ -5089,13 +5094,13 @@
       "upgrade_tech_damage_pulse": 1.0,
       "upgrade_tech_defense_shredders": 1.0,
       "upgrade_tech_overflow": 2.4,
-      "upgrade_tech_purge": 2.4,
+      "upgrade_tech_purge": 1.0,
       "upgrade_tech_range": 1.0,
       "upgrade_thermal_detonator": 1.0,
       "upgrade_timeless_emblem": 1.0,
       "upgrade_titan_round": 2.4,
-      "upgrade_toxic_bullets": 1.0,
-      "upgrade_transcendent_cooldown": 2.4,
+      "upgrade_toxic_bullets": 2.4,
+      "upgrade_transcendent_cooldown": 1.0,
       "upgrade_trophy_collector": 1.0,
       "upgrade_ultimate_burst": 1.0,
       "upgrade_unstable_concoction": 1.0,
@@ -5527,7 +5532,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -6462,7 +6468,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -7397,7 +7404,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -8332,7 +8340,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -8678,7 +8687,7 @@
     "in_development": false,
     "item_draft_weights": {
       "upgrade_ability_power_shard": 2.4,
-      "upgrade_ability_refresher": 1.0,
+      "upgrade_ability_refresher": 2.4,
       "upgrade_absorbing_armor": 2.4,
       "upgrade_acolytes_glove": 2.2,
       "upgrade_active_reload": 1.0,
@@ -8698,7 +8707,7 @@
       "upgrade_boxing_glove": 2.2,
       "upgrade_bullet_armor_reduction_aura": 1.0,
       "upgrade_bullet_resist_shredder": 1.0,
-      "upgrade_bulletshredimbue": 1.0,
+      "upgrade_bulletshredimbue": 2.4,
       "upgrade_burst_fire": 1.0,
       "upgrade_capacitor": 1.0,
       "upgrade_cardio_calibrator": 1.0,
@@ -8717,9 +8726,9 @@
       "upgrade_cooldown_reduction": 2.4,
       "upgrade_counterspell": 2.4,
       "upgrade_crackshot": 1.0,
-      "upgrade_critshot": 2.4,
+      "upgrade_critshot": 1.0,
       "upgrade_crushing_fists": 2.2,
-      "upgrade_damage_recycler": 1.0,
+      "upgrade_damage_recycler": 2.4,
       "upgrade_debuff_reducer": 1.0,
       "upgrade_deflecting_armor": 2.4,
       "upgrade_discord": 2.4,
@@ -8735,11 +8744,11 @@
       "upgrade_ethereal_bullets": 1.0,
       "upgrade_express_shot": 1.0,
       "upgrade_extra_charge": 2.4,
-      "upgrade_fervor": 2.4,
+      "upgrade_fervor": 1.0,
       "upgrade_fleetfoot_boots": 2.4,
       "upgrade_focus_lens": 1.0,
-      "upgrade_fury_trance": 2.4,
-      "upgrade_glass_cannon": 2.4,
+      "upgrade_fury_trance": 1.0,
+      "upgrade_glass_cannon": 1.0,
       "upgrade_glitch": 1.0,
       "upgrade_greater_withering_whip": 2.4,
       "upgrade_guardian_ward": 2.4,
@@ -8753,18 +8762,18 @@
       "upgrade_health": 2.4,
       "upgrade_health_nova": 2.4,
       "upgrade_health_stealing_magic": 2.4,
-      "upgrade_health_stimpak": 1.0,
+      "upgrade_health_stimpak": 2.4,
       "upgrade_high_velocity_mag": 2.4,
-      "upgrade_hollow_point_rounds": 2.4,
+      "upgrade_hollow_point_rounds": 1.0,
       "upgrade_icarus_wings": 1.0,
       "upgrade_imbued_duration_extender": 2.4,
       "upgrade_improved_bullet_armor": 1.0,
       "upgrade_improved_spirit": 2.4,
       "upgrade_improved_stamina": 1.0,
       "upgrade_infinite_rounds": 1.0,
-      "upgrade_infuser": 1.0,
+      "upgrade_infuser": 2.4,
       "upgrade_inhibitor": 1.0,
-      "upgrade_intensifying_clip": 2.4,
+      "upgrade_intensifying_clip": 1.0,
       "upgrade_juggernaut": 1.0,
       "upgrade_kinetic_sash": 1.0,
       "upgrade_lifestrike_gauntlets": 2.2,
@@ -8782,7 +8791,7 @@
       "upgrade_melee_charge": 2.2,
       "upgrade_melee_rebuttal": 1.0,
       "upgrade_metal_skin": 1.0,
-      "upgrade_mystic_regeneration": 1.0,
+      "upgrade_mystic_regeneration": 2.4,
       "upgrade_mystical_piano": 1.0,
       "upgrade_non_player_bonus": 1.0,
       "upgrade_non_player_bonus_sacrifice": 1.0,
@@ -8801,7 +8810,7 @@
       "upgrade_regenerating_bullet_shield": 2.4,
       "upgrade_reinforcing_casings": 1.0,
       "upgrade_rescue_beam": 2.4,
-      "upgrade_resonant_healing": 1.0,
+      "upgrade_resonant_healing": 2.4,
       "upgrade_restorative_locket": 2.4,
       "upgrade_return_fire": 1.0,
       "upgrade_ricochet": 1.0,
@@ -8814,13 +8823,13 @@
       "upgrade_sharpshooter": 1.0,
       "upgrade_shivas_bracelet": 1.0,
       "upgrade_shrink_ray": 0.3,
-      "upgrade_siphon_bullets": 2.4,
+      "upgrade_siphon_bullets": 1.0,
       "upgrade_slowing_bullets": 1.0,
       "upgrade_soaring_spirit": 2.4,
       "upgrade_spellbreaker": 2.4,
       "upgrade_spellslinger_headshots": 1.0,
       "upgrade_spirit_bubble": 2.4,
-      "upgrade_spirit_burn": 1.0,
+      "upgrade_spirit_burn": 2.4,
       "upgrade_spirit_sap": 1.0,
       "upgrade_spirit_snatch": 2.2,
       "upgrade_split_shot": 1.0,
@@ -8830,7 +8839,7 @@
       "upgrade_surging_power": 2.4,
       "upgrade_target_stun": 1.0,
       "upgrade_targeted_silence": 2.4,
-      "upgrade_tech_bleed": 1.0,
+      "upgrade_tech_bleed": 2.4,
       "upgrade_tech_damage_pulse": 1.0,
       "upgrade_tech_defense_shredders": 1.0,
       "upgrade_tech_overflow": 1.0,
@@ -9267,7 +9276,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -10207,7 +10217,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -11142,7 +11153,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -12077,7 +12089,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -13012,7 +13025,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -13360,7 +13374,7 @@
       "upgrade_ability_power_shard": 2.4,
       "upgrade_ability_refresher": 2.4,
       "upgrade_absorbing_armor": 1.0,
-      "upgrade_acolytes_glove": 2.2,
+      "upgrade_acolytes_glove": 1.0,
       "upgrade_active_reload": 1.0,
       "upgrade_aerial_supremacy": 1.0,
       "upgrade_ancient_shield": 1.0,
@@ -13372,14 +13386,14 @@
       "upgrade_arctic_blast": 1.0,
       "upgrade_banshee_slugs": 1.0,
       "upgrade_berserker": 1.0,
-      "upgrade_blitz_bullets": 2.4,
+      "upgrade_blitz_bullets": 1.0,
       "upgrade_blood_tribute": 1.0,
       "upgrade_boundless_spirit": 2.4,
-      "upgrade_boxing_glove": 2.2,
+      "upgrade_boxing_glove": 1.0,
       "upgrade_bullet_armor_reduction_aura": 1.0,
       "upgrade_bullet_resist_shredder": 1.0,
-      "upgrade_bulletshredimbue": 1.0,
-      "upgrade_burst_fire": 2.4,
+      "upgrade_bulletshredimbue": 2.4,
+      "upgrade_burst_fire": 1.0,
       "upgrade_capacitor": 1.0,
       "upgrade_cardio_calibrator": 1.0,
       "upgrade_celestial_guidance": 1.0,
@@ -13398,7 +13412,7 @@
       "upgrade_counterspell": 1.0,
       "upgrade_crackshot": 2.4,
       "upgrade_critshot": 1.0,
-      "upgrade_crushing_fists": 2.2,
+      "upgrade_crushing_fists": 1.0,
       "upgrade_damage_recycler": 1.0,
       "upgrade_debuff_reducer": 1.0,
       "upgrade_deflecting_armor": 1.0,
@@ -13419,7 +13433,7 @@
       "upgrade_fleetfoot_boots": 1.0,
       "upgrade_focus_lens": 1.0,
       "upgrade_fury_trance": 1.0,
-      "upgrade_glass_cannon": 2.4,
+      "upgrade_glass_cannon": 1.0,
       "upgrade_glitch": 1.0,
       "upgrade_greater_withering_whip": 1.0,
       "upgrade_guardian_ward": 1.0,
@@ -13432,7 +13446,7 @@
       "upgrade_healing_booster": 1.0,
       "upgrade_health": 1.0,
       "upgrade_health_nova": 1.0,
-      "upgrade_health_stealing_magic": 1.0,
+      "upgrade_health_stealing_magic": 2.4,
       "upgrade_health_stimpak": 1.0,
       "upgrade_high_velocity_mag": 1.0,
       "upgrade_hollow_point_rounds": 1.0,
@@ -13442,27 +13456,27 @@
       "upgrade_improved_spirit": 2.4,
       "upgrade_improved_stamina": 2.4,
       "upgrade_infinite_rounds": 1.0,
-      "upgrade_infuser": 1.0,
+      "upgrade_infuser": 2.4,
       "upgrade_inhibitor": 1.0,
       "upgrade_intensifying_clip": 1.0,
       "upgrade_juggernaut": 1.0,
-      "upgrade_kinetic_sash": 2.4,
-      "upgrade_lifestrike_gauntlets": 2.2,
-      "upgrade_long_range": 2.4,
+      "upgrade_kinetic_sash": 1.0,
+      "upgrade_lifestrike_gauntlets": 1.0,
+      "upgrade_long_range": 1.0,
       "upgrade_magic_burst": 2.4,
       "upgrade_magic_carpet": 1.0,
       "upgrade_magic_reach": 2.4,
       "upgrade_magic_shield": 2.4,
       "upgrade_magic_shock": 2.4,
-      "upgrade_magic_slow": 1.0,
+      "upgrade_magic_slow": 2.4,
       "upgrade_magic_storm": 2.4,
       "upgrade_magic_tempo": 2.4,
       "upgrade_magic_vulnerability": 2.4,
       "upgrade_medic_bullets": 0.4,
-      "upgrade_melee_charge": 2.2,
+      "upgrade_melee_charge": 1.0,
       "upgrade_melee_rebuttal": 1.0,
       "upgrade_metal_skin": 1.0,
-      "upgrade_mystic_regeneration": 1.0,
+      "upgrade_mystic_regeneration": 2.4,
       "upgrade_mystical_piano": 1.0,
       "upgrade_non_player_bonus": 1.0,
       "upgrade_non_player_bonus_sacrifice": 1.0,
@@ -13481,17 +13495,17 @@
       "upgrade_regenerating_bullet_shield": 1.0,
       "upgrade_reinforcing_casings": 1.0,
       "upgrade_rescue_beam": 1.0,
-      "upgrade_resonant_healing": 1.0,
+      "upgrade_resonant_healing": 2.4,
       "upgrade_restorative_locket": 1.0,
       "upgrade_return_fire": 1.0,
       "upgrade_ricochet": 1.0,
       "upgrade_rocket_booster": 1.0,
       "upgrade_runed_gauntlets": 0.4,
       "upgrade_rupture": 1.0,
-      "upgrade_self_bubble": 1.0,
+      "upgrade_self_bubble": 2.4,
       "upgrade_shadow_step": 1.0,
       "upgrade_shadow_strike": 1.0,
-      "upgrade_sharpshooter": 2.4,
+      "upgrade_sharpshooter": 1.0,
       "upgrade_shivas_bracelet": 1.0,
       "upgrade_shrink_ray": 0.3,
       "upgrade_siphon_bullets": 1.0,
@@ -13502,12 +13516,12 @@
       "upgrade_spirit_bubble": 2.4,
       "upgrade_spirit_burn": 2.4,
       "upgrade_spirit_sap": 1.0,
-      "upgrade_spirit_snatch": 2.2,
+      "upgrade_spirit_snatch": 1.0,
       "upgrade_split_shot": 1.0,
       "upgrade_sprint_booster": 1.0,
       "upgrade_superior_stamina": 2.4,
       "upgrade_suppressor": 1.0,
-      "upgrade_surging_power": 2.4,
+      "upgrade_surging_power": 1.0,
       "upgrade_target_stun": 1.0,
       "upgrade_targeted_silence": 1.0,
       "upgrade_tech_bleed": 2.4,
@@ -13528,7 +13542,7 @@
       "upgrade_vampire": 1.0,
       "upgrade_veil_walker": 1.0,
       "upgrade_vex_barrier": 1.0,
-      "upgrade_warp_stone": 1.0,
+      "upgrade_warp_stone": 2.4,
       "upgrade_weapon_backstabber": 1.0,
       "upgrade_weapon_shielding": 1.0,
       "upgrade_weighted_shots": 1.0,
@@ -13956,7 +13970,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -14891,7 +14906,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -15827,7 +15843,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -16762,7 +16779,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -16793,7 +16811,7 @@
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.121,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 44.0,
-      "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.34,
+      "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
@@ -16808,8 +16826,8 @@
       "bullet_armor_damage_reduction": null,
       "crit_damage_received_scale": 1.0,
       "crouch_speed": 4.75,
-      "heavy_melee_damage": 99,
-      "light_melee_damage": 43.0,
+      "heavy_melee_damage": 116,
+      "light_melee_damage": 50.0,
       "max_health": 725,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
@@ -17697,7 +17715,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -18637,7 +18656,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -18665,7 +18685,7 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.47,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.44,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 58.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
@@ -19578,7 +19598,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -20513,7 +20534,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -21449,7 +21471,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -21477,7 +21500,7 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.495,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.36,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 1.6,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 44.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
@@ -21486,7 +21509,7 @@
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.1
+      "MODIFIER_VALUE_TECH_POWER": 1.3
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -22384,7 +22407,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -23315,7 +23339,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -24246,7 +24271,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -25177,7 +25203,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -26108,7 +26135,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -27039,7 +27067,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -27974,7 +28003,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -28905,7 +28935,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -29840,7 +29871,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -30771,7 +30803,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -31702,7 +31735,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -32633,7 +32667,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -32977,7 +33012,7 @@
       "upgrade_ability_power_shard": 1.0,
       "upgrade_ability_refresher": 1.0,
       "upgrade_absorbing_armor": 1.0,
-      "upgrade_acolytes_glove": 2.2,
+      "upgrade_acolytes_glove": 1.0,
       "upgrade_active_reload": 1.0,
       "upgrade_aerial_supremacy": 1.0,
       "upgrade_ancient_shield": 1.0,
@@ -32992,7 +33027,7 @@
       "upgrade_blitz_bullets": 2.4,
       "upgrade_blood_tribute": 1.0,
       "upgrade_boundless_spirit": 2.4,
-      "upgrade_boxing_glove": 2.2,
+      "upgrade_boxing_glove": 1.0,
       "upgrade_bullet_armor_reduction_aura": 2.4,
       "upgrade_bullet_resist_shredder": 2.4,
       "upgrade_bulletshredimbue": 1.0,
@@ -33015,7 +33050,7 @@
       "upgrade_counterspell": 1.0,
       "upgrade_crackshot": 1.0,
       "upgrade_critshot": 2.4,
-      "upgrade_crushing_fists": 2.2,
+      "upgrade_crushing_fists": 1.0,
       "upgrade_damage_recycler": 2.4,
       "upgrade_debuff_reducer": 1.0,
       "upgrade_deflecting_armor": 1.0,
@@ -33064,7 +33099,7 @@
       "upgrade_intensifying_clip": 1.0,
       "upgrade_juggernaut": 1.0,
       "upgrade_kinetic_sash": 1.0,
-      "upgrade_lifestrike_gauntlets": 2.2,
+      "upgrade_lifestrike_gauntlets": 1.0,
       "upgrade_long_range": 1.0,
       "upgrade_magic_burst": 2.4,
       "upgrade_magic_carpet": 1.0,
@@ -33076,7 +33111,7 @@
       "upgrade_magic_tempo": 1.0,
       "upgrade_magic_vulnerability": 1.0,
       "upgrade_medic_bullets": 0.4,
-      "upgrade_melee_charge": 2.2,
+      "upgrade_melee_charge": 1.0,
       "upgrade_melee_rebuttal": 1.0,
       "upgrade_metal_skin": 1.0,
       "upgrade_mystic_regeneration": 1.0,
@@ -33119,7 +33154,7 @@
       "upgrade_spirit_bubble": 1.0,
       "upgrade_spirit_burn": 1.0,
       "upgrade_spirit_sap": 1.0,
-      "upgrade_spirit_snatch": 2.2,
+      "upgrade_spirit_snatch": 1.0,
       "upgrade_split_shot": 2.4,
       "upgrade_sprint_booster": 1.0,
       "upgrade_superior_stamina": 2.4,
@@ -33569,7 +33604,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -34504,7 +34540,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -35440,7 +35477,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -36375,7 +36413,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -37306,7 +37345,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -37650,7 +37690,7 @@
       "upgrade_ability_power_shard": 1.0,
       "upgrade_ability_refresher": 1.0,
       "upgrade_absorbing_armor": 2.4,
-      "upgrade_acolytes_glove": 2.2,
+      "upgrade_acolytes_glove": 1.0,
       "upgrade_active_reload": 1.0,
       "upgrade_aerial_supremacy": 1.0,
       "upgrade_ancient_shield": 1.0,
@@ -37665,7 +37705,7 @@
       "upgrade_blitz_bullets": 2.4,
       "upgrade_blood_tribute": 1.0,
       "upgrade_boundless_spirit": 2.4,
-      "upgrade_boxing_glove": 2.2,
+      "upgrade_boxing_glove": 1.0,
       "upgrade_bullet_armor_reduction_aura": 1.0,
       "upgrade_bullet_resist_shredder": 1.0,
       "upgrade_bulletshredimbue": 1.0,
@@ -37688,7 +37728,7 @@
       "upgrade_counterspell": 1.0,
       "upgrade_crackshot": 1.0,
       "upgrade_critshot": 1.0,
-      "upgrade_crushing_fists": 2.2,
+      "upgrade_crushing_fists": 1.0,
       "upgrade_damage_recycler": 2.4,
       "upgrade_debuff_reducer": 2.4,
       "upgrade_deflecting_armor": 1.0,
@@ -37737,7 +37777,7 @@
       "upgrade_intensifying_clip": 1.0,
       "upgrade_juggernaut": 1.0,
       "upgrade_kinetic_sash": 2.4,
-      "upgrade_lifestrike_gauntlets": 2.2,
+      "upgrade_lifestrike_gauntlets": 1.0,
       "upgrade_long_range": 1.0,
       "upgrade_magic_burst": 2.4,
       "upgrade_magic_carpet": 1.0,
@@ -37749,7 +37789,7 @@
       "upgrade_magic_tempo": 2.4,
       "upgrade_magic_vulnerability": 1.0,
       "upgrade_medic_bullets": 0.4,
-      "upgrade_melee_charge": 2.2,
+      "upgrade_melee_charge": 1.0,
       "upgrade_melee_rebuttal": 1.0,
       "upgrade_metal_skin": 1.0,
       "upgrade_mystic_regeneration": 1.0,
@@ -37792,7 +37832,7 @@
       "upgrade_spirit_bubble": 2.4,
       "upgrade_spirit_burn": 2.4,
       "upgrade_spirit_sap": 1.0,
-      "upgrade_spirit_snatch": 2.2,
+      "upgrade_spirit_snatch": 1.0,
       "upgrade_split_shot": 1.0,
       "upgrade_sprint_booster": 1.0,
       "upgrade_superior_stamina": 2.4,
@@ -38237,7 +38277,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -38286,13 +38327,13 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 630,
-      "max_move_speed": 6.6,
+      "max_move_speed": 6.5,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
       "sprint_speed": 1.6,
       "stamina": 2,
-      "stamina_regen_per_second": 0.27777,
+      "stamina_regen_per_second": 0.25641,
       "tech_armor_damage_reduction": null,
       "tech_duration": 1,
       "tech_range": 1,
@@ -39172,7 +39213,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -40116,7 +40158,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -41056,7 +41099,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -41996,7 +42040,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -42931,7 +42976,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -43862,7 +43908,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -44798,7 +44845,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -45729,7 +45777,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -46660,7 +46709,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -46688,7 +46738,7 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.176,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.165,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 43.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
@@ -47595,7 +47645,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -48526,7 +48577,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -49466,7 +49518,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -50401,7 +50454,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -51336,7 +51390,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -52272,7 +52327,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -53203,7 +53259,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -54138,7 +54195,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -55073,7 +55131,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
@@ -56008,7 +56067,8 @@
           "ESprintSpeed",
           "EStaminaCooldown",
           "EStaminaRegenIncrease",
-          "EStamina"
+          "EStamina",
+          "EDashSpeedInMeters"
         ]
       },
       "weapon_stats_display": {
