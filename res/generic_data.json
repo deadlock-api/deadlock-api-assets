@@ -609,11 +609,11 @@
       5
     ],
     "buy_time": [
-      55,
-      55,
-      55,
-      55,
-      55
+      50,
+      50,
+      50,
+      50,
+      50
     ],
     "buy_time_grace_period": 60.0,
     "comeback_bonus_health": 1200,
@@ -801,8 +801,8 @@
           "outcomes_to_weights": {
             "0": 5.0,
             "1": 10.0,
-            "2": 35.0,
-            "3": 0.0,
+            "2": 40.0,
+            "3": 10.0,
             "4": 0.0,
             "5": 0.0
           }
@@ -851,11 +851,11 @@
       45.0
     ],
     "overtime_trooper_damage_scale": [
-      1.2,
-      1.2,
-      1.2,
-      1.2,
-      1.3
+      1.44,
+      1.44,
+      1.44,
+      1.44,
+      1.56
     ],
     "overtime_trooper_health_scale": [
       1.75,
@@ -874,7 +874,7 @@
     "respawn_times": [
       25,
       25,
-      25,
+      30,
       30,
       30
     ],
@@ -894,14 +894,14 @@
     ],
     "score_to_win": 3,
     "scoring_time": 6.0,
-    "tier1_max_resist_time": 2.5,
+    "tier1_max_resist_time": 2.2,
     "tier2_bonus_health": 4000,
-    "tier2_max_resist_time": 2.5,
+    "tier2_max_resist_time": 2.2,
     "trooper_spawn_before_round_start_timer": 5.0,
     "trooper_spawn_timer": [
-      20.0,
-      20.0,
-      20.0,
+      18.0,
+      18.0,
+      15.0,
       15.0,
       15.0
     ],
