@@ -9,6 +9,9 @@ LOGGER = logging.getLogger(__name__)
 
 
 def detect_item_type(class_name: str, data: dict) -> Literal["weapon", "ability", "upgrade"] | None:
+    if class_name.startswith("citadel_ability_tier") or class_name.startswith("ability_tier"):
+        return None
+
     if ability_type := data.get("m_eAbilityType"):
         if ability_type in ["EAbilityType_Weapon", "EAbilityType_Melee"]:
             return "weapon"
@@ -30,7 +33,7 @@ def detect_item_type(class_name: str, data: dict) -> Literal["weapon", "ability"
             return "upgrade"
         elif source_name == "weapon":
             return "weapon"
-        elif "ability" in source_name:
+        elif "ability" in source_name and data.get("m_vecAbilityUpgrades"):
             return "ability"
 
     if _ := data.get("m_iItemTier"):
@@ -44,7 +47,9 @@ def detect_item_type(class_name: str, data: dict) -> Literal["weapon", "ability"
         ]:
             return "upgrade"
 
-    if class_name.startswith("citadel_ability_") or class_name.startswith("ability_"):
+    if (
+        class_name.startswith("citadel_ability_") or class_name.startswith("ability_")
+    ) and data.get("m_vecAbilityUpgrades"):
         return "ability"
 
     return None
