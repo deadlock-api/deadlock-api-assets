@@ -3247,7 +3247,7 @@
     "orb_spawn_delay_max": null,
     "orb_spawn_delay_min": null,
     "pickup_radius": {
-      "base": 400.0,
+      "base": 708.0,
       "per_minute_after_start": 0.0
     },
     "primary_drop_chance": null,
