@@ -2789,8 +2789,6 @@
       "citadel_keybind_purchase_quickbuy": "\u30af\u30a4\u30c3\u30af\u30d0\u30a4 \u8cfc\u5165",
       "citadel_keybind_push_to_talk": "\u30dc\u30a4\u30b9\u30c1\u30e3\u30c3\u30c8\uff08\u30c1\u30fc\u30e0\uff09",
       "citadel_keybind_push_to_talk_party": "\u30dc\u30a4\u30b9\u30c1\u30e3\u30c3\u30c8\uff08\u30d1\u30fc\u30c6\u30a3\u30fc\uff09",
-      "citadel_keybind_push_to_talk_party_search": "voip",
-      "citadel_keybind_push_to_talk_search": "voip",
       "citadel_keybind_quick_response": "\u30af\u30a4\u30c3\u30af\u5fdc\u7b54",
       "citadel_keybind_reload": "\u30ea\u30ed\u30fc\u30c9",
       "citadel_keybind_replay_change_Team": "\u89b3\u6226\u3059\u308b\u30c1\u30fc\u30e0\u3092\u5909\u66f4",

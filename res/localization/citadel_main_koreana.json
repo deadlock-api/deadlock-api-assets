@@ -2789,8 +2789,6 @@
       "citadel_keybind_purchase_quickbuy": "\ube60\ub978 \uad6c\ub9e4",
       "citadel_keybind_push_to_talk": "\uc74c\uc131 \ucc44\ud305(\ud300)",
       "citadel_keybind_push_to_talk_party": "\uc74c\uc131 \ucc44\ud305(\ud30c\ud2f0)",
-      "citadel_keybind_push_to_talk_party_search": "voip",
-      "citadel_keybind_push_to_talk_search": "voip",
       "citadel_keybind_quick_response": "\ube60\ub978 \ubc18\uc751",
       "citadel_keybind_reload": "\uc7ac\uc7a5\uc804",
       "citadel_keybind_replay_change_Team": "\uad00\uc804 \ud300 \ubcc0\uacbd",
