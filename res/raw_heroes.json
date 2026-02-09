@@ -50794,7 +50794,7 @@
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
     "hero_type": "assassin",
-    "hideout_rich_presence": "#Steam_Citadel_Hideout_Ava",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Fencer",
     "icon_hero_card": "panorama:\"file://{images}/heroes/fencer_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/fencer_sm.psd\"",
     "id": 77,
@@ -51419,7 +51419,7 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.2,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.6,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.5,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
@@ -54535,7 +54535,7 @@
       "weapon_stat_display": "EMeleeDamage_DEPRECATED"
     },
     "hero_type": "marksman",
-    "hideout_rich_presence": "#Steam_Citadel_Hideout_Scheming",
+    "hideout_rich_presence": "#Steam_Citadel_Hideout_Glitter",
     "icon_hero_card": "panorama:\"file://{images}/heroes/unicorn_card.psd\"",
     "icon_image_small": "panorama:\"file://{images}/heroes/unicorn_sm.psd\"",
     "id": 81,
@@ -55018,7 +55018,7 @@
     "name_image": "panorama:\"file://{images}/heroes/hero_names/unicorn.svg\"",
     "needs_testing": false,
     "player_selectable": true,
-    "prerelease_only": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -55181,7 +55181,7 @@
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
       "max_health": 750,
-      "max_move_speed": 6.4,
+      "max_move_speed": 6.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,

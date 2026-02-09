@@ -2186,7 +2186,7 @@
       "ability_priest_knockback/debuff": "Disparo a bocajarro",
       "ability_priest_knockback_desc": "Dispara un escopetazo que inflige {g:citadel_inline_attribute:'WeaponDamage'} y empuja a los enemigos hacia atr\u00e1s. Los enemigos que est\u00e9n cerca de un muro reciben {g:citadel_inline_attribute:'Stun'} y {g:citadel_inline_attribute:'BonusWeaponDamage'}.",
       "ability_priest_knockback_t2_desc": "<span class=\"highlight\">{s:AbilityCooldown}\u00a0s</span> de tiempo de recarga de la habilidad y <span class=\"highlight\">+{s:AbilityCastRange}\u00a0m</span> de alcance de la habilidad",
-      "ability_priest_knockback_t3_desc": "Tras un aturdimiento contra un muro, tu pr\u00f3ximo ataque cuerpo a cuerpo pesado queda <span class=\"highlight\">bendecido</span>.",
+      "ability_priest_knockback_t3_desc": "Tras un aturdimiento contra un muro, tu pr\u00f3ximo ataque cuerpo a cuerpo pesado queda <span class=\"highlight\">bendecido</span>",
       "ability_priest_selfheal": "Vapores penetrantes",
       "ability_priest_selfheal_desc": "Quema tu incensario, lo que <span class=\"highlight\">reduce el da\u00f1o recibido</span> y la {g:citadel_inline_attribute:'Healing'} con el tiempo.<br><br>Al tener Vapores\u00a0penetrantes activa, no puedes atacar.",
       "ability_priest_silencebomb": "Incienso\u00a0asfixiante",

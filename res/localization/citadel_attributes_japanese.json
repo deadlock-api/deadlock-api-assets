@@ -1893,6 +1893,7 @@
       "modifier_citadel_slowtarget": "\u30b9\u30ed\u30fc\u72b6\u614b",
       "modifier_citadel_stunned": "\u30b9\u30bf\u30f3\u72b6\u614b",
       "modifier_citadel_tech_shield": "\u30b9\u30d4\u30ea\u30c3\u30c8\u30b7\u30fc\u30eb\u30c9",
+      "modifier_citadel_tethered": "\u30c6\u30b6\u30fc\u72b6\u614b",
       "modifier_citadel_unstick": "\u56fa\u5b9a\u89e3\u9664",
       "modifier_damageovertime": "\u51fa\u8840\u72b6\u614b",
       "modifier_hollow_point_stack": "\u30db\u30ed\u30a6\u30dd\u30a4\u30f3\u30c8",
