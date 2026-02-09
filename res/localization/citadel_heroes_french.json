@@ -2175,7 +2175,7 @@
       "ability_priest_beartrap/debuff": "Unit\u00e9 r\u00e9v\u00e9l\u00e9e",
       "ability_priest_beartrap/immobilize": "Sourici\u00e8re sainte",
       "ability_priest_beartrap_desc": "{s:hero_name} lance un pi\u00e8ge qui s'arme apr\u00e8s un bref d\u00e9lai. <br><br>Le pi\u00e8ce se d\u00e9clenche au premier contact avec une unit\u00e9 ennemie, ce qui lui inflige des {g:citadel_inline_attribute:'SpiritDamage'} et une {g:citadel_inline_attribute:'Immobilize'}. Les unit\u00e9s pi\u00e9g\u00e9es sont \u00e9galement temporairement <span class=\"highlight\">r\u00e9v\u00e9l\u00e9es</span>.",
-      "ability_priest_beartrap_t3_desc": "{s:hero_name} inflige <span class=\"highlight\"> +{s:IncomingDamagePercentFromCaster}\u00a0%</span> de d\u00e9g\u00e2ts aux cibles.",
+      "ability_priest_beartrap_t3_desc": "<span class=\"highlight\"> +{s:IncomingDamagePercentFromCaster}\u00a0%</span> de d\u00e9g\u00e2ts aux cibles",
       "ability_priest_flashbang": "Grenade cons\u00e9cratrice",
       "ability_priest_flashbang_desc": "{s:hero_name} lance une grenade qui rebondit avant d'exploser. Elle inflige des {g:citadel_inline_attribute:'WeaponDamage'} et enflamme les adversaires. <br><br>Les cibles en feu infligent des <span class=\"highlight\">{g:citadel_inline_attribute:'PureDamage'}</span> aux unit\u00e9s ennemies proches et subissent une <span class=\"highlight\">p\u00e9nalit\u00e9 de soins</span>.",
       "ability_priest_flashbang_pure": "Grenade cons\u00e9cratrice\u00a0: d\u00e9g\u00e2ts purs",
