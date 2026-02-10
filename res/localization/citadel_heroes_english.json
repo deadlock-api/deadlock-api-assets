@@ -2329,7 +2329,7 @@
       "ability_ult_combo_t2_desc": "Combo Duration <span class=\"highlight\">+{s:AbilityChannelTime}s</span>",
       "ability_ult_combo_t3_desc": "<span class=\"highlight\">+{s:DPS}</span> Damage Per Second and <span class=\"highlight\">{s:LifeStealPercentOnHit}% lifesteal</span>",
       "ability_unicorn_dazzlingorb": "Shining Wonder",
-      "ability_unicorn_dazzlingorb_desc": "Launch a deadly orb of light that deals {g:citadel_inline_attribute:'SpiritDamage'} and applies {g:citadel_inline_attribute:'Slow'} and reduces <span class=\"highlight\">Dash Distance</span> on impact. The orb then bounces to the nearest enemy within range. If no target is found, the orb will linger for a short duration while continuing to look for targets.<br><br><span class=\"diminish\">Prioritizes enemy heroes when picking targets. Refunds half the cooldown on a miss.</span>",
+      "ability_unicorn_dazzlingorb_desc": "Launch a deadly orb of light that deals {g:citadel_inline_attribute:'SpiritDamage'} and applies {g:citadel_inline_attribute:'Slow'} and reduces <span class=\"highlight\">Dash Distance</span> on impact. The orb then bounces to the enemies within range. If no target is found, the orb will linger for a short duration while continuing to look for targets.<br><br><span class=\"diminish\">Prioritizes enemy heroes when picking targets. Refunds half the cooldown on a miss.</span>",
       "ability_unicorn_dazzlingorb_t1_desc": "-{s:SlowPercent}% Move Speed and {s:GroundDashReductionPercent}% Dash Distance",
       "ability_unicorn_dazzlingorb_t3_desc": "+{s:MaxBounces} Max Bounces and {s:AbilityCooldown}s Cooldown",
       "ability_unicorn_luminousstrike": "Radiant Daggers",

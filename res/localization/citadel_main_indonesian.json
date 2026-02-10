@@ -773,7 +773,6 @@
       "Citadel_Hideout_Resources": "Tekan {g:citadel_binding:'HideoutUse'} untuk melihat sumber daya",
       "Citadel_Hideout_ToggleFastCooldowns": "Gunakan {g:citadel_binding:'AbilityMelee'} (Jarak Dekat) untuk mengaktifkan/menonaktifkan cooldown dan stamina cepat",
       "Citadel_Hideout_VaultHint01": "{g:citadel_binding:'AbilityMelee'} Jarak Dekat untuk Mengumpulkan Jiwa",
-      "Citadel_Hideout_VaultHint02": "{g:citadel_binding:'AbilityMelee'} Jarak Dekat saat sinar berkedip untuk mendapatkan bonus, <br>Jarak Dekat Berat untuk mendapatkan lebih banyak bonus",
       "Citadel_Hideout_VoteHero": "Tekan {g:citadel_binding:'HideoutUse'} untuk voting Hero selanjutnya",
       "Citadel_Hideout_Watch": "Tekan {g:citadel_binding:'HideoutUse'} untuk menonton pertandingan",
       "Citadel_Hideout_Welcome": "Selamat Datang di Persembunyian",

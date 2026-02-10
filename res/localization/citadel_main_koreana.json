@@ -773,7 +773,6 @@
       "Citadel_Hideout_Resources": "{g:citadel_binding:'HideoutUse'}: \uc544\uc774\ud15c \uba54\ub274 \ubcf4\uae30",
       "Citadel_Hideout_ToggleFastCooldowns": "{g:citadel_binding:'AbilityMelee'}: \uadfc\uac70\ub9ac \uacf5\uaca9\uc73c\ub85c '\ube60\ub978 \ucfe8\ub2e4\uc6b4\uacfc \uc2a4\ud0dc\ubbf8\ub098' \uc804\ud658 ",
       "Citadel_Hideout_VaultHint01": "{g:citadel_binding:'AbilityMelee'}: \uadfc\uac70\ub9ac \uacf5\uaca9\uc73c\ub85c \uc601\ud63c \uc218\uc9d1",
-      "Citadel_Hideout_VaultHint02": "{g:citadel_binding:'AbilityMelee'} \ube5b\uc774 \uc810\uba78\ud558\ub294 \uc911 \uadfc\uac70\ub9ac \uacf5\uaca9\uc73c\ub85c \ubcf4\ub108\uc2a4 \ud68d\ub4dd, <br>\uac15\ud55c \uadfc\uac70\ub9ac \uacf5\uaca9\uc73c\ub85c \ub354 \ub9ce\uc740 \ubcf4\ub108\uc2a4 \ud68d\ub4dd",
       "Citadel_Hideout_VoteHero": "{g:citadel_binding:'HideoutUse'}: \ub2e4\uc74c \uc601\uc6c5 \ud22c\ud45c",
       "Citadel_Hideout_Watch": "{g:citadel_binding:'HideoutUse'}: \ub9e4\uce58 \uad00\uc804",
       "Citadel_Hideout_Welcome": "\uc740\uc2e0\ucc98\uc5d0 \uc624\uc2e0 \uac83\uc744 \ud658\uc601\ud569\ub2c8\ub2e4",
