@@ -51277,7 +51277,7 @@
     "name_image": "panorama:\"file://{images}/heroes/hero_names/fencer.svg\"",
     "needs_testing": false,
     "player_selectable": true,
-    "prerelease_only": true,
+    "prerelease_only": false,
     "purchase_bonuses": {
       "spirit": [
         {
@@ -51413,7 +51413,7 @@
           "ELightMeleeDamage",
           "EHeavyMeleeDamage"
         ],
-        "weapon_attributes": "EWeaponAttribute_Spreadshot | EWeaponAttribute_CloseRange",
+        "weapon_attributes": "EWeaponAttribute_MediumRange | EWeaponAttribute_Projectile",
         "weapon_image": "panorama:\"file://{images}/heroes/guns/fencer_rapier.psd\""
       }
     },
@@ -51421,7 +51421,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.6,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.5,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 44.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -51439,7 +51439,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 63.0,
-      "max_health": 700,
+      "max_health": 740,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,

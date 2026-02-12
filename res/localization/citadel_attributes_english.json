@@ -1909,6 +1909,7 @@
       "modifier_armor_reactive_armor": "Return Fire",
       "modifier_citadel_banished": "Banished",
       "modifier_citadel_barrier": "Barrier",
+      "modifier_citadel_cursed": "Cursed",
       "modifier_citadel_dazed": "Dazed",
       "modifier_citadel_delayed_stun": "Delayed Stun",
       "modifier_citadel_disarm_proc": "Disarmed",

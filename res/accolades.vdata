@@ -6,7 +6,7 @@
 		m_unAccoladeID = 1
 		m_sTrackedStatName = "kills"
 		m_sFlavorName = "#Citadel_VData_accolades_kills_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_kills_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_kills_Description:f"
 		m_eThresholdType = "Automatic"
 	}
 	assists =
@@ -14,7 +14,7 @@
 		m_unAccoladeID = 2
 		m_sTrackedStatName = "assists"
 		m_sFlavorName = "#Citadel_VData_accolades_assists_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_assists_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_assists_Description:f"
 		m_eThresholdType = "Automatic"
 	}
 	healing =
@@ -22,7 +22,7 @@
 		m_unAccoladeID = 3
 		m_sTrackedStatName = "healing"
 		m_sFlavorName = "#Citadel_VData_accolades_healing_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_healing_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_healing_Description:f"
 		m_eThresholdType = "Automatic"
 	}
 	player_damage =
@@ -30,7 +30,7 @@
 		m_unAccoladeID = 4
 		m_sTrackedStatName = "player_damage"
 		m_sFlavorName = "#Citadel_VData_accolades_player_damage_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_player_damage_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_player_damage_Description:f"
 		m_eThresholdType = "Automatic"
 	}
 	net_worth =
@@ -38,7 +38,7 @@
 		m_unAccoladeID = 5
 		m_sTrackedStatName = "net_worth"
 		m_sFlavorName = "#Citadel_VData_accolades_net_worth_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_net_worth_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_net_worth_Description:f"
 		m_eThresholdType = "Automatic"
 		m_vecEnabledGameModes =
 		[
@@ -50,7 +50,7 @@
 		m_unAccoladeID = 6
 		m_sTrackedStatName = "trooper_last_hits"
 		m_sFlavorName = "#Citadel_VData_accolades_trooper_last_hits_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_trooper_last_hits_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_trooper_last_hits_Description:f"
 		m_eThresholdType = "Automatic"
 	}
 	neutral_last_hits =
@@ -58,7 +58,7 @@
 		m_unAccoladeID = 7
 		m_sTrackedStatName = "neutral_last_hits"
 		m_sFlavorName = "#Citadel_VData_accolades_neutral_last_hits_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_neutral_last_hits_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_neutral_last_hits_Description:f"
 		m_eThresholdType = "Automatic"
 		m_vecEnabledGameModes =
 		[
@@ -70,7 +70,7 @@
 		m_unAccoladeID = 8
 		m_sTrackedStatName = "last_hits"
 		m_sFlavorName = "#Citadel_VData_accolades_last_hits_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_last_hits_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_last_hits_Description:f"
 		m_eThresholdType = "Automatic"
 	}
 	secures =
@@ -78,7 +78,7 @@
 		m_unAccoladeID = 9
 		m_sTrackedStatName = "secures"
 		m_sFlavorName = "#Citadel_VData_accolades_secures_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_secures_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_secures_Description:f"
 		m_eThresholdType = "Automatic"
 		m_vecEnabledGameModes =
 		[
@@ -90,7 +90,7 @@
 		m_unAccoladeID = 10
 		m_sTrackedStatName = "denies"
 		m_sFlavorName = "#Citadel_VData_accolades_denies_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_denies_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_denies_Description:f"
 		m_eThresholdType = "Automatic"
 		m_vecEnabledGameModes =
 		[
@@ -102,7 +102,7 @@
 		m_unAccoladeID = 11
 		m_sTrackedStatName = "breakables_destroyed"
 		m_sFlavorName = "#Citadel_VData_accolades_breakables_destroyed_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_breakables_destroyed_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_breakables_destroyed_Description:f"
 		m_eThresholdType = "Automatic"
 		m_vecEnabledGameModes =
 		[
@@ -114,7 +114,7 @@
 		m_unAccoladeID = 12
 		m_sTrackedStatName = "pickups_collected_powerup"
 		m_sFlavorName = "#Citadel_VData_accolades_pickups_collected_powerup_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_pickups_collected_powerup_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_pickups_collected_powerup_Description:f"
 		m_eThresholdType = "Automatic"
 		m_vecEnabledGameModes =
 		[
@@ -126,7 +126,7 @@
 		m_unAccoladeID = 13
 		m_sTrackedStatName = "returned_idol"
 		m_sFlavorName = "#Citadel_VData_accolades_returned_idol_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_returned_idol_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_returned_idol_Description:f"
 		m_eThresholdType = "Automatic"
 		m_vecEnabledGameModes =
 		[
@@ -138,7 +138,7 @@
 		m_unAccoladeID = 14
 		m_sTrackedStatName = "sinners_sacrifice_jackpot"
 		m_sFlavorName = "#Citadel_VData_accolades_sinners_sacrifice_jackpot_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_sinners_sacrifice_jackpot_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_sinners_sacrifice_jackpot_Description:f"
 		m_eThresholdType = "Automatic"
 		m_vecEnabledGameModes =
 		[
@@ -150,7 +150,7 @@
 		m_unAccoladeID = 15
 		m_sTrackedStatName = "first_blood"
 		m_sFlavorName = "#Citadel_VData_accolades_first_blood_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_first_blood_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_first_blood_Description:f"
 		m_eThresholdType = "Manual"
 		m_vecThresholds =
 		[
@@ -162,7 +162,7 @@
 		m_unAccoladeID = 16
 		m_sTrackedStatName = "killstreak_kills"
 		m_sFlavorName = "#Citadel_VData_accolades_killstreak_kills_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_killstreak_kills_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_killstreak_kills_Description:f"
 		m_eThresholdType = "Automatic"
 	}
 	closeup_kills =
@@ -170,7 +170,7 @@
 		m_unAccoladeID = 17
 		m_sTrackedStatName = "closeup_kills"
 		m_sFlavorName = "#Citadel_VData_accolades_closeup_kills_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_closeup_kills_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_closeup_kills_Description:f"
 		m_eThresholdType = "Automatic"
 	}
 	long_distance_kills =
@@ -178,7 +178,7 @@
 		m_unAccoladeID = 18
 		m_sTrackedStatName = "long_distance_kills"
 		m_sFlavorName = "#Citadel_VData_accolades_long_distance_kills_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_long_distance_kills_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_long_distance_kills_Description:f"
 		m_eThresholdType = "Automatic"
 	}
 	gun_kills =
@@ -186,7 +186,7 @@
 		m_unAccoladeID = 19
 		m_sTrackedStatName = "gun_kills"
 		m_sFlavorName = "#Citadel_VData_accolades_gun_kills_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_gun_kills_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_gun_kills_Description:f"
 		m_eThresholdType = "Automatic"
 	}
 	melee_kills =
@@ -194,7 +194,7 @@
 		m_unAccoladeID = 20
 		m_sTrackedStatName = "melee_kills"
 		m_sFlavorName = "#Citadel_VData_accolades_melee_kills_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_melee_kills_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_melee_kills_Description:f"
 		m_eThresholdType = "Automatic"
 	}
 	ability_kills =
@@ -202,7 +202,7 @@
 		m_unAccoladeID = 21
 		m_sTrackedStatName = "ability_kills"
 		m_sFlavorName = "#Citadel_VData_accolades_ability_kills_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_ability_kills_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_ability_kills_Description:f"
 		m_eThresholdType = "Automatic"
 	}
 	bullet_damage =
@@ -210,7 +210,7 @@
 		m_unAccoladeID = 22
 		m_sTrackedStatName = "bullet_damage"
 		m_sFlavorName = "#Citadel_VData_accolades_bullet_damage_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_bullet_damage_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_bullet_damage_Description:f"
 		m_eThresholdType = "Automatic"
 	}
 	melee_damage =
@@ -218,7 +218,7 @@
 		m_unAccoladeID = 23
 		m_sTrackedStatName = "melee_damage"
 		m_sFlavorName = "#Citadel_VData_accolades_melee_damage_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_melee_damage_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_melee_damage_Description:f"
 		m_eThresholdType = "Automatic"
 	}
 	ability_damage =
@@ -226,7 +226,7 @@
 		m_unAccoladeID = 24
 		m_sTrackedStatName = "ability_damage"
 		m_sFlavorName = "#Citadel_VData_accolades_ability_damage_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_ability_damage_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_ability_damage_Description:f"
 		m_eThresholdType = "Automatic"
 	}
 	weapon_damage =
@@ -234,7 +234,7 @@
 		m_unAccoladeID = 25
 		m_sTrackedStatName = "weapon_damage"
 		m_sFlavorName = "#Citadel_VData_accolades_weapon_damage_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_weapon_damage_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_weapon_damage_Description:f"
 		m_eThresholdType = "Automatic"
 	}
 	damage_absorbed =
@@ -242,7 +242,7 @@
 		m_unAccoladeID = 26
 		m_sTrackedStatName = "damage_absorbed"
 		m_sFlavorName = "#Citadel_VData_accolades_damage_absorbed_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_damage_absorbed_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_damage_absorbed_Description:f"
 		m_eThresholdType = "Automatic"
 	}
 	damage_mitigated =
@@ -250,7 +250,7 @@
 		m_unAccoladeID = 27
 		m_sTrackedStatName = "damage_mitigated"
 		m_sFlavorName = "#Citadel_VData_accolades_damage_mitigated_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_damage_mitigated_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_damage_mitigated_Description:f"
 		m_eThresholdType = "Automatic"
 	}
 	headshots =
@@ -258,7 +258,7 @@
 		m_unAccoladeID = 28
 		m_sTrackedStatName = "headshots"
 		m_sFlavorName = "#Citadel_VData_accolades_headshots_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_headshots_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_headshots_Description:f"
 		m_eThresholdType = "Automatic"
 	}
 	headshot_damage =
@@ -266,7 +266,7 @@
 		m_unAccoladeID = 29
 		m_sTrackedStatName = "headshot_damage"
 		m_sFlavorName = "#Citadel_VData_accolades_headshot_damage_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_headshot_damage_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_headshot_damage_Description:f"
 		m_eThresholdType = "Automatic"
 	}
 	closeup_damage =
@@ -274,7 +274,7 @@
 		m_unAccoladeID = 30
 		m_sTrackedStatName = "closeup_damage"
 		m_sFlavorName = "#Citadel_VData_accolades_closeup_damage_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_closeup_damage_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_closeup_damage_Description:f"
 		m_eThresholdType = "Automatic"
 	}
 	long_distance_damage =
@@ -282,7 +282,7 @@
 		m_unAccoladeID = 31
 		m_sTrackedStatName = "long_distance_damage"
 		m_sFlavorName = "#Citadel_VData_accolades_long_distance_damage_FlavorName"
-		m_sDescription = "#Citadel_VData_accolades_long_distance_damage_Description:p"
+		m_sDescription = "#Citadel_VData_accolades_long_distance_damage_Description:f"
 		m_eThresholdType = "Automatic"
 	}
 	_localization_path = "resource/localization/citadel_vdata/accolades/accolades_%language%.txt"

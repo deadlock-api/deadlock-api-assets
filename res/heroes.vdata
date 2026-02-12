@@ -4843,7 +4843,6 @@
 			upgrade_shrink_ray = 0.300000
 		}
 		_base = "hero_base"
-		m_bNewPlayerRecommended = true
 		m_bLaneTestingRecommended = true
 		m_strIconImageSmall = panorama:"file://{images}/heroes/hornet_sm.png"
 		m_strMinimapImage = panorama:"file://{images}/heroes/hornet_mm.psd"
@@ -8518,7 +8517,6 @@
 			upgrade_shrink_ray = 0.300000
 		}
 		_base = "hero_base"
-		m_bNewPlayerRecommended = true
 		m_bLaneTestingRecommended = true
 		m_strIconImageSmall = panorama:"file://{images}/heroes/wraith_sm.psd"
 		m_strMinimapImage = panorama:"file://{images}/heroes/wraith_mm.psd"
@@ -9743,7 +9741,6 @@
 			upgrade_shrink_ray = 0.300000
 		}
 		_base = "hero_base"
-		m_bNewPlayerRecommended = true
 		m_bLaneTestingRecommended = true
 		m_strIconImageSmall = panorama:"file://{images}/heroes/engineer_sm.psd"
 		m_strMinimapImage = panorama:"file://{images}/heroes/engineer_mm.psd"
@@ -12192,7 +12189,6 @@
 			upgrade_shrink_ray = 0.300000
 		}
 		_base = "hero_base"
-		m_bNewPlayerRecommended = true
 		m_bLaneTestingRecommended = true
 		m_strIconImageSmall = panorama:"file://{images}/heroes/sumo_sm.psd"
 		m_strMinimapImage = panorama:"file://{images}/heroes/sumo_mm.psd"
@@ -13413,7 +13409,6 @@
 			upgrade_shrink_ray = 0.300000
 		}
 		_base = "hero_base"
-		m_bNewPlayerRecommended = true
 		m_bLaneTestingRecommended = true
 		m_strIconImageSmall = panorama:"file://{images}/heroes/kelvin_sm.psd"
 		m_strMinimapImage = panorama:"file://{images}/heroes/kelvin_mm.psd"
@@ -18304,7 +18299,6 @@
 			upgrade_shrink_ray = 0.300000
 		}
 		_base = "hero_base"
-		m_bNewPlayerRecommended = true
 		m_strIconImageSmall = panorama:"file://{images}/heroes/nano_sm.psd"
 		m_strMinimapImage = panorama:"file://{images}/heroes/nano_mm.psd"
 		m_strLogoImageEnglish = panorama:"file://{images}/heroes/hero_names/calico.svg"
@@ -19534,7 +19528,6 @@
 			upgrade_shrink_ray = 0.300000
 		}
 		_base = "hero_base"
-		m_bNewPlayerRecommended = true
 		m_bLaneTestingRecommended = true
 		m_strIconImageSmall = panorama:"file://{images}/heroes/archer_sm.psd"
 		m_strMinimapImage = panorama:"file://{images}/heroes/archer_mm.psd"
@@ -53397,6 +53390,7 @@
 		m_hGeneratedVOEventScript = resource_name:"soundevents/vo/generated_vo_hero_vampirebat.vsndevts"
 		m_sAG2VariationName = resource_name:"animgraphs/animgraph2/hero/hero.vnmgraph+vampirebat.vnmgraph"
 		m_strPostGameVictorySound = soundevent:"Vampirebat.Progession.Page.Win.VO"
+		m_bNewPlayerRecommended = true
 	}
 	hero_drifter =
 	{
@@ -55848,6 +55842,7 @@
 		m_strLogoImageLocalized = panorama:"file://{images}/heroes/hero_names/priest_localized.svg"
 		m_strVoteRevealSound = soundevent:"Vo.VoteReveal.Priest"
 		m_strHideoutRichPresence = "#Steam_Citadel_Hideout_Bless"
+		m_bNewPlayerRecommended = true
 	}
 	hero_frank =
 	{
@@ -69225,7 +69220,7 @@
 		m_bNeedsTesting = false
 		m_bAssignedPlayersOnly = false
 		m_bLimitedTesting = false
-		m_bPrereleaseOnly = true
+		m_bPrereleaseOnly = false
 		m_nComplexity = 2
 		m_nAllyBotDifficulty = 1
 		m_nEnemyBotDifficulty = 1
@@ -69248,7 +69243,7 @@
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 63
 			EHeavyMeleeDamage = 116
-			EMaxHealth = 700.000000
+			EMaxHealth = 740.000000
 			EWeaponPower = 0
 			EReloadSpeed = 1
 			EWeaponPowerScale = 1
@@ -69961,7 +69956,7 @@
 		{
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL = 0.600000
 			MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE = 0.500000
-			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 41
+			MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL = 44
 			MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL = 1.580000
 			MODIFIER_VALUE_BONUS_ATTACK_RANGE = 0.000000
 			MODIFIER_VALUE_BOON_COUNT = 1
@@ -69995,7 +69990,7 @@
 					"ELightMeleeDamage",
 					"EHeavyMeleeDamage",
 				]
-				m_eWeaponAttributes = "EWeaponAttribute_Spreadshot | EWeaponAttribute_CloseRange"
+				m_eWeaponAttributes = "EWeaponAttribute_MediumRange | EWeaponAttribute_Projectile"
 				m_strWeaponImage = panorama:"file://{images}/heroes/guns/fencer_rapier.psd"
 			}
 			m_eVitalityStatsDisplay =

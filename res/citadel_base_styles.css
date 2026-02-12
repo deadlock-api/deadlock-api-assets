@@ -33,6 +33,7 @@
 @define buildsDarkerColor: #243650;
 @define buildsLightColor: #85B5FF;
 @define steamBlue: #1A9FFF;
+@define warningRed: #ee5945;
 @define colorUpgrades: #00FFFF;
 @define apCurrencyColor: #d8b8ff;
 @define team1ColorBright: #FBDCA0;
@@ -434,10 +435,11 @@ Button:active
 	padding: 0px;
 	background-color: none;
 	background-image: none;
-	border: 22px solid transparent;
+	border-top: 100% solid transparent;
+	border-left: 22px solid transparent;
+	border-right: 22px solid transparent;
 	border-image: url("s2r://panorama/images/buttons/button_border_psd.vtex");
-	border-image-slice: 88px fill;
-	border-image-repeat: repeat;
+	border-image-slice: 176px 84px 0px 84px;
 	wash-color: offWhite;
 	brightness: 0.75;
 	saturation: 2;
@@ -455,10 +457,11 @@ Button:active
 	padding: 0px;
 	background-color: none;
 	background-image: none;
-	border: 22px solid transparent;
+	border-top: 100% solid transparent;
+	border-left: 22px solid transparent;
+	border-right: 22px solid transparent;
 	border-image: url("s2r://panorama/images/buttons/button_border_fill_psd.vtex");
-	border-image-slice: 88px fill;
-	border-image-repeat: repeat;
+	border-image-slice: 176px 84px 0px 84px;
 	wash-color: offWhite;
 	brightness: 0.75;
 	saturation: 2;
@@ -707,14 +710,14 @@ Button:active
 
 .InputButton.Large .Bottom
 {
-	border: 24px solid transparent;
-	border-image-slice: 88px fill;
+	border-left: 24px solid transparent;
+	border-right: 24px solid transparent;
 }
 
 .InputButton.Large .Top
 {
-	border: 24px solid transparent;
-	border-image-slice: 88px fill;
+	border-left: 24px solid transparent;
+	border-right: 24px solid transparent;
 }
 
 .InputButton.Large .Content
@@ -746,12 +749,14 @@ Button:active
 
 .InputButton.Small .Bottom
 {
-	border: 16px solid transparent;
+	border-left: 16px solid transparent;
+	border-right: 16px solid transparent;
 }
 
 .InputButton.Small .Top
 {
-	border: 16px solid transparent;
+	border-left: 16px solid transparent;
+	border-right: 16px solid transparent;
 }
 
 .InputButton.Small .Content
@@ -783,12 +788,14 @@ Button:active
 
 .InputButton.XSmall .Bottom
 {
-	border: 12px solid transparent;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
 }
 
 .InputButton.XSmall .Top
 {
-	border: 12px solid transparent;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
 }
 
 .InputButton.XSmall .Content
@@ -5230,4 +5237,315 @@ NumberEntry .ChangeValueButtons .ChangeValueButton .ChangeValueButtonLabel
 		transform: rotateZ(0deg);
 	}
 
+}
+
+CitadelButton
+{
+	min-width: 44px;
+	height: 44px;
+	opacity-mask: url("s2r://panorama/images/main_menu/text_speckle_mask_main_psd.vtex") 1;
+}
+
+CitadelButton .Bottom
+{
+	width: 100%;
+	height: 100%;
+	border-top: 100% solid transparent;
+	border-left: 22px solid transparent;
+	border-right: 22px solid transparent;
+	border-image: url("s2r://panorama/images/buttons/button_border_psd.vtex");
+	border-image-slice: 176px 84px 0px 84px;
+	wash-color: offWhite;
+	brightness: 0.75;
+	saturation: 2;
+	opacity: 0.15;
+	transition-property: opacity;
+	transition-duration: 0.2s;
+}
+
+CitadelButton .Top
+{
+	width: 100%;
+	height: 100%;
+	border-top: 100% solid transparent;
+	border-left: 22px solid transparent;
+	border-right: 22px solid transparent;
+	border-image: url("s2r://panorama/images/buttons/button_border_fill_psd.vtex");
+	border-image-slice: 176px 84px 0px 84px;
+	wash-color: offWhite;
+	brightness: 0.75;
+	saturation: 2;
+	opacity: 0.5;
+	opacity-mask: url("s2r://panorama/images/buttons/button_mask_threshold_psd.vtex");
+	opacity-mask-threshold: 100% 2%;
+	transition-property: opacity-mask;
+	transition-duration: 0.2s;
+}
+
+CitadelButton .Content
+{
+	flow-children: right;
+	horizontal-align: center;
+	vertical-align: center;
+	padding: 4px 20px;
+}
+
+CitadelButton .Content .ButtonImage
+{
+	horizontal-align: center;
+	vertical-align: center;
+	width: height-percentage( 65% );
+	height: 32px;
+	wash-color: offWhite;
+	opacity: 0.7;
+}
+
+CitadelButton .Content .ButtonLabel
+{
+	horizontal-align: center;
+	vertical-align: center;
+	text-align: center;
+	font-family: oracle, block, sans;
+	font-size: 18px;
+	font-weight: bold;
+	color: offWhite&aa;
+	text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+	transition-property: color, brightness;
+	transition-duration: 0.2s;
+}
+
+CitadelButton.HasImage:not(.HasText)
+{
+	min-width: 0px;
+	width: height-percentage( 100% );
+}
+
+CitadelButton.HasText .ButtonImage
+{
+	margin-left: -4px;
+	margin-right: 4px;
+}
+
+CitadelButton.Large
+{
+	ui-scale: 125%;
+}
+
+CitadelButton.Medium
+{
+	ui-scale: 100%;
+}
+
+CitadelButton.Small
+{
+	ui-scale: 80%;
+}
+
+CitadelButton.XSmall
+{
+	ui-scale: 65%;
+}
+
+CitadelButton:hover
+{
+	sound: "UI.MainMenu.Hover";
+}
+
+CitadelButton:hover .Bottom
+{
+	opacity: 0;
+	transition-duration: 0.3s;
+}
+
+CitadelButton:hover .Top
+{
+	wash-color: offWhite;
+	opacity-mask: url("s2r://panorama/images/buttons/button_mask_threshold_psd.vtex");
+	opacity-mask-threshold: 2% 2%;
+	opacity: 0.5;
+	transition-property: opacity-mask;
+	transition-duration: 0.3s;
+}
+
+CitadelButton:hover Image
+{
+	opacity: 1;
+}
+
+CitadelButton:hover Label
+{
+	color: offWhite;
+	color: offBlack;
+}
+
+CitadelButton.CTA .Bottom
+{
+	brightness: 0.35;
+	wash-color: brandGreen;
+	opacity: 0.5;
+}
+
+CitadelButton.CTA .Top
+{
+	wash-color: brandGreen;
+	opacity: 1;
+}
+
+CitadelButton.CTA Label
+{
+	color: offWhite&aa;
+	transition-property: color;
+	transition-duration: 0.2s;
+}
+
+CitadelButton.CTA:hover Label
+{
+	color: offWhite;
+}
+
+CitadelButton.CTA:hover .Border
+{
+	opacity: 0;
+}
+
+CitadelButton.Caution .Bottom
+{
+	brightness: 0.35;
+	wash-color: #ffcc00;
+	opacity: 0.5;
+}
+
+CitadelButton.Caution .Top
+{
+	wash-color: #ffcc00;
+	opacity: 1;
+}
+
+CitadelButton.Caution:hover Label
+{
+	color: offWhite;
+}
+
+CitadelButton.Caution:hover .Border
+{
+	opacity: 0;
+}
+
+CitadelButton.Warning .Bottom
+{
+	brightness: 0.35;
+	wash-color: colorEnemy;
+	opacity: 0.5;
+}
+
+CitadelButton.Warning .Top
+{
+	wash-color: colorEnemy;
+	opacity: 1;
+}
+
+CitadelButton.Warning:hover Label
+{
+	color: offWhite;
+}
+
+CitadelButton.Warning:hover .Border
+{
+	opacity: 0;
+}
+
+CitadelButton.Dark .Bottom
+{
+	wash-color: offBlack;
+	opacity: 1;
+}
+
+CitadelButton.Dark .Top
+{
+	wash-color: offBlack;
+	brightness: 1;
+	opacity: 1;
+}
+
+CitadelButton.Dark Label
+{
+	color: offBlack;
+	text-shadow: none;
+}
+
+CitadelButton.Dark:hover Label
+{
+	color: offWhite;
+	brightness: 1;
+}
+
+CitadelButton.Fill .Bottom
+{
+	border-image: url("s2r://panorama/images/buttons/button_border_fill_psd.vtex");
+}
+
+CitadelButton.Fill.Dark Label
+{
+	color: offWhite&66;
+}
+
+CitadelButton.Fill.Dark .Bottom
+{
+	border-color: offBlack&22;
+	opacity: 0.5;
+}
+
+CitadelButton.Fill.Dark:hover Label
+{
+	color: offWhite;
+}
+
+CitadelButton:active
+{
+	sound: "UI.MainMenu.Activate";
+	brightness: 1.5;
+	transform: scale3d( 0.98, 0.98, 1 );
+}
+
+CitadelButton:selected
+{
+	sound: "UI.MainMenu.Activate";
+}
+
+CitadelButton:disabled,CitadelButton.Disabled
+{
+	sound: none;
+}
+
+CitadelButton:disabled .Bottom,CitadelButton.Disabled .Bottom
+{
+	wash-color: offBlack;
+	opacity: 0.2;
+}
+
+CitadelButton:disabled .Top,CitadelButton.Disabled .Top
+{
+	visibility: collapse;
+}
+
+CitadelButton:disabled Image,CitadelButton.Disabled Image
+{
+	opacity: 0.1;
+}
+
+CitadelButton:disabled Label,CitadelButton.Disabled Label
+{
+	color: offWhite&11;
+	text-shadow: none;
+}
+
+CitadelButton:disabled:hover,CitadelButton.Disabled:hover
+{
+	sound: none;
+}
+
+CitadelButton:disabled:hover Label,CitadelButton.Disabled:hover Label
+{
+	color: offWhite&11;
+	brightness: 1;
 }
