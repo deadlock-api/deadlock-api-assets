@@ -1879,6 +1879,7 @@
       "modifier_armor_reactive_armor": "\u53cd\u5c04",
       "modifier_citadel_banished": "\u8ffd\u653e",
       "modifier_citadel_barrier": "\u30d0\u30ea\u30a2",
+      "modifier_citadel_cursed": "\u546a\u3044\u72b6\u614b",
       "modifier_citadel_dazed": "\u76ee\u7729",
       "modifier_citadel_delayed_stun": "\u30b9\u30bf\u30f3\u767a\u751f\u30c7\u30a3\u30ec\u30a4",
       "modifier_citadel_disarm_proc": "\u30c7\u30a3\u30b9\u30a2\u30fc\u30e0\u72b6\u614b",

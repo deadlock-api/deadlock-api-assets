@@ -123,6 +123,7 @@
 .prop_cast.AbilityPropertyIcon,.prop_cast .ImportantStatImage
 {
 	background-image: url("s2r://panorama/images/upgrades/property_cast_psd.vtex");
+	wash-color: spiritBrightColor;
 }
 
 .StatDesc_TechRange,.prop_distance.AbilityPropertyIcon,.prop_distance .ImportantStatImage
