@@ -54644,7 +54644,7 @@
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
 			EHeavyMeleeDamage = 125.000000
-			EMaxHealth = 720.000000
+			EMaxHealth = 750.000000
 			EWeaponPower = 0
 			EReloadSpeed = 1
 			EWeaponPowerScale = 1
@@ -71666,7 +71666,7 @@
 			ESprintSpeed = 4.000000
 			ECrouchSpeed = 4.750000
 			EMoveAcceleration = 4
-			ELightMeleeDamage = 50
+			ELightMeleeDamage = 58
 			EHeavyMeleeDamage = 116
 			EMaxHealth = 650.000000
 			EWeaponPower = 0
@@ -72886,7 +72886,7 @@
 			EMoveAcceleration = 4
 			ELightMeleeDamage = 50
 			EHeavyMeleeDamage = 116
-			EMaxHealth = 725.000000
+			EMaxHealth = 800.000000
 			EWeaponPower = 0
 			EReloadSpeed = 1
 			EWeaponPowerScale = 1
@@ -74130,6 +74130,7 @@
 			EGroundDashDuration = 0.620000
 			EAirDashDistanceInMeters = 8.000000
 			EAirDashDuration = 0.430000
+			EBulletArmorDamageReduction = -6
 		}
 		m_groundDashPositionCurve =
 		{

@@ -302,8 +302,8 @@
 			_class = "modifier_citadel_trooper_shrine_down_buff"
 			_my_subclass_name = "modifier_citadel_trooper_shrine_down_buff"
 			m_flModelScale = 1.100000
-			m_flHealthScale = 1.300000
-			m_flDamageScale = 30.000000
+			m_flHealthScale = 1.400000
+			m_flDamageScale = 40.000000
 		}
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
@@ -528,8 +528,8 @@
 			_class = "modifier_citadel_trooper_shrine_down_buff"
 			_my_subclass_name = "modifier_citadel_trooper_shrine_down_buff"
 			m_flModelScale = 1.100000
-			m_flHealthScale = 1.300000
-			m_flDamageScale = 30.000000
+			m_flHealthScale = 1.400000
+			m_flDamageScale = 40.000000
 		}
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
@@ -761,8 +761,8 @@
 			_class = "modifier_citadel_trooper_shrine_down_buff"
 			_my_subclass_name = "modifier_citadel_trooper_shrine_down_buff"
 			m_flModelScale = 1.100000
-			m_flHealthScale = 1.300000
-			m_flDamageScale = 30.000000
+			m_flHealthScale = 1.400000
+			m_flDamageScale = 40.000000
 		}
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
@@ -995,8 +995,8 @@
 			_class = "modifier_citadel_trooper_shrine_down_buff"
 			_my_subclass_name = "modifier_citadel_trooper_shrine_down_buff"
 			m_flModelScale = 1.100000
-			m_flHealthScale = 1.300000
-			m_flDamageScale = 30.000000
+			m_flHealthScale = 1.400000
+			m_flDamageScale = 40.000000
 		}
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
@@ -1235,8 +1235,8 @@
 			_class = "modifier_citadel_trooper_shrine_down_buff"
 			_my_subclass_name = "modifier_citadel_trooper_shrine_down_buff"
 			m_flModelScale = 1.100000
-			m_flHealthScale = 1.300000
-			m_flDamageScale = 30.000000
+			m_flHealthScale = 1.400000
+			m_flDamageScale = 40.000000
 		}
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
@@ -2060,8 +2060,8 @@
 		m_sSapphModelName = resource_name:"models/npc/shrine_sapphire/shrine_sapphire.vmdl"
 		m_SapphDeathParticle = resource_name:"particles/npc/shrine/shrine_sapphire_destruction.vpcf"
 		m_AmberDeathParticle = resource_name:"particles/npc/shrine/shrine_amber_destruction_simulation.vpcf"
-		m_iMaxHealthFinal = 9750
-		m_iMaxHealthGenerator = 9000
+		m_iMaxHealthFinal = 8775
+		m_iMaxHealthGenerator = 8100
 		m_flTrooperJumpRange = 700.000000
 		m_PowerGenerator = subclass:
 		{
@@ -6120,8 +6120,8 @@
 			_class = "modifier_citadel_trooper_shrine_down_buff"
 			_my_subclass_name = "modifier_citadel_trooper_shrine_down_buff"
 			m_flModelScale = 1.100000
-			m_flHealthScale = 1.300000
-			m_flDamageScale = 30.000000
+			m_flHealthScale = 1.400000
+			m_flDamageScale = 40.000000
 		}
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
