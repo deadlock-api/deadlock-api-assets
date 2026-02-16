@@ -9,7 +9,7 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "css-parser>=1.0.10",
-    "fastapi>=0.115.5",
+    "fastapi>=0.129.0",
     "murmurhash2>=0.2.10",
     "scalar-fastapi>=1.0.3",
     "uvicorn>=0.34.0",
