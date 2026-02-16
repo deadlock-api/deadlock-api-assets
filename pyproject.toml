@@ -31,15 +31,8 @@ dev = [
 line-length = 100
 
 [build-system]
-requires = ["setuptools"]
-build-backend = "setuptools.build_meta"
+requires = ["uv_build"]
+build-backend = "uv_build"
 
-[tool.setuptools]
-packages = [
-    "deadlock_assets_api",
-    "deadlock_assets_api.routes",
-    "deadlock_assets_api.models",
-    "deadlock_assets_api.models.v1",
-    "deadlock_assets_api.models.v2",
-    "deadlock_assets_api.parsers",
-]
+[tool.uv.build-backend]
+module-root = ""
