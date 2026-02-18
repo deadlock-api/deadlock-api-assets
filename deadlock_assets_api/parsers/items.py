@@ -9,9 +9,6 @@ LOGGER = logging.getLogger(__name__)
 
 
 def detect_item_type(class_name: str, data: dict) -> Literal["weapon", "ability", "upgrade"] | None:
-    if class_name.startswith("citadel_ability_tier") or class_name.startswith("ability_tier"):
-        return None
-
     if ability_type := data.get("m_eAbilityType"):
         if ability_type in ["EAbilityType_Weapon", "EAbilityType_Melee"]:
             return "weapon"
