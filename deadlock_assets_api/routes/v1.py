@@ -6,6 +6,7 @@ from deadlock_assets_api import utils
 from deadlock_assets_api.models.enums import ValidClientVersions, LATEST_VERSION
 from deadlock_assets_api.models.v1.colors import ColorV1
 from deadlock_assets_api.models.v1.map import MapV1
+from deadlock_assets_api.models.v1.steam_info import SteamInfoV1
 
 router = APIRouter(prefix="/v1")
 
@@ -28,7 +29,7 @@ def get_colors(client_version: ValidClientVersions | None = None) -> dict[str, C
 
 
 @router.get("/steam-info")
-def get_steam_info(client_version: ValidClientVersions | None = None) -> FileResponse:
+def get_steam_info(client_version: ValidClientVersions | None = None) -> SteamInfoV1:
     if client_version is None:
         client_version = ValidClientVersions(LATEST_VERSION)
     return FileResponse(f"deploy/versions/{client_version.value}/steam_info.json")
