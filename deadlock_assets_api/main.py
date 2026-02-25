@@ -1,3 +1,4 @@
+import asyncio
 import logging.config
 import os
 import sys
@@ -6,7 +7,7 @@ from fastapi import FastAPI
 from scalar_fastapi import get_scalar_api_reference, Theme
 from starlette.middleware.gzip import GZipMiddleware
 from starlette.requests import Request
-from starlette.responses import FileResponse, RedirectResponse, Response
+from starlette.responses import FileResponse, JSONResponse, RedirectResponse, Response
 from starlette.status import HTTP_308_PERMANENT_REDIRECT
 
 from deadlock_assets_api.logging_middleware import RouterLoggingMiddleware
@@ -81,6 +82,22 @@ _deadlock-api.com is not endorsed by Valve and does not reflect the views or opi
 
 app.add_middleware(GZipMiddleware, minimum_size=1000, compresslevel=5)
 app.add_middleware(RouterLoggingMiddleware, logger=LOGGER)
+
+# Concurrency limiter: max concurrent requests before returning 503
+MAX_CONCURRENT_REQUESTS = int(os.environ.get("MAX_CONCURRENT_REQUESTS", "100"))
+_concurrency_semaphore = asyncio.Semaphore(MAX_CONCURRENT_REQUESTS)
+
+
+@app.middleware("http")
+async def concurrency_limiter(request: Request, call_next):
+    if _concurrency_semaphore._value <= 0:
+        return JSONResponse(
+            status_code=503,
+            content={"detail": "Service temporarily overloaded, please retry later"},
+            headers={"Retry-After": "5"},
+        )
+    async with _concurrency_semaphore:
+        return await call_next(request)
 
 
 @app.middleware("http")

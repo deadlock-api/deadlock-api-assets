@@ -18,6 +18,15 @@ from deadlock_assets_api.models.v2.rank import RankV2
 
 router = APIRouter(prefix="/v2")
 
+# Pre-compiled TypeAdapters — avoids re-building schemas on every request
+_TA_HEROES = TypeAdapter(list[HeroV2])
+_TA_ITEMS = TypeAdapter(list[ItemV2])
+_TA_ACCOLADES = TypeAdapter(list[AccoladeV2])
+_TA_NPC_UNITS = TypeAdapter(list[NPCUnitV2])
+_TA_MISC = TypeAdapter(list[MiscV2])
+_TA_RANKS = TypeAdapter(list[RankV2])
+_TA_BUILD_TAGS = TypeAdapter(list[BuildTagV2])
+
 
 @router.get("/heroes", response_model_exclude_none=True, tags=["Heroes"])
 def get_heroes(
@@ -30,9 +39,8 @@ def get_heroes(
     language = utils.validate_language(language)
     client_version = utils.validate_client_version(client_version)
 
-    ta = TypeAdapter(list[HeroV2])
     heroes = utils.read_parse_data_ta(
-        f"deploy/versions/{client_version}/heroes/{language.value}.json", ta
+        f"deploy/versions/{client_version}/heroes/{language.value}.json", _TA_HEROES
     )
     if only_active:
         heroes = [h for h in heroes if not h.disabled]
@@ -75,9 +83,8 @@ def get_items(
     language = utils.validate_language(language)
     client_version = utils.validate_client_version(client_version)
 
-    ta = TypeAdapter(list[ItemV2])
     return utils.read_parse_data_ta(
-        f"deploy/versions/{client_version}/items/{language.value}.json", ta
+        f"deploy/versions/{client_version}/items/{language.value}.json", _TA_ITEMS
     )
 
 
@@ -146,9 +153,8 @@ def get_accolades(
     language = utils.validate_language(language)
     client_version = utils.validate_client_version(client_version)
 
-    ta = TypeAdapter(list[AccoladeV2])
     accolades = utils.read_parse_data_ta(
-        f"deploy/versions/{client_version}/accolades/{language.value}.json", ta
+        f"deploy/versions/{client_version}/accolades/{language.value}.json", _TA_ACCOLADES
     )
     return accolades
 
@@ -185,8 +191,7 @@ def get_npc_units(
 ) -> list[NPCUnitV2]:
     client_version = utils.validate_client_version(client_version)
 
-    ta = TypeAdapter(list[NPCUnitV2])
-    return utils.read_parse_data_ta(f"deploy/versions/{client_version}/npc_units.json", ta)
+    return utils.read_parse_data_ta(f"deploy/versions/{client_version}/npc_units.json", _TA_NPC_UNITS)
 
 
 @router.get("/npc-units/{id_or_class_name}", response_model_exclude_none=True, tags=["NPC Units"])
@@ -208,8 +213,7 @@ def get_misc_entities(
 ) -> list[MiscV2]:
     client_version = utils.validate_client_version(client_version)
 
-    ta = TypeAdapter(list[MiscV2])
-    return utils.read_parse_data_ta(f"deploy/versions/{client_version}/misc_entities.json", ta)
+    return utils.read_parse_data_ta(f"deploy/versions/{client_version}/misc_entities.json", _TA_MISC)
 
 
 @router.get(
@@ -239,9 +243,8 @@ def get_ranks(
 ) -> list[RankV2]:
     language = utils.validate_language(language)
     client_version = utils.validate_client_version(client_version)
-    ta = TypeAdapter(list[RankV2])
     return utils.read_parse_data_ta(
-        f"deploy/versions/{client_version}/ranks/{language.value}.json", ta
+        f"deploy/versions/{client_version}/ranks/{language.value}.json", _TA_RANKS
     )
 
 
@@ -252,9 +255,8 @@ def get_build_tags(
 ) -> list[BuildTagV2]:
     language = utils.validate_language(language)
     client_version = utils.validate_client_version(client_version)
-    ta = TypeAdapter(list[BuildTagV2])
     return utils.read_parse_data_ta(
-        f"deploy/versions/{client_version}/build_tags/{language.value}.json", ta
+        f"deploy/versions/{client_version}/build_tags/{language.value}.json", _TA_BUILD_TAGS
     )
 
 

@@ -3,6 +3,7 @@ import logging
 import os
 import re
 from functools import lru_cache
+from typing import Any
 
 import css_parser
 from css_parser.css import CSSRuleList, CSSStyleRule
@@ -13,6 +14,9 @@ from deadlock_assets_api.models.enums import ValidClientVersions, ALL_CLIENT_VER
 from deadlock_assets_api.models.languages import Language
 
 LOGGER = logging.getLogger(__name__)
+
+# In-memory cache for parsed data files. Data is static and only changes on deploy/restart.
+_data_cache: dict[str, Any] = {}
 
 
 def get_translation(key: str, language: Language, return_none: bool = False) -> str:
@@ -79,15 +83,23 @@ def strip_prefix(string: str, prefix: str) -> str:
 
 
 def read_parse_data_ta[T](filepath: str, type_adapter: TypeAdapter[T]) -> T:
+    if filepath in _data_cache:
+        return _data_cache[filepath]
     LOGGER.debug(f"Reading {filepath}")
     with open(filepath) as f:
-        return type_adapter.validate_json(f.read())
+        result = type_adapter.validate_json(f.read())
+    _data_cache[filepath] = result
+    return result
 
 
 def read_parse_data_model[T: BaseModel](filepath: str, model: type[T]) -> T:
+    if filepath in _data_cache:
+        return _data_cache[filepath]
     LOGGER.debug(f"Reading {filepath}")
     with open(filepath) as f:
-        return model.model_validate_json(f.read())
+        result = model.model_validate_json(f.read())
+    _data_cache[filepath] = result
+    return result
 
 
 def validate_client_version(client_version: ValidClientVersions | None = None) -> int:
