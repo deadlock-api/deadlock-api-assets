@@ -5,6 +5,7 @@ COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 # Enable uv optimizations:
 # UV_LINK_MODE=copy ensures dependencies are copied (isolated env)
 ENV UV_LINK_MODE=copy
+ENV UV_COMPILE_BYTECODE=0
 
 # Change the working directory to the `app` directory
 WORKDIR /app
