@@ -1135,28 +1135,16 @@
 				[
 
 					{
-						m_DraftParams =
-						{
-							m_strLootTable = "all_items"
-						}
 						m_eNormalModTier = "EModTier_1"
 						m_eRareModTier = "EModTier_2"
 					},
 
 					{
-						m_DraftParams =
-						{
-							m_strLootTable = "all_items"
-						}
 						m_eNormalModTier = "EModTier_2"
 						m_eRareModTier = "EModTier_3"
 					},
 
 					{
-						m_DraftParams =
-						{
-							m_strLootTable = "all_items"
-						}
 						m_eNormalModTier = "EModTier_3"
 						m_eRareModTier = "EModTier_4"
 					},
@@ -1194,28 +1182,16 @@
 				[
 
 					{
-						m_DraftParams =
-						{
-							m_strLootTable = "all_items"
-						}
 						m_eNormalModTier = "EModTier_2"
 						m_eRareModTier = "EModTier_3"
 					},
 
 					{
-						m_DraftParams =
-						{
-							m_strLootTable = "all_items"
-						}
 						m_eNormalModTier = "EModTier_3"
 						m_eRareModTier = "EModTier_4"
 					},
 
 					{
-						m_DraftParams =
-						{
-							m_strLootTable = "all_items"
-						}
 						m_eNormalModTier = "EModTier_3"
 						m_eRareModTier = "EModTier_4"
 					},
@@ -1253,30 +1229,18 @@
 				[
 
 					{
-						m_DraftParams =
-						{
-							m_strLootTable = "all_items"
-						}
 						m_eNormalModTier = "EModTier_2"
 						m_eRareModTier = "EModTier_3"
 						m_flRareWeight = 50
 					},
 
 					{
-						m_DraftParams =
-						{
-							m_strLootTable = "all_items"
-						}
 						m_eNormalModTier = "EModTier_3"
 						m_eRareModTier = "EModTier_4"
 						m_flRareWeight = 50
 					},
 
 					{
-						m_DraftParams =
-						{
-							m_strLootTable = "all_items"
-						}
 						m_eNormalModTier = "EModTier_4"
 						m_eRareModTier = "EModTier_5"
 						m_flRareWeight = 0
@@ -1315,30 +1279,18 @@
 				[
 
 					{
-						m_DraftParams =
-						{
-							m_strLootTable = "all_items"
-						}
 						m_eNormalModTier = "EModTier_3"
 						m_eRareModTier = "EModTier_4"
 						m_flRareWeight = 40
 					},
 
 					{
-						m_DraftParams =
-						{
-							m_strLootTable = "all_items"
-						}
 						m_eNormalModTier = "EModTier_3"
 						m_eRareModTier = "EModTier_4"
 						m_flRareWeight = 40
 					},
 
 					{
-						m_DraftParams =
-						{
-							m_strLootTable = "all_items"
-						}
 						m_eNormalModTier = "EModTier_4"
 						m_eRareModTier = "EModTier_5"
 						m_flRareWeight = 20
@@ -1376,28 +1328,16 @@
 				[
 
 					{
-						m_DraftParams =
-						{
-							m_strLootTable = "all_items"
-						}
 						m_eNormalModTier = "EModTier_4"
 						m_eRareModTier = "EModTier_5"
 					},
 
 					{
-						m_DraftParams =
-						{
-							m_strLootTable = "all_items"
-						}
 						m_eNormalModTier = "EModTier_4"
 						m_eRareModTier = "EModTier_5"
 					},
 
 					{
-						m_DraftParams =
-						{
-							m_strLootTable = "all_items"
-						}
 						m_eNormalModTier = "EModTier_4"
 						m_eRareModTier = "EModTier_5"
 					},
@@ -1405,7 +1345,54 @@
 			},
 		]
 		m_strTrooperModifier = "modifier_streetbrawl_trooper"
-		m_strTrooperOvertimeModifier = "modifier_streetbrawl_trooper_overtime"
+		m_mapItemTierToItemDraftBuckets =
+		{
+			EModTier_1 =
+			{
+				m_mapBuckets =
+				{
+					Normal = 30.000000
+					Good = 70.000000
+				}
+				m_strBucketName = "Tier 1"
+			}
+			EModTier_2 =
+			{
+				m_mapBuckets =
+				{
+					Normal = 40.000000
+					Good = 60.000000
+				}
+				m_strBucketName = "Tier 2"
+			}
+			EModTier_3 =
+			{
+				m_mapBuckets =
+				{
+					Normal = 50.000000
+					Good = 50.000000
+				}
+				m_strBucketName = "Tier 3"
+			}
+			EModTier_4 =
+			{
+				m_mapBuckets =
+				{
+					Normal = 45.000000
+					Good = 55.000000
+				}
+				m_strBucketName = "Tier 4"
+			}
+			EModTier_5 =
+			{
+				m_mapBuckets =
+				{
+					Normal = 80.000000
+					Good = 20.000000
+				}
+				m_strBucketName = "Tier 5"
+			}
+		}
 	}
 	m_OutlineColorFriend =
 	[

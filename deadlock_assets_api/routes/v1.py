@@ -30,7 +30,9 @@ def get_map(client_version: ValidClientVersions | None = None) -> MapV1:
 def get_colors(client_version: ValidClientVersions | None = None) -> dict[str, ColorV1]:
     if client_version is None:
         client_version = ValidClientVersions(LATEST_VERSION)
-    return utils.read_parse_data_ta(f"deploy/versions/{client_version.value}/colors_data.json", _TA_COLORS)
+    return utils.read_parse_data_ta(
+        f"deploy/versions/{client_version.value}/colors_data.json", _TA_COLORS
+    )
 
 
 @router.get("/steam-info")
@@ -44,18 +46,24 @@ def get_steam_info(client_version: ValidClientVersions | None = None) -> SteamIn
 def get_icons(client_version: ValidClientVersions | None = None) -> dict[str, str]:
     if client_version is None:
         client_version = ValidClientVersions(LATEST_VERSION)
-    return utils.read_parse_data_ta(f"deploy/versions/{client_version.value}/icons_data.json", _TA_ICONS)
+    return utils.read_parse_data_ta(
+        f"deploy/versions/{client_version.value}/icons_data.json", _TA_ICONS
+    )
 
 
 @router.get("/images", response_model_exclude_none=True)
 def get_images(client_version: ValidClientVersions | None = None) -> dict[str, str]:
     if client_version is None:
         client_version = ValidClientVersions(LATEST_VERSION)
-    return utils.read_parse_data_ta(f"deploy/versions/{client_version.value}/images_data.json", _TA_IMAGES)
+    return utils.read_parse_data_ta(
+        f"deploy/versions/{client_version.value}/images_data.json", _TA_IMAGES
+    )
 
 
 @router.get("/sounds", response_model_exclude_none=True)
 def get_sounds(client_version: ValidClientVersions | None = None) -> dict:
     if client_version is None:
         client_version = ValidClientVersions(LATEST_VERSION)
-    return utils.read_parse_data_ta(f"deploy/versions/{client_version.value}/sounds_data.json", _TA_SOUNDS)
+    return utils.read_parse_data_ta(
+        f"deploy/versions/{client_version.value}/sounds_data.json", _TA_SOUNDS
+    )

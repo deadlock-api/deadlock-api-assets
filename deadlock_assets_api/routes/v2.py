@@ -191,7 +191,9 @@ def get_npc_units(
 ) -> list[NPCUnitV2]:
     client_version = utils.validate_client_version(client_version)
 
-    return utils.read_parse_data_ta(f"deploy/versions/{client_version}/npc_units.json", _TA_NPC_UNITS)
+    return utils.read_parse_data_ta(
+        f"deploy/versions/{client_version}/npc_units.json", _TA_NPC_UNITS
+    )
 
 
 @router.get("/npc-units/{id_or_class_name}", response_model_exclude_none=True, tags=["NPC Units"])
@@ -213,7 +215,9 @@ def get_misc_entities(
 ) -> list[MiscV2]:
     client_version = utils.validate_client_version(client_version)
 
-    return utils.read_parse_data_ta(f"deploy/versions/{client_version}/misc_entities.json", _TA_MISC)
+    return utils.read_parse_data_ta(
+        f"deploy/versions/{client_version}/misc_entities.json", _TA_MISC
+    )
 
 
 @router.get(
