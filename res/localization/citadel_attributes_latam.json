@@ -1252,6 +1252,8 @@
       "MeleeResistPercent_postvalue_label": "de resistencia cuerpo a cuerpo",
       "MeleeResistPercent_prefix": "{s:sign}",
       "MeleeResistReduction_label": "Resistencia cuerpo a cuerpo",
+      "MeleeResistReduction_postfix": " %",
+      "MeleeResistReduction_postvalue_label": "de resistencia cuerpo a cuerpo",
       "MinExplosionRadius_label": "Radio m\u00edn. de la explosi\u00f3n",
       "MinExplosionRadius_postfix": "\u00a0m",
       "MinExplosionRadius_postvalue_label": "de radio m\u00edn. de la explosi\u00f3n",

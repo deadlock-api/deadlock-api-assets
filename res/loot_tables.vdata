@@ -1420,27 +1420,27 @@
 		[
 
 			{
-				m_eType = "ELootType_NestedLootTable"
+				m_eType = "ELootType_LootTableReference"
 				m_strNestedLootTable = "full_t1"
 			},
 
 			{
-				m_eType = "ELootType_NestedLootTable"
+				m_eType = "ELootType_LootTableReference"
 				m_strNestedLootTable = "full_t2"
 			},
 
 			{
-				m_eType = "ELootType_NestedLootTable"
+				m_eType = "ELootType_LootTableReference"
 				m_strNestedLootTable = "full_t3"
 			},
 
 			{
-				m_eType = "ELootType_NestedLootTable"
+				m_eType = "ELootType_LootTableReference"
 				m_strNestedLootTable = "full_t4"
 			},
 
 			{
-				m_eType = "ELootType_NestedLootTable"
+				m_eType = "ELootType_LootTableReference"
 				m_strNestedLootTable = "full_t5"
 			},
 		]

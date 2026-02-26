@@ -1186,10 +1186,10 @@
       "MODIFIER_VALUE_WEAPON_POWER_prefix": "{s:sign}",
       "MODIFIER_VALUE_WEAPON_RECOIL_REDUCTION_PERCENT_postfix": "%",
       "MODIFIER_VALUE_ZIP_LINE_SPEED_ADDITIVE_prefix": "{s:sign}",
-      "MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_label": "\ud558\uc774\ud37c\ub77c\uc778 \uc18d\ub3c4",
+      "MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_label": "\uc9d1\ub77c\uc778 \uc18d\ub3c4",
       "MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_prefix": "{s:sign}",
       "MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGEt_postfix": "%",
-      "MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGEt_postvalue_label": "\ud558\uc774\ud37c\ub77c\uc778 \uc18d\ub3c4",
+      "MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGEt_postvalue_label": "\uc9d1\ub77c\uc778 \uc18d\ub3c4",
       "MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_label": "\ubb34\uae30 \ud655\ub300",
       "MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_postfix": "%",
       "MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_postvalue_label": "\ubb34\uae30 \ud655\ub300",
@@ -1251,6 +1251,9 @@
       "MeleeResistPercent_postfix": "%",
       "MeleeResistPercent_postvalue_label": "\uadfc\uac70\ub9ac \uacf5\uaca9 \uc800\ud56d",
       "MeleeResistPercent_prefix": "{s:sign}",
+      "MeleeResistReduction_label": "\uadfc\uac70\ub9ac \uacf5\uaca9 \uc800\ud56d",
+      "MeleeResistReduction_postfix": "%",
+      "MeleeResistReduction_postvalue_label": "\uadfc\uac70\ub9ac \uacf5\uaca9 \uc800\ud56d",
       "MinExplosionRadius_label": "\ucd5c\uc18c \ud3ed\ubc1c \ubc18\uacbd",
       "MinExplosionRadius_postfix": "m",
       "MinExplosionRadius_postvalue_label": "\ucd5c\uc18c \ud3ed\ubc1c \ubc18\uacbd",
@@ -1859,9 +1862,9 @@
       "WeaponRange_postvalue_label": "\ubb34\uae30 \uc0ac\uac70\ub9ac",
       "WeaponRecoilReduction_postfix": "%",
       "WindUpTime_postfix": "\ucd08",
-      "ZipLineSpeedPercent_label": "\ud558\uc774\ud37c\ub77c\uc778 \uc18d\ub3c4",
+      "ZipLineSpeedPercent_label": "\uc9d1\ub77c\uc778 \uc18d\ub3c4",
       "ZipLineSpeedPercent_postfix": "%",
-      "ZipLineSpeedPercent_postvalue_label": "\ud558\uc774\ud37c\ub77c\uc778 \uc18d\ub3c4",
+      "ZipLineSpeedPercent_postvalue_label": "\uc9d1\ub77c\uc778 \uc18d\ub3c4",
       "ZipLineSpeedPercent_prefix": "{s:sign}",
       "ZiplineJumpBonusDuration_postfix": "\ucd08",
       "ZiplineJumpBonusMoveSpeed_postfix": "m",
@@ -1908,7 +1911,7 @@
       "movement_slow": "-\uc774\ub3d9 \uc18d\ub3c4",
       "silencer_immune": "\uce68\ubb35 \uba74\uc5ed",
       "upgrade_berserker/modifier_berserker/modifier_berserker_damage_stack": "\uad11\uc804\uc0ac",
-      "zipline_boost": "\ud558\uc774\ud37c\ub77c\uc778 \ubd80\uc2a4\ud2b8 \uc0c1\ud0dc"
+      "zipline_boost": "\uc9d1\ub77c\uc778 \ubd80\uc2a4\ud2b8 \uc0c1\ud0dc"
     }
   }
 }
