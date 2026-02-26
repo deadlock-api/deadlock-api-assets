@@ -6,6 +6,7 @@ from deadlock_assets_api.glob import VIDEO_BASE_URL
 from deadlock_assets_api.models.v2.api_item_base import ItemBaseV2, parse_img_path
 from deadlock_assets_api.models.v2.enums import AbilityTypeV2
 from deadlock_assets_api.models.v2.raw_ability import (
+    DependantAbilities,
     RawAbilityUpgradeV2,
     RawAbilityV2,
     RawAbilityV2TooltipDetails,
@@ -267,6 +268,7 @@ class AbilityV2(ItemBaseV2):
 
     name: str
     type: Literal["ability"] = "ability"
+    grant_ammo_on_cast: bool | None = None
     behaviours: list[str] | None = None
     description: AbilityDescriptionV2
     tooltip_details: AbilityTooltipDetailsV2 | None = None
@@ -275,6 +277,7 @@ class AbilityV2(ItemBaseV2):
     boss_damage_scale: float | None = None
     dependant_abilities: list[str] | None = None
     videos: AbilityVideosV2 | None = None
+    dependent_abilities: dict[str, DependantAbilities] | None = None
 
     @classmethod
     def from_raw_item(

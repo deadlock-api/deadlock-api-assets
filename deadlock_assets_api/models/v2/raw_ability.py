@@ -1,13 +1,13 @@
 import logging
 from typing import Literal
 
-from pydantic import BaseModel, ConfigDict, Field, computed_field, model_validator
+from pydantic import BaseModel, ConfigDict, Field, computed_field, field_validator, model_validator
 
 from deadlock_assets_api.models.v2.enums import AbilityTypeV2
 from deadlock_assets_api.models.v2.raw_item_base import (
     RawItemBaseV2,
 )
-from deadlock_assets_api.utils import parse_css_ability_properties_icon, parse_css_ability_icon
+from deadlock_assets_api.utils import parse_css_ability_icon, parse_css_ability_properties_icon
 
 LOGGER = logging.getLogger(__name__)
 
@@ -80,10 +80,26 @@ class RawAbilityV2TooltipDetails(BaseModel):
     )
 
 
+class DependantAbilities(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    flags: list[str] | None = Field(None, validation_alias="m_eFlags")
+
+    @field_validator("flags", mode="before")
+    @classmethod
+    def split_flags(cls, v: str | list[str] | None) -> list[str] | None:
+        if v is None:
+            return None
+        if isinstance(v, str):
+            return [flag.strip() for flag in v.split("|")]
+        return v
+
+
 class RawAbilityV2(RawItemBaseV2):
     model_config = ConfigDict(populate_by_name=True)
 
     type: Literal["ability"] = "ability"
+    grant_ammo_on_cast: bool | None = Field(None, validation_alias="m_bGrantAmmoOnCast")
     behaviour_bits: str | None = Field(None, validation_alias="m_AbilityBehaviorsBits")
     upgrades: list[RawAbilityUpgradeV2] = Field(..., validation_alias="m_vecAbilityUpgrades")
     ability_type: AbilityTypeV2 | None = Field(None, validation_alias="m_eAbilityType")
@@ -92,6 +108,9 @@ class RawAbilityV2(RawItemBaseV2):
     video: str | None = Field(None, validation_alias="m_strMoviePreviewPath")
     tooltip_details: RawAbilityV2TooltipDetails | None = Field(
         None, validation_alias="m_AbilityTooltipDetails"
+    )
+    dependent_abilities: dict[str, DependantAbilities] | None = Field(
+        None, validation_alias="m_mapDependentAbilities"
     )
 
     @model_validator(mode="after")
