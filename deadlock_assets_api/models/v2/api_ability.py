@@ -277,7 +277,7 @@ class AbilityV2(ItemBaseV2):
     boss_damage_scale: float | None = None
     dependant_abilities: list[str] | None = None
     videos: AbilityVideosV2 | None = None
-    dependent_abilities: dict[str, DependantAbilities] | None = None
+    dependent_abilities: dict[str, DependantAbilities | None] | None = None
 
     @classmethod
     def from_raw_item(

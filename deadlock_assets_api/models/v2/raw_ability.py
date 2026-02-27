@@ -109,7 +109,7 @@ class RawAbilityV2(RawItemBaseV2):
     tooltip_details: RawAbilityV2TooltipDetails | None = Field(
         None, validation_alias="m_AbilityTooltipDetails"
     )
-    dependent_abilities: dict[str, DependantAbilities] | None = Field(
+    dependent_abilities: dict[str, DependantAbilities | None] | None = Field(
         None, validation_alias="m_mapDependentAbilities"
     )
 
