@@ -571,7 +571,7 @@
       "Citadel_HUD_LevelUpAbilityPointAnnouncement": "\ub2a5\ub825 \ud3ec\uc778\ud2b8",
       "Citadel_HUD_LevelUpAbilityUnlocksAnnouncement": "\ub2a5\ub825 \uc7a0\uae08 \ud574\uc81c",
       "Citadel_HUD_LevelUpUltimateAbilityUnlocked": "\uad81\uadf9\uae30 \uc7a0\uae08 \ud574\uc81c",
-      "Citadel_HUD_LevelUp_Title": "\uc740\ucd1d \ud68d\ub4dd!",
+      "Citadel_HUD_LevelUp_Title": "\uc740\ucd1d \ud68d\ub4dd",
       "Citadel_HUD_NextReward_PowerIncrease": "\uc740\ucd1d",
       "Citadel_HUD_PatronBoon": "\ud328\ud2b8\ub7f0\uc758 \uc740\ucd1d...",
       "Citadel_HUD_PlayerKilledAnnouncement": "&nbsp;<span class=\"dataFeedClass\">{i:param_1}</span> \ud68d\ub4dd",
