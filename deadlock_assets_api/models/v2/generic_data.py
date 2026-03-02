@@ -166,6 +166,20 @@ class ItemDraftRoundPerGameRound(BaseModel):
     item_draft_rounds: list[ItemDraftRound] = Field(..., validation_alias="m_vecItemDraftRounds")
 
 
+class DraftBucket(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    normal: float | None = Field(None, validation_alias="Normal")
+    good: float | None = Field(None, validation_alias="Good")
+
+
+class DraftBuckets(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    bucket: DraftBucket | None = Field(None, validation_alias="m_chanm_mapBucketsceRare")
+    name: str | None = Field(None, validation_alias="m_strBucketName")
+
+
 class StreetBrawl(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
@@ -219,6 +233,9 @@ class StreetBrawl(BaseModel):
     outline_color_team1: list[int] | None = Field(None, validation_alias="m_OutlineColorTeam1")
     outline_color_team2: list[int] | None = Field(None, validation_alias="m_OutlineColorTeam2")
     outline_color_neutral: list[int] | None = Field(None, validation_alias="m_OutlineColorNeutral")
+    item_drafts: dict[ItemTierV2, DraftBuckets | None] = Field(
+        ..., validation_alias="m_mapItemTierToItemDraftBuckets"
+    )
 
 
 class GenericDataV2(BaseModel):

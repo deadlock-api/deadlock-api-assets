@@ -4,10 +4,12 @@ from pydantic import BaseModel, ConfigDict
 
 from deadlock_assets_api.glob import IMAGE_BASE_URL
 from deadlock_assets_api.models.v2.api_item_base import parse_img_path
-from deadlock_assets_api.models.v2.enums import HeroItemTypeV2, ItemSlotTypeV2, HeroTypeV2
+from deadlock_assets_api.models.v2.enums import HeroItemTypeV2, HeroTypeV2, ItemSlotTypeV2
 from deadlock_assets_api.models.v2.raw_hero import (
+    RawHeroDraftBucketing,
     RawHeroItemSlotInfoValueV2,
     RawHeroLevelInfoV2,
+    RawHeroMapModCostBonusesV2,
     RawHeroPurchaseBonusV2,
     RawHeroScalingStatV2,
     RawHeroShopStatDisplayV2,
@@ -16,7 +18,6 @@ from deadlock_assets_api.models.v2.raw_hero import (
     RawHeroStatsDisplayV2,
     RawHeroStatsUIV2,
     RawHeroV2,
-    RawHeroMapModCostBonusesV2,
 )
 
 
@@ -278,6 +279,7 @@ class HeroV2(BaseModel):
     scaling_stats: dict[str, RawHeroScalingStatV2]
     purchase_bonuses: dict[ItemSlotTypeV2, list[RawHeroPurchaseBonusV2]]
     standard_level_up_upgrades: dict[str, float]
+    item_draft_bucketing: dict[str, RawHeroDraftBucketing | None] | None = None
 
     @classmethod
     def from_raw_hero(cls, raw_hero: RawHeroV2, localization: dict[str, str]) -> HeroV2:

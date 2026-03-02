@@ -2,7 +2,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, computed_field
 
-from deadlock_assets_api.models.v2.enums import ItemSlotTypeV2, HeroItemTypeV2, HeroTypeV2
+from deadlock_assets_api.models.v2.enums import HeroItemTypeV2, HeroTypeV2, ItemSlotTypeV2
 from deadlock_assets_api.utils import parse_css_heroes_background
 
 
@@ -133,6 +133,13 @@ class RawHeroMapModCostBonusesV2(BaseModel):
     percent_on_graph: float = Field(..., validation_alias="flPercentOnGraph")
 
 
+class RawHeroDraftBucketing(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    bucket: str | None = Field(None, validation_alias="m_strBucket")
+    weight: float | None = Field(None, validation_alias="m_flWeight")
+
+
 class RawHeroV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
@@ -196,6 +203,9 @@ class RawHeroV2(BaseModel):
     )
     standard_level_up_upgrades: dict[str, float] = Field(
         ..., validation_alias="m_mapStandardLevelUpUpgrades"
+    )
+    item_draft_bucketing: dict[str, RawHeroDraftBucketing | None] | None = Field(
+        None, validation_alias="m_mapItemDraftBucketing"
     )
 
     @computed_field
