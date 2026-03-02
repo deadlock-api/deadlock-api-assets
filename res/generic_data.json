@@ -823,6 +823,28 @@
         ]
       }
     ],
+    "item_drafts": {
+      "1": {
+        "bucket": null,
+        "name": "Tier 1"
+      },
+      "2": {
+        "bucket": null,
+        "name": "Tier 2"
+      },
+      "3": {
+        "bucket": null,
+        "name": "Tier 3"
+      },
+      "4": {
+        "bucket": null,
+        "name": "Tier 4"
+      },
+      "5": {
+        "bucket": null,
+        "name": "Tier 5"
+      }
+    },
     "lane_number": 4,
     "objective_max_health": [
       1800,
