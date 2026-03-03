@@ -658,16 +658,16 @@
         },
         "item_draft_rounds": [
           {
-            "chance_enhanced": 2,
-            "chance_rare": 1
+            "normal_mod_tier": 1,
+            "rare_mod_tier": 2
           },
           {
-            "chance_enhanced": 3,
-            "chance_rare": 2
+            "normal_mod_tier": 2,
+            "rare_mod_tier": 3
           },
           {
-            "chance_enhanced": 4,
-            "chance_rare": 3
+            "normal_mod_tier": 3,
+            "rare_mod_tier": 4
           }
         ]
       },
@@ -696,16 +696,16 @@
         },
         "item_draft_rounds": [
           {
-            "chance_enhanced": 3,
-            "chance_rare": 2
+            "normal_mod_tier": 2,
+            "rare_mod_tier": 3
           },
           {
-            "chance_enhanced": 4,
-            "chance_rare": 3
+            "normal_mod_tier": 3,
+            "rare_mod_tier": 4
           },
           {
-            "chance_enhanced": 4,
-            "chance_rare": 3
+            "normal_mod_tier": 3,
+            "rare_mod_tier": 4
           }
         ]
       },
@@ -734,16 +734,16 @@
         },
         "item_draft_rounds": [
           {
-            "chance_enhanced": 3,
-            "chance_rare": 2
+            "normal_mod_tier": 2,
+            "rare_mod_tier": 3
           },
           {
-            "chance_enhanced": 4,
-            "chance_rare": 3
+            "normal_mod_tier": 3,
+            "rare_mod_tier": 4
           },
           {
-            "chance_enhanced": 5,
-            "chance_rare": 4
+            "normal_mod_tier": 4,
+            "rare_mod_tier": 5
           }
         ]
       },
@@ -772,16 +772,16 @@
         },
         "item_draft_rounds": [
           {
-            "chance_enhanced": 4,
-            "chance_rare": 3
+            "normal_mod_tier": 3,
+            "rare_mod_tier": 4
           },
           {
-            "chance_enhanced": 4,
-            "chance_rare": 3
+            "normal_mod_tier": 3,
+            "rare_mod_tier": 4
           },
           {
-            "chance_enhanced": 5,
-            "chance_rare": 4
+            "normal_mod_tier": 4,
+            "rare_mod_tier": 5
           }
         ]
       },
@@ -809,39 +809,54 @@
         },
         "item_draft_rounds": [
           {
-            "chance_enhanced": 5,
-            "chance_rare": 4
+            "normal_mod_tier": 4,
+            "rare_mod_tier": 5
           },
           {
-            "chance_enhanced": 5,
-            "chance_rare": 4
+            "normal_mod_tier": 4,
+            "rare_mod_tier": 5
           },
           {
-            "chance_enhanced": 5,
-            "chance_rare": 4
+            "normal_mod_tier": 4,
+            "rare_mod_tier": 5
           }
         ]
       }
     ],
     "item_drafts": {
       "1": {
-        "bucket": null,
+        "bucket": {
+          "good": 70.0,
+          "normal": 30.0
+        },
         "name": "Tier 1"
       },
       "2": {
-        "bucket": null,
+        "bucket": {
+          "good": 60.0,
+          "normal": 40.0
+        },
         "name": "Tier 2"
       },
       "3": {
-        "bucket": null,
+        "bucket": {
+          "good": 50.0,
+          "normal": 50.0
+        },
         "name": "Tier 3"
       },
       "4": {
-        "bucket": null,
+        "bucket": {
+          "good": 55.0,
+          "normal": 45.0
+        },
         "name": "Tier 4"
       },
       "5": {
-        "bucket": null,
+        "bucket": {
+          "good": 20.0,
+          "normal": 80.0
+        },
         "name": "Tier 5"
       }
     },
