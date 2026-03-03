@@ -176,7 +176,7 @@ class DraftBucket(BaseModel):
 class DraftBuckets(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    bucket: DraftBucket | None = Field(None, validation_alias="m_chanm_mapBucketsceRare")
+    bucket: DraftBucket | None = Field(None, validation_alias="m_mapBuckets")
     name: str | None = Field(None, validation_alias="m_strBucketName")
 
 
