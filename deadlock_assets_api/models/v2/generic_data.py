@@ -154,8 +154,8 @@ class OutcomeToWeights(BaseModel):
 class ItemDraftRound(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    chance_rare: ItemTierV2 = Field(..., validation_alias="m_eNormalModTier")
-    chance_enhanced: ItemTierV2 = Field(..., validation_alias="m_eRareModTier")
+    normal_mod_tier: ItemTierV2 = Field(..., validation_alias="m_eNormalModTier")
+    rare_mod_tier: ItemTierV2 = Field(..., validation_alias="m_eRareModTier")
 
 
 class ItemDraftRoundPerGameRound(BaseModel):
