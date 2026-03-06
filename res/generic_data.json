@@ -455,17 +455,17 @@
     }
   ],
   "objective_params": {
-    "base_guardians_gold_kill": 750,
+    "base_guardians_gold_kill": 1000,
     "base_guardians_gold_orbs": 0,
     "gold_per_orb": 0,
     "near_player_split_pct": 40.0,
     "patron_phase1_gold_kill": 0,
     "patron_phase1_gold_orbs": 0,
-    "shrines_gold_kill": 0,
+    "shrines_gold_kill": 2000,
     "shrines_gold_orbs": 0,
-    "tier1_gold_kill": 1000,
+    "tier1_gold_kill": 1500,
     "tier1_gold_orbs": 0,
-    "tier2_gold_kill": 3500,
+    "tier2_gold_kill": 4000,
     "tier2_gold_orbs": 0
   },
   "rejuv_params": {
@@ -475,7 +475,7 @@
       0.3
     ],
     "rejuvinator_buff_duration": 240.0,
-    "rejuvinator_drop_duration": 7.0,
+    "rejuvinator_drop_duration": 6.0,
     "rejuvinator_drop_height": 500.0,
     "rejuvinator_expiration_warning_timing": 30.0,
     "rejuvinator_rebirth_duration": [

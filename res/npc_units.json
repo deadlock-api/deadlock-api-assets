@@ -1681,7 +1681,7 @@
     "laser_dps_to_players": null,
     "max_health": null,
     "max_health_final": 8775,
-    "max_health_generator": 8100,
+    "max_health_generator": 5000,
     "melee_attempt_range": null,
     "melee_damage": null,
     "melee_duration": null,
@@ -2197,6 +2197,10 @@
             {
               "modifier_value": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
               "value": 15.0
+            },
+            {
+              "modifier_value": "MODIFIER_VALUE_STATUS_RESISTANCE",
+              "value": 35.0
             }
           ]
         }
@@ -3896,14 +3900,14 @@
     "class_name": "npc_boss_tier2",
     "empowered_modifier_level1": {
       "subclass": {
-        "max_health": 9350,
+        "max_health": 9000,
         "model_scale": 1.0,
         "transition_duration": 1.0
       }
     },
     "empowered_modifier_level2": {
       "subclass": {
-        "max_health": 11900,
+        "max_health": 12000,
         "model_scale": 1.15,
         "transition_duration": 1.0
       }
@@ -3962,7 +3966,7 @@
     ],
     "laser_dps_max_health": null,
     "laser_dps_to_players": null,
-    "max_health": 6800,
+    "max_health": 6000,
     "max_health_final": null,
     "max_health_generator": null,
     "melee_attempt_range": 600.0,
@@ -4027,14 +4031,14 @@
     "class_name": "alt_npc_boss_tier2",
     "empowered_modifier_level1": {
       "subclass": {
-        "max_health": 9350,
+        "max_health": 9000,
         "model_scale": 1.0,
         "transition_duration": 1.0
       }
     },
     "empowered_modifier_level2": {
       "subclass": {
-        "max_health": 11900,
+        "max_health": 12000,
         "model_scale": 1.15,
         "transition_duration": 1.0
       }
@@ -4093,7 +4097,7 @@
     ],
     "laser_dps_max_health": null,
     "laser_dps_to_players": null,
-    "max_health": 6800,
+    "max_health": 6000,
     "max_health_final": null,
     "max_health_generator": null,
     "melee_attempt_range": 600.0,
@@ -4158,14 +4162,14 @@
     "class_name": "npc_boss_tier2_weak",
     "empowered_modifier_level1": {
       "subclass": {
-        "max_health": 9350,
+        "max_health": 9000,
         "model_scale": 1.0,
         "transition_duration": 1.0
       }
     },
     "empowered_modifier_level2": {
       "subclass": {
-        "max_health": 11900,
+        "max_health": 12000,
         "model_scale": 1.15,
         "transition_duration": 1.0
       }
@@ -4224,7 +4228,7 @@
     ],
     "laser_dps_max_health": null,
     "laser_dps_to_players": null,
-    "max_health": 6800,
+    "max_health": 6000,
     "max_health_final": null,
     "max_health_generator": null,
     "melee_attempt_range": 600.0,
@@ -4289,14 +4293,14 @@
     "class_name": "alt_npc_boss_tier2_weak",
     "empowered_modifier_level1": {
       "subclass": {
-        "max_health": 9350,
+        "max_health": 9000,
         "model_scale": 1.0,
         "transition_duration": 1.0
       }
     },
     "empowered_modifier_level2": {
       "subclass": {
-        "max_health": 11900,
+        "max_health": 12000,
         "model_scale": 1.15,
         "transition_duration": 1.0
       }
@@ -4355,7 +4359,7 @@
     ],
     "laser_dps_max_health": null,
     "laser_dps_to_players": null,
-    "max_health": 6800,
+    "max_health": 6000,
     "max_health_final": null,
     "max_health_generator": null,
     "melee_attempt_range": 600.0,
@@ -6483,5 +6487,73 @@
       "zoom_fov": null,
       "zoom_move_speed_percent": 0.75
     }
+  },
+  {
+    "acceleration": null,
+    "attack_t1_boss_max_range": null,
+    "attack_t3_boss_max_range": null,
+    "attack_t3_boss_phase2_max_range": null,
+    "attack_trooper_max_range": null,
+    "backdoor_bullet_resist_modifier": null,
+    "barrack_boss_dps": null,
+    "barrack_guardian_damage_resist_pct": null,
+    "bound_abilities": null,
+    "class_name": "citadel_fissure_wall",
+    "empowered_modifier_level1": null,
+    "empowered_modifier_level2": null,
+    "enemy_trooper_damage_reduction": null,
+    "enemy_trooper_protection_range": null,
+    "generator_boss_dps": null,
+    "gold_reward": null,
+    "gold_reward_bonus_percent_per_minute": null,
+    "health_bar_color_enemy": null,
+    "health_bar_color_friend": null,
+    "health_bar_color_team1": null,
+    "health_bar_color_team2": null,
+    "health_bar_color_team_neutral": null,
+    "id": 1956095138,
+    "intrinsic_modifiers": null,
+    "laser_dps_max_health": null,
+    "laser_dps_to_players": null,
+    "max_health": null,
+    "max_health_final": null,
+    "max_health_generator": null,
+    "melee_attempt_range": null,
+    "melee_damage": null,
+    "melee_duration": null,
+    "melee_hit_range": null,
+    "near_death_duration": null,
+    "no_shield_laser_dps_to_players": null,
+    "objective_health_growth_phase1": null,
+    "objective_health_growth_phase2": null,
+    "objective_regen": null,
+    "phase2_health": null,
+    "player_damage_resist_pct": null,
+    "player_dps": null,
+    "ranged_armor_modifier": null,
+    "run_speed": null,
+    "sight_range_npcs": null,
+    "sight_range_players": null,
+    "spawn_breakables_on_death": null,
+    "stomp_damage": null,
+    "stomp_damage_max_health_percent": null,
+    "stomp_impact_radius": null,
+    "stun_duration": null,
+    "t1_boss_damage_resist_pct": null,
+    "t1_boss_dps": null,
+    "t1_boss_dpsbase_resist": null,
+    "t1_boss_dpsmax_resist": null,
+    "t1_boss_dpsmax_resist_time_in_seconds": null,
+    "t2_boss_damage_resist_pct": null,
+    "t2_boss_dps": null,
+    "t2_boss_dpsbase_resist": null,
+    "t2_boss_dpsmax_resist": null,
+    "t2_boss_dpsmax_resist_time_in_seconds": null,
+    "t3_boss_damage_resist_pct": null,
+    "t3_boss_dps": null,
+    "trooper_damage_resist_pct": null,
+    "trooper_dps": null,
+    "walk_speed": null,
+    "weapon_info": null
   }
 ]
