@@ -1576,6 +1576,7 @@
       "StatDesc_CritDamageReceivedScale_postvalue_label": "Redukce kritick\u00e9ho po\u0161kozen\u00ed",
       "StatDesc_DPS": "Po\u0161kozen\u00ed za sekundu",
       "StatDesc_DPS_postvalue_label": "Po\u0161kozen\u00ed za sekundu",
+      "StatDesc_DamageAmpDesc": "<b>Nav\u00fd\u0161en\u00ed po\u0161kozen\u00ed</b> \u2013 Procentu\u00e1ln\u00ed \u00faprava ve\u0161ker\u00e9ho odchoz\u00edho po\u0161kozen\u00ed",
       "StatDesc_DashSpeedInMeters": "Rychlost v\u00fdpad\u016f",
       "StatDesc_DashSpeedInMeters_postfix": "\u00a0m/s",
       "StatDesc_DashSpeedInMeters_postvalue_label": "Rychlost v\u00fdpad\u016f",

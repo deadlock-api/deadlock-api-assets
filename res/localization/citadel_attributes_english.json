@@ -1602,6 +1602,7 @@
       "StatDesc_CritDamageReceivedScale_postvalue_label": "Crit Reduction",
       "StatDesc_DPS": "DPS",
       "StatDesc_DPS_postvalue_label": "DPS",
+      "StatDesc_DamageAmpDesc": "<b>Damage Amplification</b> - Percentage modification to any outgoing damage",
       "StatDesc_DashSpeedInMeters": "Dash Speed",
       "StatDesc_DashSpeedInMeters_postfix": "m",
       "StatDesc_DashSpeedInMeters_postvalue_label": "Dash Speed",
