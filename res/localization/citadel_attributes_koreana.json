@@ -1576,6 +1576,7 @@
       "StatDesc_CritDamageReceivedScale_postvalue_label": "\uce58\uba85\ud0c0 \uac10\uc18c",
       "StatDesc_DPS": "\ucd08\ub2f9 \ud53c\ud574",
       "StatDesc_DPS_postvalue_label": "\ucd08\ub2f9 \ud53c\ud574",
+      "StatDesc_DamageAmpDesc": "<b>\ud53c\ud574 \uc99d\ud3ed</b> - \ubaa8\ub4e0 \uc785\ud788\ub294 \ud53c\ud574\ub7c9 \uc870\uc815 \ube44\uc728",
       "StatDesc_DashSpeedInMeters": "\ub300\uc2dc \uc18d\ub3c4",
       "StatDesc_DashSpeedInMeters_postfix": "m",
       "StatDesc_DashSpeedInMeters_postvalue_label": "\ub300\uc2dc \uc18d\ub3c4",

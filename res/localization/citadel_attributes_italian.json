@@ -1576,6 +1576,7 @@
       "StatDesc_CritDamageReceivedScale_postvalue_label": "di riduzione danni critici",
       "StatDesc_DPS": "Danni al secondo",
       "StatDesc_DPS_postvalue_label": "danni al secondo",
+      "StatDesc_DamageAmpDesc": "<b>Amplificazione dei danni</b> - Modifica proporzionalmente i danni inflitti",
       "StatDesc_DashSpeedInMeters": "Velocit\u00e0 dello scatto",
       "StatDesc_DashSpeedInMeters_postfix": " m/s",
       "StatDesc_DashSpeedInMeters_postvalue_label": "di velocit\u00e0 dello scatto",

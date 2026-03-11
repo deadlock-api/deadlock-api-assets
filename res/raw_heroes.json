@@ -67,52 +67,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -1392,7 +1392,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.088,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 39.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 46.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -1410,7 +1410,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 800,
+      "max_health": 840,
       "max_move_speed": 6.7,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -1531,52 +1531,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -2856,7 +2856,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.374,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 48.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -2874,7 +2874,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 700,
+      "max_health": 740,
       "max_move_speed": 6.7,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -2995,52 +2995,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -4325,7 +4325,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.495,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 29.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 35.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -4343,7 +4343,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 725,
+      "max_health": 765,
       "max_move_speed": 7.9,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -4464,52 +4464,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -5789,7 +5789,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.946,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 51.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 59.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -5807,7 +5807,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 850,
+      "max_health": 890,
       "max_move_speed": 6.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -5928,52 +5928,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -7253,7 +7253,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.1,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 49.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 57.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -7271,7 +7271,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 770,
+      "max_health": 810,
       "max_move_speed": 6.4,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -7392,52 +7392,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -8722,7 +8722,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.14,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 35.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 42.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -8740,7 +8740,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 700,
+      "max_health": 740,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -8861,52 +8861,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -10186,7 +10186,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.15,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 52.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 60.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -10204,7 +10204,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 6.7,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -10325,52 +10325,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -11650,7 +11650,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.242,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 45.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 53.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -11668,7 +11668,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 700,
+      "max_health": 740,
       "max_move_speed": 6.7,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -11789,52 +11789,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -13114,7 +13114,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.5,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 59.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 68.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -13132,7 +13132,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 850,
+      "max_health": 890,
       "max_move_speed": 6.7,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -13253,52 +13253,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -14578,7 +14578,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.418,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 58.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 67.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -14596,7 +14596,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 850,
+      "max_health": 890,
       "max_move_speed": 6.7,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -14717,52 +14717,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -16047,7 +16047,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.143,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 33.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 40.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -16065,7 +16065,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 700,
+      "max_health": 740,
       "max_move_speed": 8.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -16186,52 +16186,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -17511,7 +17511,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.144,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 48.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -17529,7 +17529,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 8.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -17650,52 +17650,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -18975,7 +18975,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.154,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 52.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 60.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 59.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -18993,7 +18993,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 63.0,
-      "max_health": 850,
+      "max_health": 890,
       "max_move_speed": 6.45,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -19114,52 +19114,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -20439,7 +20439,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.043,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 37.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 44.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -20457,8 +20457,8 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 63.0,
-      "max_health": 700,
-      "max_move_speed": 7.2,
+      "max_health": 740,
+      "max_move_speed": 6.8,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
       "reload_speed": 1,
@@ -20578,52 +20578,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -21912,7 +21912,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.001,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 38.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 45.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -21930,7 +21930,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 6.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -22051,52 +22051,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -23376,7 +23376,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.077,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 63.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 72.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -23394,7 +23394,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 900,
+      "max_health": 940,
       "max_move_speed": 8.0,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -23515,52 +23515,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -24841,7 +24841,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.165,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 45.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 53.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -24859,7 +24859,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 800,
+      "max_health": 840,
       "max_move_speed": 6.5,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -24980,52 +24980,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -26303,9 +26303,9 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.06,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.08,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 44.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 52.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -26323,7 +26323,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 725,
+      "max_health": 765,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -26444,52 +26444,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -27769,7 +27769,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 61.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 70.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -27787,7 +27787,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -27904,52 +27904,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -29238,7 +29238,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.38,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 58.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 67.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -29256,7 +29256,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 775,
+      "max_health": 815,
       "max_move_speed": 6.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -29377,52 +29377,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -30708,7 +30708,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.154,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.7,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 44.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 52.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -30726,7 +30726,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 128,
       "light_melee_damage": 55.0,
-      "max_health": 700,
+      "max_health": 740,
       "max_move_speed": 8.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -30847,52 +30847,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -32172,7 +32172,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.341,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 50.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 58.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -32190,7 +32190,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -32311,52 +32311,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -33637,7 +33637,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.36,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 1.6,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 44.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 52.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -33655,7 +33655,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 63.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -33776,52 +33776,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -35101,7 +35101,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.924,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 61.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 70.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -35119,7 +35119,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -35236,52 +35236,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -36561,7 +36561,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 61.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 70.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -36579,7 +36579,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -36696,52 +36696,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -38021,7 +38021,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.418,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 61.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 70.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -38039,7 +38039,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -38156,52 +38156,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -39481,7 +39481,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.77,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 61.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 70.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -39499,7 +39499,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -39616,52 +39616,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -40941,7 +40941,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 61.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 70.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -40959,7 +40959,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -41076,52 +41076,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -42401,7 +42401,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.22,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 36.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 43.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -42419,7 +42419,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 60.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -42540,52 +42540,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -43865,7 +43865,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 61.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 70.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -43883,7 +43883,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -44000,52 +44000,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -45325,7 +45325,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.3,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 44.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 52.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -45343,7 +45343,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 700,
+      "max_health": 740,
       "max_move_speed": 7.0,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -45464,52 +45464,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -46789,7 +46789,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.22,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 54.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 62.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -46807,7 +46807,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -46924,52 +46924,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -48249,7 +48249,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.0,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 61.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 70.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -48267,7 +48267,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 800,
+      "max_health": 840,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -48384,52 +48384,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -49709,7 +49709,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.077,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 61.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 70.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -49727,7 +49727,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -49844,52 +49844,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -51169,7 +51169,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.077,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 61.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 70.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -51187,7 +51187,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -51304,52 +51304,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -52634,7 +52634,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.198,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 35.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 42.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -52652,7 +52652,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 6.9,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -52773,52 +52773,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -54098,7 +54098,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.242,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 53.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 61.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -54116,7 +54116,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -54233,52 +54233,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -55563,7 +55563,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.55,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 38.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 45.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -55581,7 +55581,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 700,
+      "max_health": 740,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -55702,52 +55702,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -57027,7 +57027,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.22,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 66.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 75.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -57045,7 +57045,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -57162,52 +57162,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -58487,7 +58487,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.803,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 51.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 59.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -58505,7 +58505,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -58622,52 +58622,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -59947,7 +59947,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.275,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 28.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 34.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -59965,7 +59965,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 630,
+      "max_health": 670,
       "max_move_speed": 6.5,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -60086,52 +60086,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -61411,7 +61411,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.616,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 39.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 46.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -61429,7 +61429,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 120,
       "light_melee_damage": 51.5,
-      "max_health": 725,
+      "max_health": 765,
       "max_move_speed": 6.9,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -61550,52 +61550,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -62884,7 +62884,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.27,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 38.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 45.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.7,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -62902,7 +62902,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 125,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 6.4,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -63023,52 +63023,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -64353,7 +64353,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.33,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 39.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 46.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -64371,7 +64371,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 770,
+      "max_health": 810,
       "max_move_speed": 6.3,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -64492,52 +64492,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -65822,7 +65822,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.52,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 29.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 35.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.2,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -65840,7 +65840,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 120,
       "light_melee_damage": 42.0,
-      "max_health": 650,
+      "max_health": 690,
       "max_move_speed": 6.9,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -65961,52 +65961,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -67286,7 +67286,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.495,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 60.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 69.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -67304,7 +67304,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 675,
+      "max_health": 715,
       "max_move_speed": 8.0,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -67421,52 +67421,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -68746,7 +68746,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.1,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 42.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 49.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -68764,7 +68764,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 725,
+      "max_health": 765,
       "max_move_speed": 7.9,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -68885,52 +68885,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -70211,7 +70211,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.44,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 51.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 59.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -70229,7 +70229,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -70346,52 +70346,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -71671,7 +71671,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.275,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 59.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 68.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -71689,7 +71689,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 6.8,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -71806,52 +71806,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -73131,7 +73131,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.165,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 43.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 50.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -73149,7 +73149,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 790,
+      "max_health": 830,
       "max_move_speed": 7.0,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -73270,52 +73270,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -74595,7 +74595,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.124929,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 41.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 48.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -74613,7 +74613,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -74730,52 +74730,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -76055,7 +76055,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.25,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 31.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 37.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -76073,7 +76073,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 480,
+      "max_health": 520,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -76194,52 +76194,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -77524,7 +77524,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.18,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 35.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 42.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -77542,7 +77542,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 650,
+      "max_health": 690,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -77663,52 +77663,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -78988,7 +78988,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.06,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 33.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 40.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -79006,7 +79006,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 700,
+      "max_health": 740,
       "max_move_speed": 7.0,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -79127,52 +79127,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -80452,7 +80452,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.75,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.5,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 44.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 52.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -80470,7 +80470,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 63.0,
-      "max_health": 740,
+      "max_health": 780,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -80591,52 +80591,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -81917,7 +81917,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.2,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 39.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 46.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -81935,7 +81935,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 650,
+      "max_health": 690,
       "max_move_speed": 6.8,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -82052,52 +82052,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -83377,7 +83377,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.34,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 29.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 35.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -83395,7 +83395,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 58.0,
-      "max_health": 650,
+      "max_health": 690,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -83516,52 +83516,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -84841,7 +84841,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.1206,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.819,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 29.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 35.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -84859,7 +84859,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 800,
+      "max_health": 840,
       "max_move_speed": 6.7,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -84980,52 +84980,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -86305,7 +86305,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.6,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 35.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 42.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -86323,7 +86323,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 6.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
@@ -86444,52 +86444,52 @@
       ],
       "vitality": [
         {
-          "bonus": 75.0,
+          "bonus": 84.0,
           "gold_threshold": 800,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 125.0,
+          "bonus": 140.0,
           "gold_threshold": 1600,
           "percent_on_graph": 8.0
         },
         {
-          "bonus": 200.0,
+          "bonus": 224.0,
           "gold_threshold": 2400,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 275.0,
+          "bonus": 308.0,
           "gold_threshold": 3200,
           "percent_on_graph": 9.0
         },
         {
-          "bonus": 525.0,
+          "bonus": 588.0,
           "gold_threshold": 4800,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 625.0,
+          "bonus": 700.0,
           "gold_threshold": 7200,
           "percent_on_graph": 10.0
         },
         {
-          "bonus": 750.0,
+          "bonus": 840.0,
           "gold_threshold": 9600,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1000.0,
+          "bonus": 1120.0,
           "gold_threshold": 16000,
           "percent_on_graph": 11.0
         },
         {
-          "bonus": 1200.0,
+          "bonus": 1344.0,
           "gold_threshold": 22400,
           "percent_on_graph": 12.0
         },
         {
-          "bonus": 1400.0,
+          "bonus": 1568.0,
           "gold_threshold": 28800,
           "percent_on_graph": 12.0
         }
@@ -87769,7 +87769,7 @@
     "standard_level_up_upgrades": {
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.07,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 61.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 70.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -87787,7 +87787,7 @@
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 750,
+      "max_health": 790,
       "max_move_speed": 7.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,

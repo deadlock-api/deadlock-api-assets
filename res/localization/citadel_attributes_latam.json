@@ -1576,6 +1576,7 @@
       "StatDesc_CritDamageReceivedScale_postvalue_label": "de reducci\u00f3n de cr\u00edticos",
       "StatDesc_DPS": "DPS",
       "StatDesc_DPS_postvalue_label": "de DPS",
+      "StatDesc_DamageAmpDesc": "<b>Amplificaci\u00f3n de da\u00f1o</b>: Modifica el porcentaje a cualquier da\u00f1o infligido",
       "StatDesc_DashSpeedInMeters": "de velocidad de impulso",
       "StatDesc_DashSpeedInMeters_postfix": "\u00a0m",
       "StatDesc_DashSpeedInMeters_postvalue_label": "de velocidad de impulso",
