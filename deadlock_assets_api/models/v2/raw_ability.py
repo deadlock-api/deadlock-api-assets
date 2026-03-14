@@ -1,7 +1,15 @@
 import logging
 from typing import Literal
 
-from pydantic import BaseModel, ConfigDict, Field, computed_field, field_validator, model_validator
+from pydantic import (
+    AliasChoices,
+    BaseModel,
+    ConfigDict,
+    Field,
+    computed_field,
+    field_validator,
+    model_validator,
+)
 
 from deadlock_assets_api.models.v2.enums import AbilityTypeV2
 from deadlock_assets_api.models.v2.raw_item_base import (
@@ -15,7 +23,7 @@ LOGGER = logging.getLogger(__name__)
 class RawAbilityUpgradePropertyUpgradeV2(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    name: str = Field(..., validation_alias="m_strPropertyName")
+    name: str = Field(..., validation_alias=AliasChoices("m_strPropertyName", "m_StrPropertyNAme"))
     bonus: str | float = Field(..., validation_alias="m_strBonus")
     scale_stat_filter: str | None = Field(None, validation_alias="m_eScaleStatFilter")
     upgrade_type: str | None = Field(None, validation_alias="m_eUpgradeType")
