@@ -11,6 +11,7 @@
       "AbilityButtonHint_AlotCastLifeDrain": "Cura al aliado",
       "AbilityButtonHint_AltCastRestorativeGoo": "Meterte en el cubo",
       "AbilityButtonHint_AltCastStickyBomb": "Autobombardearse",
+      "AbilityButtonHint_AltCastUnitTarget": "Unidad objetivo",
       "AbilityButtonHint_AltCastVoidSphere": "Traer aliados",
       "AbilityButtonHint_CancelAbility": "Cancelar {s:ability_name}",
       "AbilityButtonHint_CancelAll": "Cancelar",
