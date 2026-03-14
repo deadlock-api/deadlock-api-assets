@@ -1331,6 +1331,7 @@
       "RadiusIncreasePerPulse_label": "Radius Per Pulse",
       "RadiusIncreasePerPulse_postfix": "m",
       "RadiusIncreasePerPulse_postvalue_label": "Radius Per Pulse",
+      "RadiusIncreasePerPulse_prefix": "+",
       "RadiusPerSecond_label": "Radius Growth",
       "RadiusPerSecond_postfix": "m",
       "RadiusPerSecond_postvalue_label": "Radius Growth",
