@@ -2909,7 +2909,7 @@
       "citadel_ability_wraith_rapidfire": "Pe\u0142en Automat",
       "citadel_ability_wraith_rapidfire_desc": "Tymczasowo wzmacnia twoj\u0105 <span class=\"highlight\">szybkostrzelno\u015b\u0107</span> oraz zadaje {g:citadel_inline_attribute:'SpiritDamage'}.",
       "citadel_ability_wraith_rapidfire_quip": "Zwi\u0119ksz swoj\u0105 szybkostrzelno\u015b\u0107.",
-      "citadel_ability_wraith_rapidfire_t2_desc": "<span class=\"highlight\">+{s:BonusFireRate}% szybkostrzelno\u015bci</span> oraz <span class=\"highlight\">+{s:AbilityDuration}\u00a0s do czasu oczekiwania.</span>",
+      "citadel_ability_wraith_rapidfire_t2_desc": "<span class=\"highlight\">+{s:BonusFireRate}% szybkostrzelno\u015bci</span> oraz <span class=\"highlight\">+{s:AbilityDuration}\u00a0s do czasu trwania.</span>",
       "citadel_ability_wraith_rapidfire_t3_desc": "<span class=\"highlight\">Niesko\u0144czona amunicja</span> oraz zwi\u0119kszone skalowanie obra\u017ce\u0144 spirytualnych na nab\u00f3j.",
       "citadel_ability_wrecker_bouldergrenade": "Burz\u0105ca Kula",
       "citadel_ability_wrecker_bouldergrenade_desc": "Wytw\u00f3rz wielk\u0105 kul\u0119 z\u0142omu, <span class=\"highlight\">zadaj\u0105c obra\u017cenia oraz og\u0142uszaj\u0105c</span> pierwszego trafionego wroga. Pobliscy wrogowie otrzymuj\u0105 mniejsze obra\u017cenia.",
