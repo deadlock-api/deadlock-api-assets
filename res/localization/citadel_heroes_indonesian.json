@@ -2306,7 +2306,7 @@
       "ability_perched_predator_quip": "Mengirim Kucing Spirit untuk menangkap musuh",
       "ability_power_jump": "Hujan Panah",
       "ability_power_jump/modifier_air_raid/modifier_slow_base": "Diperlambat",
-      "ability_power_jump/modifier_citadel_archer_air_raid/modifier_slow_base": "Perlambatan Peluru",
+      "ability_power_jump/modifier_citadel_archer_air_raid/modifier_slow_base": "Peluru Pelambat",
       "ability_power_jump_desc": "Melemparkanmu ke udara, memungkinkanmu untuk terbang perlahan. Saat di udara, kamu mendapatkan <span class=\"highlight\">Damage Senjata</span> dan <span class=\"highlight\">multitembakan untuk senjatamu</span>.<br>{g:citadel_binding:'AltCast'} untuk mengurangi ketinggian lompatan. <br>Tekan{g:citadel_binding:'Mantle'} untuk membatalkan lompatan.",
       "ability_power_jump_quip": "Lompat tinggi ke udara dan lepaskan multitembakan",
       "ability_power_jump_t2_desc": "Saat mengudara, Damage Senjata bertambah sebesar <span class=\"highlight\">+{s:WeaponDamageBonus}</span> dan memberikan perlambatan gerakan sebesar <span class=\"highlight\">{s:SlowPercent}%</span> selama {s:SlowDuration} dtk.",
