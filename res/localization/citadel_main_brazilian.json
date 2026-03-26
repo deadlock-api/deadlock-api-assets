@@ -1437,6 +1437,7 @@
       "Citadel_PostGame_AwardHeadshotKills": "<span class=\"rank_demote\">Mais</span><br/>tiros na cabe\u00e7a fatais",
       "Citadel_PostGame_AwardHeadshotKills_Rank2": "<span class=\"rank_demote\">Segundo maior em</span><br/>tiros na cabe\u00e7a fatais",
       "Citadel_PostGame_AwardHeadshotKills_Rank3": "<span class=\"rank_demote\">Terceiro maior em</span><br/>tiros na cabe\u00e7a fatais",
+      "Citadel_PostGame_AwardHeadshotKills_RankOther": "<br/>tiros na cabe\u00e7a fatais",
       "Citadel_PostGame_AwardHealing": "<span class=\"rank_demote\">Maior</span><br/>cura",
       "Citadel_PostGame_AwardHealing_Rank2": "<span class=\"rank_demote\">Segunda maior</span><br/>cura",
       "Citadel_PostGame_AwardHealing_Rank3": "<span class=\"rank_demote\">Terceira maior</span><br/>cura",

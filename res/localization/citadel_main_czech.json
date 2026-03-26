@@ -1471,6 +1471,7 @@
       "Citadel_PostGame_AwardHeadshotKills": "<span class=\"rank_demote\">Nejvy\u0161\u0161\u00ed</span><br/>po\u010det zabit\u00ed z\u00e1sahy do hlavy",
       "Citadel_PostGame_AwardHeadshotKills_Rank2": "<span class=\"rank_demote\">Druh\u00fd nejvy\u0161\u0161\u00ed</span><br/>po\u010det zabit\u00ed z\u00e1sahy do hlavy",
       "Citadel_PostGame_AwardHeadshotKills_Rank3": "<span class=\"rank_demote\">T\u0159et\u00ed nejvy\u0161\u0161\u00ed</span><br/>po\u010det zabit\u00ed z\u00e1sahy do hlavy",
+      "Citadel_PostGame_AwardHeadshotKills_RankOther": "<br/>zabit\u00ed z\u00e1sahem do hlavy",
       "Citadel_PostGame_AwardHealing": "<span class=\"rank_demote\">Nejvy\u0161\u0161\u00ed</span><br/>l\u00e9\u010den\u00ed",
       "Citadel_PostGame_AwardHealing_Rank2": "<span class=\"rank_demote\">Druh\u00e9 nejvy\u0161\u0161\u00ed</span><br/>l\u00e9\u010den\u00ed",
       "Citadel_PostGame_AwardHealing_Rank3": "<span class=\"rank_demote\">T\u0159et\u00ed nejvy\u0161\u0161\u00ed</span><br/>l\u00e9\u010den\u00ed",
