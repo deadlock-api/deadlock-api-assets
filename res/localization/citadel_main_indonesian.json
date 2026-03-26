@@ -1471,6 +1471,7 @@
       "Citadel_PostGame_AwardHeadshotKills": "<span class=\"rank_demote\">Kill dengan Headshot</span><br/>Terbanyak",
       "Citadel_PostGame_AwardHeadshotKills_Rank2": "<span class=\"rank_demote\">Kill dengan Headshot</span><br/>Terbanyak Kedua",
       "Citadel_PostGame_AwardHeadshotKills_Rank3": "<span class=\"rank_demote\">Kill dengan Headshot</span><br/>Terbanyak Ketiga",
+      "Citadel_PostGame_AwardHeadshotKills_RankOther": "<br/>Kill dengan Headshot",
       "Citadel_PostGame_AwardHealing": "<span class=\"rank_demote\">Penyembuhan</span><br/>Terbanyak",
       "Citadel_PostGame_AwardHealing_Rank2": "<span class=\"rank_demote\">Penyembuhan</span><br/>Terbanyak Kedua",
       "Citadel_PostGame_AwardHealing_Rank3": "<span class=\"rank_demote\">Penyembuhan</span><br/>Terbanyak Ketiga",
