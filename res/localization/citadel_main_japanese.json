@@ -1471,6 +1471,7 @@
       "Citadel_PostGame_AwardHeadshotKills": "<span class=\"rank_demote\">\u6700\u591a</span><br/>HS\u30ad\u30eb",
       "Citadel_PostGame_AwardHeadshotKills_Rank2": "<span class=\"rank_demote\">2\u756a\u76ee\u6700\u591a</span><br/>HS\u30ad\u30eb",
       "Citadel_PostGame_AwardHeadshotKills_Rank3": "<span class=\"rank_demote\">3\u756a\u76ee\u6700\u591a</span><br/>HS\u30ad\u30eb",
+      "Citadel_PostGame_AwardHeadshotKills_RankOther": "<br/>HS\u30ad\u30eb",
       "Citadel_PostGame_AwardHealing": "<span class=\"rank_demote\">\u6700\u591a</span><br/>\u56de\u5fa9",
       "Citadel_PostGame_AwardHealing_Rank2": "<span class=\"rank_demote\">2\u756a\u76ee\u6700\u591a</span><br/>\u56de\u5fa9",
       "Citadel_PostGame_AwardHealing_Rank3": "<span class=\"rank_demote\">3\u756a\u76ee\u6700\u591a</span><br/>\u56de\u5fa9",

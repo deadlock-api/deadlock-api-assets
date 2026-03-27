@@ -1471,6 +1471,7 @@
       "Citadel_PostGame_AwardHeadshotKills": "<span class=\"rank_demote\">Le plus</span><br/>de victimes par tir en pleine t\u00eate",
       "Citadel_PostGame_AwardHeadshotKills_Rank2": "<span class=\"rank_demote\">Deuxi\u00e8me pour le nombre</span><br/>de victimes par tir en pleine t\u00eate",
       "Citadel_PostGame_AwardHeadshotKills_Rank3": "<span class=\"rank_demote\">Troisi\u00e8me pour le nombre</span><br/>de victimes par tir en pleine t\u00eate",
+      "Citadel_PostGame_AwardHeadshotKills_RankOther": "<br/>Victimes par tir en pleine t\u00eate",
       "Citadel_PostGame_AwardHealing": "<span class=\"rank_demote\">Le plus de</span><br/>soins",
       "Citadel_PostGame_AwardHealing_Rank2": "<span class=\"rank_demote\">Deuxi\u00e8me pour le nombre de</span><br/>soins",
       "Citadel_PostGame_AwardHealing_Rank3": "<span class=\"rank_demote\">Troisi\u00e8me pour le nombre de</span><br/>soins",
