@@ -14,6 +14,7 @@ router = APIRouter(prefix="/v1")
 _TA_COLORS = TypeAdapter(dict[str, ColorV1])
 _TA_ICONS = TypeAdapter(dict[str, str])
 _TA_IMAGES = TypeAdapter(dict[str, str])
+_TA_FONTS = TypeAdapter(dict[str, str])
 _TA_SOUNDS = TypeAdapter(dict[str, str | dict])
 
 
@@ -57,6 +58,15 @@ def get_images(client_version: ValidClientVersions | None = None) -> dict[str, s
         client_version = ValidClientVersions(LATEST_VERSION)
     return utils.read_parse_data_ta(
         f"deploy/versions/{client_version.value}/images_data.json", _TA_IMAGES
+    )
+
+
+@router.get("/fonts", response_model_exclude_none=True)
+def get_fonts(client_version: ValidClientVersions | None = None) -> dict[str, str]:
+    if client_version is None:
+        client_version = ValidClientVersions(LATEST_VERSION)
+    return utils.read_parse_data_ta(
+        f"deploy/versions/{client_version.value}/fonts_data.json", _TA_FONTS
     )
 
 

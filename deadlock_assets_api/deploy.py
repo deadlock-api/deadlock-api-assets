@@ -8,7 +8,7 @@ import stringcase
 from css_parser.css import ColorValue, CSSUnknownRule
 from pydantic import TypeAdapter
 
-from deadlock_assets_api.glob import SOUNDS_BASE_URL, SVGS_BASE_URL, IMAGE_BASE_URL
+from deadlock_assets_api.glob import FONTS_BASE_URL, SOUNDS_BASE_URL, SVGS_BASE_URL, IMAGE_BASE_URL
 from deadlock_assets_api.main import app
 from deadlock_assets_api.models.languages import Language
 from deadlock_assets_api.models.v1.colors import ColorV1
@@ -144,6 +144,11 @@ def load_steam_info() -> SteamInfoV1:
     return SteamInfoV1.model_validate(data)
 
 
+def load_fonts_data() -> dict:
+    all_fonts = [f for f in os.listdir("fonts") if f.endswith(".otf")]
+    return {f.removesuffix(".otf"): f"{FONTS_BASE_URL}/{f}" for f in all_fonts}
+
+
 def load_icons_data() -> dict:
     all_icons = [i for i in os.listdir("svgs") if i.endswith(".svg") or i.endswith(".png")]
     return {i.rstrip(".svg").rstrip(".png"): f"{SVGS_BASE_URL}/{i}" for i in all_icons}
@@ -260,6 +265,7 @@ if __name__ == "__main__":
     map_data = load_map_data()
     sounds_data = load_sounds_data()
     colors_data = load_colors_data()
+    fonts_data = load_fonts_data()
     icons_data = load_icons_data()
     images_data = load_images_data()
     npc_units = load_npc_units(version_id)
@@ -286,6 +292,9 @@ if __name__ == "__main__":
 
     with open(f"{out_folder}/versions/{version_id}/steam_info.json", "w") as f:
         f.write(steam_info.model_dump_json())
+
+    with open(f"{out_folder}/versions/{version_id}/fonts_data.json", "w") as f:
+        json.dump(fonts_data, f)
 
     with open(f"{out_folder}/versions/{version_id}/icons_data.json", "w") as f:
         json.dump(icons_data, f)

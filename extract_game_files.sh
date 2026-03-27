@@ -138,6 +138,10 @@ cp "$citadel_folder"/panorama/styles/citadel_base_styles.css res/
 cp "$citadel_folder"/panorama/styles/hero_backgrounds/hero_background_default.css res/
 cp "$citadel_folder"/panorama/styles/popups/citadel_popup_roster_select.css res/
 
+# Extract font files
+mkdir -p fonts
+find "$citadel_folder"/panorama/fonts -type f -name '*.otf' -print0 | xargs -0 -n 1 cp -t fonts/
+
 # Extract sound files
 mkdir -p sounds
 cp -r "$citadel_folder"/sounds/* sounds/
