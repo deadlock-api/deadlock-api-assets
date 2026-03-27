@@ -1471,6 +1471,7 @@
       "Citadel_PostGame_AwardHeadshotKills": "<span class=\"rank_demote\">Mayor n\u00famero de</span><br/>v\u00edctimas por disparo a la cabeza",
       "Citadel_PostGame_AwardHeadshotKills_Rank2": "<span class=\"rank_demote\">Segundo lugar en n\u00famero de</span><br/>v\u00edctimas por disparo a la cabeza",
       "Citadel_PostGame_AwardHeadshotKills_Rank3": "<span class=\"rank_demote\">Tercer lugar con m\u00e1s</span><br/>v\u00edctimas con disparo a la cabeza",
+      "Citadel_PostGame_AwardHeadshotKills_RankOther": "<br/>V\u00edctimas por disparo a la cabeza",
       "Citadel_PostGame_AwardHealing": "<span class=\"rank_demote\">Mayor cantidad de</span><br/>curaci\u00f3n",
       "Citadel_PostGame_AwardHealing_Rank2": "<span class=\"rank_demote\">Segundo lugar con m\u00e1s</span><br/>curaci\u00f3n",
       "Citadel_PostGame_AwardHealing_Rank3": "<span class=\"rank_demote\">Tercer lugar en n\u00famero de</span><br/>curaci\u00f3n",

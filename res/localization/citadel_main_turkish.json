@@ -1471,6 +1471,7 @@
       "Citadel_PostGame_AwardHeadshotKills": "<span class=\"rank_demote\">En \u00c7ok</span><br/>Kafadan Vuru\u015f Le\u015fi",
       "Citadel_PostGame_AwardHeadshotKills_Rank2": "<span class=\"rank_demote\">\u0130kinci En \u00c7ok</span><br/>Kafadan Vuru\u015f Le\u015fi",
       "Citadel_PostGame_AwardHeadshotKills_Rank3": "<span class=\"rank_demote\">\u00dc\u00e7\u00fcnc\u00fc En \u00c7ok</span><br/>Kafadan Vuru\u015f Le\u015fi",
+      "Citadel_PostGame_AwardHeadshotKills_RankOther": "<br/>Kafadan Vuru\u015f Le\u015fi",
       "Citadel_PostGame_AwardHealing": "<span class=\"rank_demote\">En \u00c7ok</span><br/>\u0130yile\u015ftirme",
       "Citadel_PostGame_AwardHealing_Rank2": "<span class=\"rank_demote\">\u0130kinci En \u00c7ok</span><br/>\u0130yile\u015ftirme",
       "Citadel_PostGame_AwardHealing_Rank3": "<span class=\"rank_demote\">\u00dc\u00e7\u00fcnc\u00fc En \u00c7ok</span><br/>\u0130yile\u015ftirme",

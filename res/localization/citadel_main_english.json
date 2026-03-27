@@ -2018,6 +2018,7 @@
       "Citadel_StartMatchmaking_TooManyPlayersOnTeam": "Too many players are on the same team",
       "Citadel_StartMatchmaking_TooManySpectators": "There are too many spectators in this party to enter match making in this mode",
       "Citadel_StartMatchmaking_UnableToFillTeam": "Unable to create valid teams based upon the current player teams",
+      "Citadel_StartMatchmaking_UnverifiedPGI": "Unable to enter matchmaking while any party member is running Tools-mode, or has unsupported changes to the following sections of their 'gameinfo.gi': Engine2, MaterialSystem2, NetworkSystem, Particles, RenderSystem, SceneSystem, WorldRenderer",
       "Citadel_StartupPause_Continue": "Continue",
       "Citadel_StartupPause_Exit": "Exit Game",
       "Citadel_StartupPause_Message": "Waiting before loading the hideout.",

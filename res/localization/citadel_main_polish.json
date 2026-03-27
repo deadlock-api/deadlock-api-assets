@@ -1471,6 +1471,7 @@
       "Citadel_PostGame_AwardHeadshotKills": "<span class=\"rank_demote\">Najwi\u0119cej</span><br/>zab\u00f3jstw strza\u0142em w g\u0142ow\u0119",
       "Citadel_PostGame_AwardHeadshotKills_Rank2": "<span class=\"rank_demote\">Drugie miejsce pod wzgl\u0119dem</span><br/>zab\u00f3jstw strza\u0142em w g\u0142ow\u0119",
       "Citadel_PostGame_AwardHeadshotKills_Rank3": "<span class=\"rank_demote\">Trzecie miejsce pod wzgl\u0119dem</span><br/>zab\u00f3jstw strza\u0142em w g\u0142ow\u0119",
+      "Citadel_PostGame_AwardHeadshotKills_RankOther": "<br/>Zab\u00f3jstwa strza\u0142em w g\u0142ow\u0119",
       "Citadel_PostGame_AwardHealing": "<span class=\"rank_demote\">Najwi\u0119cej</span><br/>leczenia",
       "Citadel_PostGame_AwardHealing_Rank2": "<span class=\"rank_demote\">Drugie miejsce pod wzgl\u0119dem</span><br/>leczenia",
       "Citadel_PostGame_AwardHealing_Rank3": "<span class=\"rank_demote\">Trzecie miejsce pod wzgl\u0119dem</span><br/>leczenia",
