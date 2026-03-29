@@ -262,8 +262,8 @@ def replace_templates(
             LOGGER.warning(f"Failed to replace {variable}")
         return str(replaced) if replaced else match.group(0)
 
-    input_str = re.sub(r"\{s:([^}]+)}", replacer, input_str)
-    input_str = re.sub(r"\{i:([^}]+)}", replacer, input_str)
-    input_str = re.sub(r"\{g:([^}]+)}", replacer, input_str)
+    input_str = re.sub(r"<?\{s:([^}]+)}", replacer, input_str)
+    input_str = re.sub(r"<?\{i:([^}]+)}", replacer, input_str)
+    input_str = re.sub(r"<?\{g:([^}]+)}", replacer, input_str)
     input_str = input_str.replace("  ", " ")
     return input_str
