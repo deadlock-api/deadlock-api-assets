@@ -1974,6 +1974,7 @@
       "Citadel_StartMatchmaking_TooManyPlayersOnTeam": "H\u00e1 jogadores demais na mesma equipe.",
       "Citadel_StartMatchmaking_TooManySpectators": "H\u00e1 espectadores demais neste grupo para entrar na cria\u00e7\u00e3o de partidas desse modo.",
       "Citadel_StartMatchmaking_UnableToFillTeam": "N\u00e3o foi poss\u00edvel criar equipes v\u00e1lidas com as composi\u00e7\u00f5es atuais.",
+      "Citadel_StartMatchmaking_UnverifiedPGI": "N\u00e3o \u00e9 poss\u00edvel buscar uma partida enquanto houver membros do grupo com o jogo no modo de ferramentas ou com altera\u00e7\u00f5es n\u00e3o permitidas nas seguintes se\u00e7\u00f5es do arquivo \"gameinfo.gi\": Engine2, MaterialSystem2, NetworkSystem, Particles, RenderSystem, SceneSystem e WorldRenderer.",
       "Citadel_StartupPause_Continue": "Continuar",
       "Citadel_StartupPause_Exit": "Sair do jogo",
       "Citadel_StartupPause_Message": "Aguardando antes de carregar o Esconderijo.",
