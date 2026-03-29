@@ -2009,6 +2009,7 @@
       "Citadel_StartMatchmaking_TooManyPlayersOnTeam": "Ayn\u0131 tak\u0131mda \u00e7ok fazla oyuncu var.",
       "Citadel_StartMatchmaking_TooManySpectators": "Bu partide, bu modda e\u015fle\u015ftirme ba\u015flatmak i\u00e7in fazla izleyici var.",
       "Citadel_StartMatchmaking_UnableToFillTeam": "Mevcut oyuncu tak\u0131mlar\u0131yla ge\u00e7erli tak\u0131mlar olu\u015fturulam\u0131yor.",
+      "Citadel_StartMatchmaking_UnverifiedPGI": "Bir parti \u00fcyesi gameinfo.gi dosyas\u0131ndaki konsol de\u011fi\u015fkenlerinde de\u011fi\u015fiklik yapt\u0131ysa veya oyunu -tools ba\u015flatma se\u00e7ene\u011fiyle \u00e7al\u0131\u015ft\u0131r\u0131yorsa e\u015fle\u015ftirme yap\u0131lamaz.",
       "Citadel_StartupPause_Continue": "Devam Et",
       "Citadel_StartupPause_Exit": "Oyundan \u00c7\u0131k",
       "Citadel_StartupPause_Message": "S\u0131\u011f\u0131na\u011f\u0131n y\u00fcklenmesi bekleniyor.",
