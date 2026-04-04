@@ -1369,8 +1369,8 @@
 			{
 				m_mapBuckets =
 				{
-					Normal = 50.000000
-					Good = 50.000000
+					Normal = 40.000000
+					Good = 60.000000
 				}
 				m_strBucketName = "Tier 3"
 			}

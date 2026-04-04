@@ -2009,6 +2009,7 @@
       "Citadel_StartMatchmaking_TooManyPlayersOnTeam": "P\u0159\u00edli\u0161 mnoho hr\u00e1\u010d\u016f v jednom t\u00fdmu.",
       "Citadel_StartMatchmaking_TooManySpectators": "V t\u00e9to skupin\u011b je p\u0159\u00edli\u0161 mnoho div\u00e1k\u016f, tak\u017ee nen\u00ed mo\u017en\u00e9 zah\u00e1jit vyhled\u00e1v\u00e1n\u00ed z\u00e1pasu tohoto m\u00f3du.",
       "Citadel_StartMatchmaking_UnableToFillTeam": "Nepoda\u0159ilo se vytvo\u0159it platn\u00e9 t\u00fdmy na z\u00e1klad\u011b aktu\u00e1ln\u00edch t\u00fdm\u016f hr\u00e1\u010d\u016f.",
+      "Citadel_StartMatchmaking_UnverifiedPGI": "Nelze zah\u00e1jit vyhled\u00e1v\u00e1n\u00ed z\u00e1pasu, dokud m\u00e1 libovoln\u00fd \u010dlen skupiny hru spu\u0161t\u011bnou v re\u017eimu s n\u00e1stroji nebo m\u00e1 nepovolen\u00e9 zm\u011bny v n\u00e1sleduj\u00edc\u00edch sekc\u00edch souboru \u201egameinfo.gi\u201c: Engine2, MaterialSystem2, NetworkSystem, Particles, RenderSystem, SceneSystem, WorldRenderer.",
       "Citadel_StartupPause_Continue": "Pokra\u010dovat",
       "Citadel_StartupPause_Exit": "Ukon\u010dit hru",
       "Citadel_StartupPause_Message": "\u010cek\u00e1 se na na\u010dten\u00ed \u00fakrytu.",
