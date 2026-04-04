@@ -43,6 +43,11 @@ def get_steam_info(client_version: ValidClientVersions | None = None) -> SteamIn
     return FileResponse(f"deploy/versions/{client_version.value}/steam_info.json")
 
 
+@router.get("/steam-infos")
+def get_steam_infos() -> list[SteamInfoV1]:
+    return FileResponse("deploy/steam_infos.json")
+
+
 @router.get("/icons", response_model_exclude_none=True)
 def get_icons(client_version: ValidClientVersions | None = None) -> dict[str, str]:
     if client_version is None:

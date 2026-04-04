@@ -293,6 +293,16 @@ if __name__ == "__main__":
     with open(f"{out_folder}/versions/{version_id}/steam_info.json", "w") as f:
         f.write(steam_info.model_dump_json())
 
+    # Build aggregated steam_infos.json from all versions (after new version is written)
+    steam_infos = []
+    for cv in client_versions:
+        si_path = f"{out_folder}/versions/{cv}/steam_info.json"
+        if os.path.exists(si_path):
+            with open(si_path) as f:
+                steam_infos.append(json.load(f))
+    with open(f"{out_folder}/steam_infos.json", "w") as f:
+        json.dump(steam_infos, f)
+
     with open(f"{out_folder}/versions/{version_id}/fonts_data.json", "w") as f:
         json.dump(fonts_data, f)
 
