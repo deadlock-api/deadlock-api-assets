@@ -3,7 +3,7 @@ from pydantic import TypeAdapter
 from starlette.responses import FileResponse
 
 from deadlock_assets_api import utils
-from deadlock_assets_api.models.enums import ValidClientVersions, LATEST_VERSION
+from deadlock_assets_api.models.enums import LATEST_VERSION, ValidClientVersions
 from deadlock_assets_api.models.v1.colors import ColorV1
 from deadlock_assets_api.models.v1.map import MapV1
 from deadlock_assets_api.models.v1.steam_info import SteamInfoV1
@@ -43,7 +43,7 @@ def get_steam_info(client_version: ValidClientVersions | None = None) -> SteamIn
     return FileResponse(f"deploy/versions/{client_version.value}/steam_info.json")
 
 
-@router.get("/steam-infos")
+@router.get("/steam-info/all")
 def get_steam_infos() -> list[SteamInfoV1]:
     return FileResponse("deploy/steam_infos.json")
 
