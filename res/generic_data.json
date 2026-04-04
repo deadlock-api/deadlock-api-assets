@@ -840,8 +840,8 @@
       },
       "3": {
         "bucket": {
-          "good": 50.0,
-          "normal": 50.0
+          "good": 60.0,
+          "normal": 40.0
         },
         "name": "Tier 3"
       },

@@ -2009,7 +2009,7 @@
       "Citadel_StartMatchmaking_TooManyPlayersOnTeam": "Trop de personnes sont dans la m\u00eame \u00e9quipe.",
       "Citadel_StartMatchmaking_TooManySpectators": "Le groupe compte trop de personnes dans le public pour pouvoir lancer le matchmaking dans ce mode.",
       "Citadel_StartMatchmaking_UnableToFillTeam": "Impossible de cr\u00e9er des \u00e9quipes valides avec les personnes actuellement pr\u00e9sentes.",
-      "Citadel_StartMatchmaking_UnverifiedPGI": "Impossible de lancer le matchmaking tant que des membres du groupe sont en mode Outils ou que leur fichier gameinfo.gi comporte des variables de console modifi\u00e9es.",
+      "Citadel_StartMatchmaking_UnverifiedPGI": "Impossible de lancer le matchmaking tant que des membres du groupe sont en mode Outils ou que leur fichier \u00ab\u00a0gameinfo.gi\u00a0\u00bb comporte des modifications non prises en charge dans les sections suivantes\u00a0: Engine2, MaterialSystem2, NetworkSystem, Particles, RenderSystem, SceneSystem, et WorldRenderer.",
       "Citadel_StartupPause_Continue": "Continuer",
       "Citadel_StartupPause_Exit": "Quitter le jeu",
       "Citadel_StartupPause_Message": "En attente avant le chargement de la prochaine planque.",

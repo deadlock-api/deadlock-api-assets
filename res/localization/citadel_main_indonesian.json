@@ -2009,6 +2009,7 @@
       "Citadel_StartMatchmaking_TooManyPlayersOnTeam": "Terlalu banyak pemain di tim yang sama",
       "Citadel_StartMatchmaking_TooManySpectators": "Terlalu banyak penonton di grup ini untuk masuk ke matchmaking dalam mode ini",
       "Citadel_StartMatchmaking_UnableToFillTeam": "Tidak dapat membuat tim valid berdasarkan pemain tim saat ini",
+      "Citadel_StartMatchmaking_UnverifiedPGI": "Tidak dapat memasuki matchmaking saat anggota grup mana pun menjalankan mode Alat, atau memiliki perubahan yang tidak didukung pada bagian berikut dari \"gameinfo.gi\": Engine2, MaterialSystem2, NetworkSystem, Particles, RenderSystem, SceneSystem, WorldRenderer",
       "Citadel_StartupPause_Continue": "Lanjutkan",
       "Citadel_StartupPause_Exit": "Keluar dari Game",
       "Citadel_StartupPause_Message": "Menunggu sebelum memuat persembunyian.",

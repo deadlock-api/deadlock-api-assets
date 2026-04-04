@@ -2009,6 +2009,7 @@
       "Citadel_StartMatchmaking_TooManyPlayersOnTeam": "Hay demasiados jugadores en el mismo equipo",
       "Citadel_StartMatchmaking_TooManySpectators": "Este grupo tiene demasiados espectadores para entrar en el emparejamiento en este modo",
       "Citadel_StartMatchmaking_UnableToFillTeam": "No ha sido posible crear equipos v\u00e1lidos basados en los equipos de jugadores actuales",
+      "Citadel_StartMatchmaking_UnverifiedPGI": "No es posible entrar en el emparejamiento mientras alg\u00fan miembro del grupo est\u00e9 utilizando el modo de herramientas o tenga cambios no compatibles en las secciones siguientes de \u00abgameinfo.gi\u00bb: Engine2, MaterialSystem2, NetworkSystem, Particles, RenderSystem, SceneSystem y WorldRenderer.",
       "Citadel_StartupPause_Continue": "Continuar",
       "Citadel_StartupPause_Exit": "Salir del juego",
       "Citadel_StartupPause_Message": "Esperando antes de cargar el Escondite.",
