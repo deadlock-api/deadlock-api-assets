@@ -115,6 +115,7 @@
       "CITADEL_ABILITY_INVALID_OTHER_DOOR_TOO_FAR": "Doors too far apart",
       "CITADEL_ABILITY_INVALID_OUT_OF_STAMINA": "Not Enough Stamina",
       "CITADEL_ABILITY_INVALID_PARRY_DISABLED_URN_PICKUP": "Disabled during Urn Pickup",
+      "CITADEL_ABILITY_INVALID_PLACEMENT_BLOCKED": "Placement is blocked",
       "CITADEL_ABILITY_INVALID_POSITION": "Invalid Position",
       "CITADEL_ABILITY_INVALID_PREMATCH": "Match not yet started",
       "CITADEL_ABILITY_INVALID_ROOTED": "Movement Abilities Disabled",
