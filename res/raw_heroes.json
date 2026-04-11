@@ -5787,7 +5787,7 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.946,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 1.0,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 64.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
@@ -10184,7 +10184,7 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.16,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.17,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 65.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
@@ -11648,7 +11648,7 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.242,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.26,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
       "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 58.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
@@ -21919,7 +21919,7 @@
       "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": 0.0,
       "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": 0.0,
-      "MODIFIER_VALUE_TECH_POWER": 1.1
+      "MODIFIER_VALUE_TECH_POWER": 1.6
     },
     "starting_stats": {
       "ability_resource_max": 0,
@@ -86303,9 +86303,9 @@
     },
     "skin": 0,
     "standard_level_up_upgrades": {
-      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.7,
+      "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": 0.82,
       "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL_ALT_FIRE": 0.0,
-      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 47.0,
+      "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": 45.0,
       "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": 1.58,
       "MODIFIER_VALUE_BONUS_ATTACK_RANGE": 0.0,
       "MODIFIER_VALUE_BOON_COUNT": 1.0,
@@ -86318,12 +86318,12 @@
       "ability_resource_max": 0,
       "ability_resource_regen_per_second": 0,
       "base_health_regen": 1.0,
-      "bullet_armor_damage_reduction": -8.0,
+      "bullet_armor_damage_reduction": null,
       "crit_damage_received_scale": 1.0,
       "crouch_speed": 4.75,
       "heavy_melee_damage": 116,
       "light_melee_damage": 50.0,
-      "max_health": 790,
+      "max_health": 700,
       "max_move_speed": 6.2,
       "move_acceleration": 4.0,
       "proc_build_up_rate_scale": 1,
