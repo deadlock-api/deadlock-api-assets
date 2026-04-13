@@ -18,13 +18,13 @@ dependencies = [
 [dependency-groups]
 parse = [
     "stringcase>=1.2.0",
-    "matplotlib>=3.9.3",
-    "opencv-python>=4.10.0.84",
-    "shapely>=2.0.6",
+    "matplotlib>=3.10.8",
+    "opencv-python>=4.13.0.92",
+    "shapely>=2.1.2",
     "vdf>=3.4",
 ]
 dev = [
-    "ruff>=0.8.1",
+    "ruff>=0.15.10",
 ]
 
 [tool.ruff]
