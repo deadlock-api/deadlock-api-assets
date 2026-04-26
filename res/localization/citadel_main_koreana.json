@@ -115,6 +115,7 @@
       "CITADEL_ABILITY_INVALID_OTHER_DOOR_TOO_FAR": "\ubb38\uc774 \ub108\ubb34 \uba40\ub9ac \uc788\uc74c",
       "CITADEL_ABILITY_INVALID_OUT_OF_STAMINA": "\ud65c\ub825 \ubd80\uc871",
       "CITADEL_ABILITY_INVALID_PARRY_DISABLED_URN_PICKUP": "\ub2e8\uc9c0 \ud68d\ub4dd \uc911\uc5d0\ub294 \ube44\ud65c\uc131\ud654",
+      "CITADEL_ABILITY_INVALID_PLACEMENT_BLOCKED": "\ubc30\uce58\uac00 \ub9c9\ud600 \uc788\uc2b5\ub2c8\ub2e4",
       "CITADEL_ABILITY_INVALID_POSITION": "\uc720\ud6a8\ud558\uc9c0 \uc54a\uc740 \uc704\uce58",
       "CITADEL_ABILITY_INVALID_PREMATCH": "\ub9e4\uce58 \uc2dc\uc791 \ub300\uae30 \uc0c1\ud0dc",
       "CITADEL_ABILITY_INVALID_ROOTED": "\uc774\ub3d9 \ub2a5\ub825 \uc0ac\uc6a9 \ubd88\uac00",
