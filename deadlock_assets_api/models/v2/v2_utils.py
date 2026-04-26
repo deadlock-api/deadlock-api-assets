@@ -96,6 +96,8 @@ def replace_templates(
     def replacer(match):
         variable = match.group(1)
 
+        variable = variable.replace("citadel_binding", "citadel_keybind")
+
         if variable.startswith("citadel_keybind"):
             key = variable.split(":")[-1].strip("'")
             if key in KEYBIND_SVGS:
@@ -200,6 +202,8 @@ def replace_templates(
             elif variable == "iv_attack2":
                 replaced = "RMC"
             elif variable == "key_alt_cast":
+                replaced = "M3"
+            elif variable == "AltCast":
                 replaced = "M3"
             elif variable == "key_reload":
                 replaced = "R"
