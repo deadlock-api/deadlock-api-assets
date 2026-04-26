@@ -115,6 +115,7 @@
       "CITADEL_ABILITY_INVALID_OTHER_DOOR_TOO_FAR": "Las puertas est\u00e1n demasiado separadas",
       "CITADEL_ABILITY_INVALID_OUT_OF_STAMINA": "Aguante insuficiente",
       "CITADEL_ABILITY_INVALID_PARRY_DISABLED_URN_PICKUP": "Desactivada durante la recogida de la urna",
+      "CITADEL_ABILITY_INVALID_PLACEMENT_BLOCKED": "El posicionamiento est\u00e1 bloqueado",
       "CITADEL_ABILITY_INVALID_POSITION": "Posici\u00f3n no v\u00e1lida",
       "CITADEL_ABILITY_INVALID_PREMATCH": "La partida a\u00fan no ha empezado",
       "CITADEL_ABILITY_INVALID_ROOTED": "Habilidades de movimiento desactivadas",

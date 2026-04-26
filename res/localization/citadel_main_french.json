@@ -115,6 +115,7 @@
       "CITADEL_ABILITY_INVALID_OTHER_DOOR_TOO_FAR": "Portes trop \u00e9loign\u00e9es",
       "CITADEL_ABILITY_INVALID_OUT_OF_STAMINA": "Pas assez d'endurance",
       "CITADEL_ABILITY_INVALID_PARRY_DISABLED_URN_PICKUP": "D\u00e9sactiv\u00e9e lors du ramassage de l'urne",
+      "CITADEL_ABILITY_INVALID_PLACEMENT_BLOCKED": "L'emplacement est bloqu\u00e9",
       "CITADEL_ABILITY_INVALID_POSITION": "Zone invalide",
       "CITADEL_ABILITY_INVALID_PREMATCH": "La partie n'a pas encore commenc\u00e9",
       "CITADEL_ABILITY_INVALID_ROOTED": "Capacit\u00e9s de d\u00e9placement d\u00e9sactiv\u00e9es",

@@ -115,6 +115,7 @@
       "CITADEL_ABILITY_INVALID_OTHER_DOOR_TOO_FAR": "Dve\u0159e jsou p\u0159\u00edli\u0161 daleko od sebe",
       "CITADEL_ABILITY_INVALID_OUT_OF_STAMINA": "Nedostatek v\u00fddr\u017ee",
       "CITADEL_ABILITY_INVALID_PARRY_DISABLED_URN_PICKUP": "Nelze prov\u00e9st p\u0159i sb\u00edr\u00e1n\u00ed urny du\u0161\u00ed",
+      "CITADEL_ABILITY_INVALID_PLACEMENT_BLOCKED": "Um\u00edst\u011bn\u00ed je blokov\u00e1no",
       "CITADEL_ABILITY_INVALID_POSITION": "Neplatn\u00e1 pozice",
       "CITADEL_ABILITY_INVALID_PREMATCH": "Z\u00e1pas je\u0161t\u011b neza\u010dal",
       "CITADEL_ABILITY_INVALID_ROOTED": "Pohybov\u00e9 schopnosti jsou p\u0159eru\u0161eny",
