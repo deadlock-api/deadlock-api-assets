@@ -147,20 +147,20 @@
   },
   {
     "acceleration": 200.0,
-    "attack_t1_boss_max_range": 472.441,
-    "attack_t3_boss_max_range": 1000.0,
-    "attack_t3_boss_phase2_max_range": 472.441,
-    "attack_trooper_max_range": 700.0,
+    "attack_t1_boss_max_range": null,
+    "attack_t3_boss_max_range": null,
+    "attack_t3_boss_phase2_max_range": null,
+    "attack_trooper_max_range": null,
     "backdoor_bullet_resist_modifier": null,
-    "barrack_boss_dps": 80.0,
-    "barrack_guardian_damage_resist_pct": 67.5,
+    "barrack_boss_dps": null,
+    "barrack_guardian_damage_resist_pct": null,
     "bound_abilities": null,
     "class_name": "trooper_base",
     "empowered_modifier_level1": null,
     "empowered_modifier_level2": null,
     "enemy_trooper_damage_reduction": null,
     "enemy_trooper_protection_range": null,
-    "generator_boss_dps": 50.0,
+    "generator_boss_dps": null,
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": {
@@ -210,8 +210,8 @@
     "objective_health_growth_phase2": null,
     "objective_regen": null,
     "phase2_health": null,
-    "player_damage_resist_pct": -25.0,
-    "player_dps": 28.0,
+    "player_damage_resist_pct": null,
+    "player_dps": null,
     "ranged_armor_modifier": null,
     "run_speed": 512.0,
     "sight_range_npcs": 1600.0,
@@ -221,20 +221,20 @@
     "stomp_damage_max_health_percent": null,
     "stomp_impact_radius": null,
     "stun_duration": null,
-    "t1_boss_damage_resist_pct": 0.0,
-    "t1_boss_dps": 36.0,
-    "t1_boss_dpsbase_resist": 60.0,
-    "t1_boss_dpsmax_resist": -50.0,
-    "t1_boss_dpsmax_resist_time_in_seconds": 600.0,
-    "t2_boss_damage_resist_pct": 80.0,
-    "t2_boss_dps": 60.0,
-    "t2_boss_dpsbase_resist": 60.0,
-    "t2_boss_dpsmax_resist": -40.0,
-    "t2_boss_dpsmax_resist_time_in_seconds": 1200.0,
-    "t3_boss_damage_resist_pct": 50.0,
-    "t3_boss_dps": 50.0,
-    "trooper_damage_resist_pct": 42.5,
-    "trooper_dps": 35.0,
+    "t1_boss_damage_resist_pct": null,
+    "t1_boss_dps": null,
+    "t1_boss_dpsbase_resist": null,
+    "t1_boss_dpsmax_resist": null,
+    "t1_boss_dpsmax_resist_time_in_seconds": null,
+    "t2_boss_damage_resist_pct": null,
+    "t2_boss_dps": null,
+    "t2_boss_dpsbase_resist": null,
+    "t2_boss_dpsmax_resist": null,
+    "t2_boss_dpsmax_resist_time_in_seconds": null,
+    "t3_boss_damage_resist_pct": null,
+    "t3_boss_dps": null,
+    "trooper_damage_resist_pct": null,
+    "trooper_dps": null,
     "walk_speed": 248.0,
     "weapon_info": {
       "aiming_shot_spread_penalty": null,
@@ -318,13 +318,13 @@
   },
   {
     "acceleration": 200.0,
-    "attack_t1_boss_max_range": 472.441,
-    "attack_t3_boss_max_range": 1000.0,
-    "attack_t3_boss_phase2_max_range": 472.441,
-    "attack_trooper_max_range": 700.0,
+    "attack_t1_boss_max_range": null,
+    "attack_t3_boss_max_range": null,
+    "attack_t3_boss_phase2_max_range": null,
+    "attack_trooper_max_range": null,
     "backdoor_bullet_resist_modifier": null,
-    "barrack_boss_dps": 80.0,
-    "barrack_guardian_damage_resist_pct": 67.5,
+    "barrack_boss_dps": null,
+    "barrack_guardian_damage_resist_pct": null,
     "bound_abilities": {
       "ability_zip_line": "citadel_ability_trooper_zip_line"
     },
@@ -333,7 +333,7 @@
     "empowered_modifier_level2": null,
     "enemy_trooper_damage_reduction": null,
     "enemy_trooper_protection_range": null,
-    "generator_boss_dps": 50.0,
+    "generator_boss_dps": null,
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": {
@@ -383,8 +383,8 @@
     "objective_health_growth_phase2": null,
     "objective_regen": null,
     "phase2_health": null,
-    "player_damage_resist_pct": -25.0,
-    "player_dps": 28.0,
+    "player_damage_resist_pct": null,
+    "player_dps": null,
     "ranged_armor_modifier": null,
     "run_speed": 512.0,
     "sight_range_npcs": 1600.0,
@@ -394,20 +394,20 @@
     "stomp_damage_max_health_percent": null,
     "stomp_impact_radius": null,
     "stun_duration": null,
-    "t1_boss_damage_resist_pct": 0.0,
-    "t1_boss_dps": 36.0,
-    "t1_boss_dpsbase_resist": 60.0,
-    "t1_boss_dpsmax_resist": -50.0,
-    "t1_boss_dpsmax_resist_time_in_seconds": 600.0,
-    "t2_boss_damage_resist_pct": 80.0,
-    "t2_boss_dps": 60.0,
-    "t2_boss_dpsbase_resist": 60.0,
-    "t2_boss_dpsmax_resist": -40.0,
-    "t2_boss_dpsmax_resist_time_in_seconds": 1200.0,
-    "t3_boss_damage_resist_pct": 50.0,
-    "t3_boss_dps": 50.0,
-    "trooper_damage_resist_pct": 42.5,
-    "trooper_dps": 35.0,
+    "t1_boss_damage_resist_pct": null,
+    "t1_boss_dps": null,
+    "t1_boss_dpsbase_resist": null,
+    "t1_boss_dpsmax_resist": null,
+    "t1_boss_dpsmax_resist_time_in_seconds": null,
+    "t2_boss_damage_resist_pct": null,
+    "t2_boss_dps": null,
+    "t2_boss_dpsbase_resist": null,
+    "t2_boss_dpsmax_resist": null,
+    "t2_boss_dpsmax_resist_time_in_seconds": null,
+    "t3_boss_damage_resist_pct": null,
+    "t3_boss_dps": null,
+    "trooper_damage_resist_pct": null,
+    "trooper_dps": null,
     "walk_speed": 248.0,
     "weapon_info": {
       "aiming_shot_spread_penalty": null,
@@ -491,20 +491,20 @@
   },
   {
     "acceleration": 200.0,
-    "attack_t1_boss_max_range": 472.441,
-    "attack_t3_boss_max_range": 1000.0,
-    "attack_t3_boss_phase2_max_range": 472.441,
-    "attack_trooper_max_range": 700.0,
+    "attack_t1_boss_max_range": null,
+    "attack_t3_boss_max_range": null,
+    "attack_t3_boss_phase2_max_range": null,
+    "attack_trooper_max_range": null,
     "backdoor_bullet_resist_modifier": null,
-    "barrack_boss_dps": 80.0,
-    "barrack_guardian_damage_resist_pct": 67.5,
+    "barrack_boss_dps": null,
+    "barrack_guardian_damage_resist_pct": null,
     "bound_abilities": null,
     "class_name": "trooper_normal",
     "empowered_modifier_level1": null,
     "empowered_modifier_level2": null,
     "enemy_trooper_damage_reduction": null,
     "enemy_trooper_protection_range": null,
-    "generator_boss_dps": 50.0,
+    "generator_boss_dps": null,
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": {
@@ -554,8 +554,8 @@
     "objective_health_growth_phase2": null,
     "objective_regen": null,
     "phase2_health": null,
-    "player_damage_resist_pct": -25.0,
-    "player_dps": 28.0,
+    "player_damage_resist_pct": null,
+    "player_dps": null,
     "ranged_armor_modifier": null,
     "run_speed": 512.0,
     "sight_range_npcs": 1600.0,
@@ -565,20 +565,20 @@
     "stomp_damage_max_health_percent": null,
     "stomp_impact_radius": null,
     "stun_duration": null,
-    "t1_boss_damage_resist_pct": 0.0,
-    "t1_boss_dps": 36.0,
-    "t1_boss_dpsbase_resist": 60.0,
-    "t1_boss_dpsmax_resist": -50.0,
-    "t1_boss_dpsmax_resist_time_in_seconds": 600.0,
-    "t2_boss_damage_resist_pct": 80.0,
-    "t2_boss_dps": 60.0,
-    "t2_boss_dpsbase_resist": 60.0,
-    "t2_boss_dpsmax_resist": -40.0,
-    "t2_boss_dpsmax_resist_time_in_seconds": 1200.0,
-    "t3_boss_damage_resist_pct": 50.0,
-    "t3_boss_dps": 50.0,
-    "trooper_damage_resist_pct": 42.5,
-    "trooper_dps": 35.0,
+    "t1_boss_damage_resist_pct": null,
+    "t1_boss_dps": null,
+    "t1_boss_dpsbase_resist": null,
+    "t1_boss_dpsmax_resist": null,
+    "t1_boss_dpsmax_resist_time_in_seconds": null,
+    "t2_boss_damage_resist_pct": null,
+    "t2_boss_dps": null,
+    "t2_boss_dpsbase_resist": null,
+    "t2_boss_dpsmax_resist": null,
+    "t2_boss_dpsmax_resist_time_in_seconds": null,
+    "t3_boss_damage_resist_pct": null,
+    "t3_boss_dps": null,
+    "trooper_damage_resist_pct": null,
+    "trooper_dps": null,
     "walk_speed": 248.0,
     "weapon_info": {
       "aiming_shot_spread_penalty": null,
@@ -662,13 +662,13 @@
   },
   {
     "acceleration": 200.0,
-    "attack_t1_boss_max_range": 472.441,
-    "attack_t3_boss_max_range": 1000.0,
-    "attack_t3_boss_phase2_max_range": 472.441,
-    "attack_trooper_max_range": 900.0,
+    "attack_t1_boss_max_range": null,
+    "attack_t3_boss_max_range": null,
+    "attack_t3_boss_phase2_max_range": null,
+    "attack_trooper_max_range": null,
     "backdoor_bullet_resist_modifier": null,
-    "barrack_boss_dps": 80.0,
-    "barrack_guardian_damage_resist_pct": 67.5,
+    "barrack_boss_dps": null,
+    "barrack_guardian_damage_resist_pct": null,
     "bound_abilities": {
       "signature2": "ability_medic_trooper_heal"
     },
@@ -677,7 +677,7 @@
     "empowered_modifier_level2": null,
     "enemy_trooper_damage_reduction": null,
     "enemy_trooper_protection_range": null,
-    "generator_boss_dps": 50.0,
+    "generator_boss_dps": null,
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": {
@@ -727,8 +727,8 @@
     "objective_health_growth_phase2": null,
     "objective_regen": null,
     "phase2_health": null,
-    "player_damage_resist_pct": -25.0,
-    "player_dps": 28.0,
+    "player_damage_resist_pct": null,
+    "player_dps": null,
     "ranged_armor_modifier": null,
     "run_speed": 512.0,
     "sight_range_npcs": 1600.0,
@@ -738,20 +738,20 @@
     "stomp_damage_max_health_percent": null,
     "stomp_impact_radius": null,
     "stun_duration": null,
-    "t1_boss_damage_resist_pct": 0.0,
-    "t1_boss_dps": 36.0,
-    "t1_boss_dpsbase_resist": 60.0,
-    "t1_boss_dpsmax_resist": -50.0,
-    "t1_boss_dpsmax_resist_time_in_seconds": 600.0,
-    "t2_boss_damage_resist_pct": 80.0,
-    "t2_boss_dps": 60.0,
-    "t2_boss_dpsbase_resist": 60.0,
-    "t2_boss_dpsmax_resist": -40.0,
-    "t2_boss_dpsmax_resist_time_in_seconds": 1200.0,
-    "t3_boss_damage_resist_pct": 50.0,
-    "t3_boss_dps": 50.0,
-    "trooper_damage_resist_pct": 42.5,
-    "trooper_dps": 45.0,
+    "t1_boss_damage_resist_pct": null,
+    "t1_boss_dps": null,
+    "t1_boss_dpsbase_resist": null,
+    "t1_boss_dpsmax_resist": null,
+    "t1_boss_dpsmax_resist_time_in_seconds": null,
+    "t2_boss_damage_resist_pct": null,
+    "t2_boss_dps": null,
+    "t2_boss_dpsbase_resist": null,
+    "t2_boss_dpsmax_resist": null,
+    "t2_boss_dpsmax_resist_time_in_seconds": null,
+    "t3_boss_damage_resist_pct": null,
+    "t3_boss_dps": null,
+    "trooper_damage_resist_pct": null,
+    "trooper_dps": null,
     "walk_speed": 248.0,
     "weapon_info": {
       "aiming_shot_spread_penalty": null,
@@ -835,20 +835,20 @@
   },
   {
     "acceleration": 200.0,
-    "attack_t1_boss_max_range": 472.441,
-    "attack_t3_boss_max_range": 1000.0,
-    "attack_t3_boss_phase2_max_range": 472.441,
-    "attack_trooper_max_range": 700.0,
+    "attack_t1_boss_max_range": null,
+    "attack_t3_boss_max_range": null,
+    "attack_t3_boss_phase2_max_range": null,
+    "attack_trooper_max_range": null,
     "backdoor_bullet_resist_modifier": null,
-    "barrack_boss_dps": 80.0,
-    "barrack_guardian_damage_resist_pct": 67.5,
+    "barrack_boss_dps": null,
+    "barrack_guardian_damage_resist_pct": null,
     "bound_abilities": null,
     "class_name": "trooper_melee",
     "empowered_modifier_level1": null,
     "empowered_modifier_level2": null,
     "enemy_trooper_damage_reduction": null,
     "enemy_trooper_protection_range": null,
-    "generator_boss_dps": 50.0,
+    "generator_boss_dps": null,
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": {
@@ -898,8 +898,8 @@
     "objective_health_growth_phase2": null,
     "objective_regen": null,
     "phase2_health": null,
-    "player_damage_resist_pct": -25.0,
-    "player_dps": 28.0,
+    "player_damage_resist_pct": null,
+    "player_dps": null,
     "ranged_armor_modifier": null,
     "run_speed": 512.0,
     "sight_range_npcs": 1600.0,
@@ -909,20 +909,20 @@
     "stomp_damage_max_health_percent": null,
     "stomp_impact_radius": null,
     "stun_duration": null,
-    "t1_boss_damage_resist_pct": 0.0,
-    "t1_boss_dps": 36.0,
-    "t1_boss_dpsbase_resist": 60.0,
-    "t1_boss_dpsmax_resist": -50.0,
-    "t1_boss_dpsmax_resist_time_in_seconds": 600.0,
-    "t2_boss_damage_resist_pct": 80.0,
-    "t2_boss_dps": 60.0,
-    "t2_boss_dpsbase_resist": 60.0,
-    "t2_boss_dpsmax_resist": -40.0,
-    "t2_boss_dpsmax_resist_time_in_seconds": 1200.0,
-    "t3_boss_damage_resist_pct": 50.0,
-    "t3_boss_dps": 50.0,
-    "trooper_damage_resist_pct": 42.5,
-    "trooper_dps": 35.0,
+    "t1_boss_damage_resist_pct": null,
+    "t1_boss_dps": null,
+    "t1_boss_dpsbase_resist": null,
+    "t1_boss_dpsmax_resist": null,
+    "t1_boss_dpsmax_resist_time_in_seconds": null,
+    "t2_boss_damage_resist_pct": null,
+    "t2_boss_dps": null,
+    "t2_boss_dpsbase_resist": null,
+    "t2_boss_dpsmax_resist": null,
+    "t2_boss_dpsmax_resist_time_in_seconds": null,
+    "t3_boss_damage_resist_pct": null,
+    "t3_boss_dps": null,
+    "trooper_damage_resist_pct": null,
+    "trooper_dps": null,
     "walk_speed": 320.0,
     "weapon_info": {
       "aiming_shot_spread_penalty": null,
@@ -1035,6 +1035,10 @@
             {
               "modifier_value": "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT",
               "value": 0.0
+            },
+            {
+              "modifier_value": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+              "value": 10.0
             }
           ]
         }
@@ -1197,6 +1201,10 @@
             {
               "modifier_value": "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT",
               "value": 0.0
+            },
+            {
+              "modifier_value": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+              "value": 10.0
             }
           ]
         }
@@ -1359,6 +1367,10 @@
             {
               "modifier_value": "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT",
               "value": 0.0
+            },
+            {
+              "modifier_value": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+              "value": 10.0
             }
           ]
         }
@@ -1521,6 +1533,10 @@
             {
               "modifier_value": "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT",
               "value": 0.0
+            },
+            {
+              "modifier_value": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+              "value": 10.0
             }
           ]
         }
@@ -1676,7 +1692,22 @@
     "health_bar_color_team2": null,
     "health_bar_color_team_neutral": null,
     "id": 746131114,
-    "intrinsic_modifiers": null,
+    "intrinsic_modifiers": [
+      {
+        "subclass": {
+          "script_values": [
+            {
+              "modifier_value": "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT",
+              "value": 0.0
+            },
+            {
+              "modifier_value": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+              "value": 10.0
+            }
+          ]
+        }
+      }
+    ],
     "laser_dps_max_health": null,
     "laser_dps_to_players": null,
     "max_health": null,
@@ -1757,6 +1788,10 @@
             {
               "modifier_value": "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT",
               "value": 0.0
+            },
+            {
+              "modifier_value": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+              "value": 10.0
             }
           ]
         }
@@ -3822,7 +3857,7 @@
             },
             {
               "modifier_value": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
-              "value": 15.0
+              "value": 25.0
             }
           ]
         }
@@ -3953,7 +3988,7 @@
             },
             {
               "modifier_value": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
-              "value": 15.0
+              "value": 25.0
             }
           ]
         }
@@ -4084,7 +4119,7 @@
             },
             {
               "modifier_value": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
-              "value": 15.0
+              "value": 25.0
             }
           ]
         }
@@ -4215,7 +4250,7 @@
             },
             {
               "modifier_value": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
-              "value": 15.0
+              "value": 25.0
             }
           ]
         }
@@ -6183,20 +6218,20 @@
   },
   {
     "acceleration": 200.0,
-    "attack_t1_boss_max_range": 472.441,
-    "attack_t3_boss_max_range": 1000.0,
-    "attack_t3_boss_phase2_max_range": 472.441,
-    "attack_trooper_max_range": 700.0,
+    "attack_t1_boss_max_range": null,
+    "attack_t3_boss_max_range": null,
+    "attack_t3_boss_phase2_max_range": null,
+    "attack_trooper_max_range": null,
     "backdoor_bullet_resist_modifier": null,
-    "barrack_boss_dps": 80.0,
-    "barrack_guardian_damage_resist_pct": 67.5,
+    "barrack_boss_dps": null,
+    "barrack_guardian_damage_resist_pct": null,
     "bound_abilities": null,
     "class_name": "trooper_necro",
     "empowered_modifier_level1": null,
     "empowered_modifier_level2": null,
     "enemy_trooper_damage_reduction": null,
     "enemy_trooper_protection_range": null,
-    "generator_boss_dps": 50.0,
+    "generator_boss_dps": null,
     "gold_reward": null,
     "gold_reward_bonus_percent_per_minute": null,
     "health_bar_color_enemy": {
@@ -6246,8 +6281,8 @@
     "objective_health_growth_phase2": null,
     "objective_regen": null,
     "phase2_health": null,
-    "player_damage_resist_pct": -25.0,
-    "player_dps": 28.0,
+    "player_damage_resist_pct": null,
+    "player_dps": null,
     "ranged_armor_modifier": null,
     "run_speed": 512.0,
     "sight_range_npcs": 1600.0,
@@ -6257,20 +6292,20 @@
     "stomp_damage_max_health_percent": null,
     "stomp_impact_radius": null,
     "stun_duration": null,
-    "t1_boss_damage_resist_pct": 0.0,
-    "t1_boss_dps": 36.0,
-    "t1_boss_dpsbase_resist": 60.0,
-    "t1_boss_dpsmax_resist": -50.0,
-    "t1_boss_dpsmax_resist_time_in_seconds": 600.0,
-    "t2_boss_damage_resist_pct": 80.0,
-    "t2_boss_dps": 60.0,
-    "t2_boss_dpsbase_resist": 60.0,
-    "t2_boss_dpsmax_resist": -40.0,
-    "t2_boss_dpsmax_resist_time_in_seconds": 1200.0,
-    "t3_boss_damage_resist_pct": 50.0,
-    "t3_boss_dps": 50.0,
-    "trooper_damage_resist_pct": 42.5,
-    "trooper_dps": 35.0,
+    "t1_boss_damage_resist_pct": null,
+    "t1_boss_dps": null,
+    "t1_boss_dpsbase_resist": null,
+    "t1_boss_dpsmax_resist": null,
+    "t1_boss_dpsmax_resist_time_in_seconds": null,
+    "t2_boss_damage_resist_pct": null,
+    "t2_boss_dps": null,
+    "t2_boss_dpsbase_resist": null,
+    "t2_boss_dpsmax_resist": null,
+    "t2_boss_dpsmax_resist_time_in_seconds": null,
+    "t3_boss_damage_resist_pct": null,
+    "t3_boss_dps": null,
+    "trooper_damage_resist_pct": null,
+    "trooper_dps": null,
     "walk_speed": 320.0,
     "weapon_info": {
       "aiming_shot_spread_penalty": null,
