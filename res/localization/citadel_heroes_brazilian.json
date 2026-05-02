@@ -2827,6 +2827,7 @@
       "drifter_blood_blast_desc": "Desfere as suas garras contra os inimigos em um cone na sua frente, causando {g:citadel_inline_attribute:'SpiritDamage'}. Caso o inimigo esteja <span class=\"highlight\">muito perto</span>, causa {g:citadel_inline_attribute:'MeleeDamage'} adicional.",
       "drifter_blood_blast_header_on_close_range": "Contra alvos pr\u00f3ximos",
       "drifter_blood_blast_t2_desc": "<span class=\"highlight\">{s:AbilityCooldown}s</span> de recarga",
+      "drifter_blood_blast_t3_desc": "Aumenta o multiplicador do dano de golpes<br><span class=\"highlight\">Silencia inimigos pr\u00f3ximos por {s:DebuffDuration}s",
       "drifter_darkness": "Noite Eterna",
       "drifter_darkness_desc": "Envolve os her\u00f3is inimigos pr\u00f3ximos nas trevas, <span class=\"highlight\">limitando drasticamente as suas vis\u00f5es das demais unidades</span>. Os inimigos afetados s\u00e3o revelados brevemente para voc\u00ea e s\u00e3o considerados <span class=\"highlight\">isolados</span> nesse per\u00edodo.<br><br>Voc\u00ea ganha {g:citadel_inline_attribute:'BonusSprintSpeed'}.",
       "drifter_darkness_t3_desc": "+{s:AbilityDuration}s de dura\u00e7\u00e3o e +{s:MaxTargets} alvo no m\u00e1ximo",

@@ -1401,6 +1401,7 @@
       "Citadel_Player_Level_AP": "PS",
       "Citadel_Player_Level_APShort": "PS",
       "Citadel_Player_Level_AP_Rewards": "<span class=\"boldText\">Skill Terbuka</span> atau <span class=\"boldText\">PS</span>",
+      "Citadel_Player_Level_AP_Rewards_UnlockNote": "Skill terbuka pada Hadiah 0, 2, 4, dan 6",
       "Citadel_Player_Level_AP_Rewards_Visuals": "<Panel class=\"rewardIcon iconUnlock\"></Panel> atau <Panel class=\"rewardIcon iconAP\"></Panel>",
       "Citadel_Player_Level_AbilityUnlock": "Skill Terbuka",
       "Citadel_Player_Level_AbilityUnlocksShort": "Skill Terbuka",
